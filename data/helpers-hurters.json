@@ -3,7 +3,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 9.0,
-      "pct_of_total": 11.3,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -26,7 +26,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 7.5,
-      "pct_of_total": 9.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Cooling",
@@ -43,9 +43,32 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 6.5,
+      "pct_of_total": 7.2,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 1.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 6.0,
-      "pct_of_total": 7.5,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -60,7 +83,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 5.2,
-      "pct_of_total": 6.6,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Steering",
@@ -71,7 +94,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 4.8,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -86,7 +109,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 4.2,
-      "pct_of_total": 5.3,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -97,7 +120,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 3.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Cooling",
@@ -106,55 +129,44 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 3.0,
-      "pct_of_total": 3.8,
+      "project": "Ferdman 66 Bus",
+      "total_hours": 3.2,
+      "pct_of_total": 3.6,
       "tasks": [
         {
-          "task": "Battery Pack",
-          "hours": 1.5
+          "task": "Exterior",
+          "hours": 2.0
         },
         {
-          "task": "Suspension",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 0.2,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
           "task": "Steering",
-          "hours": 0.2
+          "hours": 1.2
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 24.2,
-    "pct_of_total": 30.5,
-    "avg_per_person_per_day": 1.52,
+    "total_hours": 28.2,
+    "pct_of_total": 31.4,
+    "avg_per_person_per_day": 1.77,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
     "breakdown": [
       {
         "label": "Other",
-        "hours": 6.0
+        "hours": 9.5
       },
       {
         "label": "Shop Meetings",
         "hours": 5.8
       },
       {
-        "label": "Personal Meetings",
+        "label": "EOD Time Entry/Cleanup",
         "hours": 5.2
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 4.8
+        "label": "Personal Meetings",
+        "hours": 5.2
       },
       {
         "label": "Organization",
@@ -170,7 +182,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 8.2,
-      "pct_of_total": 10.4,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -191,7 +203,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -205,9 +217,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 43.8,
-    "non_billable_hours": 35.8,
+    "billable_hours": 50.2,
+    "non_billable_hours": 39.8,
     "pto_hours": 0.0,
-    "total_hours": 79.5
+    "total_hours": 90.0
   }
 }
