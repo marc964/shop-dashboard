@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 9.5,
-      "pct_of_total": 10.1,
+      "total_hours": 11.0,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Engineering - Support",
-          "hours": 3.5
+          "hours": 5.0
         },
         {
           "task": "Steering",
@@ -24,9 +24,39 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 9.8,
+      "pct_of_total": 9.5,
+      "tasks": [
+        {
+          "task": "Cooling",
+          "hours": 6.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 9.0,
+      "pct_of_total": 8.7,
+      "tasks": [
+        {
+          "task": "Engineering - Support",
+          "hours": 8.5
+        },
+        {
+          "task": "Engineering - Product",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 7.5,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Cooling",
@@ -43,24 +73,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 6.8,
-      "pct_of_total": 7.1,
-      "tasks": [
-        {
-          "task": "Cooling",
-          "hours": 3.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 6.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -81,24 +96,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 6.0,
-      "pct_of_total": 6.3,
-      "tasks": [
-        {
-          "task": "Engineering - Support",
-          "hours": 5.5
-        },
-        {
-          "task": "Engineering - Product",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Chuter 62 Healey",
       "total_hours": 5.2,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Steering",
@@ -109,7 +109,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 4.8,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -124,7 +124,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 4.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -135,7 +135,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.8,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -149,9 +149,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 28.8,
-    "pct_of_total": 30.4,
-    "avg_per_person_per_day": 1.8,
+    "total_hours": 29.2,
+    "pct_of_total": 28.4,
+    "avg_per_person_per_day": 1.83,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
@@ -162,7 +162,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 6.2
+        "hours": 6.8
       },
       {
         "label": "EOD Time Entry/Cleanup",
@@ -186,7 +186,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 8.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -206,12 +206,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 3.2,
-      "pct_of_total": 3.4,
+      "total_hours": 3.8,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 3.2,
+          "hours": 3.8,
           "context": [
             "Instrumentation",
             "Wiring - OEM"
@@ -221,9 +221,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 54.2,
-    "non_billable_hours": 40.2,
+    "billable_hours": 61.8,
+    "non_billable_hours": 41.2,
     "pto_hours": 0.0,
-    "total_hours": 94.5
+    "total_hours": 103.0
   }
 }
