@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Helpers & Hurters</title>
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        .content {
+            display: flex;
+            gap: 24px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            min-height: 0;
+        }
+        .column-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+        .column-header .col-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 800;
+            color: white;
+            flex-shrink: 0;
+        }
+        .column-header .col-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .column-header .col-subtitle {
+            font-size: 14px;
+            color: #8a8aa0;
+        }
+
+        .item-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        /* Car group card (helpers) */
+        .car-group {
+            background: white;
+            border-radius: 12px;
+            padding: 16px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .car-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .car-name {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .car-hours {
+            font-size: 20px;
+            font-weight: 800;
+            color: #1a8a4a;
+            white-space: nowrap;
+        }
+        .car-hours .hours-unit {
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .car-tasks {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .car-task {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            border-top: 1px solid #f0f0f5;
+        }
+        .car-task-name {
+            font-size: 16px;
+            color: #555;
+        }
+        .car-task-context {
+            font-size: 14px;
+            color: #8a8aa0;
+        }
+        .car-task-hours {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1a8a4a;
+        }
+
+        /* Hurter items */
+        .hh-item {
+            background: white;
+            border-radius: 12px;
+            padding: 16px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .hh-item .item-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .hh-item .item-name {
+            font-size: 17px;
+            font-weight: 600;
+            color: #1a1a2e;
+            line-height: 1.2;
+        }
+        .hh-item .item-project {
+            font-size: 13px;
+            color: #8a8aa0;
+            margin-top: 2px;
+        }
+        .hh-item .item-hours {
+            font-size: 22px;
+            font-weight: 800;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .hh-item .item-hours .hours-unit {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .hh-item .item-pct {
+            font-size: 13px;
+            color: #8a8aa0;
+        }
+
+        .hh-bar-container {
+            width: 100%;
+            height: 8px;
+            background: #f0f0f5;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .hh-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.4s ease;
+        }
+
+        /* Shop work summary card */
+        .shop-summary {
+            background: white;
+            border-radius: 12px;
+            padding: 18px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .shop-summary .shop-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .shop-summary .shop-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .shop-summary .shop-hours {
+            font-size: 22px;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+        .shop-summary .shop-hours .hours-unit {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .shop-summary .shop-metric {
+            font-size: 14px;
+            color: #8a8aa0;
+            margin-top: 6px;
+        }
+        .shop-summary .shop-metric strong {
+            font-weight: 700;
+        }
+        .shop-summary.flagged {
+            border-left: 4px solid #d94040;
+        }
+        .shop-summary.expected {
+            border-left: 4px solid #e8e8ee;
+        }
+
+        .section-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #8a8aa0;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding: 4px 0;
+        }
+
+        .totals-bar {
+            background: white;
+            border-radius: 12px;
+            padding: 14px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .totals-bar .total-label {
+            font-size: 15px;
+            color: #8a8aa0;
+            font-weight: 500;
+        }
+        .totals-bar .total-value {
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .totals-bar .total-value .total-unit {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* Divider */
+        .col-divider {
+            width: 2px;
+            background: #e8e8ee;
+            border-radius: 1px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Helpers & Hurters</h1>
+            <div class="subtitle">Current Month — What's Driving Productivity</div>
+        </div>
+        <div class="updated" id="updatedTime"></div>
+    </div>
+    <div class="content" id="content">
+        <div class="loading-msg">Loading data...</div>
+    </div>
+</div>
+
+<script src="shared/dashboard.js"></script>
+<script>
+var DATA_URL = 'data/helpers-hurters.json';
+
+async function loadAndRender() {
+    try {
+        var data = await fetchData(DATA_URL);
+        render(data);
+        updateTimestamp('updatedTime', 'Updated every 15 min');
+    } catch (err) {
+        document.getElementById('content').innerHTML =
+            '<div class="loading-msg">Unable to load data. Pipeline may not have run yet.</div>';
+        console.error(err);
+    }
+}
+
+function render(data) {
+    var helpers = data.helpers;
+    var shopWork = data.shop_work;
+    var projectHurters = data.project_hurters;
+    var totals = data.totals;
+
+    // Find max hours across helpers and hurters for bar sizing
+    var maxHours = 0;
+    for (var i = 0; i < helpers.length; i++) {
+        if (helpers[i].total_hours > maxHours) maxHours = helpers[i].total_hours;
+    }
+    for (var i = 0; i < projectHurters.length; i++) {
+        if (projectHurters[i].total_hours > maxHours) maxHours = projectHurters[i].total_hours;
+    }
+    if (shopWork.total_hours > maxHours) maxHours = shopWork.total_hours;
+
+    var html = '';
+
+    // Helpers column — grouped by car
+    html += '<div class="column">';
+    html += '<div class="column-header">';
+    html += '<div class="col-icon" style="background:#1a8a4a">+</div>';
+    html += '<div><div class="col-title pct-high">Helping</div>';
+    html += '<div class="col-subtitle">Billable work by car</div></div></div>';
+    html += '<div class="item-list">';
+    html += renderHelpers(helpers, maxHours);
+    html += '</div>';
+    html += '<div class="totals-bar">';
+    html += '<div class="total-label">Total Billable</div>';
+    html += '<div class="total-value pct-high">' + fmtHours(totals.billable_hours) + '<span class="total-unit"> hrs</span></div>';
+    html += '</div></div>';
+
+    // Divider
+    html += '<div class="col-divider"></div>';
+
+    // Hurters column — shop work summary + project hurters
+    html += '<div class="column">';
+    html += '<div class="column-header">';
+    html += '<div class="col-icon" style="background:#d94040">&minus;</div>';
+    html += '<div><div class="col-title pct-low">Hurting</div>';
+    html += '<div class="col-subtitle">Non-billable time breakdown</div></div></div>';
+    html += '<div class="item-list">';
+
+    // Shop work summary card
+    html += renderShopWork(shopWork);
+
+    // Project hurters
+    if (projectHurters.length > 0) {
+        html += '<div class="section-label">Non-Billable on Car Projects</div>';
+        html += renderProjectHurters(projectHurters, maxHours);
+    }
+
+    html += '</div>';
+    html += '<div class="totals-bar">';
+    html += '<div class="total-label">Total Non-Billable</div>';
+    html += '<div class="total-value pct-low">' + fmtHours(totals.non_billable_hours) + '<span class="total-unit"> hrs</span></div>';
+    html += '</div></div>';
+
+    document.getElementById('content').innerHTML = html;
+}
+
+function renderHelpers(helpers, maxHours) {
+    var html = '';
+    for (var i = 0; i < helpers.length; i++) {
+        var car = helpers[i];
+        var barW = maxHours > 0 ? (car.total_hours / maxHours * 100) : 0;
+
+        html += '<div class="car-group">';
+        html += '<div class="car-header">';
+        html += '<div class="car-name">' + escHtml(car.project) + '</div>';
+        html += '<div class="car-hours">' + fmtHours(car.total_hours) + '<span class="hours-unit">h</span></div>';
+        html += '</div>';
+        html += '<div class="hh-bar-container"><div class="hh-bar-fill" style="width:' + barW + '%;background:#1a8a4a"></div></div>';
+        html += '</div>';
+    }
+    if (helpers.length === 0) {
+        html += '<div style="padding:20px;color:#8a8aa0;text-align:center">No billable work yet</div>';
+    }
+    return html;
+}
+
+function renderShopWork(shopWork) {
+    var flagClass = shopWork.flagged ? 'flagged' : 'expected';
+    var metricColor = shopWork.flagged ? '#d94040' : '#8a8aa0';
+    var hoursColor = shopWork.flagged ? '#d94040' : '#f5a623';
+
+    var html = '<div class="shop-summary ' + flagClass + '">';
+    html += '<div class="shop-header">';
+    html += '<div class="shop-title">Shop Work</div>';
+    html += '<div class="shop-hours" style="color:' + hoursColor + '">' + fmtHours(shopWork.total_hours) + '<span class="hours-unit">h</span></div>';
+    html += '</div>';
+    html += '<div class="shop-metric">' +
+        'Avg <strong style="color:' + metricColor + '">' + shopWork.avg_per_person_per_day + 'h</strong> / person / day' +
+        (shopWork.flagged ? ' — <strong style="color:#d94040">High</strong>' : '') +
+        '</div>';
+    html += '<div class="shop-metric" style="font-size:12px">' + shopWork.pct_of_total + '% of total hours</div>';
+
+    if (shopWork.breakdown && shopWork.breakdown.length > 0) {
+        html += '<div class="car-tasks">';
+        for (var i = 0; i < shopWork.breakdown.length; i++) {
+            var item = shopWork.breakdown[i];
+            html += '<div class="car-task">';
+            html += '<span class="car-task-name">' + escHtml(item.label) + '</span>';
+            html += '<span class="car-task-hours" style="color:' + hoursColor + '">' + fmtHours(item.hours) + 'h</span>';
+            html += '</div>';
+        }
+        html += '</div>';
+    }
+
+    html += '</div>';
+    return html;
+}
+
+function renderProjectHurters(items, maxHours) {
+    var html = '';
+    for (var i = 0; i < items.length; i++) {
+        var car = items[i];
+        var barW = maxHours > 0 ? (car.total_hours / maxHours * 100) : 0;
+
+        html += '<div class="car-group">';
+        html += '<div class="car-header">';
+        html += '<div class="car-name">' + escHtml(car.project) + '</div>';
+        html += '<div class="car-hours" style="color:#d94040">' + fmtHours(car.total_hours) + '<span class="hours-unit">h</span></div>';
+        html += '</div>';
+        html += '<div class="hh-bar-container"><div class="hh-bar-fill" style="width:' + barW + '%;background:#d94040"></div></div>';
+
+        if (car.tasks && car.tasks.length > 0) {
+            html += '<div class="car-tasks">';
+            for (var t = 0; t < car.tasks.length; t++) {
+                var task = car.tasks[t];
+                html += '<div class="car-task">';
+                html += '<span class="car-task-name">' + escHtml(task.task);
+                if (task.context && task.context.length > 0) {
+                    html += ' <span class="car-task-context">— ' + task.context.map(escHtml).join(', ') + '</span>';
+                }
+                html += '</span>';
+                html += '<span class="car-task-hours" style="color:#d94040">' + fmtHours(task.hours) + 'h</span>';
+                html += '</div>';
+            }
+            html += '</div>';
+        }
+        html += '</div>';
+    }
+    return html;
+}
+
+function escHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+loadAndRender();
+setupAutoRefresh();
+</script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Vehicle Checkout Progress</title>
+    <meta http-equiv="refresh" content="300">
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        .vehicle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 18px;
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 8px;
+        }
+
+        .vehicle-card {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .card-header .vehicle-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .card-header .vehicle-detail {
+            font-size: 15px;
+            color: #8a8aa0;
+            margin-top: 2px;
+        }
+        .card-header .pct-big {
+            font-size: 44px;
+            font-weight: 800;
+            line-height: 1;
+        }
+        .card-header .pct-big .pct-symbol {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .status-testing { background: #e8f4fd; color: #2b7bb9; }
+        .status-acceptance { background: #e6f9ee; color: #1a8a4a; }
+        .status-fabrication { background: #fff3e0; color: #f5a623; }
+        .status-other { background: #f0f0f5; color: #6b6b80; }
+
+        .sub-metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 16px;
+        }
+        .sub-metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+        }
+        .sub-metric .label {
+            color: #8a8aa0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .sub-metric .value {
+            font-weight: 700;
+            color: #1a1a2e;
+            white-space: nowrap;
+            font-size: 15px;
+        }
+
+        .punchlist-section {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .punchlist-scroll {
+            max-height: 100px;
+            overflow: hidden;
+            position: relative;
+        }
+        .punchlist-items {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .punchlist-scroll.scrolling .punchlist-items {
+            animation: punchscroll var(--scroll-duration, 8s) linear infinite alternate;
+        }
+        @keyframes punchscroll {
+            0%   { transform: translateY(0); }
+            15%  { transform: translateY(0); }
+            85%  { transform: translateY(var(--scroll-distance, 0px)); }
+            100% { transform: translateY(var(--scroll-distance, 0px)); }
+        }
+        .punchlist-header {
+            font-size: 13px;
+            font-weight: 600;
+            color: #8a8aa0;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding-bottom: 2px;
+        }
+        .punchlist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 4px 0;
+            font-size: 13px;
+            line-height: 1.3;
+        }
+        .punchlist-item .pl-check {
+            flex-shrink: 0;
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            border: 2px solid #d0d0d8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            margin-top: 1px;
+        }
+        .punchlist-item.done .pl-check {
+            background: #1a8a4a;
+            border-color: #1a8a4a;
+            color: white;
+        }
+        .punchlist-item.done .pl-label {
+            color: #aaa;
+            text-decoration: line-through;
+        }
+        .punchlist-item.open .pl-check {
+            border-color: #e6a200;
+        }
+        .punchlist-item.open .pl-label {
+            color: #1a1a2e;
+        }
+
+        @media (min-width: 1800px) {
+            .vehicle-grid { grid-template-columns: repeat(5, 1fr); }
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Vehicle Checkout Progress</h1>
+            <div class="subtitle">Ampere Startup & Pre-Checkout Tracking</div>
+        </div>
+        <div class="updated" id="updatedTime"></div>
+    </div>
+
+    <div class="summary-strip" id="summaryStrip"></div>
+
+    <div class="vehicle-grid" id="vehicleGrid">
+        <div class="loading-msg">Loading data from Google Sheets...</div>
+    </div>
+</div>
+
+<script src="shared/dashboard.js"></script>
+<script>
+const DATA_URL = 'https://script.google.com/macros/s/AKfycbxWP4OHSzXUJUTjZAGSCSYe_dpzrE_TORgdLQgwRXvqDWfc3H2mEbJD8C9EOhHIQTnpLA/exec';
+const REFRESH_MS = 300000;
+
+const FALLBACK_VEHICLES = [
+    { owner: "Shah", year: 1965, color: "Silver", make: "Ford", model: "Mustang", status: "Testing & Tuning", checkout: 88.7, bms: 98.1, inverter: 100.0, pmu: 100.0, raptor: 100.0, functional: 57.7 },
+    { owner: "Vargas", year: 1966, color: "Red", make: "Ford", model: "Mustang", status: "Testing & Tuning", checkout: 100.0, bms: 100.0, inverter: 100.0, pmu: 100.0, raptor: 100.0, functional: 100.0 },
+    { owner: "Connolly", year: 1958, color: "Black", make: "Mercedes", model: "220S", status: "Testing & Tuning", checkout: 74.4, bms: 98.1, inverter: 100.0, pmu: 40.6, raptor: 98.1, functional: 15.4 },
+    { owner: "Barton", year: 1959, color: "White", make: "Chevrolet", model: "Impala", status: "Testing & Tuning", checkout: 94.9, bms: 100.0, inverter: 100.0, pmu: 100.0, raptor: 100.0, functional: 69.2 },
+    { owner: "Buck", year: 1971, color: "Red", make: "Mercedes", model: "280SL", status: "Testing & Tuning", checkout: 80.6, bms: 97.1, inverter: 100.0, pmu: 100.0, raptor: 100.0, functional: 3.8 },
+    { owner: "Feldman", year: 1969, color: "Silver", make: "Mercedes", model: "280SE", status: "Acceptance", checkout: 94.4, bms: 95.2, inverter: 100.0, pmu: 100.0, raptor: 98.1, functional: 84.6 },
+    { owner: "Preheim", year: 1972, color: "Blue", make: "Chevrolet", model: "Blazer", status: "", checkout: 33.4, bms: 92.4, inverter: 82.5, pmu: 0.0, raptor: 1.9, functional: 0.0 },
+    { owner: "Chuter", year: 1962, color: "Red + White", make: "Austin", model: "Healey", status: "Fabrication", checkout: 16.3, bms: 98.1, inverter: 0.0, pmu: 0.0, raptor: 0.0, functional: 0.0 }
+];
+
+let VEHICLES = [];
+let dataSource = 'loading';
+
+async function loadData() {
+    try {
+        const res = await fetch(DATA_URL);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const json = await res.json();
+        if (json.error) throw new Error(json.error);
+        if (json.vehicles && json.vehicles.length > 0) {
+            const EXCLUDED_STATUSES = ['', 'shipped', 'fabrication'];
+            VEHICLES = json.vehicles.filter(function(v) {
+                return v.owner && !v.owner.includes('#REF') && v.owner !== 'Ampere Default' &&
+                    !EXCLUDED_STATUSES.includes((v.status || '').toLowerCase().trim());
+            });
+            dataSource = 'live';
+        } else {
+            throw new Error('No vehicle data returned');
+        }
+    } catch (err) {
+        console.warn('Apps Script error, using fallback data:', err.message);
+        if (VEHICLES.length === 0) {
+            VEHICLES = FALLBACK_VEHICLES;
+            dataSource = 'fallback';
+        }
+    }
+    render();
+}
+
+function getStatusClass(status) {
+    if (!status) return 'other';
+    var s = status.toLowerCase();
+    if (s.includes('testing')) return 'testing';
+    if (s.includes('acceptance')) return 'acceptance';
+    if (s.includes('fabrication')) return 'fabrication';
+    return 'other';
+}
+
+function getVehicleLabel(v) {
+    var parts = [];
+    if (v.year) parts.push(v.year);
+    if (v.make) parts.push(v.make);
+    if (v.model) parts.push(v.model);
+    return parts.join(' ') || 'TBD';
+}
+
+function renderSummary() {
+    var active = VEHICLES.filter(function(v) { return v.checkout > 0; });
+    var avgProgress = active.length > 0
+        ? (active.reduce(function(s, v) { return s + v.checkout; }, 0) / active.length).toFixed(1)
+        : 0;
+    var complete = VEHICLES.filter(function(v) { return (v.status || '').toLowerCase() === 'acceptance'; }).length;
+    var inProgress = VEHICLES.filter(function(v) { return v.checkout > 0 && (v.status || '').toLowerCase() !== 'acceptance'; }).length;
+    var notStarted = VEHICLES.filter(function(v) { return v.checkout === 0; }).length;
+
+    document.getElementById('summaryStrip').innerHTML =
+        '<div class="summary-stat"><div class="stat-value">' + active.length + '</div><div class="stat-label">Active Builds</div></div>' +
+        '<div class="summary-stat"><div class="stat-value pct-high">' + complete + '</div><div class="stat-label">Ready / Near Complete</div></div>' +
+        '<div class="summary-stat"><div class="stat-value pct-mid">' + inProgress + '</div><div class="stat-label">In Progress</div></div>' +
+        '<div class="summary-stat"><div class="stat-value">' + avgProgress + '<span class="pct-unit">%</span></div><div class="stat-label">Avg. Checkout (Active)</div></div>' +
+        '<div class="summary-stat"><div class="stat-value pct-zero">' + notStarted + '</div><div class="stat-label">Not Started</div></div>';
+}
+
+function renderGrid() {
+    var vehicles = VEHICLES.filter(function(v) { return v.checkout > 0; });
+    vehicles.sort(function(a, b) { return b.checkout - a.checkout; });
+
+    document.getElementById('vehicleGrid').innerHTML = vehicles.map(function(v) {
+        var cls = getPctClass(v.checkout);
+        var statusCls = getStatusClass(v.status);
+        var label = getVehicleLabel(v);
+
+        return '<div class="vehicle-card">' +
+            '<div class="card-header"><div>' +
+            '<div class="vehicle-name">' + v.owner + '</div>' +
+            '<div class="vehicle-detail">' + label + '</div>' +
+            (v.status ? '<div style="margin-top:6px"><span class="status-badge status-' + statusCls + '">' + v.status + '</span></div>' : '') +
+            '</div><div class="pct-big pct-' + cls + '">' +
+            v.checkout.toFixed(1) + '<span class="pct-symbol">%</span></div></div>' +
+            '<div class="progress-bar-container"><div class="progress-bar-fill fill-' + cls + '" style="width:' + v.checkout + '%"></div></div>' +
+            '<div class="sub-metrics">' +
+            '<div class="sub-metric"><span class="label">BMS</span><span class="value pct-' + getPctClass(v.bms) + '">' + v.bms.toFixed(0) + '%</span></div>' +
+            '<div class="sub-metric"><span class="label">Inverter</span><span class="value pct-' + getPctClass(v.inverter) + '">' + v.inverter.toFixed(0) + '%</span></div>' +
+            '<div class="sub-metric"><span class="label">PMU</span><span class="value pct-' + getPctClass(v.pmu) + '">' + v.pmu.toFixed(0) + '%</span></div>' +
+            '<div class="sub-metric"><span class="label">Raptor</span><span class="value pct-' + getPctClass(v.raptor) + '">' + v.raptor.toFixed(0) + '%</span></div>' +
+            '<div class="sub-metric"><span class="label">Functional</span><span class="value pct-' + getPctClass(v.functional) + '">' + v.functional.toFixed(0) + '%</span></div>' +
+            '</div>' + renderPunchlist(v) + '</div>';
+    }).join('');
+}
+
+function renderPunchlist(v) {
+    var pl = v.punchlist;
+    if (!pl || pl.total === 0) return '';
+    if (pl.open === 0) return '';
+    var openItems = pl.items.filter(function(item) { return !item.done; });
+    var items = openItems.map(function(item) {
+        return '<div class="punchlist-item open"><span class="pl-check"></span><span class="pl-label">' + item.text + '</span></div>';
+    }).join('');
+    return '<div class="punchlist-section">' +
+        '<div class="punchlist-header">Punchlist &mdash; ' + pl.open + ' open' + (pl.done > 0 ? ', ' + pl.done + ' done' : '') + '</div>' +
+        '<div class="punchlist-scroll"><div class="punchlist-items">' + items + '</div></div></div>';
+}
+
+function initPunchlistScroll() {
+    document.querySelectorAll('.punchlist-scroll').forEach(function(scroll) {
+        var items = scroll.querySelector('.punchlist-items');
+        if (!items) return;
+        var overflow = items.scrollHeight - scroll.clientHeight;
+        if (overflow > 0) {
+            var duration = Math.max(6, overflow / 15);
+            scroll.style.setProperty('--scroll-distance', '-' + overflow + 'px');
+            scroll.style.setProperty('--scroll-duration', duration + 's');
+            scroll.classList.add('scrolling');
+        }
+    });
+}
+
+function render() {
+    renderSummary();
+    renderGrid();
+    updateTimestamp('updatedTime', dataSource === 'live' ? 'Live from Sheets' : (dataSource === 'fallback' ? 'Cached data' : ''));
+    requestAnimationFrame(initPunchlistScroll);
+}
+
+loadData();
+setInterval(loadData, REFRESH_MS);
+</script>
+</body>
+</html>

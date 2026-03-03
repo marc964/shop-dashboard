@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Upcoming Events</title>
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .week-section {
+            background: white;
+            border-radius: 14px;
+            padding: 20px 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .week-section.current-week {
+            border-left: 4px solid #2b7bb9;
+        }
+        .week-section.future-week {
+            opacity: 0.85;
+        }
+
+        .week-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .week-title .current-badge {
+            font-size: 11px;
+            font-weight: 600;
+            background: #2b7bb9;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .days-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+
+        .day-cell {
+            border-radius: 10px;
+            padding: 10px 12px;
+            min-height: 60px;
+            background: #fafafe;
+            border: 1px solid #eeeeee;
+        }
+        .day-cell.today {
+            background: #e8f4fd;
+            border-color: #2b7bb9;
+            border-width: 2px;
+        }
+        .day-cell.weekend {
+            background: #f8f8fa;
+            border-color: #e8e8ee;
+        }
+        .day-cell.past {
+            opacity: 0.5;
+        }
+
+        .day-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .day-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #6b6b80;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .day-date {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1a1a2e;
+            line-height: 1;
+        }
+        .today .day-date {
+            color: #2b7bb9;
+        }
+
+        .event-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .event-tag {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.3;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .event-tag.pto {
+            background: #cce5f7;
+            color: #1a5f8a;
+        }
+        .event-tag.shop {
+            background: #fde6c4;
+            color: #b06e00;
+        }
+        .event-tag.client {
+            background: #c8f0d5;
+            color: #14693a;
+            font-weight: 800;
+        }
+
+        .no-events {
+            font-size: 12px;
+            color: #c0c0cc;
+            font-style: italic;
+        }
+
+        body { overflow: auto; }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Upcoming Events</h1>
+            <div class="subtitle">PTO & Shop Calendar — 4-Week View</div>
+        </div>
+        <div class="updated" id="updatedTime"></div>
+    </div>
+    <div class="content" id="content">
+        <div class="loading-msg">Loading calendar data...</div>
+    </div>
+</div>
+
+<script src="shared/dashboard.js"></script>
+<script>
+var DATA_URL = 'data/events.json';
+
+async function loadAndRender() {
+    try {
+        var data = await fetchData(DATA_URL);
+        render(data);
+        updateTimestamp('updatedTime', 'Updated every 15 min');
+    } catch (err) {
+        document.getElementById('content').innerHTML =
+            '<div class="loading-msg">Unable to load data. Pipeline may not have run yet.</div>';
+        console.error(err);
+    }
+}
+
+function render(data) {
+    var weeks = data.weeks;
+    var today = new Date().toISOString().slice(0, 10);
+    var html = '';
+
+    for (var w = 0; w < weeks.length; w++) {
+        var week = weeks[w];
+        var weekClass = week.is_current_week ? 'current-week' : 'future-week';
+
+        html += '<div class="week-section ' + weekClass + '">';
+        html += '<div class="week-title">' + escHtml(week.week_label);
+        if (week.is_current_week) {
+            html += ' <span class="current-badge">This Week</span>';
+        }
+        html += '</div>';
+        html += '<div class="days-grid">';
+
+        var days = week.days;
+        for (var d = 0; d < days.length; d++) {
+            var day = days[d];
+
+            var cellClass = 'day-cell';
+            if (day.is_today) cellClass += ' today';
+            else if (day.is_weekend) cellClass += ' weekend';
+            if (day.date < today && !day.is_today) cellClass += ' past';
+
+            var dateParts = day.date.split('-');
+            var dayNum = parseInt(dateParts[2]);
+            var dayAbbr = day.day_name.slice(0, 3);
+
+            html += '<div class="' + cellClass + '">';
+            html += '<div class="day-header">';
+            html += '<span class="day-name">' + dayAbbr + '</span>';
+            html += '<span class="day-date">' + dayNum + '</span>';
+            html += '</div>';
+
+            if (day.events.length > 0) {
+                html += '<div class="event-list">';
+                for (var e = 0; e < day.events.length; e++) {
+                    var ev = day.events[e];
+                    var tagClass = ev.type;
+                    // Highlight client visits
+                    var summary = ev.summary.toLowerCase();
+                    if (summary.includes('client') || summary.includes('visit') || summary.includes('delivery')) {
+                        tagClass = 'client';
+                    }
+                    html += '<div class="event-tag ' + tagClass + '" title="' + escAttr(ev.summary) + '">' + escHtml(ev.summary) + '</div>';
+                }
+                html += '</div>';
+            } else if (!day.is_weekend) {
+                html += '<div class="no-events">(no events)</div>';
+            }
+
+            html += '</div>';
+        }
+
+        html += '</div></div>';
+    }
+
+    document.getElementById('content').innerHTML = html;
+}
+
+function escHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+function escAttr(str) {
+    return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+loadAndRender();
+setupAutoRefresh();
+</script>
+</body>
+</html>

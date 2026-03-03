@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Productivity</title>
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        .content { display: flex; flex-direction: column; gap: 22px; flex: 1; overflow: hidden; }
+
+        /* Hero Section */
+        .hero-row {
+            display: flex;
+            gap: 20px;
+            flex-shrink: 0;
+        }
+        .hero-number {
+            background: white;
+            border-radius: 14px;
+            padding: 32px 48px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 240px;
+        }
+        .hero-number .big-pct {
+            font-size: 120px;
+            font-weight: 800;
+            line-height: 1;
+        }
+        .hero-number .big-pct .unit {
+            font-size: 52px;
+            font-weight: 600;
+        }
+        .hero-number .hero-label {
+            font-size: 16px;
+            color: #8a8aa0;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        /* Comparison Cards */
+        .comparison-cards {
+            display: flex;
+            gap: 16px;
+            flex: 1;
+        }
+        .comp-card {
+            background: white;
+            border-radius: 14px;
+            padding: 18px 22px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .comp-card .comp-delta {
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+        .comp-card .comp-context {
+            font-size: 14px;
+            color: #8a8aa0;
+            margin-top: 2px;
+        }
+        .comp-card .comp-label {
+            font-size: 14px;
+            color: #8a8aa0;
+            font-weight: 500;
+            margin-top: 6px;
+        }
+
+        /* Charts Area */
+        .charts-row {
+            display: flex;
+            gap: 20px;
+            flex: 1;
+            min-height: 0;
+        }
+        .chart-panel {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+        }
+        .chart-panel.main-chart { flex: 3; }
+        .chart-panel.side-panel { flex: 1; gap: 16px; }
+        .chart-panel .panel-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #8a8aa0;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+
+        /* SVG Chart */
+        .chart-area {
+            flex: 1;
+            min-height: 0;
+        }
+        .chart-area svg { width: 100%; height: 100%; }
+
+        /* Weekly Bars */
+        .weekly-bars {
+            display: flex;
+            gap: 8px;
+            flex: 1;
+            align-items: flex-end;
+        }
+        .week-bar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+        .week-bar .bar-fill {
+            width: 100%;
+            border-radius: 6px 6px 0 0;
+            min-height: 4px;
+            transition: height 0.4s ease;
+        }
+        .week-bar .bar-label {
+            font-size: 12px;
+            color: #8a8aa0;
+            font-weight: 500;
+        }
+        .week-bar .bar-value {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        /* Daily Dots */
+        .daily-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .day-dot {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 600;
+            color: white;
+        }
+        .day-dot.future {
+            background: #f0f0f5;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Productivity</h1>
+            <div class="subtitle">Tech Team — Billable Hours Performance</div>
+        </div>
+        <div class="updated" id="updatedTime"></div>
+    </div>
+    <div class="content" id="content">
+        <div class="loading-msg">Loading productivity data...</div>
+    </div>
+</div>
+
+<script src="shared/dashboard.js"></script>
+<script>
+var DATA_URL = 'data/productivity.json';
+
+async function loadAndRender() {
+    try {
+        var data = await fetchData(DATA_URL);
+        render(data);
+        updateTimestamp('updatedTime', 'Updated every 15 min');
+    } catch (err) {
+        document.getElementById('content').innerHTML =
+            '<div class="loading-msg">Unable to load data. Pipeline may not have run yet.</div>';
+        console.error(err);
+    }
+}
+
+function render(data) {
+    var current = data.current_month;
+    var target = data.target_pct;
+    var cls = getProductivityClass(current.productivity_pct);
+    var comps = data.comparisons;
+
+    var html = '';
+
+    // Hero row
+    html += '<div class="hero-row">';
+    html += '<div class="hero-number"><div class="big-pct pct-' + cls + '">' +
+        fmtPct(current.productivity_pct) + '<span class="unit">%</span></div>' +
+        '<div class="hero-label">' + formatMonthLabel(current.month) + ' Productivity</div></div>';
+
+    // Comparison cards (2 only: vs Last Month, vs Goal)
+    html += '<div class="comparison-cards">';
+
+    // vs Last Month
+    var lastMonth = comps.vs_last_month;
+    var lmSign = lastMonth.delta >= 0 ? '+' : '';
+    var lmCls = lastMonth.delta >= 0 ? 'pct-high' : 'pct-low';
+    html += '<div class="comp-card">' +
+        '<div class="comp-delta ' + lmCls + '">' + lmSign + fmtPct(lastMonth.delta) + '%</div>' +
+        '<div class="comp-context">Last month was ' + fmtPct(lastMonth.value) + '%</div>' +
+        '<div class="comp-label">vs Last Month</div></div>';
+
+    // vs Goal
+    var vsGoal = comps.vs_target;
+    var gSign = vsGoal.delta >= 0 ? '+' : '';
+    var gCls = vsGoal.delta >= 0 ? 'pct-high' : 'pct-low';
+    html += '<div class="comp-card">' +
+        '<div class="comp-delta ' + gCls + '">' + gSign + fmtPct(vsGoal.delta) + '%</div>' +
+        '<div class="comp-context">Goal is ' + target + '%</div>' +
+        '<div class="comp-label">vs Goal</div></div>';
+
+    html += '</div></div>';
+
+    // Charts row
+    html += '<div class="charts-row">';
+
+    // 12-month bar chart
+    html += '<div class="chart-panel main-chart">';
+    html += '<div class="panel-title">Monthly Productivity (Last 12 Months)</div>';
+    html += '<div class="chart-area" id="monthlyChart"></div>';
+    html += '</div>';
+
+    // Side panel: weekly + daily
+    html += '<div class="chart-panel side-panel">';
+    html += '<div><div class="panel-title">This Month by Week</div>';
+    html += '<div class="weekly-bars" id="weeklyBars"></div></div>';
+    html += '<div><div class="panel-title">This Month by Day</div>';
+    html += '<div class="daily-grid" id="dailyGrid"></div></div>';
+    html += '</div>';
+
+    html += '</div>';
+
+    document.getElementById('content').innerHTML = html;
+
+    // Render SVG chart
+    renderMonthlyChart(data.monthly, target);
+    renderWeeklyBars(data.current_month_weeks, target);
+    renderDailyGrid(data.current_month_days, target);
+}
+
+function formatMonthLabel(monthKey) {
+    var parts = monthKey.split('-');
+    return monthName(parseInt(parts[1]) - 1) + ' ' + parts[0];
+}
+
+function renderMonthlyChart(monthly, target) {
+    var container = document.getElementById('monthlyChart');
+    if (!container || !monthly.length) return;
+
+    var maxPct = Math.max(100, target + 10);
+    for (var i = 0; i < monthly.length; i++) {
+        if (monthly[i].productivity_pct > maxPct) maxPct = monthly[i].productivity_pct + 5;
+    }
+
+    var svgNS = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(svgNS, 'svg');
+    svg.setAttribute('viewBox', '0 0 1000 400');
+    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+
+    var chartLeft = 50;
+    var chartRight = 980;
+    var chartTop = 20;
+    var chartBottom = 360;
+    var chartWidth = chartRight - chartLeft;
+    var chartHeight = chartBottom - chartTop;
+
+    // Target line
+    var targetY = chartBottom - (target / maxPct) * chartHeight;
+    var targetLine = document.createElementNS(svgNS, 'line');
+    targetLine.setAttribute('x1', chartLeft);
+    targetLine.setAttribute('y1', targetY);
+    targetLine.setAttribute('x2', chartRight);
+    targetLine.setAttribute('y2', targetY);
+    targetLine.setAttribute('stroke', '#d94040');
+    targetLine.setAttribute('stroke-width', '2');
+    targetLine.setAttribute('stroke-dasharray', '8,4');
+    targetLine.setAttribute('opacity', '0.6');
+    svg.appendChild(targetLine);
+
+    // Target label
+    var targetLabel = document.createElementNS(svgNS, 'text');
+    targetLabel.setAttribute('x', chartRight + 4);
+    targetLabel.setAttribute('y', targetY + 4);
+    targetLabel.setAttribute('font-size', '12');
+    targetLabel.setAttribute('fill', '#d94040');
+    targetLabel.setAttribute('font-weight', '600');
+    targetLabel.textContent = target + '%';
+    svg.appendChild(targetLabel);
+
+    // Bars
+    var barCount = monthly.length;
+    var barGap = 12;
+    var barWidth = (chartWidth - barGap * (barCount + 1)) / barCount;
+
+    for (var j = 0; j < monthly.length; j++) {
+        var m = monthly[j];
+        var barH = (m.productivity_pct / maxPct) * chartHeight;
+        var x = chartLeft + barGap + j * (barWidth + barGap);
+        var y = chartBottom - barH;
+
+        var color = getProductivityColor(m.productivity_pct);
+
+        var rect = document.createElementNS(svgNS, 'rect');
+        rect.setAttribute('x', x);
+        rect.setAttribute('y', y);
+        rect.setAttribute('width', barWidth);
+        rect.setAttribute('height', barH);
+        rect.setAttribute('rx', '4');
+        rect.setAttribute('fill', color);
+        rect.setAttribute('opacity', '0.85');
+        svg.appendChild(rect);
+
+        // Value label on bar
+        var valText = document.createElementNS(svgNS, 'text');
+        valText.setAttribute('x', x + barWidth / 2);
+        valText.setAttribute('y', y - 6);
+        valText.setAttribute('text-anchor', 'middle');
+        valText.setAttribute('font-size', '13');
+        valText.setAttribute('font-weight', '700');
+        valText.setAttribute('fill', color);
+        valText.textContent = m.productivity_pct.toFixed(0) + '%';
+        svg.appendChild(valText);
+
+        // Month label
+        var parts = m.month.split('-');
+        var monthLabel = document.createElementNS(svgNS, 'text');
+        monthLabel.setAttribute('x', x + barWidth / 2);
+        monthLabel.setAttribute('y', chartBottom + 20);
+        monthLabel.setAttribute('text-anchor', 'middle');
+        monthLabel.setAttribute('font-size', '12');
+        monthLabel.setAttribute('fill', '#8a8aa0');
+        monthLabel.setAttribute('font-weight', '500');
+        monthLabel.textContent = monthName(parseInt(parts[1]) - 1);
+        svg.appendChild(monthLabel);
+    }
+
+    container.appendChild(svg);
+}
+
+function renderWeeklyBars(weeks, target) {
+    var container = document.getElementById('weeklyBars');
+    if (!container || !weeks.length) return;
+
+    var maxPct = target + 20;
+    for (var i = 0; i < weeks.length; i++) {
+        if (weeks[i].productivity_pct > maxPct) maxPct = weeks[i].productivity_pct + 5;
+    }
+
+    var html = '';
+    for (var j = 0; j < weeks.length; j++) {
+        var w = weeks[j];
+        var pct = w.productivity_pct;
+        var barH = Math.max(4, (pct / maxPct) * 120);
+        var color = getProductivityColor(pct);
+        var cls = getProductivityClass(pct);
+        html += '<div class="week-bar">' +
+            '<div class="bar-value pct-' + cls + '">' + pct.toFixed(0) + '%</div>' +
+            '<div class="bar-fill" style="height:' + barH + 'px;background:' + color + '"></div>' +
+            '<div class="bar-label">W' + (j + 1) + '</div></div>';
+    }
+    container.innerHTML = html;
+}
+
+function renderDailyGrid(days, target) {
+    var container = document.getElementById('dailyGrid');
+    if (!container) return;
+
+    var today = new Date().toISOString().slice(0, 10);
+    var html = '';
+    for (var i = 0; i < days.length; i++) {
+        var d = days[i];
+        var pct = d.productivity_pct;
+        var dayNum = parseInt(d.date.split('-')[2]);
+        var isFuture = d.date > today;
+
+        if (isFuture) {
+            html += '<div class="day-dot future">' + dayNum + '</div>';
+        } else {
+            var bg = getProductivityColor(pct);
+            html += '<div class="day-dot" style="background:' + bg + '" title="' + d.date + ': ' + pct.toFixed(0) + '%">' + dayNum + '</div>';
+        }
+    }
+    container.innerHTML = html;
+}
+
+loadAndRender();
+setupAutoRefresh();
+</script>
+</body>
+</html>

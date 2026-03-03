@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Shop Dashboards</title>
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        body { overflow: auto; }
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+            flex: 1;
+        }
+        .nav-card {
+            background: white;
+            border-radius: 14px;
+            padding: 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            text-decoration: none;
+            color: inherit;
+            transition: box-shadow 0.2s, transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .nav-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .nav-card .card-num {
+            font-size: 14px;
+            font-weight: 600;
+            color: #8a8aa0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .nav-card .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .nav-card .card-desc {
+            font-size: 16px;
+            color: #8a8aa0;
+            line-height: 1.4;
+        }
+        .nav-card .card-indicator {
+            width: 40px;
+            height: 4px;
+            border-radius: 2px;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Shop Dashboards</h1>
+            <div class="subtitle">Moment Motor Co. — TV Dashboard Navigation</div>
+        </div>
+    </div>
+    <div class="nav-grid">
+        <a href="productivity.html" class="nav-card">
+            <div class="card-indicator" style="background: #1a8a4a"></div>
+            <div class="card-num">Board 1</div>
+            <div class="card-title">Productivity</div>
+            <div class="card-desc">Monthly KPI, trends, weekly & daily breakdown</div>
+        </a>
+        <a href="helpers-hurters.html" class="nav-card">
+            <div class="card-indicator" style="background: #f5a623"></div>
+            <div class="card-num">Board 2</div>
+            <div class="card-title">Helpers & Hurters</div>
+            <div class="card-desc">What's helping and hurting productivity by project & task</div>
+        </a>
+        <a href="events.html" class="nav-card">
+            <div class="card-indicator" style="background: #2b7bb9"></div>
+            <div class="card-num">Board 3</div>
+            <div class="card-title">Upcoming Events</div>
+            <div class="card-desc">4-week rolling view of PTO & shop events</div>
+        </a>
+        <a href="checkout.html" class="nav-card">
+            <div class="card-indicator" style="background: #6b6b80"></div>
+            <div class="card-num">Board 4</div>
+            <div class="card-title">Vehicle Checkout</div>
+            <div class="card-desc">Ampere startup & pre-checkout progress tracking</div>
+        </a>
+    </div>
+</div>
+</body>
+</html>

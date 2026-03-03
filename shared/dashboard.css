@@ -1,0 +1,162 @@
+/* Moment Motor Co. — Shop Dashboard Design System */
+
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #f5f6f8;
+    color: #1a1a2e;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Dashboard Container */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 28px 40px;
+    gap: 22px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.header h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.5px;
+}
+.header .subtitle {
+    font-size: 18px;
+    color: #8a8aa0;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.header .updated {
+    font-size: 16px;
+    color: #8a8aa0;
+    text-align: right;
+}
+.header .updated strong {
+    font-size: 17px;
+}
+
+/* Summary Strip */
+.summary-strip {
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+}
+.summary-stat {
+    background: white;
+    border-radius: 12px;
+    padding: 16px 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    flex: 1;
+}
+.summary-stat .stat-value {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1a1a2e;
+    line-height: 1.1;
+}
+.summary-stat .stat-value .pct-unit {
+    font-size: 22px;
+    font-weight: 600;
+}
+.summary-stat .stat-label {
+    font-size: 15px;
+    color: #8a8aa0;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+}
+
+/* Color Classes */
+.pct-high { color: #1a8a4a; }
+.pct-mid { color: #f5a623; }
+.pct-low { color: #d94040; }
+.pct-zero { color: #bbb; }
+
+.fill-high { background: linear-gradient(90deg, #34c759, #1a8a4a); }
+.fill-mid { background: linear-gradient(90deg, #ffc107, #e6a200); }
+.fill-low { background: linear-gradient(90deg, #ff6b6b, #d94040); }
+.fill-zero { background: #ddd; }
+
+.bg-high { background: #e6f9ee; }
+.bg-mid { background: #fff3e0; }
+.bg-low { background: #fde8e8; }
+
+/* Progress Bar */
+.progress-bar-container {
+    width: 100%;
+    height: 12px;
+    background: #f0f0f5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.6s ease;
+}
+
+/* Section Header */
+.section-header {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8a8aa0;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+/* Tags / Badges */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.badge-green { background: #e6f9ee; color: #1a8a4a; }
+.badge-amber { background: #fff3e0; color: #f5a623; }
+.badge-red { background: #fde8e8; color: #d94040; }
+.badge-blue { background: #e8f4fd; color: #2b7bb9; }
+.badge-gray { background: #f0f0f5; color: #6b6b80; }
+
+/* Loading State */
+.loading-msg {
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    color: #8a8aa0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d0d0d8; border-radius: 3px; }
+
+/* Large Display Optimizations */
+@media (min-width: 1800px) {
+    .dashboard { padding: 32px 48px; }
+}
