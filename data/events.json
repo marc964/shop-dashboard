@@ -187,12 +187,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
