@@ -171,11 +171,14 @@ function render(data) {
 
     for (var w = 0; w < weeks.length; w++) {
         var week = weeks[w];
-        var weekClass = week.is_current_week ? 'current-week' : 'future-week';
+        var lastDay = week.days[week.days.length - 1].date;
+        if (lastDay < today) continue;
+        var hasToday = week.days.some(function(d) { return d.date === today; });
+        var weekClass = hasToday ? 'current-week' : 'future-week';
 
         html += '<div class="week-section ' + weekClass + '">';
         html += '<div class="week-title">' + escHtml(week.week_label);
-        if (week.is_current_week) {
+        if (hasToday) {
             html += ' <span class="current-badge">This Week</span>';
         }
         html += '</div>';
@@ -185,10 +188,11 @@ function render(data) {
         for (var d = 0; d < days.length; d++) {
             var day = days[d];
 
+            var isToday = (day.date === today);
             var cellClass = 'day-cell';
-            if (day.is_today) cellClass += ' today';
+            if (isToday) cellClass += ' today';
             else if (day.is_weekend) cellClass += ' weekend';
-            if (day.date < today && !day.is_today) cellClass += ' past';
+            if (day.date < today && !isToday) cellClass += ' past';
 
             var dateParts = day.date.split('-');
             var dayNum = parseInt(dateParts[2]);
