@@ -1,9 +1,28 @@
 {
   "helpers": [
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 14.0,
+      "pct_of_total": 10.4,
+      "tasks": [
+        {
+          "task": "Cooling",
+          "hours": 6.8
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 4.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 13.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -22,7 +41,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 13.2,
-      "pct_of_total": 10.2,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -43,28 +62,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 12.8,
-      "pct_of_total": 9.8,
-      "tasks": [
-        {
-          "task": "Cooling",
-          "hours": 6.8
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 3.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -79,7 +79,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 11.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -100,9 +100,28 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 6.5,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 4.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 6.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -125,7 +144,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 5.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Steering",
@@ -136,7 +155,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 5.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -153,24 +172,9 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
-      "total_hours": 4.8,
-      "pct_of_total": 3.6,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 4.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Ritchie 72 Blazer",
       "total_hours": 3.0,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -180,20 +184,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 31.0,
-    "pct_of_total": 23.8,
-    "avg_per_person_per_day": 1.29,
+    "total_hours": 32.8,
+    "pct_of_total": 24.2,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 7.8
+        "hours": 8.2
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 7.2
+        "hours": 7.8
       },
       {
         "label": "Other",
@@ -201,11 +205,11 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 6.2
+        "hours": 6.5
       },
       {
         "label": "Organization",
-        "hours": 1.5
+        "hours": 2.0
       },
       {
         "label": "Errands",
@@ -217,7 +221,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 8.2,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -238,7 +242,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -252,9 +256,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 87.5,
-    "non_billable_hours": 43.0,
+    "billable_hours": 90.5,
+    "non_billable_hours": 44.8,
     "pto_hours": 0.0,
-    "total_hours": 130.5
+    "total_hours": 135.2
   }
 }
