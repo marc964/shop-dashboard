@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.2,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.3,
       "tasks": [
         {
           "task": "Cooling",
@@ -26,7 +26,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 19.0,
-      "pct_of_total": 11.8,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Cooling",
@@ -49,7 +49,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 18.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -72,7 +72,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -87,7 +87,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 11.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -110,7 +110,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 8.5,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -137,7 +137,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Steering",
@@ -148,7 +148,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 6.5,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -167,7 +167,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 5.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -186,7 +186,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 3.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -197,7 +197,7 @@
   ],
   "shop_work": {
     "total_hours": 37.5,
-    "pct_of_total": 23.3,
+    "pct_of_total": 22.7,
     "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
@@ -232,13 +232,15 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 8.2,
-      "pct_of_total": 5.1,
+      "total_hours": 12.5,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 7.5,
+          "hours": 11.8,
           "context": [
+            "Audio",
+            "Interior",
             "Suspension"
           ]
         },
@@ -269,8 +271,8 @@
   ],
   "totals": {
     "billable_hours": 111.5,
-    "non_billable_hours": 49.5,
+    "non_billable_hours": 53.8,
     "pto_hours": 0.0,
-    "total_hours": 161.0
+    "total_hours": 165.2
   }
 }
