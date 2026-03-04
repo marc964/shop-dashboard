@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 13.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -22,7 +22,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 13.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -45,7 +45,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 12.8,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Cooling",
@@ -64,7 +64,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -79,7 +79,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 11.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -125,7 +125,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 5.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Steering",
@@ -134,9 +134,28 @@
       ]
     },
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 5.0,
+      "pct_of_total": 3.8,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 2.5
+        },
+        {
+          "task": "Scanning",
+          "hours": 1.2
+        },
+        {
+          "task": "Steering",
+          "hours": 1.2
+        }
+      ]
+    },
+    {
       "project": "Witham 51 3100",
       "total_hours": 4.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -145,21 +164,6 @@
         {
           "task": "Motor & Transmission",
           "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 3.8,
-      "pct_of_total": 2.9,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 2.5
-        },
-        {
-          "task": "Steering",
-          "hours": 1.2
         }
       ]
     },
@@ -176,19 +180,19 @@
     }
   ],
   "shop_work": {
-    "total_hours": 30.5,
-    "pct_of_total": 23.7,
-    "avg_per_person_per_day": 1.91,
+    "total_hours": 31.0,
+    "pct_of_total": 23.8,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 2,
+    "working_days": 3,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 7.2
+        "label": "Shop Meetings",
+        "hours": 7.8
       },
       {
-        "label": "Shop Meetings",
+        "label": "EOD Time Entry/Cleanup",
         "hours": 7.2
       },
       {
@@ -213,7 +217,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 8.2,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -248,9 +252,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 86.2,
-    "non_billable_hours": 42.5,
+    "billable_hours": 87.5,
+    "non_billable_hours": 43.0,
     "pto_hours": 0.0,
-    "total_hours": 128.8
+    "total_hours": 130.5
   }
 }
