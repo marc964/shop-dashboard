@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03",
+  "generated_at": "2026-03-04",
   "weeks": [
     {
       "week_start": "2026-03-02",
@@ -22,14 +22,14 @@
         {
           "date": "2026-03-03",
           "day_name": "Tuesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-03-04",
           "day_name": "Wednesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -164,12 +164,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "David W Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "David W Out",
               "type": "pto",
               "all_day": true
             },
@@ -238,12 +238,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
