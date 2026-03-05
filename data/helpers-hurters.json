@@ -3,7 +3,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 20.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -45,7 +45,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 19.0,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Cooling",
@@ -204,9 +204,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 41.8,
-    "pct_of_total": 21.7,
-    "avg_per_person_per_day": 1.3,
+    "total_hours": 42.8,
+    "pct_of_total": 22.2,
+    "avg_per_person_per_day": 1.34,
     "flagged": true,
     "tech_count": 8,
     "working_days": 4,
@@ -233,7 +233,7 @@
       },
       {
         "label": "Organization",
-        "hours": 2.0
+        "hours": 3.0
       }
     ]
   },
@@ -264,7 +264,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.8,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -279,8 +279,8 @@
   ],
   "totals": {
     "billable_hours": 132.5,
-    "non_billable_hours": 59.5,
+    "non_billable_hours": 60.5,
     "pto_hours": 0.0,
-    "total_hours": 192.0
+    "total_hours": 193.0
   }
 }
