@@ -10,6 +10,7 @@ No employee names — only project + task combos.
 import os
 import re
 from collections import defaultdict
+from datetime import date, timedelta
 
 import requests
 
@@ -114,11 +115,16 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
     entries = [e for e in time_entries if e["user"]["id"] in tech_user_ids]
     tech_user_count = len(tech_user_ids)
 
-    # Count working days this month from entries
-    working_days = set()
-    for e in entries:
-        working_days.add(e.get("spent_date", ""))
-    num_working_days = len(working_days) or 1
+    # Count working days (weekdays) from 1st of month through today
+    today = date.today()
+    first_of_month = today.replace(day=1)
+    num_working_days = 0
+    d = first_of_month
+    while d <= today:
+        if d.weekday() < 5:  # Mon-Fri
+            num_working_days += 1
+        d += timedelta(days=1)
+    num_working_days = max(num_working_days, 1)
 
     # Aggregate hours by (project_name, task_name, is_billable)
     combos = defaultdict(lambda: {"hours": 0.0, "billable": False})
