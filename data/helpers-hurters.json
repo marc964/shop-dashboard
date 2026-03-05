@@ -1,25 +1,6 @@
 {
   "helpers": [
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 20.5,
-      "pct_of_total": 10.6,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 12.2
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 4.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 4.0
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.2,
       "pct_of_total": 10.4,
@@ -45,7 +26,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 19.0,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Cooling",
@@ -91,7 +72,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 11.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -137,7 +118,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 8.5,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -158,6 +139,21 @@
         {
           "task": "Scanning",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Berke 69 Alfa",
+      "total_hours": 8.2,
+      "pct_of_total": 4.2,
+      "tasks": [
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 4.2
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 4.0
         }
       ]
     },
@@ -204,20 +200,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 42.8,
-    "pct_of_total": 22.0,
-    "avg_per_person_per_day": 1.34,
+    "total_hours": 43.2,
+    "pct_of_total": 22.1,
+    "avg_per_person_per_day": 1.35,
     "flagged": true,
     "tech_count": 8,
     "working_days": 4,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 11.0
+        "label": "Shop Meetings",
+        "hours": 11.2
       },
       {
-        "label": "Shop Meetings",
-        "hours": 10.8
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 11.0
       },
       {
         "label": "Personal Meetings",
@@ -241,7 +237,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 15.2,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -256,6 +252,20 @@
         {
           "task": "Installation - Extra",
           "hours": 0.8,
+          "context": [
+            "Vehicle Control"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Berke 69 Alfa",
+      "total_hours": 12.2,
+      "pct_of_total": 6.3,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 12.2,
           "context": [
             "Vehicle Control"
           ]
@@ -279,9 +289,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 132.5,
-    "non_billable_hours": 61.8,
+    "billable_hours": 121.0,
+    "non_billable_hours": 74.5,
     "pto_hours": 0.0,
-    "total_hours": 194.2
+    "total_hours": 195.5
   }
 }
