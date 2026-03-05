@@ -9,8 +9,6 @@ on:
       - 'data/**'
       - '.github/workflows/deploy-pages.yml'
 
-  workflow_call:
-
   workflow_dispatch:
 
 permissions:
