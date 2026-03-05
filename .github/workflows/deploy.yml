@@ -7,7 +7,7 @@ on:
       - '*.html'
       - 'shared/**'
       - 'data/**'
-      - '.github/workflows/deploy-pages.yml'
+      - '.github/workflows/deploy.yml'
 
   workflow_dispatch:
 
