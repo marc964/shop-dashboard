@@ -1,9 +1,10 @@
-name: Update Dashboard Data
+name: Update & Deploy Dashboard
 
 on:
   schedule:
     - cron: '*/15 * * * 1-5'  # Every 15 min, weekdays only
-
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -12,7 +13,10 @@ permissions:
   id-token: write
 
 jobs:
-  update:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,30 +39,17 @@ jobs:
           SHOP_CALENDAR_URL: ${{ secrets.SHOP_CALENDAR_URL }}
         run: python pipeline/generate_data.py
 
-      - name: Commit and push if data changed
+      - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
-            echo "No data changes to commit"
+            echo "No data changes"
           else
             git commit -m "Update dashboard data [automated]"
             git push
           fi
-
-  deploy:
-    needs: update
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Pull latest
-        run: git pull origin main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
