@@ -143,7 +143,7 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
             total_pto += hours
             continue
 
-        key = (proj_name, task_name)
+        key = (proj_name, task_name, is_billable)
         combos[key]["hours"] += hours
         combos[key]["billable"] = is_billable
 
@@ -157,7 +157,7 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
     # --- Helpers: group by project (car) with tasks nested ---
     project_helpers = defaultdict(lambda: {"total_hours": 0.0, "tasks": []})
 
-    for (proj, task), data in combos.items():
+    for (proj, task, _billable), data in combos.items():
         if not data["billable"]:
             continue
         project_helpers[proj]["total_hours"] += data["hours"]
@@ -215,7 +215,7 @@ def compute_helpers_hurters(time_entries, tech_user_ids, task_assignments, confi
         shop_work_hours += hours
         shop_notes_hours[category] += hours
 
-    for (proj, task), data in combos.items():
+    for (proj, task, _billable), data in combos.items():
         if data["billable"]:
             continue
 
