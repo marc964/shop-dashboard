@@ -22,7 +22,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.2,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Cooling",
@@ -68,7 +68,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 18.5,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -114,7 +114,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 9.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -164,7 +164,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.2,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Steering",
@@ -175,7 +175,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 6.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -205,7 +205,7 @@
   ],
   "shop_work": {
     "total_hours": 42.8,
-    "pct_of_total": 22.2,
+    "pct_of_total": 22.0,
     "avg_per_person_per_day": 1.34,
     "flagged": true,
     "tech_count": 8,
@@ -240,14 +240,15 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 14.0,
-      "pct_of_total": 7.3,
+      "total_hours": 15.2,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 13.2,
+          "hours": 14.5,
           "context": [
             "Audio",
+            "Exterior",
             "Interior",
             "Suspension"
           ]
@@ -279,8 +280,8 @@
   ],
   "totals": {
     "billable_hours": 132.5,
-    "non_billable_hours": 60.5,
+    "non_billable_hours": 61.8,
     "pto_hours": 0.0,
-    "total_hours": 193.0
+    "total_hours": 194.2
   }
 }
