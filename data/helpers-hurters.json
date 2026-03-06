@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 32.0,
-      "pct_of_total": 12.5,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -34,7 +34,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -228,16 +228,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 54.2,
-    "pct_of_total": 21.2,
-    "avg_per_person_per_day": 1.36,
+    "total_hours": 54.8,
+    "pct_of_total": 21.3,
+    "avg_per_person_per_day": 1.37,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 14.8
+        "hours": 15.2
       },
       {
         "label": "EOD Time Entry/Cleanup",
@@ -264,8 +264,8 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 18.0,
-      "pct_of_total": 7.0,
+      "total_hours": 18.8,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -279,8 +279,9 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 0.8,
+          "hours": 1.5,
           "context": [
+            "Audio",
             "Vehicle Control"
           ]
         }
@@ -303,7 +304,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 5.0,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -326,8 +327,8 @@
   ],
   "totals": {
     "billable_hours": 166.5,
-    "non_billable_hours": 89.5,
+    "non_billable_hours": 90.8,
     "pto_hours": 0.0,
-    "total_hours": 256.0
+    "total_hours": 257.2
   }
 }
