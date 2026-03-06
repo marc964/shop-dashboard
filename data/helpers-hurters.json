@@ -2,20 +2,20 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 38.0,
-      "pct_of_total": 14.3,
+      "total_hours": 39.0,
+      "pct_of_total": 14.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 11.5
         },
         {
-          "task": "Cooling",
-          "hours": 8.5
+          "task": "Manufacturing - Core",
+          "hours": 9.0
         },
         {
-          "task": "Manufacturing - Core",
-          "hours": 8.0
+          "task": "Cooling",
+          "hours": 8.5
         },
         {
           "task": "Vehicle Control",
@@ -38,7 +38,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.5,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -61,7 +61,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 20.8,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Cooling",
@@ -88,7 +88,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 17.2,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -161,7 +161,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 9.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -180,7 +180,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 9.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -232,20 +232,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 55.2,
-    "pct_of_total": 20.7,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 56.2,
+    "pct_of_total": 20.9,
+    "avg_per_person_per_day": 1.41,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 15.2
+        "hours": 15.8
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 15.0
+        "hours": 15.5
       },
       {
         "label": "Personal Meetings",
@@ -268,8 +268,8 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 21.5,
-      "pct_of_total": 8.1,
+      "total_hours": 22.5,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -284,9 +284,10 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 1.5,
+          "hours": 2.5,
           "context": [
             "Audio",
+            "Interior",
             "Vehicle Control"
           ]
         }
@@ -295,7 +296,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -331,9 +332,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 172.5,
-    "non_billable_hours": 94.0,
+    "billable_hours": 173.5,
+    "non_billable_hours": 96.0,
     "pto_hours": 0.0,
-    "total_hours": 266.5
+    "total_hours": 269.5
   }
 }
