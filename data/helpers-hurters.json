@@ -96,7 +96,7 @@
       "tasks": [
         {
           "task": "Cooling",
-          "hours": 6.8
+          "hours": 6.5
         },
         {
           "task": "Wiring - High Voltage",
@@ -108,7 +108,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 3.0
+          "hours": 3.2
         },
         {
           "task": "Charging",
@@ -153,16 +153,16 @@
           "hours": 4.8
         },
         {
-          "task": "Brakes",
-          "hours": 3.8
+          "task": "Motor & Transmission",
+          "hours": 3.5
         },
         {
           "task": "Wiring - OEM",
           "hours": 2.0
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 1.0
+          "task": "Brakes",
+          "hours": 1.2
         }
       ]
     },
