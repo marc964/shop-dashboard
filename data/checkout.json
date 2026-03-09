@@ -81,7 +81,7 @@
       "color": "Green",
       "make": "Ford",
       "model": "F-250",
-      "status": "High-Voltage",
+      "status": "Shipped",
       "checkout": 98.1,
       "sub_metrics": [],
       "system": "AEM"
@@ -92,7 +92,7 @@
       "color": "White",
       "make": "Chevrolet",
       "model": "Impala",
-      "status": "Acceptance",
+      "status": "Testing & Tuning",
       "checkout": 94.9,
       "sub_metrics": [
         {
@@ -269,7 +269,7 @@
       "color": "Silver",
       "make": "Ford",
       "model": "Mustang",
-      "status": "Acceptance",
+      "status": "Shipped",
       "checkout": 88.7,
       "sub_metrics": [
         {
@@ -403,7 +403,7 @@
       "color": "Green",
       "make": "Porsche",
       "model": "993",
-      "status": "Testing & Tuning",
+      "status": "Checkout",
       "checkout": 80.4,
       "sub_metrics": [],
       "system": "AEM"
@@ -414,7 +414,7 @@
       "color": "Blue",
       "make": "GMC",
       "model": "Truck",
-      "status": "Acceptance",
+      "status": "Shipped",
       "checkout": 80.2,
       "sub_metrics": [],
       "system": "AEM"
@@ -425,7 +425,7 @@
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
-      "status": "Acceptance",
+      "status": "Testing & Tuning",
       "checkout": 74.4,
       "sub_metrics": [
         {
@@ -482,24 +482,24 @@
       "system": "AEM"
     },
     {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Testing & Tuning",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Jaffe",
       "year": 1966,
       "color": "Black",
       "make": "Porsche",
       "model": "912",
-      "status": "",
-      "checkout": 69.8,
+      "status": "Shipped",
+      "checkout": 70.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Shipped",
+      "checkout": 70.3,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -520,7 +520,7 @@
       "color": "Red",
       "make": "Porsche",
       "model": "911",
-      "status": "Acceptance",
+      "status": "Shipped",
       "checkout": 68.8,
       "sub_metrics": [],
       "system": "AEM"
@@ -531,7 +531,7 @@
       "color": "Green",
       "make": "Mercedes",
       "model": "280SL",
-      "status": "Testing & Tuning",
+      "status": "Shipped",
       "checkout": 66.1,
       "sub_metrics": [],
       "system": "AEM"
@@ -553,7 +553,7 @@
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
-      "status": "Low-Voltage",
+      "status": "Startup",
       "checkout": 50.6,
       "sub_metrics": [
         {
@@ -644,8 +644,8 @@
       "color": "Green",
       "make": "Alfa Romero",
       "model": "GTV",
-      "status": "",
-      "checkout": 38.0,
+      "status": "Startup",
+      "checkout": 38.5,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -655,7 +655,7 @@
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Blazer",
-      "status": "Low-Voltage",
+      "status": "Checkout",
       "checkout": 33.4,
       "sub_metrics": [
         {
@@ -749,12 +749,23 @@
       }
     },
     {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Checkout",
+      "checkout": 29.6,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Ferdman",
       "year": 1966,
       "color": "White",
       "make": "Volkswagen",
       "model": "Micro Bus",
-      "status": "Low-Voltage",
+      "status": "Startup",
       "checkout": 29.3,
       "sub_metrics": [
         {
@@ -792,23 +803,12 @@
       }
     },
     {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Low-Voltage",
-      "checkout": 28.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Kelly",
       "year": 1963,
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Corvette",
-      "status": "High-Voltage",
+      "status": "Testing & Tuning",
       "checkout": 22.4,
       "sub_metrics": [
         {
@@ -1035,7 +1035,18 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "After Icon HVJB\r\nRe-Check Heat + AC\r\nRe-Check Fast Charging",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
     },
     {
       "owner": "Dan Henry",
@@ -1075,19 +1086,19 @@
       "color": "",
       "make": "",
       "model": "190B",
-      "status": "",
-      "checkout": 1.0,
+      "status": "Shipped",
+      "checkout": 1.6,
       "sub_metrics": [],
       "system": "AEM"
     },
     {
-      "owner": "Healey",
+      "owner": "Henry",
       "year": null,
       "color": "",
       "make": "",
-      "model": "",
-      "status": "",
-      "checkout": 1.0,
+      "model": "Healey",
+      "status": "Testing & Tuning",
+      "checkout": 1.6,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1252,33 +1263,33 @@
       "system": "Ampere"
     },
     {
-      "owner": "Icon",
+      "owner": "#REF! (Reference does not exist.)",
       "year": null,
-      "color": "",
-      "make": "Ford",
-      "model": "Bronco",
-      "status": "Shipped",
-      "checkout": 0,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Inverter",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Raptor",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 0.0
         }
       ],
       "system": "Ampere"
@@ -1316,17 +1327,38 @@
       "system": "Ampere"
     },
     {
-      "owner": "Icon Bronco",
+      "owner": "#REF! (Reference does not exist.)",
       "year": null,
-      "color": "",
-      "make": "",
-      "model": "",
-      "status": "",
-      "checkout": 0,
-      "sub_metrics": [],
-      "system": "AEM"
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
     }
   ],
-  "updated": "2026-03-09T20:03:34.119763+00:00",
+  "updated": "2026-03-09T20:33:08.634302+00:00",
   "source": "Google Sheets API"
 }
