@@ -1,0 +1,1332 @@
+{
+  "vehicles": [
+    {
+      "owner": "Vargas",
+      "year": 1966,
+      "color": "Red",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Shipped",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 100
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
+            "done": true
+          },
+          {
+            "text": "Verify Fast Charging",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": true
+          },
+          {
+            "text": "Get GUI To Boot Properly.",
+            "done": false
+          },
+          {
+            "text": "Verify no CCS errors with Raptor.",
+            "done": true
+          },
+          {
+            "text": "Update firmware and adjust vehicle weight in VCU.",
+            "done": true
+          }
+        ],
+        "total": 9,
+        "done": 8,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Hastert",
+      "year": 1960,
+      "color": "Green",
+      "make": "Ford",
+      "model": "F-250",
+      "status": "High-Voltage",
+      "checkout": 98.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Barton",
+      "year": 1959,
+      "color": "White",
+      "make": "Chevrolet",
+      "model": "Impala",
+      "status": "Acceptance",
+      "checkout": 94.9,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 69.2
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Label plug above brights kick switch. Label inverter connection plug.",
+            "done": true
+          },
+          {
+            "text": "Verify HV acessories after polarity swap.",
+            "done": true
+          },
+          {
+            "text": "Verify inverter after HV polarity swap.",
+            "done": true
+          },
+          {
+            "text": "Charge AC system & verify.",
+            "done": true
+          },
+          {
+            "text": "Install Heater Contactor Controller & commission.",
+            "done": true
+          },
+          {
+            "text": "Tune Wilwood brakes.",
+            "done": true
+          },
+          {
+            "text": "Weigh vehicle.",
+            "done": true
+          },
+          {
+            "text": "Pack burn. Evaluate Cell Delta.",
+            "done": false
+          },
+          {
+            "text": "Re-test BMS boxes / verify contactor orientation.",
+            "done": false
+          },
+          {
+            "text": "Add BMS images to drive.",
+            "done": false
+          },
+          {
+            "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
+            "done": true
+          },
+          {
+            "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
+            "done": false
+          },
+          {
+            "text": "Update GUI and input gear ratio.",
+            "done": true
+          },
+          {
+            "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
+            "done": true
+          },
+          {
+            "text": "CAN1 measures the wrong termination",
+            "done": true
+          },
+          {
+            "text": "GUI crashes when adjusting vehicle weight.",
+            "done": true
+          },
+          {
+            "text": "Suspension is very squeaky.",
+            "done": false
+          },
+          {
+            "text": "Small jingle when driving slow.",
+            "done": false
+          },
+          {
+            "text": "Motor temp gauge doesn't respond to gauges program.",
+            "done": false
+          },
+          {
+            "text": "BRAKE indicator never illuminates.",
+            "done": false
+          }
+        ],
+        "total": 20,
+        "done": 12,
+        "open": 8
+      }
+    },
+    {
+      "owner": "Feldman",
+      "year": 1969,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "280SE",
+      "status": "Shipped",
+      "checkout": 94.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 95.2
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 98.1
+        },
+        {
+          "label": "Functional",
+          "value": 84.6
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Charge Lock Issue",
+            "done": false
+          },
+          {
+            "text": "Heat might come on during charge.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
+    },
+    {
+      "owner": "Witter",
+      "year": 1970,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 90.6,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Shah",
+      "year": 1965,
+      "color": "Silver",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Acceptance",
+      "checkout": 88.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 57.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Heat can come on during charge and the contactors clack. PMU needs to be hooked up to CAN3.",
+            "done": false
+          },
+          {
+            "text": "The hood is really squeaky.",
+            "done": true
+          },
+          {
+            "text": "RND locks into drive not park. You can accidentally bump it and leave park. Accurate 2026-01-28.",
+            "done": true
+          },
+          {
+            "text": "Speedo is mounted crooked.",
+            "done": true
+          },
+          {
+            "text": "None of the gauges work.",
+            "done": true
+          },
+          {
+            "text": "Diag Oil Presure Warning, Justin changed sensor. Need to check for alarm in VCU. No alarms 2026-01-28",
+            "done": false
+          },
+          {
+            "text": "Change Shah logger to CAN3 to diag SOC gauge if it's still acting up.",
+            "done": true
+          },
+          {
+            "text": "Needs PMU & inverter programming port labels.",
+            "done": false
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": false
+          },
+          {
+            "text": "Has a battery low range low warning in Raptor at 87% SOC. This means it has not been charged / discharged fully / properly for that to reset. 2026-01-28",
+            "done": false
+          }
+        ],
+        "total": 10,
+        "done": 5,
+        "open": 5
+      }
+    },
+    {
+      "owner": "Buck",
+      "year": 1971,
+      "color": "Red",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 80.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.1
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 3.8
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Verify I have the correct status / overrides for battery pump and heater.",
+            "done": false
+          },
+          {
+            "text": "Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.",
+            "done": false
+          },
+          {
+            "text": "Ask why weight calibration in the VCU only goes to 100kg.",
+            "done": false
+          },
+          {
+            "text": "Check On Wi-Fi",
+            "done": false
+          }
+        ],
+        "total": 4,
+        "done": 0,
+        "open": 4
+      }
+    },
+    {
+      "owner": "Miner",
+      "year": 1995,
+      "color": "Green",
+      "make": "Porsche",
+      "model": "993",
+      "status": "Testing & Tuning",
+      "checkout": 80.4,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "GMC",
+      "year": 1963,
+      "color": "Blue",
+      "make": "GMC",
+      "model": "Truck",
+      "status": "Acceptance",
+      "checkout": 80.2,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Connolly",
+      "year": 1958,
+      "color": "Black",
+      "make": "Mercedes",
+      "model": "220S",
+      "status": "Acceptance",
+      "checkout": 74.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 40.6
+        },
+        {
+          "label": "Raptor",
+          "value": 98.1
+        },
+        {
+          "label": "Functional",
+          "value": 15.4
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Temperature Gauge Might Not Be Working",
+            "done": false
+          },
+          {
+            "text": "Flash Connolly with 1.7.9",
+            "done": false
+          },
+          {
+            "text": "DisplayDashGUI_SettingsMsgTimeout",
+            "done": false
+          }
+        ],
+        "total": 3,
+        "done": 0,
+        "open": 3
+      }
+    },
+    {
+      "owner": "Hopkins",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Jaguar",
+      "model": "E-Type",
+      "status": "Shipped",
+      "checkout": 71.9,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Testing & Tuning",
+      "checkout": 70.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1966,
+      "color": "Black",
+      "make": "Porsche",
+      "model": "912",
+      "status": "",
+      "checkout": 69.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Fischer",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "230SL",
+      "status": "Shipped",
+      "checkout": 69.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Strother",
+      "year": 1988,
+      "color": "Red",
+      "make": "Porsche",
+      "model": "911",
+      "status": "Acceptance",
+      "checkout": 68.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Coogan",
+      "year": 1969,
+      "color": "Green",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Testing & Tuning",
+      "checkout": 66.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "Low-Voltage",
+      "checkout": 50.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 94.3
+        },
+        {
+          "label": "Inverter",
+          "value": 97.1
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 82.7
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Mount small fuseblock that is labeled \"Mount Me\".",
+            "done": false
+          },
+          {
+            "text": "Connect open black wire by 12V battery.",
+            "done": false
+          },
+          {
+            "text": "CAN3 termination is wrong. CAN3 passive fault.",
+            "done": false
+          },
+          {
+            "text": "No brakes, need a bias block or plug.",
+            "done": false
+          },
+          {
+            "text": "PRND not showing up in VCU.",
+            "done": true
+          },
+          {
+            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: Motor type is set incorrectly in the VCU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: mHeaterType might be set incorrectly inn the VCU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.",
+            "done": false
+          }
+        ],
+        "total": 13,
+        "done": 2,
+        "open": 11
+      }
+    },
+    {
+      "owner": "Alfa",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "",
+      "checkout": 38.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Preheim",
+      "year": 1972,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Low-Voltage",
+      "checkout": 33.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 92.4
+        },
+        {
+          "label": "Inverter",
+          "value": 82.5
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 1.9
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Check ampacity of PMU feed wire.",
+            "done": true
+          },
+          {
+            "text": "Brakes don't fully return to off position.",
+            "done": false
+          },
+          {
+            "text": "The GUI doesn't fully boot, the screen flickers on and off continuously.",
+            "done": true
+          },
+          {
+            "text": "HVIL is missing on the IMD box HV input / output.",
+            "done": true
+          },
+          {
+            "text": "The power steering is very noisy and doesn't idle when not in use.",
+            "done": false
+          },
+          {
+            "text": "The APP only reaches 30%. Check wiring.",
+            "done": false
+          },
+          {
+            "text": "Almost none of the outputs seem to turn on. Pumps not running.",
+            "done": true
+          },
+          {
+            "text": "Vehicle gets CAN errors and the battery system doesn't wake.",
+            "done": true
+          },
+          {
+            "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.",
+            "done": true
+          },
+          {
+            "text": "12V was browing out. May have just been a super low 12V battery. and ?",
+            "done": false
+          },
+          {
+            "text": "At normal ignition standby you get a DCDCVoltXChk fault.",
+            "done": false
+          },
+          {
+            "text": "When trying to charge you get a ChgPortContFlt.",
+            "done": false
+          },
+          {
+            "text": "Gear changes take pretty long.",
+            "done": false
+          },
+          {
+            "text": "Ambient air temp sensor not reading correctly.",
+            "done": true
+          },
+          {
+            "text": "Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
+            "done": false
+          }
+        ],
+        "total": 15,
+        "done": 7,
+        "open": 8
+      }
+    },
+    {
+      "owner": "Ferdman",
+      "year": 1966,
+      "color": "White",
+      "make": "Volkswagen",
+      "model": "Micro Bus",
+      "status": "Low-Voltage",
+      "checkout": 29.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 91.4
+        },
+        {
+          "label": "Inverter",
+          "value": 78.6
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Motor cable hangs close to axle.",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Low-Voltage",
+      "checkout": 28.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Kelly",
+      "year": 1963,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "status": "High-Voltage",
+      "checkout": 22.4,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 68.6
+        },
+        {
+          "label": "Inverter",
+          "value": 1.0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Alvarez",
+      "year": 1966,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Shipped",
+      "checkout": 19.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 73.3
+        },
+        {
+          "label": "Inverter",
+          "value": 1.9
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 30.8
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1985,
+      "color": "",
+      "make": "Mercedes",
+      "model": "190E",
+      "status": "Fabrication",
+      "checkout": 16.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "Fabrication",
+      "checkout": 16.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Trying 3380 for the BMS beta, should test a module to verify",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
+    },
+    {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "",
+      "make": "Jaguar",
+      "model": "",
+      "status": "Fabrication",
+      "checkout": 16.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Fabrication",
+      "checkout": 16.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon",
+      "year": 1967,
+      "color": "Black",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "Shipped",
+      "checkout": 14.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 22.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 26.9
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Dan Henry",
+      "year": 1961,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Testing & Tuning",
+      "checkout": 13.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 81.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Simpson",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "190B",
+      "status": "",
+      "checkout": 1.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Healey",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "",
+      "checkout": 1.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Ampere Default",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "Shipped",
+      "checkout": 0.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 2.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Richardson",
+      "year": 1972,
+      "color": "",
+      "make": "Datsun",
+      "model": "240Z",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Cohn",
+      "year": 1964,
+      "color": "",
+      "make": "",
+      "model": "Corvette",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Ritchie",
+      "year": 1972,
+      "color": "",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Fabrication",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon",
+      "year": null,
+      "color": "",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "Shipped",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon Re-Do",
+      "year": null,
+      "color": "Black",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "Shipped",
+      "checkout": 0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon Bronco",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "",
+      "checkout": 0,
+      "sub_metrics": [],
+      "system": "AEM"
+    }
+  ],
+  "updated": "2026-03-09T19:05:14.717572+00:00",
+  "source": "Google Sheets API"
+}

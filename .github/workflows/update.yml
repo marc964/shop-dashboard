@@ -37,6 +37,7 @@ jobs:
           CLICKUP_API_TOKEN: ${{ secrets.CLICKUP_API_TOKEN }}
           PTO_CALENDAR_URL: ${{ secrets.PTO_CALENDAR_URL }}
           SHOP_CALENDAR_URL: ${{ secrets.SHOP_CALENDAR_URL }}
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: python pipeline/generate_data.py
 
       - name: Commit data if changed

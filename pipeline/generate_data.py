@@ -19,6 +19,7 @@ from fetch_harvest import get_tech_users, get_time_entries, get_all_task_assignm
 from compute_productivity import compute_productivity
 from compute_helpers_hurters import compute_helpers_hurters
 from fetch_calendar import fetch_events
+from fetch_checkout import fetch_checkout_data
 
 # Configuration
 CONFIG = {
@@ -59,7 +60,7 @@ def main():
     print(f"Fetching data from {history_start} to {today}")
 
     # --- Harvest Data ---
-    print("\n[1/5] Fetching Tech users from Harvest...")
+    print("\n[1/6] Fetching Tech users from Harvest...")
     tech_users = get_tech_users(CONFIG["tech_role_filter"])
     print(f"  Found {len(tech_users)} Tech users: {', '.join(tech_users.values())}")
 
@@ -69,7 +70,7 @@ def main():
 
     tech_user_ids = set(tech_users.keys())
 
-    print("\n[2/5] Fetching time entries from Harvest...")
+    print("\n[2/6] Fetching time entries from Harvest...")
     all_entries = get_time_entries(history_start, today)
     print(f"  Fetched {len(all_entries)} total time entries")
 
@@ -80,12 +81,12 @@ def main():
     ]
     print(f"  Current month ({today.strftime('%Y-%m')}): {len(current_month_entries)} entries")
 
-    print("\n[3/5] Fetching task assignments from Harvest...")
+    print("\n[3/6] Fetching task assignments from Harvest...")
     task_assignments = get_all_task_assignments()
     print(f"  Fetched assignments for {len(task_assignments)} projects")
 
     # --- Compute Metrics ---
-    print("\n[4/5] Computing metrics...")
+    print("\n[4/6] Computing metrics...")
 
     print("  Computing productivity...")
     productivity_data = compute_productivity(all_entries, tech_user_ids, CONFIG)
@@ -99,7 +100,7 @@ def main():
     print(f"  Found {len(hh_data['helpers'])} helper groups, {len(hh_data['project_hurters'])} project hurters")
 
     # --- Calendar Events ---
-    print("\n[5/5] Fetching calendar events...")
+    print("\n[5/6] Fetching calendar events...")
     events_data = fetch_events(CONFIG)
     total_events = sum(
         len(day["events"])
@@ -108,11 +109,23 @@ def main():
     )
     print(f"  Found {total_events} events over {CONFIG['calendar_weeks_ahead']} weeks")
 
+    # --- Checkout Data ---
+    print("\n[6/6] Fetching vehicle checkout data...")
+    has_checkout_key = bool(os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY", ""))
+    if has_checkout_key:
+        checkout_data = fetch_checkout_data()
+        print(f"  Found {len(checkout_data['vehicles'])} vehicles")
+    else:
+        print("  GOOGLE_SERVICE_ACCOUNT_KEY not set, skipping checkout data")
+        checkout_data = None
+
     # --- Write JSON Files ---
     print("\nWriting JSON files...")
     write_json("productivity.json", productivity_data)
     write_json("helpers-hurters.json", hh_data)
     write_json("events.json", events_data)
+    if checkout_data:
+        write_json("checkout.json", checkout_data)
 
     print("\nDone!")
     return 0

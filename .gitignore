@@ -14,5 +14,8 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Secrets
+moment-motors-automation-*.json
+
 # Claude
 .claude/
