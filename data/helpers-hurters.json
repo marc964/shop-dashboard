@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 41.0,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -177,7 +177,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Inspection",
@@ -207,7 +207,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 9.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -226,7 +226,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 9.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -248,16 +248,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 78.5,
-    "pct_of_total": 21.9,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 79.5,
+    "pct_of_total": 22.1,
+    "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 21.5
+        "hours": 22.0
       },
       {
         "label": "EOD Time Entry/Cleanup",
@@ -269,7 +269,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 9.8
+        "hours": 10.2
       },
       {
         "label": "Organization",
@@ -349,8 +349,8 @@
   ],
   "totals": {
     "billable_hours": 234.8,
-    "non_billable_hours": 123.2,
+    "non_billable_hours": 124.2,
     "pto_hours": 0.0,
-    "total_hours": 358.0
+    "total_hours": 359.0
   }
 }

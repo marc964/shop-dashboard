@@ -639,6 +639,17 @@
       }
     },
     {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Checkout",
+      "checkout": 40.6,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Alfa",
       "year": 1965,
       "color": "Green",
@@ -646,17 +657,6 @@
       "model": "GTV",
       "status": "Startup",
       "checkout": 38.5,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Checkout",
-      "checkout": 37.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1359,6 +1359,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-10T15:11:04.203140+00:00",
+  "updated": "2026-03-10T17:10:30.082639+00:00",
   "source": "Google Sheets API"
 }
