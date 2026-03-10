@@ -1,9 +1,36 @@
 {
   "helpers": [
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 45.8,
+      "pct_of_total": 11.5,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 24.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 14.8
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.0
+        },
+        {
+          "task": "Engineering - Product",
+          "hours": 1.8
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 42.0,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -36,32 +63,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 41.8,
-      "pct_of_total": 10.6,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 24.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 14.8
-        },
-        {
-          "task": "Engineering - Product",
-          "hours": 1.8
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Berke 69 Alfa",
       "total_hours": 34.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -123,7 +127,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 22.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Cooling",
@@ -150,7 +154,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 17.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -177,7 +181,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Inspection",
@@ -269,7 +273,7 @@
   ],
   "shop_work": {
     "total_hours": 87.2,
-    "pct_of_total": 22.1,
+    "pct_of_total": 21.9,
     "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
@@ -305,7 +309,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 22.8,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -383,9 +387,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 252.5,
+    "billable_hours": 256.5,
     "non_billable_hours": 142.5,
     "pto_hours": 0.0,
-    "total_hours": 395.0
+    "total_hours": 399.0
   }
 }
