@@ -649,7 +649,7 @@
       "make": "Alfa",
       "model": "Spyder",
       "status": "Checkout",
-      "checkout": 45.9,
+      "checkout": 49.5,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1363,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-10T21:42:37.583737+00:00",
+  "updated": "2026-03-10T21:58:46.879650+00:00",
   "source": "Google Sheets API"
 }
