@@ -631,11 +631,15 @@
           {
             "text": "2026-03-06: Power steering is temporarily disabled in the PMU.",
             "done": false
+          },
+          {
+            "text": "2026-03-10: Started getting a BattWakeFault again.",
+            "done": false
           }
         ],
-        "total": 13,
+        "total": 14,
         "done": 2,
-        "open": 11
+        "open": 12
       }
     },
     {
@@ -1359,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-10T20:32:01.590057+00:00",
+  "updated": "2026-03-10T21:04:31.913941+00:00",
   "source": "Google Sheets API"
 }
