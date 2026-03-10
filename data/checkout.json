@@ -82,7 +82,7 @@
       "make": "Ford",
       "model": "F-250",
       "status": "Shipped",
-      "checkout": 98.1,
+      "checkout": 97.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -259,7 +259,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 90.6,
+      "checkout": 90.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -404,7 +404,7 @@
       "make": "Porsche",
       "model": "993",
       "status": "Checkout",
-      "checkout": 80.4,
+      "checkout": 80.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -415,7 +415,7 @@
       "make": "GMC",
       "model": "Truck",
       "status": "Shipped",
-      "checkout": 80.2,
+      "checkout": 79.7,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -477,7 +477,7 @@
       "make": "Jaguar",
       "model": "E-Type",
       "status": "Shipped",
-      "checkout": 71.9,
+      "checkout": 71.4,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -488,7 +488,7 @@
       "make": "Porsche",
       "model": "912",
       "status": "Shipped",
-      "checkout": 70.3,
+      "checkout": 69.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -499,7 +499,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Shipped",
-      "checkout": 70.3,
+      "checkout": 69.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -510,7 +510,7 @@
       "make": "Mercedes",
       "model": "230SL",
       "status": "Shipped",
-      "checkout": 69.8,
+      "checkout": 69.3,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -543,7 +543,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 56.8,
+      "checkout": 56.2,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -649,7 +649,7 @@
       "make": "Alfa",
       "model": "Spyder",
       "status": "Checkout",
-      "checkout": 40.6,
+      "checkout": 45.9,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1363,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-10T21:04:31.913941+00:00",
+  "updated": "2026-03-10T21:42:37.583737+00:00",
   "source": "Google Sheets API"
 }
