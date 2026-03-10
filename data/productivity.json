@@ -3,31 +3,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-03",
-    "productivity_pct": 67.0,
-    "billable_hours": 232.8,
-    "total_hours": 347.5,
+    "productivity_pct": 65.7,
+    "billable_hours": 234.8,
+    "total_hours": 357.5,
     "pto_hours": 0.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 68.7,
-      "delta": -1.7
+      "delta": -3.0
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 63.2,
-      "delta": 3.8
+      "delta": 2.5
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 64.8,
-      "delta": 2.2
+      "value": 63.1,
+      "delta": 2.6
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": -8.0
+      "delta": -9.3
     }
   },
   "monthly": [
@@ -110,24 +110,24 @@
     },
     {
       "month": "2026-03",
-      "productivity_pct": 67.0,
-      "billable_hours": 232.8,
-      "total_hours": 347.5,
+      "productivity_pct": 65.7,
+      "billable_hours": 234.8,
+      "total_hours": 357.5,
       "pto_hours": 0.0
     }
   ],
   "current_month_weeks": [
     {
       "week": "2026-W10",
-      "productivity_pct": 64.8,
+      "productivity_pct": 63.1,
       "billable_hours": 195.0,
-      "total_hours": 301.0
+      "total_hours": 309.0
     },
     {
       "week": "2026-W11",
-      "productivity_pct": 81.2,
-      "billable_hours": 37.8,
-      "total_hours": 46.5
+      "productivity_pct": 82.0,
+      "billable_hours": 39.8,
+      "total_hours": 48.5
     }
   ],
   "current_month_days": [
@@ -157,15 +157,21 @@
     },
     {
       "date": "2026-03-06",
-      "productivity_pct": 63.5,
+      "productivity_pct": 54.6,
       "billable_hours": 31.2,
-      "total_hours": 49.2
+      "total_hours": 57.2
     },
     {
       "date": "2026-03-09",
       "productivity_pct": 81.2,
       "billable_hours": 37.8,
       "total_hours": 46.5
+    },
+    {
+      "date": "2026-03-10",
+      "productivity_pct": 100.0,
+      "billable_hours": 2.0,
+      "total_hours": 2.0
     }
   ]
 }
