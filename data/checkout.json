@@ -548,6 +548,17 @@
       "system": "AEM"
     },
     {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Checkout",
+      "checkout": 52.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
@@ -641,17 +652,6 @@
         "done": 2,
         "open": 12
       }
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Checkout",
-      "checkout": 49.5,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Alfa",
@@ -1363,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-10T21:58:46.879650+00:00",
+  "updated": "2026-03-10T22:34:49.854293+00:00",
   "source": "Google Sheets API"
 }

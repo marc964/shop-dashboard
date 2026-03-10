@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 42.0,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -38,7 +38,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 41.8,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -60,8 +60,8 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 32.2,
-      "pct_of_total": 8.3,
+      "total_hours": 34.2,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -69,7 +69,7 @@
         },
         {
           "task": "Interior",
-          "hours": 5.0
+          "hours": 7.0
         },
         {
           "task": "Wiring - High Voltage",
@@ -96,7 +96,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 24.2,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -150,7 +150,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 17.8,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -196,7 +196,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 12.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Steering",
@@ -222,8 +222,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 9.5,
-      "pct_of_total": 2.4,
+      "total_hours": 11.5,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -231,14 +231,18 @@
         },
         {
           "task": "Wiring - OEM",
-          "hours": 3.0
-        },
-        {
-          "task": "Audio",
-          "hours": 1.0
+          "hours": 3.5
         },
         {
           "task": "Engineering - Core",
+          "hours": 1.2
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.2
+        },
+        {
+          "task": "Audio",
           "hours": 1.0
         }
       ]
@@ -264,20 +268,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 86.2,
+    "total_hours": 87.2,
     "pct_of_total": 22.1,
-    "avg_per_person_per_day": 1.54,
+    "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 24.2
+        "hours": 24.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 23.2
+        "hours": 23.8
       },
       {
         "label": "Other",
@@ -357,7 +361,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 10.0,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -379,9 +383,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 248.5,
-    "non_billable_hours": 141.5,
+    "billable_hours": 252.5,
+    "non_billable_hours": 142.5,
     "pto_hours": 0.0,
-    "total_hours": 390.0
+    "total_hours": 395.0
   }
 }
