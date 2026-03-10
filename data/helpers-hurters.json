@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 39.0,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +38,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 37.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -60,8 +60,8 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 29.2,
-      "pct_of_total": 8.5,
+      "total_hours": 32.2,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -74,6 +74,10 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 4.2
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 3.0
         },
         {
           "task": "Vehicle Control",
@@ -146,7 +150,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 16.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -203,7 +207,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 9.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -222,7 +226,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 9.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Engineering - Support",
@@ -245,7 +249,7 @@
   ],
   "shop_work": {
     "total_hours": 70.0,
-    "pct_of_total": 20.3,
+    "pct_of_total": 20.1,
     "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
@@ -308,7 +312,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.2,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -344,9 +348,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 229.8,
+    "billable_hours": 232.8,
     "non_billable_hours": 114.8,
     "pto_hours": 0.0,
-    "total_hours": 344.5
+    "total_hours": 347.5
   }
 }
