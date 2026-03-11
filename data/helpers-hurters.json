@@ -280,9 +280,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 107.5,
+    "total_hours": 108.0,
     "pct_of_total": 22.6,
-    "avg_per_person_per_day": 1.68,
+    "avg_per_person_per_day": 1.69,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -293,7 +293,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 29.5
+        "hours": 30.0
       },
       {
         "label": "Shop Meetings",
@@ -383,7 +383,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 15.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -434,8 +434,8 @@
   ],
   "totals": {
     "billable_hours": 267.2,
-    "non_billable_hours": 209.2,
+    "non_billable_hours": 209.8,
     "pto_hours": 0.0,
-    "total_hours": 476.5
+    "total_hours": 477.0
   }
 }
