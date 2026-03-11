@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 46.0,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 42.0,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -63,44 +63,36 @@
       ]
     },
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 34.2,
-      "pct_of_total": 8.6,
+      "project": "Nolan 70 Challenger",
+      "total_hours": 25.0,
+      "pct_of_total": 6.2,
       "tasks": [
         {
-          "task": "Motor & Transmission",
-          "hours": 15.5
+          "task": "Manufacturing - Product",
+          "hours": 9.2
         },
         {
-          "task": "Interior",
-          "hours": 7.0
+          "task": "Cooling",
+          "hours": 6.5
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 4.2
+          "hours": 5.8
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 3.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 2.0
+          "task": "HVAC",
+          "hours": 3.2
         },
         {
           "task": "Charging",
-          "hours": 0.5
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Witham 51 3100",
       "total_hours": 24.2,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -121,33 +113,6 @@
         {
           "task": "Wiring - OEM",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 22.0,
-      "pct_of_total": 5.5,
-      "tasks": [
-        {
-          "task": "Cooling",
-          "hours": 6.5
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.2
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 5.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.2
-        },
-        {
-          "task": "Charging",
-          "hours": 0.2
         }
       ]
     },
@@ -194,6 +159,29 @@
         {
           "task": "Battery Pack",
           "hours": 0.8
+        }
+      ]
+    },
+    {
+      "project": "Berke 69 Alfa",
+      "total_hours": 12.5,
+      "pct_of_total": 3.1,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 7.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 3.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 2.0
+        },
+        {
+          "task": "Charging",
+          "hours": 0.5
         }
       ]
     },
@@ -272,16 +260,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 87.8,
-    "pct_of_total": 22.0,
-    "avg_per_person_per_day": 1.37,
+    "total_hours": 88.0,
+    "pct_of_total": 21.8,
+    "avg_per_person_per_day": 1.38,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 25.2
+        "hours": 25.5
       },
       {
         "label": "Shop Meetings",
@@ -307,9 +295,25 @@
   },
   "project_hurters": [
     {
+      "project": "Berke 69 Alfa",
+      "total_hours": 34.0,
+      "pct_of_total": 8.4,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 34.0,
+          "context": [
+            "Motor & Transmission",
+            "Vehicle Control",
+            "Wiring - High Voltage"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Barton 59 Impala",
       "total_hours": 22.8,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -335,37 +339,9 @@
       ]
     },
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 12.2,
-      "pct_of_total": 3.1,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 12.2,
-          "context": [
-            "Vehicle Control"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Chuter 62 Healey",
-      "total_hours": 10.2,
-      "pct_of_total": 2.6,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 10.2,
-          "context": [
-            "Steering"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Ferdman 66 Bus",
-      "total_hours": 10.0,
-      "pct_of_total": 2.5,
+      "total_hours": 11.5,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -382,14 +358,35 @@
           "context": [
             "Vehicle Control - Ampere"
           ]
+        },
+        {
+          "task": "Engineering - Extra",
+          "hours": 1.5,
+          "context": [
+            "Vehicle Requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Chuter 62 Healey",
+      "total_hours": 10.2,
+      "pct_of_total": 2.5,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 10.2,
+          "context": [
+            "Steering"
+          ]
         }
       ]
     }
   ],
   "totals": {
-    "billable_hours": 256.8,
-    "non_billable_hours": 143.0,
+    "billable_hours": 237.0,
+    "non_billable_hours": 166.5,
     "pto_hours": 0.0,
-    "total_hours": 399.8
+    "total_hours": 403.5
   }
 }
