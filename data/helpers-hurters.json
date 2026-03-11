@@ -308,12 +308,12 @@
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 22.8,
-      "pct_of_total": 5.5,
+      "total_hours": 23.0,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 20.2,
+          "hours": 20.5,
           "context": [
             "Audio",
             "Exterior",
@@ -410,8 +410,8 @@
   ],
   "totals": {
     "billable_hours": 231.0,
-    "non_billable_hours": 183.0,
+    "non_billable_hours": 183.2,
     "pto_hours": 0.0,
-    "total_hours": 414.0
+    "total_hours": 414.2
   }
 }
