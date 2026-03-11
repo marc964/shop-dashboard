@@ -76,17 +76,6 @@
       }
     },
     {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Barton",
       "year": 1959,
       "color": "White",
@@ -253,17 +242,6 @@
       }
     },
     {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Shah",
       "year": 1965,
       "color": "Silver",
@@ -398,28 +376,6 @@
       }
     },
     {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Checkout",
-      "checkout": 80.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "GMC",
-      "year": 1963,
-      "color": "Blue",
-      "make": "GMC",
-      "model": "Truck",
-      "status": "Shipped",
-      "checkout": 79.7,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Connolly",
       "year": 1958,
       "color": "Black",
@@ -469,94 +425,6 @@
         "done": 0,
         "open": 3
       }
-    },
-    {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Checkout",
-      "checkout": 55.6,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Witham",
@@ -652,17 +520,6 @@
         "done": 2,
         "open": 12
       }
-    },
-    {
-      "owner": "Alfa",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Startup",
-      "checkout": 38.5,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Preheim",
@@ -1085,28 +942,6 @@
       "system": "Ampere"
     },
     {
-      "owner": "Simpson",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "190B",
-      "status": "Shipped",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Henry",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "Healey",
-      "status": "Testing & Tuning",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Ampere Default",
       "year": null,
       "color": "",
@@ -1363,6 +1198,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-11T10:38:28.447120+00:00",
+  "updated": "2026-03-11T11:22:05.606110+00:00",
   "source": "Google Sheets API"
 }

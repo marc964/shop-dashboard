@@ -90,33 +90,6 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
-      "total_hours": 24.2,
-      "pct_of_total": 6.0,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 7.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 6.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 5.0
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 3.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 17.8,
       "pct_of_total": 4.4,
@@ -240,6 +213,25 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 11.5,
+      "pct_of_total": 2.9,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 3.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Ritchie 72 Blazer",
       "total_hours": 9.5,
       "pct_of_total": 2.4,
@@ -339,6 +331,28 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 12.8,
+      "pct_of_total": 3.2,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 7.8,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 5.0,
+          "context": [
+            "Steering",
+            "Wiring - OEM"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 11.5,
       "pct_of_total": 2.9,
@@ -384,8 +398,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 237.0,
-    "non_billable_hours": 166.5,
+    "billable_hours": 224.2,
+    "non_billable_hours": 179.2,
     "pto_hours": 0.0,
     "total_hours": 403.5
   }
