@@ -30,7 +30,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 42.0,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -256,9 +256,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 89.2,
-    "pct_of_total": 21.6,
-    "avg_per_person_per_day": 1.39,
+    "total_hours": 89.8,
+    "pct_of_total": 21.7,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -269,7 +269,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 24.2
+        "hours": 24.8
       },
       {
         "label": "Other",
@@ -410,8 +410,8 @@
   ],
   "totals": {
     "billable_hours": 231.0,
-    "non_billable_hours": 182.5,
+    "non_billable_hours": 183.0,
     "pto_hours": 0.0,
-    "total_hours": 413.5
+    "total_hours": 414.0
   }
 }
