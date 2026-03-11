@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 47.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -45,8 +45,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 46.0,
-      "pct_of_total": 10.1,
+      "total_hours": 47.0,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -62,7 +62,7 @@
         },
         {
           "task": "Engineering - Product",
-          "hours": 1.8
+          "hours": 2.8
         },
         {
           "task": "Engineering - Core",
@@ -223,7 +223,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Interior",
@@ -273,7 +273,7 @@
   ],
   "shop_work": {
     "total_hours": 102.5,
-    "pct_of_total": 22.6,
+    "pct_of_total": 22.5,
     "avg_per_person_per_day": 1.6,
     "flagged": true,
     "tech_count": 8,
@@ -425,9 +425,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 251.5,
+    "billable_hours": 252.5,
     "non_billable_hours": 202.2,
     "pto_hours": 0.0,
-    "total_hours": 453.8
+    "total_hours": 454.8
   }
 }
