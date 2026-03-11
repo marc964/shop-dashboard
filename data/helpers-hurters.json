@@ -1,9 +1,36 @@
 {
   "helpers": [
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 51.5,
+      "pct_of_total": 11.2,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 26.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 14.8
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 5.2
+        },
+        {
+          "task": "Engineering - Product",
+          "hours": 4.2
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 47.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -44,36 +71,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 47.0,
-      "pct_of_total": 10.3,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 24.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 14.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 4.2
-        },
-        {
-          "task": "Engineering - Product",
-          "hours": 2.8
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 26.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -200,7 +200,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 13.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -272,9 +272,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 102.5,
+    "total_hours": 103.5,
     "pct_of_total": 22.5,
-    "avg_per_person_per_day": 1.6,
+    "avg_per_person_per_day": 1.62,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -285,11 +285,11 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 28.0
+        "hours": 28.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 26.0
+        "hours": 26.5
       },
       {
         "label": "Personal Meetings",
@@ -309,7 +309,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 34.0,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -325,7 +325,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 23.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -353,7 +353,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 15.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -425,9 +425,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 252.5,
-    "non_billable_hours": 202.2,
+    "billable_hours": 257.0,
+    "non_billable_hours": 203.2,
     "pto_hours": 0.0,
-    "total_hours": 454.8
+    "total_hours": 460.2
   }
 }
