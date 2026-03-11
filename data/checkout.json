@@ -420,6 +420,17 @@
       "system": "AEM"
     },
     {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Checkout",
+      "checkout": 74.7,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Connolly",
       "year": 1958,
       "color": "Black",
@@ -533,17 +544,6 @@
       "model": "280SL",
       "status": "Shipped",
       "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Checkout",
-      "checkout": 65.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1363,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-11T21:49:02.104429+00:00",
+  "updated": "2026-03-11T22:26:07.280521+00:00",
   "source": "Google Sheets API"
 }
