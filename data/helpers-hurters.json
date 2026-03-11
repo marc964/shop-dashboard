@@ -1,9 +1,52 @@
 {
   "helpers": [
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 47.5,
+      "pct_of_total": 11.1,
+      "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 12.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 11.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 8.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 7.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 1.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 1.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 1.0
+        },
+        {
+          "task": "Charging",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 46.0,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -28,44 +71,9 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 43.5,
-      "pct_of_total": 10.3,
-      "tasks": [
-        {
-          "task": "Manufacturing - Core",
-          "hours": 12.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 11.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 8.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 7.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 1.0
-        },
-        {
-          "task": "Charging",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 25.0,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -92,7 +100,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 17.8,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -138,7 +146,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 13.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -161,7 +169,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Interior",
@@ -252,20 +260,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 89.8,
-    "pct_of_total": 21.2,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 91.2,
+    "pct_of_total": 21.3,
+    "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 26.0
+        "hours": 27.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 24.8
+        "hours": 25.2
       },
       {
         "label": "Other",
@@ -289,7 +297,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 34.0,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -355,7 +363,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 15.5,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -405,9 +413,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 234.0,
-    "non_billable_hours": 189.5,
+    "billable_hours": 238.0,
+    "non_billable_hours": 191.0,
     "pto_hours": 0.0,
-    "total_hours": 423.5
+    "total_hours": 429.0
   }
 }
