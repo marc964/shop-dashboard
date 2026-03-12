@@ -49,8 +49,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 51.5,
-      "pct_of_total": 10.4,
+      "total_hours": 53.5,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -61,12 +61,12 @@
           "hours": 14.8
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 5.2
+          "task": "Engineering - Product",
+          "hours": 5.8
         },
         {
-          "task": "Engineering - Product",
-          "hours": 4.2
+          "task": "Wiring - OEM",
+          "hours": 5.8
         },
         {
           "task": "Engineering - Core",
@@ -77,7 +77,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 26.0,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -108,7 +108,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 24.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -174,7 +174,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 19.0,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -284,9 +284,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 98.0,
+    "total_hours": 98.5,
     "pct_of_total": 19.9,
-    "avg_per_person_per_day": 1.36,
+    "avg_per_person_per_day": 1.37,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
@@ -297,7 +297,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 30.0
+        "hours": 30.5
       },
       {
         "label": "Other",
@@ -439,9 +439,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 288.2,
-    "non_billable_hours": 205.0,
+    "billable_hours": 290.2,
+    "non_billable_hours": 205.5,
     "pto_hours": 24.0,
-    "total_hours": 493.3
+    "total_hours": 495.8
   }
 }
