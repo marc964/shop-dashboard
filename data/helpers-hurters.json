@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 54.5,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -50,7 +50,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 53.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -173,8 +173,8 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 19.0,
-      "pct_of_total": 3.7,
+      "total_hours": 20.5,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -182,7 +182,7 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 4.0
+          "hours": 5.5
         },
         {
           "task": "Wiring - OEM",
@@ -201,7 +201,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 15.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Instrumentation",
@@ -284,16 +284,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 99.5,
-    "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 100.2,
+    "pct_of_total": 19.7,
+    "avg_per_person_per_day": 1.39,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 31.5
+        "hours": 32.2
       },
       {
         "label": "Shop Meetings",
@@ -389,7 +389,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 15.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -439,9 +439,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 300.2,
-    "non_billable_hours": 206.5,
+    "billable_hours": 301.2,
+    "non_billable_hours": 207.2,
     "pto_hours": 24.0,
-    "total_hours": 506.8
+    "total_hours": 508.5
   }
 }
