@@ -24,7 +24,7 @@ from fetch_checkout import fetch_checkout_data
 # Configuration
 CONFIG = {
     "productivity_target_pct": 75,
-    "pto_task_names": ["Paid Time Off"],
+    "pto_task_names": ["PTO", "Paid Time Off"],
     "tech_role_filter": "Tech",
     "helpers_hurters_top_n": 10,
     "calendar_weeks_ahead": 4,
