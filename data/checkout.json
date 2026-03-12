@@ -565,7 +565,7 @@
       "make": "Chevrolet",
       "model": "3100",
       "status": "Startup",
-      "checkout": 50.6,
+      "checkout": 51.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1363,6 +1363,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-12T13:20:03.091190+00:00",
+  "updated": "2026-03-12T14:15:00.443338+00:00",
   "source": "Google Sheets API"
 }
