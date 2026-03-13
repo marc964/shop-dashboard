@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 59.5,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -29,8 +29,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 57.0,
-      "pct_of_total": 10.6,
+      "total_hours": 59.0,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -41,16 +41,20 @@
           "hours": 12.0
         },
         {
-          "task": "Brakes",
-          "hours": 9.0
+          "task": "Vehicle Control",
+          "hours": 9.5
         },
         {
           "task": "Cooling",
           "hours": 8.5
         },
         {
-          "task": "Vehicle Control",
+          "task": "Brakes",
           "hours": 7.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
         },
         {
           "task": "Motor & Transmission",
@@ -58,10 +62,6 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 1.5
-        },
-        {
-          "task": "HVAC",
           "hours": 1.5
         },
         {
@@ -135,7 +135,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 28.5,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -226,6 +226,25 @@
       ]
     },
     {
+      "project": "Chuter 62 Healey",
+      "total_hours": 16.0,
+      "pct_of_total": 2.9,
+      "tasks": [
+        {
+          "task": "Steering",
+          "hours": 7.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 4.8
+        },
+        {
+          "task": "Interior",
+          "hours": 4.0
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
       "pct_of_total": 2.7,
@@ -241,25 +260,6 @@
         {
           "task": "Battery Pack",
           "hours": 0.8
-        }
-      ]
-    },
-    {
-      "project": "Chuter 62 Healey",
-      "total_hours": 13.5,
-      "pct_of_total": 2.5,
-      "tasks": [
-        {
-          "task": "Steering",
-          "hours": 7.2
-        },
-        {
-          "task": "Interior",
-          "hours": 4.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.2
         }
       ]
     },
@@ -288,20 +288,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 107.8,
-    "pct_of_total": 20.0,
-    "avg_per_person_per_day": 1.35,
+    "total_hours": 108.8,
+    "pct_of_total": 19.9,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
     "working_days": 10,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 38.2
+        "hours": 38.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 32.5
+        "hours": 33.0
       },
       {
         "label": "Other",
@@ -325,7 +325,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 34.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -341,7 +341,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 26.2,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -393,7 +393,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 15.5,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -443,9 +443,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 325.2,
-    "non_billable_hours": 214.8,
+    "billable_hours": 329.8,
+    "non_billable_hours": 215.8,
     "pto_hours": 24.0,
-    "total_hours": 540.0
+    "total_hours": 545.5
   }
 }
