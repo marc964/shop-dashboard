@@ -30,7 +30,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 54.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -204,8 +204,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 15.0,
-      "pct_of_total": 2.9,
+      "total_hours": 15.5,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Instrumentation",
@@ -217,7 +217,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 2.5
+          "hours": 3.0
         },
         {
           "task": "HVAC",
@@ -288,16 +288,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 100.8,
-    "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 101.5,
+    "pct_of_total": 19.6,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 9,
+    "working_days": 10,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 32.8
+        "hours": 33.5
       },
       {
         "label": "Shop Meetings",
@@ -443,9 +443,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 308.5,
-    "non_billable_hours": 207.8,
+    "billable_hours": 309.0,
+    "non_billable_hours": 208.5,
     "pto_hours": 24.0,
-    "total_hours": 516.2
+    "total_hours": 517.5
   }
 }
