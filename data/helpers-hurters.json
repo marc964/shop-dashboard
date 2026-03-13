@@ -246,8 +246,8 @@
     },
     {
       "project": "Chuter 62 Healey",
-      "total_hours": 13.0,
-      "pct_of_total": 2.4,
+      "total_hours": 13.5,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Steering",
@@ -255,7 +255,7 @@
         },
         {
           "task": "Interior",
-          "hours": 3.5
+          "hours": 4.0
         },
         {
           "task": "Brakes",
@@ -443,9 +443,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 324.8,
+    "billable_hours": 325.2,
     "non_billable_hours": 209.5,
     "pto_hours": 24.0,
-    "total_hours": 534.2
+    "total_hours": 534.8
   }
 }
