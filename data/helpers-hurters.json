@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 68.5,
-      "pct_of_total": 11.2,
+      "total_hours": 70.0,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Wiring - OEM",
-          "hours": 5.8
+          "hours": 7.2
         },
         {
           "task": "Engineering - Core",
@@ -178,7 +178,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 23.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -247,7 +247,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 12.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Interior",
@@ -470,9 +470,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 359.2,
+    "billable_hours": 360.8,
     "non_billable_hours": 250.0,
     "pto_hours": 24.0,
-    "total_hours": 609.2
+    "total_hours": 610.8
   }
 }
