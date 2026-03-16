@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 68.0,
-      "pct_of_total": 11.3,
+      "total_hours": 68.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -23,7 +23,7 @@
         },
         {
           "task": "Engineering - Core",
-          "hours": 2.2
+          "hours": 2.8
         },
         {
           "task": "Manufacturing - Product",
@@ -405,7 +405,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 20.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -470,9 +470,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 352.2,
+    "billable_hours": 352.8,
     "non_billable_hours": 248.8,
     "pto_hours": 24.0,
-    "total_hours": 601.0
+    "total_hours": 601.5
   }
 }
