@@ -152,7 +152,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 5.2
+          "hours": 5.5
         },
         {
           "task": "Wiring - High Voltage",
@@ -163,15 +163,15 @@
           "hours": 3.5
         },
         {
-          "task": "Engineering - Core",
-          "hours": 1.2
-        },
-        {
           "task": "Kit - Product",
           "hours": 1.0
         },
         {
           "task": "Audio",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
           "hours": 1.0
         }
       ]
