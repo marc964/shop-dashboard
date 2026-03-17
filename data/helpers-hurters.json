@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 76.8,
-      "pct_of_total": 11.9,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 67.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -220,16 +220,16 @@
     },
     {
       "project": "Chuter 62 Healey",
-      "total_hours": 16.0,
-      "pct_of_total": 2.5,
+      "total_hours": 19.0,
+      "pct_of_total": 2.9,
       "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 7.8
+        },
         {
           "task": "Steering",
           "hours": 7.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 4.8
         },
         {
           "task": "Interior",
@@ -309,7 +309,7 @@
   ],
   "shop_work": {
     "total_hours": 122.5,
-    "pct_of_total": 19.0,
+    "pct_of_total": 18.9,
     "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
@@ -482,9 +482,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 381.2,
+    "billable_hours": 384.2,
     "non_billable_hours": 263.8,
     "pto_hours": 24.0,
-    "total_hours": 645.0
+    "total_hours": 648.0
   }
 }
