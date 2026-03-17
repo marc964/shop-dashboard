@@ -282,7 +282,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 12.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Steering",
@@ -308,20 +308,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 122.5,
+    "total_hours": 123.5,
     "pct_of_total": 18.9,
-    "avg_per_person_per_day": 1.28,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.8
+        "hours": 45.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 37.8
+        "hours": 38.0
       },
       {
         "label": "Other",
@@ -345,7 +345,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.0,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -361,7 +361,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 31.5,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -387,7 +387,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -482,9 +482,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 384.2,
-    "non_billable_hours": 263.8,
+    "billable_hours": 388.2,
+    "non_billable_hours": 264.8,
     "pto_hours": 24.0,
-    "total_hours": 648.0
+    "total_hours": 653.0
   }
 }
