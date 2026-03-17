@@ -25,13 +25,7 @@
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Potential Eric Berke Visit",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-03-19",
@@ -40,18 +34,13 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "David W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Potential Eric Berke Visit",
-              "type": "shop",
+              "summary": "David W Out",
+              "type": "pto",
               "all_day": true
             }
           ]
@@ -63,12 +52,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
@@ -248,6 +237,11 @@
               "summary": "Brandon B OUt",
               "type": "pto",
               "all_day": true
+            },
+            {
+              "summary": "Eric Berke Visit (arriving at 11:30)",
+              "type": "shop",
+              "all_day": true
             }
           ]
         },
@@ -279,12 +273,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "David W Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "David W Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }

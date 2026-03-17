@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 76.8,
-      "pct_of_total": 11.8,
+      "total_hours": 79.0,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Wiring - OEM",
-          "hours": 7.2
+          "hours": 9.5
         },
         {
           "task": "Engineering - Core",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 67.0,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -84,8 +84,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 41.5,
-      "pct_of_total": 6.4,
+      "total_hours": 41.8,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -116,6 +116,10 @@
           "hours": 2.0
         },
         {
+          "task": "Engineering - Core",
+          "hours": 0.2
+        },
+        {
           "task": "Charging",
           "hours": 0.2
         }
@@ -124,7 +128,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 41.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -158,8 +162,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 31.2,
-      "pct_of_total": 4.8,
+      "total_hours": 32.2,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -180,6 +184,10 @@
         {
           "task": "HVAC",
           "hours": 2.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 1.0
         },
         {
           "task": "Interior",
@@ -308,7 +316,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 123.5,
+    "total_hours": 124.0,
     "pct_of_total": 18.9,
     "avg_per_person_per_day": 1.29,
     "flagged": true,
@@ -321,7 +329,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 38.0
+        "hours": 38.5
       },
       {
         "label": "Other",
@@ -482,9 +490,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 388.2,
-    "non_billable_hours": 264.8,
+    "billable_hours": 392.2,
+    "non_billable_hours": 265.2,
     "pto_hours": 24.0,
-    "total_hours": 653.0
+    "total_hours": 657.5
   }
 }
