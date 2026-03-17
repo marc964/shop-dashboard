@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 76.8,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Exterior",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 67.0,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -83,9 +83,48 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 41.5,
+      "pct_of_total": 6.5,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 18.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 6.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 5.8
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 3.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.2
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.2
+        },
+        {
+          "task": "Steering",
+          "hours": 2.0
+        },
+        {
+          "task": "Charging",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 41.5,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -118,48 +157,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 39.0,
-      "pct_of_total": 6.2,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 18.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 6.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 5.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.2
-        },
-        {
-          "task": "Steering",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.2
-        },
-        {
-          "task": "Charging",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Preheim 72 Blazer",
       "total_hours": 28.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -213,7 +213,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 16.0,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Steering",
@@ -251,7 +251,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 13.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Interior",
@@ -300,16 +300,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 119.8,
+    "total_hours": 121.5,
     "pct_of_total": 19.1,
-    "avg_per_person_per_day": 1.36,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 11,
+    "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.5
+        "hours": 44.2
       },
       {
         "label": "Shop Meetings",
@@ -321,15 +321,15 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.5
+        "hours": 14.0
+      },
+      {
+        "label": "Errands",
+        "hours": 5.0
       },
       {
         "label": "Organization",
         "hours": 4.8
-      },
-      {
-        "label": "Errands",
-        "hours": 4.5
       }
     ]
   },
@@ -337,7 +337,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 35.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -346,6 +346,32 @@
             "Motor & Transmission",
             "Vehicle Control",
             "Wiring - High Voltage"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Witham 51 3100",
+      "total_hours": 31.5,
+      "pct_of_total": 5.0,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 26.5,
+          "context": [
+            "Battery Pack",
+            "Brakes",
+            "Product - Battery Boxes",
+            "Steering",
+            "Vehicle Control - Ampere"
+          ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 5.0,
+          "context": [
+            "Wiring - High Voltage",
+            "Wiring - OEM"
           ]
         }
       ]
@@ -381,32 +407,6 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
-      "total_hours": 28.0,
-      "pct_of_total": 4.5,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 23.0,
-          "context": [
-            "Battery Pack",
-            "Brakes",
-            "Product - Battery Boxes",
-            "Steering",
-            "Vehicle Control - Ampere"
-          ]
-        },
-        {
-          "task": "Installation - Extra",
-          "hours": 5.0,
-          "context": [
-            "Wiring - High Voltage",
-            "Wiring - OEM"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Chuter 62 Healey",
       "total_hours": 20.8,
       "pct_of_total": 3.3,
@@ -431,7 +431,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 13.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -474,9 +474,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 375.8,
-    "non_billable_hours": 251.5,
+    "billable_hours": 378.2,
+    "non_billable_hours": 256.8,
     "pto_hours": 24.0,
-    "total_hours": 627.2
+    "total_hours": 635.0
   }
 }
