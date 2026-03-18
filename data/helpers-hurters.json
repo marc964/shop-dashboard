@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 79.5,
-      "pct_of_total": 11.3,
+      "total_hours": 86.0,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Exterior",
@@ -11,7 +11,7 @@
         },
         {
           "task": "Engineering - Product",
-          "hours": 23.5
+          "hours": 25.0
         },
         {
           "task": "Engineering - Support",
@@ -22,19 +22,19 @@
           "hours": 9.5
         },
         {
-          "task": "Engineering - Core",
-          "hours": 2.8
+          "task": "Manufacturing - Product",
+          "hours": 7.0
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 2.0
+          "task": "Engineering - Core",
+          "hours": 2.8
         }
       ]
     },
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 72.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -124,7 +124,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 52.2,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -264,7 +264,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Inspection",
@@ -320,16 +320,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 131.2,
-    "pct_of_total": 18.6,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 131.8,
+    "pct_of_total": 18.5,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 48.5
+        "hours": 49.0
       },
       {
         "label": "Shop Meetings",
@@ -357,7 +357,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 33.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +399,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -429,7 +429,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 21.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -494,9 +494,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 429.2,
-    "non_billable_hours": 277.2,
+    "billable_hours": 435.8,
+    "non_billable_hours": 277.8,
     "pto_hours": 24.0,
-    "total_hours": 706.5
+    "total_hours": 713.5
   }
 }
