@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 86.0,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 61.0,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -123,12 +123,12 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 52.2,
-      "pct_of_total": 6.9,
+      "total_hours": 57.0,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 25.2
+          "hours": 30.0
         },
         {
           "task": "Cooling",
@@ -320,16 +320,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 140.5,
+    "total_hours": 141.5,
     "pct_of_total": 18.6,
-    "avg_per_person_per_day": 1.35,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.8
+        "hours": 52.5
       },
       {
         "label": "Shop Meetings",
@@ -337,7 +337,7 @@
       },
       {
         "label": "Other",
-        "hours": 17.8
+        "hours": 18.0
       },
       {
         "label": "Personal Meetings",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 33.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +399,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -429,7 +429,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 27.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -451,7 +451,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 14.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -494,9 +494,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 458.0,
-    "non_billable_hours": 298.2,
+    "billable_hours": 462.8,
+    "non_billable_hours": 299.2,
     "pto_hours": 24.0,
-    "total_hours": 756.2
+    "total_hours": 762.0
   }
 }
