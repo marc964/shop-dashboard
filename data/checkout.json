@@ -93,7 +93,7 @@
       "make": "Chevrolet",
       "model": "Impala",
       "status": "Testing & Tuning",
-      "checkout": 94.9,
+      "checkout": 95.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -109,7 +109,7 @@
         },
         {
           "label": "Raptor",
-          "value": 100
+          "value": 1.0
         },
         {
           "label": "Functional",
@@ -198,11 +198,15 @@
           {
             "text": "BRAKE indicator never illuminates.",
             "done": false
+          },
+          {
+            "text": "Verify FW bug fix for vehicle weight not getting pulled from the GUI.",
+            "done": false
           }
         ],
-        "total": 20,
+        "total": 21,
         "done": 12,
-        "open": 8
+        "open": 9
       }
     },
     {
@@ -1363,6 +1367,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-18T19:51:14.536352+00:00",
+  "updated": "2026-03-18T20:35:17.674946+00:00",
   "source": "Google Sheets API"
 }
