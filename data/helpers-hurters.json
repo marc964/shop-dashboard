@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 54.0,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -304,29 +304,17 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 12.0,
-      "pct_of_total": 1.7,
+      "project": "Nagel 65 Scout",
+      "total_hours": 13.0,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 3.5
+          "hours": 10.0
         },
         {
-          "task": "Engineering - Support",
-          "hours": 3.5
-        },
-        {
-          "task": "Scanning",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
-          "task": "Charging",
-          "hours": 1.0
+          "task": "Manufacturing - Core",
+          "hours": 3.0
         }
       ]
     }
@@ -506,9 +494,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 426.8,
+    "billable_hours": 429.2,
     "non_billable_hours": 277.2,
     "pto_hours": 24.0,
-    "total_hours": 704.0
+    "total_hours": 706.5
   }
 }
