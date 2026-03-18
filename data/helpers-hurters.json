@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 86.0,
-      "pct_of_total": 12.1,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 72.5,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 54.0,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -320,9 +320,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 131.8,
-    "pct_of_total": 18.5,
-    "avg_per_person_per_day": 1.27,
+    "total_hours": 133.2,
+    "pct_of_total": 18.6,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
@@ -333,15 +333,15 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 40.8
+        "hours": 41.2
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 16.5
       },
       {
         "label": "Other",
         "hours": 16.2
-      },
-      {
-        "label": "Personal Meetings",
-        "hours": 15.5
       },
       {
         "label": "Organization",
@@ -481,7 +481,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 7.5,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -494,9 +494,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 435.8,
-    "non_billable_hours": 277.8,
+    "billable_hours": 436.8,
+    "non_billable_hours": 279.2,
     "pto_hours": 24.0,
-    "total_hours": 713.5
+    "total_hours": 716.0
   }
 }
