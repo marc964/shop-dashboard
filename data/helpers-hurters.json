@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 12.4,
+      "pct_of_total": 12.2,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -84,20 +84,20 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 67.5,
-      "pct_of_total": 8.4,
+      "total_hours": 70.5,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 25.0
         },
         {
-          "task": "Cooling",
-          "hours": 15.5
+          "task": "Wiring - High Voltage",
+          "hours": 17.5
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 15.0
+          "task": "Cooling",
+          "hours": 16.0
         },
         {
           "task": "Manufacturing - Core",
@@ -124,7 +124,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 62.2,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -262,6 +262,29 @@
       ]
     },
     {
+      "project": "Berke 69 Alfa",
+      "total_hours": 17.5,
+      "pct_of_total": 2.2,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 8.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.5
+        },
+        {
+          "task": "Charging",
+          "hours": 3.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
       "pct_of_total": 1.8,
@@ -277,29 +300,6 @@
         {
           "task": "Battery Pack",
           "hours": 0.8
-        }
-      ]
-    },
-    {
-      "project": "Berke 69 Alfa",
-      "total_hours": 13.5,
-      "pct_of_total": 1.7,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 8.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 3.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 2.0
-        },
-        {
-          "task": "Charging",
-          "hours": 0.5
         }
       ]
     },
@@ -320,8 +320,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 148.5,
-    "pct_of_total": 18.6,
+    "total_hours": 149.5,
+    "pct_of_total": 18.5,
     "avg_per_person_per_day": 1.33,
     "flagged": true,
     "tech_count": 8,
@@ -329,11 +329,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 55.0
+        "hours": 55.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 46.2
+        "hours": 46.8
       },
       {
         "label": "Other",
@@ -429,7 +429,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 490.8,
-    "non_billable_hours": 309.5,
+    "billable_hours": 497.8,
+    "non_billable_hours": 310.5,
     "pto_hours": 32.0,
-    "total_hours": 800.2
+    "total_hours": 808.2
   }
 }
