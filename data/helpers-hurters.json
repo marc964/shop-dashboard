@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 94.0,
-      "pct_of_total": 12.0,
+      "total_hours": 95.0,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Engineering - Product",
-          "hours": 28.5
+          "hours": 29.5
         },
         {
           "task": "Exterior",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -83,9 +83,48 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 67.5,
+      "pct_of_total": 8.5,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 25.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 15.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 15.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 5.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 3.5
+        },
+        {
+          "task": "Kit - Product",
+          "hours": 1.0
+        },
+        {
+          "task": "Audio",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 62.2,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -138,45 +177,6 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 61.0,
-      "pct_of_total": 7.8,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 18.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 15.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 15.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 5.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 3.5
-        },
-        {
-          "task": "Kit - Product",
-          "hours": 1.0
-        },
-        {
-          "task": "Audio",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
       "pct_of_total": 4.4,
@@ -213,12 +213,12 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 31.8,
-      "pct_of_total": 4.0,
+      "total_hours": 32.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 10.5
+          "hours": 11.0
         },
         {
           "task": "Motor & Transmission",
@@ -306,7 +306,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 13.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Steering",
@@ -320,20 +320,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 146.5,
+    "total_hours": 148.0,
     "pct_of_total": 18.6,
-    "avg_per_person_per_day": 1.31,
+    "avg_per_person_per_day": 1.32,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 54.0
+        "hours": 54.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 45.2
+        "hours": 46.2
       },
       {
         "label": "Other",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 478.8,
-    "non_billable_hours": 307.5,
+    "billable_hours": 486.8,
+    "non_billable_hours": 309.0,
     "pto_hours": 32.0,
-    "total_hours": 786.2
+    "total_hours": 795.8
   }
 }
