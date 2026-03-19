@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 95.0,
-      "pct_of_total": 11.9,
+      "total_hours": 99.0,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -14,12 +14,12 @@
           "hours": 27.0
         },
         {
-          "task": "Engineering - Support",
-          "hours": 14.8
+          "task": "Manufacturing - Product",
+          "hours": 15.5
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 11.5
+          "task": "Engineering - Support",
+          "hours": 14.8
         },
         {
           "task": "Wiring - OEM",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 67.5,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -179,7 +179,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -214,7 +214,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 32.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -320,16 +320,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 148.0,
+    "total_hours": 148.5,
     "pct_of_total": 18.6,
-    "avg_per_person_per_day": 1.32,
+    "avg_per_person_per_day": 1.33,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 54.5
+        "hours": 55.0
       },
       {
         "label": "Shop Meetings",
@@ -357,7 +357,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 34.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +399,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -451,7 +451,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 14.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 486.8,
-    "non_billable_hours": 309.0,
+    "billable_hours": 490.8,
+    "non_billable_hours": 309.5,
     "pto_hours": 32.0,
-    "total_hours": 795.8
+    "total_hours": 800.2
   }
 }
