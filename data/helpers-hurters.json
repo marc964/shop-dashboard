@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -179,7 +179,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 34.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -428,12 +428,12 @@
     },
     {
       "project": "Chuter 62 Healey",
-      "total_hours": 27.0,
-      "pct_of_total": 3.5,
+      "total_hours": 28.5,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 16.8,
+          "hours": 18.2,
           "context": [
             "Brakes",
             "Wiring - OEM"
@@ -495,8 +495,8 @@
   ],
   "totals": {
     "billable_hours": 476.0,
-    "non_billable_hours": 304.8,
+    "non_billable_hours": 306.2,
     "pto_hours": 32.0,
-    "total_hours": 780.8
+    "total_hours": 782.2
   }
 }
