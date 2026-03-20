@@ -196,7 +196,7 @@
             "done": true
           },
           {
-            "text": "BRAKE indicator never illuminates.",
+            "text": "BRAKE indicator on the gauges never illuminates.",
             "done": false
           },
           {
@@ -1367,6 +1367,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-20T15:59:44.411974+00:00",
+  "updated": "2026-03-20T16:55:04.394646+00:00",
   "source": "Google Sheets API"
 }
