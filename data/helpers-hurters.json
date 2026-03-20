@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -34,7 +34,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 78.5,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 70.5,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -124,7 +124,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 62.2,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -179,7 +179,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -214,7 +214,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 32.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -245,7 +245,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 19.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -264,7 +264,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 17.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Interior",
@@ -281,6 +281,21 @@
         {
           "task": "Instrumentation",
           "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "Nagel 65 Scout",
+      "total_hours": 15.5,
+      "pct_of_total": 1.9,
+      "tasks": [
+        {
+          "task": "Steering",
+          "hours": 10.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 5.5
         }
       ]
     },
@@ -302,38 +317,23 @@
           "hours": 0.8
         }
       ]
-    },
-    {
-      "project": "Nagel 65 Scout",
-      "total_hours": 13.0,
-      "pct_of_total": 1.6,
-      "tasks": [
-        {
-          "task": "Steering",
-          "hours": 10.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 3.0
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 149.5,
-    "pct_of_total": 18.5,
-    "avg_per_person_per_day": 1.33,
+    "total_hours": 150.5,
+    "pct_of_total": 18.3,
+    "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 14,
+    "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 55.5
+        "hours": 56.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 46.8
+        "hours": 47.2
       },
       {
         "label": "Other",
@@ -357,7 +357,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.8,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 34.0,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +399,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -450,12 +450,12 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 14.0,
-      "pct_of_total": 1.7,
+      "total_hours": 23.0,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 14.0,
+          "hours": 23.0,
           "context": [
             "Brakes"
           ]
@@ -465,7 +465,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 13.5,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 497.8,
-    "non_billable_hours": 310.5,
+    "billable_hours": 500.2,
+    "non_billable_hours": 320.5,
     "pto_hours": 32.0,
-    "total_hours": 808.2
+    "total_hours": 820.8
   }
 }
