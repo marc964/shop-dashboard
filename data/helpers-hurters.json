@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 12.0,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -33,9 +33,17 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 78.5,
-      "pct_of_total": 9.5,
+      "total_hours": 84.0,
+      "pct_of_total": 10.1,
       "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 13.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 12.5
+        },
         {
           "task": "Manufacturing - Product",
           "hours": 12.5
@@ -43,14 +51,6 @@
         {
           "task": "Manufacturing - Core",
           "hours": 12.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 11.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 9.5
         },
         {
           "task": "Brakes",
@@ -124,7 +124,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 65.8,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -302,7 +302,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 14.5,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Inspection",
@@ -320,9 +320,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 151.5,
+    "total_hours": 152.8,
     "pct_of_total": 18.3,
-    "avg_per_person_per_day": 1.26,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
@@ -333,7 +333,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.8
+        "hours": 48.2
       },
       {
         "label": "Other",
@@ -341,7 +341,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 17.0
+        "hours": 17.8
       },
       {
         "label": "Organization",
@@ -429,7 +429,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 504.2,
-    "non_billable_hours": 321.5,
+    "billable_hours": 509.8,
+    "non_billable_hours": 322.8,
     "pto_hours": 32.0,
-    "total_hours": 825.8
+    "total_hours": 832.5
   }
 }
