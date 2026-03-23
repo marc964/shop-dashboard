@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 105.0,
-      "pct_of_total": 11.8,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -88,8 +88,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 89.2,
-      "pct_of_total": 10.1,
+      "total_hours": 95.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -97,7 +97,7 @@
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 22.0
+          "hours": 24.5
         },
         {
           "task": "Cooling",
@@ -105,7 +105,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 7.0
+          "hours": 11.0
         },
         {
           "task": "Wiring - OEM",
@@ -128,7 +128,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 65.8,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -267,7 +267,7 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 17.5,
+      "total_hours": 17.8,
       "pct_of_total": 2.0,
       "tasks": [
         {
@@ -285,6 +285,10 @@
         {
           "task": "Instrumentation",
           "hours": 2.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.2
         }
       ]
     },
@@ -324,20 +328,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 160.5,
-    "pct_of_total": 18.1,
-    "avg_per_person_per_day": 1.25,
+    "total_hours": 161.2,
+    "pct_of_total": 18.0,
+    "avg_per_person_per_day": 1.26,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 60.5
+        "hours": 61.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 51.5
+        "hours": 51.8
       },
       {
         "label": "Other",
@@ -361,7 +365,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -512,9 +516,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 550.5,
-    "non_billable_hours": 337.5,
+    "billable_hours": 557.2,
+    "non_billable_hours": 338.2,
     "pto_hours": 32.0,
-    "total_hours": 888.0
+    "total_hours": 895.5
   }
 }

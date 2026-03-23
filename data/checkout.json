@@ -519,7 +519,7 @@
       "punchlist": {
         "items": [
           {
-            "text": "Check ampacity of PMU feed wire.",
+            "text": "Check ampacity of PMU feed wire.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
             "done": true
           },
           {
@@ -535,28 +535,28 @@
             "done": true
           },
           {
-            "text": "The power steering is very noisy and doesn't idle when not in use.",
+            "text": "The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.",
             "done": false
           },
           {
-            "text": "The APP only reaches 30%. Check wiring.",
-            "done": false
-          },
-          {
-            "text": "Almost none of the outputs seem to turn on. Pumps not running.",
+            "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
             "done": true
           },
           {
-            "text": "Vehicle gets CAN errors and the battery system doesn't wake.",
+            "text": "Almost none of the outputs seem to turn on. Pumps not running.\n2026-02-17: Resolved, PMU1 and PMU2 calibrations were switched.",
             "done": true
           },
           {
-            "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.",
+            "text": "Vehicle gets CAN errors and the battery system doesn't wake.\n2026-02-16: Resolved, The rear harness extension was pinned with the wrong gender connector but still plugged in. Brandon re-pinned one side to the correct connector.",
             "done": true
           },
           {
-            "text": "12V was browing out. May have just been a super low 12V battery. and ?",
-            "done": false
+            "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.\n2026-02-17: Resolved, The HVJB and CCS LV Connectors were swapped.",
+            "done": true
+          },
+          {
+            "text": "12V was browing out. May have just been a super low 12V battery.\n2026-03-23: Resolved, Verified DCDC and hasn't happened since.",
+            "done": true
           },
           {
             "text": "At normal ignition standby you get a DCDCVoltXChk fault.",
@@ -571,7 +571,7 @@
             "done": false
           },
           {
-            "text": "Ambient air temp sensor not reading correctly.",
+            "text": "Ambient air temp sensor not reading correctly.\n2026-02-25: Resolved, Brandon found a pin with a bad crimp at the temp sensor.",
             "done": true
           },
           {
@@ -584,8 +584,8 @@
           }
         ],
         "total": 16,
-        "done": 7,
-        "open": 9
+        "done": 9,
+        "open": 7
       }
     },
     {
@@ -1371,6 +1371,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-23T21:56:48.952009+00:00",
+  "updated": "2026-03-23T22:32:33.972505+00:00",
   "source": "Google Sheets API"
 }
