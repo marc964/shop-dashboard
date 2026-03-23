@@ -658,24 +658,13 @@
       }
     },
     {
-      "owner": "Alfa",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Startup",
-      "checkout": 38.5,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Preheim",
       "year": 1972,
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 36.5,
+      "checkout": 41.7,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -687,7 +676,7 @@
         },
         {
           "label": "PMU",
-          "value": 18.8
+          "value": 50.0
         },
         {
           "label": "Raptor",
@@ -770,6 +759,17 @@
         "done": 7,
         "open": 9
       }
+    },
+    {
+      "owner": "Alfa",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "Startup",
+      "checkout": 38.5,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Ferdman",
@@ -1371,6 +1371,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-23T16:14:09.668914+00:00",
+  "updated": "2026-03-23T17:11:23.342110+00:00",
   "source": "Google Sheets API"
 }
