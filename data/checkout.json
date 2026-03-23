@@ -541,130 +541,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Witham",
-      "year": 1951,
-      "color": "Green",
-      "make": "Chevrolet",
-      "model": "3100",
-      "status": "Startup",
-      "checkout": 51.6,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 94.3
-        },
-        {
-          "label": "Inverter",
-          "value": 97.1
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 82.7
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Mount small fuseblock that is labeled \"Mount Me\".",
-            "done": false
-          },
-          {
-            "text": "Connect open black wire by 12V battery.",
-            "done": false
-          },
-          {
-            "text": "CAN3 termination is wrong. CAN3 passive fault.",
-            "done": false
-          },
-          {
-            "text": "No brakes, need a bias block or plug.",
-            "done": false
-          },
-          {
-            "text": "PRND not showing up in VCU.",
-            "done": true
-          },
-          {
-            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.",
-            "done": false
-          },
-          {
-            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.",
-            "done": false
-          },
-          {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: Motor type is set incorrectly in the VCU.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: mHeaterType might be set incorrectly inn the VCU.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.",
-            "done": false
-          },
-          {
-            "text": "2026-03-10: Started getting a BattWakeFault again.",
-            "done": false
-          }
-        ],
-        "total": 14,
-        "done": 2,
-        "open": 12
-      }
-    },
-    {
       "owner": "Preheim",
       "year": 1972,
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 46.9,
+      "checkout": 67.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -676,11 +559,11 @@
         },
         {
           "label": "PMU",
-          "value": 81.2
+          "value": 87.5
         },
         {
           "label": "Raptor",
-          "value": 1.9
+          "value": 98.1
         },
         {
           "label": "Functional",
@@ -758,6 +641,123 @@
         "total": 16,
         "done": 7,
         "open": 9
+      }
+    },
+    {
+      "owner": "Coogan",
+      "year": 1969,
+      "color": "Green",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 66.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.2,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "Startup",
+      "checkout": 51.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 94.3
+        },
+        {
+          "label": "Inverter",
+          "value": 98.1
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 82.7
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Mount small fuseblock that is labeled \"Mount Me\".",
+            "done": false
+          },
+          {
+            "text": "Connect open black wire by 12V battery.",
+            "done": false
+          },
+          {
+            "text": "CAN3 termination is wrong. CAN3 passive fault.",
+            "done": false
+          },
+          {
+            "text": "No brakes, need a bias block or plug.",
+            "done": false
+          },
+          {
+            "text": "PRND not showing up in VCU.",
+            "done": true
+          },
+          {
+            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: Motor type is set incorrectly in the VCU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: mHeaterType might be set incorrectly inn the VCU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.",
+            "done": false
+          },
+          {
+            "text": "2026-03-10: Started getting a BattWakeFault again.",
+            "done": false
+          }
+        ],
+        "total": 14,
+        "done": 2,
+        "open": 12
       }
     },
     {
@@ -1371,6 +1371,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-23T18:05:22.279767+00:00",
+  "updated": "2026-03-23T19:14:05.837589+00:00",
   "source": "Google Sheets API"
 }

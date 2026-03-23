@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 11.4,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -33,8 +33,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 97.8,
-      "pct_of_total": 11.2,
+      "total_hours": 98.2,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 16.8
+          "hours": 16.2
         },
         {
           "task": "Battery Pack",
@@ -62,7 +62,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 5.0
+          "hours": 6.0
         },
         {
           "task": "Manufacturing - Support",
@@ -291,7 +291,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 17.0,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Steering",
@@ -324,20 +324,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 157.5,
-    "pct_of_total": 18.1,
-    "avg_per_person_per_day": 1.23,
+    "total_hours": 158.5,
+    "pct_of_total": 18.2,
+    "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 59.0
+        "hours": 59.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 50.5
+        "hours": 51.0
       },
       {
         "label": "Other",
@@ -512,9 +512,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 536.5,
-    "non_billable_hours": 334.5,
+    "billable_hours": 537.0,
+    "non_billable_hours": 335.5,
     "pto_hours": 32.0,
-    "total_hours": 871.0
+    "total_hours": 872.5
   }
 }
