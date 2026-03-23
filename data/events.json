@@ -1,105 +1,15 @@
 {
-  "generated_at": "2026-03-21",
+  "generated_at": "2026-03-23",
   "weeks": [
-    {
-      "week_start": "2026-03-16",
-      "week_label": "Week of Mar 16",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-03-16",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-03-17",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-03-18",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-03-19",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "David W Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-03-20",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Brandon B Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-03-21",
-          "day_name": "Saturday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-03-22",
-          "day_name": "Sunday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        }
-      ]
-    },
     {
       "week_start": "2026-03-23",
       "week_label": "Week of Mar 23",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-03-23",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -141,12 +51,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Noah S Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -159,12 +69,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Noah S Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -289,12 +199,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "David W Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "David W Out",
               "type": "pto",
               "all_day": true
             }
@@ -365,6 +275,68 @@
               "all_day": true
             }
           ]
+        }
+      ]
+    },
+    {
+      "week_start": "2026-04-13",
+      "week_label": "Week of Apr 13",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-04-13",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Noah S Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-04-15",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-04-16",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-04-17",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-04-18",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-04-19",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
         }
       ]
     }
