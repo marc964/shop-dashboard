@@ -664,7 +664,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 41.7,
+      "checkout": 46.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -676,7 +676,7 @@
         },
         {
           "label": "PMU",
-          "value": 50.0
+          "value": 81.2
         },
         {
           "label": "Raptor",
@@ -1371,6 +1371,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-23T17:11:23.342110+00:00",
+  "updated": "2026-03-23T18:05:22.279767+00:00",
   "source": "Google Sheets API"
 }
