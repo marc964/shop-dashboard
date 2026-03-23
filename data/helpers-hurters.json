@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -33,8 +33,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 90.5,
-      "pct_of_total": 10.5,
+      "total_hours": 95.8,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 13.5
+          "hours": 16.8
         },
         {
           "task": "Battery Pack",
@@ -73,11 +73,11 @@
           "hours": 3.5
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 1.0
+          "task": "Charging",
+          "hours": 3.0
         },
         {
-          "task": "Charging",
+          "task": "Wiring - High Voltage",
           "hours": 1.0
         }
       ]
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 82.5,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -287,7 +287,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 16.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Steering",
@@ -321,7 +321,7 @@
   ],
   "shop_work": {
     "total_hours": 157.2,
-    "pct_of_total": 18.2,
+    "pct_of_total": 18.1,
     "avg_per_person_per_day": 1.23,
     "flagged": true,
     "tech_count": 8,
@@ -399,7 +399,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,9 +508,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 528.2,
+    "billable_hours": 533.5,
     "non_billable_hours": 334.2,
     "pto_hours": 32.0,
-    "total_hours": 862.5
+    "total_hours": 867.8
   }
 }
