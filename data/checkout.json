@@ -486,68 +486,13 @@
       }
     },
     {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Preheim",
       "year": 1972,
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 67.9,
+      "checkout": 73.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -563,7 +508,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.1
+          "value": 1.0
         },
         {
           "label": "Functional",
@@ -644,6 +589,61 @@
       }
     },
     {
+      "owner": "Hopkins",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Jaguar",
+      "model": "E-Type",
+      "status": "Shipped",
+      "checkout": 71.4,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1966,
+      "color": "Black",
+      "make": "Porsche",
+      "model": "912",
+      "status": "Shipped",
+      "checkout": 70.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Shipped",
+      "checkout": 69.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Fischer",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "230SL",
+      "status": "Shipped",
+      "checkout": 69.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Strother",
+      "year": 1988,
+      "color": "Red",
+      "make": "Porsche",
+      "model": "911",
+      "status": "Shipped",
+      "checkout": 68.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Coogan",
       "year": 1969,
       "color": "Green",
@@ -672,7 +672,7 @@
       "make": "Chevrolet",
       "model": "3100",
       "status": "Startup",
-      "checkout": 51.7,
+      "checkout": 52.7,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1371,6 +1371,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-23T19:14:05.837589+00:00",
+  "updated": "2026-03-23T19:57:33.609483+00:00",
   "source": "Google Sheets API"
 }
