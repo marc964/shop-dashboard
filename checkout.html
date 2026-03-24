@@ -207,6 +207,8 @@ function getStatusClass(status) {
     if (!status) return 'other';
     var s = status.toLowerCase();
     if (s.includes('testing')) return 'testing';
+    if (s.includes('checkout')) return 'testing';
+    if (s.includes('startup')) return 'fabrication';
     if (s.includes('acceptance')) return 'acceptance';
     if (s.includes('fabrication')) return 'fabrication';
     return 'other';

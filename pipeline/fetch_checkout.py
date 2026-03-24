@@ -55,6 +55,16 @@ def get_sheets_service():
     return build("sheets", "v4", credentials=creds, cache_discovery=False)
 
 
+def find_label_row(label_map, *keywords):
+    """Find a row by keyword substring match in the label map (case-insensitive)."""
+    for kw in keywords:
+        kw_lower = kw.lower()
+        for label, row_idx in label_map.items():
+            if kw_lower in label.lower():
+                return row_idx
+    return None
+
+
 def parse_pct(value):
     """Parse a percentage value from a cell. Handles '88.7%', 0.887, 88.7, etc."""
     if isinstance(value, (int, float)):
@@ -145,22 +155,23 @@ def parse_ampere_punchlist(service):
             if name:
                 owner_map[name] = col_idx
 
-    # Find "Punchlist" row in column A — must be exact match (not "Battery Box Punch List")
+    # Find the main "Punchlist" / "Punch List" row in column A
+    # Must be exact match (not "Battery Box #1 Punch List")
     punchlist_row = -1
     for row_idx in range(5, len(row_data)):
-        label = cell_text(get_cell(row_idx, 0)).lower()
-        if label == "punchlist" or label == "punch list":
+        label = cell_text(get_cell(row_idx, 0)).lower().strip()
+        if label in ("punchlist", "punch list"):
             punchlist_row = row_idx
             break
 
     if punchlist_row < 0:
         return {}
 
-    # Find Item rows after the punchlist header
+    # Find Item/ToDo rows after the punchlist header
     item_rows = []
     for row_idx in range(punchlist_row + 1, len(row_data)):
         label = cell_text(get_cell(row_idx, 0)).lower()
-        if label.startswith("item"):
+        if label.startswith("item") or label.startswith("todo") or label.startswith("to do"):
             item_rows.append(row_idx)
         elif label:
             break
@@ -217,8 +228,8 @@ def parse_ampere_overview(service):
         if row and row[0]:
             label_map[str(row[0]).strip()] = i
 
-    checkout_row = label_map.get("Checkout Progress")
-    status_row = label_map.get("Status")
+    checkout_row = find_label_row(label_map, "progress", "checkout %")
+    status_row = find_label_row(label_map, "status")
 
     # Find vehicle columns: row 0 has owner names starting at col 1
     owner_row = rows[0] if rows else []
@@ -299,13 +310,13 @@ def parse_aem_vehicles(service):
         if row and row[0]:
             label_map[str(row[0]).strip()] = i
 
-    owner_row = label_map.get("Vehicle Owner")
-    year_row = label_map.get("Vehicle Year")
-    color_row = label_map.get("Vehicle Color")
-    make_row = label_map.get("Vehicle Make")
-    model_row = label_map.get("Vehicle Model")
-    checkout_row = label_map.get("Checkout Progress")
-    status_row = label_map.get("Checkout Status")
+    owner_row = find_label_row(label_map, "owner")
+    year_row = find_label_row(label_map, "year")
+    color_row = find_label_row(label_map, "color")
+    make_row = find_label_row(label_map, "make")
+    model_row = find_label_row(label_map, "model")
+    checkout_row = find_label_row(label_map, "progress", "checkout %")
+    status_row = find_label_row(label_map, "status")
 
     if owner_row is None:
         return []
