@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 118.8,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -57,8 +57,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 102.2,
-      "pct_of_total": 10.5,
+      "total_hours": 108.2,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -66,7 +66,7 @@
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 24.5
+          "hours": 27.0
         },
         {
           "task": "Cooling",
@@ -79,6 +79,14 @@
         {
           "task": "Wiring - OEM",
           "hours": 3.5
+        },
+        {
+          "task": "Interior",
+          "hours": 1.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.8
         },
         {
           "task": "Kit - Product",
@@ -97,7 +105,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 99.0,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -128,7 +136,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 76.8,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -183,7 +191,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -249,7 +257,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 19.0,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -328,20 +336,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 188.2,
+    "total_hours": 190.2,
     "pct_of_total": 19.4,
-    "avg_per_person_per_day": 1.38,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 66.2
+        "hours": 66.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 55.8
+        "hours": 56.2
       },
       {
         "label": "Other",
@@ -349,7 +357,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 20.0
+        "hours": 21.0
       },
       {
         "label": "Organization",
@@ -530,9 +538,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 596.2,
-    "non_billable_hours": 376.0,
+    "billable_hours": 602.2,
+    "non_billable_hours": 378.0,
     "pto_hours": 32.0,
-    "total_hours": 972.2
+    "total_hours": 980.2
   }
 }
