@@ -1,131 +1,13 @@
 {
   "vehicles": [
     {
-      "owner": "Vargas",
-      "year": 1966,
-      "color": "Red",
-      "make": "Ford",
-      "model": "Mustang",
-      "status": "Shipped",
-      "checkout": 100,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 100
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 100
-        },
-        {
-          "label": "Functional",
-          "value": 100
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Barton",
-      "year": 1959,
-      "color": "White",
-      "make": "Chevrolet",
-      "model": "Impala",
-      "status": "Testing & Tuning",
-      "checkout": 95.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 100
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 1.0
-        },
-        {
-          "label": "Functional",
-          "value": 69.2
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Feldman",
-      "year": 1969,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "280SE",
-      "status": "Shipped",
-      "checkout": 94.4,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 95.2
-        },
-        {
-          "label": "Inverter",
-          "value": 100
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 98.1
-        },
-        {
-          "label": "Functional",
-          "value": 84.6
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Shah",
       "year": 1965,
       "color": "Silver",
       "make": "Ford",
       "model": "Mustang",
-      "status": "Shipped",
-      "checkout": 88.7,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -151,17 +33,17 @@
       "system": "Ampere"
     },
     {
-      "owner": "Buck",
-      "year": 1971,
+      "owner": "Vargas",
+      "year": 1966,
       "color": "Red",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 80.6,
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 97.1
+          "value": 100
         },
         {
           "label": "Inverter",
@@ -177,75 +59,10 @@
         },
         {
           "label": "Functional",
-          "value": 3.8
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Checkout",
-      "checkout": 80.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "GMC",
-      "year": 1963,
-      "color": "Blue",
-      "make": "GMC",
-      "model": "Truck",
-      "status": "Shipped",
-      "checkout": 79.7,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Preheim",
-      "year": 1972,
-      "color": "Blue",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Checkout",
-      "checkout": 76.7,
-      "sub_metrics": [
-        {
-          "label": "BMS",
           "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 82.5
-        },
-        {
-          "label": "PMU",
-          "value": 87.5
-        },
-        {
-          "label": "Raptor",
-          "value": 1.0
-        },
-        {
-          "label": "Functional",
-          "value": 3.8
         }
       ],
       "system": "Ampere"
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Checkout",
-      "checkout": 74.7,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Connolly",
@@ -253,8 +70,8 @@
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
-      "status": "Testing & Tuning",
-      "checkout": 74.4,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -280,205 +97,85 @@
       "system": "Ampere"
     },
     {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Witham",
-      "year": 1951,
-      "color": "Green",
-      "make": "Chevrolet",
-      "model": "3100",
-      "status": "Startup",
-      "checkout": 52.7,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 94.3
-        },
-        {
-          "label": "Inverter",
-          "value": 98.1
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 82.7
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Alfa",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Startup",
-      "checkout": 38.5,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Ferdman",
-      "year": 1966,
+      "owner": "Barton",
+      "year": 1959,
       "color": "White",
-      "make": "Volkswagen",
-      "model": "Micro Bus",
-      "status": "Startup",
-      "checkout": 29.3,
+      "make": "Chevrolet",
+      "model": "Impala",
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 91.4
+          "value": 100
         },
         {
           "label": "Inverter",
-          "value": 78.6
+          "value": 100
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 100
         },
         {
           "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Kelly",
-      "year": 1963,
-      "color": "Blue",
-      "make": "Chevrolet",
-      "model": "Corvette",
-      "status": "Testing & Tuning",
-      "checkout": 22.4,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 68.6
-        },
-        {
-          "label": "Inverter",
           "value": 1.0
         },
         {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
           "label": "Functional",
-          "value": 0
+          "value": 69.2
         }
       ],
       "system": "Ampere"
     },
     {
-      "owner": "Alvarez",
-      "year": 1966,
-      "color": "Green",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Shipped",
-      "checkout": 19.6,
+      "owner": "Buck",
+      "year": 1971,
+      "color": "Red",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 73.3
+          "value": 97.1
         },
         {
           "label": "Inverter",
-          "value": 1.9
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 3.8
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 0
         },
         {
           "label": "PMU",
@@ -486,7 +183,7 @@
         },
         {
           "label": "Raptor",
-          "value": 30.8
+          "value": 0
         },
         {
           "label": "Functional",
@@ -501,226 +198,12 @@
       "color": "",
       "make": "Mercedes",
       "model": "190E",
-      "status": "Fabrication",
-      "checkout": 16.7,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
           "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "McDonough",
-      "year": 1977,
-      "color": "Red",
-      "make": "Lotus",
-      "model": "Esprit",
-      "status": "Fabrication",
-      "checkout": 16.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Teague",
-      "year": 1962,
-      "color": "",
-      "make": "Jaguar",
-      "model": "",
-      "status": "Fabrication",
-      "checkout": 16.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Chuter",
-      "year": 1962,
-      "color": "Red + White",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Fabrication",
-      "checkout": 16.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Icon",
-      "year": 1967,
-      "color": "Black",
-      "make": "Ford",
-      "model": "Bronco",
-      "status": "Shipped",
-      "checkout": 14.2,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 22.9
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 26.9
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Dan Henry",
-      "year": 1961,
-      "color": "Green",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Testing & Tuning",
-      "checkout": 13.7,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 81.9
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Simpson",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "190B",
-      "status": "Shipped",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Henry",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "Healey",
-      "status": "Testing & Tuning",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Ampere Default",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "",
-      "status": "Shipped",
-      "checkout": 0.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 2.9
         },
         {
           "label": "Inverter",
@@ -747,12 +230,44 @@
       "color": "",
       "make": "Datsun",
       "model": "240Z",
-      "status": "Fabrication",
-      "checkout": 0,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
           "value": 0
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "",
+      "make": "Jaguar",
+      "model": "",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
         },
         {
           "label": "Inverter",
@@ -779,8 +294,8 @@
       "color": "",
       "make": "",
       "model": "Challenger",
-      "status": "Fabrication",
-      "checkout": 0,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -811,8 +326,8 @@
       "color": "",
       "make": "",
       "model": "Corvette",
-      "status": "Fabrication",
-      "checkout": 0,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -843,8 +358,8 @@
       "color": "",
       "make": "Chevrolet",
       "model": "Blazer",
-      "status": "Fabrication",
-      "checkout": 0,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -875,7 +390,7 @@
       "color": "#REF! (Reference does not exist.)",
       "make": "#REF! (Reference does not exist.)",
       "model": "#REF! (Reference does not exist.)",
-      "status": "#REF! (Reference does not exist.)",
+      "status": "",
       "checkout": 0.0,
       "sub_metrics": [
         {
@@ -897,6 +412,198 @@
         {
           "label": "Functional",
           "value": 0.0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Feldman",
+      "year": 1969,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "280SE",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 95.2
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 98.1
+        },
+        {
+          "label": "Functional",
+          "value": 84.6
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Preheim",
+      "year": 1972,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 82.5
+        },
+        {
+          "label": "PMU",
+          "value": 87.5
+        },
+        {
+          "label": "Raptor",
+          "value": 1.0
+        },
+        {
+          "label": "Functional",
+          "value": 3.8
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 94.3
+        },
+        {
+          "label": "Inverter",
+          "value": 98.1
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 82.7
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Icon",
+      "year": 1967,
+      "color": "Black",
+      "make": "Ford",
+      "model": "Bronco",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 22.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 26.9
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Kelly",
+      "year": 1963,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 68.6
+        },
+        {
+          "label": "Inverter",
+          "value": 1.0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
         }
       ],
       "system": "Ampere"
@@ -907,8 +614,8 @@
       "color": "Black",
       "make": "Ford",
       "model": "Bronco",
-      "status": "Shipped",
-      "checkout": 0,
+      "status": "",
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -934,12 +641,44 @@
       "system": "Ampere"
     },
     {
+      "owner": "Ferdman",
+      "year": 1966,
+      "color": "White",
+      "make": "Volkswagen",
+      "model": "Micro Bus",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 91.4
+        },
+        {
+          "label": "Inverter",
+          "value": 78.6
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "#REF! (Reference does not exist.)",
       "year": null,
       "color": "#REF! (Reference does not exist.)",
       "make": "#REF! (Reference does not exist.)",
       "model": "#REF! (Reference does not exist.)",
-      "status": "#REF! (Reference does not exist.)",
+      "status": "",
       "checkout": 0.0,
       "sub_metrics": [
         {
@@ -964,8 +703,269 @@
         }
       ],
       "system": "Ampere"
+    },
+    {
+      "owner": "Alvarez",
+      "year": 1966,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 73.3
+        },
+        {
+          "label": "Inverter",
+          "value": 1.9
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 30.8
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Dan Henry",
+      "year": 1961,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 81.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Ampere Default",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 2.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1966,
+      "color": "Black",
+      "make": "Porsche",
+      "model": "912",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Hastert",
+      "year": 1960,
+      "color": "Green",
+      "make": "Ford",
+      "model": "F-250",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Miner",
+      "year": 1995,
+      "color": "Green",
+      "make": "Porsche",
+      "model": "993",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Strother",
+      "year": 1988,
+      "color": "Red",
+      "make": "Porsche",
+      "model": "911",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Alfa",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "GMC",
+      "year": 1963,
+      "color": "Blue",
+      "make": "GMC",
+      "model": "Truck",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Coogan",
+      "year": 1969,
+      "color": "Green",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Witter",
+      "year": 1970,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Fischer",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "230SL",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Hopkins",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Jaguar",
+      "model": "E-Type",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Simpson",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "190B",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Henry",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "Healey",
+      "status": "",
+      "checkout": 0.0,
+      "sub_metrics": [],
+      "system": "AEM"
     }
   ],
-  "updated": "2026-03-24T15:20:44.626690+00:00",
+  "updated": "2026-03-24T16:37:15.916309+00:00",
   "source": "Google Sheets API"
 }
