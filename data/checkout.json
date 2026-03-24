@@ -205,6 +205,38 @@
       "system": "AEM"
     },
     {
+      "owner": "Preheim",
+      "year": 1972,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Checkout",
+      "checkout": 76.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 82.5
+        },
+        {
+          "label": "PMU",
+          "value": 87.5
+        },
+        {
+          "label": "Raptor",
+          "value": 1.0
+        },
+        {
+          "label": "Functional",
+          "value": 3.8
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -243,38 +275,6 @@
         {
           "label": "Functional",
           "value": 15.4
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Preheim",
-      "year": 1972,
-      "color": "Blue",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Checkout",
-      "checkout": 73.8,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 92.4
-        },
-        {
-          "label": "Inverter",
-          "value": 82.5
-        },
-        {
-          "label": "PMU",
-          "value": 87.5
-        },
-        {
-          "label": "Raptor",
-          "value": 1.0
-        },
-        {
-          "label": "Functional",
-          "value": 0
         }
       ],
       "system": "Ampere"
@@ -966,6 +966,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-24T01:55:37.903473+00:00",
+  "updated": "2026-03-24T04:19:28.020140+00:00",
   "source": "Google Sheets API"
 }
