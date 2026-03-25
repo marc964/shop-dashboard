@@ -1,9 +1,9 @@
 name: Post Vehicle Summaries to Slack
 
 on:
-  schedule:
-    - cron: '0 23 * * 1-5'  # 6PM CT (UTC-5) weekdays
-  workflow_dispatch:         # manual trigger
+  # schedule:
+  #   - cron: '0 23 * * 1-5'  # 6PM CT (UTC-5) weekdays
+  workflow_dispatch:         # manual trigger only for now
 
 jobs:
   post-summaries:
