@@ -234,11 +234,16 @@ function renderCard(vehicle) {
     html += '</div>';
 
     if (pl && pl.items && pl.items.length > 0) {
+        var items = pl.items.filter(function(it) {
+            var t = it.text.trim();
+            return t && t !== '-';
+        });
+    }
+    if (items && items.length > 0) {
         html += '<div class="punchlist-body">';
         html += '<div class="punchlist-title">Punch List</div>';
         html += '<div class="punchlist-grid">';
 
-        var items = pl.items;
         var half = Math.ceil(items.length / 2);
         var leftItems = items.slice(0, half);
         var rightItems = items.slice(half);
@@ -267,11 +272,6 @@ function renderCard(vehicle) {
 
         html += '</div></div>';
     }
-
-    html += '<div class="summary-footer">' +
-        '<span class="company">Moment Motor Co.</span>' +
-        '<span>' + dateStr + '</span>' +
-        '</div>';
 
     html += '</div>';
     return html;
