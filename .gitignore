@@ -17,5 +17,11 @@ Thumbs.db
 # Secrets
 moment-motors-automation-*.json
 
+# Node
+node_modules/
+
+# Snapshots (generated PNGs, not committed)
+data/snapshots/
+
 # Claude
 .claude/
