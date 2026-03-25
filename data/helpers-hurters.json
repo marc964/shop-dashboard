@@ -56,6 +56,37 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 111.5,
+      "pct_of_total": 10.8,
+      "tasks": [
+        {
+          "task": "Engineering - Product",
+          "hours": 35.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 27.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 22.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 14.8
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 9.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.8
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 108.2,
       "pct_of_total": 10.5,
@@ -103,40 +134,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 106.5,
-      "pct_of_total": 10.4,
-      "tasks": [
-        {
-          "task": "Engineering - Product",
-          "hours": 30.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 27.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 22.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 14.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 9.5
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 2.8
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 84.0,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -336,9 +336,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 199.0,
-    "pct_of_total": 19.4,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 199.8,
+    "pct_of_total": 19.3,
+    "avg_per_person_per_day": 1.39,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
@@ -349,11 +349,11 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 59.0
+        "hours": 59.2
       },
       {
         "label": "Other",
-        "hours": 35.0
+        "hours": 35.5
       },
       {
         "label": "Personal Meetings",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 43.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -415,7 +415,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -538,9 +538,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 640.8,
-    "non_billable_hours": 386.8,
+    "billable_hours": 645.8,
+    "non_billable_hours": 387.5,
     "pto_hours": 32.0,
-    "total_hours": 1027.5
+    "total_hours": 1033.2
   }
 }
