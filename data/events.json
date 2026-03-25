@@ -169,12 +169,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J long lunch",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Jordan J long lunch",
               "type": "pto",
               "all_day": true
             }
@@ -257,12 +257,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Brandon B Out",
+              "summary": "David W Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "David W Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             }
