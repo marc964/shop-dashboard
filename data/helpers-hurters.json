@@ -256,12 +256,12 @@
     },
     {
       "project": "Nagel 65 Scout",
-      "total_hours": 19.5,
-      "pct_of_total": 1.9,
+      "total_hours": 20.5,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 13.5
+          "hours": 14.5
         },
         {
           "task": "Manufacturing - Core",
@@ -538,9 +538,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 619.5,
+    "billable_hours": 620.5,
     "non_billable_hours": 381.2,
     "pto_hours": 32.0,
-    "total_hours": 1000.8
+    "total_hours": 1001.8
   }
 }
