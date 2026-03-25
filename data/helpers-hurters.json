@@ -2,20 +2,20 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 118.8,
-      "pct_of_total": 11.9,
+      "total_hours": 134.0,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 31.0
+          "hours": 39.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 16.5
         },
         {
           "task": "Vehicle Control",
           "hours": 16.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 13.5
         },
         {
           "task": "Battery Pack",
@@ -34,6 +34,10 @@
           "hours": 8.5
         },
         {
+          "task": "Interior",
+          "hours": 6.0
+        },
+        {
           "task": "Manufacturing - Support",
           "hours": 5.0
         },
@@ -46,10 +50,6 @@
           "hours": 3.0
         },
         {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
           "task": "Wiring - High Voltage",
           "hours": 1.0
         }
@@ -58,7 +58,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 108.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -105,7 +105,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 106.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -136,7 +136,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 84.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -191,7 +191,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -226,7 +226,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 33.0,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -272,7 +272,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 19.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -291,7 +291,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 17.8,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Interior",
@@ -316,40 +316,40 @@
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
+      "project": "Cohn 64 Corvette",
       "total_hours": 14.5,
       "pct_of_total": 1.4,
       "tasks": [
         {
-          "task": "Inspection",
-          "hours": 7.0
+          "task": "Manufacturing - Product",
+          "hours": 11.0
+        },
+        {
+          "task": "Kit - Product",
+          "hours": 2.0
         },
         {
           "task": "Vehicle Control",
-          "hours": 6.8
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 0.8
+          "hours": 1.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 193.8,
-    "pct_of_total": 19.3,
-    "avg_per_person_per_day": 1.35,
+    "total_hours": 199.0,
+    "pct_of_total": 19.4,
+    "avg_per_person_per_day": 1.38,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 68.5
+        "hours": 70.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.5
+        "hours": 59.0
       },
       {
         "label": "Other",
@@ -357,11 +357,11 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 21.0
+        "hours": 21.5
       },
       {
         "label": "Organization",
-        "hours": 6.2
+        "hours": 7.8
       },
       {
         "label": "Errands",
@@ -373,7 +373,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 43.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +399,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 38.8,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -445,7 +445,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 30.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -538,9 +538,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 620.5,
-    "non_billable_hours": 381.5,
+    "billable_hours": 640.8,
+    "non_billable_hours": 386.8,
     "pto_hours": 32.0,
-    "total_hours": 1002.0
+    "total_hours": 1027.5
   }
 }
