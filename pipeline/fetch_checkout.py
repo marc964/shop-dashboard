@@ -286,6 +286,116 @@ def parse_ampere_overview(service):
     return vehicles
 
 
+def parse_aem_punchlist(service):
+    """
+    Parse punchlist items from AEM 'Vehicles' tab.
+
+    Finds the "Punch List" header row, then reads ToDo rows below it.
+    Uses grid data for strikethrough detection (same approach as Ampere).
+    Returns dict mapping owner name -> punchlist data.
+    """
+    result = service.spreadsheets().get(
+        spreadsheetId=AEM_SHEET_ID,
+        ranges=["Vehicles"],
+        includeGridData=True,
+    ).execute()
+
+    sheets = result.get("sheets", [])
+    if not sheets:
+        return {}
+
+    grid_data = sheets[0].get("data", [])
+    if not grid_data:
+        return {}
+
+    row_data = grid_data[0].get("rowData", [])
+    if not row_data:
+        return {}
+
+    def get_cell(row_idx, col_idx):
+        if row_idx >= len(row_data):
+            return {}
+        values = row_data[row_idx].get("values", [])
+        if col_idx < len(values):
+            return values[col_idx]
+        return {}
+
+    def cell_text(cell):
+        ev = cell.get("effectiveValue", {})
+        if "stringValue" in ev:
+            return ev["stringValue"].strip()
+        if "numberValue" in ev:
+            return str(ev["numberValue"])
+        return cell.get("formattedValue", "").strip()
+
+    def is_strikethrough(cell):
+        fmt = cell.get("effectiveFormat", {})
+        text_fmt = fmt.get("textFormat", {})
+        if text_fmt.get("strikethrough", False):
+            return True
+        runs = cell.get("textFormatRuns", [])
+        if not runs:
+            return False
+        return all(
+            r.get("format", {}).get("strikethrough", False) for r in runs
+        )
+
+    # Build owner map from the "Vehicle Owner" row (row 0, cols B+)
+    owner_map = {}  # owner_name -> col_idx
+    if row_data:
+        vals = row_data[0].get("values", [])
+        for col_idx in range(1, len(vals)):
+            name = cell_text(vals[col_idx])
+            if name:
+                owner_map[name] = col_idx
+
+    # Find the "Punch List" header row
+    punchlist_row = -1
+    for row_idx in range(5, len(row_data)):
+        label = cell_text(get_cell(row_idx, 0)).lower().strip()
+        if label in ("punchlist", "punch list"):
+            punchlist_row = row_idx
+            break
+
+    if punchlist_row < 0:
+        return {}
+
+    # Find ToDo rows after the punchlist header
+    item_rows = []
+    for row_idx in range(punchlist_row + 1, len(row_data)):
+        label = cell_text(get_cell(row_idx, 0)).lower()
+        if label.startswith("todo") or label.startswith("to do"):
+            item_rows.append(row_idx)
+        elif label and not label.startswith("todo") and not label.startswith("to do"):
+            break
+
+    if not item_rows:
+        return {}
+
+    # Parse punchlist items per vehicle column
+    punchlists = {}
+    for owner, col_idx in owner_map.items():
+        items = []
+        for row_idx in item_rows:
+            cell = get_cell(row_idx, col_idx)
+            text = cell_text(cell)
+            if not text:
+                continue
+            done = is_strikethrough(cell)
+            items.append({"text": text, "done": done})
+
+        if items:
+            done_count = sum(1 for it in items if it["done"])
+            punchlists[owner] = {
+                "items": items,
+                "total": len(items),
+                "done": done_count,
+                "open": len(items) - done_count,
+            }
+
+    return punchlists
+
+
 def parse_aem_vehicles(service):
     """
     Parse the AEM 'Vehicles' sheet.
@@ -399,6 +509,15 @@ def fetch_checkout_data():
     try:
         vehicles = parse_aem_vehicles(service)
         print(f"    Found {len(vehicles)} AEM vehicles")
+
+        # Punchlist from Vehicles tab
+        punchlists = parse_aem_punchlist(service)
+        pl_count = sum(1 for v in vehicles if v["owner"] in punchlists)
+        print(f"    Matched punchlists for {pl_count} vehicles")
+        for v in vehicles:
+            if v["owner"] in punchlists:
+                v["punchlist"] = punchlists[v["owner"]]
+
         all_vehicles.extend(vehicles)
     except Exception as e:
         print(f"    ERROR fetching AEM: {e}")

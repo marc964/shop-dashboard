@@ -84,7 +84,46 @@
       "status": "Shipped",
       "checkout": 97.8,
       "sub_metrics": [],
-      "system": "AEM"
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          },
+          {
+            "text": "-",
+            "done": false
+          }
+        ],
+        "total": 8,
+        "done": 0,
+        "open": 8
+      }
     },
     {
       "owner": "Barton",
@@ -355,7 +394,82 @@
       "status": "Checkout",
       "checkout": 83.4,
       "sub_metrics": [],
-      "system": "AEM"
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.",
+            "done": false
+          },
+          {
+            "text": "2026-02-xx: Verify inverter RTD calibration.",
+            "done": false
+          },
+          {
+            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
+            "done": true
+          },
+          {
+            "text": "2026-03-04: Vehicle does not PreCharge.\n2026-03-04: Resolved, Had to correct an ISO-SPI wiring flip and re-terminate some resolver pins.",
+            "done": true
+          },
+          {
+            "text": "2026-02-xx: Only 185 of 400 PackVolts showing up in the VCU. Box #2 is missing from the BMS overview.\n2026-03-04: Resolved, found ISO-SPI to be flipped between Box #1 and Box #2.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Inverter Fault: Resolver Not Connected.\n2026-03-04: Resolved, found the crimps on the excitation pins were poor. Remade & problem disappeared.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.",
+            "done": false
+          },
+          {
+            "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-05: The power gauge moves backwards.\n2026-03-06: Resolved, the IVT was inverted in the VCU.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Charge port seems sort of loose and a piece of rubber interferes with the lock latch.\n2026-03-24: Resolved, Not a loud click like other vehicles but it does indeed latch.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Need to setup the IVT to track energy.\n2026-03-24: Resolved, Fixed IVT setup script, ran and verified new CAN messages exist.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.",
+            "done": false
+          },
+          {
+            "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
+            "done": true
+          },
+          {
+            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.",
+            "done": false
+          },
+          {
+            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.",
+            "done": false
+          },
+          {
+            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.",
+            "done": false
+          }
+        ],
+        "total": 17,
+        "done": 9,
+        "open": 8
+      }
     },
     {
       "owner": "Buck",
@@ -421,7 +535,94 @@
       "status": "Checkout",
       "checkout": 80.1,
       "sub_metrics": [],
-      "system": "AEM"
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "12V Dies overnight, Fixed by moving CCU constant power to switched. Dave fixed this winter 2025.",
+            "done": false
+          },
+          {
+            "text": "Regen bumps in and out at 60 mph. Fixed with new firmware summer 2025.",
+            "done": false
+          },
+          {
+            "text": "Swap BMS Module #5, Answer Any Questions For Dave",
+            "done": false
+          },
+          {
+            "text": "Review Range Data, Update Table",
+            "done": false
+          },
+          {
+            "text": "Update OCV Table Per Cell Chemistry",
+            "done": false
+          },
+          {
+            "text": "Create + Review PreCharge Graph",
+            "done": false
+          },
+          {
+            "text": "Review ExtTherm Calibration Table",
+            "done": false
+          },
+          {
+            "text": "Review Pack Capacity Data, Update Max",
+            "done": false
+          },
+          {
+            "text": "Review VCU300 OCV calculation model",
+            "done": false
+          },
+          {
+            "text": "Plot and Review Cell Delta",
+            "done": false
+          },
+          {
+            "text": "Plot and Review Cell Limiters",
+            "done": false
+          },
+          {
+            "text": "Review Consumption Numbers, Verify Caps Are Reasonable",
+            "done": false
+          },
+          {
+            "text": "Validate Full Gauges With Program",
+            "done": false
+          },
+          {
+            "text": "Plot and Review Vehicle Temperatures",
+            "done": false
+          },
+          {
+            "text": "Plot and Review Full Charge",
+            "done": false
+          },
+          {
+            "text": "Plot and Review Full Discharge",
+            "done": false
+          },
+          {
+            "text": "Eliminate Incorrect BMS Fault on Digital Dash",
+            "done": false
+          },
+          {
+            "text": "Validate Full Digital Dash With Program",
+            "done": false
+          },
+          {
+            "text": "Enter Wi-Fi Credentials",
+            "done": false
+          },
+          {
+            "text": "Find a way to turn off unused BMS slots.",
+            "done": false
+          }
+        ],
+        "total": 20,
+        "done": 0,
+        "open": 20
+      }
     },
     {
       "owner": "GMC",
@@ -656,7 +857,22 @@
       "status": "Shipped",
       "checkout": 66.1,
       "sub_metrics": [],
-      "system": "AEM"
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "kW gauge seemed off aroud the 0 breakpoint",
+            "done": false
+          },
+          {
+            "text": "Update Wi-Fi",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
     },
     {
       "owner": "Wilson",
@@ -1375,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-25T13:51:09.658264+00:00",
+  "updated": "2026-03-25T14:37:50.150577+00:00",
   "source": "Google Sheets API"
 }

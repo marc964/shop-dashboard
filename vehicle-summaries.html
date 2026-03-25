@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Motor Co. — Vehicle Summary Cards</title>
+    <link rel="stylesheet" href="shared/dashboard.css">
+    <style>
+        body {
+            overflow: auto;
+            height: auto;
+        }
+
+        .page-header {
+            max-width: 1100px;
+            margin: 32px auto 0;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .page-header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .page-header .subtitle {
+            font-size: 16px;
+            color: #8a8aa0;
+            margin-top: 2px;
+        }
+        .page-header .back-link {
+            font-size: 14px;
+            color: #2b7bb9;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .page-header .back-link:hover { text-decoration: underline; }
+
+        .summaries-list {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 24px 32px 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .summary-card {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.06);
+            overflow: hidden;
+        }
+
+        .summary-header {
+            padding: 24px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f5;
+        }
+        .summary-header .owner-name {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a1a2e;
+            letter-spacing: -0.3px;
+        }
+        .summary-header .vehicle-label {
+            font-size: 20px;
+            font-weight: 400;
+            color: #8a8aa0;
+        }
+
+        .progress-section {
+            padding: 20px 32px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            border-bottom: 1px solid #f0f0f5;
+        }
+        .progress-section .progress-bar-container {
+            flex: 1;
+            height: 14px;
+        }
+        .progress-pct {
+            font-size: 18px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .progress-section .status-badge {
+            display: inline-block;
+            padding: 5px 14px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 0.3px;
+        }
+        .status-testing { background: #e8f4fd; color: #2b7bb9; }
+        .status-acceptance { background: #e6f9ee; color: #1a8a4a; }
+        .status-fabrication { background: #fff3e0; color: #f5a623; }
+        .status-other { background: #f0f0f5; color: #6b6b80; }
+
+        .punchlist-body {
+            padding: 24px 32px 32px;
+        }
+        .punchlist-title {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+        .punchlist-grid {
+            display: flex;
+            gap: 40px;
+        }
+        .pl-column {
+            flex: 1;
+        }
+        .pl-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #f5f6f8;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .pl-num {
+            flex-shrink: 0;
+            font-weight: 700;
+            color: #2b7bb9;
+            min-width: 24px;
+        }
+        .pl-item.done .pl-num {
+            color: #bbb;
+        }
+        .pl-item.done .pl-text {
+            text-decoration: line-through;
+            color: #aaa;
+        }
+        .pl-text {
+            color: #1a1a2e;
+            white-space: pre-line;
+        }
+
+        .summary-footer {
+            padding: 20px 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #f0f0f5;
+            font-size: 13px;
+            color: #8a8aa0;
+        }
+        .summary-footer .company {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #1a1a2e;
+        }
+    </style>
+</head>
+<body>
+<div class="page-header">
+    <div>
+        <h1>Vehicle Summary Cards</h1>
+        <div class="subtitle">Full punchlist view — preview before posting to Slack</div>
+    </div>
+    <a href="index.html" class="back-link">&larr; Back to Dashboards</a>
+</div>
+
+<div class="summaries-list" id="summariesList">
+    <div class="loading-msg">Loading vehicle data...</div>
+</div>
+
+<script src="shared/dashboard.js"></script>
+<script>
+var DATA_URL = 'data/checkout.json';
+
+function getStatusClass(status) {
+    if (!status) return 'other';
+    var s = status.toLowerCase();
+    if (s.includes('testing') || s.includes('checkout')) return 'testing';
+    if (s.includes('startup') || s.includes('fabrication')) return 'fabrication';
+    if (s.includes('acceptance')) return 'acceptance';
+    return 'other';
+}
+
+function getVehicleLabel(v) {
+    var parts = [];
+    if (v.year) parts.push(v.year);
+    if (v.make) parts.push(v.make);
+    if (v.model) parts.push(v.model);
+    return parts.join(' ') || 'TBD';
+}
+
+function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function formatDate() {
+    var now = new Date();
+    var opts = { year: 'numeric', month: 'long', day: 'numeric' };
+    return now.toLocaleDateString('en-US', opts);
+}
+
+function renderCard(vehicle) {
+    var v = vehicle;
+    var cls = getPctClass(v.checkout);
+    var statusCls = getStatusClass(v.status);
+    var label = getVehicleLabel(v);
+    var pl = v.punchlist;
+    var dateStr = formatDate();
+
+    var html = '<div class="summary-card">';
+
+    html += '<div class="summary-header">' +
+        '<span class="owner-name">' + escapeHtml(v.owner) + '</span>' +
+        '<span class="vehicle-label">' + escapeHtml(label) + '</span>' +
+        '</div>';
+
+    html += '<div class="progress-section">' +
+        '<div class="progress-bar-container"><div class="progress-bar-fill fill-' + cls + '" style="width:' + v.checkout + '%"></div></div>' +
+        '<span class="progress-pct pct-' + cls + '">' + v.checkout.toFixed(1) + '%</span>';
+    if (v.status) {
+        html += '<span class="status-badge status-' + statusCls + '">' + escapeHtml(v.status) + '</span>';
+    }
+    html += '</div>';
+
+    if (pl && pl.items && pl.items.length > 0) {
+        html += '<div class="punchlist-body">';
+        html += '<div class="punchlist-title">Punch List</div>';
+        html += '<div class="punchlist-grid">';
+
+        var items = pl.items;
+        var half = Math.ceil(items.length / 2);
+        var leftItems = items.slice(0, half);
+        var rightItems = items.slice(half);
+
+        html += '<div class="pl-column">';
+        for (var i = 0; i < leftItems.length; i++) {
+            var item = leftItems[i];
+            var doneCls = item.done ? ' done' : '';
+            html += '<div class="pl-item' + doneCls + '">' +
+                '<span class="pl-num">' + (i + 1) + '</span>' +
+                '<span class="pl-text">' + escapeHtml(item.text) + '</span>' +
+                '</div>';
+        }
+        html += '</div>';
+
+        html += '<div class="pl-column">';
+        for (var j = 0; j < rightItems.length; j++) {
+            var item2 = rightItems[j];
+            var doneCls2 = item2.done ? ' done' : '';
+            html += '<div class="pl-item' + doneCls2 + '">' +
+                '<span class="pl-num">' + (half + j + 1) + '</span>' +
+                '<span class="pl-text">' + escapeHtml(item2.text) + '</span>' +
+                '</div>';
+        }
+        html += '</div>';
+
+        html += '</div></div>';
+    }
+
+    html += '<div class="summary-footer">' +
+        '<span class="company">Moment Motor Co.</span>' +
+        '<span>' + dateStr + '</span>' +
+        '</div>';
+
+    html += '</div>';
+    return html;
+}
+
+async function loadData() {
+    try {
+        var json = await fetchData(DATA_URL);
+        var vehicles = (json.vehicles || []).filter(function(v) {
+            return v.punchlist && v.punchlist.items && v.punchlist.items.length > 0;
+        });
+
+        // Sort by checkout % descending
+        vehicles.sort(function(a, b) { return b.checkout - a.checkout; });
+
+        if (vehicles.length === 0) {
+            document.getElementById('summariesList').innerHTML =
+                '<div class="loading-msg">No vehicles with punchlist data found.</div>';
+            return;
+        }
+
+        document.getElementById('summariesList').innerHTML = vehicles.map(renderCard).join('');
+    } catch (err) {
+        document.getElementById('summariesList').innerHTML =
+            '<div class="loading-msg">Failed to load data: ' + escapeHtml(err.message) + '</div>';
+    }
+}
+
+loadData();
+</script>
+</body>
+</html>
