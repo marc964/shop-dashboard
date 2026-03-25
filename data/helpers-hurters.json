@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 134.0,
-      "pct_of_total": 12.8,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -105,7 +105,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 111.8,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -292,7 +292,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 20.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Steering",
@@ -344,7 +344,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 202.8,
+    "total_hours": 203.2,
     "pct_of_total": 19.3,
     "avg_per_person_per_day": 1.41,
     "flagged": true,
@@ -353,7 +353,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 71.2
+        "hours": 71.8
       },
       {
         "label": "Shop Meetings",
@@ -380,12 +380,12 @@
   "project_hurters": [
     {
       "project": "Witham 51 3100",
-      "total_hours": 43.8,
-      "pct_of_total": 4.2,
+      "total_hours": 45.8,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 38.8,
+          "hours": 40.8,
           "context": [
             "Battery Pack",
             "Brakes",
@@ -454,7 +454,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 30.0,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -547,9 +547,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 657.2,
-    "non_billable_hours": 391.8,
+    "billable_hours": 659.2,
+    "non_billable_hours": 394.2,
     "pto_hours": 32.0,
-    "total_hours": 1049.0
+    "total_hours": 1053.5
   }
 }
