@@ -359,7 +359,7 @@
       "punchlist": {
         "items": [
           {
-            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.",
+            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.\n2026-03-25: Logger is mounted now but still needs customer wifi credentials.",
             "done": false
           },
           {
@@ -407,8 +407,8 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.",
-            "done": false
+            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.\n2026-03-24: Resolved, ran the test process again and determined ~66mOhms for the pack.",
+            "done": true
           },
           {
             "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
@@ -419,7 +419,7 @@
             "done": false
           },
           {
-            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.",
+            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
             "done": false
           },
           {
@@ -428,8 +428,8 @@
           }
         ],
         "total": 17,
-        "done": 9,
-        "open": 8
+        "done": 10,
+        "open": 7
       }
     },
     {
@@ -500,89 +500,61 @@
       "punchlist": {
         "items": [
           {
-            "text": "12V Dies overnight, Fixed by moving CCU constant power to switched. Dave fixed this winter 2025.",
+            "text": "2025-xx-xx: 12V Dies overnight.\n2025-xx-xx: Fixed by moving CCU constant power to switched.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Regen bumps in and out at 60 mph.\n2025-xx-xx: Resolved with a new firmware summer 2025.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to review range data then update the range estimation table.",
             "done": false
           },
           {
-            "text": "Regen bumps in and out at 60 mph. Fixed with new firmware summer 2025.",
+            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.",
             "done": false
           },
           {
-            "text": "Swap BMS Module #5, Answer Any Questions For Dave",
+            "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.",
             "done": false
           },
           {
-            "text": "Review Range Data, Update Table",
+            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.",
             "done": false
           },
           {
-            "text": "Update OCV Table Per Cell Chemistry",
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.",
             "done": false
           },
           {
-            "text": "Create + Review PreCharge Graph",
+            "text": "2025-xx-xx: Validate gauges set and correct temperature discrepency issue.\n2026-03-xx: Resolved, everything was fine.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.",
             "done": false
           },
           {
-            "text": "Review ExtTherm Calibration Table",
+            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.",
             "done": false
           },
           {
-            "text": "Review Pack Capacity Data, Update Max",
+            "text": "2026-03-25: Need to enter Wi-Fi credentials for the CAN logger.",
             "done": false
           },
           {
-            "text": "Review VCU300 OCV calculation model",
-            "done": false
-          },
-          {
-            "text": "Plot and Review Cell Delta",
-            "done": false
-          },
-          {
-            "text": "Plot and Review Cell Limiters",
-            "done": false
-          },
-          {
-            "text": "Review Consumption Numbers, Verify Caps Are Reasonable",
-            "done": false
-          },
-          {
-            "text": "Validate Full Gauges With Program",
-            "done": false
-          },
-          {
-            "text": "Plot and Review Vehicle Temperatures",
-            "done": false
-          },
-          {
-            "text": "Plot and Review Full Charge",
-            "done": false
-          },
-          {
-            "text": "Plot and Review Full Discharge",
-            "done": false
-          },
-          {
-            "text": "Eliminate Incorrect BMS Fault on Digital Dash",
-            "done": false
-          },
-          {
-            "text": "Validate Full Digital Dash With Program",
-            "done": false
-          },
-          {
-            "text": "Enter Wi-Fi Credentials",
-            "done": false
-          },
-          {
-            "text": "Find a way to turn off unused BMS slots.",
+            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
             "done": false
           }
         ],
-        "total": 20,
-        "done": 0,
-        "open": 20
+        "total": 13,
+        "done": 4,
+        "open": 9
       }
     },
     {
@@ -1552,6 +1524,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-25T22:02:42.733811+00:00",
+  "updated": "2026-03-25T22:57:42.619286+00:00",
   "source": "Google Sheets API"
 }
