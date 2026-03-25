@@ -72,6 +72,7 @@ function parseArgs() {
   return {
     force: args.includes("--force"),
     dryRun: args.includes("--dry-run"),
+    seed: args.includes("--seed"),
     owner: args.includes("--owner")
       ? args[args.indexOf("--owner") + 1]
       : null,
@@ -263,6 +264,13 @@ async function main() {
     if (opts.force || hash !== oldHashes[owner]) {
       changed.push(owner);
     }
+  }
+
+  // Seed mode: save hashes as baseline without posting
+  if (opts.seed) {
+    saveHashes(newHashes);
+    console.log(`Seeded hashes for ${allOwners.length} vehicle(s). No posts sent.`);
+    return;
   }
 
   if (changed.length === 0) {
