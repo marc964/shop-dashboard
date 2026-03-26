@@ -550,11 +550,15 @@
           {
             "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
             "done": false
+          },
+          {
+            "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.",
+            "done": false
           }
         ],
-        "total": 13,
+        "total": 14,
         "done": 4,
-        "open": 9
+        "open": 10
       }
     },
     {
@@ -1524,6 +1528,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-26T13:48:17.940918+00:00",
+  "updated": "2026-03-26T15:03:09.660859+00:00",
   "source": "Google Sheets API"
 }
