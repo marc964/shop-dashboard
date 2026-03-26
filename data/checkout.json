@@ -352,7 +352,7 @@
       "color": "Blue",
       "make": "Alfa",
       "model": "Spyder",
-      "status": "Checkout",
+      "status": "Testing",
       "checkout": 83.4,
       "sub_metrics": [],
       "system": "AEM",
@@ -420,7 +420,7 @@
           },
           {
             "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
-            "done": false
+            "done": true
           },
           {
             "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.",
@@ -428,8 +428,8 @@
           }
         ],
         "total": 17,
-        "done": 10,
-        "open": 7
+        "done": 11,
+        "open": 6
       }
     },
     {
@@ -1524,6 +1524,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-26T12:00:19.023127+00:00",
+  "updated": "2026-03-26T13:48:17.940918+00:00",
   "source": "Google Sheets API"
 }
