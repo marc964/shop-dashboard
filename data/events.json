@@ -31,12 +31,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan L Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             }
@@ -67,12 +67,12 @@
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             }
@@ -90,12 +90,12 @@
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             }

@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 140.0,
-      "pct_of_total": 12.8,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 112.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -135,8 +135,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 94.0,
-      "pct_of_total": 8.6,
+      "total_hours": 98.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -159,6 +159,10 @@
           "hours": 6.5
         },
         {
+          "task": "Motor & Transmission",
+          "hours": 6.2
+        },
+        {
           "task": "Steering",
           "hours": 4.5
         },
@@ -169,10 +173,6 @@
         {
           "task": "Vehicle Control",
           "hours": 2.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.2
         },
         {
           "task": "Kit - Product",
@@ -257,7 +257,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 22.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Steering",
@@ -348,7 +348,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 210.0,
+    "total_hours": 210.5,
     "pct_of_total": 19.2,
     "avg_per_person_per_day": 1.38,
     "flagged": true,
@@ -357,7 +357,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 74.0
+        "hours": 74.5
       },
       {
         "label": "Shop Meetings",
@@ -411,7 +411,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 40.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -551,9 +551,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 684.0,
-    "non_billable_hours": 410.0,
+    "billable_hours": 688.0,
+    "non_billable_hours": 410.5,
     "pto_hours": 40.0,
-    "total_hours": 1094.0
+    "total_hours": 1098.5
   }
 }
