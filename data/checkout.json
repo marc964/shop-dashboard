@@ -554,11 +554,15 @@
           {
             "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.",
             "done": false
+          },
+          {
+            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.",
+            "done": false
           }
         ],
-        "total": 14,
+        "total": 15,
         "done": 4,
-        "open": 10
+        "open": 11
       }
     },
     {
@@ -1528,6 +1532,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-26T21:59:53.140892+00:00",
+  "updated": "2026-03-26T22:39:49.762187+00:00",
   "source": "Google Sheets API"
 }
