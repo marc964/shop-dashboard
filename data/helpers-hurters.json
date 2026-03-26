@@ -58,7 +58,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 112.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -105,7 +105,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 111.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -135,8 +135,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 92.0,
-      "pct_of_total": 8.6,
+      "total_hours": 94.0,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -156,7 +156,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 4.5
+          "hours": 6.5
         },
         {
           "task": "Steering",
@@ -348,9 +348,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 206.5,
+    "total_hours": 207.5,
     "pct_of_total": 19.2,
-    "avg_per_person_per_day": 1.36,
+    "avg_per_person_per_day": 1.37,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
@@ -361,7 +361,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.5
+        "hours": 61.5
       },
       {
         "label": "Other",
@@ -427,12 +427,12 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 32.0,
-      "pct_of_total": 3.0,
+      "total_hours": 35.0,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 32.0,
+          "hours": 35.0,
           "context": [
             "Brakes"
           ]
@@ -472,7 +472,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -494,7 +494,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 13.5,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -551,9 +551,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 671.5,
-    "non_billable_hours": 403.5,
+    "billable_hours": 673.5,
+    "non_billable_hours": 407.5,
     "pto_hours": 40.0,
-    "total_hours": 1075.0
+    "total_hours": 1081.0
   }
 }
