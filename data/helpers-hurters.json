@@ -135,7 +135,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 98.0,
+      "total_hours": 98.2,
       "pct_of_total": 8.9,
       "tasks": [
         {
@@ -155,12 +155,12 @@
           "hours": 8.5
         },
         {
-          "task": "Manufacturing - Core",
+          "task": "Motor & Transmission",
           "hours": 6.5
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 6.2
+          "task": "Manufacturing - Core",
+          "hours": 6.5
         },
         {
           "task": "Steering",
@@ -551,9 +551,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 688.0,
+    "billable_hours": 688.2,
     "non_billable_hours": 410.5,
     "pto_hours": 40.0,
-    "total_hours": 1098.5
+    "total_hours": 1098.8
   }
 }
