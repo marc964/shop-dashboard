@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 140.0,
-      "pct_of_total": 12.6,
+      "total_hours": 140.5,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -52,13 +52,48 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 112.8,
+      "pct_of_total": 10.0,
+      "tasks": [
+        {
+          "task": "Engineering - Product",
+          "hours": 36.2
+        },
+        {
+          "task": "Exterior",
+          "hours": 27.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 22.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 14.8
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 9.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.8
         }
       ]
     },
     {
       "project": "LB 82 911",
       "total_hours": 112.5,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -103,40 +138,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 111.8,
-      "pct_of_total": 10.0,
-      "tasks": [
-        {
-          "task": "Engineering - Product",
-          "hours": 35.2
-        },
-        {
-          "task": "Exterior",
-          "hours": 27.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 22.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 14.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 9.5
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 2.8
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 105.2,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -190,12 +194,12 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 34.8,
-      "pct_of_total": 3.1,
+      "total_hours": 35.8,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Brakes",
-          "hours": 15.8
+          "hours": 16.8
         },
         {
           "task": "Instrumentation",
@@ -352,28 +356,28 @@
     }
   ],
   "shop_work": {
-    "total_hours": 211.5,
-    "pct_of_total": 19.0,
-    "avg_per_person_per_day": 1.39,
+    "total_hours": 220.2,
+    "pct_of_total": 19.6,
+    "avg_per_person_per_day": 1.45,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 74.5
+        "hours": 76.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 63.5
+        "hours": 64.0
       },
       {
         "label": "Other",
-        "hours": 35.5
+        "hours": 41.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 22.0
+        "hours": 22.5
       },
       {
         "label": "Organization",
@@ -389,7 +393,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 49.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -476,7 +480,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -555,9 +559,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 696.8,
-    "non_billable_hours": 416.0,
+    "billable_hours": 699.2,
+    "non_billable_hours": 424.8,
     "pto_hours": 40.0,
-    "total_hours": 1112.8
+    "total_hours": 1124.0
   }
 }
