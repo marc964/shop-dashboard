@@ -62,17 +62,17 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Noah S Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -85,17 +85,17 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Noah S Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             }
@@ -169,12 +169,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marshall C Out",
+              "summary": "Jordan J long lunch",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J long lunch",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             }
@@ -213,12 +213,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marshall C Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
