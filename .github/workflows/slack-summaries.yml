@@ -1,24 +1,16 @@
-name: Post Vehicle Summaries to Slack
+name: Track Vehicle Summary Changes
 
 on:
-  # schedule:
-  #   - cron: '0 23 * * 1-5'  # 6PM CT (UTC-5) weekdays
-  workflow_dispatch:         # manual trigger only for now
+  schedule:
+    - cron: '0 23 * * 1-5'  # 6PM CT (UTC-5) weekdays
+  workflow_dispatch:         # manual trigger
 
 jobs:
-  post-summaries:
+  track-changes:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,16 +33,10 @@ jobs:
               json.dump(data, f, indent=2)
           "
 
-      - name: Start local server
-        run: python -m http.server 8000 &
+      - name: Update snapshot hashes
+        run: node scripts/seed-hashes.js
 
-      - name: Screenshot and post to Slack
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          BASE_URL: "http://localhost:8000"
-        run: node scripts/screenshot.js
-
-      - name: Save snapshot hashes
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -61,3 +47,21 @@ jobs:
             git commit -m "Update snapshot hashes [automated]"
             git push
           fi
+
+      # Uncomment below to re-enable Slack posting:
+      # - name: Set up Node
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
+      #
+      # - name: Install Node dependencies
+      #   run: npm ci
+      #
+      # - name: Start local server
+      #   run: python -m http.server 8000 &
+      #
+      # - name: Screenshot and post to Slack
+      #   env:
+      #     SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      #     BASE_URL: "http://localhost:8000"
+      #   run: node scripts/screenshot.js
