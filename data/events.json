@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26",
+  "generated_at": "2026-03-27",
   "weeks": [
     {
       "week_start": "2026-03-23",
@@ -58,14 +58,9 @@
         {
           "date": "2026-03-26",
           "day_name": "Thursday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
-            {
-              "summary": "Noah S Out",
-              "type": "pto",
-              "all_day": true
-            },
             {
               "summary": "Devin D Out",
               "type": "pto",
@@ -73,6 +68,11 @@
             },
             {
               "summary": "Marshall C Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -81,14 +81,9 @@
         {
           "date": "2026-03-27",
           "day_name": "Friday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
-            {
-              "summary": "Noah S Out",
-              "type": "pto",
-              "all_day": true
-            },
             {
               "summary": "Devin D Out",
               "type": "pto",
@@ -96,6 +91,11 @@
             },
             {
               "summary": "Marshall C Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -108,12 +108,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Noah S Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -126,12 +126,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Noah S Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -151,12 +151,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Noah S Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Noah S Out",
               "type": "pto",
               "all_day": true
             }
@@ -257,12 +257,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "David W Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "David W Out",
               "type": "pto",
               "all_day": true
             }
