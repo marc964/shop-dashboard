@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 147.5,
-      "pct_of_total": 12.9,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 113.2,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -109,7 +109,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 112.8,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -140,7 +140,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 105.2,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -319,7 +319,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 22.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Steering",
@@ -338,7 +338,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 19.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -356,24 +356,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 225.0,
-    "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.41,
+    "total_hours": 235.8,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.47,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 78.2
+        "hours": 78.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 66.0
+        "hours": 67.0
       },
       {
         "label": "Other",
-        "hours": 42.0
+        "hours": 51.2
       },
       {
         "label": "Personal Meetings",
@@ -418,12 +418,12 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 48.5,
+      "total_hours": 48.8,
       "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 48.5,
+          "hours": 48.8,
           "context": [
             "Engine Bay",
             "Motor & Transmission",
@@ -436,7 +436,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 35.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -560,8 +560,8 @@
   ],
   "totals": {
     "billable_hours": 713.8,
-    "non_billable_hours": 433.5,
+    "non_billable_hours": 444.5,
     "pto_hours": 40.0,
-    "total_hours": 1147.2
+    "total_hours": 1158.2
   }
 }
