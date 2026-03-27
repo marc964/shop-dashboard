@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 140.5,
-      "pct_of_total": 12.5,
+      "total_hours": 147.5,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -15,11 +15,11 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 16.2
+          "hours": 16.8
         },
         {
           "task": "Battery Pack",
-          "hours": 12.5
+          "hours": 15.0
         },
         {
           "task": "Manufacturing - Core",
@@ -38,16 +38,16 @@
           "hours": 7.5
         },
         {
+          "task": "Charging",
+          "hours": 7.0
+        },
+        {
           "task": "Manufacturing - Support",
           "hours": 7.0
         },
         {
           "task": "Interior",
           "hours": 6.0
-        },
-        {
-          "task": "Charging",
-          "hours": 3.0
         },
         {
           "task": "Wiring - High Voltage",
@@ -62,7 +62,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 112.8,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -93,7 +93,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 112.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -195,7 +195,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 35.8,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Brakes",
@@ -230,7 +230,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 33.2,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -319,7 +319,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 21.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -356,20 +356,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 223.0,
-    "pct_of_total": 19.8,
-    "avg_per_person_per_day": 1.39,
+    "total_hours": 224.0,
+    "pct_of_total": 19.7,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.2
+        "hours": 77.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 65.0
+        "hours": 65.5
       },
       {
         "label": "Other",
@@ -559,9 +559,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 699.2,
-    "non_billable_hours": 427.5,
+    "billable_hours": 706.8,
+    "non_billable_hours": 428.5,
     "pto_hours": 40.0,
-    "total_hours": 1126.8
+    "total_hours": 1135.2
   }
 }
