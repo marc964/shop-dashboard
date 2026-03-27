@@ -33,22 +33,27 @@ jobs:
               json.dump(data, f, indent=2)
           "
 
+      - name: Send daily diff to Alex
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        run: node scripts/daily-diff.js
+
       - name: Update snapshot hashes
         run: node scripts/seed-hashes.js
 
-      - name: Commit if changed
+      - name: Commit snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/snapshot-hashes.json
+          git add data/snapshot-hashes.json data/snapshot-previous.json
           if git diff --cached --quiet; then
-            echo "No hash changes"
+            echo "No changes"
           else
-            git commit -m "Update snapshot hashes [automated]"
+            git commit -m "Update snapshot data [automated]"
             git push
           fi
 
-      # Uncomment below to re-enable Slack posting:
+      # Uncomment below to re-enable vehicle image posting to Slack channels:
       # - name: Set up Node
       #   uses: actions/setup-node@v4
       #   with:
