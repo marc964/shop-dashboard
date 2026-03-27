@@ -140,7 +140,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 105.2,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -356,28 +356,28 @@
     }
   ],
   "shop_work": {
-    "total_hours": 220.8,
-    "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 223.0,
+    "pct_of_total": 19.8,
+    "avg_per_person_per_day": 1.39,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 76.8
+        "hours": 77.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.5
+        "hours": 65.0
       },
       {
         "label": "Other",
-        "hours": 41.0
+        "hours": 42.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 22.5
+        "hours": 22.8
       },
       {
         "label": "Organization",
@@ -419,7 +419,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.5,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -560,8 +560,8 @@
   ],
   "totals": {
     "billable_hours": 699.2,
-    "non_billable_hours": 425.2,
+    "non_billable_hours": 427.5,
     "pto_hours": 40.0,
-    "total_hours": 1124.5
+    "total_hours": 1126.8
   }
 }
