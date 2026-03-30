@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 147.5,
+      "total_hours": 148.0,
       "pct_of_total": 12.5,
       "tasks": [
         {
@@ -11,7 +11,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 17.5
+          "hours": 18.0
         },
         {
           "task": "Vehicle Control",
@@ -577,9 +577,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 718.5,
+    "billable_hours": 719.0,
     "non_billable_hours": 464.8,
     "pto_hours": 40.0,
-    "total_hours": 1183.2
+    "total_hours": 1183.8
   }
 }
