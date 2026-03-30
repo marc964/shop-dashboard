@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 155.0,
-      "pct_of_total": 12.8,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -66,7 +66,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 116.8,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -120,12 +120,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 113.2,
-      "pct_of_total": 9.4,
+      "total_hours": 116.0,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 44.2
+          "hours": 45.2
         },
         {
           "task": "Wiring - High Voltage",
@@ -133,7 +133,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 16.0
+          "hours": 16.8
         },
         {
           "task": "Manufacturing - Core",
@@ -150,6 +150,10 @@
         {
           "task": "Vehicle Control",
           "hours": 1.8
+        },
+        {
+          "task": "Charging",
+          "hours": 1.0
         },
         {
           "task": "Kit - Product",
@@ -284,7 +288,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 22.5,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Steering",
@@ -348,20 +352,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 243.0,
-    "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.45,
+    "total_hours": 247.0,
+    "pct_of_total": 20.3,
+    "avg_per_person_per_day": 1.47,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 82.8
+        "hours": 83.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 68.8
+        "hours": 69.2
       },
       {
         "label": "Other",
@@ -377,7 +381,7 @@
       },
       {
         "label": "Errands",
-        "hours": 5.5
+        "hours": 8.5
       }
     ]
   },
@@ -474,7 +478,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -582,9 +586,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 735.2,
-    "non_billable_hours": 474.5,
+    "billable_hours": 738.0,
+    "non_billable_hours": 478.5,
     "pto_hours": 40.0,
-    "total_hours": 1209.8
+    "total_hours": 1216.5
   }
 }
