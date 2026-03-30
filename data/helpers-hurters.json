@@ -120,8 +120,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 116.0,
-      "pct_of_total": 9.5,
+      "total_hours": 116.2,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -133,7 +133,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 16.8
+          "hours": 17.0
         },
         {
           "task": "Manufacturing - Core",
@@ -586,9 +586,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 738.0,
+    "billable_hours": 738.2,
     "non_billable_hours": 478.5,
     "pto_hours": 40.0,
-    "total_hours": 1216.5
+    "total_hours": 1216.8
   }
 }
