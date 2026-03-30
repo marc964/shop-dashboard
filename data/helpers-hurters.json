@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 148.0,
-      "pct_of_total": 12.5,
+      "total_hours": 151.0,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -48,6 +48,10 @@
         {
           "task": "Interior",
           "hours": 6.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 3.0
         },
         {
           "task": "Wiring - High Voltage",
@@ -440,7 +444,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 31.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -577,9 +581,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 721.8,
+    "billable_hours": 724.8,
     "non_billable_hours": 465.0,
     "pto_hours": 40.0,
-    "total_hours": 1186.8
+    "total_hours": 1189.8
   }
 }
