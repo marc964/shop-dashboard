@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 160.0,
-      "pct_of_total": 12.9,
+      "total_hours": 166.5,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -27,7 +27,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 9.5
+          "hours": 10.0
         },
         {
           "task": "Cooling",
@@ -44,6 +44,10 @@
         {
           "task": "Manufacturing - Support",
           "hours": 7.0
+        },
+        {
+          "task": "Steering",
+          "hours": 6.0
         },
         {
           "task": "Interior",
@@ -172,7 +176,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 112.8,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -357,7 +361,7 @@
   ],
   "shop_work": {
     "total_hours": 251.8,
-    "pct_of_total": 20.2,
+    "pct_of_total": 20.1,
     "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
@@ -393,7 +397,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 55.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -591,9 +595,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 759.8,
+    "billable_hours": 766.2,
     "non_billable_hours": 484.2,
     "pto_hours": 40.0,
-    "total_hours": 1244.0
+    "total_hours": 1250.5
   }
 }
