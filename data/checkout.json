@@ -202,11 +202,15 @@
           {
             "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
             "done": false
+          },
+          {
+            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
+            "done": false
           }
         ],
-        "total": 21,
+        "total": 22,
         "done": 13,
-        "open": 8
+        "open": 9
       }
     },
     {
@@ -1532,6 +1536,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-31T18:39:38.311360+00:00",
+  "updated": "2026-03-31T19:43:37.334207+00:00",
   "source": "Google Sheets API"
 }

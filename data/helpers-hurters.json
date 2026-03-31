@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 166.5,
-      "pct_of_total": 13.3,
+      "total_hours": 174.5,
+      "pct_of_total": 13.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 39.2
+          "hours": 46.5
         },
         {
           "task": "HVAC",
-          "hours": 18.2
+          "hours": 18.8
         },
         {
           "task": "Vehicle Control",
@@ -27,7 +27,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 10.0
+          "hours": 10.2
         },
         {
           "task": "Cooling",
@@ -70,7 +70,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 123.2,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -125,7 +125,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 116.2,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -176,7 +176,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 112.8,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -315,7 +315,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 19.5,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Interior",
@@ -360,20 +360,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 251.8,
+    "total_hours": 253.8,
     "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.43,
+    "avg_per_person_per_day": 1.44,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 84.8
+        "hours": 85.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 70.5
+        "hours": 71.5
       },
       {
         "label": "Other",
@@ -416,7 +416,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 49.8,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -595,9 +595,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 766.2,
-    "non_billable_hours": 484.2,
-    "pto_hours": 40.0,
-    "total_hours": 1250.5
+    "billable_hours": 774.2,
+    "non_billable_hours": 486.2,
+    "pto_hours": 56.0,
+    "total_hours": 1260.5
   }
 }
