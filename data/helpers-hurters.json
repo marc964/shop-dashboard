@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 174.5,
-      "pct_of_total": 13.8,
+      "pct_of_total": 13.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -70,7 +70,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 123.2,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -125,7 +125,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 116.2,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -175,12 +175,12 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 112.8,
-      "pct_of_total": 8.9,
+      "total_hours": 115.0,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Engineering - Product",
-          "hours": 36.2
+          "hours": 38.5
         },
         {
           "task": "Exterior",
@@ -205,9 +205,32 @@
       ]
     },
     {
+      "project": "Cohn 64 Corvette",
+      "total_hours": 36.8,
+      "pct_of_total": 2.9,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 31.2
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.0
+        },
+        {
+          "task": "Kit - Product",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 34.8,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -266,29 +289,6 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
-      "project": "Cohn 64 Corvette",
-      "total_hours": 32.2,
-      "pct_of_total": 2.6,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 26.8
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 2.0
-        },
-        {
-          "task": "Kit - Product",
-          "hours": 2.0
-        },
-        {
-          "task": "Vehicle Control",
           "hours": 1.5
         }
       ]
@@ -360,20 +360,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 253.8,
-    "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.44,
+    "total_hours": 256.5,
+    "pct_of_total": 20.2,
+    "avg_per_person_per_day": 1.46,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 85.8
+        "hours": 86.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 71.5
+        "hours": 72.0
       },
       {
         "label": "Other",
@@ -385,7 +385,7 @@
       },
       {
         "label": "Organization",
-        "hours": 10.5
+        "hours": 12.5
       },
       {
         "label": "Errands",
@@ -442,7 +442,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 36.0,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -487,7 +487,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 28.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -538,12 +538,12 @@
     },
     {
       "project": "Miner 95 911",
-      "total_hours": 7.0,
+      "total_hours": 7.8,
       "pct_of_total": 0.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 7.0,
+          "hours": 7.8,
           "context": [
             "Battery Pack"
           ]
@@ -595,9 +595,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 774.2,
-    "non_billable_hours": 486.2,
+    "billable_hours": 781.0,
+    "non_billable_hours": 489.8,
     "pto_hours": 56.0,
-    "total_hours": 1260.5
+    "total_hours": 1270.8
   }
 }
