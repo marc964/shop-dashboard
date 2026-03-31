@@ -565,21 +565,6 @@
       ]
     },
     {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 3.8,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 3.8,
-          "context": [
-            "Vehicle Control",
-            "Wiring - OEM"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Avalos 72 Blazer",
       "total_hours": 1.0,
       "pct_of_total": 0.1,
@@ -595,8 +580,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 781.0,
-    "non_billable_hours": 489.8,
+    "billable_hours": 784.8,
+    "non_billable_hours": 486.0,
     "pto_hours": 56.0,
     "total_hours": 1270.8
   }
