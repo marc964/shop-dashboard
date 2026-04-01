@@ -2,18 +2,33 @@
   "helpers": [],
   "shop_work": {
     "total_hours": 0.0,
-    "pct_of_total": 0,
+    "pct_of_total": 0.0,
     "avg_per_person_per_day": 0.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": []
   },
-  "project_hurters": [],
+  "project_hurters": [
+    {
+      "project": "Miner 95 911",
+      "total_hours": 1.5,
+      "pct_of_total": 100.0,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 1.5,
+          "context": [
+            "Battery Pack"
+          ]
+        }
+      ]
+    }
+  ],
   "totals": {
     "billable_hours": 0.0,
-    "non_billable_hours": 0.0,
+    "non_billable_hours": 1.5,
     "pto_hours": 0.0,
-    "total_hours": 0.0
+    "total_hours": 1.5
   }
 }
