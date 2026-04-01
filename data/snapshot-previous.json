@@ -419,7 +419,7 @@
             "done": true
           },
           {
-            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.",
+            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
             "done": false
           },
           {
@@ -427,7 +427,7 @@
             "done": true
           },
           {
-            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.",
+            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.",
             "done": false
           }
         ],
@@ -560,7 +560,7 @@
             "done": false
           },
           {
-            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.",
+            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.\n2026-03-31: Group 5 cells balanced to 14mV. Box ready for assembly.",
             "done": false
           }
         ],
@@ -618,19 +618,19 @@
             "done": true
           },
           {
-            "text": "Brakes don't fully return to off position.",
-            "done": false
-          },
-          {
-            "text": "The GUI doesn't fully boot, the screen flickers on and off continuously.",
+            "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
             "done": true
           },
           {
-            "text": "HVIL is missing on the IMD box HV input / output.",
+            "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
             "done": true
           },
           {
-            "text": "The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.",
+            "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.",
             "done": false
           },
           {
@@ -658,11 +658,11 @@
             "done": true
           },
           {
-            "text": "When trying to charge you get a ChgPortContFlt.",
+            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.",
             "done": false
           },
           {
-            "text": "Gear changes take pretty long.",
+            "text": "2026-03-xx: Gear changes take pretty long.",
             "done": false
           },
           {
@@ -670,7 +670,7 @@
             "done": true
           },
           {
-            "text": "Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
+            "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
             "done": false
           },
           {
@@ -678,13 +678,21 @@
             "done": false
           },
           {
-            "text": "2026-03-23: AC system needs commissioning.",
+            "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.",
+            "done": false
+          },
+          {
+            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.",
+            "done": false
+          },
+          {
+            "text": "2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
             "done": false
           }
         ],
-        "total": 17,
-        "done": 10,
-        "open": 7
+        "total": 19,
+        "done": 11,
+        "open": 8
       }
     },
     {
@@ -1536,6 +1544,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-03-31T23:34:00.515257+00:00",
+  "updated": "2026-04-01T23:35:49.143579+00:00",
   "source": "Google Sheets API"
 }
