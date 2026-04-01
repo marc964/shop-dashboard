@@ -619,7 +619,7 @@
           },
           {
             "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
-            "done": false
+            "done": true
           },
           {
             "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
@@ -684,10 +684,14 @@
           {
             "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.",
             "done": false
+          },
+          {
+            "text": "2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
+            "done": false
           }
         ],
-        "total": 18,
-        "done": 10,
+        "total": 19,
+        "done": 11,
         "open": 8
       }
     },
@@ -1540,6 +1544,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-01T23:05:22.434083+00:00",
+  "updated": "2026-04-01T23:51:04.673208+00:00",
   "source": "Google Sheets API"
 }
