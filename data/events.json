@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31",
+  "generated_at": "2026-04-01",
   "weeks": [
     {
       "week_start": "2026-03-30",
@@ -27,16 +27,16 @@
         {
           "date": "2026-03-31",
           "day_name": "Tuesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J long lunch",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marshall C Out",
+              "summary": "Jordan J long lunch",
               "type": "pto",
               "all_day": true
             }
@@ -45,7 +45,7 @@
         {
           "date": "2026-04-01",
           "day_name": "Wednesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
