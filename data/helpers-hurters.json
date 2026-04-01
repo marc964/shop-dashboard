@@ -2,7 +2,7 @@
   "helpers": [],
   "shop_work": {
     "total_hours": 0.5,
-    "pct_of_total": 25.0,
+    "pct_of_total": 22.2,
     "avg_per_person_per_day": 0.06,
     "flagged": false,
     "tech_count": 8,
@@ -18,7 +18,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 75.0,
+      "pct_of_total": 66.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -28,12 +28,26 @@
           ]
         }
       ]
+    },
+    {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 0.2,
+      "pct_of_total": 11.1,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 0.2,
+          "context": [
+            "Interior"
+          ]
+        }
+      ]
     }
   ],
   "totals": {
     "billable_hours": 0.0,
-    "non_billable_hours": 2.0,
+    "non_billable_hours": 2.2,
     "pto_hours": 0.0,
-    "total_hours": 2.0
+    "total_hours": 2.2
   }
 }
