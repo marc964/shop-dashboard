@@ -1,16 +1,40 @@
 {
-  "helpers": [],
+  "helpers": [
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 5.5,
+      "pct_of_total": 45.8,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 5.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.5
+        }
+      ]
+    }
+  ],
   "shop_work": {
-    "total_hours": 0.5,
-    "pct_of_total": 22.2,
-    "avg_per_person_per_day": 0.06,
+    "total_hours": 3.5,
+    "pct_of_total": 29.2,
+    "avg_per_person_per_day": 0.44,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 0.5
+        "hours": 1.5
+      },
+      {
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 1.0
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 1.0
       }
     ]
   },
@@ -18,7 +42,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 66.7,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -30,9 +54,37 @@
       ]
     },
     {
+      "project": "Barton 59 Impala",
+      "total_hours": 1.0,
+      "pct_of_total": 8.3,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 1.0,
+          "context": [
+            "Vehicle Control"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Witham 51 3100",
+      "total_hours": 0.2,
+      "pct_of_total": 2.1,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 0.2,
+          "context": [
+            "Core - VC Harness"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Kelly 63 Corvette",
       "total_hours": 0.2,
-      "pct_of_total": 11.1,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -45,9 +97,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 0.0,
-    "non_billable_hours": 2.2,
+    "billable_hours": 5.5,
+    "non_billable_hours": 6.5,
     "pto_hours": 0.0,
-    "total_hours": 2.2
+    "total_hours": 12.0
   }
 }
