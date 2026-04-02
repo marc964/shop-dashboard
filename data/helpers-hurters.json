@@ -208,7 +208,7 @@
   "totals": {
     "billable_hours": 36.5,
     "non_billable_hours": 24.5,
-    "pto_hours": 0.0,
+    "pto_hours": 8.0,
     "total_hours": 61.0
   }
 }
