@@ -630,8 +630,8 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.",
-            "done": false
+            "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
+            "done": true
           },
           {
             "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
@@ -674,7 +674,7 @@
             "done": false
           },
           {
-            "text": "2026-03-23: Cabin heat system needs commissioning.",
+            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
             "done": false
           },
           {
@@ -682,17 +682,17 @@
             "done": false
           },
           {
-            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.",
-            "done": false
+            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.",
+            "done": true
           },
           {
-            "text": "2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
-            "done": false
+            "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
+            "done": true
           }
         ],
         "total": 19,
-        "done": 11,
-        "open": 8
+        "done": 14,
+        "open": 5
       }
     },
     {
@@ -1544,6 +1544,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-02T18:08:33.230606+00:00",
+  "updated": "2026-04-02T19:16:26.523619+00:00",
   "source": "Google Sheets API"
 }
