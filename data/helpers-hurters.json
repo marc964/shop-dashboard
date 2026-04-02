@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 26.2,
-      "pct_of_total": 24.6,
+      "total_hours": 27.8,
+      "pct_of_total": 25.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -26,6 +26,10 @@
           "hours": 2.2
         },
         {
+          "task": "Engineering - Core",
+          "hours": 1.5
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 1.0
         }
@@ -34,7 +38,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.2,
-      "pct_of_total": 16.2,
+      "pct_of_total": 15.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,7 +57,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 10.2,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -64,7 +68,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 7.0,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -87,7 +91,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 4.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Engineering - Core",
@@ -124,16 +128,20 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 2.8,
-      "pct_of_total": 2.6,
+      "total_hours": 3.0,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 1.8
+          "hours": 1.5
         },
         {
           "task": "Exterior",
           "hours": 1.0
+        },
+        {
+          "task": "Engineering - Product",
+          "hours": 0.5
         }
       ]
     },
@@ -150,19 +158,19 @@
     }
   ],
   "shop_work": {
-    "total_hours": 23.5,
-    "pct_of_total": 22.0,
-    "avg_per_person_per_day": 1.47,
+    "total_hours": 24.5,
+    "pct_of_total": 22.4,
+    "avg_per_person_per_day": 1.53,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 6.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 6.8
       },
       {
-        "label": "EOD Time Entry/Cleanup",
+        "label": "Shop Meetings",
         "hours": 6.2
       },
       {
@@ -175,7 +183,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 1.2
+        "hours": 1.8
       }
     ]
   },
@@ -183,7 +191,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 5.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -252,9 +260,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 72.0,
-    "non_billable_hours": 34.8,
+    "billable_hours": 73.8,
+    "non_billable_hours": 35.8,
     "pto_hours": 8.0,
-    "total_hours": 106.8
+    "total_hours": 109.5
   }
 }
