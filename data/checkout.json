@@ -324,7 +324,7 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.",
+            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.",
             "done": false
           },
           {
@@ -1544,6 +1544,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-02T16:31:11.086747+00:00",
+  "updated": "2026-04-02T17:27:08.922888+00:00",
   "source": "Google Sheets API"
 }
