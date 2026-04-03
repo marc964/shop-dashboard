@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 27.8,
-      "pct_of_total": 23.0,
+      "total_hours": 28.8,
+      "pct_of_total": 23.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -30,6 +30,10 @@
           "hours": 1.5
         },
         {
+          "task": "Steering",
+          "hours": 1.0
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 1.0
         }
@@ -38,7 +42,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.2,
-      "pct_of_total": 14.3,
+      "pct_of_total": 14.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -57,7 +61,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 10.2,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -91,7 +95,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 5.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -186,7 +190,7 @@
   ],
   "shop_work": {
     "total_hours": 27.0,
-    "pct_of_total": 22.4,
+    "pct_of_total": 22.2,
     "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
@@ -246,7 +250,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 2.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -289,9 +293,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 80.8,
+    "billable_hours": 81.8,
     "non_billable_hours": 39.8,
     "pto_hours": 8.0,
-    "total_hours": 120.5
+    "total_hours": 121.5
   }
 }
