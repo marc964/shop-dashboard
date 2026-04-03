@@ -75,12 +75,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marshall C Out",
+              "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Brandon B Out",
+              "summary": "Marshall C Out",
               "type": "pto",
               "all_day": true
             },
@@ -135,13 +135,7 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Vargas Mustang photo shoot",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-04-08",
