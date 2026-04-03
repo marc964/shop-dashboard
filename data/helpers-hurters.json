@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 27.8,
-      "pct_of_total": 23.5,
+      "pct_of_total": 23.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +38,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.2,
-      "pct_of_total": 14.6,
+      "pct_of_total": 14.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -57,7 +57,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 10.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -112,6 +112,25 @@
       ]
     },
     {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 4.5,
+      "pct_of_total": 3.8,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.2
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 4.2,
       "pct_of_total": 3.6,
@@ -137,7 +156,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 3.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -154,21 +173,6 @@
       ]
     },
     {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 3.2,
-      "pct_of_total": 2.8,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 3.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Ritchie 72 Blazer",
       "total_hours": 1.0,
       "pct_of_total": 0.8,
@@ -181,16 +185,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 25.8,
+    "total_hours": 26.0,
     "pct_of_total": 21.8,
-    "avg_per_person_per_day": 1.07,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 7.5
+        "hours": 7.8
       },
       {
         "label": "Shop Meetings",
@@ -228,7 +232,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 4.0,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -285,9 +289,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 79.5,
-    "non_billable_hours": 38.5,
+    "billable_hours": 80.8,
+    "non_billable_hours": 38.8,
     "pto_hours": 8.0,
-    "total_hours": 118.0
+    "total_hours": 119.5
   }
 }
