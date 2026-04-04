@@ -73,6 +73,16 @@ function cleanText(text) {
   return (text || "").split("\n")[0].trim();
 }
 
+function normalizeText(text) {
+  // Strip date prefixes like "2026-03-xx:", "2026-03-28:", "3/28:" etc.
+  // so reformatted items still match their originals.
+  let t = cleanText(text);
+  t = t.replace(/^\d{4}-\d{2}-[\dxX]{2}:\s*/, "");   // 2026-03-xx:
+  t = t.replace(/^\d{1,2}\/\d{1,2}:\s*/, "");          // 3/28:
+  t = t.replace(/^\d{4}-\d{2}-\d{2}:\s*/, "");          // 2026-03-28:
+  return t.toLowerCase().trim();
+}
+
 function getOpenItems(vehicle) {
   const pl = vehicle.punchlist || {};
   const items = pl.items || [];
@@ -106,30 +116,37 @@ function diffVehicle(oldV, newV) {
     changes.push({ type: "progress", from: oldPct, to: newPct });
   }
 
-  // Punchlist diffs — compare by first line of text (as key)
-  const oldOpen = new Set(oldV ? getOpenItems(oldV).map(cleanText) : []);
-  const newOpen = new Set(newV ? getOpenItems(newV).map(cleanText) : []);
-  const oldDone = new Set(oldV ? getDoneItems(oldV).map(cleanText) : []);
-  const newDone = new Set(newV ? getDoneItems(newV).map(cleanText) : []);
+  // Punchlist diffs — compare by normalized text to ignore reformatting
+  // (e.g. date prefixes being added/removed)
+  const oldOpenRaw = oldV ? getOpenItems(oldV).map(cleanText) : [];
+  const newOpenRaw = newV ? getOpenItems(newV).map(cleanText) : [];
+  const oldDoneRaw = oldV ? getDoneItems(oldV).map(cleanText) : [];
+  const newDoneRaw = newV ? getDoneItems(newV).map(cleanText) : [];
 
-  // New open items (not previously open or done)
-  for (const item of newOpen) {
-    if (!oldOpen.has(item) && !oldDone.has(item)) {
-      changes.push({ type: "added", text: item });
+  // Build normalized lookup maps: normalizedText -> displayText
+  const oldOpenNorm = new Map(oldOpenRaw.map((t) => [normalizeText(t), t]));
+  const newOpenNorm = new Map(newOpenRaw.map((t) => [normalizeText(t), t]));
+  const oldDoneNorm = new Map(oldDoneRaw.map((t) => [normalizeText(t), t]));
+  const newDoneNorm = new Map(newDoneRaw.map((t) => [normalizeText(t), t]));
+
+  // New open items (not previously open or done after normalization)
+  for (const [norm, display] of newOpenNorm) {
+    if (!oldOpenNorm.has(norm) && !oldDoneNorm.has(norm)) {
+      changes.push({ type: "added", text: display });
     }
   }
 
   // Resolved items (were open, now done)
-  for (const item of newDone) {
-    if (oldOpen.has(item)) {
-      changes.push({ type: "resolved", text: item });
+  for (const [norm, display] of newDoneNorm) {
+    if (oldOpenNorm.has(norm)) {
+      changes.push({ type: "resolved", text: display });
     }
   }
 
   // Removed items (were open, now gone entirely)
-  for (const item of oldOpen) {
-    if (!newOpen.has(item) && !newDone.has(item)) {
-      changes.push({ type: "removed", text: item });
+  for (const [norm, display] of oldOpenNorm) {
+    if (!newOpenNorm.has(norm) && !newDoneNorm.has(norm)) {
+      changes.push({ type: "removed", text: display });
     }
   }
 

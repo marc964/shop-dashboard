@@ -202,15 +202,11 @@
           {
             "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
             "done": false
-          },
-          {
-            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
-            "done": false
           }
         ],
-        "total": 22,
+        "total": 21,
         "done": 13,
-        "open": 9
+        "open": 8
       }
     },
     {
@@ -270,84 +266,6 @@
       "checkout": 90.1,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Checkout",
-      "checkout": 88.8,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2025-xx-xx: 12V Dies overnight.\n2025-xx-xx: Fixed by moving CCU constant power to switched.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Regen bumps in and out at 60 mph.\n2025-xx-xx: Resolved with a new firmware summer 2025.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review range data then update the range estimation table.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Validate gauges set and correct temperature discrepency issue.\n2026-03-xx: Resolved, everything was fine.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.",
-            "done": false
-          },
-          {
-            "text": "2026-03-25: Need to enter Wi-Fi credentials for the CAN logger.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
-            "done": false
-          },
-          {
-            "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.\n2026-04-02: Resolved, enabled and watched temps go from -127C to 23C.",
-            "done": true
-          },
-          {
-            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.\n2026-03-31: Group 5 cells balanced to 14mV. Box ready for assembly.\n2026-04-02: Resolved, pack back in shape with an overall delta of ~16mV.",
-            "done": true
-          }
-        ],
-        "total": 15,
-        "done": 6,
-        "open": 9
-      }
     },
     {
       "owner": "Shah",
@@ -497,7 +415,7 @@
             "done": true
           },
           {
-            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
+            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.",
             "done": false
           },
           {
@@ -505,7 +423,7 @@
             "done": true
           },
           {
-            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.",
+            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.",
             "done": false
           }
         ],
@@ -570,6 +488,84 @@
       }
     },
     {
+      "owner": "Miner",
+      "year": 1995,
+      "color": "Green",
+      "make": "Porsche",
+      "model": "993",
+      "status": "Checkout",
+      "checkout": 80.1,
+      "sub_metrics": [],
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2025-xx-xx: 12V Dies overnight.\n2025-xx-xx: Fixed by moving CCU constant power to switched.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Regen bumps in and out at 60 mph.\n2025-xx-xx: Resolved with a new firmware summer 2025.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to review range data then update the range estimation table.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Validate gauges set and correct temperature discrepency issue.\n2026-03-xx: Resolved, everything was fine.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.",
+            "done": false
+          },
+          {
+            "text": "2026-03-25: Need to enter Wi-Fi credentials for the CAN logger.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
+            "done": false
+          },
+          {
+            "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.",
+            "done": false
+          },
+          {
+            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.",
+            "done": false
+          }
+        ],
+        "total": 15,
+        "done": 4,
+        "open": 11
+      }
+    },
+    {
       "owner": "GMC",
       "year": 1963,
       "color": "Blue",
@@ -618,20 +614,20 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
+            "text": "Brakes don't fully return to off position.",
+            "done": false
+          },
+          {
+            "text": "The GUI doesn't fully boot, the screen flickers on and off continuously.",
             "done": true
           },
           {
-            "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
+            "text": "HVIL is missing on the IMD box HV input / output.",
             "done": true
           },
           {
-            "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
-            "done": true
+            "text": "The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.",
+            "done": false
           },
           {
             "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
@@ -658,11 +654,11 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.",
+            "text": "When trying to charge you get a ChgPortContFlt.",
             "done": false
           },
           {
-            "text": "2026-03-xx: Gear changes take pretty long.",
+            "text": "Gear changes take pretty long.",
             "done": false
           },
           {
@@ -670,29 +666,21 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
+            "text": "Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
             "done": false
           },
           {
-            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
+            "text": "2026-03-23: Cabin heat system needs commissioning.",
             "done": false
           },
           {
-            "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.",
+            "text": "2026-03-23: AC system needs commissioning.",
             "done": false
-          },
-          {
-            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.",
-            "done": true
-          },
-          {
-            "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
-            "done": true
           }
         ],
-        "total": 19,
-        "done": 14,
-        "open": 5
+        "total": 17,
+        "done": 10,
+        "open": 7
       }
     },
     {
@@ -1544,6 +1532,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-03T23:33:55.791297+00:00",
+  "updated": "2026-03-27T23:47:11.760913+00:00",
   "source": "Google Sheets API"
 }
