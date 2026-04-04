@@ -28,8 +28,13 @@ def compute_productivity(time_entries, tech_user_ids, config):
     entries = [e for e in time_entries if e["user"]["id"] in tech_user_ids]
 
     # Group entries by month key (YYYY-MM)
+    today = date.today()
+    current_month = today.strftime("%Y-%m")
+
     by_month = defaultdict(lambda: {"billable": 0.0, "total": 0.0, "pto": 0.0})
     by_week = defaultdict(lambda: {"billable": 0.0, "total": 0.0, "pto": 0.0})
+    # Weekly buckets scoped to current month only (for "This Month by Week")
+    by_week_in_month = defaultdict(lambda: {"billable": 0.0, "total": 0.0, "pto": 0.0})
     by_day = defaultdict(lambda: {"billable": 0.0, "total": 0.0, "pto": 0.0})
 
     for e in entries:
@@ -49,14 +54,22 @@ def compute_productivity(time_entries, tech_user_ids, config):
         by_week[week_key]["total"] += hours
         by_day[entry_date]["total"] += hours
 
+        # Only count toward weekly-in-month if day is in current month
+        if month_key == current_month:
+            by_week_in_month[week_key]["total"] += hours
+
         if is_pto:
             by_month[month_key]["pto"] += hours
             by_week[week_key]["pto"] += hours
             by_day[entry_date]["pto"] += hours
+            if month_key == current_month:
+                by_week_in_month[week_key]["pto"] += hours
         elif is_billable:
             by_month[month_key]["billable"] += hours
             by_week[week_key]["billable"] += hours
             by_day[entry_date]["billable"] += hours
+            if month_key == current_month:
+                by_week_in_month[week_key]["billable"] += hours
 
     def calc_pct(bucket):
         denom = bucket["total"] - bucket["pto"]
@@ -65,8 +78,6 @@ def compute_productivity(time_entries, tech_user_ids, config):
         return round(bucket["billable"] / denom * 100, 1)
 
     # Build monthly data (sorted, last 12 months)
-    today = date.today()
-    current_month = today.strftime("%Y-%m")
 
     monthly = []
     for key in sorted(by_month.keys()):
@@ -107,23 +118,16 @@ def compute_productivity(time_entries, tech_user_ids, config):
     last_week = by_week.get(last_week_key, {"billable": 0, "total": 0, "pto": 0})
     last_week_pct = calc_pct(last_week)
 
-    # Current month weekly breakdown
+    # Current month weekly breakdown (only hours from days in current month)
     current_month_weeks = []
-    for key in sorted(by_week.keys()):
-        # Check if this week falls in current month
-        # Use the Monday of the week to determine month
-        year, week_num = key.split("-W")
-        week_start = date.fromisocalendar(int(year), int(week_num), 1)
-        if week_start.strftime("%Y-%m") == current_month or (
-            week_start + timedelta(days=4)
-        ).strftime("%Y-%m") == current_month:
-            pct = calc_pct(by_week[key])
-            current_month_weeks.append({
-                "week": key,
-                "productivity_pct": pct,
-                "billable_hours": round(by_week[key]["billable"], 1),
-                "total_hours": round(by_week[key]["total"], 1),
-            })
+    for key in sorted(by_week_in_month.keys()):
+        pct = calc_pct(by_week_in_month[key])
+        current_month_weeks.append({
+            "week": key,
+            "productivity_pct": pct,
+            "billable_hours": round(by_week_in_month[key]["billable"], 1),
+            "total_hours": round(by_week_in_month[key]["total"], 1),
+        })
 
     # Current month daily breakdown
     current_month_days = []
