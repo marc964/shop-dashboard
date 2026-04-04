@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 40.2,
-      "pct_of_total": 27.9,
+      "pct_of_total": 25.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.2,
-      "pct_of_total": 11.9,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -60,19 +60,42 @@
     },
     {
       "project": "Cohn 64 Corvette",
-      "total_hours": 10.2,
-      "pct_of_total": 7.1,
+      "total_hours": 15.2,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 10.2
+          "hours": 15.2
+        }
+      ]
+    },
+    {
+      "project": "LB 82 911",
+      "total_hours": 8.5,
+      "pct_of_total": 5.4,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 5.0
+        },
+        {
+          "task": "Trunk",
+          "hours": 2.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 7.5,
-      "pct_of_total": 5.2,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -89,32 +112,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 7.0,
-      "pct_of_total": 4.8,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 4.0
-        },
-        {
-          "task": "Trunk",
-          "hours": 2.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.2
-        }
-      ]
-    },
-    {
       "project": "Berke 69 Alfa",
-      "total_hours": 5.2,
-      "pct_of_total": 3.6,
+      "total_hours": 7.2,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -123,6 +123,18 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 1.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 0.5
         },
         {
           "task": "Steering",
@@ -136,16 +148,16 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 4.2,
-      "pct_of_total": 2.9,
+      "total_hours": 6.2,
+      "pct_of_total": 3.9,
       "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
         {
           "task": "Engineering - Core",
           "hours": 1.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.0
         },
         {
           "task": "Wiring - OEM",
@@ -158,9 +170,20 @@
       ]
     },
     {
+      "project": "Nagel 65 Scout",
+      "total_hours": 4.5,
+      "pct_of_total": 2.8,
+      "tasks": [
+        {
+          "task": "Steering",
+          "hours": 4.5
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 3.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -177,47 +200,36 @@
       ]
     },
     {
-      "project": "Nagel 65 Scout",
-      "total_hours": 1.5,
-      "pct_of_total": 1.0,
-      "tasks": [
-        {
-          "task": "Steering",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Ritchie 72 Blazer",
       "total_hours": 1.0,
-      "pct_of_total": 0.7,
+      "pct_of_total": 0.6,
       "tasks": [
         {
-          "task": "Scanning",
+          "task": "Cooling",
           "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 34.0,
-    "pct_of_total": 23.5,
-    "avg_per_person_per_day": 1.42,
+    "total_hours": 38.2,
+    "pct_of_total": 24.2,
+    "avg_per_person_per_day": 1.59,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 10.2
-      },
-      {
-        "label": "Shop Meetings",
-        "hours": 9.8
+        "hours": 11.0
       },
       {
         "label": "Other",
-        "hours": 7.8
+        "hours": 10.8
+      },
+      {
+        "label": "Shop Meetings",
+        "hours": 10.2
       },
       {
         "label": "Organization",
@@ -231,23 +243,9 @@
   },
   "project_hurters": [
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 5.0,
-      "pct_of_total": 3.5,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 5.0,
-          "context": [
-            "Vehicle Control - Ampere"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Barton 59 Impala",
       "total_hours": 4.0,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -259,17 +257,15 @@
       ]
     },
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 2.0,
-      "pct_of_total": 1.4,
+      "project": "Preheim 72 Blazer",
+      "total_hours": 3.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
-          "task": "Installation - Extra",
-          "hours": 2.0,
+          "task": "Troubleshooting",
+          "hours": 3.0,
           "context": [
-            "Battery Boxes",
-            "Motor & Transmission",
-            "Vehicle Control"
+            "Vehicle Control - Ampere"
           ]
         }
       ]
@@ -277,7 +273,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -294,7 +290,7 @@
       "pct_of_total": 0.2,
       "tasks": [
         {
-          "task": "Troubleshooting",
+          "task": "Manufacturing - Extra",
           "hours": 0.2,
           "context": [
             "Core - VC Harness"
@@ -304,9 +300,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 97.8,
-    "non_billable_hours": 46.8,
+    "billable_hours": 111.2,
+    "non_billable_hours": 47.0,
     "pto_hours": 8.0,
-    "total_hours": 144.5
+    "total_hours": 158.2
   }
 }
