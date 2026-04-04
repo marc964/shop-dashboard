@@ -2,7 +2,7 @@ name: Update & Deploy Dashboard
 
 on:
   schedule:
-    - cron: '*/15 * * * 1-5'  # Every 15 min, weekdays only
+    - cron: '*/15 * * * *'  # Every 15 min, every day
   push:
     branches: [main]
   workflow_dispatch:
