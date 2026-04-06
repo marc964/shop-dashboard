@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 45.8,
-      "pct_of_total": 26.8,
+      "total_hours": 45.2,
+      "pct_of_total": 26.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 22.0
+          "hours": 21.5
         },
         {
           "task": "HVAC",
@@ -114,7 +114,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 7.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -149,7 +149,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 6.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -183,7 +183,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 3.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -212,9 +212,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 45.0,
-    "pct_of_total": 26.4,
-    "avg_per_person_per_day": 1.41,
+    "total_hours": 45.5,
+    "pct_of_total": 26.5,
+    "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
     "working_days": 4,
@@ -225,7 +225,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 11.2
+        "hours": 11.8
       },
       {
         "label": "Shop Meetings",
@@ -244,8 +244,8 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 4.0,
-      "pct_of_total": 2.3,
+      "total_hours": 4.5,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -253,13 +253,20 @@
           "context": [
             "Vehicle Control"
           ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 0.5,
+          "context": [
+            "Wiring - OEM"
+          ]
         }
       ]
     },
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 3.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -301,8 +308,8 @@
   ],
   "totals": {
     "billable_hours": 116.8,
-    "non_billable_hours": 53.8,
+    "non_billable_hours": 54.8,
     "pto_hours": 8.0,
-    "total_hours": 170.5
+    "total_hours": 171.5
   }
 }
