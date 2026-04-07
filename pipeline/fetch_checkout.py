@@ -179,7 +179,7 @@ def parse_ampere_punchlist(service):
         for row_idx in item_rows:
             cell = get_cell(row_idx, col_idx)
             text = cell_text(cell)
-            if not text:
+            if not text or text == "-":
                 continue
             done = is_strikethrough(cell)
             items.append({"text": text, "done": done})
