@@ -171,10 +171,42 @@ async function main() {
     currentByOwner[v.owner] = v;
   }
 
-  // Load previous snapshot
+  // Load previous snapshot, with staleness check.
+  // Use git commit timestamp since file mtime is unreliable in CI
+  // (fresh checkout sets mtime to now).
   let prevByOwner = {};
+  const MAX_AGE_HOURS = 36; // allow some slack beyond 24h
   try {
-    const prev = JSON.parse(fs.readFileSync(PREV_SNAPSHOT, "utf8"));
+    const prevRaw = fs.readFileSync(PREV_SNAPSHOT, "utf8");
+
+    // Get last commit date for the snapshot file
+    const { execSync } = require("child_process");
+    let ageHours = 0;
+    try {
+      const gitDate = execSync(
+        `git log -1 --format=%cI -- "${PREV_SNAPSHOT}"`,
+        { encoding: "utf8" }
+      ).trim();
+      if (gitDate) {
+        ageHours = (Date.now() - new Date(gitDate).getTime()) / (1000 * 60 * 60);
+      }
+    } catch {
+      // git not available or file not tracked — fall back to mtime
+      const prevStat = fs.statSync(PREV_SNAPSHOT);
+      ageHours = (Date.now() - prevStat.mtimeMs) / (1000 * 60 * 60);
+    }
+
+    if (ageHours > MAX_AGE_HOURS) {
+      console.log(
+        `Previous snapshot is ${ageHours.toFixed(1)}h old (max ${MAX_AGE_HOURS}h). ` +
+        `Resetting baseline — skipping diff today.`
+      );
+      fs.writeFileSync(PREV_SNAPSHOT, JSON.stringify(currentData, null, 2));
+      return;
+    }
+
+    console.log(`Previous snapshot age: ${ageHours.toFixed(1)}h`);
+    const prev = JSON.parse(prevRaw);
     for (const v of prev.vehicles) {
       prevByOwner[v.owner] = v;
     }
