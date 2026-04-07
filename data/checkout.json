@@ -828,24 +828,13 @@
       }
     },
     {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
       "status": "Startup",
-      "checkout": 52.7,
+      "checkout": 62.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -857,7 +846,7 @@
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 59.4
         },
         {
           "label": "Raptor",
@@ -926,12 +915,35 @@
           {
             "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
             "done": true
+          },
+          {
+            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.",
+            "done": false
+          },
+          {
+            "text": "2026-04-07: Ned to add logic for the heat system",
+            "done": false
+          },
+          {
+            "text": "start ac up",
+            "done": false
           }
         ],
-        "total": 14,
+        "total": 17,
         "done": 8,
-        "open": 6
+        "open": 9
       }
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Alfa",
@@ -1610,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-07T20:30:52.697464+00:00",
+  "updated": "2026-04-07T21:26:57.129483+00:00",
   "source": "Google Sheets API"
 }
