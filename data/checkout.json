@@ -614,10 +614,6 @@
       "punchlist": {
         "items": [
           {
-            "text": "-",
-            "done": false
-          },
-          {
             "text": "2026-02-xx: Need to check ampacity of PMU feed wire, it looks undersized.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
             "done": true
           },
@@ -694,9 +690,9 @@
             "done": true
           }
         ],
-        "total": 20,
+        "total": 19,
         "done": 14,
-        "open": 6
+        "open": 5
       }
     },
     {
@@ -1614,6 +1610,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-07T16:45:04.532739+00:00",
+  "updated": "2026-04-07T17:18:38.760408+00:00",
   "source": "Google Sheets API"
 }
