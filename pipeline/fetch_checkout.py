@@ -155,26 +155,19 @@ def parse_ampere_punchlist(service):
             if name:
                 owner_map[name] = col_idx
 
-    # Find the main "Punchlist" / "Punch List" row in column A
-    # Must be exact match (not "Battery Box #1 Punch List")
-    punchlist_row = -1
+    # Find ALL punch list sections (Electrical, Mechanical, Battery Box, etc.)
+    # and collect Item/ToDo rows from each one.
+    item_rows = []
     for row_idx in range(5, len(row_data)):
         label = cell_text(get_cell(row_idx, 0)).lower().strip()
-        if label in ("punchlist", "punch list"):
-            punchlist_row = row_idx
-            break
-
-    if punchlist_row < 0:
-        return {}
-
-    # Find Item/ToDo rows after the punchlist header
-    item_rows = []
-    for row_idx in range(punchlist_row + 1, len(row_data)):
-        label = cell_text(get_cell(row_idx, 0)).lower()
-        if label.startswith("item") or label.startswith("todo") or label.startswith("to do"):
-            item_rows.append(row_idx)
-        elif label:
-            break
+        if label.endswith("punch list") or label == "punchlist":
+            # Gather Item/ToDo rows below this header
+            for sub_idx in range(row_idx + 1, len(row_data)):
+                sub_label = cell_text(get_cell(sub_idx, 0)).lower()
+                if sub_label.startswith("item") or sub_label.startswith("todo") or sub_label.startswith("to do"):
+                    item_rows.append(sub_idx)
+                elif sub_label:
+                    break
 
     if not item_rows:
         return {}
