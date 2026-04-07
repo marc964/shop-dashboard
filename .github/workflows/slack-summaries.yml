@@ -2,7 +2,7 @@ name: Track Vehicle Summary Changes
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 6PM CT (UTC-5) every day
+    - cron: '0 23 * * 1-5'  # 6PM CT (UTC-5) weekdays
   workflow_dispatch:         # manual trigger
 
 permissions:

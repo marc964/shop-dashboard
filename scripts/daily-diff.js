@@ -175,7 +175,7 @@ async function main() {
   // Use git commit timestamp since file mtime is unreliable in CI
   // (fresh checkout sets mtime to now).
   let prevByOwner = {};
-  const MAX_AGE_HOURS = 36; // allow some slack beyond 24h
+  const MAX_AGE_HOURS = 80; // ~72h covers Friday→Monday plus slack
   try {
     const prevRaw = fs.readFileSync(PREV_SNAPSHOT, "utf8");
 
