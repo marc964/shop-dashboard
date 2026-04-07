@@ -758,46 +758,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
-      "status": "Startup",
-      "checkout": 68.8,
+      "status": "Checkout",
+      "checkout": 70.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -809,7 +776,7 @@
         },
         {
           "label": "PMU",
-          "value": 81.2
+          "value": 87.5
         },
         {
           "label": "Raptor",
@@ -817,7 +784,7 @@
         },
         {
           "label": "Functional",
-          "value": 15.4
+          "value": 19.2
         }
       ],
       "system": "Ampere",
@@ -884,11 +851,11 @@
             "done": false
           },
           {
-            "text": "start ac up",
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
             "done": false
           },
           {
-            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.",
             "done": false
           }
         ],
@@ -896,6 +863,39 @@
         "done": 8,
         "open": 9
       }
+    },
+    {
+      "owner": "Jaffe",
+      "year": 1966,
+      "color": "Black",
+      "make": "Porsche",
+      "model": "912",
+      "status": "Shipped",
+      "checkout": 70.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Shipped",
+      "checkout": 69.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Fischer",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Mercedes",
+      "model": "230SL",
+      "status": "Shipped",
+      "checkout": 69.3,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Strother",
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-07T22:06:08.373011+00:00",
+  "updated": "2026-04-07T23:00:02.507631+00:00",
   "source": "Google Sheets API"
 }

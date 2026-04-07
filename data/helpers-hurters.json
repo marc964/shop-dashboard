@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 57.5,
-      "pct_of_total": 25.1,
+      "total_hours": 58.5,
+      "pct_of_total": 25.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -14,12 +14,12 @@
           "hours": 10.0
         },
         {
-          "task": "Vehicle Control",
+          "task": "Brakes",
           "hours": 6.2
         },
         {
-          "task": "Brakes",
-          "hours": 5.2
+          "task": "Vehicle Control",
+          "hours": 6.2
         },
         {
           "task": "Interior",
@@ -69,7 +69,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 15.2,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -217,7 +217,7 @@
   ],
   "shop_work": {
     "total_hours": 70.8,
-    "pct_of_total": 30.9,
+    "pct_of_total": 30.8,
     "avg_per_person_per_day": 1.77,
     "flagged": true,
     "tech_count": 8,
@@ -315,9 +315,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 149.0,
+    "billable_hours": 150.0,
     "non_billable_hours": 80.0,
     "pto_hours": 24.0,
-    "total_hours": 229.0
+    "total_hours": 230.0
   }
 }
