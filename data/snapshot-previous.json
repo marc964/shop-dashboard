@@ -66,7 +66,7 @@
         },
         {
           "label": "Raptor",
-          "value": 1
+          "value": 1.0
         },
         {
           "label": "Functional",
@@ -380,7 +380,7 @@
         },
         {
           "label": "Raptor",
-          "value": 1
+          "value": 1.0
         },
         {
           "label": "Functional",
@@ -603,7 +603,7 @@
         },
         {
           "label": "Inverter",
-          "value": 1
+          "value": 1.0
         },
         {
           "label": "PMU",
@@ -1033,27 +1033,27 @@
       "make": "#REF! (Reference does not exist.)",
       "model": "#REF! (Reference does not exist.)",
       "status": "#REF! (Reference does not exist.)",
-      "checkout": 0,
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Inverter",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Raptor",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 0.0
         }
       ],
       "system": "Ampere"
@@ -1097,32 +1097,32 @@
       "make": "#REF! (Reference does not exist.)",
       "model": "#REF! (Reference does not exist.)",
       "status": "#REF! (Reference does not exist.)",
-      "checkout": 0,
+      "checkout": 0.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Inverter",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Raptor",
-          "value": 0
+          "value": 0.0
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 0.0
         }
       ],
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-06T23:35:45.547721+00:00",
+  "updated": "2026-04-07T14:03:17.375585+00:00",
   "source": "Google Sheets API"
 }
