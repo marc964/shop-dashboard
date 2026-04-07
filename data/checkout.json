@@ -791,50 +791,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "kW gauge seemed off aroud the 0 breakpoint",
-            "done": false
-          },
-          {
-            "text": "Update Wi-Fi",
-            "done": false
-          }
-        ],
-        "total": 2,
-        "done": 0,
-        "open": 2
-      }
-    },
-    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
       "status": "Startup",
-      "checkout": 62.6,
+      "checkout": 68.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -846,7 +809,7 @@
         },
         {
           "label": "PMU",
-          "value": 59.4
+          "value": 81.2
         },
         {
           "label": "Raptor",
@@ -854,7 +817,7 @@
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 15.4
         }
       ],
       "system": "Ampere",
@@ -921,17 +884,54 @@
             "done": false
           },
           {
-            "text": "2026-04-07: Ned to add logic for the heat system",
+            "text": "start ac up",
             "done": false
           },
           {
-            "text": "start ac up",
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
             "done": false
           }
         ],
         "total": 17,
         "done": 8,
         "open": 9
+      }
+    },
+    {
+      "owner": "Strother",
+      "year": 1988,
+      "color": "Red",
+      "make": "Porsche",
+      "model": "911",
+      "status": "Shipped",
+      "checkout": 68.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
+      "owner": "Coogan",
+      "year": 1969,
+      "color": "Green",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 66.1,
+      "sub_metrics": [],
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "kW gauge seemed off aroud the 0 breakpoint",
+            "done": false
+          },
+          {
+            "text": "Update Wi-Fi",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-07T21:26:57.129483+00:00",
+  "updated": "2026-04-07T22:06:08.373011+00:00",
   "source": "Google Sheets API"
 }
