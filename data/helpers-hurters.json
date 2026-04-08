@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 59.0,
-      "pct_of_total": 21.8,
+      "total_hours": 66.0,
+      "pct_of_total": 23.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -14,16 +14,16 @@
           "hours": 10.0
         },
         {
+          "task": "Interior",
+          "hours": 8.0
+        },
+        {
           "task": "Vehicle Control",
-          "hours": 6.2
+          "hours": 7.8
         },
         {
           "task": "Brakes",
           "hours": 6.2
-        },
-        {
-          "task": "Interior",
-          "hours": 4.0
         },
         {
           "task": "Cooling",
@@ -39,6 +39,10 @@
         },
         {
           "task": "Steering",
+          "hours": 1.5
+        },
+        {
+          "task": "Battery Pack",
           "hours": 1.0
         },
         {
@@ -50,7 +54,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 24.8,
-      "pct_of_total": 9.1,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -77,7 +81,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 15.2,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -86,9 +90,24 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 14.0,
+      "pct_of_total": 4.9,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 9.2
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 4.8
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 13.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -115,7 +134,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 11.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Cooling",
@@ -138,7 +157,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 11.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Cooling",
@@ -155,24 +174,9 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 11.0,
-      "pct_of_total": 4.1,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 6.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 4.8
-        }
-      ]
-    },
-    {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -191,7 +195,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 8.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Steering",
@@ -202,7 +206,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 7.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -241,7 +245,7 @@
   ],
   "shop_work": {
     "total_hours": 84.0,
-    "pct_of_total": 31.0,
+    "pct_of_total": 29.3,
     "avg_per_person_per_day": 1.75,
     "flagged": true,
     "tech_count": 8,
@@ -276,12 +280,12 @@
   "project_hurters": [
     {
       "project": "Barton 59 Impala",
-      "total_hours": 4.5,
-      "pct_of_total": 1.7,
+      "total_hours": 10.2,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 4.0,
+          "hours": 9.8,
           "context": [
             "Vehicle Control"
           ]
@@ -298,7 +302,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 3.0,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -312,7 +316,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 0.6,
+      "pct_of_total": 0.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -339,9 +343,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 177.5,
-    "non_billable_hours": 93.2,
+    "billable_hours": 187.5,
+    "non_billable_hours": 99.0,
     "pto_hours": 24.0,
-    "total_hours": 270.8
+    "total_hours": 286.5
   }
 }
