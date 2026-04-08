@@ -449,8 +449,8 @@
             "done": false
           },
           {
-            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.",
-            "done": false
+            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.\n2026-04-08: Resolved, Aharon adjusted the springs.",
+            "done": true
           },
           {
             "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
@@ -469,8 +469,8 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.",
-            "done": false
+            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.\n2026-04-08: Resolved, any continued work is captured elsewhere.",
+            "done": true
           },
           {
             "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
@@ -510,8 +510,8 @@
           }
         ],
         "total": 17,
-        "done": 11,
-        "open": 6
+        "done": 13,
+        "open": 4
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-08T12:45:18.510446+00:00",
+  "updated": "2026-04-08T14:23:07.352817+00:00",
   "source": "Google Sheets API"
 }
