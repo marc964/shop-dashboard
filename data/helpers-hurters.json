@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 71.2,
-      "pct_of_total": 20.9,
+      "pct_of_total": 20.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 25.2,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -81,7 +81,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 16.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -108,7 +108,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 15.8,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Cooling",
@@ -135,7 +135,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 15.8,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Interior",
@@ -182,7 +182,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 15.5,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -213,7 +213,7 @@
     {
       "project": "Cohn 64 Corvette",
       "total_hours": 15.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -224,7 +224,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 14.0,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -239,7 +239,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 11.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Steering",
@@ -250,7 +250,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 11.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Cooling",
@@ -268,9 +268,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 93.0,
-    "pct_of_total": 27.3,
-    "avg_per_person_per_day": 1.66,
+    "total_hours": 93.2,
+    "pct_of_total": 26.9,
+    "avg_per_person_per_day": 1.67,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
@@ -285,7 +285,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 18.0
+        "hours": 18.2
       },
       {
         "label": "Organization",
@@ -374,9 +374,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 232.2,
-    "non_billable_hours": 108.2,
+    "billable_hours": 237.8,
+    "non_billable_hours": 108.5,
     "pto_hours": 40.0,
-    "total_hours": 340.5
+    "total_hours": 346.2
   }
 }
