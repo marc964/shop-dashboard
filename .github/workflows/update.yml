@@ -49,6 +49,7 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update dashboard data [automated]"
+            git pull --rebase || true
             git push
           fi
 

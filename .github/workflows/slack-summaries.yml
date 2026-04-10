@@ -53,6 +53,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update snapshot data [automated]"
+            git pull --rebase || true
             git push
           fi
 
