@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 81.2,
-      "pct_of_total": 19.6,
+      "pct_of_total": 19.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -181,12 +181,12 @@
     },
     {
       "project": "Nagel 65 Scout",
-      "total_hours": 19.5,
-      "pct_of_total": 4.7,
+      "total_hours": 20.0,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 19.5
+          "hours": 20.0
         }
       ]
     },
@@ -296,9 +296,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 105.5,
-    "pct_of_total": 25.5,
-    "avg_per_person_per_day": 1.65,
+    "total_hours": 106.5,
+    "pct_of_total": 25.6,
+    "avg_per_person_per_day": 1.66,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -309,7 +309,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 26.8
+        "hours": 27.8
       },
       {
         "label": "Shop Meetings",
@@ -402,9 +402,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 293.8,
-    "non_billable_hours": 120.8,
+    "billable_hours": 294.2,
+    "non_billable_hours": 121.8,
     "pto_hours": 48.0,
-    "total_hours": 414.5
+    "total_hours": 416.0
   }
 }
