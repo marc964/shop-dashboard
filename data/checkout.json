@@ -7,7 +7,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 100,
+      "checkout": 99.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -23,7 +23,7 @@
         },
         {
           "label": "Raptor",
-          "value": 100
+          "value": 96.3
         },
         {
           "label": "Functional",
@@ -93,7 +93,7 @@
       "make": "Chevrolet",
       "model": "Impala",
       "status": "Testing & Tuning",
-      "checkout": 95.5,
+      "checkout": 94.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -109,7 +109,7 @@
         },
         {
           "label": "Raptor",
-          "value": 1.0
+          "value": 100
         },
         {
           "label": "Functional",
@@ -220,7 +220,7 @@
       "make": "Mercedes",
       "model": "280SE",
       "status": "Shipped",
-      "checkout": 94.4,
+      "checkout": 93.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -236,7 +236,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.1
+          "value": 94.4
         },
         {
           "label": "Functional",
@@ -356,7 +356,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 88.7,
+      "checkout": 88.1,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -372,7 +372,7 @@
         },
         {
           "label": "Raptor",
-          "value": 100
+          "value": 96.3
         },
         {
           "label": "Functional",
@@ -521,11 +521,11 @@
       "make": "Chevrolet",
       "model": "3100",
       "status": "Checkout",
-      "checkout": 81.5,
+      "checkout": 82.5,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 94.3
+          "value": 100
         },
         {
           "label": "Inverter",
@@ -537,11 +537,11 @@
         },
         {
           "label": "Raptor",
-          "value": 1.0
+          "value": 100
         },
         {
           "label": "Functional",
-          "value": 23.1
+          "value": 26.9
         }
       ],
       "system": "Ampere",
@@ -588,12 +588,12 @@
             "done": false
           },
           {
-            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.",
-            "done": false
+            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
           },
           {
-            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.",
-            "done": false
+            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
           },
           {
             "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
@@ -617,8 +617,8 @@
           }
         ],
         "total": 17,
-        "done": 9,
-        "open": 8
+        "done": 11,
+        "open": 6
       }
     },
     {
@@ -628,7 +628,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 80.6,
+      "checkout": 79.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -644,7 +644,7 @@
         },
         {
           "label": "Raptor",
-          "value": 100
+          "value": 96.3
         },
         {
           "label": "Functional",
@@ -694,7 +694,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 76.6,
+      "checkout": 76.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -710,7 +710,7 @@
         },
         {
           "label": "Raptor",
-          "value": 1.0
+          "value": 100
         },
         {
           "label": "Functional",
@@ -809,7 +809,7 @@
       "make": "Mercedes",
       "model": "220S",
       "status": "Testing & Tuning",
-      "checkout": 74.4,
+      "checkout": 73.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -825,7 +825,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.1
+          "value": 94.4
         },
         {
           "label": "Functional",
@@ -1038,7 +1038,7 @@
       "make": "Austin",
       "model": "Healey",
       "status": "Shipped",
-      "checkout": 19.6,
+      "checkout": 19.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1054,7 +1054,7 @@
         },
         {
           "label": "Raptor",
-          "value": 30.8
+          "value": 29.6
         },
         {
           "label": "Functional",
@@ -1275,7 +1275,7 @@
       "make": "Ford",
       "model": "Bronco",
       "status": "Shipped",
-      "checkout": 14.2,
+      "checkout": 14.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1291,7 +1291,7 @@
         },
         {
           "label": "Raptor",
-          "value": 26.9
+          "value": 25.9
         },
         {
           "label": "Functional",
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-13T21:09:41.782515+00:00",
+  "updated": "2026-04-13T22:04:12.225897+00:00",
   "source": "Google Sheets API"
 }
