@@ -26,12 +26,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J Long Lunch",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Jordan J Long Lunch",
               "type": "pto",
               "all_day": true
             }
