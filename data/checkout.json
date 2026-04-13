@@ -803,8 +803,8 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.",
-            "done": false
+            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
+            "done": true
           },
           {
             "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
@@ -860,8 +860,8 @@
           }
         ],
         "total": 17,
-        "done": 8,
-        "open": 9
+        "done": 9,
+        "open": 8
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-13T18:53:47.409546+00:00",
+  "updated": "2026-04-13T20:07:06.037124+00:00",
   "source": "Google Sheets API"
 }
