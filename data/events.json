@@ -24,7 +24,18 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Ben D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Jordan J Long Lunch",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-04-15",
@@ -189,6 +200,11 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Ben D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
@@ -202,6 +218,11 @@
           "is_weekend": true,
           "events": [
             {
+              "summary": "Ben D Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
@@ -214,6 +235,11 @@
           "is_today": false,
           "is_weekend": true,
           "events": [
+            {
+              "summary": "Ben D Out",
+              "type": "pto",
+              "all_day": true
+            },
             {
               "summary": "Aharon A Out",
               "type": "pto",
@@ -234,6 +260,11 @@
           "is_today": false,
           "is_weekend": false,
           "events": [
+            {
+              "summary": "Ben D Out",
+              "type": "pto",
+              "all_day": true
+            },
             {
               "summary": "Aharon A Out",
               "type": "pto",
