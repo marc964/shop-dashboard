@@ -3,31 +3,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-04",
-    "productivity_pct": 70.7,
-    "billable_hours": 326.8,
-    "total_hours": 510.0,
+    "productivity_pct": 70.9,
+    "billable_hours": 340.5,
+    "total_hours": 528.5,
     "pto_hours": 48.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 68.8,
-      "delta": 1.9
+      "delta": 2.1
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 66.8,
-      "delta": 3.9
+      "delta": 4.1
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 71.1,
-      "delta": -0.4
+      "value": 70.2,
+      "delta": 0.7
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": -4.3
+      "delta": -4.1
     }
   },
   "monthly": [
@@ -110,9 +110,9 @@
     },
     {
       "month": "2026-04",
-      "productivity_pct": 70.7,
-      "billable_hours": 326.8,
-      "total_hours": 510.0,
+      "productivity_pct": 70.9,
+      "billable_hours": 340.5,
+      "total_hours": 528.5,
       "pto_hours": 48.0
     }
   ],
@@ -125,15 +125,15 @@
     },
     {
       "week": "2026-W15",
-      "productivity_pct": 71.1,
+      "productivity_pct": 70.2,
       "billable_hours": 190.5,
-      "total_hours": 292.5
+      "total_hours": 296.0
     },
     {
       "week": "2026-W16",
-      "productivity_pct": 84.0,
-      "billable_hours": 25.0,
-      "total_hours": 29.8
+      "productivity_pct": 86.6,
+      "billable_hours": 38.8,
+      "total_hours": 44.8
     }
   ],
   "current_month_days": [
@@ -186,10 +186,16 @@
       "total_hours": 48.0
     },
     {
+      "date": "2026-04-11",
+      "productivity_pct": 0.0,
+      "billable_hours": 0.0,
+      "total_hours": 3.5
+    },
+    {
       "date": "2026-04-13",
-      "productivity_pct": 84.0,
-      "billable_hours": 25.0,
-      "total_hours": 29.8
+      "productivity_pct": 86.6,
+      "billable_hours": 38.8,
+      "total_hours": 44.8
     }
   ]
 }
