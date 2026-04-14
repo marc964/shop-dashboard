@@ -429,99 +429,13 @@
       }
     },
     {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Testing",
-      "checkout": 83.4,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.\n2026-03-25: Logger is mounted now but still needs customer wifi credentials.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Verify inverter RTD calibration.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.\n2026-04-08: Resolved, Aharon adjusted the springs.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
-            "done": true
-          },
-          {
-            "text": "2026-03-04: Vehicle does not PreCharge.\n2026-03-04: Resolved, Had to correct an ISO-SPI wiring flip and re-terminate some resolver pins.",
-            "done": true
-          },
-          {
-            "text": "2026-02-xx: Only 185 of 400 PackVolts showing up in the VCU. Box #2 is missing from the BMS overview.\n2026-03-04: Resolved, found ISO-SPI to be flipped between Box #1 and Box #2.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Inverter Fault: Resolver Not Connected.\n2026-03-04: Resolved, found the crimps on the excitation pins were poor. Remade & problem disappeared.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.\n2026-04-08: Resolved, any continued work is captured elsewhere.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The power gauge moves backwards.\n2026-03-06: Resolved, the IVT was inverted in the VCU.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Charge port seems sort of loose and a piece of rubber interferes with the lock latch.\n2026-03-24: Resolved, Not a loud click like other vehicles but it does indeed latch.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to setup the IVT to track energy.\n2026-03-24: Resolved, Fixed IVT setup script, ran and verified new CAN messages exist.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.\n2026-03-24: Resolved, ran the test process again and determined ~66mOhms for the pack.",
-            "done": true
-          },
-          {
-            "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
-            "done": true
-          },
-          {
-            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
-            "done": false
-          },
-          {
-            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
-            "done": true
-          },
-          {
-            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.",
-            "done": false
-          }
-        ],
-        "total": 17,
-        "done": 13,
-        "open": 4
-      }
-    },
-    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
       "status": "Checkout",
-      "checkout": 82.5,
+      "checkout": 84.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -533,7 +447,7 @@
         },
         {
           "label": "PMU",
-          "value": 87.5
+          "value": 96.9
         },
         {
           "label": "Raptor",
@@ -619,6 +533,92 @@
         "total": 17,
         "done": 11,
         "open": 6
+      }
+    },
+    {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Testing",
+      "checkout": 83.4,
+      "sub_metrics": [],
+      "system": "AEM",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.\n2026-03-25: Logger is mounted now but still needs customer wifi credentials.",
+            "done": false
+          },
+          {
+            "text": "2026-02-xx: Verify inverter RTD calibration.",
+            "done": false
+          },
+          {
+            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.\n2026-04-08: Resolved, Aharon adjusted the springs.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
+            "done": true
+          },
+          {
+            "text": "2026-03-04: Vehicle does not PreCharge.\n2026-03-04: Resolved, Had to correct an ISO-SPI wiring flip and re-terminate some resolver pins.",
+            "done": true
+          },
+          {
+            "text": "2026-02-xx: Only 185 of 400 PackVolts showing up in the VCU. Box #2 is missing from the BMS overview.\n2026-03-04: Resolved, found ISO-SPI to be flipped between Box #1 and Box #2.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Inverter Fault: Resolver Not Connected.\n2026-03-04: Resolved, found the crimps on the excitation pins were poor. Remade & problem disappeared.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.\n2026-04-08: Resolved, any continued work is captured elsewhere.",
+            "done": true
+          },
+          {
+            "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-05: The power gauge moves backwards.\n2026-03-06: Resolved, the IVT was inverted in the VCU.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Charge port seems sort of loose and a piece of rubber interferes with the lock latch.\n2026-03-24: Resolved, Not a loud click like other vehicles but it does indeed latch.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Need to setup the IVT to track energy.\n2026-03-24: Resolved, Fixed IVT setup script, ran and verified new CAN messages exist.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.\n2026-03-24: Resolved, ran the test process again and determined ~66mOhms for the pack.",
+            "done": true
+          },
+          {
+            "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
+            "done": true
+          },
+          {
+            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
+            "done": false
+          },
+          {
+            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
+            "done": true
+          },
+          {
+            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.",
+            "done": false
+          }
+        ],
+        "total": 17,
+        "done": 13,
+        "open": 4
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-14T19:42:46.016111+00:00",
+  "updated": "2026-04-14T20:40:15.042952+00:00",
   "source": "Google Sheets API"
 }
