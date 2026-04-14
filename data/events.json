@@ -58,12 +58,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Impala Alignment",
+              "summary": "Potential Chuter (Healey) Visit",
               "type": "shop",
               "all_day": true
             },
             {
-              "summary": "Potential Chuter (Healey) Visit",
+              "summary": "Impala Alignment",
               "type": "shop",
               "all_day": true
             }
@@ -122,7 +122,13 @@
           "day_name": "Thursday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Berke Alfa Alignment @Soulspeed",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-04-24",
