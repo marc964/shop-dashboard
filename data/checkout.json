@@ -494,7 +494,7 @@
             "done": false
           },
           {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.",
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.",
             "done": false
           },
           {
@@ -526,7 +526,7 @@
             "done": false
           },
           {
-            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.",
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.",
             "done": false
           }
         ],
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-14T22:31:41.270998+00:00",
+  "updated": "2026-04-14T23:30:08.741859+00:00",
   "source": "Google Sheets API"
 }
