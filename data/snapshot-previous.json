@@ -429,6 +429,113 @@
       }
     },
     {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "Checkout",
+      "checkout": 84,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 98
+        },
+        {
+          "label": "PMU",
+          "value": 96.9
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 26.9
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Mount small fuseblock that is labeled \"Mount Me\".\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Connect open black wire by 12V battery.\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: CAN3 termination is wrong. CAN3 passive fault.\n2026-03-xx: Need to remove 150 Ohm resistor in the BIM module.\n2026-04-06: Resolved, the resistor was removed and gauges installed.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.\n2026-04-06: Resolved, The ignition switch is mounted and working as expected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
+            "done": false
+          },
+          {
+            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
+            "done": true
+          },
+          {
+            "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.",
+            "done": false
+          },
+          {
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
+            "done": false
+          },
+          {
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.",
+            "done": false
+          }
+        ],
+        "total": 17,
+        "done": 11,
+        "open": 6
+      }
+    },
+    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -512,113 +619,6 @@
         "total": 17,
         "done": 13,
         "open": 4
-      }
-    },
-    {
-      "owner": "Witham",
-      "year": 1951,
-      "color": "Green",
-      "make": "Chevrolet",
-      "model": "3100",
-      "status": "Checkout",
-      "checkout": 82.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 98
-        },
-        {
-          "label": "PMU",
-          "value": 87.5
-        },
-        {
-          "label": "Raptor",
-          "value": 100
-        },
-        {
-          "label": "Functional",
-          "value": 26.9
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-03-xx: Mount small fuseblock that is labeled \"Mount Me\".\n2026-04-06: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Connect open black wire by 12V battery.\n2026-04-06: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: CAN3 termination is wrong. CAN3 passive fault.\n2026-03-xx: Need to remove 150 Ohm resistor in the BIM module.\n2026-04-06: Resolved, the resistor was removed and gauges installed.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.\n2026-04-06: Resolved, The ignition switch is mounted and working as expected.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.",
-            "done": false
-          },
-          {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
-            "done": true
-          },
-          {
-            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
-            "done": true
-          },
-          {
-            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
-            "done": true
-          },
-          {
-            "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
-            "done": true
-          },
-          {
-            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.",
-            "done": false
-          },
-          {
-            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
-            "done": false
-          },
-          {
-            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.",
-            "done": false
-          }
-        ],
-        "total": 17,
-        "done": 11,
-        "open": 6
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-13T23:44:21.657666+00:00",
+  "updated": "2026-04-14T23:43:34.564161+00:00",
   "source": "Google Sheets API"
 }
