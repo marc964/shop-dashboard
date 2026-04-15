@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14",
+  "generated_at": "2026-04-15",
   "weeks": [
     {
       "week_start": "2026-04-13",
@@ -22,16 +22,16 @@
         {
           "date": "2026-04-14",
           "day_name": "Tuesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ben D Out",
+              "summary": "Jordan J Long Lunch",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J Long Lunch",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             }
@@ -40,7 +40,7 @@
         {
           "date": "2026-04-15",
           "day_name": "Wednesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -58,12 +58,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Impala Alignment",
+              "summary": "Potential Chuter (Healey) Visit",
               "type": "shop",
               "all_day": true
             },
             {
-              "summary": "Potential Chuter (Healey) Visit",
+              "summary": "Impala Alignment",
               "type": "shop",
               "all_day": true
             }
