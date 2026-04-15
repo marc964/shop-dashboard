@@ -435,7 +435,7 @@
       "make": "Chevrolet",
       "model": "3100",
       "status": "Checkout",
-      "checkout": 84,
+      "checkout": 87.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -447,7 +447,7 @@
         },
         {
           "label": "PMU",
-          "value": 96.9
+          "value": 100
         },
         {
           "label": "Raptor",
@@ -494,12 +494,12 @@
             "done": false
           },
           {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.",
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.",
             "done": false
           },
           {
-            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.",
-            "done": false
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.\n2026-04-15: Resolved, Noah shrunk them over and installed DT connectors.",
+            "done": true
           },
           {
             "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
@@ -518,8 +518,8 @@
             "done": true
           },
           {
-            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.",
-            "done": false
+            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.\n2026-04-15: Resolved, Ben reversed the fan and wire polarity.",
+            "done": true
           },
           {
             "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
@@ -531,8 +531,8 @@
           }
         ],
         "total": 17,
-        "done": 11,
-        "open": 6
+        "done": 13,
+        "open": 4
       }
     },
     {
@@ -694,7 +694,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 76,
+      "checkout": 77,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -765,7 +765,7 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.",
+            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.",
             "done": false
           },
           {
@@ -777,20 +777,20 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.",
+            "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.\n2026-04-15: Might need a parking brake tune again, waiting on answer from Ampere about settings not allowed by VCU.",
             "done": false
           },
           {
-            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.",
+            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.",
             "done": false
           },
           {
-            "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.",
-            "done": false
-          },
-          {
-            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.",
+            "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.\n2026-04-15: Resolved, Billy fixed the hose which had fallen off.",
             "done": true
+          },
+          {
+            "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.\n2026-04-15: Driver side light burned out.",
+            "done": false
           },
           {
             "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
@@ -1070,7 +1070,7 @@
       "make": "Mercedes",
       "model": "190E",
       "status": "Fabrication",
-      "checkout": 16.7,
+      "checkout": 18.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-14T23:43:34.564161+00:00",
+  "updated": "2026-04-15T23:43:23.208820+00:00",
   "source": "Google Sheets API"
 }
