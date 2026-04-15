@@ -109,7 +109,7 @@
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 19.8
+          "hours": 18.8
         },
         {
           "task": "Cooling",
@@ -122,6 +122,10 @@
         {
           "task": "Manufacturing - Core",
           "hours": 1.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
         },
         {
           "task": "Wiring - OEM",
