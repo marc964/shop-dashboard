@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.2,
-      "pct_of_total": 15.0,
+      "pct_of_total": 14.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -139,8 +139,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 29.8,
-      "pct_of_total": 4.9,
+      "total_hours": 33.5,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -148,7 +148,7 @@
         },
         {
           "task": "Motor & Transmission",
-          "hours": 7.2
+          "hours": 10.5
         },
         {
           "task": "Steering",
@@ -156,15 +156,15 @@
         },
         {
           "task": "HVAC",
+          "hours": 1.8
+        },
+        {
+          "task": "Vehicle Control",
           "hours": 1.5
         },
         {
           "task": "Manufacturing - Core",
           "hours": 1.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.2
         },
         {
           "task": "Charging",
@@ -175,7 +175,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 29.2,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -193,7 +193,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 28.8,
+      "total_hours": 29.0,
       "pct_of_total": 4.8,
       "tasks": [
         {
@@ -205,12 +205,12 @@
           "hours": 4.8
         },
         {
-          "task": "Brakes",
+          "task": "Motor & Transmission",
           "hours": 3.8
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 3.5
+          "task": "Brakes",
+          "hours": 3.8
         },
         {
           "task": "Interior",
@@ -279,7 +279,7 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 22.8,
+      "total_hours": 23.2,
       "pct_of_total": 3.8,
       "tasks": [
         {
@@ -288,7 +288,7 @@
         },
         {
           "task": "Combustion Drivetrain",
-          "hours": 7.8
+          "hours": 8.2
         },
         {
           "task": "Inspection",
@@ -341,7 +341,7 @@
   ],
   "shop_work": {
     "total_hours": 147.0,
-    "pct_of_total": 24.4,
+    "pct_of_total": 24.2,
     "avg_per_person_per_day": 1.67,
     "flagged": true,
     "tech_count": 8,
@@ -469,9 +469,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 426.0,
+    "billable_hours": 430.5,
     "non_billable_hours": 176.0,
-    "pto_hours": 75.5,
-    "total_hours": 602.0
+    "pto_hours": 83.5,
+    "total_hours": 606.5
   }
 }
