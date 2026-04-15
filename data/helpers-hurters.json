@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.2,
-      "pct_of_total": 14.9,
+      "pct_of_total": 14.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 42.2,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -89,7 +89,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 41.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -194,7 +194,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 29.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -302,47 +302,39 @@
     },
     {
       "project": "Nagel 65 Scout",
-      "total_hours": 21.0,
-      "pct_of_total": 3.5,
+      "total_hours": 23.0,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 21.0
+          "hours": 23.0
         }
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 15.8,
-      "pct_of_total": 2.6,
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 16.5,
+      "pct_of_total": 2.7,
       "tasks": [
         {
-          "task": "Cooling",
-          "hours": 8.2
+          "task": "Wiring - OEM",
+          "hours": 9.0
         },
         {
           "task": "Vehicle Control",
+          "hours": 4.5
+        },
+        {
+          "task": "Brakes",
           "hours": 3.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 2.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 147.0,
+    "total_hours": 147.8,
     "pct_of_total": 24.2,
-    "avg_per_person_per_day": 1.67,
+    "avg_per_person_per_day": 1.68,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -353,7 +345,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 40.8
+        "hours": 41.5
       },
       {
         "label": "Shop Meetings",
@@ -469,9 +461,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 430.5,
-    "non_billable_hours": 176.0,
+    "billable_hours": 434.0,
+    "non_billable_hours": 176.8,
     "pto_hours": 83.5,
-    "total_hours": 606.5
+    "total_hours": 610.8
   }
 }
