@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.2,
-      "pct_of_total": 15.4,
+      "pct_of_total": 15.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,12 +53,12 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 36.8,
-      "pct_of_total": 6.3,
+      "total_hours": 42.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 18.8
+          "hours": 24.2
         },
         {
           "task": "Cooling",
@@ -89,7 +89,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 34.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Interior",
@@ -140,7 +140,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 29.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -175,7 +175,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 29.2,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -194,7 +194,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 28.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -245,7 +245,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.5,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -280,7 +280,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 22.8,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -303,7 +303,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 21.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Steering",
@@ -340,9 +340,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 144.2,
-    "pct_of_total": 24.6,
-    "avg_per_person_per_day": 1.64,
+    "total_hours": 145.2,
+    "pct_of_total": 24.5,
+    "avg_per_person_per_day": 1.65,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -353,11 +353,11 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 39.8
+        "hours": 40.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 31.5
+        "hours": 32.0
       },
       {
         "label": "Organization",
@@ -377,7 +377,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 10.2,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -411,27 +411,13 @@
       ]
     },
     {
-      "project": "Ivanhoe 65 Alfa",
-      "total_hours": 3.5,
-      "pct_of_total": 0.6,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 3.5,
-          "context": [
-            "Motor & Transmission"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Witham 51 3100",
-      "total_hours": 3.2,
-      "pct_of_total": 0.6,
+      "total_hours": 4.5,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 2.2,
+          "hours": 3.5,
           "context": [
             "Brakes",
             "Vehicle Control - Ampere"
@@ -454,6 +440,20 @@
       ]
     },
     {
+      "project": "Ivanhoe 65 Alfa",
+      "total_hours": 3.5,
+      "pct_of_total": 0.6,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 3.5,
+          "context": [
+            "Motor & Transmission"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Miner 95 911",
       "total_hours": 1.5,
       "pct_of_total": 0.3,
@@ -469,9 +469,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 413.5,
-    "non_billable_hours": 171.8,
+    "billable_hours": 419.0,
+    "non_billable_hours": 174.0,
     "pto_hours": 75.5,
-    "total_hours": 585.2
+    "total_hours": 593.0
   }
 }
