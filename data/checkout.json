@@ -76,17 +76,6 @@
       }
     },
     {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Barton",
       "year": 1959,
       "color": "White",
@@ -258,95 +247,6 @@
         "total": 2,
         "done": 0,
         "open": 2
-      }
-    },
-    {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Checkout",
-      "checkout": 88.8,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2025-xx-xx: 12V Dies overnight.\n2025-xx-xx: Fixed by moving CCU constant power to switched.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Regen bumps in and out at 60 mph.\n2025-xx-xx: Resolved with a new firmware summer 2025.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review range data then update the range estimation table.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Validate gauges set and correct temperature discrepency issue.\n2026-03-xx: Resolved, everything was fine.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.",
-            "done": false
-          },
-          {
-            "text": "2026-03-25: Need to enter Wi-Fi credentials for the CAN logger.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
-            "done": false
-          },
-          {
-            "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.\n2026-04-02: Resolved, enabled and watched temps go from -127C to 23C.",
-            "done": true
-          },
-          {
-            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.\n2026-03-31: Group 5 cells balanced to 14mV. Box ready for assembly.\n2026-04-02: Resolved, pack back in shape with an overall delta of ~16mV.",
-            "done": true
-          }
-        ],
-        "total": 15,
-        "done": 6,
-        "open": 9
       }
     },
     {
@@ -536,92 +436,6 @@
       }
     },
     {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Testing",
-      "checkout": 83.4,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.\n2026-03-25: Logger is mounted now but still needs customer wifi credentials.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Verify inverter RTD calibration.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.\n2026-04-08: Resolved, Aharon adjusted the springs.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
-            "done": true
-          },
-          {
-            "text": "2026-03-04: Vehicle does not PreCharge.\n2026-03-04: Resolved, Had to correct an ISO-SPI wiring flip and re-terminate some resolver pins.",
-            "done": true
-          },
-          {
-            "text": "2026-02-xx: Only 185 of 400 PackVolts showing up in the VCU. Box #2 is missing from the BMS overview.\n2026-03-04: Resolved, found ISO-SPI to be flipped between Box #1 and Box #2.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Inverter Fault: Resolver Not Connected.\n2026-03-04: Resolved, found the crimps on the excitation pins were poor. Remade & problem disappeared.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.\n2026-04-08: Resolved, any continued work is captured elsewhere.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The power gauge moves backwards.\n2026-03-06: Resolved, the IVT was inverted in the VCU.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Charge port seems sort of loose and a piece of rubber interferes with the lock latch.\n2026-03-24: Resolved, Not a loud click like other vehicles but it does indeed latch.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to setup the IVT to track energy.\n2026-03-24: Resolved, Fixed IVT setup script, ran and verified new CAN messages exist.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.\n2026-03-24: Resolved, ran the test process again and determined ~66mOhms for the pack.",
-            "done": true
-          },
-          {
-            "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
-            "done": true
-          },
-          {
-            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
-            "done": false
-          },
-          {
-            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
-            "done": true
-          },
-          {
-            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.",
-            "done": false
-          }
-        ],
-        "total": 17,
-        "done": 13,
-        "open": 4
-      }
-    },
-    {
       "owner": "Buck",
       "year": 1971,
       "color": "Red",
@@ -675,17 +489,6 @@
         "done": 0,
         "open": 4
       }
-    },
-    {
-      "owner": "GMC",
-      "year": 1963,
-      "color": "Blue",
-      "make": "GMC",
-      "model": "Truck",
-      "status": "Shipped",
-      "checkout": 79.7,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Preheim",
@@ -852,109 +655,6 @@
         "done": 0,
         "open": 3
       }
-    },
-    {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Jaffe",
-      "year": 1966,
-      "color": "Black",
-      "make": "Porsche",
-      "model": "912",
-      "status": "Shipped",
-      "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Fischer",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Mercedes",
-      "model": "230SL",
-      "status": "Shipped",
-      "checkout": 69.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Strother",
-      "year": 1988,
-      "color": "Red",
-      "make": "Porsche",
-      "model": "911",
-      "status": "Shipped",
-      "checkout": 68.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Coogan",
-      "year": 1969,
-      "color": "Green",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 66.1,
-      "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "kW gauge seemed off aroud the 0 breakpoint",
-            "done": false
-          },
-          {
-            "text": "Update Wi-Fi",
-            "done": false
-          }
-        ],
-        "total": 2,
-        "done": 0,
-        "open": 2
-      }
-    },
-    {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Alfa",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Startup",
-      "checkout": 38.5,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Ferdman",
@@ -1344,28 +1044,6 @@
       "system": "Ampere"
     },
     {
-      "owner": "Simpson",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "190B",
-      "status": "Shipped",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Henry",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "Healey",
-      "status": "Testing & Tuning",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Ampere Default",
       "year": null,
       "color": "",
@@ -1622,6 +1300,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-15T20:52:32.116644+00:00",
+  "updated": "2026-04-15T21:55:29.732698+00:00",
   "source": "Google Sheets API"
 }

@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.2,
-      "pct_of_total": 15.2,
+      "pct_of_total": 15.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 42.2,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -88,24 +88,24 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 34.0,
-      "pct_of_total": 5.7,
+      "total_hours": 41.0,
+      "pct_of_total": 6.8,
       "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 11.0
+        },
         {
           "task": "Interior",
           "hours": 7.5
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 7.0
+          "task": "Brakes",
+          "hours": 6.8
         },
         {
           "task": "Steering",
           "hours": 5.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.8
         },
         {
           "task": "Vehicle Control",
@@ -140,7 +140,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 29.8,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -245,7 +245,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.5,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -314,7 +314,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 15.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Cooling",
@@ -340,9 +340,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 145.2,
-    "pct_of_total": 24.5,
-    "avg_per_person_per_day": 1.65,
+    "total_hours": 147.0,
+    "pct_of_total": 24.4,
+    "avg_per_person_per_day": 1.67,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
@@ -353,11 +353,11 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 40.2
+        "hours": 40.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 32.0
+        "hours": 33.0
       },
       {
         "label": "Organization",
@@ -365,7 +365,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 11.8
+        "hours": 12.0
       },
       {
         "label": "Errands",
@@ -412,12 +412,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 4.5,
+      "total_hours": 4.8,
       "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 3.5,
+          "hours": 3.8,
           "context": [
             "Brakes",
             "Vehicle Control - Ampere"
@@ -456,7 +456,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 0.3,
+      "pct_of_total": 0.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -469,9 +469,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 419.0,
-    "non_billable_hours": 174.0,
+    "billable_hours": 426.0,
+    "non_billable_hours": 176.0,
     "pto_hours": 75.5,
-    "total_hours": 593.0
+    "total_hours": 602.0
   }
 }
