@@ -58,12 +58,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Potential Chuter (Healey) Visit",
+              "summary": "Impala Alignment",
               "type": "shop",
               "all_day": true
             },
             {
-              "summary": "Impala Alignment",
+              "summary": "Potential Chuter (Healey) Visit",
               "type": "shop",
               "all_day": true
             }
@@ -217,12 +217,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             }
@@ -235,12 +235,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             }
@@ -253,12 +253,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             }
@@ -278,12 +278,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             }
