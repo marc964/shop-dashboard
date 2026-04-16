@@ -53,12 +53,12 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 42.2,
-      "pct_of_total": 6.9,
+      "total_hours": 43.2,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 24.2
+          "hours": 25.2
         },
         {
           "task": "Cooling",
@@ -140,7 +140,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 33.5,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -333,7 +333,7 @@
   ],
   "shop_work": {
     "total_hours": 148.5,
-    "pct_of_total": 24.2,
+    "pct_of_total": 24.1,
     "avg_per_person_per_day": 1.55,
     "flagged": true,
     "tech_count": 8,
@@ -461,9 +461,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 436.5,
+    "billable_hours": 437.5,
     "non_billable_hours": 177.5,
     "pto_hours": 83.5,
-    "total_hours": 614.0
+    "total_hours": 615.0
   }
 }
