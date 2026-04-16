@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.2,
-      "pct_of_total": 14.8,
+      "pct_of_total": 14.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -245,7 +245,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.5,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -279,16 +279,16 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 23.2,
-      "pct_of_total": 3.8,
+      "total_hours": 25.8,
+      "pct_of_total": 4.2,
       "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 10.8
+        },
         {
           "task": "Suspension",
           "hours": 8.5
-        },
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 8.2
         },
         {
           "task": "Inspection",
@@ -303,7 +303,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 23.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Steering",
@@ -332,20 +332,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 147.8,
+    "total_hours": 148.5,
     "pct_of_total": 24.2,
-    "avg_per_person_per_day": 1.54,
+    "avg_per_person_per_day": 1.55,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
-        "label": "Other",
+        "label": "EOD Time Entry/Cleanup",
         "hours": 42.2
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 41.5
+        "label": "Other",
+        "hours": 42.2
       },
       {
         "label": "Shop Meetings",
@@ -461,9 +461,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 434.0,
-    "non_billable_hours": 176.8,
+    "billable_hours": 436.5,
+    "non_billable_hours": 177.5,
     "pto_hours": 83.5,
-    "total_hours": 610.8
+    "total_hours": 614.0
   }
 }
