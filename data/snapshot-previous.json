@@ -522,17 +522,17 @@
             "done": true
           },
           {
-            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.",
-            "done": false
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.\n2026-04-16: Resolved in firmware R010807.",
+            "done": true
           },
           {
-            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.",
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.",
             "done": false
           }
         ],
         "total": 17,
-        "done": 13,
-        "open": 4
+        "done": 14,
+        "open": 3
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-15T23:43:23.208820+00:00",
+  "updated": "2026-04-16T23:42:16.354385+00:00",
   "source": "Google Sheets API"
 }
