@@ -196,6 +196,29 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 29.2,
+      "pct_of_total": 4.5,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 14.2
+        },
+        {
+          "task": "Suspension",
+          "hours": 8.5
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 29.0,
       "pct_of_total": 4.4,
@@ -247,29 +270,6 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 28.8,
-      "pct_of_total": 4.4,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 13.8
-        },
-        {
-          "task": "Suspension",
-          "hours": 8.5
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 28.5,
       "pct_of_total": 4.4,
@@ -307,7 +307,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 24.5,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Steering",
@@ -336,7 +336,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 154.5,
+    "total_hours": 154.8,
     "pct_of_total": 23.7,
     "avg_per_person_per_day": 1.61,
     "flagged": true,
@@ -345,7 +345,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.0
+        "hours": 44.2
       },
       {
         "label": "Other",
@@ -465,9 +465,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 467.5,
-    "non_billable_hours": 185.5,
+    "billable_hours": 468.0,
+    "non_billable_hours": 185.8,
     "pto_hours": 83.5,
-    "total_hours": 653.0
+    "total_hours": 653.8
   }
 }
