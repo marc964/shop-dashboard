@@ -526,7 +526,7 @@
             "done": true
           },
           {
-            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.",
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.\n2026-04-17: Verified wiring continuity and prox resistances at the ChargeByte, no issues. Upgraded ChargeByte firmware, still getting the same fault. Prox signal noise now suspected.",
             "done": false
           }
         ],
@@ -765,7 +765,7 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.",
+            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.",
             "done": false
           },
           {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-17T19:41:59.308060+00:00",
+  "updated": "2026-04-17T20:28:01.892760+00:00",
   "source": "Google Sheets API"
 }

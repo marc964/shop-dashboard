@@ -93,7 +93,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -144,7 +144,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 38.8,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -320,28 +320,28 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 20.5,
-      "pct_of_total": 2.9,
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 21.0,
+      "pct_of_total": 3.0,
       "tasks": [
         {
-          "task": "Manufacturing - Core",
-          "hours": 10.5
+          "task": "Wiring - OEM",
+          "hours": 13.5
         },
         {
-          "task": "Interior",
-          "hours": 9.0
+          "task": "Vehicle Control",
+          "hours": 4.5
         },
         {
-          "task": "Suspension",
-          "hours": 1.0
+          "task": "Brakes",
+          "hours": 3.0
         }
       ]
     }
   ],
   "shop_work": {
     "total_hours": 162.8,
-    "pct_of_total": 23.4,
+    "pct_of_total": 23.3,
     "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
@@ -469,9 +469,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 503.0,
+    "billable_hours": 504.5,
     "non_billable_hours": 193.8,
     "pto_hours": 83.5,
-    "total_hours": 696.8
+    "total_hours": 698.2
   }
 }
