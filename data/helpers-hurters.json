@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 93.0,
-      "pct_of_total": 13.8,
+      "pct_of_total": 13.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -163,7 +163,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 34.2,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Engineering - Core",
@@ -214,7 +214,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 33.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -249,7 +249,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 31.5,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -306,12 +306,12 @@
     },
     {
       "project": "Nagel 65 Scout",
-      "total_hours": 26.5,
-      "pct_of_total": 3.9,
+      "total_hours": 28.5,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 26.5
+          "hours": 28.5
         }
       ]
     },
@@ -336,8 +336,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 160.0,
-    "pct_of_total": 23.7,
+    "total_hours": 160.5,
+    "pct_of_total": 23.6,
     "avg_per_person_per_day": 1.54,
     "flagged": true,
     "tech_count": 8,
@@ -349,11 +349,11 @@
       },
       {
         "label": "Other",
-        "hours": 42.5
+        "hours": 42.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 37.0
+        "hours": 37.2
       },
       {
         "label": "Organization",
@@ -361,7 +361,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 13.8
+        "hours": 14.2
       },
       {
         "label": "Errands",
@@ -465,9 +465,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 485.0,
-    "non_billable_hours": 191.0,
+    "billable_hours": 488.0,
+    "non_billable_hours": 191.5,
     "pto_hours": 83.5,
-    "total_hours": 676.0
+    "total_hours": 679.5
   }
 }

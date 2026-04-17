@@ -58,12 +58,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Impala Alignment",
+              "summary": "Chuter (Healey) Visit",
               "type": "shop",
               "all_day": true
             },
             {
-              "summary": "Chuter (Healey) Visit",
+              "summary": "Impala Alignment",
               "type": "shop",
               "all_day": true
             }
@@ -95,13 +95,7 @@
           "day_name": "Monday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Possible Troy Thacker (Woody) Visit",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-04-21",
@@ -217,12 +211,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -235,12 +229,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -253,12 +247,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -278,12 +272,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
