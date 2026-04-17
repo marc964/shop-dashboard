@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 97.5,
-      "pct_of_total": 14.0,
+      "pct_of_total": 13.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,12 +53,12 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 52.2,
-      "pct_of_total": 7.5,
+      "total_hours": 59.2,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 30.2
+          "hours": 37.2
         },
         {
           "task": "Cooling",
@@ -93,7 +93,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -144,7 +144,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 38.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -166,12 +166,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 34.2,
-      "pct_of_total": 4.9,
+      "total_hours": 34.5,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Engineering - Core",
-          "hours": 9.8
+          "hours": 10.0
         },
         {
           "task": "Vehicle Control",
@@ -218,7 +218,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 33.5,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -251,9 +251,32 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 32.8,
+      "pct_of_total": 4.6,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 17.8
+        },
+        {
+          "task": "Suspension",
+          "hours": 8.5
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 31.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -286,32 +309,9 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 29.2,
-      "pct_of_total": 4.2,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 14.2
-        },
-        {
-          "task": "Suspension",
-          "hours": 8.5
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Nagel 65 Scout",
       "total_hours": 28.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Steering",
@@ -322,7 +322,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 21.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -340,16 +340,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 162.8,
-    "pct_of_total": 23.3,
-    "avg_per_person_per_day": 1.56,
+    "total_hours": 164.5,
+    "pct_of_total": 23.0,
+    "avg_per_person_per_day": 1.58,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 48.2
+        "hours": 49.2
       },
       {
         "label": "Other",
@@ -357,7 +357,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 38.0
+        "hours": 38.8
       },
       {
         "label": "Organization",
@@ -377,7 +377,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 10.2,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -396,28 +396,13 @@
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 9.0,
+      "project": "Witham 51 3100",
+      "total_hours": 9.2,
       "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 9.0,
-          "context": [
-            "Brakes",
-            "Vehicle Control - Ampere"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Witham 51 3100",
-      "total_hours": 6.8,
-      "pct_of_total": 1.0,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 5.8,
+          "hours": 8.2,
           "context": [
             "Brakes",
             "Vehicle Control - Ampere"
@@ -435,6 +420,21 @@
           "hours": 0.2,
           "context": [
             "Core - VC Harness"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 9.0,
+      "pct_of_total": 1.3,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 9.0,
+          "context": [
+            "Brakes",
+            "Vehicle Control - Ampere"
           ]
         }
       ]
@@ -469,9 +469,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 504.5,
-    "non_billable_hours": 193.8,
+    "billable_hours": 518.2,
+    "non_billable_hours": 198.0,
     "pto_hours": 83.5,
-    "total_hours": 698.2
+    "total_hours": 716.2
   }
 }
