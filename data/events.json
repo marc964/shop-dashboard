@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17",
+  "generated_at": "2026-04-18",
   "weeks": [
     {
       "week_start": "2026-04-13",
@@ -54,7 +54,7 @@
         {
           "date": "2026-04-17",
           "day_name": "Friday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
@@ -72,7 +72,7 @@
         {
           "date": "2026-04-18",
           "day_name": "Saturday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         },
@@ -211,12 +211,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -229,12 +229,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -247,12 +247,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -272,12 +272,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
