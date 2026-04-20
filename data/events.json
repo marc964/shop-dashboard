@@ -1,99 +1,15 @@
 {
-  "generated_at": "2026-04-19",
+  "generated_at": "2026-04-20",
   "weeks": [
-    {
-      "week_start": "2026-04-13",
-      "week_label": "Week of Apr 13",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-04-13",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Noah S Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-14",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Jordan J Long Lunch",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Ben D Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-15",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-04-16",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-04-17",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Chuter (Healey) Visit",
-              "type": "shop",
-              "all_day": true
-            },
-            {
-              "summary": "Impala Alignment",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-18",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-04-19",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-04-20",
       "week_label": "Week of Apr 20",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-04-20",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -360,6 +276,80 @@
               "all_day": true
             }
           ]
+        }
+      ]
+    },
+    {
+      "week_start": "2026-05-11",
+      "week_label": "Week of May 11",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-05-11",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Aharon A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-05-12",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Aharon A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Aharon A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-05-14",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-15",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-16",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-05-17",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
         }
       ]
     }
