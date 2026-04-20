@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 97.5,
-      "pct_of_total": 13.0,
+      "total_hours": 98.5,
+      "pct_of_total": 12.8,
       "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 21.8
+        },
         {
           "task": "Manufacturing - Product",
           "hours": 21.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 20.8
         },
         {
           "task": "Interior",
@@ -53,12 +53,12 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 66.0,
-      "pct_of_total": 8.8,
+      "total_hours": 69.0,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 37.2
+          "hours": 40.2
         },
         {
           "task": "Cooling",
@@ -97,7 +97,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -148,7 +148,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 43.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -199,7 +199,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 38.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -222,7 +222,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 36.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -245,7 +245,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 33.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -280,7 +280,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 31.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Brakes",
@@ -315,7 +315,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 28.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Steering",
@@ -324,36 +324,40 @@
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 21.0,
-      "pct_of_total": 2.8,
+      "project": "McDonough 77 Esprit",
+      "total_hours": 26.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
-          "task": "Wiring - OEM",
-          "hours": 13.5
+          "task": "Interior",
+          "hours": 14.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 4.5
+          "task": "Manufacturing - Core",
+          "hours": 10.5
         },
         {
-          "task": "Brakes",
-          "hours": 3.0
+          "task": "Steering",
+          "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 169.2,
-    "pct_of_total": 22.5,
-    "avg_per_person_per_day": 1.51,
+    "total_hours": 172.2,
+    "pct_of_total": 22.4,
+    "avg_per_person_per_day": 1.54,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.8
+        "hours": 53.2
       },
       {
         "label": "Other",
@@ -361,7 +365,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 40.2
+        "hours": 41.8
       },
       {
         "label": "Organization",
@@ -379,9 +383,25 @@
   },
   "project_hurters": [
     {
+      "project": "Preheim 72 Blazer",
+      "total_hours": 13.0,
+      "pct_of_total": 1.7,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 13.0,
+          "context": [
+            "Brakes",
+            "Charging",
+            "Vehicle Control - Ampere"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Barton 59 Impala",
       "total_hours": 10.2,
-      "pct_of_total": 1.4,
+      "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -429,21 +449,6 @@
       ]
     },
     {
-      "project": "Preheim 72 Blazer",
-      "total_hours": 9.0,
-      "pct_of_total": 1.2,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 9.0,
-          "context": [
-            "Brakes",
-            "Vehicle Control - Ampere"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 8.5,
       "pct_of_total": 1.1,
@@ -473,9 +478,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 545.0,
-    "non_billable_hours": 207.8,
+    "billable_hours": 555.0,
+    "non_billable_hours": 214.8,
     "pto_hours": 83.5,
-    "total_hours": 752.8
+    "total_hours": 769.8
   }
 }
