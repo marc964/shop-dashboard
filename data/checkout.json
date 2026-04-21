@@ -765,8 +765,8 @@
             "done": true
           },
           {
-            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.",
-            "done": false
+            "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.\n2026-04-20: Resolved, Billy replaced the OBC fuse and charging now works as expected.",
+            "done": true
           },
           {
             "text": "2026-03-xx: Gear changes take pretty long.",
@@ -781,7 +781,7 @@
             "done": false
           },
           {
-            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.",
+            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.",
             "done": false
           },
           {
@@ -798,8 +798,8 @@
           }
         ],
         "total": 19,
-        "done": 14,
-        "open": 5
+        "done": 15,
+        "open": 4
       }
     },
     {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-21T00:00:20.490749+00:00",
+  "updated": "2026-04-21T03:38:30.252256+00:00",
   "source": "Google Sheets API"
 }
