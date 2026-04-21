@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 98.5,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 69.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -91,6 +91,57 @@
         {
           "task": "Wiring - OEM",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "LB 82 911",
+      "total_hours": 49.5,
+      "pct_of_total": 6.3,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 18.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 10.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 3.8
+        },
+        {
+          "task": "Interior",
+          "hours": 3.5
+        },
+        {
+          "task": "Trunk",
+          "hours": 2.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 1.5
+        },
+        {
+          "task": "Audio",
+          "hours": 1.2
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 0.8
+        },
+        {
+          "task": "Charging",
+          "hours": 0.8
         }
       ]
     },
@@ -146,60 +197,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 43.5,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 12.5
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 10.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 3.8
-        },
-        {
-          "task": "Interior",
-          "hours": 3.5
-        },
-        {
-          "task": "Trunk",
-          "hours": 2.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 1.5
-        },
-        {
-          "task": "Audio",
-          "hours": 1.2
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 0.8
-        },
-        {
-          "task": "Charging",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 42.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -222,7 +222,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 36.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -245,7 +245,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 33.5,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -315,7 +315,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 28.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Steering",
@@ -326,7 +326,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 26.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Interior",
@@ -348,16 +348,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 173.5,
+    "total_hours": 175.0,
     "pct_of_total": 22.1,
-    "avg_per_person_per_day": 1.55,
+    "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 54.0
+        "hours": 54.5
       },
       {
         "label": "Other",
@@ -365,7 +365,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 41.8
+        "hours": 42.8
       },
       {
         "label": "Organization",
@@ -385,7 +385,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 13.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -478,9 +478,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 567.8,
-    "non_billable_hours": 216.0,
+    "billable_hours": 573.8,
+    "non_billable_hours": 217.5,
     "pto_hours": 83.5,
-    "total_hours": 783.8
+    "total_hours": 791.2
   }
 }
