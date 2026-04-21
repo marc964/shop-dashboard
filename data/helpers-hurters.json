@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 98.5,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 78.5,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -148,7 +148,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -244,8 +244,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 33.5,
-      "pct_of_total": 4.1,
+      "total_hours": 34.8,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -270,6 +270,10 @@
         {
           "task": "Manufacturing - Core",
           "hours": 1.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 1.2
         },
         {
           "task": "Charging",
@@ -348,9 +352,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 180.5,
+    "total_hours": 181.5,
     "pct_of_total": 22.3,
-    "avg_per_person_per_day": 1.5,
+    "avg_per_person_per_day": 1.51,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
@@ -365,7 +369,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 43.0
+        "hours": 44.0
       },
       {
         "label": "Organization",
@@ -451,7 +455,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 8.5,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -478,9 +482,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 586.2,
-    "non_billable_hours": 223.0,
+    "billable_hours": 590.0,
+    "non_billable_hours": 224.0,
     "pto_hours": 83.5,
-    "total_hours": 809.2
+    "total_hours": 814.0
   }
 }
