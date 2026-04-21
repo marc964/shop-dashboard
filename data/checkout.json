@@ -781,7 +781,7 @@
             "done": false
           },
           {
-            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.",
+            "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.\n2026-04-21: Corrected VCU option to enable the heater. Need to make full climate controls schematic to answer questions needed to move on.",
             "done": false
           },
           {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-21T22:52:50.629400+00:00",
+  "updated": "2026-04-21T23:36:34.451449+00:00",
   "source": "Google Sheets API"
 }
