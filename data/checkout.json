@@ -1005,7 +1005,7 @@
       "color": "Blue",
       "make": "Chevrolet",
       "model": "Corvette",
-      "status": "Testing & Tuning",
+      "status": "Startup",
       "checkout": 22.4,
       "sub_metrics": [
         {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-21T12:01:36.271834+00:00",
+  "updated": "2026-04-21T14:05:14.060050+00:00",
   "source": "Google Sheets API"
 }
