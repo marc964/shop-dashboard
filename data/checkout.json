@@ -628,7 +628,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 79.9,
+      "checkout": 80.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-22T21:11:02.690740+00:00",
+  "updated": "2026-04-22T22:06:30.964341+00:00",
   "source": "Google Sheets API"
 }

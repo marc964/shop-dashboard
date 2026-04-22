@@ -299,7 +299,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 31.5,
+      "total_hours": 32.0,
       "pct_of_total": 3.5,
       "tasks": [
         {
@@ -316,7 +316,7 @@
         },
         {
           "task": "Engineering - Product",
-          "hours": 2.5
+          "hours": 3.0
         },
         {
           "task": "Motor & Transmission",
@@ -384,9 +384,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 198.8,
+    "total_hours": 199.2,
     "pct_of_total": 21.9,
-    "avg_per_person_per_day": 1.55,
+    "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
@@ -401,7 +401,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 49.5
+        "hours": 50.0
       },
       {
         "label": "Organization",
@@ -514,9 +514,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 667.5,
-    "non_billable_hours": 241.2,
+    "billable_hours": 668.0,
+    "non_billable_hours": 241.8,
     "pto_hours": 83.5,
-    "total_hours": 908.8
+    "total_hours": 909.8
   }
 }
