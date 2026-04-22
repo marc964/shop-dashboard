@@ -34,6 +34,11 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Berke Alfa Alignment @Soulspeed",
               "type": "shop",
               "all_day": true
@@ -58,14 +63,26 @@
           "day_name": "Saturday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-04-26",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         }
       ]
     },
@@ -132,12 +149,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -150,12 +167,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -168,12 +185,12 @@
           "is_weekend": true,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -193,12 +210,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
