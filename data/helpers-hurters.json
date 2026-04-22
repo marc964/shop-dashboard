@@ -1,9 +1,56 @@
 {
   "helpers": [
     {
+      "project": "Ritchie 72 Blazer",
+      "total_hours": 113.5,
+      "pct_of_total": 12.3,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 78.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 7.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 6.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 5.0
+        },
+        {
+          "task": "Steering",
+          "hours": 4.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 4.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 3.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 1.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 110.0,
-      "pct_of_total": 12.1,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -60,60 +107,13 @@
       ]
     },
     {
-      "project": "Ritchie 72 Blazer",
-      "total_hours": 107.0,
-      "pct_of_total": 11.8,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 71.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 7.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 6.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 5.0
-        },
-        {
-          "task": "Steering",
-          "hours": 4.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 4.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 3.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 3.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 1.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "LB 82 911",
-      "total_hours": 56.8,
+      "total_hours": 57.8,
       "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 25.8
+          "hours": 26.8
         },
         {
           "task": "Engineering - Core",
@@ -160,7 +160,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 50.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -187,7 +187,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -238,7 +238,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 42.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -362,7 +362,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 30.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Interior",
@@ -384,24 +384,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 199.2,
-    "pct_of_total": 21.9,
-    "avg_per_person_per_day": 1.56,
+    "total_hours": 200.8,
+    "pct_of_total": 21.7,
+    "avg_per_person_per_day": 1.57,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 62.5
+        "hours": 63.5
+      },
+      {
+        "label": "Shop Meetings",
+        "hours": 50.5
       },
       {
         "label": "Other",
         "hours": 50.2
-      },
-      {
-        "label": "Shop Meetings",
-        "hours": 50.0
       },
       {
         "label": "Organization",
@@ -418,6 +418,20 @@
     ]
   },
   "project_hurters": [
+    {
+      "project": "Ivanhoe 65 Alfa",
+      "total_hours": 15.0,
+      "pct_of_total": 1.6,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 15.0,
+          "context": [
+            "Motor & Transmission"
+          ]
+        }
+      ]
+    },
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 13.0,
@@ -485,20 +499,6 @@
       ]
     },
     {
-      "project": "Ivanhoe 65 Alfa",
-      "total_hours": 8.5,
-      "pct_of_total": 0.9,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 8.5,
-          "context": [
-            "Motor & Transmission"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Miner 95 911",
       "total_hours": 1.5,
       "pct_of_total": 0.2,
@@ -514,9 +514,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 668.0,
-    "non_billable_hours": 241.8,
+    "billable_hours": 675.5,
+    "non_billable_hours": 249.8,
     "pto_hours": 83.5,
-    "total_hours": 909.8
+    "total_hours": 925.2
   }
 }

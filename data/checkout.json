@@ -1,6 +1,69 @@
 {
   "vehicles": [
     {
+      "owner": "Buck",
+      "year": 1971,
+      "color": "Red",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 100
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2025-xx-xx: Verify I have the correct status / overrides for battery pump and heater.\n2026-04-22: I now know how to properly check that IO point next time there's access to the vehicle.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.\n2026-04-22: Should verify this is not one of the reasons the gauge cluster has alarm lights.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask why weight calibration in the VCU only goes to 100kg.\n2026-04-22: Resolved in firmware 1.7.9.493.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Verify logs are uploading with customer's wifi.\n2026-04-22: Resolved, Remote session with Ampere and customer corrected an incorrect password.",
+            "done": true
+          },
+          {
+            "text": "2026-04-22: Customer complains about a lack of off the line power and motor vibrate-y sound.\n2026-04-22: Can look into inverter EEPROM settings for the shudder and develop a firmware branch with a more agressive torque map.",
+            "done": false
+          },
+          {
+            "text": "2026-04-22: Analog gauges are showing a number of warning lights along with DTC codes when the GUI is plugged in.\n2026-04-22: Updated ticket with Ampere asking for Andrew to look into that.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 2,
+        "open": 4
+      }
+    },
+    {
       "owner": "Vargas",
       "year": 1966,
       "color": "Red",
@@ -292,7 +355,7 @@
             "done": true
           },
           {
-            "text": "2025-xx-xx: Need to review range data then update the range estimation table.",
+            "text": "2025-xx-xx: Need to review range data then update the range estimation table.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
             "done": false
           },
           {
@@ -308,11 +371,11 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.",
+            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.",
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair. Don't use log data.",
             "done": false
           },
           {
@@ -320,11 +383,11 @@
             "done": true
           },
           {
-            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.",
+            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.",
+            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.\n2026-04-22: In progress, still need to sweep everything with the gauges test program. Expected finished this week.",
             "done": false
           },
           {
@@ -618,61 +681,6 @@
         ],
         "total": 17,
         "done": 13,
-        "open": 4
-      }
-    },
-    {
-      "owner": "Buck",
-      "year": 1971,
-      "color": "Red",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 80.9,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.1
-        },
-        {
-          "label": "Inverter",
-          "value": 100
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 96.3
-        },
-        {
-          "label": "Functional",
-          "value": 3.8
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Verify I have the correct status / overrides for battery pump and heater.",
-            "done": false
-          },
-          {
-            "text": "Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.",
-            "done": false
-          },
-          {
-            "text": "Ask why weight calibration in the VCU only goes to 100kg.",
-            "done": false
-          },
-          {
-            "text": "Check On Wi-Fi",
-            "done": false
-          }
-        ],
-        "total": 4,
-        "done": 0,
         "open": 4
       }
     },
@@ -1622,6 +1630,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-22T22:06:30.964341+00:00",
+  "updated": "2026-04-22T23:07:58.234195+00:00",
   "source": "Google Sheets API"
 }
