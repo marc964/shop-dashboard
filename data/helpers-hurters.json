@@ -109,7 +109,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 56.8,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -333,6 +333,33 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 31.0,
+      "pct_of_total": 3.4,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 23.2
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "McDonough 77 Esprit",
       "total_hours": 30.5,
       "pct_of_total": 3.4,
@@ -351,25 +378,6 @@
         },
         {
           "task": "Suspension",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 29.2,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 23.2
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Scanning",
           "hours": 1.0
         }
       ]
@@ -506,9 +514,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 665.8,
+    "billable_hours": 667.5,
     "non_billable_hours": 241.2,
     "pto_hours": 83.5,
-    "total_hours": 907.0
+    "total_hours": 908.8
   }
 }

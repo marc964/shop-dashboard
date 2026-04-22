@@ -278,7 +278,7 @@
       "make": "Porsche",
       "model": "993",
       "status": "Checkout",
-      "checkout": 88.8,
+      "checkout": 89.0,
       "sub_metrics": [],
       "system": "AEM",
       "punchlist": {
@@ -1622,6 +1622,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-22T20:06:57.338315+00:00",
+  "updated": "2026-04-22T21:11:02.690740+00:00",
   "source": "Google Sheets API"
 }
