@@ -355,7 +355,7 @@
             "done": true
           },
           {
-            "text": "2025-xx-xx: Need to review range data then update the range estimation table.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
+            "text": "2025-xx-xx: Need to review range data then update the range estimation table.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
             "done": false
           },
           {
@@ -371,11 +371,11 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
+            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair. Don't use log data.",
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.",
             "done": false
           },
           {
@@ -383,7 +383,7 @@
             "done": true
           },
           {
-            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.\n2026-04-22: Should repeat the pack burn after having the batter box out for major repair.",
+            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
             "done": false
           },
           {
@@ -1630,6 +1630,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-22T23:07:58.234195+00:00",
+  "updated": "2026-04-22T23:48:52.647933+00:00",
   "source": "Google Sheets API"
 }
