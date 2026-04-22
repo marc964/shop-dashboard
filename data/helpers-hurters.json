@@ -57,8 +57,8 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 96.5,
-      "pct_of_total": 10.9,
+      "total_hours": 100.0,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -73,6 +73,10 @@
           "hours": 6.5
         },
         {
+          "task": "HVAC",
+          "hours": 5.0
+        },
+        {
           "task": "Steering",
           "hours": 4.0
         },
@@ -81,16 +85,16 @@
           "hours": 4.0
         },
         {
-          "task": "HVAC",
-          "hours": 3.0
-        },
-        {
           "task": "Manufacturing - Core",
           "hours": 3.0
         },
         {
           "task": "Vehicle Control",
           "hours": 3.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 1.5
         },
         {
           "task": "Wiring - OEM",
