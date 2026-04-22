@@ -3,7 +3,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 103.0,
-      "pct_of_total": 11.9,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -57,12 +57,16 @@
     },
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 94.5,
-      "pct_of_total": 10.9,
+      "total_hours": 96.5,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 64.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 7.2
         },
         {
           "task": "Cooling",
@@ -70,11 +74,7 @@
         },
         {
           "task": "Steering",
-          "hours": 5.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 4.2
+          "hours": 4.0
         },
         {
           "task": "Instrumentation",
@@ -101,7 +101,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 56.8,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -152,7 +152,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 47.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -179,7 +179,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 44.2,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -350,7 +350,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 29.0,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Steering",
@@ -360,24 +360,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 187.2,
-    "pct_of_total": 21.7,
-    "avg_per_person_per_day": 1.46,
+    "total_hours": 193.2,
+    "pct_of_total": 22.0,
+    "avg_per_person_per_day": 1.51,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 58.0
+        "hours": 59.0
       },
       {
         "label": "Other",
-        "hours": 47.2
+        "hours": 50.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.0
+        "hours": 48.0
       },
       {
         "label": "Organization",
@@ -385,7 +385,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 15.0
+        "hours": 16.0
       },
       {
         "label": "Errands",
@@ -490,9 +490,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 634.8,
-    "non_billable_hours": 229.8,
+    "billable_hours": 643.8,
+    "non_billable_hours": 235.8,
     "pto_hours": 83.5,
-    "total_hours": 864.5
+    "total_hours": 879.5
   }
 }
