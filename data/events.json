@@ -37,11 +37,6 @@
               "summary": "Brandon B Out",
               "type": "pto",
               "all_day": true
-            },
-            {
-              "summary": "Berke Alfa Alignment @Soulspeed",
-              "type": "shop",
-              "all_day": true
             }
           ]
         },
@@ -122,7 +117,13 @@
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Berke Alfa Alignment @Soulspeed",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-04-30",
