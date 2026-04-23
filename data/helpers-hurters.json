@@ -49,12 +49,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 110.0,
-      "pct_of_total": 11.6,
+      "total_hours": 111.0,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "HVAC",
-          "hours": 25.8
+          "hours": 26.8
         },
         {
           "task": "Manufacturing - Product",
@@ -356,36 +356,36 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 31.0,
+      "project": "McDonough 77 Esprit",
+      "total_hours": 31.5,
       "pct_of_total": 3.3,
       "tasks": [
         {
-          "task": "Combustion Drivetrain",
-          "hours": 23.2
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
           "task": "Interior",
+          "hours": 18.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 10.5
+        },
+        {
+          "task": "Audio",
           "hours": 1.0
         },
         {
-          "task": "Scanning",
+          "task": "Steering",
           "hours": 1.0
         },
         {
           "task": "Suspension",
-          "hours": 0.8
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
     "total_hours": 206.2,
-    "pct_of_total": 21.8,
+    "pct_of_total": 21.7,
     "avg_per_person_per_day": 1.52,
     "flagged": true,
     "tech_count": 8,
@@ -514,9 +514,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 692.8,
+    "billable_hours": 694.8,
     "non_billable_hours": 255.2,
     "pto_hours": 91.5,
-    "total_hours": 948.0
+    "total_hours": 950.0
   }
 }
