@@ -50,7 +50,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 113.0,
-      "pct_of_total": 11.6,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -376,32 +376,32 @@
     }
   ],
   "shop_work": {
-    "total_hours": 213.8,
+    "total_hours": 214.5,
     "pct_of_total": 21.9,
-    "avg_per_person_per_day": 1.57,
+    "avg_per_person_per_day": 1.58,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 67.0
+        "hours": 67.2
       },
       {
         "label": "Other",
-        "hours": 55.2
+        "hours": 55.5
       },
       {
         "label": "Shop Meetings",
         "hours": 53.0
       },
       {
-        "label": "Organization",
+        "label": "Personal Meetings",
         "hours": 18.8
       },
       {
-        "label": "Personal Meetings",
-        "hours": 18.5
+        "label": "Organization",
+        "hours": 18.8
       },
       {
         "label": "Errands",
@@ -507,8 +507,8 @@
   ],
   "totals": {
     "billable_hours": 715.0,
-    "non_billable_hours": 262.8,
+    "non_billable_hours": 263.5,
     "pto_hours": 91.5,
-    "total_hours": 977.8
+    "total_hours": 978.5
   }
 }
