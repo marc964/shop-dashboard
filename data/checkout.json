@@ -341,7 +341,7 @@
       "make": "Porsche",
       "model": "993",
       "status": "Checkout",
-      "checkout": 89.5,
+      "checkout": 89.8,
       "sub_metrics": [],
       "system": "AEM",
       "punchlist": {
@@ -1325,7 +1325,7 @@
       "color": "Green",
       "make": "Austin",
       "model": "Healey",
-      "status": "Testing & Tuning",
+      "status": "Checkout",
       "checkout": 13.7,
       "sub_metrics": [
         {
@@ -1353,27 +1353,27 @@
       "punchlist": {
         "items": [
           {
-            "text": "Verify inverter EEPROM.",
+            "text": "2026-04-23: Verify inverter EEPROM is consistent with improvements over the past year.",
             "done": false
           },
           {
-            "text": "Verify analog PDU channels as best as possible.",
+            "text": "2026-04-23: Verify analog PDU channels as best as possible.",
             "done": false
           },
           {
-            "text": "Upgrade VCU firmware to the latest. Review all VCU settings.",
+            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.",
             "done": false
           },
           {
-            "text": "Determine analog gauge progress, location of firmware development files. Finish development and validate.",
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.",
             "done": false
           },
           {
-            "text": "Complete the pack burn and any additional road testing desired.",
+            "text": "2026-04-23: Complete the pack burn and any additional road testing desired.",
             "done": false
           },
           {
-            "text": "Perform Ampere BMS road testing per guide instructions.",
+            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.",
             "done": false
           }
         ],
@@ -1661,6 +1661,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-23T21:10:54.477993+00:00",
+  "updated": "2026-04-23T22:03:17.897815+00:00",
   "source": "Google Sheets API"
 }
