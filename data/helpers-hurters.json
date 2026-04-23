@@ -250,7 +250,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 42.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -312,7 +312,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 34.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Steering",
@@ -384,24 +384,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 207.2,
-    "pct_of_total": 21.6,
-    "avg_per_person_per_day": 1.52,
+    "total_hours": 210.8,
+    "pct_of_total": 21.9,
+    "avg_per_person_per_day": 1.55,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 65.5
+        "hours": 66.0
       },
       {
         "label": "Other",
-        "hours": 52.2
+        "hours": 53.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 52.0
+        "hours": 52.5
       },
       {
         "label": "Organization",
@@ -409,7 +409,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 17.5
+        "hours": 18.5
       },
       {
         "label": "Errands",
@@ -515,8 +515,8 @@
   ],
   "totals": {
     "billable_hours": 701.2,
-    "non_billable_hours": 256.2,
+    "non_billable_hours": 259.8,
     "pto_hours": 91.5,
-    "total_hours": 957.5
+    "total_hours": 961.0
   }
 }
