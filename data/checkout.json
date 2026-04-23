@@ -1349,7 +1349,38 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Verify inverter EEPROM.",
+            "done": false
+          },
+          {
+            "text": "Verify analog PDU channels as best as possible.",
+            "done": false
+          },
+          {
+            "text": "Upgrade VCU firmware to the latest. Review all VCU settings.",
+            "done": false
+          },
+          {
+            "text": "Determine analog gauge progress, location of firmware development files. Finish development and validate.",
+            "done": false
+          },
+          {
+            "text": "Complete the pack burn and any additional road testing desired.",
+            "done": false
+          },
+          {
+            "text": "Perform Ampere BMS road testing per guide instructions.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 0,
+        "open": 6
+      }
     },
     {
       "owner": "Simpson",
@@ -1630,6 +1661,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-23T19:12:10.549922+00:00",
+  "updated": "2026-04-23T20:14:50.419853+00:00",
   "source": "Google Sheets API"
 }
