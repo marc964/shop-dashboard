@@ -341,7 +341,7 @@
       "make": "Porsche",
       "model": "993",
       "status": "Checkout",
-      "checkout": 89,
+      "checkout": 89.8,
       "sub_metrics": [],
       "system": "AEM",
       "punchlist": {
@@ -359,8 +359,8 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.",
-            "done": false
+            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.\n2026-04-23: Done.",
+            "done": true
           },
           {
             "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
@@ -395,8 +395,8 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.",
-            "done": false
+            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.\n2026-04-23: Resolved.",
+            "done": true
           },
           {
             "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.\n2026-04-02: Resolved, enabled and watched temps go from -127C to 23C.",
@@ -405,11 +405,15 @@
           {
             "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.\n2026-03-31: Group 5 cells balanced to 14mV. Box ready for assembly.\n2026-04-02: Resolved, pack back in shape with an overall delta of ~16mV.",
             "done": true
+          },
+          {
+            "text": "2026-04-23: Vehicle doesn't seem to end charging. It bounces back between -1A and 1A continuously but never shuts down. Sent logs and a calibration to AEM.",
+            "done": false
           }
         ],
-        "total": 15,
-        "done": 6,
-        "open": 9
+        "total": 16,
+        "done": 8,
+        "open": 8
       }
     },
     {
@@ -1325,7 +1329,7 @@
       "color": "Green",
       "make": "Austin",
       "model": "Healey",
-      "status": "Testing & Tuning",
+      "status": "Checkout",
       "checkout": 13.7,
       "sub_metrics": [
         {
@@ -1349,7 +1353,38 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-04-23: Verify inverter EEPROM is consistent with improvements over the past year.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Verify analog PDU channels as best as possible.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Complete the pack burn and any additional road testing desired.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 0,
+        "open": 6
+      }
     },
     {
       "owner": "Simpson",
@@ -1630,6 +1665,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-22T23:48:52.647933+00:00",
+  "updated": "2026-04-23T23:49:42.101092+00:00",
   "source": "Google Sheets API"
 }
