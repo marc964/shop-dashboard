@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 131.0,
-      "pct_of_total": 13.0,
+      "pct_of_total": 12.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -315,12 +315,12 @@
     },
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 36.0,
-      "pct_of_total": 3.6,
+      "total_hours": 37.0,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 20.5
+          "hours": 21.5
         },
         {
           "task": "Manufacturing - Core",
@@ -392,16 +392,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 222.5,
-    "pct_of_total": 22.0,
-    "avg_per_person_per_day": 1.55,
+    "total_hours": 224.5,
+    "pct_of_total": 22.2,
+    "avg_per_person_per_day": 1.56,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 69.2
+        "hours": 70.2
       },
       {
         "label": "Other",
@@ -409,7 +409,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 54.5
+        "hours": 55.5
       },
       {
         "label": "Personal Meetings",
@@ -522,9 +522,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 737.8,
-    "non_billable_hours": 271.5,
+    "billable_hours": 738.8,
+    "non_billable_hours": 273.5,
     "pto_hours": 99.5,
-    "total_hours": 1009.2
+    "total_hours": 1012.2
   }
 }
