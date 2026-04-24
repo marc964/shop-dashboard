@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 138.0,
-      "pct_of_total": 13.4,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -268,9 +268,40 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 44.8,
+      "pct_of_total": 4.3,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 23.2
+        },
+        {
+          "task": "Interior",
+          "hours": 5.8
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 4.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 2.2
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 43.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -287,33 +318,6 @@
         {
           "task": "Steering",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 37.8,
-      "pct_of_total": 3.7,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 23.2
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Scanning",
-          "hours": 4.5
-        },
-        {
-          "task": "Interior",
-          "hours": 2.8
-        },
-        {
-          "task": "Suspension",
-          "hours": 2.2
         }
       ]
     },
@@ -397,7 +401,7 @@
   ],
   "shop_work": {
     "total_hours": 227.0,
-    "pct_of_total": 22.1,
+    "pct_of_total": 22.0,
     "avg_per_person_per_day": 1.58,
     "flagged": true,
     "tech_count": 8,
@@ -526,9 +530,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 751.0,
+    "billable_hours": 758.0,
     "non_billable_hours": 276.0,
     "pto_hours": 99.5,
-    "total_hours": 1027.0
+    "total_hours": 1034.0
   }
 }
