@@ -54,7 +54,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 116.5,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -113,7 +113,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 66.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -159,8 +159,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 59.8,
-      "pct_of_total": 5.8,
+      "total_hours": 65.2,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -172,11 +172,15 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 5.2
+          "hours": 6.2
         },
         {
           "task": "Brakes",
           "hours": 3.8
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 3.5
         },
         {
           "task": "Interior",
@@ -191,6 +195,10 @@
           "hours": 2.0
         },
         {
+          "task": "Charging",
+          "hours": 1.8
+        },
+        {
           "task": "Wiring - OEM",
           "hours": 1.8
         },
@@ -203,15 +211,11 @@
           "hours": 1.2
         },
         {
-          "task": "Charging",
-          "hours": 0.8
-        },
-        {
-          "task": "Engine Bay",
+          "task": "Manufacturing - Core",
           "hours": 0.5
         },
         {
-          "task": "Battery Pack",
+          "task": "Engine Bay",
           "hours": 0.5
         }
       ]
@@ -219,7 +223,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 48.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -351,7 +355,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 34.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -401,7 +405,7 @@
   ],
   "shop_work": {
     "total_hours": 227.0,
-    "pct_of_total": 22.0,
+    "pct_of_total": 21.8,
     "avg_per_person_per_day": 1.58,
     "flagged": true,
     "tech_count": 8,
@@ -437,7 +441,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 15.0,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -530,9 +534,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 758.0,
+    "billable_hours": 763.5,
     "non_billable_hours": 276.0,
     "pto_hours": 99.5,
-    "total_hours": 1034.0
+    "total_hours": 1039.5
   }
 }

@@ -375,7 +375,7 @@
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.\n2026-04-24: Test drove with Marc, top end limiters look correct.",
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.\n2026-04-24: Test drove with Marc, the torque map needs work before the top end limiters can be validated.",
             "done": false
           },
           {
@@ -1665,6 +1665,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-24T20:51:57.196636+00:00",
+  "updated": "2026-04-24T21:50:52.600052+00:00",
   "source": "Google Sheets API"
 }
