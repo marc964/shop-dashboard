@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 124.0,
-      "pct_of_total": 12.6,
+      "total_hours": 131.0,
+      "pct_of_total": 13.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -12,6 +12,10 @@
         {
           "task": "Brakes",
           "hours": 11.8
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 7.0
         },
         {
           "task": "Cooling",
@@ -50,7 +54,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 113.0,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -109,7 +113,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 60.5,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -147,8 +151,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 57.8,
-      "pct_of_total": 5.9,
+      "total_hours": 59.8,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -179,6 +183,10 @@
           "hours": 2.0
         },
         {
+          "task": "Wiring - OEM",
+          "hours": 1.8
+        },
+        {
           "task": "Cooling",
           "hours": 1.5
         },
@@ -187,19 +195,23 @@
           "hours": 1.2
         },
         {
-          "task": "Wiring - OEM",
+          "task": "Charging",
           "hours": 0.8
         },
         {
-          "task": "Charging",
-          "hours": 0.8
+          "task": "Engine Bay",
+          "hours": 0.5
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 44.2,
-      "pct_of_total": 4.5,
+      "total_hours": 48.2,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -210,6 +222,10 @@
           "hours": 7.5
         },
         {
+          "task": "Vehicle Control",
+          "hours": 6.8
+        },
+        {
           "task": "Brakes",
           "hours": 6.8
         },
@@ -218,12 +234,12 @@
           "hours": 6.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 3.8
-        },
-        {
           "task": "Exterior",
           "hours": 3.0
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 2.5
         },
         {
           "task": "Manufacturing - Core",
@@ -231,10 +247,6 @@
         },
         {
           "task": "Trunk",
-          "hours": 1.5
-        },
-        {
-          "task": "Wiring - High Voltage",
           "hours": 1.5
         },
         {
@@ -339,7 +351,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 34.0,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Steering",
@@ -376,16 +388,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 218.5,
-    "pct_of_total": 22.2,
-    "avg_per_person_per_day": 1.52,
+    "total_hours": 220.0,
+    "pct_of_total": 22.0,
+    "avg_per_person_per_day": 1.53,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 68.2
+        "hours": 69.2
       },
       {
         "label": "Other",
@@ -393,7 +405,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 53.5
+        "hours": 54.0
       },
       {
         "label": "Personal Meetings",
@@ -493,7 +505,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 1.5,
-      "pct_of_total": 0.2,
+      "pct_of_total": 0.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -506,9 +518,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 718.0,
-    "non_billable_hours": 267.5,
+    "billable_hours": 731.0,
+    "non_billable_hours": 269.0,
     "pto_hours": 99.5,
-    "total_hours": 985.5
+    "total_hours": 1000.0
   }
 }
