@@ -367,15 +367,15 @@
             "done": true
           },
           {
-            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.",
-            "done": false
+            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.\n2026-04-24: Resolved, verified against early SL's.",
+            "done": true
           },
           {
             "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
             "done": false
           },
           {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.",
+            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.\n2026-04-24: Test drove with Marc, the torque map needs work before the top end limiters can be validated.",
             "done": false
           },
           {
@@ -407,13 +407,13 @@
             "done": true
           },
           {
-            "text": "2026-04-23: Vehicle doesn't seem to end charging. It bounces back between -1A and 1A continuously but never shuts down. Sent logs and a calibration to AEM.",
-            "done": false
+            "text": "2026-04-23: Vehicle doesn't seem to end charging. It bounces back between -1A and 1A continuously but never shuts down. Sent logs and a calibration to AEM.\n2026-04-24: Resolved, changed ovver to temp based DCL CCL calculations which allowed charging current.",
+            "done": true
           }
         ],
         "total": 16,
-        "done": 8,
-        "open": 8
+        "done": 10,
+        "open": 6
       }
     },
     {
@@ -1665,6 +1665,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-23T23:49:42.101092+00:00",
+  "updated": "2026-04-24T23:40:50.687806+00:00",
   "source": "Google Sheets API"
 }
