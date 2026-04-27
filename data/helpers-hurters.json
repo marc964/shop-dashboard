@@ -112,7 +112,7 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 72.0,
+      "total_hours": 72.5,
       "pct_of_total": 6.6,
       "tasks": [
         {
@@ -125,11 +125,15 @@
         },
         {
           "task": "Exterior",
-          "hours": 6.2
+          "hours": 6.5
         },
         {
           "task": "Inspection",
           "hours": 5.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.0
         },
         {
           "task": "Scanning",
@@ -138,10 +142,6 @@
         {
           "task": "Wiring - OEM",
           "hours": 4.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.8
         },
         {
           "task": "Interior",
@@ -416,9 +416,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 232.8,
+    "total_hours": 233.8,
     "pct_of_total": 21.3,
-    "avg_per_person_per_day": 1.53,
+    "avg_per_person_per_day": 1.54,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
@@ -429,7 +429,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 59.8
+        "hours": 60.8
       },
       {
         "label": "Other",
@@ -548,9 +548,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 802.0,
-    "non_billable_hours": 291.5,
+    "billable_hours": 802.5,
+    "non_billable_hours": 292.5,
     "pto_hours": 107.5,
-    "total_hours": 1093.5
+    "total_hours": 1095.0
   }
 }
