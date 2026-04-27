@@ -340,7 +340,7 @@
       "color": "Green",
       "make": "Porsche",
       "model": "993",
-      "status": "Checkout",
+      "status": "Testing",
       "checkout": 89.8,
       "sub_metrics": [],
       "system": "AEM",
@@ -1680,6 +1680,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-27T22:27:03.902269+00:00",
+  "updated": "2026-04-27T23:29:11.439346+00:00",
   "source": "Google Sheets API"
 }
