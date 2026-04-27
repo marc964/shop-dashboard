@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 72 Blazer",
       "total_hours": 138.0,
-      "pct_of_total": 13.1,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -53,12 +53,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 116.5,
-      "pct_of_total": 11.0,
+      "total_hours": 120.5,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "HVAC",
-          "hours": 28.8
+          "hours": 29.8
         },
         {
           "task": "Manufacturing - Product",
@@ -77,12 +77,12 @@
           "hours": 11.5
         },
         {
-          "task": "Cooling",
-          "hours": 7.2
+          "task": "Brakes",
+          "hours": 10.0
         },
         {
-          "task": "Brakes",
-          "hours": 7.0
+          "task": "Cooling",
+          "hours": 7.2
         },
         {
           "task": "Scanning",
@@ -113,7 +113,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 68.5,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -327,12 +327,12 @@
     },
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 37.0,
-      "pct_of_total": 3.5,
+      "total_hours": 38.0,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 21.5
+          "hours": 22.5
         },
         {
           "task": "Manufacturing - Core",
@@ -355,7 +355,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 35.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -404,8 +404,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 228.2,
-    "pct_of_total": 21.6,
+    "total_hours": 228.8,
+    "pct_of_total": 21.5,
     "avg_per_person_per_day": 1.5,
     "flagged": true,
     "tech_count": 8,
@@ -417,7 +417,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.8
+        "hours": 58.2
       },
       {
         "label": "Other",
@@ -534,9 +534,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 773.0,
-    "non_billable_hours": 284.0,
+    "billable_hours": 779.0,
+    "non_billable_hours": 284.5,
     "pto_hours": 107.5,
-    "total_hours": 1057.0
+    "total_hours": 1063.5
   }
 }

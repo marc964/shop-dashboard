@@ -964,7 +964,7 @@
       "make": "Alfa Romero",
       "model": "GTV",
       "status": "Startup",
-      "checkout": 38.5,
+      "checkout": 41.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1680,6 +1680,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-27T16:11:46.591585+00:00",
+  "updated": "2026-04-27T17:43:54.369426+00:00",
   "source": "Google Sheets API"
 }
