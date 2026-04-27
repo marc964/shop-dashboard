@@ -354,8 +354,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 34.8,
-      "pct_of_total": 3.3,
+      "total_hours": 35.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -370,6 +370,10 @@
           "hours": 3.2
         },
         {
+          "task": "Engine Bay",
+          "hours": 2.0
+        },
+        {
           "task": "HVAC",
           "hours": 1.8
         },
@@ -380,10 +384,6 @@
         {
           "task": "Manufacturing - Core",
           "hours": 1.5
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 1.2
         },
         {
           "task": "Charging",
@@ -404,7 +404,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 227.8,
+    "total_hours": 228.2,
     "pct_of_total": 21.6,
     "avg_per_person_per_day": 1.5,
     "flagged": true,
@@ -416,12 +416,12 @@
         "hours": 73.8
       },
       {
-        "label": "Other",
-        "hours": 57.5
+        "label": "Shop Meetings",
+        "hours": 57.8
       },
       {
-        "label": "Shop Meetings",
-        "hours": 57.2
+        "label": "Other",
+        "hours": 57.5
       },
       {
         "label": "Personal Meetings",
@@ -453,6 +453,27 @@
       ]
     },
     {
+      "project": "Barton 59 Impala",
+      "total_hours": 13.0,
+      "pct_of_total": 1.2,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 9.8,
+          "context": [
+            "Vehicle Control"
+          ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 3.2,
+          "context": [
+            "Wiring - OEM"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 13.0,
       "pct_of_total": 1.2,
@@ -464,27 +485,6 @@
             "Brakes",
             "Charging",
             "Vehicle Control - Ampere"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Barton 59 Impala",
-      "total_hours": 12.0,
-      "pct_of_total": 1.1,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 9.8,
-          "context": [
-            "Vehicle Control"
-          ]
-        },
-        {
-          "task": "Installation - Extra",
-          "hours": 2.2,
-          "context": [
-            "Wiring - OEM"
           ]
         }
       ]
@@ -534,9 +534,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 772.2,
-    "non_billable_hours": 282.5,
+    "billable_hours": 773.0,
+    "non_billable_hours": 284.0,
     "pto_hours": 107.5,
-    "total_hours": 1054.8
+    "total_hours": 1057.0
   }
 }

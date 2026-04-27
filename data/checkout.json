@@ -1041,7 +1041,22 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "cutback under high acceleration, probably in inverter, review settings.",
+            "done": false
+          },
+          {
+            "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
     },
     {
       "owner": "Alvarez",
@@ -1665,6 +1680,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-27T14:29:19.557651+00:00",
+  "updated": "2026-04-27T16:11:46.591585+00:00",
   "source": "Google Sheets API"
 }
