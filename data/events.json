@@ -1,95 +1,15 @@
 {
-  "generated_at": "2026-04-26",
+  "generated_at": "2026-04-27",
   "weeks": [
-    {
-      "week_start": "2026-04-20",
-      "week_label": "Week of Apr 20",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-04-20",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-04-21",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-04-22",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-04-23",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Brandon B Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-24",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Brandon B Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-25",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Brandon B Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-04-26",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Brandon B Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        }
-      ]
-    },
     {
       "week_start": "2026-04-27",
       "week_label": "Week of Apr 27",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-04-27",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -369,6 +289,68 @@
         },
         {
           "date": "2026-05-17",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-05-18",
+      "week_label": "Week of May 18",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-05-18",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-19",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-20",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-21",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-05-22",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Ryan L Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-05-23",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-05-24",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
