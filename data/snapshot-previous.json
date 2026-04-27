@@ -340,7 +340,7 @@
       "color": "Green",
       "make": "Porsche",
       "model": "993",
-      "status": "Checkout",
+      "status": "Testing",
       "checkout": 89.8,
       "sub_metrics": [],
       "system": "AEM",
@@ -964,7 +964,7 @@
       "make": "Alfa Romero",
       "model": "GTV",
       "status": "Startup",
-      "checkout": 38.5,
+      "checkout": 41.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1041,7 +1041,22 @@
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "cutback under high acceleration, probably in inverter, review settings.",
+            "done": false
+          },
+          {
+            "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
     },
     {
       "owner": "Alvarez",
@@ -1665,6 +1680,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-24T23:40:50.687806+00:00",
+  "updated": "2026-04-27T23:55:34.898358+00:00",
   "source": "Google Sheets API"
 }
