@@ -1012,6 +1012,69 @@
       }
     },
     {
+      "owner": "Dan Henry",
+      "year": 1961,
+      "color": "Green",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Checkout",
+      "checkout": 28.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 81.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 88.9
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-04-23: Verify inverter EEPROM is consistent with improvements over the past year.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Verify analog PDU channels as best as possible.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Complete the pack burn and any additional road testing desired.",
+            "done": false
+          },
+          {
+            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 0,
+        "open": 6
+      }
+    },
+    {
       "owner": "Kelly",
       "year": 1963,
       "color": "Blue",
@@ -1339,69 +1402,6 @@
       }
     },
     {
-      "owner": "Dan Henry",
-      "year": 1961,
-      "color": "Green",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Checkout",
-      "checkout": 13.7,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 81.9
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-04-23: Verify inverter EEPROM is consistent with improvements over the past year.",
-            "done": false
-          },
-          {
-            "text": "2026-04-23: Verify analog PDU channels as best as possible.",
-            "done": false
-          },
-          {
-            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.",
-            "done": false
-          },
-          {
-            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.",
-            "done": false
-          },
-          {
-            "text": "2026-04-23: Complete the pack burn and any additional road testing desired.",
-            "done": false
-          },
-          {
-            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.",
-            "done": false
-          }
-        ],
-        "total": 6,
-        "done": 0,
-        "open": 6
-      }
-    },
-    {
       "owner": "Simpson",
       "year": null,
       "color": "",
@@ -1680,6 +1680,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-28T18:06:30.547946+00:00",
+  "updated": "2026-04-28T19:57:55.071793+00:00",
   "source": "Google Sheets API"
 }
