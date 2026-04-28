@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 158.2,
-      "pct_of_total": 13.8,
+      "pct_of_total": 13.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 120.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -172,7 +172,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 69.8,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -235,7 +235,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 56.0,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -270,7 +270,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 49.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -422,7 +422,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 35.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Steering",
@@ -432,24 +432,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 241.8,
+    "total_hours": 244.0,
     "pct_of_total": 21.0,
-    "avg_per_person_per_day": 1.51,
+    "avg_per_person_per_day": 1.52,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 79.0
+        "hours": 79.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 63.8
+        "hours": 64.8
       },
       {
         "label": "Other",
-        "hours": 57.5
+        "hours": 58.0
       },
       {
         "label": "Personal Meetings",
@@ -469,7 +469,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 19.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -592,9 +592,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 845.0,
-    "non_billable_hours": 303.5,
+    "billable_hours": 854.0,
+    "non_billable_hours": 305.8,
     "pto_hours": 107.5,
-    "total_hours": 1148.5
+    "total_hours": 1159.8
   }
 }
