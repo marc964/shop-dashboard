@@ -172,7 +172,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 69.8,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -424,9 +424,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 238.0,
+    "total_hours": 239.2,
     "pct_of_total": 21.4,
-    "avg_per_person_per_day": 1.49,
+    "avg_per_person_per_day": 1.5,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
@@ -437,7 +437,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 62.5
+        "hours": 63.0
       },
       {
         "label": "Other",
@@ -445,7 +445,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 20.0
+        "hours": 20.8
       },
       {
         "label": "Organization",
@@ -570,9 +570,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 816.8,
-    "non_billable_hours": 297.8,
+    "billable_hours": 819.2,
+    "non_billable_hours": 299.0,
     "pto_hours": 107.5,
-    "total_hours": 1114.5
+    "total_hours": 1118.2
   }
 }
