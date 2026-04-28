@@ -1053,11 +1053,11 @@
             "done": false
           },
           {
-            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.",
-            "done": false
+            "text": "2026-04-23: Upgrade VCU firmware to the latest. Review all VCU settings.\n2026-04-28: Resolved, VCU has been upgraded to the latest firmware.",
+            "done": true
           },
           {
-            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.",
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.\n2026-04-28:",
             "done": false
           },
           {
@@ -1067,11 +1067,19 @@
           {
             "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.",
             "done": false
+          },
+          {
+            "text": "2026-04-28: The driver side mirror is loose and jiggles around.",
+            "done": false
+          },
+          {
+            "text": "2026-04-28: The JEGS speed box doesn't seem to connect To any satellites for the GPS function.",
+            "done": false
           }
         ],
-        "total": 6,
-        "done": 0,
-        "open": 6
+        "total": 8,
+        "done": 1,
+        "open": 7
       }
     },
     {
@@ -1680,6 +1688,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-04-28T21:12:32.048500+00:00",
+  "updated": "2026-04-28T22:13:33.935104+00:00",
   "source": "Google Sheets API"
 }
