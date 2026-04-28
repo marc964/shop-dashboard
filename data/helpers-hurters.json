@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Ritchie 72 Blazer",
-      "total_hours": 148.0,
+      "total_hours": 148.5,
       "pct_of_total": 13.3,
       "tasks": [
         {
@@ -48,13 +48,17 @@
         {
           "task": "Wiring - OEM",
           "hours": 1.0
+        },
+        {
+          "task": "Charging",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 120.5,
-      "pct_of_total": 10.9,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -113,7 +117,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 76.0,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -230,8 +234,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 49.0,
-      "pct_of_total": 4.4,
+      "total_hours": 52.0,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -254,12 +258,12 @@
           "hours": 5.0
         },
         {
-          "task": "Suspension",
-          "hours": 2.2
+          "task": "Engine Bay",
+          "hours": 4.2
         },
         {
-          "task": "Engine Bay",
-          "hours": 1.2
+          "task": "Suspension",
+          "hours": 2.2
         }
       ]
     },
@@ -420,20 +424,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 236.8,
+    "total_hours": 238.0,
     "pct_of_total": 21.4,
-    "avg_per_person_per_day": 1.48,
+    "avg_per_person_per_day": 1.49,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.2
+        "hours": 77.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 61.5
+        "hours": 62.5
       },
       {
         "label": "Other",
@@ -549,12 +553,26 @@
           ]
         }
       ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 1.0,
+      "pct_of_total": 0.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 1.0,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 813.2,
-    "non_billable_hours": 295.5,
+    "billable_hours": 816.8,
+    "non_billable_hours": 297.8,
     "pto_hours": 107.5,
-    "total_hours": 1108.8
+    "total_hours": 1114.5
   }
 }
