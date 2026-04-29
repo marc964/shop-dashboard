@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 165.8,
-      "pct_of_total": 14.1,
+      "pct_of_total": 14.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -116,8 +116,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 76.5,
-      "pct_of_total": 6.5,
+      "total_hours": 77.5,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -125,7 +125,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 17.8
+          "hours": 18.8
         },
         {
           "task": "Exterior",
@@ -239,7 +239,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 56.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -596,9 +596,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 867.0,
+    "billable_hours": 869.0,
     "non_billable_hours": 310.8,
     "pto_hours": 107.5,
-    "total_hours": 1177.8
+    "total_hours": 1179.8
   }
 }
