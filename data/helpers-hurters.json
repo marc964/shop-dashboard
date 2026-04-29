@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 165.8,
-      "pct_of_total": 14.0,
+      "total_hours": 170.8,
+      "pct_of_total": 14.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 112.8
+          "hours": 114.8
         },
         {
           "task": "Brakes",
@@ -26,16 +26,16 @@
           "hours": 6.5
         },
         {
+          "task": "Charging",
+          "hours": 6.2
+        },
+        {
           "task": "Steering",
           "hours": 4.0
         },
         {
           "task": "Instrumentation",
           "hours": 4.0
-        },
-        {
-          "task": "Charging",
-          "hours": 3.2
         },
         {
           "task": "Manufacturing - Core",
@@ -58,7 +58,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 120.5,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -116,8 +116,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 77.5,
-      "pct_of_total": 6.6,
+      "total_hours": 81.0,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -125,7 +125,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 18.8
+          "hours": 22.2
         },
         {
           "task": "Exterior",
@@ -175,7 +175,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 69.8,
+      "total_hours": 70.8,
       "pct_of_total": 5.9,
       "tasks": [
         {
@@ -223,23 +223,23 @@
           "hours": 1.8
         },
         {
+          "task": "Manufacturing - Core",
+          "hours": 1.5
+        },
+        {
           "task": "Cooling",
           "hours": 1.5
         },
         {
           "task": "Audio",
           "hours": 1.2
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
         }
       ]
     },
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 56.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -268,6 +268,45 @@
         {
           "task": "Suspension",
           "hours": 2.2
+        }
+      ]
+    },
+    {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 54.0,
+      "pct_of_total": 4.5,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 22.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 12.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 9.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.0
+        },
+        {
+          "task": "Charging",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.0
+        },
+        {
+          "task": "Audio",
+          "hours": 1.0
+        },
+        {
+          "task": "Steering",
+          "hours": 1.0
         }
       ]
     },
@@ -323,48 +362,9 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 46.0,
-      "pct_of_total": 3.9,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 22.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 12.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.0
-        },
-        {
-          "task": "Charging",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.0
-        },
-        {
-          "task": "Audio",
-          "hours": 1.0
-        },
-        {
-          "task": "Steering",
-          "hours": 1.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
-      "total_hours": 43.8,
-      "pct_of_total": 3.7,
+      "total_hours": 47.8,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -375,19 +375,19 @@
           "hours": 6.5
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 4.8
+          "task": "Steering",
+          "hours": 6.0
         },
         {
-          "task": "Steering",
-          "hours": 2.0
+          "task": "Motor & Transmission",
+          "hours": 4.8
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 35.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -426,7 +426,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 35.2,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Steering",
@@ -436,20 +436,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 251.5,
-    "pct_of_total": 21.3,
-    "avg_per_person_per_day": 1.5,
+    "total_hours": 253.0,
+    "pct_of_total": 21.0,
+    "avg_per_person_per_day": 1.51,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 81.5
+        "hours": 82.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 66.8
+        "hours": 67.2
       },
       {
         "label": "Other",
@@ -596,9 +596,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 869.0,
-    "non_billable_hours": 313.2,
+    "billable_hours": 891.8,
+    "non_billable_hours": 314.8,
     "pto_hours": 107.5,
-    "total_hours": 1182.2
+    "total_hours": 1206.5
   }
 }
