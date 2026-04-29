@@ -274,7 +274,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 49.0,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -436,20 +436,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 249.0,
-    "pct_of_total": 21.1,
-    "avg_per_person_per_day": 1.48,
+    "total_hours": 251.5,
+    "pct_of_total": 21.3,
+    "avg_per_person_per_day": 1.5,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 81.0
+        "hours": 81.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 65.8
+        "hours": 66.8
       },
       {
         "label": "Other",
@@ -457,7 +457,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 21.8
+        "hours": 22.8
       },
       {
         "label": "Organization",
@@ -597,8 +597,8 @@
   ],
   "totals": {
     "billable_hours": 869.0,
-    "non_billable_hours": 310.8,
+    "non_billable_hours": 313.2,
     "pto_hours": 107.5,
-    "total_hours": 1179.8
+    "total_hours": 1182.2
   }
 }
