@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 170.8,
+      "total_hours": 172.8,
       "pct_of_total": 14.2,
       "tasks": [
         {
@@ -14,20 +14,20 @@
           "hours": 11.8
         },
         {
+          "task": "Wiring - High Voltage",
+          "hours": 8.0
+        },
+        {
           "task": "HVAC",
           "hours": 8.0
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 7.0
+          "task": "Charging",
+          "hours": 7.2
         },
         {
           "task": "Cooling",
           "hours": 6.5
-        },
-        {
-          "task": "Charging",
-          "hours": 6.2
         },
         {
           "task": "Steering",
@@ -58,7 +58,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 120.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -176,7 +176,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 70.8,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -238,20 +238,20 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 56.0,
-      "pct_of_total": 4.6,
+      "total_hours": 62.0,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
           "hours": 23.2
         },
         {
-          "task": "Scanning",
-          "hours": 9.0
+          "task": "HVAC",
+          "hours": 12.0
         },
         {
-          "task": "HVAC",
-          "hours": 6.0
+          "task": "Scanning",
+          "hours": 9.0
         },
         {
           "task": "Interior",
@@ -274,7 +274,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 54.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Interior",
@@ -313,7 +313,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 49.0,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -364,7 +364,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 47.8,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -436,8 +436,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 253.0,
-    "pct_of_total": 21.0,
+    "total_hours": 254.0,
+    "pct_of_total": 20.9,
     "avg_per_person_per_day": 1.51,
     "flagged": true,
     "tech_count": 8,
@@ -445,7 +445,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 82.5
+        "hours": 83.5
       },
       {
         "label": "Shop Meetings",
@@ -487,7 +487,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 17.5,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -596,9 +596,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 891.8,
-    "non_billable_hours": 314.8,
+    "billable_hours": 899.8,
+    "non_billable_hours": 315.8,
     "pto_hours": 107.5,
-    "total_hours": 1206.5
+    "total_hours": 1215.5
   }
 }
