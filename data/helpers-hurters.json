@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 180.2,
-      "pct_of_total": 14.5,
+      "total_hours": 188.0,
+      "pct_of_total": 15.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 122.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 14.8
         },
         {
           "task": "Brakes",
@@ -19,15 +23,11 @@
         },
         {
           "task": "HVAC",
-          "hours": 8.0
+          "hours": 7.5
         },
         {
           "task": "Charging",
           "hours": 7.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 6.5
         },
         {
           "task": "Steering",
@@ -116,8 +116,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 81.0,
-      "pct_of_total": 6.5,
+      "total_hours": 81.8,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -165,11 +165,11 @@
         },
         {
           "task": "Brakes",
-          "hours": 0.5
+          "hours": 0.8
         },
         {
           "task": "Instrumentation",
-          "hours": 0.2
+          "hours": 0.8
         }
       ]
     },
@@ -386,7 +386,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 35.5,
+      "total_hours": 36.5,
       "pct_of_total": 2.9,
       "tasks": [
         {
@@ -410,12 +410,16 @@
           "hours": 1.8
         },
         {
+          "task": "Suspension",
+          "hours": 1.5
+        },
+        {
           "task": "Vehicle Control",
           "hours": 1.5
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 1.5
+          "hours": 1.0
         },
         {
           "task": "Charging",
@@ -436,9 +440,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 255.5,
-    "pct_of_total": 20.6,
-    "avg_per_person_per_day": 1.45,
+    "total_hours": 253.0,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.44,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
@@ -453,7 +457,7 @@
       },
       {
         "label": "Other",
-        "hours": 60.0
+        "hours": 57.5
       },
       {
         "label": "Personal Meetings",
@@ -596,8 +600,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 922.0,
-    "non_billable_hours": 317.2,
+    "billable_hours": 924.5,
+    "non_billable_hours": 314.8,
     "pto_hours": 115.5,
     "total_hours": 1239.2
   }
