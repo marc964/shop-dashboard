@@ -1008,11 +1008,15 @@
           {
             "text": "2026-04-30: Review DCDC and OBC settings and verify both those systems are working as expected. Review DCL and CCL settings.",
             "done": false
+          },
+          {
+            "text": "DCDC_ContCntrlOption\r\nDriveGearRatio\r\nDriveTireDiameter\r\nInvTempRefOption\r\nCellOverVoltLim\r\nCellUnderVoltFaultLim",
+            "done": false
           }
         ],
-        "total": 8,
+        "total": 9,
         "done": 0,
-        "open": 8
+        "open": 9
       }
     },
     {
@@ -1739,6 +1743,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-01T18:47:56.139337+00:00",
+  "updated": "2026-05-01T20:05:42.884349+00:00",
   "source": "Google Sheets API"
 }

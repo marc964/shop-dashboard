@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 5.2,
-      "pct_of_total": 44.7,
+      "total_hours": 5.5,
+      "pct_of_total": 21.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -12,28 +12,21 @@
         {
           "task": "Scanning",
           "hours": 1.2
-        }
-      ]
-    },
-    {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 2.0,
-      "pct_of_total": 17.0,
-      "tasks": [
+        },
         {
-          "task": "Battery Pack",
-          "hours": 2.0
+          "task": "Suspension",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 2.0,
-      "pct_of_total": 17.0,
+      "total_hours": 5.0,
+      "pct_of_total": 19.6,
       "tasks": [
         {
           "task": "HVAC",
-          "hours": 1.0
+          "hours": 4.0
         },
         {
           "task": "Vehicle Control",
@@ -42,9 +35,53 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 4.5,
+      "pct_of_total": 17.6,
+      "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 4.5
+        }
+      ]
+    },
+    {
+      "project": "Jaffe 86 190E",
+      "total_hours": 2.0,
+      "pct_of_total": 7.8,
+      "tasks": [
+        {
+          "task": "Steering",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 2.0,
+      "pct_of_total": 7.8,
+      "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 0.5,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Engineering - Core",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Nagel 65 Scout",
       "total_hours": 0.5,
-      "pct_of_total": 4.3,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Steering",
@@ -54,20 +91,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 2.0,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 0.25,
+    "total_hours": 5.5,
+    "pct_of_total": 21.6,
+    "avg_per_person_per_day": 0.69,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
-        "label": "Personal Meetings",
-        "hours": 1.2
+        "label": "Shop Meetings",
+        "hours": 2.0
       },
       {
-        "label": "Shop Meetings",
-        "hours": 0.5
+        "label": "Personal Meetings",
+        "hours": 1.8
+      },
+      {
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 1.5
       },
       {
         "label": "Organization",
@@ -77,9 +118,9 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 9.8,
-    "non_billable_hours": 2.0,
+    "billable_hours": 20.0,
+    "non_billable_hours": 5.5,
     "pto_hours": 0.0,
-    "total_hours": 11.8
+    "total_hours": 25.5
   }
 }
