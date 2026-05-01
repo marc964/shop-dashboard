@@ -11,8 +11,8 @@
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 74.7,
-      "delta": -74.7
+      "value": 74.9,
+      "delta": -74.9
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
@@ -110,9 +110,9 @@
     },
     {
       "month": "2026-04",
-      "productivity_pct": 74.7,
-      "billable_hours": 952.5,
-      "total_hours": 1389.8,
+      "productivity_pct": 74.9,
+      "billable_hours": 961.8,
+      "total_hours": 1399.8,
       "pto_hours": 115.5
     }
   ],
