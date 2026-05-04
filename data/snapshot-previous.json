@@ -343,78 +343,7 @@
       "status": "Testing",
       "checkout": 89.8,
       "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2025-xx-xx: 12V Dies overnight.\n2025-xx-xx: Fixed by moving CCU constant power to switched.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Regen bumps in and out at 60 mph.\n2025-xx-xx: Resolved with a new firmware summer 2025.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review range data then update the range estimation table.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to update OCV table per cell Chemistry.\n2026-04-23: Done.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Create + Review PreCharge Graph.\n2026-03-24: Finished this, saved to drive.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review the ExtTherm calibration table.\n2026-04-24: Resolved, verified against early SL's.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to review pack capacity data and update MaxCapacity.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to review top of pack and bottom of pack logs to determine if the cell protection limiters are working correctly.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair. Don't use log data.\n2026-04-24: Test drove with Marc, the torque map needs work before the top end limiters can be validated.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Validate gauges set and correct temperature discrepency issue.\n2026-03-xx: Resolved, everything was fine.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Need to plot and review vehicle temperatures for both charging and driving.\n2026-04-22: Should repeat the pack burn after having the battery box out for major repair.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Need to validate the digital dash.\n2026-03-23: Dash updated and under review.\n2026-04-02: Discovered the dash shoould be brought up to the master revision then branched again to incorporate erroneous BMS alarm suppression features.\n2026-04-22: In progress, still need to sweep everything with the gauges test program. Expected finished this week.",
-            "done": false
-          },
-          {
-            "text": "2026-03-25: Need to enter Wi-Fi credentials for the CAN logger.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Should find a way to turn off unused BMS slots, or verify they do nothing.\n2026-04-23: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-03-25: Thermistor configurations for group 7 and 8 need to be turned on.\n2026-04-02: Resolved, enabled and watched temps go from -127C to 23C.",
-            "done": true
-          },
-          {
-            "text": "2026-03-26: Charge BMS Group 5 Cells 1,2,6, and 12 up to the pack cell average.\n2026-03-31: Group 5 cells balanced to 14mV. Box ready for assembly.\n2026-04-02: Resolved, pack back in shape with an overall delta of ~16mV.",
-            "done": true
-          },
-          {
-            "text": "2026-04-23: Vehicle doesn't seem to end charging. It bounces back between -1A and 1A continuously but never shuts down. Sent logs and a calibration to AEM.\n2026-04-24: Resolved, changed ovver to temp based DCL CCL calculations which allowed charging current.",
-            "done": true
-          }
-        ],
-        "total": 16,
-        "done": 10,
-        "open": 6
-      }
+      "system": "AEM"
     },
     {
       "owner": "Shah",
@@ -611,90 +540,7 @@
       "status": "Testing",
       "checkout": 83.4,
       "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-02-xx: Purchase and install CAN logger.\n2026-03-16: Logger wired and connectivity to the server verified. Still needs to be physically mounted.\n2026-03-25: Logger is mounted now but still needs customer wifi credentials.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Verify inverter RTD calibration.",
-            "done": false
-          },
-          {
-            "text": "2026-02-xx: Slide cover hits the PRND, buttons will scratch over time.\n2026-04-08: Resolved, Aharon adjusted the springs.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: Speedometer zeros to 10 MPH.\n2026-03-10: Resolved, This is correct for the vehicle.",
-            "done": true
-          },
-          {
-            "text": "2026-03-04: Vehicle does not PreCharge.\n2026-03-04: Resolved, Had to correct an ISO-SPI wiring flip and re-terminate some resolver pins.",
-            "done": true
-          },
-          {
-            "text": "2026-02-xx: Only 185 of 400 PackVolts showing up in the VCU. Box #2 is missing from the BMS overview.\n2026-03-04: Resolved, found ISO-SPI to be flipped between Box #1 and Box #2.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Inverter Fault: Resolver Not Connected.\n2026-03-04: Resolved, found the crimps on the excitation pins were poor. Remade & problem disappeared.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Driveshaft contacts parking brake mount.\n2026-03-05: Update, Temporary solution has been deployed, full new center bearing bracket in the works.\n2026-04-08: Resolved, any continued work is captured elsewhere.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The gauges for Charge, Motor Temp, and Battery Temp do not work.\n2026-03-06: Resolved, something was swapped & Aharon corrected.",
-            "done": true
-          },
-          {
-            "text": "2026-03-05: The power gauge moves backwards.\n2026-03-06: Resolved, the IVT was inverted in the VCU.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Charge port seems sort of loose and a piece of rubber interferes with the lock latch.\n2026-03-24: Resolved, Not a loud click like other vehicles but it does indeed latch.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to setup the IVT to track energy.\n2026-03-24: Resolved, Fixed IVT setup script, ran and verified new CAN messages exist.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Need to force CellR somewhere in the middle of the pack.\n2026-03-24: Resolved, ran the test process again and determined ~66mOhms for the pack.",
-            "done": true
-          },
-          {
-            "text": "2026-03-17: The 12V battery measures 0.2V on one half of the terminals.\n2026-03-17: Moved all the leads over to the good half of the battery, Still want to eventually replace.\n2026-03-19: Resolved, Brand new battery was installed.",
-            "done": true
-          },
-          {
-            "text": "2026-03-19: Range keeps resetting to 410 miles.\n2026-03-24: Long term consumption shows 4 Wh/mile while the IVT measures 267 Wh/mile. Asking AEM.\n2026-03-31: Believed to be resolved with setting initial odometer reading to 0. In testing.",
-            "done": false
-          },
-          {
-            "text": "2026-03-24: Both CAN1 and CAN2 have incorrect termination.\n2026-03-25: Resolved, Aharon installed resistors by the digital dash.",
-            "done": true
-          },
-          {
-            "text": "2026-03-24: Need to get the firmware burned in again with updated CellR initial values. Have an email out to AEM.\n2026-03-31: Current burn is in and under testing.\n2026-04-30: Resolved. Sent calibration to AEM for a firmware burn with updated pack capacity values. Got it back and flashed to the vehicle.",
-            "done": true
-          },
-          {
-            "text": "2026-04-30: Update any options found off during the Ivanhoe checkout.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Complete a full charge and discharge cycle and review data for: cell voltages, battery capacity, various temperatures, etc.",
-            "done": false
-          }
-        ],
-        "total": 19,
-        "done": 14,
-        "open": 5
-      }
+      "system": "AEM"
     },
     {
       "owner": "GMC",
@@ -937,22 +783,7 @@
       "status": "Shipped",
       "checkout": 66.1,
       "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "kW gauge seemed off aroud the 0 breakpoint",
-            "done": false
-          },
-          {
-            "text": "Update Wi-Fi",
-            "done": false
-          }
-        ],
-        "total": 2,
-        "done": 0,
-        "open": 2
-      }
+      "system": "AEM"
     },
     {
       "owner": "Wilson",
@@ -974,50 +805,7 @@
       "status": "Checkout",
       "checkout": 43.2,
       "sub_metrics": [],
-      "system": "AEM",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-04-30: Finalize the digital dash by removing the orange border. Add something to the charge screen that shows the vehicle is actually charging.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Run through PMU and PDU checkout process.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Transfer inverter settings to checkout sheet and compare against the fleet, correct anything that pops up.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Obtain and flash the firmware calibration burn.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Review VCU settings and transfer to the checkout sheet.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Complete a full charge and discharge cycle and review data for: cell voltages, battery capacity, various temperatures, etc.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Perform CPU load test and verify we're not close to the critical limit.",
-            "done": false
-          },
-          {
-            "text": "2026-04-30: Review DCDC and OBC settings and verify both those systems are working as expected. Review DCL and CCL settings.",
-            "done": false
-          },
-          {
-            "text": "DCDC_ContCntrlOption\r\nDriveGearRatio\r\nDriveTireDiameter\r\nInvTempRefOption\r\nCellOverVoltLim\r\nCellUnderVoltFaultLim",
-            "done": false
-          }
-        ],
-        "total": 9,
-        "done": 0,
-        "open": 9
-      }
+      "system": "AEM"
     },
     {
       "owner": "Ferdman",
@@ -1743,6 +1531,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-01T23:54:00.961749+00:00",
+  "updated": "2026-05-04T23:55:30.387148+00:00",
   "source": "Google Sheets API"
 }
