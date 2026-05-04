@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 8.5,
-      "pct_of_total": 18.4,
+      "total_hours": 12.2,
+      "pct_of_total": 22.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -14,19 +14,35 @@
           "hours": 3.0
         },
         {
+          "task": "Vehicle Control",
+          "hours": 1.5
+        },
+        {
           "task": "Scanning",
           "hours": 1.2
         },
         {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 0.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 0.5
+        },
+        {
           "task": "Suspension",
-          "hours": 0.2
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Lee 68 Mustang",
       "total_hours": 7.0,
-      "pct_of_total": 15.1,
+      "pct_of_total": 12.8,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -37,7 +53,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 10.8,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -52,7 +68,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 4.5,
-      "pct_of_total": 9.7,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -61,9 +77,35 @@
       ]
     },
     {
+      "project": "Berke 69 Alfa",
+      "total_hours": 3.0,
+      "pct_of_total": 5.5,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Miner 95 911",
+      "total_hours": 3.0,
+      "pct_of_total": 5.5,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Nagel 65 Scout",
       "total_hours": 3.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Steering",
@@ -73,19 +115,19 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 2.0,
-      "pct_of_total": 4.3,
+      "total_hours": 2.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 2.0
+          "hours": 2.2
         }
       ]
     },
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 2.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -96,41 +138,19 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 2.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Steering",
           "hours": 2.0
         }
       ]
-    },
-    {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 2.0,
-      "pct_of_total": 4.3,
-      "tasks": [
-        {
-          "task": "Battery Pack",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 1.5,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Engine Bay",
-          "hours": 1.5
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 8.2,
-    "pct_of_total": 17.8,
-    "avg_per_person_per_day": 0.52,
+    "total_hours": 6.8,
+    "pct_of_total": 12.3,
+    "avg_per_person_per_day": 0.42,
     "flagged": false,
     "tech_count": 8,
     "working_days": 2,
@@ -145,19 +165,15 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 1.8
-      },
-      {
-        "label": "Organization",
-        "hours": 0.2
+        "hours": 0.5
       }
     ]
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 38.0,
-    "non_billable_hours": 8.2,
+    "billable_hours": 48.0,
+    "non_billable_hours": 6.8,
     "pto_hours": 0.0,
-    "total_hours": 46.2
+    "total_hours": 54.8
   }
 }
