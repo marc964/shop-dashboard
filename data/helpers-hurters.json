@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 13.8,
-      "pct_of_total": 17.0,
+      "pct_of_total": 16.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -46,7 +46,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.2,
-      "pct_of_total": 15.1,
+      "pct_of_total": 14.7,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -61,7 +61,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 8.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -75,19 +75,19 @@
     },
     {
       "project": "Nagel 65 Scout",
-      "total_hours": 7.0,
-      "pct_of_total": 8.6,
+      "total_hours": 5.0,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Steering",
-          "hours": 7.0
+          "hours": 5.0
         }
       ]
     },
     {
       "project": "Berke 69 Alfa",
       "total_hours": 5.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -102,7 +102,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -115,9 +115,20 @@
       ]
     },
     {
+      "project": "Jarowey 71 240Z",
+      "total_hours": 4.8,
+      "pct_of_total": 5.7,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 4.8
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 4.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -128,7 +139,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 3.5,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -143,30 +154,19 @@
     {
       "project": "Miner 95 911",
       "total_hours": 3.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Vehicle Control",
           "hours": 3.0
         }
       ]
-    },
-    {
-      "project": "Jarowey 71 240Z",
-      "total_hours": 2.8,
-      "pct_of_total": 3.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 2.8
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 10.2,
-    "pct_of_total": 12.7,
-    "avg_per_person_per_day": 0.64,
+    "total_hours": 10.8,
+    "pct_of_total": 12.9,
+    "avg_per_person_per_day": 0.67,
     "flagged": false,
     "tech_count": 8,
     "working_days": 2,
@@ -177,7 +177,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 3.8
+        "hours": 4.2
       },
       {
         "label": "Personal Meetings",
@@ -187,9 +187,9 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 70.8,
-    "non_billable_hours": 10.2,
+    "billable_hours": 72.8,
+    "non_billable_hours": 10.8,
     "pto_hours": 0.0,
-    "total_hours": 81.0
+    "total_hours": 83.5
   }
 }
