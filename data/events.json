@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-05",
   "weeks": [
     {
       "week_start": "2026-05-04",
@@ -9,16 +9,16 @@
         {
           "date": "2026-05-04",
           "day_name": "Monday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Ben D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ben D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -27,7 +27,7 @@
         {
           "date": "2026-05-05",
           "day_name": "Tuesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -75,12 +75,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
