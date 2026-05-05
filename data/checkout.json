@@ -430,8 +430,8 @@
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
-      "status": "Checkout",
-      "checkout": 87.5,
+      "status": "Testing",
+      "checkout": 87.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -439,7 +439,7 @@
         },
         {
           "label": "Inverter",
-          "value": 98.0
+          "value": 100
         },
         {
           "label": "PMU",
@@ -1531,6 +1531,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-05T16:25:52.742169+00:00",
+  "updated": "2026-05-05T17:50:50.950474+00:00",
   "source": "Google Sheets API"
 }
