@@ -1,13 +1,24 @@
 {
   "vehicles": [
     {
+      "owner": "Hastert",
+      "year": 1960,
+      "color": "Green",
+      "make": "Ford",
+      "model": "F-250",
+      "status": "Shipped",
+      "checkout": 97.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Buck",
       "year": 1971,
       "color": "Red",
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 100,
+      "checkout": 94.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -27,7 +38,7 @@
         },
         {
           "label": "Functional",
-          "value": 100
+          "value": 69.2
         }
       ],
       "system": "Ampere",
@@ -70,7 +81,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 99.4,
+      "checkout": 94.3,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -90,7 +101,7 @@
         },
         {
           "label": "Functional",
-          "value": 100
+          "value": 69.2
         }
       ],
       "system": "Ampere",
@@ -139,24 +150,13 @@
       }
     },
     {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Barton",
       "year": 1959,
       "color": "White",
       "make": "Chevrolet",
       "model": "Impala",
       "status": "Testing & Tuning",
-      "checkout": 94.9,
+      "checkout": 90.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -176,7 +176,7 @@
         },
         {
           "label": "Functional",
-          "value": 69.2
+          "value": 42.3
         }
       ],
       "system": "Ampere",
@@ -277,13 +277,24 @@
       }
     },
     {
+      "owner": "Witter",
+      "year": 1970,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 90.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Feldman",
       "year": 1969,
       "color": "Silver",
       "make": "Mercedes",
       "model": "280SE",
       "status": "Shipped",
-      "checkout": 93.8,
+      "checkout": 89.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -303,7 +314,7 @@
         },
         {
           "label": "Functional",
-          "value": 84.6
+          "value": 61.5
         }
       ],
       "system": "Ampere",
@@ -324,17 +335,6 @@
       }
     },
     {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Miner",
       "year": 1995,
       "color": "Green",
@@ -346,13 +346,128 @@
       "system": "AEM"
     },
     {
+      "owner": "Witham",
+      "year": 1951,
+      "color": "Green",
+      "make": "Chevrolet",
+      "model": "3100",
+      "status": "Testing",
+      "checkout": 85.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 11.5
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Mount small fuseblock that is labeled \"Mount Me\".\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: Connect open black wire by 12V battery.\n2026-04-06: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: CAN3 termination is wrong. CAN3 passive fault.\n2026-03-xx: Need to remove 150 Ohm resistor in the BIM module.\n2026-04-06: Resolved, the resistor was removed and gauges installed.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
+            "done": true
+          },
+          {
+            "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.\n2026-04-06: Resolved, The ignition switch is mounted and working as expected.",
+            "done": true
+          },
+          {
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.\n2026-05-05: Waiting on mount to get back from paint.",
+            "done": false
+          },
+          {
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.\n2026-05-05: Resolved. Ben added a spacer.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.\n2026-04-15: Resolved, Noah shrunk them over and installed DT connectors.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
+            "done": true
+          },
+          {
+            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
+            "done": true
+          },
+          {
+            "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.\n2026-04-15: Resolved, Ben reversed the fan and wire polarity.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.\n2026-04-16: Resolved in firmware R010807.",
+            "done": true
+          },
+          {
+            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.\n2026-04-17: Verified wiring continuity and prox resistances at the ChargeByte, no issues. Upgraded ChargeByte firmware, still getting the same fault. Prox signal noise now suspected.\n2026-04-17: Resolved, a missing ground was found and added.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: Vehicle makes a buzzy sound during key on.\n2026-05-05: Resolved, small delay added to the PMU output for the blower motor.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few keycycles are done.",
+            "done": false
+          }
+        ],
+        "total": 19,
+        "done": 17,
+        "open": 2
+      }
+    },
+    {
       "owner": "Shah",
       "year": 1965,
       "color": "Silver",
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 88.1,
+      "checkout": 84.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -372,7 +487,7 @@
         },
         {
           "label": "Functional",
-          "value": 57.7
+          "value": 34.6
         }
       ],
       "system": "Ampere",
@@ -425,113 +540,6 @@
       }
     },
     {
-      "owner": "Witham",
-      "year": 1951,
-      "color": "Green",
-      "make": "Chevrolet",
-      "model": "3100",
-      "status": "Checkout",
-      "checkout": 87.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 98
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 100
-        },
-        {
-          "label": "Functional",
-          "value": 26.9
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-03-xx: Mount small fuseblock that is labeled \"Mount Me\".\n2026-04-06: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: Connect open black wire by 12V battery.\n2026-04-06: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: CAN3 termination is wrong. CAN3 passive fault.\n2026-03-xx: Need to remove 150 Ohm resistor in the BIM module.\n2026-04-06: Resolved, the resistor was removed and gauges installed.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: No brakes, need a bias block or plug.\n2026-04-06: Brake solution on going, correct booster has been ordered and is expected in 10 days.\n2026-04-13: Resolved, Billy installed the new setup & took for a test drive.",
-            "done": true
-          },
-          {
-            "text": "2026-03-xx: PRND not showing up in VCU.\n2026-03-02: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-02-27: PMU2 doesn't show up at the diagnostic port.\n\n2026-03-02: Resolved, CAN_H and CAN_L were swapped.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: There is no ignition switch.\n2026-03-06: Key switch now seems to operate backwards.\n2026-04-06: Resolved, The ignition switch is mounted and working as expected.",
-            "done": true
-          },
-          {
-            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.",
-            "done": false
-          },
-          {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.",
-            "done": false
-          },
-          {
-            "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.\n2026-04-15: Resolved, Noah shrunk them over and installed DT connectors.",
-            "done": true
-          },
-          {
-            "text": "2026-03-06: The option motorType is set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
-            "done": true
-          },
-          {
-            "text": "2026-03-06: mHeaterType might be set incorrectly in the VCU.\n2026-04-13: Resolved during Ampere session.",
-            "done": true
-          },
-          {
-            "text": "2026-03-06: Power steering is temporarily disabled in the PMU.\n2026-04-06: Resolved, PMU was upgraded to CAN Interface with that bit working.",
-            "done": true
-          },
-          {
-            "text": "2026-03-10: Started getting a BattWakeFault again.\n2026-03-xx: Resolved, pulled batter box and replaced bad satellite module.",
-            "done": true
-          },
-          {
-            "text": "2026-04-07: Cooling fan 1 for the battery circuit is spinning backwards.\n2026-04-15: Resolved, Ben reversed the fan and wire polarity.",
-            "done": true
-          },
-          {
-            "text": "2026-04-07: Need new firmware with the fault BattWakeOpnShrt turned off.\n2026-04-16: Resolved in firmware R010807.",
-            "done": true
-          },
-          {
-            "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.\n2026-04-17: Verified wiring continuity and prox resistances at the ChargeByte, no issues. Upgraded ChargeByte firmware, still getting the same fault. Prox signal noise now suspected.\n2026-04-17: Resolved, a missing ground was found and added.",
-            "done": true
-          }
-        ],
-        "total": 17,
-        "done": 15,
-        "open": 2
-      }
-    },
-    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -560,7 +568,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 76.7,
+      "checkout": 76,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -580,7 +588,7 @@
         },
         {
           "label": "Functional",
-          "value": 3.8
+          "value": 0
         }
       ],
       "system": "Ampere",
@@ -669,13 +677,24 @@
       }
     },
     {
+      "owner": "Hopkins",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Jaguar",
+      "model": "E-Type",
+      "status": "Shipped",
+      "checkout": 71.4,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Connolly",
       "year": 1958,
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
       "status": "Testing & Tuning",
-      "checkout": 73.8,
+      "checkout": 71.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -695,7 +714,7 @@
         },
         {
           "label": "Functional",
-          "value": 15.4
+          "value": 0
         }
       ],
       "system": "Ampere",
@@ -718,17 +737,6 @@
         "done": 0,
         "open": 3
       }
-    },
-    {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Jaffe",
@@ -1531,6 +1539,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-04T23:55:30.387148+00:00",
+  "updated": "2026-05-05T23:49:58.156057+00:00",
   "source": "Google Sheets API"
 }
