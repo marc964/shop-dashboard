@@ -168,13 +168,13 @@
       ]
     },
     {
-      "project": "Miner 95 911",
-      "total_hours": 3.0,
-      "pct_of_total": 3.3,
+      "project": "Richardson 72 240Z",
+      "total_hours": 2.8,
+      "pct_of_total": 3.0,
       "tasks": [
         {
-          "task": "Vehicle Control",
-          "hours": 3.0
+          "task": "Manufacturing - Product",
+          "hours": 2.8
         }
       ]
     }
@@ -201,10 +201,25 @@
       }
     ]
   },
-  "project_hurters": [],
+  "project_hurters": [
+    {
+      "project": "Miner 95 911",
+      "total_hours": 3.0,
+      "pct_of_total": 3.3,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 3.0,
+          "context": [
+            "Vehicle Control"
+          ]
+        }
+      ]
+    }
+  ],
   "totals": {
-    "billable_hours": 79.5,
-    "non_billable_hours": 11.5,
+    "billable_hours": 76.5,
+    "non_billable_hours": 14.5,
     "pto_hours": 0.0,
     "total_hours": 91.0
   }
