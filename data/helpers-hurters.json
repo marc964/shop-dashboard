@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 13.8,
-      "pct_of_total": 15.1,
+      "pct_of_total": 14.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -46,7 +46,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.2,
-      "pct_of_total": 13.5,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -59,25 +59,14 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 8.5,
-      "pct_of_total": 9.3,
-      "tasks": [
-        {
-          "task": "Engineering - Product",
-          "hours": 6.5
-        },
-        {
-          "task": "Steering",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 7.8,
-      "pct_of_total": 8.5,
+      "total_hours": 8.8,
+      "pct_of_total": 9.5,
       "tasks": [
+        {
+          "task": "Engine Bay",
+          "hours": 2.5
+        },
         {
           "task": "Brakes",
           "hours": 2.2
@@ -85,10 +74,6 @@
         {
           "task": "Manufacturing - Product",
           "hours": 2.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 1.5
         },
         {
           "task": "HVAC",
@@ -101,9 +86,24 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 8.5,
+      "pct_of_total": 9.2,
+      "tasks": [
+        {
+          "task": "Engineering - Product",
+          "hours": 6.5
+        },
+        {
+          "task": "Steering",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Steering",
@@ -118,7 +118,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 5.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -181,7 +181,7 @@
   ],
   "shop_work": {
     "total_hours": 11.5,
-    "pct_of_total": 12.6,
+    "pct_of_total": 12.5,
     "avg_per_person_per_day": 0.48,
     "flagged": false,
     "tech_count": 8,
@@ -218,9 +218,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 76.5,
+    "billable_hours": 77.5,
     "non_billable_hours": 14.5,
-    "pto_hours": 0.0,
-    "total_hours": 91.0
+    "pto_hours": 16.0,
+    "total_hours": 92.0
   }
 }
