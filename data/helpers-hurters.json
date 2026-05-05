@@ -2,9 +2,13 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 14.2,
-      "pct_of_total": 12.4,
+      "total_hours": 21.2,
+      "pct_of_total": 17.5,
       "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 8.2
+        },
         {
           "task": "Motor & Transmission",
           "hours": 4.0
@@ -16,10 +20,6 @@
         {
           "task": "Vehicle Control",
           "hours": 1.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.2
         },
         {
           "task": "Scanning",
@@ -50,7 +50,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.2,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -65,7 +65,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 9.5,
-      "pct_of_total": 8.3,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -80,7 +80,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 9.2,
-      "pct_of_total": 8.1,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -91,7 +91,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 9.0,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Interior",
@@ -110,7 +110,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 8.8,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Engine Bay",
@@ -137,7 +137,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Steering",
@@ -152,7 +152,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 5.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Interior",
@@ -167,7 +167,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -182,7 +182,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 4.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -193,7 +193,7 @@
   ],
   "shop_work": {
     "total_hours": 14.2,
-    "pct_of_total": 12.4,
+    "pct_of_total": 11.7,
     "avg_per_person_per_day": 0.59,
     "flagged": false,
     "tech_count": 8,
@@ -216,12 +216,12 @@
   "project_hurters": [
     {
       "project": "Miner 95 911",
-      "total_hours": 3.0,
-      "pct_of_total": 2.6,
+      "total_hours": 6.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 3.0,
+          "hours": 6.2,
           "context": [
             "Vehicle Control"
           ]
@@ -230,9 +230,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 97.5,
-    "non_billable_hours": 17.2,
+    "billable_hours": 101.2,
+    "non_billable_hours": 20.5,
     "pto_hours": 16.0,
-    "total_hours": 114.8
+    "total_hours": 121.8
   }
 }
