@@ -352,7 +352,7 @@
       "make": "Chevrolet",
       "model": "3100",
       "status": "Testing",
-      "checkout": 87.2,
+      "checkout": 85.3,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -372,7 +372,7 @@
         },
         {
           "label": "Functional",
-          "value": 23.1
+          "value": 11.5
         }
       ],
       "system": "Ampere",
@@ -407,12 +407,12 @@
             "done": true
           },
           {
-            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.",
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.\n2026-05-05: Waiting on mount to get back from paint.",
             "done": false
           },
           {
-            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.",
-            "done": false
+            "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.\n2026-05-05: Resolved. Ben added a spacer.",
+            "done": true
           },
           {
             "text": "2026-03-06: DB9 connectors in the engine bay are not weather sealed.\n2026-04-15: Resolved, Noah shrunk them over and installed DT connectors.",
@@ -445,10 +445,18 @@
           {
             "text": "2026-04-07: Plugging in the charger does not boot the vehicle.\n2026-04-13: The ChargeByte connector wasn't fully seated. The vehicle now boots but get's both a PreChargeFault and BattWakeFault.\n2026-04-14: Andrew found some changes that need to be made in logic. New firmware expected tomorrow.\n2026-04-16: Vehicle boots and locks the charge plug with the inverter online correctly but now get's a ChgPortContFlt which is likely a false positive due to ChargeByte firmware.\n2026-04-17: Verified wiring continuity and prox resistances at the ChargeByte, no issues. Upgraded ChargeByte firmware, still getting the same fault. Prox signal noise now suspected.\n2026-04-17: Resolved, a missing ground was found and added.",
             "done": true
+          },
+          {
+            "text": "2026-05-05: Vehicle makes a buzzy sound during key on.\n2026-05-05: Resolved, small delay added to the PMU output for the blower motor.",
+            "done": true
+          },
+          {
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few keycycles are done.",
+            "done": false
           }
         ],
-        "total": 17,
-        "done": 15,
+        "total": 19,
+        "done": 17,
         "open": 2
       }
     },
@@ -1531,6 +1539,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-05T22:39:32.072306+00:00",
+  "updated": "2026-05-05T23:34:53.640278+00:00",
   "source": "Google Sheets API"
 }
