@@ -1,13 +1,24 @@
 {
   "vehicles": [
     {
+      "owner": "Hastert",
+      "year": 1960,
+      "color": "Green",
+      "make": "Ford",
+      "model": "F-250",
+      "status": "Shipped",
+      "checkout": 97.8,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Buck",
       "year": 1971,
       "color": "Red",
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 100,
+      "checkout": 94.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -27,7 +38,7 @@
         },
         {
           "label": "Functional",
-          "value": 100
+          "value": 69.2
         }
       ],
       "system": "Ampere",
@@ -70,7 +81,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 99.4,
+      "checkout": 94.3,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -90,7 +101,7 @@
         },
         {
           "label": "Functional",
-          "value": 100
+          "value": 69.2
         }
       ],
       "system": "Ampere",
@@ -139,24 +150,13 @@
       }
     },
     {
-      "owner": "Hastert",
-      "year": 1960,
-      "color": "Green",
-      "make": "Ford",
-      "model": "F-250",
-      "status": "Shipped",
-      "checkout": 97.8,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Barton",
       "year": 1959,
       "color": "White",
       "make": "Chevrolet",
       "model": "Impala",
       "status": "Testing & Tuning",
-      "checkout": 94.9,
+      "checkout": 90.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -176,7 +176,7 @@
         },
         {
           "label": "Functional",
-          "value": 69.2
+          "value": 42.3
         }
       ],
       "system": "Ampere",
@@ -277,13 +277,24 @@
       }
     },
     {
+      "owner": "Witter",
+      "year": 1970,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 90.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Feldman",
       "year": 1969,
       "color": "Silver",
       "make": "Mercedes",
       "model": "280SE",
       "status": "Shipped",
-      "checkout": 93.8,
+      "checkout": 89.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -303,7 +314,7 @@
         },
         {
           "label": "Functional",
-          "value": 84.6
+          "value": 61.5
         }
       ],
       "system": "Ampere",
@@ -324,17 +335,6 @@
       }
     },
     {
-      "owner": "Witter",
-      "year": 1970,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Miner",
       "year": 1995,
       "color": "Green",
@@ -346,92 +346,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Shah",
-      "year": 1965,
-      "color": "Silver",
-      "make": "Ford",
-      "model": "Mustang",
-      "status": "Shipped",
-      "checkout": 88.1,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 100
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 96.3
-        },
-        {
-          "label": "Functional",
-          "value": 57.7
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Heat can come on during charge and the contactors clack. PMU needs to be hooked up to CAN3.",
-            "done": false
-          },
-          {
-            "text": "The hood is really squeaky.",
-            "done": true
-          },
-          {
-            "text": "RND locks into drive not park. You can accidentally bump it and leave park. Accurate 2026-01-28.",
-            "done": true
-          },
-          {
-            "text": "Speedo is mounted crooked.",
-            "done": true
-          },
-          {
-            "text": "None of the gauges work.",
-            "done": true
-          },
-          {
-            "text": "Diag Oil Presure Warning, Justin changed sensor. Need to check for alarm in VCU. No alarms 2026-01-28",
-            "done": false
-          },
-          {
-            "text": "Change Shah logger to CAN3 to diag SOC gauge if it's still acting up.",
-            "done": true
-          },
-          {
-            "text": "Needs PMU & inverter programming port labels.",
-            "done": false
-          },
-          {
-            "text": "Verify Wi-Fi logger connectivity.",
-            "done": false
-          },
-          {
-            "text": "Has a battery low range low warning in Raptor at 87% SOC. This means it has not been charged / discharged fully / properly for that to reset. 2026-01-28",
-            "done": false
-          }
-        ],
-        "total": 10,
-        "done": 5,
-        "open": 5
-      }
-    },
-    {
       "owner": "Witham",
       "year": 1951,
       "color": "Green",
       "make": "Chevrolet",
       "model": "3100",
       "status": "Testing",
-      "checkout": 87.8,
+      "checkout": 87.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -451,7 +372,7 @@
         },
         {
           "label": "Functional",
-          "value": 26.9
+          "value": 23.1
         }
       ],
       "system": "Ampere",
@@ -532,6 +453,85 @@
       }
     },
     {
+      "owner": "Shah",
+      "year": 1965,
+      "color": "Silver",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Shipped",
+      "checkout": 84.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 96.3
+        },
+        {
+          "label": "Functional",
+          "value": 34.6
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Heat can come on during charge and the contactors clack. PMU needs to be hooked up to CAN3.",
+            "done": false
+          },
+          {
+            "text": "The hood is really squeaky.",
+            "done": true
+          },
+          {
+            "text": "RND locks into drive not park. You can accidentally bump it and leave park. Accurate 2026-01-28.",
+            "done": true
+          },
+          {
+            "text": "Speedo is mounted crooked.",
+            "done": true
+          },
+          {
+            "text": "None of the gauges work.",
+            "done": true
+          },
+          {
+            "text": "Diag Oil Presure Warning, Justin changed sensor. Need to check for alarm in VCU. No alarms 2026-01-28",
+            "done": false
+          },
+          {
+            "text": "Change Shah logger to CAN3 to diag SOC gauge if it's still acting up.",
+            "done": true
+          },
+          {
+            "text": "Needs PMU & inverter programming port labels.",
+            "done": false
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": false
+          },
+          {
+            "text": "Has a battery low range low warning in Raptor at 87% SOC. This means it has not been charged / discharged fully / properly for that to reset. 2026-01-28",
+            "done": false
+          }
+        ],
+        "total": 10,
+        "done": 5,
+        "open": 5
+      }
+    },
+    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -560,7 +560,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Checkout",
-      "checkout": 76.7,
+      "checkout": 76.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -580,7 +580,7 @@
         },
         {
           "label": "Functional",
-          "value": 3.8
+          "value": 0
         }
       ],
       "system": "Ampere",
@@ -669,13 +669,24 @@
       }
     },
     {
+      "owner": "Hopkins",
+      "year": 1966,
+      "color": "Silver",
+      "make": "Jaguar",
+      "model": "E-Type",
+      "status": "Shipped",
+      "checkout": 71.4,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Connolly",
       "year": 1958,
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
       "status": "Testing & Tuning",
-      "checkout": 73.8,
+      "checkout": 71.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -695,7 +706,7 @@
         },
         {
           "label": "Functional",
-          "value": 15.4
+          "value": 0
         }
       ],
       "system": "Ampere",
@@ -718,17 +729,6 @@
         "done": 0,
         "open": 3
       }
-    },
-    {
-      "owner": "Hopkins",
-      "year": 1966,
-      "color": "Silver",
-      "make": "Jaguar",
-      "model": "E-Type",
-      "status": "Shipped",
-      "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "Jaffe",
@@ -1531,6 +1531,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-05T17:50:50.950474+00:00",
+  "updated": "2026-05-05T19:21:52.942631+00:00",
   "source": "Google Sheets API"
 }
