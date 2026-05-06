@@ -451,11 +451,11 @@
             "done": true
           },
           {
-            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few keycycles are done.",
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few key cycles are done.\n2026-05-06: Fault observed to pop up under heavy acceleration.",
             "done": false
           },
           {
-            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.",
+            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.",
             "done": false
           }
         ],
@@ -1543,6 +1543,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-06T22:32:27.054309+00:00",
+  "updated": "2026-05-06T23:36:19.363481+00:00",
   "source": "Google Sheets API"
 }
