@@ -18,7 +18,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 94.9,
+      "checkout": 94.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -34,7 +34,7 @@
         },
         {
           "label": "Raptor",
-          "value": 100
+          "value": 98.1
         },
         {
           "label": "Functional",
@@ -451,13 +451,17 @@
             "done": true
           },
           {
-            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few keycycles are done.",
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few key cycles are done.\n2026-05-06: Fault observed to pop up under heavy acceleration.",
+            "done": false
+          },
+          {
+            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.",
             "done": false
           }
         ],
-        "total": 19,
+        "total": 20,
         "done": 17,
-        "open": 2
+        "open": 3
       }
     },
     {
@@ -1261,6 +1265,70 @@
       }
     },
     {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 7.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 45.7
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
+      "owner": "Ampere Default",
+      "year": null,
+      "color": "",
+      "make": "",
+      "model": "",
+      "status": "Shipped",
+      "checkout": 4.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 2.9
+        },
+        {
+          "label": "Inverter",
+          "value": 24.5
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Simpson",
       "year": null,
       "color": "",
@@ -1283,75 +1351,11 @@
       "system": "AEM"
     },
     {
-      "owner": "Ampere Default",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "",
-      "status": "Shipped",
-      "checkout": 0.5,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 2.9
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
       "owner": "Richardson",
       "year": 1972,
       "color": "",
       "make": "Datsun",
       "model": "240Z",
-      "status": "Fabrication",
-      "checkout": 0,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 0
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Nolan",
-      "year": 1970,
-      "color": "",
-      "make": "",
-      "model": "Challenger",
       "status": "Fabrication",
       "checkout": 0,
       "sub_metrics": [
@@ -1539,6 +1543,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-05T23:49:58.156057+00:00",
+  "updated": "2026-05-06T23:53:11.759273+00:00",
   "source": "Google Sheets API"
 }
