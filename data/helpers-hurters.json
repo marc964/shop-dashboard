@@ -1,9 +1,40 @@
 {
   "helpers": [
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 22.8,
+      "pct_of_total": 15.7,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 10.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 4.0
+        },
+        {
+          "task": "Steering",
+          "hours": 3.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 2.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 21.2,
-      "pct_of_total": 15.9,
+      "pct_of_total": 14.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -48,36 +79,9 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 16.8,
-      "pct_of_total": 12.5,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 10.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 2.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 1.0
-        },
-        {
-          "task": "Steering",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 12.2,
-      "pct_of_total": 9.2,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -92,7 +96,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 9.5,
-      "pct_of_total": 7.1,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -107,7 +111,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 9.2,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -118,7 +122,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 9.0,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Interior",
@@ -135,9 +139,20 @@
       ]
     },
     {
+      "project": "Jarowey 71 240Z",
+      "total_hours": 6.0,
+      "pct_of_total": 4.1,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 6.0
+        }
+      ]
+    },
+    {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Steering",
@@ -152,7 +167,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 5.2,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Interior",
@@ -167,7 +182,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -178,38 +193,27 @@
           "hours": 1.0
         }
       ]
-    },
-    {
-      "project": "Jarowey 71 240Z",
-      "total_hours": 4.8,
-      "pct_of_total": 3.6,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 4.8
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 15.8,
-    "pct_of_total": 11.8,
-    "avg_per_person_per_day": 0.49,
+    "total_hours": 17.8,
+    "pct_of_total": 12.2,
+    "avg_per_person_per_day": 0.55,
     "flagged": false,
     "tech_count": 8,
     "working_days": 4,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 7.2
+        "hours": 8.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 7.0
+        "hours": 7.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 1.5
+        "hours": 2.0
       }
     ]
   },
@@ -217,7 +221,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 6.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -227,12 +231,26 @@
           ]
         }
       ]
+    },
+    {
+      "project": "Connolly 58 220S",
+      "total_hours": 0.5,
+      "pct_of_total": 0.3,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 0.5,
+          "context": [
+            "Motor & Transmission"
+          ]
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 111.5,
-    "non_billable_hours": 22.0,
-    "pto_hours": 16.0,
-    "total_hours": 133.5
+    "billable_hours": 120.8,
+    "non_billable_hours": 24.5,
+    "pto_hours": 20.0,
+    "total_hours": 145.2
   }
 }

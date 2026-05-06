@@ -453,11 +453,15 @@
           {
             "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few keycycles are done.",
             "done": false
+          },
+          {
+            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.",
+            "done": false
           }
         ],
-        "total": 19,
+        "total": 20,
         "done": 17,
-        "open": 2
+        "open": 3
       }
     },
     {
@@ -1539,6 +1543,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-06T01:18:42.961459+00:00",
+  "updated": "2026-05-06T04:55:48.640251+00:00",
   "source": "Google Sheets API"
 }
