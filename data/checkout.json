@@ -1265,6 +1265,38 @@
       }
     },
     {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 7.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 45.7
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Simpson",
       "year": null,
       "color": "",
@@ -1324,38 +1356,6 @@
       "color": "",
       "make": "Datsun",
       "model": "240Z",
-      "status": "Fabrication",
-      "checkout": 0,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 0
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Nolan",
-      "year": 1970,
-      "color": "",
-      "make": "",
-      "model": "Challenger",
       "status": "Fabrication",
       "checkout": 0,
       "sub_metrics": [
@@ -1543,6 +1543,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-06T18:04:42.973105+00:00",
+  "updated": "2026-05-06T20:02:20.927368+00:00",
   "source": "Google Sheets API"
 }
