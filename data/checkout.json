@@ -1275,11 +1275,11 @@
       "make": "",
       "model": "Challenger",
       "status": "Fabrication",
-      "checkout": 7.6,
+      "checkout": 13.0,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 45.7
+          "value": 78.1
         },
         {
           "label": "Inverter",
@@ -1547,6 +1547,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-07T21:13:21.851668+00:00",
+  "updated": "2026-05-07T22:18:45.349898+00:00",
   "source": "Google Sheets API"
 }
