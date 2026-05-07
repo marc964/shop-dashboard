@@ -253,34 +253,6 @@
       ]
     },
     {
-      "project": "Barton 59 Impala",
-      "total_hours": 4.0,
-      "pct_of_total": 2.0,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 4.0,
-          "context": [
-            "Suspension"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Connolly 58 220S",
-      "total_hours": 3.0,
-      "pct_of_total": 1.5,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 3.0,
-          "context": [
-            "Motor & Transmission"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Shah 65 Mustang",
       "total_hours": 1.5,
       "pct_of_total": 0.7,
@@ -293,11 +265,25 @@
           ]
         }
       ]
+    },
+    {
+      "project": "Connolly 58 220S",
+      "total_hours": 0.5,
+      "pct_of_total": 0.2,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 0.5,
+          "context": [
+            "Motor & Transmission"
+          ]
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 154.2,
-    "non_billable_hours": 47.8,
+    "billable_hours": 160.8,
+    "non_billable_hours": 41.2,
     "pto_hours": 24.0,
     "total_hours": 202.0
   }
