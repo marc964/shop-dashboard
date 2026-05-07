@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 31.8,
-      "pct_of_total": 15.8,
+      "pct_of_total": 15.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -85,7 +85,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 16.2,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -104,7 +104,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 11.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Interior",
@@ -198,7 +198,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 5.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -296,9 +296,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 153.8,
+    "billable_hours": 154.2,
     "non_billable_hours": 47.8,
     "pto_hours": 24.0,
-    "total_hours": 201.5
+    "total_hours": 202.0
   }
 }
