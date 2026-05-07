@@ -1088,6 +1088,38 @@
       }
     },
     {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 16.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "McDonough",
       "year": 1977,
       "color": "Red",
@@ -1269,49 +1301,17 @@
       }
     },
     {
-      "owner": "Nolan",
-      "year": 1970,
-      "color": "",
-      "make": "",
-      "model": "Challenger",
-      "status": "Fabrication",
-      "checkout": 13.0,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 78.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
       "owner": "Ampere Default",
       "year": null,
       "color": "",
       "make": "",
       "model": "",
       "status": "Shipped",
-      "checkout": 4.6,
+      "checkout": 4.7,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 2.9
+          "value": 3.8
         },
         {
           "label": "Inverter",
@@ -1547,6 +1547,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-07T22:18:45.349898+00:00",
+  "updated": "2026-05-07T23:28:14.192540+00:00",
   "source": "Google Sheets API"
 }
