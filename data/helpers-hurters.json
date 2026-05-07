@@ -206,10 +206,10 @@
   "shop_work": {
     "total_hours": 26.5,
     "pct_of_total": 13.9,
-    "avg_per_person_per_day": 0.83,
+    "avg_per_person_per_day": 0.66,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 4,
+    "working_days": 5,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
