@@ -451,16 +451,20 @@
             "done": true
           },
           {
-            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few key cycles are done.\n2026-05-06: Fault observed to pop up under heavy acceleration.",
-            "done": false
+            "text": "2026-05-05: May have CAN3 passive errors, need to re-check once the GUI is mounted and a few key cycles are done.\n2026-05-06: Fault observed to pop up under heavy acceleration.\n2026-05-07: Resolved, changed the CAN3BusPassiveTimeThr from 1 to 2.5 seconds and haven't seen the fault since. Will re-open if it comes back.",
+            "done": true
           },
           {
             "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.",
             "done": false
+          },
+          {
+            "text": "2026-05-07: Fast charging has not yet been tested.",
+            "done": false
           }
         ],
-        "total": 20,
-        "done": 17,
+        "total": 21,
+        "done": 18,
         "open": 3
       }
     },
@@ -1543,6 +1547,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-07T20:02:19.857117+00:00",
+  "updated": "2026-05-07T21:13:21.851668+00:00",
   "source": "Google Sheets API"
 }

@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 37.2,
-      "pct_of_total": 17.1,
+      "pct_of_total": 16.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -33,24 +33,24 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 31.8,
-      "pct_of_total": 14.6,
+      "total_hours": 35.2,
+      "pct_of_total": 15.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
-          "hours": 15.2
+          "hours": 15.8
+        },
+        {
+          "task": "Interior",
+          "hours": 5.5
         },
         {
           "task": "Motor & Transmission",
           "hours": 4.0
         },
         {
-          "task": "Interior",
-          "hours": 3.0
-        },
-        {
           "task": "HVAC",
-          "hours": 2.8
+          "hours": 3.2
         },
         {
           "task": "Vehicle Control",
@@ -85,7 +85,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 16.2,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -104,7 +104,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 14.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Interior",
@@ -131,7 +131,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 11.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -154,7 +154,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 9.5,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -169,7 +169,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 9.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -210,7 +210,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Steering",
@@ -224,16 +224,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 31.0,
-    "pct_of_total": 14.3,
-    "avg_per_person_per_day": 0.78,
+    "total_hours": 31.5,
+    "pct_of_total": 14.2,
+    "avg_per_person_per_day": 0.79,
     "flagged": false,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 13.5
+        "hours": 14.0
       },
       {
         "label": "Shop Meetings",
@@ -257,7 +257,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 10.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -298,9 +298,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 174.2,
-    "non_billable_hours": 43.2,
+    "billable_hours": 177.8,
+    "non_billable_hours": 43.8,
     "pto_hours": 24.0,
-    "total_hours": 217.5
+    "total_hours": 221.5
   }
 }
