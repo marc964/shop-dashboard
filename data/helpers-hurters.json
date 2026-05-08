@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 40.5,
-      "pct_of_total": 15.8,
+      "pct_of_total": 15.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -228,9 +228,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 39.8,
-    "pct_of_total": 15.5,
-    "avg_per_person_per_day": 0.83,
+    "total_hours": 40.2,
+    "pct_of_total": 15.6,
+    "avg_per_person_per_day": 0.84,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
@@ -245,7 +245,7 @@
       },
       {
         "label": "Other",
-        "hours": 5.0
+        "hours": 5.5
       },
       {
         "label": "Personal Meetings",
@@ -317,8 +317,8 @@
   ],
   "totals": {
     "billable_hours": 204.2,
-    "non_billable_hours": 52.8,
+    "non_billable_hours": 53.2,
     "pto_hours": 28.0,
-    "total_hours": 257.0
+    "total_hours": 257.5
   }
 }

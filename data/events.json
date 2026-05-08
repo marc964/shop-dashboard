@@ -80,12 +80,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -301,12 +301,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             },
