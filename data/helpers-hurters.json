@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 44.0,
-      "pct_of_total": 15.7,
+      "pct_of_total": 15.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 37.2,
-      "pct_of_total": 13.3,
+      "pct_of_total": 12.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 25.2,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -100,7 +100,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 16.2,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -119,7 +119,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 16.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Interior",
@@ -146,7 +146,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 14.5,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -169,7 +169,7 @@
     {
       "project": "Barton 59 Impala",
       "total_hours": 11.2,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -184,7 +184,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 10.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -207,7 +207,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 9.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -222,7 +222,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -232,20 +232,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 44.8,
-    "pct_of_total": 16.0,
-    "avg_per_person_per_day": 0.93,
+    "total_hours": 46.5,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 0.97,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 18.0
+        "hours": 18.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 16.0
+        "hours": 16.5
       },
       {
         "label": "Other",
@@ -253,7 +253,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 4.2
+        "hours": 4.8
       },
       {
         "label": "Errands",
@@ -265,7 +265,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 10.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -320,9 +320,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 222.2,
-    "non_billable_hours": 57.8,
+    "billable_hours": 228.5,
+    "non_billable_hours": 59.5,
     "pto_hours": 28.0,
-    "total_hours": 280.0
+    "total_hours": 288.0
   }
 }
