@@ -31,12 +31,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J out at 1pm",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Aharon A Out",
+              "summary": "Jordan J out at 1pm",
               "type": "pto",
               "all_day": true
             }
@@ -80,12 +80,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Aharon A Out",
+              "summary": "Devin D Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Devin D Out",
+              "summary": "Aharon A Out",
               "type": "pto",
               "all_day": true
             }
@@ -306,12 +306,12 @@
               "all_day": true
             },
             {
-              "summary": "Marc Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             }
