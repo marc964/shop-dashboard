@@ -53,8 +53,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 37.2,
-      "pct_of_total": 12.6,
+      "total_hours": 38.2,
+      "pct_of_total": 12.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -62,7 +62,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 4.0
+          "hours": 5.0
         },
         {
           "task": "Steering",
@@ -187,16 +187,12 @@
     },
     {
       "project": "Barton 59 Impala",
-      "total_hours": 11.2,
-      "pct_of_total": 3.8,
+      "total_hours": 11.0,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Suspension",
           "hours": 11.0
-        },
-        {
-          "task": "Interior",
-          "hours": 0.2
         }
       ]
     },
@@ -309,6 +305,20 @@
       ]
     },
     {
+      "project": "Chuter 62 Healey",
+      "total_hours": 0.5,
+      "pct_of_total": 0.2,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 0.5,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Connolly 58 220S",
       "total_hours": 0.5,
       "pct_of_total": 0.2,
@@ -321,11 +331,25 @@
           ]
         }
       ]
+    },
+    {
+      "project": "Barton 59 Impala",
+      "total_hours": 0.2,
+      "pct_of_total": 0.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 0.2,
+          "context": [
+            "Interior"
+          ]
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 233.2,
-    "non_billable_hours": 62.5,
+    "billable_hours": 232.5,
+    "non_billable_hours": 63.2,
     "pto_hours": 28.0,
     "total_hours": 295.8
   }
