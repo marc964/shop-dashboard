@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 44.0,
-      "pct_of_total": 14.9,
+      "pct_of_total": 14.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.2,
-      "pct_of_total": 12.9,
+      "pct_of_total": 12.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -100,7 +100,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 16.2,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -199,7 +199,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 10.0,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -222,7 +222,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -232,9 +232,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 49.5,
-    "pct_of_total": 16.7,
-    "avg_per_person_per_day": 0.88,
+    "total_hours": 50.5,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 0.9,
     "flagged": false,
     "tech_count": 8,
     "working_days": 7,
@@ -256,6 +256,10 @@
         "hours": 5.5
       },
       {
+        "label": "Organization",
+        "hours": 1.0
+      },
+      {
         "label": "Errands",
         "hours": 1.0
       }
@@ -265,7 +269,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 10.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -278,13 +282,14 @@
     },
     {
       "project": "Shah 65 Mustang",
-      "total_hours": 1.5,
-      "pct_of_total": 0.5,
+      "total_hours": 3.5,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 1.5,
+          "hours": 3.5,
           "context": [
+            "Exterior",
             "Wiring - Chassis"
           ]
         }
@@ -349,8 +354,8 @@
   ],
   "totals": {
     "billable_hours": 232.5,
-    "non_billable_hours": 63.2,
+    "non_billable_hours": 66.2,
     "pto_hours": 28.0,
-    "total_hours": 295.8
+    "total_hours": 298.8
   }
 }
