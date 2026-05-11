@@ -728,11 +728,15 @@
           {
             "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
             "done": true
+          },
+          {
+            "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
+            "done": false
           }
         ],
-        "total": 3,
+        "total": 4,
         "done": 2,
-        "open": 1
+        "open": 2
       }
     },
     {
@@ -1555,6 +1559,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-11T22:09:21.301624+00:00",
+  "updated": "2026-05-11T23:12:55.254979+00:00",
   "source": "Google Sheets API"
 }
