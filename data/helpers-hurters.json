@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 44.0,
-      "pct_of_total": 14.7,
+      "pct_of_total": 14.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -54,7 +54,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.2,
-      "pct_of_total": 12.8,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -85,7 +85,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 25.2,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -94,6 +94,33 @@
         {
           "task": "Manufacturing - Core",
           "hours": 12.2
+        }
+      ]
+    },
+    {
+      "project": "Berke 69 Alfa",
+      "total_hours": 17.0,
+      "pct_of_total": 5.6,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 7.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 2.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 1.0
         }
       ]
     },
@@ -117,36 +144,9 @@
       ]
     },
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 16.0,
-      "pct_of_total": 5.4,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 6.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 3.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 2.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 14.5,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -169,7 +169,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 14.2,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -232,9 +232,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 50.5,
-    "pct_of_total": 16.9,
-    "avg_per_person_per_day": 0.9,
+    "total_hours": 52.0,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 0.93,
     "flagged": false,
     "tech_count": 8,
     "working_days": 7,
@@ -245,11 +245,11 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 16.5
+        "hours": 17.0
       },
       {
         "label": "Other",
-        "hours": 6.0
+        "hours": 7.0
       },
       {
         "label": "Personal Meetings",
@@ -298,7 +298,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 0.8,
-      "pct_of_total": 0.3,
+      "pct_of_total": 0.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -353,9 +353,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 232.5,
-    "non_billable_hours": 66.2,
+    "billable_hours": 233.5,
+    "non_billable_hours": 67.8,
     "pto_hours": 28.0,
-    "total_hours": 298.8
+    "total_hours": 301.2
   }
 }
