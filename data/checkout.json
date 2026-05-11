@@ -685,6 +685,57 @@
       }
     },
     {
+      "owner": "Ferdman",
+      "year": 1966,
+      "color": "White",
+      "make": "Volkswagen",
+      "model": "Micro Bus",
+      "status": "Startup",
+      "checkout": 71.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 91.4
+        },
+        {
+          "label": "Inverter",
+          "value": 78.4
+        },
+        {
+          "label": "PMU",
+          "value": 90.6
+        },
+        {
+          "label": "Raptor",
+          "value": 98.1
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Motor cable hangs close to axle.",
+            "done": false
+          },
+          {
+            "text": "2026-05-11: Fan 2 - Motor not working - May be a ECU Master firmware issue.\n2026-05-11: Resolved, flashed latest PMU version.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
+            "done": true
+          }
+        ],
+        "total": 3,
+        "done": 2,
+        "open": 1
+      }
+    },
+    {
       "owner": "Hopkins",
       "year": 1966,
       "color": "Silver",
@@ -822,49 +873,6 @@
       "checkout": 43.2,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "Ferdman",
-      "year": 1966,
-      "color": "White",
-      "make": "Volkswagen",
-      "model": "Micro Bus",
-      "status": "Startup",
-      "checkout": 29.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 91.4
-        },
-        {
-          "label": "Inverter",
-          "value": 78.4
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Motor cable hangs close to axle.",
-            "done": false
-          }
-        ],
-        "total": 1,
-        "done": 0,
-        "open": 1
-      }
     },
     {
       "owner": "Dan Henry",
@@ -1547,6 +1555,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-11T16:48:59.819402+00:00",
+  "updated": "2026-05-11T18:59:47.539914+00:00",
   "source": "Google Sheets API"
 }
