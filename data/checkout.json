@@ -857,24 +857,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "McDonough",
       "year": 1977,
       "color": "Red",
       "make": "Lotus",
       "model": "Esprit",
       "status": "Fabrication",
-      "checkout": 46.1,
+      "checkout": 56.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -886,11 +875,11 @@
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 43.8
         },
         {
           "label": "Raptor",
-          "value": 77.8
+          "value": 87.0
         },
         {
           "label": "Functional",
@@ -903,12 +892,27 @@
           {
             "text": "Trying 3380 for the BMS beta, should test a module to verify",
             "done": false
+          },
+          {
+            "text": "Brake switch wiring",
+            "done": false
           }
         ],
-        "total": 1,
+        "total": 2,
         "done": 0,
-        "open": 1
+        "open": 2
       }
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Ivanhoe",
@@ -1559,6 +1563,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-12T18:19:10.115123+00:00",
+  "updated": "2026-05-12T20:16:05.995746+00:00",
   "source": "Google Sheets API"
 }
