@@ -879,6 +879,49 @@
       "system": "AEM"
     },
     {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "Fabrication",
+      "checkout": 30.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 2.0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 77.8
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Trying 3380 for the BMS beta, should test a module to verify",
+            "done": false
+          }
+        ],
+        "total": 1,
+        "done": 0,
+        "open": 1
+      }
+    },
+    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
@@ -1130,49 +1173,6 @@
         }
       ],
       "system": "Ampere"
-    },
-    {
-      "owner": "McDonough",
-      "year": 1977,
-      "color": "Red",
-      "make": "Lotus",
-      "model": "Esprit",
-      "status": "Fabrication",
-      "checkout": 16.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Trying 3380 for the BMS beta, should test a module to verify",
-            "done": false
-          }
-        ],
-        "total": 1,
-        "done": 0,
-        "open": 1
-      }
     },
     {
       "owner": "Teague",
@@ -1559,6 +1559,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-12T13:27:59.321872+00:00",
+  "updated": "2026-05-12T16:06:04.450435+00:00",
   "source": "Google Sheets API"
 }
