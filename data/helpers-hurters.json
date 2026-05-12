@@ -285,7 +285,10 @@
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 10.2
+          "hours": 10.2,
+          "context": [
+            "Vehicle Control"
+          ]
         }
       ]
     },
@@ -296,7 +299,10 @@
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 4.0
+          "hours": 4.0,
+          "context": [
+            "Wiring - OEM"
+          ]
         }
       ]
     },
@@ -309,6 +315,7 @@
           "task": "Installation - Extra",
           "hours": 3.5,
           "context": [
+            "Exterior",
             "Wiring - Chassis"
           ]
         }
@@ -321,7 +328,10 @@
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 2.8
+          "hours": 2.8,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
         }
       ]
     },
@@ -332,7 +342,10 @@
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 1.5
+          "hours": 1.5,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
         }
       ]
     },
@@ -343,7 +356,10 @@
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 0.5
+          "hours": 0.5,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
         }
       ]
     },
@@ -354,7 +370,10 @@
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 0.5
+          "hours": 0.5,
+          "context": [
+            "Motor & Transmission"
+          ]
         }
       ]
     },
@@ -365,7 +384,10 @@
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 0.2
+          "hours": 0.2,
+          "context": [
+            "Interior"
+          ]
         }
       ]
     }
