@@ -868,24 +868,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Ivanhoe",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Checkout",
-      "checkout": 43.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "McDonough",
       "year": 1977,
       "color": "Red",
       "make": "Lotus",
       "model": "Esprit",
       "status": "Fabrication",
-      "checkout": 30.0,
+      "checkout": 46.1,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -893,7 +882,7 @@
         },
         {
           "label": "Inverter",
-          "value": 2.0
+          "value": 99.0
         },
         {
           "label": "PMU",
@@ -920,6 +909,17 @@
         "done": 0,
         "open": 1
       }
+    },
+    {
+      "owner": "Ivanhoe",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "Checkout",
+      "checkout": 43.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Dan Henry",
@@ -1559,6 +1559,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-12T16:06:04.450435+00:00",
+  "updated": "2026-05-12T18:19:10.115123+00:00",
   "source": "Google Sheets API"
 }
