@@ -459,13 +459,13 @@
             "done": false
           },
           {
-            "text": "2026-05-07: Fast charging has not yet been tested.",
-            "done": false
+            "text": "2026-05-07: Fast charging has not yet been tested.\n2026-05-11: Tested working.",
+            "done": true
           }
         ],
         "total": 21,
-        "done": 18,
-        "open": 3
+        "done": 19,
+        "open": 2
       }
     },
     {
@@ -1559,6 +1559,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-11T23:12:55.254979+00:00",
+  "updated": "2026-05-12T00:00:09.316526+00:00",
   "source": "Google Sheets API"
 }
