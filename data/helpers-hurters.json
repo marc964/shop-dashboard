@@ -69,7 +69,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 38.2,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -99,12 +99,12 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 18.0,
-      "pct_of_total": 5.0,
+      "total_hours": 19.0,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 7.0
+          "hours": 8.0
         },
         {
           "task": "Exterior",
@@ -281,7 +281,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 10.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -393,9 +393,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 272.8,
+    "billable_hours": 273.8,
     "non_billable_hours": 86.2,
     "pto_hours": 28.0,
-    "total_hours": 359.0
+    "total_hours": 360.0
   }
 }
