@@ -154,7 +154,13 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-05-27",
@@ -183,7 +189,7 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
@@ -193,7 +199,7 @@
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             }
