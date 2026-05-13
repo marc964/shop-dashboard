@@ -736,11 +736,15 @@
           {
             "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
             "done": false
+          },
+          {
+            "text": "2026-05-12: Motor seemps to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+            "done": false
           }
         ],
-        "total": 4,
+        "total": 5,
         "done": 2,
-        "open": 2
+        "open": 3
       }
     },
     {
@@ -867,7 +871,7 @@
       "make": "Lotus",
       "model": "Esprit",
       "status": "Fabrication",
-      "checkout": 59.4,
+      "checkout": 63.3,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -875,7 +879,7 @@
         },
         {
           "label": "Inverter",
-          "value": 99.0
+          "value": 1.0
         },
         {
           "label": "PMU",
@@ -887,26 +891,26 @@
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 3.8
         }
       ],
       "system": "Ampere",
       "punchlist": {
         "items": [
           {
-            "text": "Trying 3380 for the BMS beta thermistor cal, should test a module to verify",
+            "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
             "done": false
           },
           {
-            "text": "Brake switch wiring",
+            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.",
             "done": false
           },
           {
-            "text": "HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
+            "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
             "done": true
           },
           {
-            "text": "CAN3 Termination is 110 and missing a termination resistor",
+            "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
             "done": false
           }
         ],
@@ -1575,6 +1579,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-13T17:36:47.031407+00:00",
+  "updated": "2026-05-13T19:26:20.355408+00:00",
   "source": "Google Sheets API"
 }
