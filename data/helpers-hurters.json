@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 58.8,
-      "pct_of_total": 14.3,
+      "pct_of_total": 14.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 57.5,
-      "pct_of_total": 14.0,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -264,9 +264,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 69.0,
-    "pct_of_total": 16.7,
-    "avg_per_person_per_day": 0.96,
+    "total_hours": 69.5,
+    "pct_of_total": 16.8,
+    "avg_per_person_per_day": 0.97,
     "flagged": false,
     "tech_count": 8,
     "working_days": 9,
@@ -277,7 +277,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 22.2
+        "hours": 22.8
       },
       {
         "label": "Other",
@@ -415,8 +415,8 @@
   ],
   "totals": {
     "billable_hours": 315.8,
-    "non_billable_hours": 96.2,
+    "non_billable_hours": 96.8,
     "pto_hours": 28.0,
-    "total_hours": 412.0
+    "total_hours": 412.5
   }
 }
