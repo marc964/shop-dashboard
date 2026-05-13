@@ -455,8 +455,8 @@
             "done": true
           },
           {
-            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.",
-            "done": false
+            "text": "2026-05-05: Need to enable shudder compensations with Ampere reccommended values.\n2026-05-06: Turned on shudder comp with Ampere reccommended settings. Asked Ampere to check a log to see if there was any effect.\n2026-05-12: Marc say's it feels fine.",
+            "done": true
           },
           {
             "text": "2026-05-07: Fast charging has not yet been tested.\n2026-05-11: Tested working.",
@@ -464,8 +464,8 @@
           }
         ],
         "total": 21,
-        "done": 19,
-        "open": 2
+        "done": 20,
+        "open": 1
       }
     },
     {
@@ -677,11 +677,15 @@
           {
             "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
             "done": true
+          },
+          {
+            "text": "Fix the gear ratio",
+            "done": false
           }
         ],
-        "total": 19,
+        "total": 20,
         "done": 15,
-        "open": 4
+        "open": 5
       }
     },
     {
@@ -855,6 +859,53 @@
       "checkout": 66.1,
       "sub_metrics": [],
       "system": "AEM"
+    },
+    {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "Fabrication",
+      "checkout": 56.9,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 99
+        },
+        {
+          "label": "PMU",
+          "value": 43.8
+        },
+        {
+          "label": "Raptor",
+          "value": 87
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Trying 3380 for the BMS beta, should test a module to verify",
+            "done": false
+          },
+          {
+            "text": "Brake switch wiring",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
     },
     {
       "owner": "Wilson",
@@ -1130,49 +1181,6 @@
         }
       ],
       "system": "Ampere"
-    },
-    {
-      "owner": "McDonough",
-      "year": 1977,
-      "color": "Red",
-      "make": "Lotus",
-      "model": "Esprit",
-      "status": "Fabrication",
-      "checkout": 16.3,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Trying 3380 for the BMS beta, should test a module to verify",
-            "done": false
-          }
-        ],
-        "total": 1,
-        "done": 0,
-        "open": 1
-      }
     },
     {
       "owner": "Teague",
@@ -1559,6 +1567,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-12T00:00:09.316526+00:00",
+  "updated": "2026-05-13T00:00:32.368011+00:00",
   "source": "Google Sheets API"
 }
