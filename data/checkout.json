@@ -859,7 +859,7 @@
       "color": "Red",
       "make": "Lotus",
       "model": "Esprit",
-      "status": "Fabrication",
+      "status": "Checkout",
       "checkout": 67.2,
       "sub_metrics": [
         {
@@ -901,10 +901,14 @@
           {
             "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
             "done": false
+          },
+          {
+            "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
+            "done": true
           }
         ],
-        "total": 4,
-        "done": 1,
+        "total": 5,
+        "done": 2,
         "open": 3
       }
     },
@@ -1579,6 +1583,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-13T22:39:20.936052+00:00",
+  "updated": "2026-05-13T23:43:24.560329+00:00",
   "source": "Google Sheets API"
 }
