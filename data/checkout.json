@@ -867,7 +867,7 @@
       "make": "Lotus",
       "model": "Esprit",
       "status": "Fabrication",
-      "checkout": 56.9,
+      "checkout": 59.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -879,7 +879,7 @@
         },
         {
           "label": "PMU",
-          "value": 43.8
+          "value": 46.9
         },
         {
           "label": "Raptor",
@@ -894,17 +894,25 @@
       "punchlist": {
         "items": [
           {
-            "text": "Trying 3380 for the BMS beta, should test a module to verify",
+            "text": "Trying 3380 for the BMS beta thermistor cal, should test a module to verify",
             "done": false
           },
           {
             "text": "Brake switch wiring",
             "done": false
+          },
+          {
+            "text": "HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
+            "done": true
+          },
+          {
+            "text": "CAN3 Termination is 110 and missing a termination resistor",
+            "done": false
           }
         ],
-        "total": 2,
-        "done": 0,
-        "open": 2
+        "total": 4,
+        "done": 1,
+        "open": 3
       }
     },
     {
@@ -1567,6 +1575,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-13T15:25:44.064730+00:00",
+  "updated": "2026-05-13T17:36:47.031407+00:00",
   "source": "Google Sheets API"
 }
