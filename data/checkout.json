@@ -935,28 +935,17 @@
       "system": "AEM"
     },
     {
-      "owner": "Ivanhoe",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Checkout",
-      "checkout": 43.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Chuter",
       "year": 1962,
       "color": "Red + White",
       "make": "Austin",
       "model": "Healey",
       "status": "Fabrication",
-      "checkout": 33.2,
+      "checkout": 55.6,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 98.1
+          "value": 100
         },
         {
           "label": "Inverter",
@@ -968,14 +957,40 @@
         },
         {
           "label": "Raptor",
-          "value": 3.6
+          "value": 83.6
         },
         {
           "label": "Functional",
           "value": 0
         }
       ],
-      "system": "Ampere"
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-14: CAN3 termination is incorrect.",
+            "done": false
+          },
+          {
+            "text": "GUI is commanded on and drawing 30mA but the screen is still dark.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
+    },
+    {
+      "owner": "Ivanhoe",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "Checkout",
+      "checkout": 43.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Dan Henry",
@@ -1583,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-14T17:17:39.218755+00:00",
+  "updated": "2026-05-14T19:19:07.721673+00:00",
   "source": "Google Sheets API"
 }
