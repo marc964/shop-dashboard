@@ -924,24 +924,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Chuter",
       "year": 1962,
       "color": "Red + White",
       "make": "Austin",
       "model": "Healey",
       "status": "Fabrication",
-      "checkout": 55.6,
+      "checkout": 61.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -953,7 +942,7 @@
         },
         {
           "label": "PMU",
-          "value": 0
+          "value": 34.4
         },
         {
           "label": "Raptor",
@@ -972,7 +961,7 @@
             "done": false
           },
           {
-            "text": "GUI is commanded on and drawing 30mA but the screen is still dark.",
+            "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
             "done": false
           }
         ],
@@ -980,6 +969,17 @@
         "done": 0,
         "open": 2
       }
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Ivanhoe",
@@ -1598,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-14T20:54:19.656487+00:00",
+  "updated": "2026-05-14T22:13:15.081060+00:00",
   "source": "Google Sheets API"
 }
