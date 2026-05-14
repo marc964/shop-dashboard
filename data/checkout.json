@@ -946,6 +946,38 @@
       "system": "AEM"
     },
     {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Fabrication",
+      "checkout": 33.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 98.1
+        },
+        {
+          "label": "Inverter",
+          "value": 97.2
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 3.6
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
@@ -1165,38 +1197,6 @@
         "done": 6,
         "open": 1
       }
-    },
-    {
-      "owner": "Chuter",
-      "year": 1962,
-      "color": "Red + White",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Fabrication",
-      "checkout": 17.0,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 98.1
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 3.6
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
     },
     {
       "owner": "Nolan",
@@ -1583,6 +1583,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-14T15:06:47.444977+00:00",
+  "updated": "2026-05-14T17:17:39.218755+00:00",
   "source": "Google Sheets API"
 }
