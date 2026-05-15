@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.2,
-      "pct_of_total": 13.2,
+      "pct_of_total": 13.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 60.5,
-      "pct_of_total": 11.1,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -81,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -112,7 +112,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 30.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -151,7 +151,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 30.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -205,7 +205,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 21.8,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -300,20 +300,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 94.2,
-    "pct_of_total": 17.2,
-    "avg_per_person_per_day": 1.07,
+    "total_hours": 95.8,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 37.5
+        "hours": 38.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 29.2
+        "hours": 30.2
       },
       {
         "label": "Other",
@@ -466,9 +466,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 411.5,
-    "non_billable_hours": 136.0,
+    "billable_hours": 415.8,
+    "non_billable_hours": 137.5,
     "pto_hours": 28.0,
-    "total_hours": 547.5
+    "total_hours": 553.2
   }
 }
