@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.2,
-      "pct_of_total": 12.5,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 60.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -81,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -147,7 +147,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 35.5,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -186,7 +186,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -203,9 +203,28 @@
       ]
     },
     {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 25.5,
+      "pct_of_total": 4.4,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 18.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 6.2
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.2
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 21.8,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -230,28 +249,9 @@
       ]
     },
     {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 20.5,
-      "pct_of_total": 3.6,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 13.0
-        },
-        {
-          "task": "Scanning",
-          "hours": 6.2
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.2
-        }
-      ]
-    },
-    {
       "project": "Berke 69 Alfa",
       "total_hours": 20.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Interior",
@@ -301,7 +301,7 @@
   ],
   "shop_work": {
     "total_hours": 100.2,
-    "pct_of_total": 17.4,
+    "pct_of_total": 17.3,
     "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
@@ -467,9 +467,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 432.0,
+    "billable_hours": 437.0,
     "non_billable_hours": 144.0,
     "pto_hours": 28.0,
-    "total_hours": 576.0
+    "total_hours": 581.0
   }
 }
