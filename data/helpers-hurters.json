@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.2,
-      "pct_of_total": 12.7,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 60.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -81,7 +81,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -112,7 +112,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 36.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -300,20 +300,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 99.2,
+    "total_hours": 100.2,
     "pct_of_total": 17.4,
-    "avg_per_person_per_day": 1.13,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 39.5
+        "hours": 40.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 31.2
+        "hours": 31.8
       },
       {
         "label": "Other",
@@ -467,9 +467,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 427.0,
-    "non_billable_hours": 143.0,
+    "billable_hours": 432.0,
+    "non_billable_hours": 144.0,
     "pto_hours": 28.0,
-    "total_hours": 570.0
+    "total_hours": 576.0
   }
 }
