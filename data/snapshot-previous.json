@@ -799,6 +799,53 @@
       }
     },
     {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Fabrication",
+      "checkout": 74.9,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 97.2
+        },
+        {
+          "label": "PMU",
+          "value": 34.4
+        },
+        {
+          "label": "Raptor",
+          "value": 96.4
+        },
+        {
+          "label": "Functional",
+          "value": 33.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-14: CAN3 termination is incorrect.",
+            "done": false
+          },
+          {
+            "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
+    },
+    {
       "owner": "Hopkins",
       "year": 1966,
       "color": "Silver",
@@ -922,53 +969,6 @@
       "checkout": 66.1,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "Chuter",
-      "year": 1962,
-      "color": "Red + White",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Fabrication",
-      "checkout": 61.4,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 97.2
-        },
-        {
-          "label": "PMU",
-          "value": 34.4
-        },
-        {
-          "label": "Raptor",
-          "value": 83.6
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-05-14: CAN3 termination is incorrect.",
-            "done": false
-          },
-          {
-            "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
-            "done": false
-          }
-        ],
-        "total": 2,
-        "done": 0,
-        "open": 2
-      }
     },
     {
       "owner": "Wilson",
@@ -1598,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-14T23:59:12.999563+00:00",
+  "updated": "2026-05-15T23:56:02.601242+00:00",
   "source": "Google Sheets API"
 }
