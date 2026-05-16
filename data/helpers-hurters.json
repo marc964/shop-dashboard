@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.2,
-      "pct_of_total": 12.3,
+      "pct_of_total": 12.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 67.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -196,6 +196,25 @@
       ]
     },
     {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 27.0,
+      "pct_of_total": 4.6,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 17.5
+        },
+        {
+          "task": "Scanning",
+          "hours": 8.2
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.2
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 25.8,
       "pct_of_total": 4.4,
@@ -211,25 +230,6 @@
         {
           "task": "Engineering - Core",
           "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 25.5,
-      "pct_of_total": 4.3,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 18.0
-        },
-        {
-          "task": "Scanning",
-          "hours": 6.2
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.2
         }
       ]
     },
@@ -312,16 +312,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 101.2,
-    "pct_of_total": 17.2,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 102.2,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 40.5
+        "hours": 41.0
       },
       {
         "label": "Shop Meetings",
@@ -333,7 +333,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 11.0
+        "hours": 11.5
       },
       {
         "label": "Organization",
@@ -386,12 +386,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 9.2,
-      "pct_of_total": 1.6,
+      "total_hours": 8.8,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 9.2,
+          "hours": 8.8,
           "context": [
             "Brakes",
             "Charging",
@@ -479,9 +479,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 444.0,
-    "non_billable_hours": 145.0,
+    "billable_hours": 446.0,
+    "non_billable_hours": 145.5,
     "pto_hours": 28.0,
-    "total_hours": 589.0
+    "total_hours": 591.5
   }
 }
