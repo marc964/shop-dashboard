@@ -122,41 +122,6 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 36.0,
-      "pct_of_total": 6.1,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 15.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 9.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 4.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 35.5,
       "pct_of_total": 6.0,
@@ -191,6 +156,37 @@
         },
         {
           "task": "Suspension",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 28.0,
+      "pct_of_total": 4.7,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 11.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 9.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 2.0
+        },
+        {
+          "task": "Interior",
           "hours": 1.0
         }
       ]
@@ -371,6 +367,21 @@
       ]
     },
     {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 12.0,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 12.0,
+          "context": [
+            "Vehicle Control - Ampere",
+            "Wiring - OEM"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Miner 95 911",
       "total_hours": 10.2,
       "pct_of_total": 1.7,
@@ -380,6 +391,27 @@
           "hours": 10.2,
           "context": [
             "Vehicle Control"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Chuter 62 Healey",
+      "total_hours": 10.0,
+      "pct_of_total": 1.7,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 5.5,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
+        },
+        {
+          "task": "Troubleshooting",
+          "hours": 4.5,
+          "context": [
+            "Instrumentation"
           ]
         }
       ]
@@ -401,20 +433,6 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 4.0,
-      "pct_of_total": 0.7,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 4.0,
-          "context": [
-            "Wiring - OEM"
-          ]
-        }
-      ]
-    },
-    {
       "project": "Witham 51 3100",
       "total_hours": 3.0,
       "pct_of_total": 0.5,
@@ -429,20 +447,6 @@
         {
           "task": "Troubleshooting",
           "hours": 1.5,
-          "context": [
-            "Vehicle Control - Ampere"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Chuter 62 Healey",
-      "total_hours": 0.5,
-      "pct_of_total": 0.1,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 0.5,
           "context": [
             "Vehicle Control - Ampere"
           ]
@@ -479,8 +483,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 446.0,
-    "non_billable_hours": 145.5,
+    "billable_hours": 428.5,
+    "non_billable_hours": 163.0,
     "pto_hours": 28.0,
     "total_hours": 591.5
   }

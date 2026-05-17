@@ -3,8 +3,8 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-05",
-    "productivity_pct": 75.4,
-    "billable_hours": 446.0,
+    "productivity_pct": 72.4,
+    "billable_hours": 428.5,
     "total_hours": 619.5,
     "pto_hours": 28.0
   },
@@ -12,22 +12,22 @@
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 73.0,
-      "delta": 2.4
+      "delta": -0.6
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 70.8,
-      "delta": 4.6
+      "delta": 1.6
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 76.9,
-      "delta": -1.5
+      "delta": -4.5
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 0.4
+      "delta": -2.6
     }
   },
   "monthly": [
@@ -110,8 +110,8 @@
     },
     {
       "month": "2026-05",
-      "productivity_pct": 75.4,
-      "billable_hours": 446.0,
+      "productivity_pct": 72.4,
+      "billable_hours": 428.5,
       "total_hours": 619.5,
       "pto_hours": 28.0
     }
@@ -131,8 +131,8 @@
     },
     {
       "week": "2026-W20",
-      "productivity_pct": 72.5,
-      "billable_hours": 210.0,
+      "productivity_pct": 66.4,
+      "billable_hours": 192.5,
       "total_hours": 289.8
     }
   ],
@@ -181,26 +181,26 @@
     },
     {
       "date": "2026-05-12",
-      "productivity_pct": 79.0,
-      "billable_hours": 49.0,
+      "productivity_pct": 72.6,
+      "billable_hours": 45.0,
       "total_hours": 62.0
     },
     {
       "date": "2026-05-13",
-      "productivity_pct": 72.2,
-      "billable_hours": 41.5,
+      "productivity_pct": 65.2,
+      "billable_hours": 37.5,
       "total_hours": 57.5
     },
     {
       "date": "2026-05-14",
-      "productivity_pct": 69.9,
-      "billable_hours": 48.2,
+      "productivity_pct": 67.0,
+      "billable_hours": 46.2,
       "total_hours": 69.0
     },
     {
       "date": "2026-05-15",
-      "productivity_pct": 78.4,
-      "billable_hours": 34.5,
+      "productivity_pct": 61.4,
+      "billable_hours": 27.0,
       "total_hours": 44.0
     }
   ]
