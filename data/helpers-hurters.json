@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 74.5,
-      "pct_of_total": 11.8,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -61,8 +61,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 67.5,
-      "pct_of_total": 10.7,
+      "total_hours": 73.5,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -74,7 +74,11 @@
         },
         {
           "task": "Audio",
-          "hours": 5.0
+          "hours": 7.5
+        },
+        {
+          "task": "Charging",
+          "hours": 4.0
         },
         {
           "task": "HVAC",
@@ -83,17 +87,13 @@
         {
           "task": "Vehicle Control",
           "hours": 1.0
-        },
-        {
-          "task": "Charging",
-          "hours": 0.5
         }
       ]
     },
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.5,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -140,7 +140,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -171,7 +171,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 39.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Suspension",
@@ -202,7 +202,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -221,7 +221,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -266,20 +266,20 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 20.5,
-      "pct_of_total": 3.3,
+      "total_hours": 21.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Interior",
           "hours": 8.0
         },
         {
-          "task": "Exterior",
-          "hours": 4.0
+          "task": "Vehicle Control",
+          "hours": 4.8
         },
         {
-          "task": "Vehicle Control",
-          "hours": 3.8
+          "task": "Exterior",
+          "hours": 4.0
         },
         {
           "task": "Suspension",
@@ -298,7 +298,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 15.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -316,20 +316,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 109.0,
-    "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.14,
+    "total_hours": 110.0,
+    "pct_of_total": 17.2,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.2
+        "hours": 43.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 34.8
+        "hours": 35.2
       },
       {
         "label": "Other",
@@ -353,7 +353,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 20.0,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -492,9 +492,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 450.8,
-    "non_billable_hours": 179.8,
+    "billable_hours": 457.8,
+    "non_billable_hours": 180.8,
     "pto_hours": 28.0,
-    "total_hours": 630.5
+    "total_hours": 638.5
   }
 }
