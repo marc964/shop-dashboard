@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 74.5,
-      "pct_of_total": 11.7,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 73.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -93,7 +93,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.5,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -140,7 +140,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -171,7 +171,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 39.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -200,6 +200,29 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 28.2,
+      "pct_of_total": 4.3,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 12.8
+        },
+        {
+          "task": "Engineering - Product",
+          "hours": 12.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 2.5
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
       "pct_of_total": 4.2,
@@ -219,28 +242,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 25.8,
-      "pct_of_total": 4.0,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 12.8
-        },
-        {
-          "task": "Engineering - Product",
-          "hours": 12.5
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
       "total_hours": 21.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -267,7 +271,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 21.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Interior",
@@ -316,24 +320,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 110.0,
-    "pct_of_total": 17.2,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 116.0,
+    "pct_of_total": 17.9,
+    "avg_per_person_per_day": 1.21,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.8
+        "hours": 44.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 35.2
+        "hours": 36.2
       },
       {
         "label": "Other",
-        "hours": 14.5
+        "hours": 19.0
       },
       {
         "label": "Personal Meetings",
@@ -378,7 +382,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 14.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -399,7 +403,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 12.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -407,6 +411,22 @@
           "context": [
             "Vehicle Control - Ampere",
             "Wiring - OEM"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 11.0,
+      "pct_of_total": 1.7,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 11.0,
+          "context": [
+            "Brakes",
+            "Charging",
+            "Vehicle Control - Ampere"
           ]
         }
       ]
@@ -421,22 +441,6 @@
           "hours": 10.2,
           "context": [
             "Vehicle Control"
-          ]
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 8.8,
-      "pct_of_total": 1.4,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 8.8,
-          "context": [
-            "Brakes",
-            "Charging",
-            "Vehicle Control - Ampere"
           ]
         }
       ]
@@ -492,9 +496,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 457.8,
-    "non_billable_hours": 180.8,
+    "billable_hours": 460.8,
+    "non_billable_hours": 189.0,
     "pto_hours": 28.0,
-    "total_hours": 638.5
+    "total_hours": 649.8
   }
 }
