@@ -1,89 +1,15 @@
 {
-  "generated_at": "2026-05-17",
+  "generated_at": "2026-05-18",
   "weeks": [
-    {
-      "week_start": "2026-05-11",
-      "week_label": "Week of May 11",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-05-11",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Aharon A Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-05-12",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Aharon A Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-05-13",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Aharon A Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-05-14",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-05-15",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-05-16",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-05-17",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-05-18",
       "week_label": "Week of May 18",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-05-18",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -195,7 +121,7 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
@@ -205,7 +131,7 @@
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             }
@@ -317,6 +243,91 @@
         },
         {
           "date": "2026-06-07",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-06-08",
+      "week_label": "Week of Jun 08",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-06-08",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Alex N Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Alex N Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-06-10",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Alex N Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Peter Lee Visit",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-06-11",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Alex N Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-06-12",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-06-13",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-06-14",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
