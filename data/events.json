@@ -24,7 +24,13 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Butler Drop Off for Seat Belts",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-05-20",
@@ -121,17 +127,17 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Billy A Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
               "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Ryan L Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
