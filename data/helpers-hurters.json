@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 72.2,
-      "pct_of_total": 12.1,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -62,7 +62,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 67.5,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -163,7 +163,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 34.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -213,7 +213,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -309,7 +309,7 @@
   ],
   "shop_work": {
     "total_hours": 103.2,
-    "pct_of_total": 17.2,
+    "pct_of_total": 17.0,
     "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
@@ -344,8 +344,8 @@
   "project_hurters": [
     {
       "project": "Shah 65 Mustang",
-      "total_hours": 16.0,
-      "pct_of_total": 2.7,
+      "total_hours": 20.0,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -358,9 +358,10 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 3.5,
+          "hours": 7.5,
           "context": [
             "Exterior",
+            "Motor & Transmission",
             "Wiring - Chassis"
           ]
         }
@@ -398,7 +399,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 10.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -419,7 +420,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 8.8,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -434,21 +435,21 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 3.0,
-      "pct_of_total": 0.5,
+      "total_hours": 4.5,
+      "pct_of_total": 0.7,
       "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 3.0,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
+        },
         {
           "task": "Installation - Extra",
           "hours": 1.5,
           "context": [
             "Instrumentation"
-          ]
-        },
-        {
-          "task": "Troubleshooting",
-          "hours": 1.5,
-          "context": [
-            "Vehicle Control - Ampere"
           ]
         }
       ]
@@ -483,9 +484,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 435.5,
-    "non_billable_hours": 164.0,
+    "billable_hours": 437.0,
+    "non_billable_hours": 169.5,
     "pto_hours": 28.0,
-    "total_hours": 599.5
+    "total_hours": 606.5
   }
 }
