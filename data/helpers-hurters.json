@@ -1,9 +1,40 @@
 {
   "helpers": [
     {
+      "project": "LB 82 911",
+      "total_hours": 78.5,
+      "pct_of_total": 11.0,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 35.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 24.5
+        },
+        {
+          "task": "Audio",
+          "hours": 7.5
+        },
+        {
+          "task": "Charging",
+          "hours": 5.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 76.5,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -60,44 +91,13 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 73.5,
-      "pct_of_total": 10.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 35.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 24.5
-        },
-        {
-          "task": "Audio",
-          "hours": 7.5
-        },
-        {
-          "task": "Charging",
-          "hours": 4.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 1.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "McDonough 77 Esprit",
-      "total_hours": 45.5,
+      "total_hours": 46.0,
       "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Brakes",
-          "hours": 17.5
+          "hours": 18.0
         },
         {
           "task": "Suspension",
@@ -124,7 +124,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 43.5,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -270,8 +270,8 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 20.5,
-      "pct_of_total": 2.9,
+      "total_hours": 21.5,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Interior",
@@ -292,6 +292,10 @@
         {
           "task": "Motor & Transmission",
           "hours": 1.8
+        },
+        {
+          "task": "Steering",
+          "hours": 1.0
         },
         {
           "task": "HVAC",
@@ -328,20 +332,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 118.2,
-    "pct_of_total": 16.7,
-    "avg_per_person_per_day": 1.14,
+    "total_hours": 119.8,
+    "pct_of_total": 16.8,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 48.0
+        "hours": 48.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 38.8
+        "hours": 39.2
       },
       {
         "label": "Other",
@@ -349,7 +353,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 14.0
+        "hours": 14.2
       },
       {
         "label": "Organization",
@@ -365,7 +369,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 28.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -426,7 +430,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 10.2,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -518,9 +522,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 507.8,
-    "non_billable_hours": 198.5,
+    "billable_hours": 514.2,
+    "non_billable_hours": 200.0,
     "pto_hours": 28.0,
-    "total_hours": 706.2
+    "total_hours": 714.2
   }
 }
