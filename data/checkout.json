@@ -907,7 +907,7 @@
       "make": "Lotus",
       "model": "Esprit",
       "status": "Checkout",
-      "checkout": 67.2,
+      "checkout": 67.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -923,7 +923,7 @@
         },
         {
           "label": "Raptor",
-          "value": 87.3
+          "value": 89.1
         },
         {
           "label": "Functional",
@@ -1598,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-19T15:52:12.195607+00:00",
+  "updated": "2026-05-19T18:07:47.755800+00:00",
   "source": "Google Sheets API"
 }

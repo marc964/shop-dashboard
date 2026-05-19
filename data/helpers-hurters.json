@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 76.5,
-      "pct_of_total": 11.3,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -138,9 +138,40 @@
       ]
     },
     {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 40.0,
+      "pct_of_total": 5.9,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 17.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 13.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 2.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -165,37 +196,6 @@
         {
           "task": "Brakes",
           "hours": 2.2
-        }
-      ]
-    },
-    {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 39.0,
-      "pct_of_total": 5.8,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 17.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 13.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
         }
       ]
     },
@@ -225,7 +225,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -244,7 +244,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 26.2,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -329,7 +329,7 @@
   ],
   "shop_work": {
     "total_hours": 115.0,
-    "pct_of_total": 17.0,
+    "pct_of_total": 16.8,
     "avg_per_person_per_day": 1.11,
     "flagged": true,
     "tech_count": 8,
@@ -518,9 +518,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 482.8,
+    "billable_hours": 488.5,
     "non_billable_hours": 195.2,
     "pto_hours": 28.0,
-    "total_hours": 678.0
+    "total_hours": 683.7
   }
 }
