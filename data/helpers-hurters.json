@@ -128,7 +128,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 50.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -202,7 +202,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -332,20 +332,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 132.2,
-    "pct_of_total": 16.8,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 133.8,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 53.2
+        "hours": 54.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 43.2
+        "hours": 43.8
       },
       {
         "label": "Personal Meetings",
@@ -369,7 +369,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 28.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -522,9 +522,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 571.2,
-    "non_billable_hours": 214.5,
-    "pto_hours": 28.0,
-    "total_hours": 785.8
+    "billable_hours": 573.8,
+    "non_billable_hours": 216.0,
+    "pto_hours": 34.0,
+    "total_hours": 789.8
   }
 }
