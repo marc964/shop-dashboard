@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 78.5,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -34,7 +34,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 76.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -93,7 +93,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 46.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -225,7 +225,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -244,7 +244,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 26.2,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -269,72 +269,64 @@
       ]
     },
     {
-      "project": "Berke 69 Alfa",
-      "total_hours": 21.5,
-      "pct_of_total": 2.9,
+      "project": "Witham 51 3100",
+      "total_hours": 22.0,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 8.0
+          "hours": 8.2
         },
         {
           "task": "Exterior",
-          "hours": 4.0
+          "hours": 5.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 3.8
+          "task": "Audio",
+          "hours": 3.5
         },
         {
           "task": "Suspension",
-          "hours": 2.0
+          "hours": 3.0
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 1.8
+          "task": "Vehicle Control",
+          "hours": 1.5
         },
         {
           "task": "Steering",
-          "hours": 1.0
+          "hours": 0.5
         },
         {
-          "task": "HVAC",
-          "hours": 1.0
+          "task": "Wiring - OEM",
+          "hours": 0.2
         }
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 18.2,
-      "pct_of_total": 2.5,
+      "project": "Barton 59 Impala",
+      "total_hours": 21.8,
+      "pct_of_total": 2.9,
       "tasks": [
         {
-          "task": "Manufacturing - Product",
-          "hours": 11.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 3.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.0
-        },
-        {
           "task": "Suspension",
-          "hours": 0.8
+          "hours": 11.0
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 0.8
+          "task": "Engine Bay",
+          "hours": 6.8
+        },
+        {
+          "task": "Interior",
+          "hours": 4.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 124.8,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.11,
+    "total_hours": 125.2,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 1.12,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -345,7 +337,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 40.2
+        "hours": 40.8
       },
       {
         "label": "Personal Meetings",
@@ -522,9 +514,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 527.8,
-    "non_billable_hours": 205.0,
+    "billable_hours": 536.2,
+    "non_billable_hours": 205.5,
     "pto_hours": 28.0,
-    "total_hours": 732.8
+    "total_hours": 741.8
   }
 }
