@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 78.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -34,7 +34,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 76.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -92,12 +92,12 @@
     },
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 46.0,
-      "pct_of_total": 6.2,
+      "total_hours": 51.0,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Brakes",
-          "hours": 18.0
+          "hours": 22.0
         },
         {
           "task": "Suspension",
@@ -116,6 +116,10 @@
           "hours": 2.0
         },
         {
+          "task": "Exterior",
+          "hours": 1.0
+        },
+        {
           "task": "Interior",
           "hours": 1.0
         }
@@ -123,27 +127,31 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 43.5,
-      "pct_of_total": 5.9,
+      "total_hours": 50.0,
+      "pct_of_total": 6.6,
       "tasks": [
         {
-          "task": "Wiring - High Voltage",
+          "task": "HVAC",
           "hours": 9.5
         },
         {
-          "task": "HVAC",
-          "hours": 8.0
+          "task": "Wiring - High Voltage",
+          "hours": 9.5
         },
         {
           "task": "Engineering - Product",
           "hours": 7.5
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 5.0
+        },
+        {
           "task": "Cooling",
           "hours": 4.0
         },
         {
-          "task": "Manufacturing - Product",
+          "task": "Motor & Transmission",
           "hours": 3.5
         },
         {
@@ -171,7 +179,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 42.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -194,7 +202,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -270,12 +278,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 22.0,
-      "pct_of_total": 3.0,
+      "total_hours": 23.5,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 8.2
+          "hours": 9.8
         },
         {
           "task": "Exterior",
@@ -324,24 +332,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 125.2,
+    "total_hours": 128.2,
     "pct_of_total": 16.9,
-    "avg_per_person_per_day": 1.12,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 49.8
+        "hours": 51.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 40.8
+        "hours": 41.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 16.8
+        "hours": 17.8
       },
       {
         "label": "Other",
@@ -361,7 +369,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 28.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -386,7 +394,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 14.8,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -514,9 +522,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 536.2,
-    "non_billable_hours": 205.5,
+    "billable_hours": 549.2,
+    "non_billable_hours": 208.5,
     "pto_hours": 28.0,
-    "total_hours": 741.8
+    "total_hours": 757.8
   }
 }
