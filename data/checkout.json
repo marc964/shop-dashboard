@@ -805,7 +805,7 @@
       "make": "Austin",
       "model": "Healey",
       "status": "Fabrication",
-      "checkout": 74.9,
+      "checkout": 75.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -813,7 +813,7 @@
         },
         {
           "label": "Inverter",
-          "value": 97.2
+          "value": 99.1
         },
         {
           "label": "PMU",
@@ -1598,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-21T16:03:26.430131+00:00",
+  "updated": "2026-05-21T18:15:17.668937+00:00",
   "source": "Google Sheets API"
 }
