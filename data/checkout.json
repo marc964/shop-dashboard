@@ -570,6 +570,53 @@
       "system": "AEM"
     },
     {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Fabrication",
+      "checkout": 76.8,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 34.4
+        },
+        {
+          "label": "Raptor",
+          "value": 96.4
+        },
+        {
+          "label": "Functional",
+          "value": 41.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-14: CAN3 termination is incorrect.",
+            "done": false
+          },
+          {
+            "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
+            "done": false
+          }
+        ],
+        "total": 2,
+        "done": 0,
+        "open": 2
+      }
+    },
+    {
       "owner": "Preheim",
       "year": 1972,
       "color": "Blue",
@@ -796,53 +843,6 @@
         "total": 3,
         "done": 0,
         "open": 3
-      }
-    },
-    {
-      "owner": "Chuter",
-      "year": 1962,
-      "color": "Red + White",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Fabrication",
-      "checkout": 75.2,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 99.1
-        },
-        {
-          "label": "PMU",
-          "value": 34.4
-        },
-        {
-          "label": "Raptor",
-          "value": 96.4
-        },
-        {
-          "label": "Functional",
-          "value": 33.3
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-05-14: CAN3 termination is incorrect.",
-            "done": false
-          },
-          {
-            "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
-            "done": false
-          }
-        ],
-        "total": 2,
-        "done": 0,
-        "open": 2
       }
     },
     {
@@ -1598,6 +1598,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-21T18:15:17.668937+00:00",
+  "updated": "2026-05-21T20:14:19.946693+00:00",
   "source": "Google Sheets API"
 }
