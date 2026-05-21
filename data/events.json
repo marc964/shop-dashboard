@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20",
+  "generated_at": "2026-05-21",
   "weeks": [
     {
       "week_start": "2026-05-18",
@@ -35,14 +35,14 @@
         {
           "date": "2026-05-20",
           "day_name": "Wednesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-05-21",
           "day_name": "Thursday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -132,12 +132,12 @@
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marc Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
