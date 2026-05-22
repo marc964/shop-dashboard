@@ -187,7 +187,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 43.2,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -272,7 +272,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -360,8 +360,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 145.5,
-    "pct_of_total": 17.0,
+    "total_hours": 146.2,
+    "pct_of_total": 17.1,
     "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
@@ -373,7 +373,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.8
+        "hours": 48.5
       },
       {
         "label": "Personal Meetings",
@@ -512,13 +512,14 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 4.0,
-      "pct_of_total": 0.5,
+      "total_hours": 6.0,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 4.0,
+          "hours": 6.0,
           "context": [
+            "Battery Pack",
             "Product - Battery Boxes"
           ]
         }
@@ -569,8 +570,8 @@
   ],
   "totals": {
     "billable_hours": 615.0,
-    "non_billable_hours": 239.8,
+    "non_billable_hours": 242.5,
     "pto_hours": 37.0,
-    "total_hours": 854.8
+    "total_hours": 857.5
   }
 }

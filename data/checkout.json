@@ -486,8 +486,8 @@
             "done": true
           },
           {
-            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.\n2026-05-05: Waiting on mount to get back from paint.",
-            "done": false
+            "text": "2026-03-02: The GUI is not booting. Full black screen. Used a new style ribbon cable, might need to change it out for the flat style.\n2026-04-06: The GUI is not mounted, may need a new cable solution still.\n2026-05-05: Waiting on mount to get back from paint.\n2026-05-22: Installed and working!",
+            "done": true
           },
           {
             "text": "2026-03-02: Cabin blower just turns on, switch doesn't exist. Correct switch is on the way.\n2026-03-06: Cabin blower motor is temporarily disabled in the PMU.\n2026-04-14: Wrote logic for Blower and Contactor control. Still need to test with live HV.\n2026-04-15: Bloweer and heat now work and are tuned for best sound. Physical switch sometimes doesn't fully make the off position and needs some adjustment.\n2026-05-05: Resolved. Ben added a spacer.",
@@ -543,8 +543,8 @@
           }
         ],
         "total": 21,
-        "done": 20,
-        "open": 1
+        "done": 21,
+        "open": 0
       }
     },
     {
@@ -952,11 +952,15 @@
           {
             "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
             "done": true
+          },
+          {
+            "text": "DCDC seems to be dead",
+            "done": false
           }
         ],
-        "total": 5,
+        "total": 6,
         "done": 2,
-        "open": 3
+        "open": 4
       }
     },
     {
@@ -1598,6 +1602,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-22T13:54:30.160422+00:00",
+  "updated": "2026-05-22T16:27:31.318537+00:00",
   "source": "Google Sheets API"
 }
