@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 97.0,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -282,6 +282,41 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 27.8,
+      "pct_of_total": 3.1,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 11.2
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 6.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.2
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 0.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Thacker 46 Woody",
       "total_hours": 27.8,
       "pct_of_total": 3.1,
@@ -313,41 +348,6 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 27.2,
-      "pct_of_total": 3.0,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 11.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 6.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.2
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 0.8
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
       "pct_of_total": 3.0,
@@ -368,16 +368,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 152.5,
-    "pct_of_total": 16.9,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 153.5,
+    "pct_of_total": 17.0,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 62.8
+        "hours": 63.8
       },
       {
         "label": "Shop Meetings",
@@ -499,12 +499,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 8.5,
-      "pct_of_total": 0.9,
+      "total_hours": 9.0,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 7.0,
+          "hours": 7.5,
           "context": [
             "Vehicle Control - Ampere"
           ]
@@ -577,9 +577,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 653.0,
-    "non_billable_hours": 248.8,
+    "billable_hours": 653.5,
+    "non_billable_hours": 250.2,
     "pto_hours": 37.0,
-    "total_hours": 901.8
+    "total_hours": 903.8
   }
 }
