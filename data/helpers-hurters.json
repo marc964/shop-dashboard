@@ -147,8 +147,8 @@
     },
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 59.5,
-      "pct_of_total": 6.6,
+      "total_hours": 54.5,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Brakes",
@@ -163,10 +163,6 @@
           "hours": 4.5
         },
         {
-          "task": "Charging",
-          "hours": 4.0
-        },
-        {
           "task": "Exterior",
           "hours": 3.0
         },
@@ -177,10 +173,6 @@
         {
           "task": "Battery Pack",
           "hours": 2.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.0
         },
         {
           "task": "Interior",
@@ -404,8 +396,8 @@
   "project_hurters": [
     {
       "project": "Shah 65 Mustang",
-      "total_hours": 31.0,
-      "pct_of_total": 3.4,
+      "total_hours": 36.5,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -418,19 +410,46 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 7.5,
+          "hours": 13.0,
           "context": [
             "Exterior",
             "Motor & Transmission",
+            "Suspension",
             "Wiring - Chassis"
           ]
         }
       ]
     },
     {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 18.0,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 13.0,
+          "context": [
+            "Vehicle Control - Ampere",
+            "Wiring - OEM"
+          ]
+        },
+        {
+          "task": "Troubleshooting",
+          "hours": 4.0,
+          "context": [
+            "Charging"
+          ]
+        },
+        {
+          "task": "General",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Chuter 62 Healey",
-      "total_hours": 14.8,
-      "pct_of_total": 1.6,
+      "total_hours": 17.8,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -441,29 +460,10 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 5.8,
+          "hours": 8.8,
           "context": [
             "Vehicle Control - Ampere"
           ]
-        }
-      ]
-    },
-    {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 13.0,
-      "pct_of_total": 1.4,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 12.0,
-          "context": [
-            "Vehicle Control - Ampere",
-            "Wiring - OEM"
-          ]
-        },
-        {
-          "task": "General",
-          "hours": 1.0
         }
       ]
     },
@@ -520,8 +520,8 @@
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 6.0,
-      "pct_of_total": 0.7,
+      "total_hours": 8.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -530,18 +530,26 @@
             "Battery Pack",
             "Product - Battery Boxes"
           ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 2.0,
+          "context": [
+            "Vehicle Control - Ampere"
+          ]
         }
       ]
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 1.0,
-      "pct_of_total": 0.1,
+      "total_hours": 2.0,
+      "pct_of_total": 0.2,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 1.0,
+          "hours": 2.0,
           "context": [
+            "Steering",
             "Vehicle Control"
           ]
         }
@@ -577,8 +585,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 653.5,
-    "non_billable_hours": 250.2,
+    "billable_hours": 637.0,
+    "non_billable_hours": 266.8,
     "pto_hours": 37.0,
     "total_hours": 903.8
   }
