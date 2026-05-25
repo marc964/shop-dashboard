@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 97.0,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -37,8 +37,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 89.5,
-      "pct_of_total": 9.9,
+      "total_hours": 91.0,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -65,16 +65,16 @@
           "hours": 6.0
         },
         {
+          "task": "Vehicle Control",
+          "hours": 3.5
+        },
+        {
           "task": "Brakes",
           "hours": 3.2
         },
         {
           "task": "Manufacturing - Core",
           "hours": 3.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.0
         },
         {
           "task": "Instrumentation",
@@ -97,7 +97,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 63.8,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -205,8 +205,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 43.2,
-      "pct_of_total": 4.8,
+      "total_hours": 47.8,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -214,7 +214,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 6.0
+          "hours": 9.5
         },
         {
           "task": "Cooling",
@@ -222,7 +222,7 @@
         },
         {
           "task": "Steering",
-          "hours": 3.0
+          "hours": 4.0
         },
         {
           "task": "Engine Bay",
@@ -276,7 +276,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 27.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -311,7 +311,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 27.8,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -360,20 +360,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 153.5,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 155.5,
+    "pct_of_total": 17.1,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.8
+        "hours": 64.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 51.0
+        "hours": 51.5
       },
       {
         "label": "Personal Meetings",
@@ -389,7 +389,7 @@
       },
       {
         "label": "Errands",
-        "hours": 1.0
+        "hours": 1.5
       }
     ]
   },
@@ -449,7 +449,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 17.8,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -585,9 +585,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 637.0,
-    "non_billable_hours": 266.8,
+    "billable_hours": 643.0,
+    "non_billable_hours": 268.8,
     "pto_hours": 37.0,
-    "total_hours": 903.8
+    "total_hours": 911.8
   }
 }
