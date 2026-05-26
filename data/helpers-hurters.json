@@ -1,9 +1,44 @@
 {
   "helpers": [
     {
+      "project": "LB 82 911",
+      "total_hours": 102.5,
+      "pct_of_total": 10.8,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 35.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 24.5
+        },
+        {
+          "task": "Audio",
+          "hours": 13.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 11.0
+        },
+        {
+          "task": "Charging",
+          "hours": 11.0
+        },
+        {
+          "task": "Interior",
+          "hours": 6.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 97.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -55,41 +90,6 @@
         },
         {
           "task": "Audio",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "LB 82 911",
-      "total_hours": 97.0,
-      "pct_of_total": 10.3,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 35.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 24.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 11.0
-        },
-        {
-          "task": "Charging",
-          "hours": 11.0
-        },
-        {
-          "task": "Audio",
-          "hours": 7.5
-        },
-        {
-          "task": "Interior",
-          "hours": 6.5
-        },
-        {
-          "task": "Vehicle Control",
           "hours": 1.0
         }
       ]
@@ -148,7 +148,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 54.5,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -206,7 +206,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 47.8,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -346,7 +346,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 27.0,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Combustion Drivetrain",
@@ -364,27 +364,27 @@
     }
   ],
   "shop_work": {
-    "total_hours": 162.2,
-    "pct_of_total": 17.2,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 163.8,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 66.5
+        "hours": 67.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 53.5
-      },
-      {
-        "label": "Other",
-        "hours": 19.0
+        "hours": 54.0
       },
       {
         "label": "Personal Meetings",
+        "hours": 19.5
+      },
+      {
+        "label": "Other",
         "hours": 19.0
       },
       {
@@ -401,7 +401,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 36.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -504,7 +504,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 9.0,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -525,7 +525,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 8.0,
-      "pct_of_total": 0.9,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -546,12 +546,12 @@
     },
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 2.0,
-      "pct_of_total": 0.2,
+      "total_hours": 3.0,
+      "pct_of_total": 0.3,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 2.0,
+          "hours": 3.0,
           "context": [
             "Steering",
             "Vehicle Control"
@@ -586,9 +586,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 663.2,
-    "non_billable_hours": 277.5,
+    "billable_hours": 668.8,
+    "non_billable_hours": 280.0,
     "pto_hours": 37.0,
-    "total_hours": 940.8
+    "total_hours": 948.8
   }
 }
