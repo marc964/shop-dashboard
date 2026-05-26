@@ -1,6 +1,17 @@
 {
   "vehicles": [
     {
+      "owner": "Berke",
+      "year": 1969,
+      "color": "Blue",
+      "make": "Alfa",
+      "model": "Spyder",
+      "status": "Shipped",
+      "checkout": 100,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Hastert",
       "year": 1960,
       "color": "Green",
@@ -546,17 +557,6 @@
         "done": 21,
         "open": 0
       }
-    },
-    {
-      "owner": "Berke",
-      "year": 1969,
-      "color": "Blue",
-      "make": "Alfa",
-      "model": "Spyder",
-      "status": "Testing",
-      "checkout": 83.4,
-      "sub_metrics": [],
-      "system": "AEM"
     },
     {
       "owner": "GMC",
@@ -1602,6 +1602,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-26T19:35:29.583635+00:00",
+  "updated": "2026-05-26T21:21:02.778229+00:00",
   "source": "Google Sheets API"
 }

@@ -1,44 +1,9 @@
 {
   "helpers": [
     {
-      "project": "LB 82 911",
-      "total_hours": 97.0,
-      "pct_of_total": 10.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 35.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 24.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 11.0
-        },
-        {
-          "task": "Charging",
-          "hours": 11.0
-        },
-        {
-          "task": "Audio",
-          "hours": 7.5
-        },
-        {
-          "task": "Interior",
-          "hours": 6.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
-      "total_hours": 94.8,
-      "pct_of_total": 10.2,
+      "total_hours": 97.8,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -49,12 +14,12 @@
           "hours": 17.0
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 15.8
+          "task": "Suspension",
+          "hours": 16.8
         },
         {
-          "task": "Suspension",
-          "hours": 13.8
+          "task": "Wiring - OEM",
+          "hours": 15.8
         },
         {
           "task": "Interior",
@@ -95,13 +60,48 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 63.8,
-      "pct_of_total": 6.9,
+      "project": "LB 82 911",
+      "total_hours": 97.0,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 15.0
+          "hours": 35.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 24.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 11.0
+        },
+        {
+          "task": "Charging",
+          "hours": 11.0
+        },
+        {
+          "task": "Audio",
+          "hours": 7.5
+        },
+        {
+          "task": "Interior",
+          "hours": 6.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Jaffe 86 190E",
+      "total_hours": 70.8,
+      "pct_of_total": 7.5,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 22.0
         },
         {
           "task": "HVAC",
@@ -148,7 +148,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 54.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -183,7 +183,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 48.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -237,7 +237,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 30.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Interior",
@@ -276,7 +276,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 29.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -315,7 +315,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 27.8,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -364,20 +364,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 160.5,
-    "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.11,
+    "total_hours": 162.2,
+    "pct_of_total": 17.2,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 65.2
+        "hours": 66.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 53.0
+        "hours": 53.5
       },
       {
         "label": "Other",
@@ -586,9 +586,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 653.2,
-    "non_billable_hours": 275.8,
+    "billable_hours": 663.2,
+    "non_billable_hours": 277.5,
     "pto_hours": 37.0,
-    "total_hours": 929.0
+    "total_hours": 940.8
   }
 }
