@@ -37,20 +37,20 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 91.0,
-      "pct_of_total": 10.0,
+      "total_hours": 92.5,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "HVAC",
           "hours": 18.8
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 15.8
+          "task": "Engine Bay",
+          "hours": 17.0
         },
         {
-          "task": "Engine Bay",
-          "hours": 15.5
+          "task": "Wiring - OEM",
+          "hours": 15.8
         },
         {
           "task": "Suspension",
@@ -361,7 +361,7 @@
   ],
   "shop_work": {
     "total_hours": 155.5,
-    "pct_of_total": 17.1,
+    "pct_of_total": 17.0,
     "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
@@ -556,6 +556,20 @@
       ]
     },
     {
+      "project": "Hastert 60 F250",
+      "total_hours": 1.0,
+      "pct_of_total": 0.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 1.0,
+          "context": [
+            "Interior"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Connolly 58 220S",
       "total_hours": 0.5,
       "pct_of_total": 0.1,
@@ -568,26 +582,12 @@
           ]
         }
       ]
-    },
-    {
-      "project": "Barton 59 Impala",
-      "total_hours": 0.2,
-      "pct_of_total": 0.0,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 0.2,
-          "context": [
-            "Interior"
-          ]
-        }
-      ]
     }
   ],
   "totals": {
-    "billable_hours": 643.0,
-    "non_billable_hours": 268.8,
+    "billable_hours": 644.5,
+    "non_billable_hours": 269.8,
     "pto_hours": 37.0,
-    "total_hours": 911.8
+    "total_hours": 914.2
   }
 }

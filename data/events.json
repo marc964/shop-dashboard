@@ -125,13 +125,7 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Marc @Bieler for firmware update",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-06-03",
