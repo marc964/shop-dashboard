@@ -38,6 +38,7 @@ jobs:
           PTO_CALENDAR_URL: ${{ secrets.PTO_CALENDAR_URL }}
           SHOP_CALENDAR_URL: ${{ secrets.SHOP_CALENDAR_URL }}
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python pipeline/generate_data.py
 
       - name: Commit data if changed

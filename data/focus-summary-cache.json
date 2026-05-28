@@ -1,0 +1,17 @@
+{
+  "868j31pec": {
+    "hash": "0f4df4c2b6945e064d31a2dbd245053491ca5bd591f45c64c276198b1f67c54a",
+    "summary": "Alignment reset and tested; verify results and confirm if issue is resolved.",
+    "summarized_at": "2026-05-28T18:29:21.188991Z"
+  },
+  "868frvg01": {
+    "hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a",
+    "summary": "Gear ratio and vehicle weight not showing in VCU; Ampere ticket resolved, awaiting next step.",
+    "summarized_at": "2026-05-28T18:29:23.000900Z"
+  },
+  "868exjqjc": {
+    "hash": "d6321cce5aac11dde5004c52f3fd19e8e5f519132d88b29332306a8d83b1cc4b",
+    "summary": "Fuse replaced and box handed off; Jordan to continue next steps.",
+    "summarized_at": "2026-05-28T18:29:24.929288Z"
+  }
+}

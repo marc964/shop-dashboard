@@ -20,6 +20,8 @@ from compute_productivity import compute_productivity
 from compute_helpers_hurters import compute_helpers_hurters
 from fetch_calendar import fetch_events
 from fetch_checkout import fetch_checkout_data
+from fetch_focus_clickup import fetch_focus_data
+from summarize_focus_tasks import apply_summaries
 
 # Configuration
 CONFIG = {
@@ -60,7 +62,7 @@ def main():
     print(f"Fetching data from {history_start} to {today}")
 
     # --- Harvest Data ---
-    print("\n[1/6] Fetching Tech users from Harvest...")
+    print("\n[1/7] Fetching Tech users from Harvest...")
     tech_users = get_tech_users(CONFIG["tech_role_filter"])
     print(f"  Found {len(tech_users)} Tech users: {', '.join(tech_users.values())}")
 
@@ -70,7 +72,7 @@ def main():
 
     tech_user_ids = set(tech_users.keys())
 
-    print("\n[2/6] Fetching time entries from Harvest...")
+    print("\n[2/7] Fetching time entries from Harvest...")
     all_entries = get_time_entries(history_start, today)
     print(f"  Fetched {len(all_entries)} total time entries")
 
@@ -81,12 +83,12 @@ def main():
     ]
     print(f"  Current month ({today.strftime('%Y-%m')}): {len(current_month_entries)} entries")
 
-    print("\n[3/6] Fetching task assignments from Harvest...")
+    print("\n[3/7] Fetching task assignments from Harvest...")
     task_assignments = get_all_task_assignments()
     print(f"  Fetched assignments for {len(task_assignments)} projects")
 
     # --- Compute Metrics ---
-    print("\n[4/6] Computing metrics...")
+    print("\n[4/7] Computing metrics...")
 
     print("  Computing productivity...")
     productivity_data = compute_productivity(all_entries, tech_user_ids, CONFIG)
@@ -100,7 +102,7 @@ def main():
     print(f"  Found {len(hh_data['helpers'])} helper groups, {len(hh_data['project_hurters'])} project hurters")
 
     # --- Calendar Events ---
-    print("\n[5/6] Fetching calendar events...")
+    print("\n[5/7] Fetching calendar events...")
     events_data = fetch_events(CONFIG)
     total_events = sum(
         len(day["events"])
@@ -110,7 +112,7 @@ def main():
     print(f"  Found {total_events} events over {CONFIG['calendar_weeks_ahead']} weeks")
 
     # --- Checkout Data ---
-    print("\n[6/6] Fetching vehicle checkout data...")
+    print("\n[6/7] Fetching vehicle checkout data...")
     has_checkout_key = bool(os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY", ""))
     if has_checkout_key:
         checkout_data = fetch_checkout_data()
@@ -119,6 +121,23 @@ def main():
         print("  GOOGLE_SERVICE_ACCOUNT_KEY not set, skipping checkout data")
         checkout_data = None
 
+    # --- Focus Project ClickUp Data ---
+    print("\n[7/7] Fetching focus project ClickUp data...")
+    focus_config_path = DATA_DIR / "focus-projects.json"
+    focus_data = None
+    if checkout_data and focus_config_path.exists():
+        focus_owners = json.loads(focus_config_path.read_text()).get("focus", [])
+        if focus_owners:
+            focus_data = fetch_focus_data(checkout_data, focus_owners)
+            print("  Generating task summaries...")
+            focus_data = apply_summaries(focus_data, cache_path=DATA_DIR / "focus-summary-cache.json")
+        else:
+            print("  focus-projects.json has no 'focus' owners listed; skipping")
+    elif not checkout_data:
+        print("  Skipping (no checkout data)")
+    else:
+        print("  Skipping (no data/focus-projects.json)")
+
     # --- Write JSON Files ---
     print("\nWriting JSON files...")
     write_json("productivity.json", productivity_data)
@@ -126,6 +145,8 @@ def main():
     write_json("events.json", events_data)
     if checkout_data:
         write_json("checkout.json", checkout_data)
+    if focus_data:
+        write_json("focus-checkout.json", focus_data)
 
     print("\nDone!")
     return 0

@@ -1,0 +1,590 @@
+{
+  "updated_at": "2026-05-28T18:29:19.126714Z",
+  "team_id": "9011243300",
+  "projects": [
+    {
+      "owner": "Barton",
+      "vehicle": {
+        "owner": "Barton",
+        "year": 1959,
+        "color": "White",
+        "make": "Chevrolet",
+        "model": "Impala",
+        "status": "Testing & Tuning",
+        "checkout": 94.9,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 100
+          },
+          {
+            "label": "Inverter",
+            "value": 100
+          },
+          {
+            "label": "PMU",
+            "value": 100
+          },
+          {
+            "label": "Raptor",
+            "value": 100
+          },
+          {
+            "label": "Functional",
+            "value": 69.2
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "Label plug above brights kick switch. Label inverter connection plug.",
+              "done": true
+            },
+            {
+              "text": "Verify HV acessories after polarity swap.",
+              "done": true
+            },
+            {
+              "text": "Verify inverter after HV polarity swap.",
+              "done": true
+            },
+            {
+              "text": "Charge AC system & verify.",
+              "done": true
+            },
+            {
+              "text": "Install Heater Contactor Controller & commission.",
+              "done": true
+            },
+            {
+              "text": "Tune Wilwood brakes.",
+              "done": true
+            },
+            {
+              "text": "Weigh vehicle.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: Pack burn. Evaluate Cell Delta.\n2026-03-20: Put in request to get BMS report ran after full charge 7PM to 7AM 2026-03-18.",
+              "done": false
+            },
+            {
+              "text": "Re-test BMS boxes / verify contactor orientation.",
+              "done": false
+            },
+            {
+              "text": "Add BMS images to drive.",
+              "done": false
+            },
+            {
+              "text": "Transfer fuse notes to power distribution sheet. Finish power distribution checkout.",
+              "done": true
+            },
+            {
+              "text": "Configure logger with Wi-Fi credentials and verify connectivity.",
+              "done": false
+            },
+            {
+              "text": "Update GUI and input gear ratio.",
+              "done": true
+            },
+            {
+              "text": "Update VCU Firmware. Verify with Ampere _BR is an okay FW to use.",
+              "done": true
+            },
+            {
+              "text": "CAN1 measures the wrong termination",
+              "done": true
+            },
+            {
+              "text": "GUI crashes when adjusting vehicle weight.",
+              "done": true
+            },
+            {
+              "text": "Suspension is very squeaky.",
+              "done": false
+            },
+            {
+              "text": "Small jingle when driving slow.",
+              "done": false
+            },
+            {
+              "text": "Motor temp gauge doesn't respond to gauges program.\n2026-03-18: Resolved, step and direction leads to the motor had backed out and needed to be pushed back in.",
+              "done": true
+            },
+            {
+              "text": "BRAKE indicator on the gauges never illuminates.",
+              "done": false
+            },
+            {
+              "text": "2026-03-18: New Issue, Vehicle weight not getting pulled from the GUI.",
+              "done": false
+            },
+            {
+              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
+              "done": false
+            }
+          ],
+          "total": 22,
+          "done": 13,
+          "open": 9
+        }
+      },
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Barton 59 Impala"
+        ],
+        "open_tasks": 10
+      },
+      "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868jdhmvv",
+              "name": "Add pull tab to CP opening",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jdhmvv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "86fd7c575123cd8366835229578259cdd239bfbe99049fb07072ddabb7a38284",
+              "summary": null
+            },
+            {
+              "id": "868jqp096",
+              "name": "Assess exterior",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jqp096",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b0df54d6c33e51e208fc2a3a794468d9078edacac9478d0aede4e82f02b734f8",
+              "summary": null
+            },
+            {
+              "id": "868jqp0cd",
+              "name": "Assess interior",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jqp0cd",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8ee86638069bef2bd66fa6515fcbe7a2407adddb07d47c1a6df30fa6d100a0c9",
+              "summary": null
+            },
+            {
+              "id": "868jqnyzr",
+              "name": "Replace package tray",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jqnyzr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "5d2680b9ed130b059755638e81d981c2157b28c04e3a9ed7111603193c3f9548",
+              "summary": null
+            },
+            {
+              "id": "868jdhjpm",
+              "name": "Troubleshoot speedo issue",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jdhjpm",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d",
+              "summary": null
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j31pec",
+              "name": "Troubleshoot PRND",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868j31pec",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-01 01:28",
+                  "text": "looked at the PRND\nreset the alignment\ntested several\n times"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "0f4df4c2b6945e064d31a2dbd245053491ca5bd591f45c64c276198b1f67c54a",
+              "summary": "Alignment reset and tested; verify results and confirm if issue is resolved."
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868frvg01",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868frvg01",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 00:12",
+                  "text": "Finished pinning BMS extension cable. Fixed DIP setting on Host #1 and rolled next to vehicle. Jumped HVIL with dummy box. Hooked up logger. Turned on vehicle and checked Raptor-Service for errors, all seemed correct with HV unplugged. Put in ticket with Ampere to review. Checked box with test unit & it passed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:07",
+                  "text": "Finished pinning BMS extension cable. Fixed DIP setting on Host #1 and rolled next to vehicle. Jumped HVIL with dummy box. Hooked up logger. Turned on vehicle and checked Raptor-Service for errors, all seemed correct with HV unplugged. Put in ticket with Ampere to review. Checked box with test unit & it passed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-12 23:03",
+                  "text": "Verified cell voltage readings and transferred checkout details to the checkout sheet. Adjusted RAWADCMAX=32150 on both boxes."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-12 23:04",
+                  "text": "Re-verified battery box #1 after sealing."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2025-11-14 20:08",
+                  "text": "Helped Devin with start up, fan 2 blew a 10amp fuse, swapped to 15amp, HV polarity test on HVCB to CM200, Brake switch fix, can logger SD card and unmount for faster use."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-15 17:43",
+                  "text": "Reviewed VCU configuration & followed along in checkout sheet. No PMU but output's can be checked similarly. Verified both fans. Verified ignition, brake pedal switch, and accel pedal. PRND will need adjustment. Hooked up MSD and key'd on to a Pre-Charge fault. Troubleshot realizing HV was swapped. Rang out all HV and confirmed DC+ and DC- swapped. Setup IVT to measure how much voltage Pre-Charge got to before the VCU faulted out. Measured -250V at the inverter. Corrected the mistake and hooked HV back up. Now having trouble connecting to the VCU. Tried various configurations of laptops, reboots, and Kvaser dongles with no luck. Called Ampere for advice, Andrew seemed to ask way more questions about the heaters and charger than the inverter so I disconnected them from the system and got the Pre-Charge fault to go away. Systematically plugged HV accessories back in until I found the DCDC and only the DCDC was actually causing the error. Left that unplugged. Loaded inverter EEPROM for the correct motor according to the Vehicle Requirements sheet. Spun the motor to verify functionality."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-17 23:26",
+                  "text": "Re-verified all HV accessories. Finished VCU configuration checkout. Re-verified CAN termination. Transferred remainder of BMS checkout to my sheet."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2025-11-18 17:23",
+                  "text": "Tested Aux circuits minus heater bricks."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2025-11-18 23:58",
+                  "text": "replaced Ovar charger with chuter. had to swap brackets back around from chuters config, and add the special m8 stud. used clamps to pinch off cooling, so only the coolant from the charger itself was lost!."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-19 23:51",
+                  "text": "-DCDC LV wired incorrectly, each wire must move over one or a new connector pinned. I have a spare connector on my desk if you go that route.\n-Charger might actually be alright since the DCDC was crashing the CAN bus. Let's set the old one under the car and see if all the leads will reach.\n-Junction box has a blown fuse on the compressor circuit. @Ryan Laurel do we have Littelfuse 0HEV030.ZXISO in stock?\n-Compressor is faulty, dead short measured on the HV inputs. It will need to be replaced.\n-No LV at the battery heater, it may still be good. Check R7(Position D16) and F7( Position D17) in the lower PDU."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-20 23:34",
+                  "text": "Checked the vehicle for completion of the recent changes. Unhooked all HV accessories & key'd on to see if the DCDC was coming online. Looks like it doesn't boot when missing HV, same for the charger. Plugged in HV to the DCDC and saw CAN messages coming in and ~30A of LV current. Plugged in the ChargeByte & setup to test charging. Left HV to the charger unplugged, got VCU charge faults. Plugged in OBC HV and tried charging. Saw ~16A of pack current but the Raptor-Service CAN age was off. Suspected VCU bug / display bug. Continued resolver calibration."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-24 15:37",
+                  "text": "Checked second OBC / DCDC after swapping cables. Verified DCDC output. Verified charging at 220V. Verified motor direction with driveshaft now installed. Setup to test drive & moved vehicle outside. Used Raptor-Service to diag complete vehicle shutdown after driving a few hundred feet. VCU reports inverter overcurrent fault which corresponded with audible clunk. Pushed vehicle back to the lift and found the driveshaft slipping near the welds."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-24 20:50",
+                  "text": "Transferred items from vehicle requirements do to my sheet and made sure vehicle up to date on there. Inverted the IVT to the correct current direction. Tested battery heater to verify functionality after HV mishap. Also verified battery pump. Left on charge for several hours."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-27 23:23",
+                  "text": "Label plug above high beams kick switch. Label inverter connection plug.\nVerify HV accessories after polarity swap.\nVerify inverter after HV polarity swap.\nCharge AC system & verify.\nInstall Heater Contactor Controller & commission.\nTune Wilwood brakes.\nWeigh vehicle.\nEvaluate Cell Delta.\nRe-test BMS boxes / verify contactor orientation.\nAdd BMS images to drive.\nFinish power distribution checkout."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-27 23:23",
+                  "text": "Organed Peak connector information and ordered some for the Impala and spares. Got back into startup  Reviewed current checkout progress, made sure the calculators were accurate. Transferred critical vehicle requirements into VCU and inverter configurations. Connected to inverter to verify all settings correct, made backups. Connected to Raptor-Service and did the same for the VCU, transferred all VCU configurations to the startup sheet. Added everything I though of along the way to the vehicle punch list and shared with the team. Status 42% To 63%"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-30 04:09",
+                  "text": "Hooked back up all the programming cables and opened up the associted software and sheets to get back into startup checkout. Checked as many relay IO as I could before the evening meeting. Drove checkout status from 62% to 70%."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-03 23:26",
+                  "text": "Installed Raptor-Service and transfered license over to my new computer with the New Eagle license transfere utility. Transfered all firmware and display files as well. Setup proper XCP ID that Ampere uses. Verified everything working. Transfered Vehicle Requirements to startup sheet. Added descriptors to the sheet since that section was blank. Verified all CAN networks properly terminated and transfered to sheet, one is not."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-06 21:26",
+                  "text": "Checked battery heater, battery pump, and markes various other channels N/A since they are wired so differently that the checkout sheet doesn't work. Started moving the vehicle out of the bay and had some fuse pop that powers the PRND circuit. Found and replaced that and continued diag on the blown fuse issue. Vehicle is currently red tagged."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-09 22:11",
+                  "text": "Searched Ampere website and tickets for PDU fusing and device locations. Consolidated little informaiton found and started a power distribution sheet for the vehicle. Filled in what I could and tagged Noah to fill in the rest."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-10 22:59",
+                  "text": "Continued discussion with the team over possible fuse failure and solution. Reviewing power schedule provided by Alex."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-13 00:18",
+                  "text": "Correlated Alex's archived doc's to Amperes PDU datasheet and verified remaining power distribution and fuses. Updated VCU firmware and verified configuration afterwards. Updated GUI app version, Dashboard, and XML file. Weighed the vehicle and typed in gear ratio and vehicle weight but that crashes the app. Fiddled with the default app selection and tried boot various times. Tuned the parking brakes and filled in some small checkout sheet items. Ran through punchlist marking off what was now done and posted remaining items in the Slack channel."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-13 22:25",
+                  "text": "Verified GUI boot after Noah swapped constant and switched power. Also tried vehicle weight again to get some specifics for Ampere, still crashing. Rolled the GUI app version back to APK 2.5.0 which fixed the crash bug. Input vehicle basics to the GUI and checked they made it to Raptor. Finished up last bits on power distribution and posted the new power schedule for the team to have. Verified DCDC working. Verified polarity for compressor and plugged back in HV accessories. Started up AC compressor and monitored pressures and cycles. Tested L1 and L2 charging, charged till fans kicked on properly. Checked direction on speedo drive box and calibrated to 100mph with gauges program. Can't get the temperature gauge to move, it may havve a wiring problem. Marked off many punch list and startup sheet items. Vehicle ready for pack burn. Changed vehicle tag to green."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-02-19 14:39",
+                  "text": "Start up process percentage at 95%"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-18 22:17",
+                  "text": "Updated VCU firmware and verified all calibration options against checkout sheet. Verified GUI versions and input gear ratio and vehicle weight which is now not showing up in the VCU, reported problem to Ampere."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-20 21:22",
+                  "text": "Followed up on Andrews speedy response. Verified GUIType -> Ampere and the was no bug. Responded to ticket."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a",
+              "summary": "Gear ratio and vehicle weight not showing in VCU; Ampere ticket resolved, awaiting next step."
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jqp01u",
+              "name": "Coordinate re-sealing of rear window",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jqp01u",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "468e1f4a20c1bdf886ea4463503d6465754654ed849c3efe4568c916fbee8bb9",
+              "summary": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "Connolly",
+      "vehicle": {
+        "owner": "Connolly",
+        "year": 1958,
+        "color": "Black",
+        "make": "Mercedes",
+        "model": "220S",
+        "status": "Testing & Tuning",
+        "checkout": 73.8,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 98.1
+          },
+          {
+            "label": "Inverter",
+            "value": 100
+          },
+          {
+            "label": "PMU",
+            "value": 40.6
+          },
+          {
+            "label": "Raptor",
+            "value": 94.4
+          },
+          {
+            "label": "Functional",
+            "value": 15.4
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "Temperature Gauge Might Not Be Working",
+              "done": false
+            },
+            {
+              "text": "Flash Connolly with 1.7.9",
+              "done": false
+            },
+            {
+              "text": "DisplayDashGUI_SettingsMsgTimeout",
+              "done": false
+            }
+          ],
+          "total": 3,
+          "done": 0,
+          "open": 3
+        }
+      },
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Connolly 58 220S"
+        ],
+        "open_tasks": 1
+      },
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868exjqjc",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868exjqjc",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-09-11 22:14",
+                  "text": "Troubleshot parking brake not running. Checked PMU logic and VCU Config. Adjusted PMU logic & retested. Checked notes for PRND wiring. Cleaned up large fracture of Ampere docs and notes. Built tab for parking brake tuning. Built tab for PRNDL setup and diag. Added parking brake and PRND tags to Raptor-Service layout. Setup to adjust parking brake time but found I had cooked the actuator. Moved various text notes to official sheets. Made comparison of Ampere EEPROM settings, Moment preferred, Stock EEPROM, and W type motors. Disabled auto-connect for Apple Car Play."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:17",
+                  "text": "Issues:\nVery small brake fluid leak from the brake switch sensor. Brake sensor is functional but you have to get very deep into the pedal for it to engage. Might warrant replacement (did not come with new booster). There was no seal on the original I took off, but perhaps there should be one. Will get one.\nVacuum is bleeding out of the booster, causing the pump to cycle on approximately every 45 seconds.\u00a0 If the vacuum line is plugged before the booster it holds vacuum perfectly. With the booster installed there is a slow leak. I tightened all the hardware and the leak decreased significantly but is still present. Reaching out to the rebuilder for his advice.\nGUI speedo is about 50% slow.\nPeterson instrumentation not showing any values.\nSpeaker interference noise, both from power steering input and throttle application.\nSteering wheel is not centered.\nFront left drum seems like it may be sticking.\nEstop non-functional (see above)\nHeater not functional (will come online with PMUs)\nPRD dimming/lighting non-functional.\nPowertrain coolant loop is cavitating. I think it needs another vacuum bleed after the coolant leak."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:17",
+                  "text": "Re-installed interior, with 'external' PRD buttons so we can troubleshoot the PRD dimming issue.\nPut vehicle back on ground.\nInstalled a port for vacuum-testing the brake booster system.\n23 in/hg achieved. When vacuum drops to 18in/hg the pump kicks back on.\nCycling every 15 seconds.\nWith the booster removed from the system, and the line going to the booster plugged, no leakage was detected. 23in/hg steady.\nWith the booster installed, leakage continues.\nTightened all external hardware. Leakage reduced. Cycling every 40 seconds now.\nTest-drove for the first time. Noticed scraping from rear of vehicle.\nAfter diagnosis, discovered the new pins that came with the brake kit had holes that were 3mm too long, allowing the shoe  to contact the drum. Found the original pins and reinstalled. Issue resolved.\nE-stop was disabled by @Devin DuMont during the brake diagnosis, however during that process it appears the e-stop was toasted, possibly by receiving a constant run signal. E-stop no longer functional. Checked vehicle-side, voltages as expected. Attempted to apply voltage to e-stop side: no movement. New e-stop required.\nTest-drove some more. Notes below:"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-09-12 21:51",
+                  "text": "Finished EEPROM Compare and reviewed with Marc. Verified settings correct in Connolly. Plugged in ChargeByte controller and tested charging. Looked around for logger. Started consolidating logger information. Tested PRND LED's on bench."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-12 23:30",
+                  "text": "Tested different resistances on PRD buttons. Currently 2K installed.\nWith 2K - LEDs completely off\nWith 0K (disconnected) - All LEDs completely on\n5K - dim, very slight difference between 'selected' and non-selected.\n10K - mostly bright, slight difference between selected and non-selected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-13 22:27",
+                  "text": "Fully ran through the new PDM checkout process as best possible, will need to rework. Diag for the speedo and CAN1 errors. Will need to investigate further."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-15 21:35",
+                  "text": "Followed along with new checkout system for various PMU channels. Also reviewed inverter EEPROM and corrected where necessary. Still need to calibrate the resolver. Troubleshot major CAN1 error and opened up a ticket with Ampere. Tuned parking brakes down to shorter times. Continued improving Raptor-Service tabs. Moved checkout status from 22% to 66%"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-16 22:45",
+                  "text": "Attempted to calibrate resolver but the inverter kept dropping the RS-232 connection when going into PWM mode. Had a spare inverter installed and flashed to the latest firmware. Combed over all EEPROM settings and now getting a CAN command message timeout error. Error message can be disabled in the inverter but the inverter is still not sending messages back out or they are getting lost before making it to the VCU and Kvaser. Started troubleshooting CAN basics again."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-18 02:33",
+                  "text": "Continued diag on inverter related issue. Used bench test harness with adaptor to narrow the issue down to the inverter sub harness. Broken wires found on removal."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-20 21:28",
+                  "text": "Re-tested for the inverter CAN issue. All fixed. Calibrated resolver and updated sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-21 23:23",
+                  "text": "Verified old inverter serial no. 59 had all the correct EEPROM setting and that the noise problem still exists. It does, that inverter needs to be returned."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-22 22:38",
+                  "text": "Checked all EEPROM settings of the new inverter to verify correct. Didn't initially have the CAN1 errors but started getting them again later in the day. Had Ampere turn on error frame logging to get more information on the issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-23 22:07",
+                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-25 00:21",
+                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-28 22:16",
+                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-31 16:27",
+                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-06 01:06",
+                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 00:48",
+                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:43",
+                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:08",
+                  "text": "Met with team over strategy. Followed along with diag over the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-05 21:30",
+                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d6321cce5aac11dde5004c52f3fd19e8e5f519132d88b29332306a8d83b1cc4b",
+              "summary": "Fuse replaced and box handed off; Jordan to continue next steps."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
