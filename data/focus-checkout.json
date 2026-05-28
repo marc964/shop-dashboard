@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T22:23:58.916544Z",
+  "updated_at": "2026-05-28T23:52:06.141755Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 6
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -42,10 +42,36 @@
                   "author": "Aharon Adams",
                   "date": "2026-05-27 21:55",
                   "text": "make more adjustments on center link to angle it away from the subframe at all steering angles."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-05-28 23:28",
+                  "text": "paint subframe and testing."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e73ce6e46b9b4c81dab2c0ebfc9393375297d139a2d5a1e4d87cdaceb33b7df0"
+              "content_hash": "876269098cd5f98b987657b92e71cd51f9d899745fcbab8eb10ab0e99ba7c80c"
+            },
+            {
+              "id": "868ju72g7",
+              "name": "Re-secure rear HV cables",
+              "status": "Open",
+              "list": "Berke 69 Alfa",
+              "url": "https://app.clickup.com/t/868ju72g7",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-05-27 21:56",
+                  "text": "inspect cables and make game plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-05-28 23:35",
+                  "text": "move hv cabled into driveshaft tunnel and make new bracket to secure them much higher. this removes them from the pinch point near the control arm. I had the boys bounce the car all the way onto the bump stops while I was underneath (wheels on ground/roll on ramps) and there was ample clearance to all components. after test drive going over speed bumps, saw no new markings after having rotated the silicone covers to a new area.\nthe diff was not actually contacting the hv lines, it was the stainless brake line. moved line to a lower location and checked again."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "625790e857f802a4184c10f77894552cd6873b4542b9be3d03d610b366e1798f"
             },
             {
               "id": "868ju7042",
@@ -56,6 +82,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "7b288e5873115d71b84daa6439a8377bba92f4ae13f4824ad099ec717dbb9e3a"
+            },
+            {
+              "id": "868jurc9u",
+              "name": "investigate charging issue",
+              "status": "Open",
+              "list": "Berke 69 Alfa",
+              "url": "https://app.clickup.com/t/868jurc9u",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "255ab907eb37851eb159344c423639fc593aaf0b6765d6ae4ac4ec6b1b6b42c1"
             }
           ]
         },
@@ -218,27 +254,6 @@
               ],
               "checklist_items": [],
               "content_hash": "a562b21fb62cf286f8dcff1912695760e65a24a8fce86f35bf7504820580b468"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868ju72g7",
-              "name": "Re-secure rear HV cables",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868ju72g7",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-27 21:56",
-                  "text": "inspect cables and make game plan"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a6eedb74f8de2a5a5c3a5a05eb3de0dc5488413a7c7b7e27d2a5c8032a64f0f3"
             }
           ]
         },
