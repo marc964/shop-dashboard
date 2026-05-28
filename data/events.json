@@ -38,13 +38,7 @@
           "day_name": "Thursday",
           "is_today": true,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-05-29",
@@ -53,17 +47,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan L Out",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
               "summary": "Marc Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
