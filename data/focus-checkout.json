@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T19:28:10.684192Z",
+  "updated_at": "2026-05-28T20:40:21.417578Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -982,9 +982,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868juez60",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-05-28 20:15",
+                  "text": "Brainstorming/game plan"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "80ff350a5dfb61305247b9e24605e2e5c397b2cc87996fa1692feb89b1cb7618"
+              "content_hash": "87563688f3d45c16cfae2338fe75d495c2741d11e4c22db9a0764bce18bf31a9"
             }
           ]
         }
@@ -1242,22 +1248,6 @@
               "content_hash": "acddfaec0c9b014411f19ca7232693b233a58d42418e0bfa5f5d539bb15939b6"
             },
             {
-              "id": "868jum9jd",
-              "name": "Diagnose audio system",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jum9jd",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-28 19:24",
-                  "text": "Issue:\nWhen in R or D (inverter in PWM mode), high-pitched interference noise comes from speakers.\n\nDiagnosis:\nBeginning of diagnosis:\nNoise isolated to rear.\nChannel 1/2 and 3/4 filter settings both set to off.\n\nAttempted to snuff with inline filters - no change.\nGroudned inline filters per instructions - some modulation, but not eliminated.\nTraced rear interference noise to channel 3 (nominally rear left)\nNoise persists no matter which RCA input or filter unit is attached.\nNoise changes speakers if L and R outputs are swapped.\nTherefore, issue appears to be related to channel 3 input specifically.\n\nTrimmed and reinstalled ends of speakers where they go into amp - poor condition. No change."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "60aad5523492de97b0ed9daf122329ab21ab0aadd87c049f383ece145a870c3a"
-            },
-            {
               "id": "868hgu3ee",
               "name": "Facilitate headlight repair",
               "status": "Open",
@@ -1484,6 +1474,27 @@
               "content_hash": "b6af8bfecc23f707b45511b4c6b8abaddc85de130deb43d392cf968d1882baac"
             },
             {
+              "id": "868jum9jd",
+              "name": "Troubleshoot audio system",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jum9jd",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-28 19:24",
+                  "text": "Issue:\nWhen in R or D (inverter in PWM mode), high-pitched interference noise comes from speakers.\n\nDiagnosis:\nBeginning of diagnosis:\nNoise isolated to rear.\nChannel 1/2 and 3/4 filter settings both set to off.\n\nAttempted to snuff with inline filters - no change.\nGroudned inline filters per instructions - some modulation, but not eliminated.\nTraced rear interference noise to channel 3 (nominally rear left)\nNoise persists no matter which RCA input or filter unit is attached.\nNoise changes speakers if L and R outputs are swapped.\nTherefore, issue appears to be related to channel 3 input specifically.\n\nTrimmed and reinstalled ends of speakers where they go into amp - poor condition. No change."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-28 19:35",
+                  "text": "Ordering an iphone-to-RCA adapter to eliminate the RCA cable length/style as the issue, one less variable.\nOrdering ferrite filters as an experiment.\nMaterial matters more than size\nType 31 mix \u2014 best for 1\u2013300 MHz, but also reasonably effective down to ~1 MHz. Good general-purpose choice for mixed noise.\nType 43 mix \u2014 the workhorse. Effective from ~25 MHz to 300 MHz. Most clamp-on chokes you'll find at car audio shops are Type 43.\nType 75 or 77 mix \u2014 better for lower frequencies (~10 kHz to 1 MHz). This is what you actually want for inverter switching noise on power lines.\nType 61 \u2014 higher frequency stuff, less useful here.\nFor a Hyper9/X1 setup, I'd reach for Type 31 or Type 75 mix for the 12V power lines feeding the amp, and Type 43 for the RCA signal lines.\nPhysical size \u2014 match to the cable\nThe cable should fit snugly through the bore. Air gaps kill effectiveness.\nRCA cables (5\u20137mm OD): Fair-Rite 0431164281 (Type 43, ~0.5\" ID) or similar small clamp-ons. Wrap the RCA through it 2\u20133 times if you have slack \u2014 each pass through multiplies impedance by N\u00b2.\nAmp +12V power (4\u20138 AWG, 10\u201315mm OD): Larger clamp-ons like Fair-Rite 0431167281 or 0443167251. For really fat power cables, look at the W\u00fcrth 742 711 32 or DigiKey's larger split-core options."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d6ad664d0bec500f2ad5cd23a1f174492c9864c0d973d54c732c9bf300f96b3c"
+            },
+            {
               "id": "868jqn2ge",
               "name": "Troubleshoot cooling issue",
               "status": "Open",
@@ -1541,10 +1552,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-27 19:16",
                   "text": "Throttle not improved. Still able to get some variations in expected torque. I'm going to swap the throttle unit with the one I have on my bench and see if that has an effect."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-28 19:39",
+                  "text": "Removed temporary cable for future replacement. Awaiting new cable end (out for delivery now)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-28 19:40",
+                  "text": "Length - 11.5\" from eye to end."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a8fa777d96ea5813c0b39de2b04402b494c7936639110daa0c7a1ff932f930e4"
+              "content_hash": "5e629db7e79e10eb1dbb5d98712110b61fc3387aaf5710e064cff1f55c5cfb54"
             }
           ]
         },
