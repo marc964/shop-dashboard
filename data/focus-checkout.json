@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T18:29:19.126714Z",
+  "updated_at": "2026-05-28T19:09:25.828937Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -11,7 +11,7 @@
         "make": "Chevrolet",
         "model": "Impala",
         "status": "Testing & Tuning",
-        "checkout": 94.9,
+        "checkout": 91.8,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -19,7 +19,7 @@
           },
           {
             "label": "Inverter",
-            "value": 100
+            "value": 94.4
           },
           {
             "label": "PMU",
@@ -27,11 +27,11 @@
           },
           {
             "label": "Raptor",
-            "value": 100
+            "value": 98.2
           },
           {
             "label": "Functional",
-            "value": 69.2
+            "value": 58.3
           }
         ],
         "system": "Ampere",
@@ -150,8 +150,7 @@
               "url": "https://app.clickup.com/t/868jdhmvv",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "86fd7c575123cd8366835229578259cdd239bfbe99049fb07072ddabb7a38284",
-              "summary": null
+              "content_hash": "86fd7c575123cd8366835229578259cdd239bfbe99049fb07072ddabb7a38284"
             },
             {
               "id": "868jqp096",
@@ -161,8 +160,7 @@
               "url": "https://app.clickup.com/t/868jqp096",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "b0df54d6c33e51e208fc2a3a794468d9078edacac9478d0aede4e82f02b734f8",
-              "summary": null
+              "content_hash": "b0df54d6c33e51e208fc2a3a794468d9078edacac9478d0aede4e82f02b734f8"
             },
             {
               "id": "868jqp0cd",
@@ -172,8 +170,7 @@
               "url": "https://app.clickup.com/t/868jqp0cd",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "8ee86638069bef2bd66fa6515fcbe7a2407adddb07d47c1a6df30fa6d100a0c9",
-              "summary": null
+              "content_hash": "8ee86638069bef2bd66fa6515fcbe7a2407adddb07d47c1a6df30fa6d100a0c9"
             },
             {
               "id": "868jqnyzr",
@@ -183,8 +180,7 @@
               "url": "https://app.clickup.com/t/868jqnyzr",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "5d2680b9ed130b059755638e81d981c2157b28c04e3a9ed7111603193c3f9548",
-              "summary": null
+              "content_hash": "5d2680b9ed130b059755638e81d981c2157b28c04e3a9ed7111603193c3f9548"
             },
             {
               "id": "868jdhjpm",
@@ -194,8 +190,7 @@
               "url": "https://app.clickup.com/t/868jdhjpm",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d",
-              "summary": null
+              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
             }
           ]
         },
@@ -216,8 +211,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0f4df4c2b6945e064d31a2dbd245053491ca5bd591f45c64c276198b1f67c54a",
-              "summary": "Alignment reset and tested; verify results and confirm if issue is resolved."
+              "content_hash": "0f4df4c2b6945e064d31a2dbd245053491ca5bd591f45c64c276198b1f67c54a"
             }
           ]
         },
@@ -358,8 +352,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a",
-              "summary": "Gear ratio and vehicle weight not showing in VCU; Ampere ticket resolved, awaiting next step."
+              "content_hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a"
             }
           ]
         },
@@ -374,8 +367,7 @@
               "url": "https://app.clickup.com/t/868jqp01u",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "468e1f4a20c1bdf886ea4463503d6465754654ed849c3efe4568c916fbee8bb9",
-              "summary": null
+              "content_hash": "468e1f4a20c1bdf886ea4463503d6465754654ed849c3efe4568c916fbee8bb9"
             }
           ]
         }
@@ -390,7 +382,7 @@
         "make": "Mercedes",
         "model": "220S",
         "status": "Testing & Tuning",
-        "checkout": 73.8,
+        "checkout": 75.6,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -398,7 +390,7 @@
           },
           {
             "label": "Inverter",
-            "value": 100
+            "value": 94.4
           },
           {
             "label": "PMU",
@@ -406,11 +398,11 @@
           },
           {
             "label": "Raptor",
-            "value": 94.4
+            "value": 92.7
           },
           {
             "label": "Functional",
-            "value": 15.4
+            "value": 33.3
           }
         ],
         "system": "Ampere",
@@ -579,8 +571,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d6321cce5aac11dde5004c52f3fd19e8e5f519132d88b29332306a8d83b1cc4b",
-              "summary": "Fuse replaced and box handed off; Jordan to continue next steps."
+              "content_hash": "d6321cce5aac11dde5004c52f3fd19e8e5f519132d88b29332306a8d83b1cc4b"
             }
           ]
         }

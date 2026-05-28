@@ -2,16 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 108.0,
-      "pct_of_total": 10.3,
+      "total_hours": 112.0,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 22.0
+          "hours": 23.5
         },
         {
           "task": "HVAC",
-          "hours": 18.8
+          "hours": 21.2
         },
         {
           "task": "Engine Bay",
@@ -66,7 +66,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 108.0,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -101,7 +101,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 78.2,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -152,7 +152,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 60.5,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -190,7 +190,7 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 57.2,
+      "total_hours": 57.8,
       "pct_of_total": 5.5,
       "tasks": [
         {
@@ -216,6 +216,10 @@
         {
           "task": "Engine Bay",
           "hours": 2.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 0.5
         }
       ]
     },
@@ -283,7 +287,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 34.8,
+      "total_hours": 35.2,
       "pct_of_total": 3.3,
       "tasks": [
         {
@@ -292,7 +296,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 10.2
+          "hours": 10.8
         },
         {
           "task": "Battery Pack",
@@ -322,12 +326,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 30.0,
+      "total_hours": 30.5,
       "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "HVAC",
-          "hours": 12.0
+          "hours": 12.5
         },
         {
           "task": "Brakes",
@@ -384,20 +388,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 182.0,
-    "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.14,
+    "total_hours": 183.5,
+    "pct_of_total": 17.4,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 74.2
+        "hours": 74.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 62.0
+        "hours": 63.0
       },
       {
         "label": "Personal Meetings",
@@ -608,9 +612,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 749.5,
-    "non_billable_hours": 300.0,
+    "billable_hours": 755.0,
+    "non_billable_hours": 301.5,
     "pto_hours": 61.0,
-    "total_hours": 1049.5
+    "total_hours": 1056.5
   }
 }
