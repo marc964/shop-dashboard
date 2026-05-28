@@ -260,7 +260,7 @@
             </div>
 
             <div class="filter-row">
-                <label><input type="checkbox" id="showShipped"> Show shipped / inactive</label>
+                <label><input type="checkbox" id="showShipped"> Show fabrication / unstarted</label>
             </div>
 
             <div id="vehicleList" class="vehicle-list">
@@ -307,7 +307,7 @@ const REPO_OWNER = 'momentmotors';
 const REPO_NAME = 'shop-dashboard';
 const FOCUS_PATH = 'data/focus-projects.json';
 const TOKEN_KEY = 'moment_dashboard_pat_v1';
-const SHIPPED_STATUSES = ['shipped', 'acceptance', 'fabrication'];
+const HIDDEN_STATUSES = ['fabrication'];
 
 let VEHICLES = [];
 let SELECTED = new Set();   // lowercased owner names
@@ -320,9 +320,9 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-function isInactive(v) {
+function isHiddenByDefault(v) {
     var status = (v.status || '').toLowerCase().trim();
-    return SHIPPED_STATUSES.includes(status) || !v.owner || v.owner.includes('#REF');
+    return HIDDEN_STATUSES.includes(status) || !v.owner || v.owner.includes('#REF');
 }
 
 function vehicleLabel(v) {
@@ -331,7 +331,7 @@ function vehicleLabel(v) {
 
 function renderVehicles() {
     var list = VEHICLES.slice();
-    if (!SHOW_SHIPPED) list = list.filter(function(v) { return !isInactive(v); });
+    if (!SHOW_SHIPPED) list = list.filter(function(v) { return !isHiddenByDefault(v); });
     list.sort(function(a, b) { return (b.checkout || 0) - (a.checkout || 0); });
 
     var el = document.getElementById('vehicleList');
