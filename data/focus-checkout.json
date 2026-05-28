@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T19:20:32.336332Z",
+  "updated_at": "2026-05-28T19:28:10.684192Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1247,9 +1247,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868jum9jd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-28 19:24",
+                  "text": "Issue:\nWhen in R or D (inverter in PWM mode), high-pitched interference noise comes from speakers.\n\nDiagnosis:\nBeginning of diagnosis:\nNoise isolated to rear.\nChannel 1/2 and 3/4 filter settings both set to off.\n\nAttempted to snuff with inline filters - no change.\nGroudned inline filters per instructions - some modulation, but not eliminated.\nTraced rear interference noise to channel 3 (nominally rear left)\nNoise persists no matter which RCA input or filter unit is attached.\nNoise changes speakers if L and R outputs are swapped.\nTherefore, issue appears to be related to channel 3 input specifically.\n\nTrimmed and reinstalled ends of speakers where they go into amp - poor condition. No change."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "f793bc9644f5b7b2ce68b77cf3fbbeb9c0d4404c8d2010b984f39971e94cba63"
+              "content_hash": "60aad5523492de97b0ed9daf122329ab21ab0aadd87c049f383ece145a870c3a"
             },
             {
               "id": "868hgu3ee",
