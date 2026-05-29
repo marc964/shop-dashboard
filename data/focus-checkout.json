@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T22:02:37.598347Z",
+  "updated_at": "2026-05-29T23:25:40.991837Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -89,9 +89,15 @@
               "status": "Open",
               "list": "Berke 69 Alfa",
               "url": "https://app.clickup.com/t/868jurc9u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-05-29 22:06",
+                  "text": "full on diag attack with Devin. testing multiple plugs, testing against the Gtv, etc etc. ended up removing the rear box and changing plate to find the connectors had either fallen off and arced on the dc side when they did so. or they were blown off. tbd.\nafter removal of the rear box. as I was lifting up the charge plate to inspect the charger itself I found both high voltage connectors undone and laying next to it. charge port connector and DC conbox connector.\nthe conbox side appears to have either been blown off or at least arced when it finally fell off.\nmy running theory now is that both high voltage connectors were very loosely connected, just enough to let everything work and charge but slowly working their way off. when I sat in the car it finally moved it just enough to knock the DC side off which arced and pulled the charge port side off with it as the harnesses are touching each other where they live in the charging area.\nnow, my only issue is why there was power. im wondering if we somehow had a calibration in it that left the charger contactor on at all times? or if the contactor failed last charge cycle and failed closed? not sure yet."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "255ab907eb37851eb159344c423639fc593aaf0b6765d6ae4ac4ec6b1b6b42c1"
+              "content_hash": "b120ab2b76586e20fec309419ec651881791c17b537ebf3e6e821f569bb74da8"
             }
           ]
         },
