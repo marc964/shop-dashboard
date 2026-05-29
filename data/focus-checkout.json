@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T17:47:13.962811Z",
+  "updated_at": "2026-05-29T20:01:19.878234Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -266,9 +266,15 @@
               "status": "Open",
               "list": "Berke 69 Alfa",
               "url": "https://app.clickup.com/t/868jjjrrx",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 17:52",
+                  "text": "Paused due to charger issue. Berke notified, transporters on standby ..."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f57f27cdf28e36eca098cebafb6f69c846aa86c69d69589b4d8ebaa92590b40"
+              "content_hash": "6c39b0e28fffda7fa3e76d20c26c3935f9d65c934cde8bf709bab4e3751a7ea2"
             }
           ]
         }
@@ -637,9 +643,15 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jqp01u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:01",
+                  "text": "Waiting on go ahead to take to Colvin"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "468e1f4a20c1bdf886ea4463503d6465754654ed849c3efe4568c916fbee8bb9"
+              "content_hash": "1433e3259cf06b00afc861df1f72904d75fde7665f596736af8720f115dc7f3b"
             }
           ]
         }
@@ -1674,9 +1686,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868jqn3f6",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 17:53",
+                  "text": "Waiting on go ahead from Jordan once suspension is done."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5b1bb69655a81756d072d166809084da9855380a325a40ea8e57d18627f340c7"
+              "content_hash": "29940ccb91dd367441d6ffdfd194363bf4633646db1587bb6cbd9e3fdf0eff08"
             }
           ]
         }
