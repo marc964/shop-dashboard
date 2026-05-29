@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T23:52:06.141755Z",
+  "updated_at": "2026-05-29T03:43:29.376550Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1109,10 +1109,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-27 21:00",
                   "text": "Will double-check VCU setpoints with @Devin DuMont tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 02:14",
+                  "text": "image.png\nWith @Devin DuMont, adjusted setpoints to Vintage Air setpoints. Instead of 300-250, fan will kick on at 250psi, and turn off at 180psi. This allows for less cycling. Tested extensively (indoors only). Behavior as expected: Highside pressure rises, fan kicks on, pressure drops, fan turns off, pressure rises, etc...\n\nCompressor has an 'off' or 'on' function currently, per Devin it cannot easily be ramped.\n\nWhen evap gets too cold (begins to freeze), the compressor cuts off as the vintage air \"AC request\" signal cuts off.\n\nCycling and pressures all appear normal. Noise is a function of bracket location and is not too excessive."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f4362e0101c0918b2851ff1981be250c12a95fc86a6ca0f655340b7e47e0dec3"
+              "content_hash": "8837e2921975603afcbbcc0797b5cc336364946ab29bea39e8d64f2627deebe4"
             },
             {
               "id": "868jkqpe8",
@@ -1577,10 +1582,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-28 19:40",
                   "text": "Length - 11.5\" from eye to end."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 02:08",
+                  "text": "Received new cable parts.\nFabricated new cable.\nInstalled new cable.\nWith @Devin DuMont, changed setpoints and adjusted cable. Full 0-100 available.\nPer Devin, during pedal tuning he found a software bug with the 'custom cable' setting, causing our issue. Issue was NOT mechanical, and likely the other throttle was actually OK.\nWill test drive tomorrow to verify.\n\\"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5e629db7e79e10eb1dbb5d98712110b61fc3387aaf5710e064cff1f55c5cfb54"
+              "content_hash": "1fafa0f921d0f038f57f1bf5b58064d365d48b1a5700bbfb24ec018edf9ca41c"
             }
           ]
         },

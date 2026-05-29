@@ -101,7 +101,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 81.2,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -357,8 +357,8 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 28.2,
-      "pct_of_total": 2.6,
+      "total_hours": 29.8,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -366,14 +366,14 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 7.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
+          "hours": 7.8
         },
         {
           "task": "HVAC",
+          "hours": 3.0
+        },
+        {
+          "task": "Audio",
           "hours": 2.0
         },
         {
@@ -384,16 +384,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 186.5,
+    "total_hours": 187.0,
     "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.17,
+    "avg_per_person_per_day": 1.11,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 20,
+    "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 75.8
+        "hours": 76.2
       },
       {
         "label": "Shop Meetings",
@@ -473,7 +473,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 17.8,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -612,9 +612,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 765.8,
-    "non_billable_hours": 310.0,
+    "billable_hours": 768.0,
+    "non_billable_hours": 310.5,
     "pto_hours": 61.0,
-    "total_hours": 1075.8
+    "total_hours": 1078.5
   }
 }
