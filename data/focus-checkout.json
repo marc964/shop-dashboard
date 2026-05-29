@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T14:15:19.145677Z",
+  "updated_at": "2026-05-29T17:47:13.962811Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1509,10 +1509,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-28 19:35",
                   "text": "Ordering an iphone-to-RCA adapter to eliminate the RCA cable length/style as the issue, one less variable.\nOrdering ferrite filters as an experiment.\nMaterial matters more than size\nType 31 mix \u2014 best for 1\u2013300 MHz, but also reasonably effective down to ~1 MHz. Good general-purpose choice for mixed noise.\nType 43 mix \u2014 the workhorse. Effective from ~25 MHz to 300 MHz. Most clamp-on chokes you'll find at car audio shops are Type 43.\nType 75 or 77 mix \u2014 better for lower frequencies (~10 kHz to 1 MHz). This is what you actually want for inverter switching noise on power lines.\nType 61 \u2014 higher frequency stuff, less useful here.\nFor a Hyper9/X1 setup, I'd reach for Type 31 or Type 75 mix for the 12V power lines feeding the amp, and Type 43 for the RCA signal lines.\nPhysical size \u2014 match to the cable\nThe cable should fit snugly through the bore. Air gaps kill effectiveness.\nRCA cables (5\u20137mm OD): Fair-Rite 0431164281 (Type 43, ~0.5\" ID) or similar small clamp-ons. Wrap the RCA through it 2\u20133 times if you have slack \u2014 each pass through multiplies impedance by N\u00b2.\nAmp +12V power (4\u20138 AWG, 10\u201315mm OD): Larger clamp-ons like Fair-Rite 0431167281 or 0443167251. For really fat power cables, look at the W\u00fcrth 742 711 32 or DigiKey's larger split-core options."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 15:21",
+                  "text": "Also repaired cracked speaker box panel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 15:57",
+                  "text": "Installed standalone RCA audio dongle (direct to phone). Both front and rear speakers were silent - indicates issue is the RCA cables.\nThese are the RCA cables installed:\nwww.crutchfield.com/p_007CMER217/Crutchfield-Reference-2-Channel-RCA-Patch-Cables-17-foot.html?tp=1694 \n Artur (Crutchfield) recommends moving the RCA cables away from the headunit power cable.\nHe also says these cables have much better shielding:www.crutchfield.com/p_120V16R172/T-Spec-Premium-RCA-Cable-17-foot.html?tp=1694 \n \nMight be a solution."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d6ad664d0bec500f2ad5cd23a1f174492c9864c0d973d54c732c9bf300f96b3c"
+              "content_hash": "28ee0c1ef052a42219dde355180612a90d2823b7591957b9680f444f85653a6c"
             },
             {
               "id": "868jqn2ge",
