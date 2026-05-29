@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T20:01:19.878234Z",
+  "updated_at": "2026-05-29T22:02:37.598347Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1126,10 +1126,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-29 02:14",
                   "text": "image.png\nWith @Devin DuMont, adjusted setpoints to Vintage Air setpoints. Instead of 300-250, fan will kick on at 250psi, and turn off at 180psi. This allows for less cycling. Tested extensively (indoors only). Behavior as expected: Highside pressure rises, fan kicks on, pressure drops, fan turns off, pressure rises, etc...\n\nCompressor has an 'off' or 'on' function currently, per Devin it cannot easily be ramped.\n\nWhen evap gets too cold (begins to freeze), the compressor cuts off as the vintage air \"AC request\" signal cuts off.\n\nCycling and pressures all appear normal. Noise is a function of bracket location and is not too excessive."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 21:48",
+                  "text": "After AC tuning with Devin:\nAC sounds fine when actually driving, and the fan is cycling a lot less now that we've widened the condenser fan window.. compressor itself seems quieter though we did not (could not) lower the RPM without Andrew's help... I did loosen and space out the brackets but I didn't find any contact anywhere. It seems either the unit isn't working so hard now, or it just broke in a little bit.\u00a0 I'll leave @Marc Davis to determine if it's acceptable. It's ice cold. Some condensation accumulating on the evap case, but I added insulation to the metal fittings behind and after running for 20 minutes in the heat and everything sounds good and there is not evap case condensation anymore."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8837e2921975603afcbbcc0797b5cc336364946ab29bea39e8d64f2627deebe4"
+              "content_hash": "f6e5c22a594fd2fc3363dc221e4d11199411b289a14f1b3d3fe1e49ecc1668c5"
             },
             {
               "id": "868jkqpe8",
@@ -1274,10 +1279,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-20 21:21",
                   "text": "Added clearance on mounting bracket, but still noisy. Also cycling a bit. May need tuning."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 21:56",
+                  "text": "Tested in the sun.\nCold, no leaks."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "acddfaec0c9b014411f19ca7232693b233a58d42418e0bfa5f5d539bb15939b6"
+              "content_hash": "8f12803b97316ddf883a266ce813fc91011f78cc8c2a68053923242e58bfbb75"
             },
             {
               "id": "868hgu3ee",
@@ -1531,10 +1541,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-29 15:57",
                   "text": "Installed standalone RCA audio dongle (direct to phone). Both front and rear speakers were silent - indicates issue is the RCA cables.\nThese are the RCA cables installed:\nwww.crutchfield.com/p_007CMER217/Crutchfield-Reference-2-Channel-RCA-Patch-Cables-17-foot.html?tp=1694 \n Artur (Crutchfield) recommends moving the RCA cables away from the headunit power cable.\nHe also says these cables have much better shielding:www.crutchfield.com/p_120V16R172/T-Spec-Premium-RCA-Cable-17-foot.html?tp=1694 \n \nMight be a solution."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 21:49",
+                  "text": "Audio interference while in R/D (high pitched noise).\nTraced the issue to the RCA cable run (it's a long run).\u00a0 The inline filters we used on the Healy did help, they did reduce the static.\u00a0 Tried running a ground between the GUI and the case, no effect. Digging deeper into the reviews of the cables I bought (Crutchfield mid-grade) I found a few complaints of a interference which was resolved by replacing the cables. Due to the extreme lack of serviceability of the GUI module assembly, I am going to try one more thing (ferrite beads) before pulling the GUI module and replacing the RCA cables.. Running shielded/twisted RCA cables will require a minor GUI redesign.\nThe FM radio reception was very poor. I added power/ground extensions to the with the remote antenna and experimented with location. Found a spot where it seems to pick up everything to an acceptable level. Re-mounted and routed the harness to the new location and this at least is done.\nAdded motor ground cable (4awg, to ground lug for harness) to see if interference reduced. No change."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "28ee0c1ef052a42219dde355180612a90d2823b7591957b9680f444f85653a6c"
+              "content_hash": "fbf4c1ada76aece248867ff8dbadbb07ebde389e5054b26c73b254e90b29cca8"
             },
             {
               "id": "868jqn2ge",
@@ -1609,10 +1624,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-29 02:08",
                   "text": "Received new cable parts.\nFabricated new cable.\nInstalled new cable.\nWith @Devin DuMont, changed setpoints and adjusted cable. Full 0-100 available.\nPer Devin, during pedal tuning he found a software bug with the 'custom cable' setting, causing our issue. Issue was NOT mechanical, and likely the other throttle was actually OK.\nWill test drive tomorrow to verify.\n\\"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-29 21:49",
+                  "text": "Throttle feel is still not completely fixed IMO:\nUnable to replicate the 'temporary limp mode' feeling I could get before, where foot the floor it would just maintain speed. Nor am I getting the P0121 dash errors, things are certainly better from the last setup.\nBut depending on speed, I still feel like the torque request is not completely deterministic. It's like over a certain speed (35mph+) it brings the power on more gently, but at lower speeds it jumps off the line. Acceleration happens either way, it's very fast. I have now tried two different speed sensors and two different locations. Currently the cable is as direct as it could possibly be and we have fully 0-100 range on the sensor with no binding or mechanical hiccups. I don't know if this is a torque-ramp issue, another APP signal bug, or something else. @Devin DuMont will likely need to take another look at this. Happy to support however I can but I think my main work is done here unless another task pops up."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1fafa0f921d0f038f57f1bf5b58064d365d48b1a5700bbfb24ec018edf9ca41c"
+              "content_hash": "1e9008e8f133abca79144baf7354f114c2cb798e2ea04181130803730b5700c0"
             }
           ]
         },
