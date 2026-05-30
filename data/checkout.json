@@ -1399,17 +1399,6 @@
       "system": "AEM"
     },
     {
-      "owner": "Henry",
-      "year": null,
-      "color": "",
-      "make": "",
-      "model": "Healey",
-      "status": "Testing & Tuning",
-      "checkout": 1.6,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Richardson",
       "year": 1972,
       "color": "",
@@ -1602,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-05-30T19:58:25.062032+00:00",
+  "updated": "2026-05-30T21:06:33.536350+00:00",
   "source": "Google Sheets API"
 }
