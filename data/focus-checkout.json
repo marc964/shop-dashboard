@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T20:07:01.890648Z",
+  "updated_at": "2026-06-01T22:38:27.671059Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -85,7 +85,7 @@
             },
             {
               "id": "868jurc9u",
-              "name": "investigate charging issue",
+              "name": "Troubleshoot charger issue",
               "status": "Open",
               "list": "Berke 69 Alfa",
               "url": "https://app.clickup.com/t/868jurc9u",
@@ -94,10 +94,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-05-29 22:06",
                   "text": "full on diag attack with Devin. testing multiple plugs, testing against the Gtv, etc etc. ended up removing the rear box and changing plate to find the connectors had either fallen off and arced on the dc side when they did so. or they were blown off. tbd.\nafter removal of the rear box. as I was lifting up the charge plate to inspect the charger itself I found both high voltage connectors undone and laying next to it. charge port connector and DC conbox connector.\nthe conbox side appears to have either been blown off or at least arced when it finally fell off.\nmy running theory now is that both high voltage connectors were very loosely connected, just enough to let everything work and charge but slowly working their way off. when I sat in the car it finally moved it just enough to knock the DC side off which arced and pulled the charge port side off with it as the harnesses are touching each other where they live in the charging area.\nnow, my only issue is why there was power. im wondering if we somehow had a calibration in it that left the charger contactor on at all times? or if the contactor failed last charge cycle and failed closed? not sure yet."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-01 22:34",
+                  "text": "Removed the failed charger from the vehicle. Confirmed both fuses in the contactor box are intact. Reviewed AEM Contactor Box wiring diagram with Alex and confirmed the existing wiring appears correct. perform multiple tests between wiring and ground and eachother. everything checks out ok. reconnect everything and when installing the rear box amphenol, essentially completing the circuit, the charger plugs blew off again. confirming it was not my mistake in leaving them loose, the charger has failed somehow inside and had a short. remove all and check values on bad charger. will include a photo of these values.\n\nPlan for tomorrow:\u00a0New charger (EV West HK-LF-312-20), 30A inline fuse holder, and fuse are on the way. Upon arrival: cut old connector, install inline fuse, fit new connectors to both AC and DC ports. Install all components except the charger first, then perform voltage checks on the charge port side to confirm normal readings. Once confirmed, connect the charger and test HV charging."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b120ab2b76586e20fec309419ec651881791c17b537ebf3e6e821f569bb74da8"
+              "content_hash": "4138ee814acfc97ee3e851ae9816a80bbcd68c55577895b9e79ec8000497ed9b"
             }
           ]
         },

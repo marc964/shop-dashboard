@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 6.0,
-      "pct_of_total": 28.6,
+      "pct_of_total": 19.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -18,7 +18,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 5.0,
-      "pct_of_total": 23.8,
+      "pct_of_total": 16.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -33,7 +33,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 2.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -44,7 +44,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 2.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -55,7 +55,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -65,31 +65,31 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 0.5,
-      "pct_of_total": 2.4,
+      "total_hours": 1.8,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 0.5
+          "hours": 1.8
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 3.0,
-    "pct_of_total": 14.3,
-    "avg_per_person_per_day": 0.38,
+    "total_hours": 4.0,
+    "pct_of_total": 13.2,
+    "avg_per_person_per_day": 0.5,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 1.5
+        "hours": 2.0
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 1.2
+        "hours": 1.8
       },
       {
         "label": "Personal Meetings",
@@ -99,9 +99,23 @@
   },
   "project_hurters": [
     {
+      "project": "Berke 69 Alfa",
+      "total_hours": 7.0,
+      "pct_of_total": 23.1,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 7.0,
+          "context": [
+            "Charging"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 0.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -111,9 +125,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 17.5,
-    "non_billable_hours": 3.5,
+    "billable_hours": 18.8,
+    "non_billable_hours": 11.5,
     "pto_hours": 0.0,
-    "total_hours": 21.0
+    "total_hours": 30.2
   }
 }
