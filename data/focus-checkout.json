@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T09:37:15.099212Z",
+  "updated_at": "2026-06-01T15:44:15.612024Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1095,7 +1095,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 18
+        "open_tasks": 17
       },
       "assignees": [
         {
@@ -1141,67 +1141,6 @@
               ],
               "checklist_items": [],
               "content_hash": "f6e5c22a594fd2fc3363dc221e4d11199411b289a14f1b3d3fe1e49ecc1668c5"
-            },
-            {
-              "id": "868jkqpe8",
-              "name": "Address brake noise issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jkqpe8",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-12 19:52",
-                  "text": "Rear end noise ended up being from the parking brake calipers. Minor distortion in the brake rotor was causing the pads to clatter around in the caliper. Replaced the 'pull in' springs with 'push out' springs and noise appears resolved. Test drove, no noise present.\n\n\u2022 Brakes weak.\nWill install a brake proportioning valve to move up to the front and see if that helps things.\nAlso accidentally stripped out one of the brake rotor wheel bolt holes. Ordering replacement rotor."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-13 03:43",
-                  "text": "diag noise\nchecked the CV's\nfound that the E-Brakes were slapping the rotors\nput a spring on the pads this stopped the noise"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-13 03:44",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/665e78e7-4824-4a60-9a32-3317a6376756/IMG_1014.mov?view=open"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-18 22:36",
-                  "text": "Slight noise noticed from rear after a few days. Put on lift: Noise coming from left rear (same issue).\nReplaced all four springs with \"push\" springs. Issue resolved on lift, however on test drive slight knock reappeared. More investigation necessary."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-18 22:37",
-                  "text": "Replaced RH rear rotor at the same time due to stripped wheel bolt hole."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-20 20:30",
-                  "text": "To be clear, the brake calipers were making noise as well, it just appears there were two separate issues that sounded similar.\n\nBoth were resolved. Work complete."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-20 20:30",
-                  "text": "Noise persists.\nFurther diagnosis:\nIssue was traced to the RH parking brake caliper hitting the slightly-out-of-round wheel. Loosened the caliper and bracket assembly, pushed inwards and re-tightened, we have a lot more clearance now, noise is gone. LH appears properly adjusted. I think in a perfect world those brackets would have been designed with a tighter hole spec to prevent this sort of play.\n\nThis explains why the noise wasn't there on the lift (wheels off) but did appear when driven."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-20 23:22",
-                  "text": "looked at the noise on the Bus\nfound the caliper was hitting the tire\nmoved the caliper bracket and fixed the problem\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/5596afc1-be3f-4920-b22e-658c354bb940/IMG_1039.mov?view=open"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 02:50",
-                  "text": "Test drove vehicle: Didn't hear the brake tick noise.\nPut vehicle on jackstands and spun rear wheels: Unable to locate noise as it was before, but there was a very slight tick from the LH rear wheel.\nRemoved wheels. Found witness mark on parking brake caliper.\nTomorrow will reset bracket like RH rear wheel bracket."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 14:46",
-                  "text": "Loosened and re-mounted brake caliper bracket to increase clearance to rear wheel.\nCouldn't hear any brake noise while jacked up. Will re-investigate on the ground."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ea806246bbf270ef356a9a5985c7d9f1f858c1095a53922ce15ed272d80c9594"
             },
             {
               "id": "868hjy6ch",
@@ -1337,10 +1276,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-27 02:48",
                   "text": "Brake pedal effort: The current setup is a 15/16 master with the OEM pedal ratio of 5:1. I modified the pedal assembly for 7:1. We'll see how that feels, and if that doesn't do it we'll go for 13/16\" master. Something like this.\n\nRemoved OEM brake pedal assembly for measurement.\n250mm from pivot to center of pedal.\n50mm from pivot to pushrod clevis.\n5:1.\n\nDrilled new hole at 36mm for a 7:1 ratio.\nSlightly modified brake rod to clear.\nCleaned up clevis.\nReinstalled pedal assembly.\n\nWill test drive tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 15:34",
+                  "text": "@Marc Davis has gone ahead and OK'd the new master cylinder conversion. @Alex Noonan if you want to make me a task. Esimated time should be 4 hours including bleeding."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 15:35",
+                  "text": "https://www2.cip1.com/c31-611-021-211-14/?srsltid=AfmBOoocCou7jshV2r2R7_VwVlGGQ91KDXSxVJvKw2QHq6wGrVvpAWRp x1\nhttps://www2.cip1.com/VWC-211-721-205-D/?gad_source=1&gad_campaignid=21140055511&gb[\u2026]Q358Dyk7JR9kvhQwVjhYp8W5xSig_-YE3gLTOvqbZCKHjX6VRoCi1MQAvD_BwE x1\nhttps://www2.cip1.com/vwc-211-721-163-a/ x1\nhttps://www2.cip1.com/vwc-211-721-233/ x1\nhttps://www2.cip1.com/vwc-211-721-200/ x1\nProject: Ferdman Bus\nSub-system: Brakes\u00a0(edited)"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "20549bb25e80eb263ac68c83e2321890042dd86ee1b8085911354ac35628588e"
+              "content_hash": "424438e654575a9d664ade2ccbb9f9e2c5967089676ed8f7587971aa0b96c5e3"
             },
             {
               "id": "868gq82yv",
@@ -1516,10 +1465,35 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-14 00:15",
                   "text": "Assisted Andrew with bus startup: CCS testing at EVGO. No issues with charging. 72kw steady from ~20-44%. Handshake good."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 14:42",
+                  "text": "Assisted Devin with HVAC startup.\nVerified correct signals from VCU\nVerified contactor function with 12V battery\nIdentified swapped pins on heater contactor box (my fault).\nAfter resolution, issue is done.\nDid some HVAC tuning.\nAssisted Devin with inverter tuning.\nTest drove while mapping torque request and pedal position. Pedal position always appears 'correct' to pedal angle - couldn't find a mechanical issue, however the linkage itself does seem to have a 'step' for the last few mm of travel. Appears to be functioning as designed. Devin to investigate more from Andrew/Cascadia.\n(didn't send from last Thursday)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 14:43",
+                  "text": "Meeting w/ @Marc Davis @Devin DuMont @Alex Noonan regarding Ferdman steps.\nWaiting on:\nFerrite cores\nSpindles\n@Marc Davis To test drive today."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 15:01",
+                  "text": "Two things I forgot to mention:\nInterior door handles are starting to crack now that they're being used regularly. Need replacement. Very easy. Ordered already.\nNot getting any LED indication from the PRND buttons. They are dimmly lit in general, but do not light up brightly when selected. Just for reference, here is how it's currently set up (the 2K resistors have been pulled). @Devin DuMont does this need to be enabled from the VCU?"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 15:02",
+                  "text": "https://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=211837225B x2\nhttp://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=131837597 x2\nhttp://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=N141301 x2\nProject: Ferdman Bus\nSub-system: Interior"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 15:02",
+                  "text": "image (2).png\nFerdman-PRD-Harness-1.1.drawio.pdf"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b6af8bfecc23f707b45511b4c6b8abaddc85de130deb43d392cf968d1882baac"
+              "content_hash": "7f06fbe8c99dc203e321f720ead7aaf03b43611e420bcdde40c2e0b8775d6d34"
             },
             {
               "id": "868jum9jd",
