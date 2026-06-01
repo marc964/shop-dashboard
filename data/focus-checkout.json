@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T15:44:15.612024Z",
+  "updated_at": "2026-06-01T20:07:01.890648Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -111,11 +111,6 @@
               "list": "Berke 69 Alfa",
               "url": "https://app.clickup.com/t/868gy2pn9",
               "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-06 22:18",
-                  "text": "Meeting with team."
-                },
                 {
                   "author": "Devin DuMont",
                   "date": "2026-03-09 21:38",
@@ -235,10 +230,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-05-27 21:56",
                   "text": "post pdi discussion"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-01 16:22",
+                  "text": "Ran through basic tests with Aharon monitoring from CAN / AEMCal. Noticed no control pilot signal and prox out of spec, double checked with dummy plug and verified actual expected behavior on Ivanhoe. BMS master problems expected."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "44e408fe4ceb22e74ac062ece97c5e7680e96d81fa8212b41bf3b014f164222a"
+              "content_hash": "d80770c31f4c5b73547f77193e64d2ce3d0f12d72c4abd93fee14c01939009e7"
             }
           ]
         },
@@ -999,10 +999,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-05-27 22:51",
                   "text": "Pulled out CAN Input hardware and documentation. Reviewed how to configure and wired up a thermistor to the first input. Powered up, loaded configuration and monitored unscaled raw voltage values change while heating up and cooling off the thermistor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-01 16:17",
+                  "text": "Reviewed thermistor selection and re-ordered."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f87c38634906945c86a813abe1e59b02216e63d69a9d39190e7c03bc47c5b5ed"
+              "content_hash": "9822d787a495796610c4eab11bea93bdd34322cb57b82b9867ed6121d13eaff2"
             }
           ]
         },
@@ -1095,7 +1100,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 17
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -1362,6 +1367,16 @@
               ],
               "checklist_items": [],
               "content_hash": "2de9880599142c0aeb548c1d42be416e1e1bc1a5b7af440dca3ae1c93533aa0c"
+            },
+            {
+              "id": "868jw0zyg",
+              "name": "Replace interior door handles",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jw0zyg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "0c7331743d02d0f251a6e33c599f6a62577144115c59005199133dde65e6a65a"
             },
             {
               "id": "868e45rzk",
@@ -1670,10 +1685,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-05-22 22:12",
                   "text": "Met with the team and reviewed status. Re-ran the throttle pedal test using raptor to log APP, torque request and torque feedback. Had Claude make a plotting tool for the raptor logs. Determined issue due to the physical pedal linkage"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-01 16:18",
+                  "text": "Tested the new pedal assembly. Set the calibration back to default. Verified smooth 0-100% APP in Raptor-Service. Hooked up the AC gauges with Jordan and tuned the fan pressure setpoints to something more stable."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5f959bc52928046450d200abc961d16b50c283bf48bc85e6c90573d8049262d4"
+              "content_hash": "d52918cd26e93581efa7eadc8ef95923ba15cce859bea22023a32cee4ad55b75"
             }
           ]
         },
