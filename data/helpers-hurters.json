@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 7.8,
-      "pct_of_total": 15.3,
+      "pct_of_total": 15.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -18,7 +18,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 6.0,
-      "pct_of_total": 11.9,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -33,7 +33,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 5.0,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -48,7 +48,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 3.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -59,7 +59,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 3.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -70,7 +70,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 3.2,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -81,11 +81,22 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "HVAC",
           "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "Shah 65 Mustang",
+      "total_hours": 0.8,
+      "pct_of_total": 1.5,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 0.8
         }
       ]
     },
@@ -103,7 +114,7 @@
   ],
   "shop_work": {
     "total_hours": 7.5,
-    "pct_of_total": 14.9,
+    "pct_of_total": 14.6,
     "avg_per_person_per_day": 0.47,
     "flagged": false,
     "tech_count": 8,
@@ -127,7 +138,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 7.0,
-      "pct_of_total": 13.9,
+      "pct_of_total": 13.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -141,7 +152,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 3.8,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -162,9 +173,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 31.8,
+    "billable_hours": 32.5,
     "non_billable_hours": 18.8,
     "pto_hours": 8.0,
-    "total_hours": 50.5
+    "total_hours": 51.2
   }
 }
