@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T12:53:16.477611Z",
+  "updated_at": "2026-06-02T17:25:08.594868Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,69 +20,12 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 7
+        "open_tasks": 4
       },
       "assignees": [
         {
           "name": "Aharon Adams",
           "tasks": [
-            {
-              "id": "868jpdxft",
-              "name": "Adjust steering center link",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868jpdxft",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-19 21:53",
-                  "text": "rack, remedy and test drive"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-27 21:55",
-                  "text": "make more adjustments on center link to angle it away from the subframe at all steering angles."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-28 23:28",
-                  "text": "paint subframe and testing."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "876269098cd5f98b987657b92e71cd51f9d899745fcbab8eb10ab0e99ba7c80c"
-            },
-            {
-              "id": "868ju72g7",
-              "name": "Re-secure rear HV cables",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868ju72g7",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-27 21:56",
-                  "text": "inspect cables and make game plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-28 23:35",
-                  "text": "move hv cabled into driveshaft tunnel and make new bracket to secure them much higher. this removes them from the pinch point near the control arm. I had the boys bounce the car all the way onto the bump stops while I was underneath (wheels on ground/roll on ramps) and there was ample clearance to all components. after test drive going over speed bumps, saw no new markings after having rotated the silicone covers to a new area.\nthe diff was not actually contacting the hv lines, it was the stainless brake line. moved line to a lower location and checked again."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "625790e857f802a4184c10f77894552cd6873b4542b9be3d03d610b366e1798f"
-            },
-            {
-              "id": "868ju7042",
-              "name": "Replace DS bolts",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868ju7042",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "7b288e5873115d71b84daa6439a8377bba92f4ae13f4824ad099ec717dbb9e3a"
-            },
             {
               "id": "868jurc9u",
               "name": "Troubleshoot charger issue",
@@ -425,7 +368,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -480,27 +423,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868j31pec",
-              "name": "Troubleshoot PRND",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868j31pec",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-01 01:28",
-                  "text": "looked at the PRND\nreset the alignment\ntested several\n times"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "0f4df4c2b6945e064d31a2dbd245053491ca5bd591f45c64c276198b1f67c54a"
             }
           ]
         },
@@ -1562,10 +1484,25 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-27 21:42",
                   "text": "Removed coolant cover plate and inspected levels. (levels haven't been inspected since vehicle got on the road).\nBattery level: 120mm from top\nMotor level: 70mm from top\nTopped off both reservoirs.\nAttached charger to turn on motor circuit. Jacked up that corner to bring air bubbles to top.\nNo air bubbles observed.\nReinstalled cover. Will test drive tomorrow to attempt to replicate.\nHighest temp reached today while testing throttle: 190F (slightly over middle of gauge)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:16",
+                  "text": "image.png\nMade new coolant clamps to redo motor circuit return line."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:16",
+                  "text": "At one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter.\nimage (8).png\nimage (7).png\nFerdman-CoolantDiagram-1.5.drawio.pdf"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:17",
+                  "text": "Ordered new parts for motor circuit return line.\nhttps://www.summitracing.com/parts/rdm-14-0193 x1\nhttps://www.summitracing.com/parts/bpu-3254000160 x1\nhttps://www.amazon.com/EVIL-ENERGY-Straight-Fitting-Black/dp/B08NYLZC66/ x1 (pack of 2)\nProject: Ferdman Bus\nSubsystem: Cooling\n\nUpdated coolant return line information on coolant diagram. (see pdf above)"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5b4daafb691632609cfc532c14a9f7ecbc31a5f952f7dc01ced793345638b2c4"
+              "content_hash": "8b2c2ff138b51a47bfbb34483911fcde12b378195f0b2398459b598f564375f5"
             },
             {
               "id": "868jqn5x7",
@@ -1634,10 +1571,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-01 23:08",
                   "text": "@Devin DuMont thinks that was not a 'flooring it' test, but a cruising, then flooring it, so APP does appear to be correct in that screenshot.\n\nWe did a bunch of pulls just now. @Devin DuMont is going to parse the results and see what we get.\n\nAt one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter. @Devin DuMont\n\nThere is an issue we discovered whereby the bus didn't have enough torque to reverse up a hill. It could hold itself stationary and you could feel it trying to inch backwards but was unable to manage any distance. Devin noticed that once before. We need to figure out what sort of torque limiting is happening in Reverse and adjust that.\nimage (6).png\nimage (5).png\nimage (3).png\nimage (4).png\n\nThrottle didn't fully return at one point - have ordered replacement spring and plug to prevent further issue.\n\nAlso disassembled and lubrciated throttle pin just as a precaution."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:21",
+                  "text": "image.png\n\n@Devin DuMont and @Marc Davis did a pull and got the exact log. This is the issue we're looking into. Power jumps while APP stays steady"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b8fbf1a9f133b27f1fcf836475b01ab0a53f8c9e95f71ee19052633c806eac23"
+              "content_hash": "39cbc07dfad3d0b43fd88b679e918c82dd5d02129577e6d0b6c6bd5d7441eae7"
             }
           ]
         },
