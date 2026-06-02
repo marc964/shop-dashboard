@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T22:38:27.671059Z",
+  "updated_at": "2026-06-02T00:00:03.993861Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1048,7 +1048,7 @@
         "make": "Volkswagen",
         "model": "Micro Bus",
         "status": "Startup",
-        "checkout": 76.4,
+        "checkout": 77.4,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -1629,10 +1629,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-29 21:49",
                   "text": "Throttle feel is still not completely fixed IMO:\nUnable to replicate the 'temporary limp mode' feeling I could get before, where foot the floor it would just maintain speed. Nor am I getting the P0121 dash errors, things are certainly better from the last setup.\nBut depending on speed, I still feel like the torque request is not completely deterministic. It's like over a certain speed (35mph+) it brings the power on more gently, but at lower speeds it jumps off the line. Acceleration happens either way, it's very fast. I have now tried two different speed sensors and two different locations. Currently the cable is as direct as it could possibly be and we have fully 0-100 range on the sensor with no binding or mechanical hiccups. I don't know if this is a torque-ramp issue, another APP signal bug, or something else. @Devin DuMont will likely need to take another look at this. Happy to support however I can but I think my main work is done here unless another task pops up."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-01 23:08",
+                  "text": "@Devin DuMont thinks that was not a 'flooring it' test, but a cruising, then flooring it, so APP does appear to be correct in that screenshot.\n\nWe did a bunch of pulls just now. @Devin DuMont is going to parse the results and see what we get.\n\nAt one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter. @Devin DuMont\n\nThere is an issue we discovered whereby the bus didn't have enough torque to reverse up a hill. It could hold itself stationary and you could feel it trying to inch backwards but was unable to manage any distance. Devin noticed that once before. We need to figure out what sort of torque limiting is happening in Reverse and adjust that.\nimage (6).png\nimage (5).png\nimage (3).png\nimage (4).png\n\nThrottle didn't fully return at one point - have ordered replacement spring and plug to prevent further issue.\n\nAlso disassembled and lubrciated throttle pin just as a precaution."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1e9008e8f133abca79144baf7354f114c2cb798e2ea04181130803730b5700c0"
+              "content_hash": "b8fbf1a9f133b27f1fcf836475b01ab0a53f8c9e95f71ee19052633c806eac23"
             }
           ]
         },
