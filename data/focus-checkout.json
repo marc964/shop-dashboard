@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T00:00:03.993861Z",
+  "updated_at": "2026-06-02T04:54:47.342856Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1700,10 +1700,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-01 16:18",
                   "text": "Tested the new pedal assembly. Set the calibration back to default. Verified smooth 0-100% APP in Raptor-Service. Hooked up the AC gauges with Jordan and tuned the fan pressure setpoints to something more stable."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-02 03:21",
+                  "text": "Met with the team and reviewed status. Drove with Jordan taking logs of the APP, and resulting torque request. Discussion with the team. Re-configured PRND to use LED's. Verified which signal was actually used for inverter temp and motor temp on the GUI. Updated the GUI to the latest versions. The status for AC / Heat still not workinng correctly, put in ticket with Ampere."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d52918cd26e93581efa7eadc8ef95923ba15cce859bea22023a32cee4ad55b75"
+              "content_hash": "a0a01d0c4c2092491e01a4ee4b7cacc5b00e2f00795bdf61b46584b7fa78a569"
             }
           ]
         },
