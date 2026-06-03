@@ -3,7 +3,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 11.0,
-      "pct_of_total": 12.4,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -21,8 +21,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 7.8,
-      "pct_of_total": 8.7,
+      "total_hours": 8.2,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -31,13 +31,39 @@
         {
           "task": "Manufacturing - Product",
           "hours": 3.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
+      "project": "Jarowey 71 240Z",
+      "total_hours": 7.0,
+      "pct_of_total": 7.0,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 7.0
+        }
+      ]
+    },
+    {
+      "project": "Richardson 72 240Z",
+      "total_hours": 7.0,
+      "pct_of_total": 7.0,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 7.0
         }
       ]
     },
     {
       "project": "Jaffe 86 190E",
       "total_hours": 6.8,
-      "pct_of_total": 7.6,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,31 +80,9 @@
       ]
     },
     {
-      "project": "Jarowey 71 240Z",
-      "total_hours": 6.0,
-      "pct_of_total": 6.8,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.0
-        }
-      ]
-    },
-    {
-      "project": "Richardson 72 240Z",
-      "total_hours": 6.0,
-      "pct_of_total": 6.8,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.0
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 5.5,
-      "pct_of_total": 6.2,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -89,7 +93,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 5.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -108,7 +112,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 3.8,
-      "pct_of_total": 4.2,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -119,7 +123,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 3.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -130,7 +134,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 2.0,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -144,36 +148,36 @@
     }
   ],
   "shop_work": {
-    "total_hours": 14.8,
-    "pct_of_total": 16.6,
-    "avg_per_person_per_day": 0.92,
+    "total_hours": 17.0,
+    "pct_of_total": 16.9,
+    "avg_per_person_per_day": 0.71,
     "flagged": false,
     "tech_count": 8,
-    "working_days": 2,
+    "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 5.8
+        "hours": 7.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 5.2
+        "hours": 5.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 3.8
+        "hours": 4.2
       }
     ]
   },
   "project_hurters": [
     {
       "project": "Berke 69 Alfa",
-      "total_hours": 7.0,
-      "pct_of_total": 7.9,
+      "total_hours": 13.5,
+      "pct_of_total": 13.4,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 7.0,
+          "hours": 13.5,
           "context": [
             "Charging"
           ]
@@ -183,7 +187,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 3.8,
-      "pct_of_total": 4.2,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -194,7 +198,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -208,9 +212,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 60.0,
-    "non_billable_hours": 28.8,
+    "billable_hours": 63.0,
+    "non_billable_hours": 37.5,
     "pto_hours": 8.0,
-    "total_hours": 88.8
+    "total_hours": 100.5
   }
 }

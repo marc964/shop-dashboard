@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T22:35:41.044125Z",
+  "updated_at": "2026-06-03T00:19:17.820983Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -42,10 +42,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-06-01 22:34",
                   "text": "Removed the failed charger from the vehicle. Confirmed both fuses in the contactor box are intact. Reviewed AEM Contactor Box wiring diagram with Alex and confirmed the existing wiring appears correct. perform multiple tests between wiring and ground and eachother. everything checks out ok. reconnect everything and when installing the rear box amphenol, essentially completing the circuit, the charger plugs blew off again. confirming it was not my mistake in leaving them loose, the charger has failed somehow inside and had a short. remove all and check values on bad charger. will include a photo of these values.\n\nPlan for tomorrow:\u00a0New charger (EV West HK-LF-312-20), 30A inline fuse holder, and fuse are on the way. Upon arrival: cut old connector, install inline fuse, fit new connectors to both AC and DC ports. Install all components except the charger first, then perform voltage checks on the charge port side to confirm normal readings. Once confirmed, connect the charger and test HV charging."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-02 23:36",
+                  "text": "Installed the drain into the bottom of the charger tray. Upon receiving the replacement charger and disassembling the old one, found what appears to be a condensation vent on top that had been blown out \u2014 likely from a short inside the unit. This confirmed our suspicion of water ingress.\nThe vent sits in a recessed bowl that the fan channels air into, but the way we had the charger mounted turned that bowl into a water trap. Per the manufacturer instructions, that mounting orientation is explicitly listed as \"forbidden\" \u2014 so that explains a lot.\nChanged the mounting orientation. Used the original bracket with spacers to mark hole locations on the fuel tank, cut the tank, fabricated steel standoffs, cleaned and painted them, then reinstalled the charger in the correct orientation with a weather seal around the fan hole cutout.\nTomorrow:\u00a0bad connector removal, new connector install, testing throughout."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4138ee814acfc97ee3e851ae9816a80bbcd68c55577895b9e79ec8000497ed9b"
+              "content_hash": "72644c9a25ebaadae9568edeb576a1d8d2e2f833833b75a94f2f03c99e47d4e0"
             }
           ]
         },
