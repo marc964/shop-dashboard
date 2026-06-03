@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T19:08:34.397171Z",
+  "updated_at": "2026-06-03T22:07:08.598935Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -47,10 +47,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-06-02 23:36",
                   "text": "Installed the drain into the bottom of the charger tray. Upon receiving the replacement charger and disassembling the old one, found what appears to be a condensation vent on top that had been blown out \u2014 likely from a short inside the unit. This confirmed our suspicion of water ingress.\nThe vent sits in a recessed bowl that the fan channels air into, but the way we had the charger mounted turned that bowl into a water trap. Per the manufacturer instructions, that mounting orientation is explicitly listed as \"forbidden\" \u2014 so that explains a lot.\nChanged the mounting orientation. Used the original bracket with spacers to mark hole locations on the fuel tank, cut the tank, fabricated steel standoffs, cleaned and painted them, then reinstalled the charger in the correct orientation with a weather seal around the fan hole cutout.\nTomorrow:\u00a0bad connector removal, new connector install, testing throughout."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-03 21:23",
+                  "text": "Replaced connectors on both the low side and high side of the charger. Installed the charge plate and ran continuity testing throughout \u2014 end to end, pin to pin, and pin to ground. Installed the battery with continued testing at each step, then moved to the contactor box, connecting the HVAC, DC-DC, and HV charger.\nPulled the box and charge plate back off to do a temporary full system hookup (battery box not mounted) and tested charging and vehicle function end to end.\u00a0Everything tested OK.\nWrapped up by removing the battery box and charge plate. Need to get with Marshal to design a plug for the old fan hole and wait on the print.\nTomorrow:\u00a0Should be buttoned back up first thing once the plug is ready."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "72644c9a25ebaadae9568edeb576a1d8d2e2f833833b75a94f2f03c99e47d4e0"
+              "content_hash": "1a27ad3b7a560279f64985f4e6c05cd3d871a213608ec885db80fdfc9d9f8d27"
             }
           ]
         },
