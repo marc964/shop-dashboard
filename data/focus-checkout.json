@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T15:18:00.906711Z",
+  "updated_at": "2026-06-03T19:08:34.397171Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -213,6 +213,21 @@
               ],
               "checklist_items": [],
               "content_hash": "a562b21fb62cf286f8dcff1912695760e65a24a8fce86f35bf7504820580b468"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868jx6fd8",
+              "name": "Aid in charger relocation",
+              "status": "Open",
+              "list": "Berke 69 Alfa",
+              "url": "https://app.clickup.com/t/868jx6fd8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "9661ca76259440b85c326846a49906afcc9d4e17e2e1ae74a2034ad85b2c2980"
             }
           ]
         },
@@ -965,6 +980,27 @@
           ]
         },
         {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868juez60",
+              "name": "Troubleshoot thermistor issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868juez60",
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-05-28 20:15",
+                  "text": "Brainstorming/game plan"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "87563688f3d45c16cfae2338fe75d495c2741d11e4c22db9a0764bce18bf31a9"
+            }
+          ]
+        },
+        {
           "name": "Justin Landry",
           "tasks": [
             {
@@ -1141,10 +1177,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-04-15 19:22",
                   "text": "Installed wheel spacers and new studs (both sides). Verified clearance full lock both directions, both corners.\nSignificant time on RH front - seized wheel stud required significant effort and heat to break loose. Eventually completed and wheels are now back on vehicle.\n\nAll work complete (in theory). Waiting on test-drive for final validation."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 17:55",
+                  "text": "Screenshot 2026-06-03 124556.png\n\nCame to my attention that drop spindles sometimes require different disc-brake conversion kits. Did extensive research to make sure we have the correct brackets for when the stock spindles arrive.\n1000011824.jpg\n1000012539.jpg\nResearched disc-brake kits and found the kit installed on this vehicle. Seen here:\nwww2.cip1.com/c31-499-264-5205-14/ \n \nAppears this kit should work with stock spindles."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0d4e7b12e2f09f5ff9b715aeb675ee67d793e435b743377539d38bd6ef5c6add"
+              "content_hash": "3aa4f46ce804b9912fe049465e817b14cfdbc6c6de4ebbcc00778f8fcc24cd55"
             },
             {
               "id": "868e45qwn",
@@ -1541,10 +1582,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-27 02:53",
                   "text": "Jacked up front of vehicle and removed wheel cover for inspection.\nRemoved cable from speedo.\nVerified: when front wheel spins (cable in place), speedo cable end doesn't spin. Broken cable.\nOrdered new cable."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 18:00",
+                  "text": "Received new OEM speedo cable. The new OEM '66 speedo cable is a bit too short... my guess is the disc brake conversion or the drop spindles moved the speedo cable pickup. I found another cable that will work, just FYI on that subtask (very fast to swap). According to claude and google the cable I ordered should fit with this setup, but so many variables up here something is missing.\nFound a later-model speedo cable at 2460mm. Should work.\nI will probably wait to install the stock spindles before I finalize this, since things are not lining up."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e5515d9af6a97d510fb8d0d45c391d621a563d50f3652405f72c2d08866f688b"
+              "content_hash": "17a68e320c46615465028c9e28f2402d3a1b5a8ed2e0c96c5a3ee42b6af185a8"
             },
             {
               "id": "868jqn3uf",
