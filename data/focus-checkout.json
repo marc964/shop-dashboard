@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T10:22:34.961311Z",
+  "updated_at": "2026-06-03T15:18:00.906711Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -373,7 +373,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 9
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -425,9 +425,20 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jdhjpm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-03 11:49",
+                  "text": "Checked Pins on Speedo and Instrumentation, and hand spun cable drive to confirm cable/ speedo works. The issue is with the Speedo box, informed MD and he wants Devin to check the VCU settings before we proceed. For now, my part in this trouble shoot is dead."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-03 11:57",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/a370abe8-0742-46d0-aaa6-0ba826a1cd40/20260603_063703.mp4?view=open"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
+              "content_hash": "8e6abf5a7eda47f797460762fc7afd2c4cfb7948198c57e9bec0f213192ef1a4"
             }
           ]
         },
@@ -569,6 +580,16 @@
               ],
               "checklist_items": [],
               "content_hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a"
+            },
+            {
+              "id": "868jx2q4a",
+              "name": "Troubleshoot speedo issue",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jx2q4a",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
             }
           ]
         },
@@ -1032,7 +1053,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 18
+        "open_tasks": 19
       },
       "assignees": [
         {
@@ -1661,6 +1682,16 @@
               ],
               "checklist_items": [],
               "content_hash": "8d6e042850115b34da8d6988ea93f29e342f074022561e0c6a7240a638e5b85d"
+            },
+            {
+              "id": "868jx2u8g",
+              "name": "Troubleshoot throttle issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jx2u8g",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
             }
           ]
         },
