@@ -857,6 +857,17 @@
       "system": "AEM"
     },
     {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Shipped",
+      "checkout": 70.3,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Jaffe",
       "year": 1966,
       "color": "Black",
@@ -864,17 +875,6 @@
       "model": "912",
       "status": "Shipped",
       "checkout": 70.3,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 69.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-02T00:14:41.297340+00:00",
+  "updated": "2026-06-03T00:27:51.372160+00:00",
   "source": "Google Sheets API"
 }
