@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T22:05:46.659328Z",
+  "updated_at": "2026-06-04T23:38:58.670838Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 5
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -61,147 +61,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3c2deb88a2f8a4a846b516edfc67ccfa7e6abdc688709f90eaba0e5b2aa0f4ec"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868gy2pn9",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868gy2pn9",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-09 21:38",
-                  "text": "Drove checkout from 28.32% to 37.76%. Chased down flashing light on gauges. Modified digital dash program to accept any BMS FW version above 1.12. Emailed Peterson over speedometer pointing to 10MPH instead of zero. Renamed all the PMU inputs and outputs in the software to include logic name, pin number, and a short description which matched the Ampere style. Added these rows to the checkout sheet. Ran through the easy IO points, taking notes of what input / output is where and how much current those devices are drawing. Repeated the same for both the PDU's. Will continue tomorrow."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-10 23:24",
-                  "text": "Drove checkout from 37.76% to 55.61%. Re-arranged various cars in the shop to get the Alfa over to the charging bay. Tested all the critical outputs like fans, pumps, DCDC also worked properly during charge. Finished up checking all the non-critical IO points like brake and reverse lights. Filled out checkout sheet marking all spares along the way. Set all the PMU inputs to a configuration of Active High with a hysteresis of [2.5 V / 3.5 V] to make them safe with the AEM PDU control. Verified the link between each PDU output and PMU input, took note of output current while checking off the list. Tested charging and updated the associated options and tables in the VCU to match the battery module specs. Verified DCDC output, can't find a current feedback in the VCU firmware but it looks fine on the CAN bus. Ran through the punch list taking notes on any updates and marking off complete things. Posted punch list for the team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-11 22:31",
-                  "text": "Verified all CellR related VCU settings. Temporarily adjusted the CellRKFactor to heavily prefer new information and ran a number of charge cycles to force in a realistic CellR. CellR never seemed to settle down, should try again in the middle of the pack before the burn. Finished up a full charge, monitored temperatures along the way. Verified Cell Delta within acceptable ranges. Adjusted the cell protection limiter settings to match Jaffe / Hopkins very closely. Drove the vehicle around and verified the top of pack cell limits. Drove around a little more to verify limiters tapered out correctly and range estimate updated properly. Reviewed log from the full charge, checked cell delta and pack spread was acceptable. Also verified temperatures stayed in range. Tapered charge rate a little bit slower near the top of pack. Checked off various items on the checkout sheet"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-13 18:15",
-                  "text": "Pulled logs for contactor dropout and analyzed. Reached out to AEM for their perspective."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-13 18:16",
-                  "text": "Pulled backups and re-flashed last good calibration."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-16 20:40",
-                  "text": "Ran the CPU load test and found 0 peaks of excessive processing. CAN messages 144, 209 and 210 were already shut off in the VCU. Asked AEM for their though on any other theories for the shutdown. Organized pile of loggers and allocated one spare. Configured, installed, and verified connectivity with cloud. Reviewed punch list."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-17 21:43",
-                  "text": "Troubleshot 12V seemingly to completely die after a relay click. Discovered major grounding issue, discussed with Alex & Aharon. Found half of the 12V battery could not hold voltage under load. Moved all 12V leads to the good half. Continued correspondence with AEM on the shutdown issue. Flashed the firmware burn and charged to get the warnings to dissappear."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-18 22:16",
-                  "text": "Looked for an ATX-30 datasheet and reached out to Anti Gravity for some technical support with their auto switch off batteries. Verified the battery in Preheim does not currently have the split battery failure. Met with Ryan about return options to consider opening one up. Attached an AGM 12V battery in parallel with the lithium on, tested to get a firmware reset, couldn't get one. Finished up the improved diag screen for the AEMDash. Recorded CAN bus with various AEM DBC's to look if there are some signals available not documented."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-19 22:33",
-                  "text": "Used Claude to build another compare tool that takes CAN snapshots and highlights any differences between. Took snapshots for our VCU200_08, VCU200_15, and VCU300_03 firmware's and from each CAN bus. Analyzed and used this information to revise the DBC's I'm using daily. Made note of the signals I need for the Miner dash task. Reviewed Elcon DBC and added in signals from the latest CAN 3865 specification, verified on the CAN bus. Branched latest AEM Dash and changed out the EGT DBC for an Elcon DBC, setup logging to match. Slightly moved the top row of screen widgets so they would be more viewable. Added a new change log for the revision branch and copied over the diagnostic style I built yesterday."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-20 21:23",
-                  "text": "Tried previous IVT configuration script. Had to re-install several libraries due to Claude. When I did run it I got no response from the IVT with no diagnostics built into my script. Asked Claude to make a whole new script from the PDF manual, which it did suspiciously fast. Ran that script too, no response from the IVT. Checked emails / documentation to make sure there wasn't a way to get DCDC current or any other OBC related information via CAN."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-25 05:54",
-                  "text": "Went through punch List rephrasing all items to be full thoughts instead of notes, added dates to each. Filled in and marked off all complete items. Took CAN resistances for all networks. Noted traffic. Ran CellR test and determined new CellR initial value. Adjusted cell over and under fault options to match the cells. Used Claude to read the IVT manual and make me a quick reference to avoid intepreting the dense German style documentation. Dug through my old backups and found the for sure correct IVT script which I was keeping comments of serial numbers which I had moved to the checkout sheet loosing my landmark to find the right script. Verified my script against Claude's instructions. Configured IVT for energy and power. Test drove and verified Wh/mile working on the dash. Troubleshot Wh/mile showing up as 4 in the VCU instead of 267 from the IVT. Made backup of calibration and sent to AEM for a burn."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-25 23:28",
-                  "text": "Ran through punch list and checked off several items."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-04-01 00:33",
-                  "text": "Read and responded to AEM email. Flashed new VCU firmware and verified range set to a reasonable number. Updated punch list and sent out to team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-04-02 18:44",
-                  "text": "Plugged in to charge, monitored through the day."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-01 01:44",
-                  "text": "Reviewed the OxDrive Datasheet sent to me by Marc. Added that information to my battery profiles sheet. Updated PackCapacity and Range_SOC_Cal in the calibration and sent it off to AEM for a firmware burn. Flashed the firmware burn. (Speedy response) Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-04 22:44",
-                  "text": "Checked on the full charge and first part of the pack discharge to verify everything looks good. Burned 13.7 kWh over 49 total miles getting down to 58% SOC. Went to change the digital dash to show neutral instead of park on the PRND but needed new image assets. Alex had Dave move the PRND buttons instead. Cleared the logs and downloaded the new dash program. Verified the tire size was the correct diamater and the gear ratio was set correctly. Test drove and checked digital dash against GPS, speed looks fine up to 60mph. Reviewed the partial log to make sure data was coming in correctly. Plotted the data for limiters on the high end of the pack and saved analysis to the drive."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-07 23:27",
-                  "text": "Test drove with Marc all the way from 3.5 down to 3.2 cell min. Adjusted limiters along the way, monitored pack capacity and adjusted up to 36kWh. Sent new calibration off to AEM for a firmware burn. Analyzed logs to visually verify SOC and cell min limiters were kicking in properly. Looked at the heater system. Read the HVAC doc and adjusted the slider inputs to a pull up configuration to match, added in precharge and blower on conditions then plugged in HV and tested working. All looks fine. Marked off in the startup sheet. Flashed firmware burn, left on the charger. Did a thorough write up including limiter plots and updated the punch card. Posted for the team."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-14 20:55",
-                  "text": "reinstall notability where I had previously designed the hvac and gauge diagrams. convert to pdf and include in vehicle documentation."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-18 21:44",
-                  "text": "test driving and assisting with creep/regen adjustments."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-18 21:55",
-                  "text": "Turned on creep mode and added in some reverse torque. Tested under various start stop reverse forward conditions. Test drove with Aharon to verify. Sent firmware out for a burn."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-19 23:26",
-                  "text": "Flashed the firmware burn with adjusted creep settings and charged to the top. Quick test drive to initialize the range changeover. Reviewed notes for any remaining items. Just need the wifi credentials to call this one hands off."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-26 22:08",
-                  "text": "diag and solve radio antenna issue. there was a hidden power wire that had never been connected ( we did not do the install) I connected to the remote output from the head unit and voila. music to the ears."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-26 22:31",
-                  "text": "Entered wifi credentials and verified configuration sync'd. Made backups of the inverter and cleared the AEM logger. Ran through checkout sheet and verified everything complete, posted \"fully complete\" for the team."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-27 21:56",
-                  "text": "post pdi discussion"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-01 16:22",
-                  "text": "Ran through basic tests with Aharon monitoring from CAN / AEMCal. Noticed no control pilot signal and prox out of spec, double checked with dummy plug and verified actual expected behavior on Ivanhoe. BMS master problems expected."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "d80770c31f4c5b73547f77193e64d2ce3d0f12d72c4abd93fee14c01939009e7"
             }
           ]
         },
@@ -261,10 +120,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-05-29 17:52",
                   "text": "Paused due to charger issue. Berke notified, transporters on standby ..."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:15",
+                  "text": "Waiting on go ahead."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6c39b0e28fffda7fa3e76d20c26c3935f9d65c934cde8bf709bab4e3751a7ea2"
+              "content_hash": "f79b961fdb4657691630e637425625e75baf8c7721e1190f7cbb9ae2038724aa"
             }
           ]
         }
@@ -390,7 +254,7 @@
               "done": false
             },
             {
-              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
+              "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
               "done": false
             }
           ],
@@ -404,7 +268,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 14
+        "open_tasks": 15
       },
       "assignees": [
         {
@@ -535,6 +399,58 @@
           ]
         },
         {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868jx2q4a",
+              "name": "Finalize Instrumentation",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jx2q4a",
+              "comments": [],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Troubleshoot speedo issue",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Assess brake indicator light",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "28ac7c03f9da34f61b725f60681b2b39ee586e8b4e9b41a9f88a370722020793"
+            },
+            {
+              "id": "868jxv7zn",
+              "name": "Update EEPROM",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxv7zn",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "163e296b863ba13103ab3c8c6796c8d5d6ee1b4de0f2a71f592261ceeaee5e82"
+            },
+            {
+              "id": "868jxv8qu",
+              "name": "Update VCU firmware",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxv8qu",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-04 22:30",
+                  "text": "Address issue with not being able to enter vehicle weight in the GUI"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "f71bbeca2ce44f5cab9883d6002042654803189357df8be2841563f8944905da"
+            }
+          ]
+        },
+        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -548,10 +464,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-05-29 18:01",
                   "text": "Waiting on go ahead to take to Colvin"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:13",
+                  "text": "Spoke to Lupe and confirmed he can replace the seal. Well order the seal and then contact him when we're ready for him to perform the work."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1433e3259cf06b00afc861df1f72904d75fde7665f596736af8720f115dc7f3b"
+              "content_hash": "37b025f163ebb0157d65296b3f79bd3334cab3a2010e607e9ae29a97eba47d77"
             },
             {
               "id": "868jxmw03",
@@ -564,10 +485,15 @@
                   "author": "Marc Davis",
                   "date": "2026-06-04 15:33",
                   "text": "Lupe (glass):\n- Rear window + rear window seals\n- Vent window (smoker window) seals\n\nTaurus:\n- Windshield upper chrome trim clean/seal\n- Exterior rust spot cleanup and touch-up\n- Cut and buff paint"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:15",
+                  "text": "Spoke to Sean @Taurus about upper windshield seam seal and they can also do the cut and buff when it's ready."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "985658eab28438e1352f9e876d875b5fe440b7b9bd70be2a5557f3a963da444e"
+              "content_hash": "1e2ee042af76deec0ea604044860b4823eeeec24a58500e02f51ab07a9f4fd9a"
             },
             {
               "id": "868jxmvpn",
@@ -580,161 +506,15 @@
                   "author": "Marc Davis",
                   "date": "2026-06-04 15:33",
                   "text": "David Gonzalez:\n- Replace all 4 door cards (water damaged) \u2014 rewrap existing interior on new cards\n- Assess seats \u2014 what can be cleaned vs. re-done"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:14",
+                  "text": "David Gonzalez coming at 10am on Fri 6/5 to review door card and seat refresh."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1da2b9598383d774e604bcf600c09abb0893b078977cb09e3d4a3e34d4d44601"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868frvg01",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868frvg01",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-11 00:12",
-                  "text": "Finished pinning BMS extension cable. Fixed DIP setting on Host #1 and rolled next to vehicle. Jumped HVIL with dummy box. Hooked up logger. Turned on vehicle and checked Raptor-Service for errors, all seemed correct with HV unplugged. Put in ticket with Ampere to review. Checked box with test unit & it passed."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-11 14:07",
-                  "text": "Finished pinning BMS extension cable. Fixed DIP setting on Host #1 and rolled next to vehicle. Jumped HVIL with dummy box. Hooked up logger. Turned on vehicle and checked Raptor-Service for errors, all seemed correct with HV unplugged. Put in ticket with Ampere to review. Checked box with test unit & it passed."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-12 23:03",
-                  "text": "Verified cell voltage readings and transferred checkout details to the checkout sheet. Adjusted RAWADCMAX=32150 on both boxes."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-12 23:04",
-                  "text": "Re-verified battery box #1 after sealing."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2025-11-14 20:08",
-                  "text": "Helped Devin with start up, fan 2 blew a 10amp fuse, swapped to 15amp, HV polarity test on HVCB to CM200, Brake switch fix, can logger SD card and unmount for faster use."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-15 17:43",
-                  "text": "Reviewed VCU configuration & followed along in checkout sheet. No PMU but output's can be checked similarly. Verified both fans. Verified ignition, brake pedal switch, and accel pedal. PRND will need adjustment. Hooked up MSD and key'd on to a Pre-Charge fault. Troubleshot realizing HV was swapped. Rang out all HV and confirmed DC+ and DC- swapped. Setup IVT to measure how much voltage Pre-Charge got to before the VCU faulted out. Measured -250V at the inverter. Corrected the mistake and hooked HV back up. Now having trouble connecting to the VCU. Tried various configurations of laptops, reboots, and Kvaser dongles with no luck. Called Ampere for advice, Andrew seemed to ask way more questions about the heaters and charger than the inverter so I disconnected them from the system and got the Pre-Charge fault to go away. Systematically plugged HV accessories back in until I found the DCDC and only the DCDC was actually causing the error. Left that unplugged. Loaded inverter EEPROM for the correct motor according to the Vehicle Requirements sheet. Spun the motor to verify functionality."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-17 23:26",
-                  "text": "Re-verified all HV accessories. Finished VCU configuration checkout. Re-verified CAN termination. Transferred remainder of BMS checkout to my sheet."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2025-11-18 17:23",
-                  "text": "Tested Aux circuits minus heater bricks."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2025-11-18 23:58",
-                  "text": "replaced Ovar charger with chuter. had to swap brackets back around from chuters config, and add the special m8 stud. used clamps to pinch off cooling, so only the coolant from the charger itself was lost!."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-19 23:51",
-                  "text": "-DCDC LV wired incorrectly, each wire must move over one or a new connector pinned. I have a spare connector on my desk if you go that route.\n-Charger might actually be alright since the DCDC was crashing the CAN bus. Let's set the old one under the car and see if all the leads will reach.\n-Junction box has a blown fuse on the compressor circuit. @Ryan Laurel do we have Littelfuse 0HEV030.ZXISO in stock?\n-Compressor is faulty, dead short measured on the HV inputs. It will need to be replaced.\n-No LV at the battery heater, it may still be good. Check R7(Position D16) and F7( Position D17) in the lower PDU."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-20 23:34",
-                  "text": "Checked the vehicle for completion of the recent changes. Unhooked all HV accessories & key'd on to see if the DCDC was coming online. Looks like it doesn't boot when missing HV, same for the charger. Plugged in HV to the DCDC and saw CAN messages coming in and ~30A of LV current. Plugged in the ChargeByte & setup to test charging. Left HV to the charger unplugged, got VCU charge faults. Plugged in OBC HV and tried charging. Saw ~16A of pack current but the Raptor-Service CAN age was off. Suspected VCU bug / display bug. Continued resolver calibration."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-24 15:37",
-                  "text": "Checked second OBC / DCDC after swapping cables. Verified DCDC output. Verified charging at 220V. Verified motor direction with driveshaft now installed. Setup to test drive & moved vehicle outside. Used Raptor-Service to diag complete vehicle shutdown after driving a few hundred feet. VCU reports inverter overcurrent fault which corresponded with audible clunk. Pushed vehicle back to the lift and found the driveshaft slipping near the welds."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-24 20:50",
-                  "text": "Transferred items from vehicle requirements do to my sheet and made sure vehicle up to date on there. Inverted the IVT to the correct current direction. Tested battery heater to verify functionality after HV mishap. Also verified battery pump. Left on charge for several hours."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-01-27 23:23",
-                  "text": "Label plug above high beams kick switch. Label inverter connection plug.\nVerify HV accessories after polarity swap.\nVerify inverter after HV polarity swap.\nCharge AC system & verify.\nInstall Heater Contactor Controller & commission.\nTune Wilwood brakes.\nWeigh vehicle.\nEvaluate Cell Delta.\nRe-test BMS boxes / verify contactor orientation.\nAdd BMS images to drive.\nFinish power distribution checkout."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-01-27 23:23",
-                  "text": "Organed Peak connector information and ordered some for the Impala and spares. Got back into startup  Reviewed current checkout progress, made sure the calculators were accurate. Transferred critical vehicle requirements into VCU and inverter configurations. Connected to inverter to verify all settings correct, made backups. Connected to Raptor-Service and did the same for the VCU, transferred all VCU configurations to the startup sheet. Added everything I though of along the way to the vehicle punch list and shared with the team. Status 42% To 63%"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-01-30 04:09",
-                  "text": "Hooked back up all the programming cables and opened up the associted software and sheets to get back into startup checkout. Checked as many relay IO as I could before the evening meeting. Drove checkout status from 62% to 70%."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-03 23:26",
-                  "text": "Installed Raptor-Service and transfered license over to my new computer with the New Eagle license transfere utility. Transfered all firmware and display files as well. Setup proper XCP ID that Ampere uses. Verified everything working. Transfered Vehicle Requirements to startup sheet. Added descriptors to the sheet since that section was blank. Verified all CAN networks properly terminated and transfered to sheet, one is not."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-06 21:26",
-                  "text": "Checked battery heater, battery pump, and markes various other channels N/A since they are wired so differently that the checkout sheet doesn't work. Started moving the vehicle out of the bay and had some fuse pop that powers the PRND circuit. Found and replaced that and continued diag on the blown fuse issue. Vehicle is currently red tagged."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-09 22:11",
-                  "text": "Searched Ampere website and tickets for PDU fusing and device locations. Consolidated little informaiton found and started a power distribution sheet for the vehicle. Filled in what I could and tagged Noah to fill in the rest."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-10 22:59",
-                  "text": "Continued discussion with the team over possible fuse failure and solution. Reviewing power schedule provided by Alex."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-13 00:18",
-                  "text": "Correlated Alex's archived doc's to Amperes PDU datasheet and verified remaining power distribution and fuses. Updated VCU firmware and verified configuration afterwards. Updated GUI app version, Dashboard, and XML file. Weighed the vehicle and typed in gear ratio and vehicle weight but that crashes the app. Fiddled with the default app selection and tried boot various times. Tuned the parking brakes and filled in some small checkout sheet items. Ran through punchlist marking off what was now done and posted remaining items in the Slack channel."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-02-13 22:25",
-                  "text": "Verified GUI boot after Noah swapped constant and switched power. Also tried vehicle weight again to get some specifics for Ampere, still crashing. Rolled the GUI app version back to APK 2.5.0 which fixed the crash bug. Input vehicle basics to the GUI and checked they made it to Raptor. Finished up last bits on power distribution and posted the new power schedule for the team to have. Verified DCDC working. Verified polarity for compressor and plugged back in HV accessories. Started up AC compressor and monitored pressures and cycles. Tested L1 and L2 charging, charged till fans kicked on properly. Checked direction on speedo drive box and calibrated to 100mph with gauges program. Can't get the temperature gauge to move, it may havve a wiring problem. Marked off many punch list and startup sheet items. Vehicle ready for pack burn. Changed vehicle tag to green."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-02-19 14:39",
-                  "text": "Start up process percentage at 95%"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-18 22:17",
-                  "text": "Updated VCU firmware and verified all calibration options against checkout sheet. Verified GUI versions and input gear ratio and vehicle weight which is now not showing up in the VCU, reported problem to Ampere."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-03-20 21:22",
-                  "text": "Followed up on Andrews speedy response. Verified GUIType -> Ampere and the was no bug. Responded to ticket."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b78b1fd4e8fbb4e894efc51188d618411841dbc3e5e35fdb376af8bcdb8b0c1a"
-            },
-            {
-              "id": "868jx2q4a",
-              "name": "Troubleshoot speedo issue",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jx2q4a",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
+              "content_hash": "32b9c5a8a5871d6d60ee355c622bbc79c2b04fcc46bd0876a463bb99b7890582"
             }
           ]
         }

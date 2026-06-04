@@ -357,7 +357,7 @@
             "done": false
           },
           {
-            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
+            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
             "done": false
           }
         ],
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-04T22:04:46.696154+00:00",
+  "updated": "2026-06-04T23:38:00.699285+00:00",
   "source": "Google Sheets API"
 }
