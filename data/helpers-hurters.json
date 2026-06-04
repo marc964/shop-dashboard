@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 26.2,
-      "pct_of_total": 13.3,
+      "pct_of_total": 13.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -30,7 +30,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 14.5,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -148,7 +148,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -159,7 +159,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -189,7 +189,7 @@
   ],
   "shop_work": {
     "total_hours": 35.0,
-    "pct_of_total": 17.8,
+    "pct_of_total": 17.6,
     "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
@@ -213,7 +213,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 19.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -296,9 +296,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 124.0,
+    "billable_hours": 126.0,
     "non_billable_hours": 72.8,
     "pto_hours": 29.0,
-    "total_hours": 196.8
+    "total_hours": 198.8
   }
 }
