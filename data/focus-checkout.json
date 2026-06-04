@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T22:07:08.598935Z",
+  "updated_at": "2026-06-04T00:02:38.994713Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -230,9 +230,15 @@
               "status": "Open",
               "list": "Berke 69 Alfa",
               "url": "https://app.clickup.com/t/868jx6fd8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-06-03 23:22",
+                  "text": "-met with Alex to understand what was needed\n-took measurements IRL of clearance underneath plate and of the opening (since it has a powder coat)\n-Designed cover to have captured m8 nuts.\n-Printed out of abs with extra wall loops and >20% infill\nimage.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "9661ca76259440b85c326846a49906afcc9d4e17e2e1ae74a2034ad85b2c2980"
+              "content_hash": "a8170345ad9965087933f1e6a7d95f429f06ffd9c64f3859d771a2bb2be5f599"
             }
           ]
         },
@@ -998,10 +1004,15 @@
                   "author": "Justin Landry",
                   "date": "2026-05-28 20:15",
                   "text": "Brainstorming/game plan"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 22:57",
+                  "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "87563688f3d45c16cfae2338fe75d495c2741d11e4c22db9a0764bce18bf31a9"
+              "content_hash": "996c7e216a84d91665d9990954c54b40321a45d65cb99aa9ceedbacca92b1e0d"
             }
           ]
         },
@@ -1019,10 +1030,15 @@
                   "author": "Justin Landry",
                   "date": "2026-05-28 20:15",
                   "text": "Brainstorming/game plan"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 22:57",
+                  "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "87563688f3d45c16cfae2338fe75d495c2741d11e4c22db9a0764bce18bf31a9"
+              "content_hash": "996c7e216a84d91665d9990954c54b40321a45d65cb99aa9ceedbacca92b1e0d"
             }
           ]
         }
@@ -1504,10 +1520,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-01 15:02",
                   "text": "image (2).png\nFerdman-PRD-Harness-1.1.drawio.pdf"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 23:09",
+                  "text": "Resolved blank 'reverse camera' screen whenever going into reverse. Pulled the \"reverse power\" pin from the GUI extension connector, and taped it back, to prevent the 12V signal from reaching the GUI.\nSearched around and found the solution for the 'Apple Carplay' screen loading forever immediately upon startup. Will attempt to apply tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 23:10",
+                  "text": "*Note: If reverse camera ever needs to be added, the reverse-power pin has been pulled from the GUI extension cable (labeled) under the rear seat. Peel back the sheathing and it's there."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7f06fbe8c99dc203e321f720ead7aaf03b43611e420bcdde40c2e0b8775d6d34"
+              "content_hash": "7de7f73fa03be8498204c66b6be09b6ce6c99b0d99f3a5e105d4d561c70420b9"
             },
             {
               "id": "868jum9jd",
@@ -1540,10 +1566,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-05-29 21:49",
                   "text": "Audio interference while in R/D (high pitched noise).\nTraced the issue to the RCA cable run (it's a long run).\u00a0 The inline filters we used on the Healy did help, they did reduce the static.\u00a0 Tried running a ground between the GUI and the case, no effect. Digging deeper into the reviews of the cables I bought (Crutchfield mid-grade) I found a few complaints of a interference which was resolved by replacing the cables. Due to the extreme lack of serviceability of the GUI module assembly, I am going to try one more thing (ferrite beads) before pulling the GUI module and replacing the RCA cables.. Running shielded/twisted RCA cables will require a minor GUI redesign.\nThe FM radio reception was very poor. I added power/ground extensions to the with the remote antenna and experimented with location. Found a spot where it seems to pick up everything to an acceptable level. Re-mounted and routed the harness to the new location and this at least is done.\nAdded motor ground cable (4awg, to ground lug for harness) to see if interference reduced. No change."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-03 22:48",
+                  "text": "Experiemented with different Ferrite bead combinations. Able to find a combination of locations/sizes that reduced interference to an acceptable level, when combined with noise reducers on the RCA circuits.\nTest drove, drive and reverse, from the front seat no excessive inverter noise."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "fbf4c1ada76aece248867ff8dbadbb07ebde389e5054b26c73b254e90b29cca8"
+              "content_hash": "1ddc09c89e9c65f68666e561cce1c3d4d08a32e65b8de2d05f9fcac549ee321c"
             },
             {
               "id": "868jqn2ge",
