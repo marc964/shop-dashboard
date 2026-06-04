@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T09:02:21.321800Z",
+  "updated_at": "2026-06-04T12:12:47.124758Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -411,9 +411,15 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jdhmvv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:54",
+                  "text": "Waiting On parts From Marshal"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "86fd7c575123cd8366835229578259cdd239bfbe99049fb07072ddabb7a38284"
+              "content_hash": "0f7de6facc6faf5f6c62b12a0acf0bb941949b3836b99032a761b2238604739a"
             },
             {
               "id": "868jqp096",
@@ -421,9 +427,15 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jqp096",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:54",
+                  "text": "Waiting for Ryan/Alex to have a meeting breaking down what Colvin's will do, and what we will do."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b0df54d6c33e51e208fc2a3a794468d9078edacac9478d0aede4e82f02b734f8"
+              "content_hash": "49562d0ef06029600469bcfd7a917d3390312bc63f13476e32188efcb162bf08"
             },
             {
               "id": "868jqp0cd",
@@ -431,9 +443,15 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jqp0cd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:54",
+                  "text": "Waiting for Ryan/Alex to have a meeting breaking down what Colvin's will do, and what we will do."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8ee86638069bef2bd66fa6515fcbe7a2407adddb07d47c1a6df30fa6d100a0c9"
+              "content_hash": "264490ba608bbe4bba17c043835cefb183438cbbee4ff80ed1ad77b053d40575"
             },
             {
               "id": "868jqnyzr",
@@ -441,9 +459,15 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868jqnyzr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:52",
+                  "text": "waiting to do this until after Colvin's does the Rear Windshield"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5d2680b9ed130b059755638e81d981c2157b28c04e3a9ed7111603193c3f9548"
+              "content_hash": "7c038d9de034b2a5920192d63df4bdd9465a7534b4c8b7367574f629ff97a482"
             },
             {
               "id": "868jdhjpm",
@@ -461,10 +485,15 @@
                   "author": "Noah Sharif",
                   "date": "2026-06-03 11:57",
                   "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/a370abe8-0742-46d0-aaa6-0ba826a1cd40/20260603_063703.mp4?view=open"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:55",
+                  "text": "This is now in Devin's wheel house, i need him to get into VCU software and see what we can find out as to why this isn't working now. AS stated yesterday, I've done all i can."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8e6abf5a7eda47f797460762fc7afd2c4cfb7948198c57e9bec0f213192ef1a4"
+              "content_hash": "58506ba95cd4325dc3cd624a5b30c80da44605c0755405a33517baea30bc772c"
             }
           ]
         },

@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 26.2,
-      "pct_of_total": 14.0,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -30,7 +30,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 14.5,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -49,7 +49,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 11.0,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -68,7 +68,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 8.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -180,9 +180,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 32.8,
+    "total_hours": 33.0,
     "pct_of_total": 17.5,
-    "avg_per_person_per_day": 1.02,
+    "avg_per_person_per_day": 1.03,
     "flagged": true,
     "tech_count": 8,
     "working_days": 4,
@@ -193,7 +193,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 13.8
+        "hours": 14.0
       },
       {
         "label": "Personal Meetings",
@@ -288,9 +288,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 116.5,
-    "non_billable_hours": 70.5,
+    "billable_hours": 117.5,
+    "non_billable_hours": 70.8,
     "pto_hours": 29.0,
-    "total_hours": 187.0
+    "total_hours": 188.2
   }
 }
