@@ -1042,29 +1042,21 @@
             "done": true
           },
           {
-            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.\n\n2026-04-28: The DashBox code base will need to be modified to use the ampere can definitions. Since there's no AEM dash checking set points that code will have to be worked back into the. The speed Gage does not work but is currently completely outside of the DashBox code.",
-            "done": false
+            "text": "2026-04-23: Determine analog gauge progress, location of firmware development files. Finish development and validate.\n\n2026-04-28: The DashBox code base will need to be modified to use the ampere can definitions. Since there's no AEM dash checking set points that code will have to be worked back into the. The speed Gage does not work but is currently completely outside of the DashBox code.\n\n2026-05-03: Resolved. Compleated and verified.",
+            "done": true
           },
           {
-            "text": "2026-04-23: Complete the pack burn and any additional road testing desired.",
-            "done": false
+            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.\n\n2026-04-28: Part one has been completed and the logs have been submitted to Ampere. Waiting on response from Ampere about what to adjust for trial two.\n\n2026-06-03: Resolved. BMS firmware flashed to all three boxes and thermistor filters setup.",
+            "done": true
           },
           {
-            "text": "2026-04-23: Perform Ampere BMS road testing per guide instructions.\n\n2026-04-28: Part one has been completed and the logs have been submitted to Ampere. Waiting on response from Ampere about what to adjust for trial two.",
-            "done": false
-          },
-          {
-            "text": "2026-04-28: The driver side mirror is loose and jiggles around.",
-            "done": false
-          },
-          {
-            "text": "2026-04-28: The JEGS speed box doesn't seem to connect To any satellites for the GPS function.",
-            "done": false
+            "text": "2026-04-28: The driver side mirror is loose and jiggles around.\n\n2026-06-03: Resolved.",
+            "done": true
           }
         ],
-        "total": 8,
-        "done": 1,
-        "open": 7
+        "total": 6,
+        "done": 4,
+        "open": 2
       }
     },
     {
@@ -1591,6 +1583,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-03T00:27:51.372160+00:00",
+  "updated": "2026-06-04T01:42:55.828611+00:00",
   "source": "Google Sheets API"
 }
