@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T18:03:42.445817Z",
+  "updated_at": "2026-06-04T20:26:12.216042Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1203,53 +1203,12 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 19
+        "open_tasks": 16
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
-            {
-              "id": "868jqn5m1",
-              "name": "Address AC compressor noise issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn5m1",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 20:56",
-                  "text": "Claude's input:\nLet me dig into the comments on the most relevant tasks for the actual fixes.Here's what's turned up from other Ampere builds with similar AC complaints. The Kelly 63 Corvette job is the closest match to what you're seeing, and there are useful breadcrumbs from a few others.\nKelly 63 Corvette \u2014 the most directly relevant case (Aharon)\nInitial symptom was high-side pressure way too high \u2014 same family of problem you have. What they found and fixed, in order:\nPressure sensor wiring swapped. Signal and ground were reversed on the high-side pressure switch connector. Aharon repinned it and upgraded to the newer-style connector. This alone causes wildly wrong pressure readings to the VCU and would explain a fan that only triggers at unrealistic gauge values.\nBad pressure sensor reading. Earlier, Billy and Devin swapped the sensor and saw \"weird readings\" even with no pressure on it. Devin sent results back to Ampere. Worth eyeballing what the Ampere kPa readout says vs your manifold gauge.\nCondenser/drier restriction. Billy noted the gauge high-side before the condenser was high, but Ampere read ~115 psi lower after the condenser. They confirmed by trying to pull a vacuum and not being able to draw the high side down without opening a valve. Cross-checked against the Zero Labs Bronco, which only drops 2\u20134 psi across the condenser. They cleared blockages by blowing lines and the drier out with nitrogen, then replaced the drier.\nCharge level. Final fill was 1.75 lb (Vintage Air recommendation is 1.8 lb). After all the above, \"pressures always looked good\" on a 30-min drive and 1.5 hr of running.\nKelly 63 Corvette \u2013 Troubleshoot AC issues\nVargas 66 Mustang \u2014 condenser fan didn't cycle (Justin)\nVacuum and nitrogen test were clean, filled to 1.8 lb, system came on with the Vintage Air switch, but fans did not cycle \u2014 flagged as a config issue for Devin to fix in the Ampere setup. Confirms that the fan on/off trigger pressures live in Ampere config and need to be set correctly per car. 300 psi on / 250 psi off is wildly outside spec and points strongly at either bad config values or bad sensor data feeding good config.\nVargas 66 Mustang \u2013 Charge and test system\nMcDonough 77 Esprit \u2014 fan tuning (David)\nDavid explicitly logged \"Continued HVAC tuning w/ Devin to achieve desired refrigerant pressures & condenser fan on/off temps.\" Earlier he had condenser fans running all the time at only 1.2 lb charge. Confirms the fan thresholds are tuned per build with Devin.\nMcDonough 77 Esprit \u2013 Charge and test AC system\nBarton 59 Impala \u2014 schrader valve and reassurance (Noah)\nSystem tested out at 25/175 psi, ~45\u00b0F vent in the shop, filled to 1.25 lb. They \"thought we had an issue\" with cycling, but after a few dozen cycles found nothing wrong. Also note: a loose low-side schrader valve was found and snugged \u2014 worth checking on yours since a slow leak skews the equilibrium.\nBarton 59 Impala \u2013 Charge and test system\nYour own Ferdman 66 Bus \u2014 for context\nYou filled to 1 lb 6 oz, found a mis-pinned heater contactor, and already flagged \"cycling a bit. May need tuning.\"\nFerdman 66 Bus \u2013 Charge and test system\n---What this points to for your current Ampere\nYour fan-on/off pressures (300/250 psi) are not normal trigger points \u2014 those are catastrophic-protection numbers, not control numbers. Two things are most likely going on, possibly together:\nBad high-side pressure data into the VCU. Either the pressure sensor signal/ground are swapped at the connector (Kelly Corvette fix) or the sensor itself is reading low \u2014 both will keep the fan from triggering until real pressure is sky-high. Compare your manifold gauge reading to the Ampere kPa readout right now; if there's a big delta (Kelly had 115 psi delta), that's the smoking gun.\nCondenser or drier restriction. A real pressure drop across the condenser of more than a few psi means flow restriction. You can replicate Billy's test: shut it down, try to pull the high side into vacuum. If you can't draw it down without opening the manifold valve, there's a blockage. Reference Bronco was 2\u20134 psi drop across the condenser.\nSecondary things to check based on history: condenser fan PMU output configuration (Devin owns this \u2014 has been a config issue on Vargas Mustang and Esprit), low-side schrader valve tightness (Barton Impala), and overall charge weight vs Vintage Air's 1.8 lb spec.\nRecommend looping in Devin and Aharon \u2014 they're the ones who closed the Corvette case and own the Ampere fan-pressure configuration.\nSources:\nKelly 63 Corvette \u2013 Troubleshoot AC issues\nVargas 66 Mustang \u2013 Charge and test system\nMcDonough 77 Esprit \u2013 Charge and test AC system\nBarton 59 Impala \u2013 Charge and test system\nFerdman 66 Bus \u2013 Charge and test system"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 20:57",
-                  "text": "I looked at the pressures with the system running. Seems to me the condenser fan window isn't quite right. I'm seeing the condenser fan only kick on at 300psi and shut off at 250psi. Seems to me it's kicking on way too late and shutting off way too early. Unless I'm mistaken, the fan should pretty almost be running constantly if the A/C is running? @Devin DuMont can we compare what the VCU thinks the pressure is, vs the actual pressure? And double-check the set-points for the condenser fan?\u00a0(edited)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 20:57",
-                  "text": "Just for posterity:\nSystem is charged to 1lb6oz.\nCondenser shows a 30F drop across it while the fan is running.\nDrier was opened and installed only a few minutes before the system was vacuumed and filled, so it's unlikely to be the drier."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 21:00",
-                  "text": "Will double-check VCU setpoints with @Devin DuMont tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 02:14",
-                  "text": "image.png\nWith @Devin DuMont, adjusted setpoints to Vintage Air setpoints. Instead of 300-250, fan will kick on at 250psi, and turn off at 180psi. This allows for less cycling. Tested extensively (indoors only). Behavior as expected: Highside pressure rises, fan kicks on, pressure drops, fan turns off, pressure rises, etc...\n\nCompressor has an 'off' or 'on' function currently, per Devin it cannot easily be ramped.\n\nWhen evap gets too cold (begins to freeze), the compressor cuts off as the vintage air \"AC request\" signal cuts off.\n\nCycling and pressures all appear normal. Noise is a function of bracket location and is not too excessive."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 21:48",
-                  "text": "After AC tuning with Devin:\nAC sounds fine when actually driving, and the fan is cycling a lot less now that we've widened the condenser fan window.. compressor itself seems quieter though we did not (could not) lower the RPM without Andrew's help... I did loosen and space out the brackets but I didn't find any contact anywhere. It seems either the unit isn't working so hard now, or it just broke in a little bit.\u00a0 I'll leave @Marc Davis to determine if it's acceptable. It's ice cold. Some condensation accumulating on the evap case, but I added insulation to the metal fittings behind and after running for 20 minutes in the heat and everything sounds good and there is not evap case condensation anymore."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f6e5c22a594fd2fc3363dc221e4d11199411b289a14f1b3d3fe1e49ecc1668c5"
-            },
             {
               "id": "868hjy6ch",
               "name": "Address wheel clearance issue",
@@ -1300,52 +1259,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3aa4f46ce804b9912fe049465e817b14cfdbc6c6de4ebbcc00778f8fcc24cd55"
-            },
-            {
-              "id": "868e45qwn",
-              "name": "Charge and test system",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868e45qwn",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-15 21:22",
-                  "text": "Removed 'mockup' dryer and installed new dryer/sensor in preparation for vacuum/testing.\nPulled vacuum (-30 in/hg), ran pump for 10 minutes to remove any impurities.\nShut off an observed vacuum drop over a 30 minute period: no issues found."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-15 23:25",
-                  "text": "Waiting for startup to complete testing."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-15 23:25",
-                  "text": "Filled with nitrogen to 300psi.\nLet sit for 30 minute: no measurable drop.\nFilled with new refrigerant. Added 1lb 6oz of liquid."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-20 15:32",
-                  "text": "@Devin DuMont has turned off all HVAC PMU outputs for now, until he can configure, but AC blower and heater blower were working on startup."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-20 20:27",
-                  "text": "HVAC functional after discovering a mis-pin on the heater contactor.\nAC blowing cold (32F)\nHeater blowing hot (112F - could go higher given a little more time).\nTested out the AC for 15 minutes in the heat - still blowing cold.\nVintage-air blower had a loud noise when on initial startup that immediately went away- perhaps a loose nut or something inside? Will need to investigate if it reappears.\nCompressor sounds a little bit louder than I'd expect, and quiets down when the mounting bracket is manipulated. Clearance is very tight, possible some minor adjustment required. Will investigate."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-20 21:21",
-                  "text": "Added clearance on mounting bracket, but still noisy. Also cycling a bit. May need tuning."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 21:56",
-                  "text": "Tested in the sun.\nCold, no leaks."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "8f12803b97316ddf883a266ce813fc91011f78cc8c2a68053923242e58bfbb75"
             },
             {
               "id": "868hgu3ee",
@@ -1627,47 +1540,6 @@
               ],
               "checklist_items": [],
               "content_hash": "7de7f73fa03be8498204c66b6be09b6ce6c99b0d99f3a5e105d4d561c70420b9"
-            },
-            {
-              "id": "868jum9jd",
-              "name": "Troubleshoot audio system",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jum9jd",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-28 19:24",
-                  "text": "Issue:\nWhen in R or D (inverter in PWM mode), high-pitched interference noise comes from speakers.\n\nDiagnosis:\nBeginning of diagnosis:\nNoise isolated to rear.\nChannel 1/2 and 3/4 filter settings both set to off.\n\nAttempted to snuff with inline filters - no change.\nGroudned inline filters per instructions - some modulation, but not eliminated.\nTraced rear interference noise to channel 3 (nominally rear left)\nNoise persists no matter which RCA input or filter unit is attached.\nNoise changes speakers if L and R outputs are swapped.\nTherefore, issue appears to be related to channel 3 input specifically.\n\nTrimmed and reinstalled ends of speakers where they go into amp - poor condition. No change."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-28 19:35",
-                  "text": "Ordering an iphone-to-RCA adapter to eliminate the RCA cable length/style as the issue, one less variable.\nOrdering ferrite filters as an experiment.\nMaterial matters more than size\nType 31 mix \u2014 best for 1\u2013300 MHz, but also reasonably effective down to ~1 MHz. Good general-purpose choice for mixed noise.\nType 43 mix \u2014 the workhorse. Effective from ~25 MHz to 300 MHz. Most clamp-on chokes you'll find at car audio shops are Type 43.\nType 75 or 77 mix \u2014 better for lower frequencies (~10 kHz to 1 MHz). This is what you actually want for inverter switching noise on power lines.\nType 61 \u2014 higher frequency stuff, less useful here.\nFor a Hyper9/X1 setup, I'd reach for Type 31 or Type 75 mix for the 12V power lines feeding the amp, and Type 43 for the RCA signal lines.\nPhysical size \u2014 match to the cable\nThe cable should fit snugly through the bore. Air gaps kill effectiveness.\nRCA cables (5\u20137mm OD): Fair-Rite 0431164281 (Type 43, ~0.5\" ID) or similar small clamp-ons. Wrap the RCA through it 2\u20133 times if you have slack \u2014 each pass through multiplies impedance by N\u00b2.\nAmp +12V power (4\u20138 AWG, 10\u201315mm OD): Larger clamp-ons like Fair-Rite 0431167281 or 0443167251. For really fat power cables, look at the W\u00fcrth 742 711 32 or DigiKey's larger split-core options."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 15:21",
-                  "text": "Also repaired cracked speaker box panel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 15:57",
-                  "text": "Installed standalone RCA audio dongle (direct to phone). Both front and rear speakers were silent - indicates issue is the RCA cables.\nThese are the RCA cables installed:\nwww.crutchfield.com/p_007CMER217/Crutchfield-Reference-2-Channel-RCA-Patch-Cables-17-foot.html?tp=1694 \n Artur (Crutchfield) recommends moving the RCA cables away from the headunit power cable.\nHe also says these cables have much better shielding:www.crutchfield.com/p_120V16R172/T-Spec-Premium-RCA-Cable-17-foot.html?tp=1694 \n \nMight be a solution."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 21:49",
-                  "text": "Audio interference while in R/D (high pitched noise).\nTraced the issue to the RCA cable run (it's a long run).\u00a0 The inline filters we used on the Healy did help, they did reduce the static.\u00a0 Tried running a ground between the GUI and the case, no effect. Digging deeper into the reviews of the cables I bought (Crutchfield mid-grade) I found a few complaints of a interference which was resolved by replacing the cables. Due to the extreme lack of serviceability of the GUI module assembly, I am going to try one more thing (ferrite beads) before pulling the GUI module and replacing the RCA cables.. Running shielded/twisted RCA cables will require a minor GUI redesign.\nThe FM radio reception was very poor. I added power/ground extensions to the with the remote antenna and experimented with location. Found a spot where it seems to pick up everything to an acceptable level. Re-mounted and routed the harness to the new location and this at least is done.\nAdded motor ground cable (4awg, to ground lug for harness) to see if interference reduced. No change."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 22:48",
-                  "text": "Experiemented with different Ferrite bead combinations. Able to find a combination of locations/sizes that reduced interference to an acceptable level, when combined with noise reducers on the RCA circuits.\nTest drove, drive and reverse, from the front seat no excessive inverter noise."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "1ddc09c89e9c65f68666e561cce1c3d4d08a32e65b8de2d05f9fcac549ee321c"
             },
             {
               "id": "868jqn2ge",

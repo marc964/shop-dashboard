@@ -986,24 +986,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Ivanhoe",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Checkout",
-      "checkout": 43.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
       "make": "Austin",
       "model": "Healey",
       "status": "Checkout",
-      "checkout": 28.5,
+      "checkout": 47.0,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1011,7 +1000,7 @@
         },
         {
           "label": "Inverter",
-          "value": 0
+          "value": 97.2
         },
         {
           "label": "PMU",
@@ -1019,7 +1008,7 @@
         },
         {
           "label": "Raptor",
-          "value": 89.1
+          "value": 90.9
         },
         {
           "label": "Functional",
@@ -1058,6 +1047,17 @@
         "done": 4,
         "open": 2
       }
+    },
+    {
+      "owner": "Ivanhoe",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "Checkout",
+      "checkout": 43.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Kelly",
@@ -1583,6 +1583,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-04T18:02:45.159874+00:00",
+  "updated": "2026-06-04T20:25:21.168843+00:00",
   "source": "Google Sheets API"
 }
