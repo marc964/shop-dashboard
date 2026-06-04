@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T12:12:47.124758Z",
+  "updated_at": "2026-06-04T15:46:16.263025Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -399,7 +399,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 10
+        "open_tasks": 14
       },
       "assignees": [
         {
@@ -454,6 +454,38 @@
               "content_hash": "264490ba608bbe4bba17c043835cefb183438cbbee4ff80ed1ad77b053d40575"
             },
             {
+              "id": "868jxmvy7",
+              "name": "Exterior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvy7",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "- New side mirror with proper stainless hardware\n- New hood lip moldings to match new turn signal end trim pieces \u2014 https://www.ebay.com/itm/297509070167\n- Rear quarter window seals\n- Front and rear bumpers \u2014 re-chrome originals (Ryan will send to our guy)\n- Recondition police lights"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "29c88a4c3ca74afa1938b06de2a8ec54dab4a77206774eeaa140ca9295fb4369"
+            },
+            {
+              "id": "868jxmvwy",
+              "name": "Interior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvwy",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "- Replace all interior screws with stainless steel hardware\n- New dome light covers\n- New coat hooks (rear)\n- New door lock knobs\n- New carpet kit (interior + trunk)\n- New Fisher Body sill plates once carpet is in \u2014 https://mkgarageinc.com/products/1959-1960-chevy-impala-bel-air-biscayne-hardtop-or-convertible-2-door-door-sill-plates-new?variant=42077312254031\n- Install package tray"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "af6c122825c4b8259a9ba3c34d9700f2959eb27e936a0994315d758c7306dded"
+            },
+            {
               "id": "868jqnyzr",
               "name": "Replace package tray",
               "status": "Open",
@@ -494,6 +526,59 @@
               ],
               "checklist_items": [],
               "content_hash": "58506ba95cd4325dc3cd624a5b30c80da44605c0755405a33517baea30bc772c"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jqp01u",
+              "name": "Coordinate re-sealing of rear window",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jqp01u",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 18:01",
+                  "text": "Waiting on go ahead to take to Colvin"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1433e3259cf06b00afc861df1f72904d75fde7665f596736af8720f115dc7f3b"
+            },
+            {
+              "id": "868jxmw03",
+              "name": "Exterior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmw03",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "Lupe (glass):\n- Rear window + rear window seals\n- Vent window (smoker window) seals\n\nTaurus:\n- Windshield upper chrome trim clean/seal\n- Exterior rust spot cleanup and touch-up\n- Cut and buff paint"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "985658eab28438e1352f9e876d875b5fe440b7b9bd70be2a5557f3a963da444e"
+            },
+            {
+              "id": "868jxmvpn",
+              "name": "Interior refresh",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvpn",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "David Gonzalez:\n- Replace all 4 door cards (water damaged) \u2014 rewrap existing interior on new cards\n- Assess seats \u2014 what can be cleaned vs. re-done"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1da2b9598383d774e604bcf600c09abb0893b078977cb09e3d4a3e34d4d44601"
             }
           ]
         },
@@ -645,27 +730,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "bbf48580188822445536cf3fe7ec00bc1e79b553367a365675aba598db1eb57d"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jqp01u",
-              "name": "Coordinate re-sealing of rear window",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jqp01u",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 18:01",
-                  "text": "Waiting on go ahead to take to Colvin"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "1433e3259cf06b00afc861df1f72904d75fde7665f596736af8720f115dc7f3b"
             }
           ]
         }
