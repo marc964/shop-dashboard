@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T20:26:12.216042Z",
+  "updated_at": "2026-06-04T22:05:46.659328Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -52,10 +52,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-06-03 21:23",
                   "text": "Replaced connectors on both the low side and high side of the charger. Installed the charge plate and ran continuity testing throughout \u2014 end to end, pin to pin, and pin to ground. Installed the battery with continued testing at each step, then moved to the contactor box, connecting the HVAC, DC-DC, and HV charger.\nPulled the box and charge plate back off to do a temporary full system hookup (battery box not mounted) and tested charging and vehicle function end to end.\u00a0Everything tested OK.\nWrapped up by removing the battery box and charge plate. Need to get with Marshal to design a plug for the old fan hole and wait on the print.\nTomorrow:\u00a0Should be buttoned back up first thing once the plug is ready."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-04 21:12",
+                  "text": "final reassembly and testing. good to go!\ninstalled the printed block off plate\n reinstall charge plate\nreinstall 12v battery\ntake the time to secure the charging wires on the parcel shelf\nreinstall the battery box and mounts etc.\nconnect evertyhitng\ntest car\nOK!"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1a27ad3b7a560279f64985f4e6c05cd3d871a213608ec885db80fdfc9d9f8d27"
+              "content_hash": "3c2deb88a2f8a4a846b516edfc67ccfa7e6abdc688709f90eaba0e5b2aa0f4ec"
             }
           ]
         },

@@ -23,6 +23,81 @@
       "system": "AEM"
     },
     {
+      "owner": "Vargas",
+      "year": 1966,
+      "color": "Red",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Shipped",
+      "checkout": 93.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 94.5
+        },
+        {
+          "label": "Functional",
+          "value": 66.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
+            "done": true
+          },
+          {
+            "text": "Verify Fast Charging",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": true
+          },
+          {
+            "text": "Get GUI To Boot Properly.",
+            "done": false
+          },
+          {
+            "text": "Verify no CCS errors with Raptor.",
+            "done": true
+          },
+          {
+            "text": "Update firmware and adjust vehicle weight in VCU.",
+            "done": true
+          }
+        ],
+        "total": 9,
+        "done": 8,
+        "open": 1
+      }
+    },
+    {
       "owner": "Buck",
       "year": 1971,
       "color": "Red",
@@ -161,81 +236,6 @@
         ],
         "total": 10,
         "done": 9,
-        "open": 1
-      }
-    },
-    {
-      "owner": "Vargas",
-      "year": 1966,
-      "color": "Red",
-      "make": "Ford",
-      "model": "Mustang",
-      "status": "Shipped",
-      "checkout": 92.6,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 94.4
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 94.5
-        },
-        {
-          "label": "Functional",
-          "value": 66.7
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
-            "done": true
-          },
-          {
-            "text": "Verify Pack Burn Data",
-            "done": true
-          },
-          {
-            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
-            "done": true
-          },
-          {
-            "text": "Verify Fast Charging",
-            "done": true
-          },
-          {
-            "text": "Verify Pack Burn Data",
-            "done": true
-          },
-          {
-            "text": "Verify Wi-Fi logger connectivity.",
-            "done": true
-          },
-          {
-            "text": "Get GUI To Boot Properly.",
-            "done": false
-          },
-          {
-            "text": "Verify no CCS errors with Raptor.",
-            "done": true
-          },
-          {
-            "text": "Update firmware and adjust vehicle weight in VCU.",
-            "done": true
-          }
-        ],
-        "total": 9,
-        "done": 8,
         "open": 1
       }
     },
@@ -992,7 +992,7 @@
       "make": "Austin",
       "model": "Healey",
       "status": "Checkout",
-      "checkout": 47.0,
+      "checkout": 49.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1008,7 +1008,7 @@
         },
         {
           "label": "Raptor",
-          "value": 90.9
+          "value": 100
         },
         {
           "label": "Functional",
@@ -1041,11 +1041,19 @@
           {
             "text": "2026-04-28: The driver side mirror is loose and jiggles around.\n\n2026-06-03: Resolved.",
             "done": true
+          },
+          {
+            "text": "Has an older GUI",
+            "done": false
+          },
+          {
+            "text": "weigh vehicle",
+            "done": false
           }
         ],
-        "total": 6,
+        "total": 8,
         "done": 4,
-        "open": 2
+        "open": 4
       }
     },
     {
@@ -1583,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-04T20:25:21.168843+00:00",
+  "updated": "2026-06-04T22:04:46.696154+00:00",
   "source": "Google Sheets API"
 }
