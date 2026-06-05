@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 34.8,
-      "pct_of_total": 14.0,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -38,7 +38,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 17.0,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -61,7 +61,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 14.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -204,9 +204,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 45.2,
-    "pct_of_total": 18.3,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 46.2,
+    "pct_of_total": 18.5,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
@@ -221,7 +221,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 7.2
+        "hours": 8.2
       },
       {
         "label": "Other",
@@ -233,7 +233,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 22.5,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -327,9 +327,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 147.2,
-    "non_billable_hours": 100.5,
+    "billable_hours": 148.8,
+    "non_billable_hours": 101.5,
     "pto_hours": 37.0,
-    "total_hours": 247.8
+    "total_hours": 250.2
   }
 }
