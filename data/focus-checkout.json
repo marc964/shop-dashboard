@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T01:55:11.862520Z",
+  "updated_at": "2026-06-05T06:25:41.512836Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -887,10 +887,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-03 22:57",
                   "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-05 01:58",
+                  "text": "Preheim-AdhesiveThermistor.drawio.png\nScreenshot 2026-06-04 135735.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-05 01:58",
+                  "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "996c7e216a84d91665d9990954c54b40321a45d65cb99aa9ceedbacca92b1e0d"
+              "content_hash": "9882c4b79b34afda034d6c89221b4686562e9f9ddd7d1fc0b6d0a016bbd1cf23"
             }
           ]
         },
@@ -913,10 +923,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-03 22:57",
                   "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-05 01:58",
+                  "text": "Preheim-AdhesiveThermistor.drawio.png\nScreenshot 2026-06-04 135735.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-05 01:58",
+                  "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "996c7e216a84d91665d9990954c54b40321a45d65cb99aa9ceedbacca92b1e0d"
+              "content_hash": "9882c4b79b34afda034d6c89221b4686562e9f9ddd7d1fc0b6d0a016bbd1cf23"
             }
           ]
         }

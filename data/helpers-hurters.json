@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 34.8,
-      "pct_of_total": 14.6,
+      "pct_of_total": 14.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -38,7 +38,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 17.0,
-      "pct_of_total": 7.2,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -61,7 +61,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 14.5,
-      "pct_of_total": 6.1,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -80,7 +80,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -107,7 +107,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 11.0,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -126,7 +126,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 8.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -141,7 +141,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 7.8,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -164,7 +164,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -175,7 +175,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -186,7 +186,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 6.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -204,24 +204,28 @@
     }
   ],
   "shop_work": {
-    "total_hours": 41.8,
-    "pct_of_total": 17.6,
-    "avg_per_person_per_day": 1.04,
+    "total_hours": 45.2,
+    "pct_of_total": 18.3,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 17.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 18.2
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 17.2
+        "label": "Shop Meetings",
+        "hours": 17.8
       },
       {
         "label": "Personal Meetings",
         "hours": 7.2
+      },
+      {
+        "label": "Other",
+        "hours": 2.0
       }
     ]
   },
@@ -229,7 +233,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 22.5,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -241,9 +245,20 @@
       ]
     },
     {
+      "project": "Shah 65 Mustang",
+      "total_hours": 8.0,
+      "pct_of_total": 3.2,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 8.0
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 7.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -254,7 +269,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.0,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -269,7 +284,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 5.0,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -280,7 +295,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 3.8,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -300,17 +315,6 @@
       ]
     },
     {
-      "project": "Shah 65 Mustang",
-      "total_hours": 1.0,
-      "pct_of_total": 0.4,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Barton 59 Impala",
       "total_hours": 1.0,
       "pct_of_total": 0.4,
@@ -324,8 +328,8 @@
   ],
   "totals": {
     "billable_hours": 147.2,
-    "non_billable_hours": 90.0,
+    "non_billable_hours": 100.5,
     "pto_hours": 37.0,
-    "total_hours": 237.2
+    "total_hours": 247.8
   }
 }
