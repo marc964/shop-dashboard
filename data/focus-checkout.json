@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T13:44:19.785001Z",
+  "updated_at": "2026-06-05T16:20:56.488416Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,50 +20,9 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868jurc9u",
-              "name": "Troubleshoot charger issue",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868jurc9u",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-05-29 22:06",
-                  "text": "full on diag attack with Devin. testing multiple plugs, testing against the Gtv, etc etc. ended up removing the rear box and changing plate to find the connectors had either fallen off and arced on the dc side when they did so. or they were blown off. tbd.\nafter removal of the rear box. as I was lifting up the charge plate to inspect the charger itself I found both high voltage connectors undone and laying next to it. charge port connector and DC conbox connector.\nthe conbox side appears to have either been blown off or at least arced when it finally fell off.\nmy running theory now is that both high voltage connectors were very loosely connected, just enough to let everything work and charge but slowly working their way off. when I sat in the car it finally moved it just enough to knock the DC side off which arced and pulled the charge port side off with it as the harnesses are touching each other where they live in the charging area.\nnow, my only issue is why there was power. im wondering if we somehow had a calibration in it that left the charger contactor on at all times? or if the contactor failed last charge cycle and failed closed? not sure yet."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-01 22:34",
-                  "text": "Removed the failed charger from the vehicle. Confirmed both fuses in the contactor box are intact. Reviewed AEM Contactor Box wiring diagram with Alex and confirmed the existing wiring appears correct. perform multiple tests between wiring and ground and eachother. everything checks out ok. reconnect everything and when installing the rear box amphenol, essentially completing the circuit, the charger plugs blew off again. confirming it was not my mistake in leaving them loose, the charger has failed somehow inside and had a short. remove all and check values on bad charger. will include a photo of these values.\n\nPlan for tomorrow:\u00a0New charger (EV West HK-LF-312-20), 30A inline fuse holder, and fuse are on the way. Upon arrival: cut old connector, install inline fuse, fit new connectors to both AC and DC ports. Install all components except the charger first, then perform voltage checks on the charge port side to confirm normal readings. Once confirmed, connect the charger and test HV charging."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-02 23:36",
-                  "text": "Installed the drain into the bottom of the charger tray. Upon receiving the replacement charger and disassembling the old one, found what appears to be a condensation vent on top that had been blown out \u2014 likely from a short inside the unit. This confirmed our suspicion of water ingress.\nThe vent sits in a recessed bowl that the fan channels air into, but the way we had the charger mounted turned that bowl into a water trap. Per the manufacturer instructions, that mounting orientation is explicitly listed as \"forbidden\" \u2014 so that explains a lot.\nChanged the mounting orientation. Used the original bracket with spacers to mark hole locations on the fuel tank, cut the tank, fabricated steel standoffs, cleaned and painted them, then reinstalled the charger in the correct orientation with a weather seal around the fan hole cutout.\nTomorrow:\u00a0bad connector removal, new connector install, testing throughout."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-03 21:23",
-                  "text": "Replaced connectors on both the low side and high side of the charger. Installed the charge plate and ran continuity testing throughout \u2014 end to end, pin to pin, and pin to ground. Installed the battery with continued testing at each step, then moved to the contactor box, connecting the HVAC, DC-DC, and HV charger.\nPulled the box and charge plate back off to do a temporary full system hookup (battery box not mounted) and tested charging and vehicle function end to end.\u00a0Everything tested OK.\nWrapped up by removing the battery box and charge plate. Need to get with Marshal to design a plug for the old fan hole and wait on the print.\nTomorrow:\u00a0Should be buttoned back up first thing once the plug is ready."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-04 21:12",
-                  "text": "final reassembly and testing. good to go!\ninstalled the printed block off plate\n reinstall charge plate\nreinstall 12v battery\ntake the time to secure the charging wires on the parcel shelf\nreinstall the battery box and mounts etc.\nconnect evertyhitng\ntest car\nOK!"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3c2deb88a2f8a4a846b516edfc67ccfa7e6abdc688709f90eaba0e5b2aa0f4ec"
-            }
-          ]
-        },
         {
           "name": "Justin Landry",
           "tasks": [
@@ -268,7 +227,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 15
+        "open_tasks": 14
       },
       "assignees": [
         {
@@ -305,32 +264,6 @@
               ],
               "checklist_items": [],
               "content_hash": "49562d0ef06029600469bcfd7a917d3390312bc63f13476e32188efcb162bf08"
-            },
-            {
-              "id": "868jqp0cd",
-              "name": "Assess interior",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jqp0cd",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-04 10:54",
-                  "text": "Waiting for Ryan/Alex to have a meeting breaking down what Colvin's will do, and what we will do."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-05 11:55",
-                  "text": "Marc requested a bid, did that here. \"momentmotors.slack.com/archives/C072J7W987Q/p1780660450732519 \n \""
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-05 11:56",
-                  "text": "This is Done"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "c964bcf84e9bb6db577e6e5b756e77ec8cfd44577f70c4b472e7baffae850a2f"
             },
             {
               "id": "868jxmvy7",
@@ -709,10 +642,20 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-05-22 14:48",
                   "text": "removed the battery box for inspectiokn"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-05 15:13",
+                  "text": "re installed the battery box\nhooked up 12 volt\nstarted the truck\nensured everything works\nready for testing"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-05 15:14",
+                  "text": "IMG_1219.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "243fdb6bf517db473c1f6caec5ac17ac37bbbc5d0ac26b78203a3e839fc56aa2"
+              "content_hash": "9a7290b6d3de3c0b12af816992e44ac09aac9bc16beb0bae1619f7a60a358439"
             }
           ]
         },
