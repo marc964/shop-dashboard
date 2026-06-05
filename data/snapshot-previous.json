@@ -23,6 +23,81 @@
       "system": "AEM"
     },
     {
+      "owner": "Vargas",
+      "year": 1966,
+      "color": "Red",
+      "make": "Ford",
+      "model": "Mustang",
+      "status": "Shipped",
+      "checkout": 93.5,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 100
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 94.5
+        },
+        {
+          "label": "Functional",
+          "value": 66.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
+            "done": true
+          },
+          {
+            "text": "Verify Fast Charging",
+            "done": true
+          },
+          {
+            "text": "Verify Pack Burn Data",
+            "done": true
+          },
+          {
+            "text": "Verify Wi-Fi logger connectivity.",
+            "done": true
+          },
+          {
+            "text": "Get GUI To Boot Properly.",
+            "done": false
+          },
+          {
+            "text": "Verify no CCS errors with Raptor.",
+            "done": true
+          },
+          {
+            "text": "Update firmware and adjust vehicle weight in VCU.",
+            "done": true
+          }
+        ],
+        "total": 9,
+        "done": 8,
+        "open": 1
+      }
+    },
+    {
       "owner": "Buck",
       "year": 1971,
       "color": "Red",
@@ -165,81 +240,6 @@
       }
     },
     {
-      "owner": "Vargas",
-      "year": 1966,
-      "color": "Red",
-      "make": "Ford",
-      "model": "Mustang",
-      "status": "Shipped",
-      "checkout": 92.6,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 100
-        },
-        {
-          "label": "Inverter",
-          "value": 94.4
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 94.5
-        },
-        {
-          "label": "Functional",
-          "value": 66.7
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Add Large PE To CCS Port, Make Drawing If Needed, Try Lee ChargeByte",
-            "done": true
-          },
-          {
-            "text": "Verify Pack Burn Data",
-            "done": true
-          },
-          {
-            "text": "Re-Adjust Gear Ratio + Weight or hardcode in VCU.",
-            "done": true
-          },
-          {
-            "text": "Verify Fast Charging",
-            "done": true
-          },
-          {
-            "text": "Verify Pack Burn Data",
-            "done": true
-          },
-          {
-            "text": "Verify Wi-Fi logger connectivity.",
-            "done": true
-          },
-          {
-            "text": "Get GUI To Boot Properly.",
-            "done": false
-          },
-          {
-            "text": "Verify no CCS errors with Raptor.",
-            "done": true
-          },
-          {
-            "text": "Update firmware and adjust vehicle weight in VCU.",
-            "done": true
-          }
-        ],
-        "total": 9,
-        "done": 8,
-        "open": 1
-      }
-    },
-    {
       "owner": "Barton",
       "year": 1959,
       "color": "White",
@@ -357,7 +357,7 @@
             "done": false
           },
           {
-            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.",
+            "text": "2026-03-31: Blower speed drops when power steering is used. Check DCDC settings.\n2026-06-04: fixed with larger wire and that solvved most of the problem.",
             "done": false
           }
         ],
@@ -986,24 +986,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Ivanhoe",
-      "year": 1965,
-      "color": "Green",
-      "make": "Alfa Romero",
-      "model": "GTV",
-      "status": "Checkout",
-      "checkout": 43.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
       "make": "Austin",
       "model": "Healey",
       "status": "Checkout",
-      "checkout": 28.5,
+      "checkout": 49.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1011,7 +1000,7 @@
         },
         {
           "label": "Inverter",
-          "value": 0
+          "value": 97.2
         },
         {
           "label": "PMU",
@@ -1019,7 +1008,7 @@
         },
         {
           "label": "Raptor",
-          "value": 89.1
+          "value": 100
         },
         {
           "label": "Functional",
@@ -1052,12 +1041,31 @@
           {
             "text": "2026-04-28: The driver side mirror is loose and jiggles around.\n\n2026-06-03: Resolved.",
             "done": true
+          },
+          {
+            "text": "Has an older GUI",
+            "done": false
+          },
+          {
+            "text": "weigh vehicle",
+            "done": false
           }
         ],
-        "total": 6,
+        "total": 8,
         "done": 4,
-        "open": 2
+        "open": 4
       }
+    },
+    {
+      "owner": "Ivanhoe",
+      "year": 1965,
+      "color": "Green",
+      "make": "Alfa Romero",
+      "model": "GTV",
+      "status": "Checkout",
+      "checkout": 43.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Kelly",
@@ -1583,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-04T01:42:55.828611+00:00",
+  "updated": "2026-06-05T00:09:57.972847+00:00",
   "source": "Google Sheets API"
 }
