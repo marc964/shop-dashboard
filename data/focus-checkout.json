@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T20:27:18.229453Z",
+  "updated_at": "2026-06-05T21:58:30.239412Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -265,10 +265,15 @@
                   "author": "Noah Sharif",
                   "date": "2026-06-05 16:31",
                   "text": "Went over parts we would need to order and gave info to MD for proposal."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-05 21:34",
+                  "text": "had a meeting With David G over what would be needed for door cards/seats. Relayed this info to MD. On Monday i will remove the PS door card for David to inspect."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3f3066d4acab20040da6c5fc7b519ddff2020b0ded5f58d86d0b2be777700e90"
+              "content_hash": "5bac3985cdaffa2eb02c2cb77b414b22b01539d2285a31ca5b02a097425ea7d2"
             },
             {
               "id": "868jxmvy7",

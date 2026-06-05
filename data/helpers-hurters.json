@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 34.8,
-      "pct_of_total": 12.7,
+      "pct_of_total": 12.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -38,7 +38,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 21.0,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -68,8 +68,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 19.2,
-      "pct_of_total": 7.1,
+      "total_hours": 20.0,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -94,13 +94,17 @@
         {
           "task": "Suspension",
           "hours": 1.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 0.8
         }
       ]
     },
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -184,7 +188,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -195,7 +199,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 7.0,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -218,7 +222,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -229,7 +233,7 @@
   ],
   "shop_work": {
     "total_hours": 52.2,
-    "pct_of_total": 19.1,
+    "pct_of_total": 19.0,
     "avg_per_person_per_day": 1.31,
     "flagged": true,
     "tech_count": 8,
@@ -271,7 +275,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 12.5,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -282,7 +286,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 10.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -351,9 +355,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 158.5,
+    "billable_hours": 160.2,
     "non_billable_hours": 114.5,
     "pto_hours": 37.0,
-    "total_hours": 273.0
+    "total_hours": 274.8
   }
 }
