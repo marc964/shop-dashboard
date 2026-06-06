@@ -69,7 +69,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 20.0,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -104,7 +104,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -165,7 +165,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 7.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -232,16 +232,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 55.0,
-    "pct_of_total": 18.9,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 56.0,
+    "pct_of_total": 19.1,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 21.2
+        "hours": 22.2
       },
       {
         "label": "Shop Meetings",
@@ -283,7 +283,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 13.0,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -364,8 +364,8 @@
   ],
   "totals": {
     "billable_hours": 164.2,
-    "non_billable_hours": 127.5,
+    "non_billable_hours": 128.5,
     "pto_hours": 37.0,
-    "total_hours": 291.8
+    "total_hours": 292.8
   }
 }
