@@ -148,21 +148,6 @@
       ]
     },
     {
-      "project": "Shah 65 Mustang",
-      "total_hours": 8.8,
-      "pct_of_total": 3.0,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 7.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.5
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 7.8,
       "pct_of_total": 2.6,
@@ -229,6 +214,17 @@
           "hours": 7.0
         }
       ]
+    },
+    {
+      "project": "Hastert 60 F250",
+      "total_hours": 5.0,
+      "pct_of_total": 1.7,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 5.0
+        }
+      ]
     }
   ],
   "shop_work": {
@@ -281,28 +277,38 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 13.0,
-      "pct_of_total": 4.4,
+      "project": "Shah 65 Mustang",
+      "total_hours": 21.2,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 9.8
+          "hours": 19.8,
+          "context": [
+            "Brakes"
+          ]
         },
         {
           "task": "Installation - Extra",
-          "hours": 3.2
+          "hours": 1.5,
+          "context": [
+            "Vehicle Control"
+          ]
         }
       ]
     },
     {
-      "project": "Shah 65 Mustang",
-      "total_hours": 12.5,
-      "pct_of_total": 4.3,
+      "project": "Ferdman 66 Bus",
+      "total_hours": 13.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 12.5
+          "hours": 10.5
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 3.2
         }
       ]
     },
@@ -319,12 +325,15 @@
     },
     {
       "project": "Vargas 66 Mustang",
-      "total_hours": 5.0,
-      "pct_of_total": 1.7,
+      "total_hours": 9.0,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 5.0
+          "hours": 9.0,
+          "context": [
+            "Motor & Transmission"
+          ]
         }
       ]
     },
@@ -340,6 +349,17 @@
       ]
     },
     {
+      "project": "Henry 61 Austin Healey",
+      "total_hours": 2.0,
+      "pct_of_total": 0.7,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "McDonough 77 Esprit",
       "total_hours": 1.5,
       "pct_of_total": 0.5,
@@ -351,20 +371,31 @@
       ]
     },
     {
-      "project": "Barton 59 Impala",
+      "project": "Miner 95 911",
       "total_hours": 1.0,
       "pct_of_total": 0.3,
       "tasks": [
         {
-          "task": "Troubleshooting",
+          "task": "Installation - Extra",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Feldman 69 280SE",
+      "total_hours": 1.0,
+      "pct_of_total": 0.3,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
           "hours": 1.0
         }
       ]
     }
   ],
   "totals": {
-    "billable_hours": 164.2,
-    "non_billable_hours": 128.5,
+    "billable_hours": 146.8,
+    "non_billable_hours": 146.0,
     "pto_hours": 37.0,
     "total_hours": 292.8
   }
