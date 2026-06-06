@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T01:26:29.175380Z",
+  "updated_at": "2026-06-06T05:30:03.557399Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -860,10 +860,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-05 01:58",
                   "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:42",
+                  "text": "Troubleshoot signals and debrief on data.\nAdhesive thermistors and busbar thermistors match - T1 and T3 significantly hotter than T2.\nT2 busbar and module similar.\nAdhesive thermistors respond as quickly as busbar thermistors.\nConclusion: Will remove T1 and T3 in software for Preheim only.\nWill NOT perform any work on Connolly's box at this time.\nJob complete."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9882c4b79b34afda034d6c89221b4686562e9f9ddd7d1fc0b6d0a016bbd1cf23"
+              "content_hash": "043784f49a5ed58b681909ac472e3b713390e504e6b62b3a1d605ff99710d5c5"
             }
           ]
         },
@@ -896,10 +901,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-05 01:58",
                   "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:42",
+                  "text": "Troubleshoot signals and debrief on data.\nAdhesive thermistors and busbar thermistors match - T1 and T3 significantly hotter than T2.\nT2 busbar and module similar.\nAdhesive thermistors respond as quickly as busbar thermistors.\nConclusion: Will remove T1 and T3 in software for Preheim only.\nWill NOT perform any work on Connolly's box at this time.\nJob complete."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9882c4b79b34afda034d6c89221b4686562e9f9ddd7d1fc0b6d0a016bbd1cf23"
+              "content_hash": "043784f49a5ed58b681909ac472e3b713390e504e6b62b3a1d605ff99710d5c5"
             }
           ]
         }
@@ -1080,10 +1090,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-01 15:35",
                   "text": "https://www2.cip1.com/c31-611-021-211-14/?srsltid=AfmBOoocCou7jshV2r2R7_VwVlGGQ91KDXSxVJvKw2QHq6wGrVvpAWRp x1\nhttps://www2.cip1.com/VWC-211-721-205-D/?gad_source=1&gad_campaignid=21140055511&gb[\u2026]Q358Dyk7JR9kvhQwVjhYp8W5xSig_-YE3gLTOvqbZCKHjX6VRoCi1MQAvD_BwE x1\nhttps://www2.cip1.com/vwc-211-721-163-a/ x1\nhttps://www2.cip1.com/vwc-211-721-233/ x1\nhttps://www2.cip1.com/vwc-211-721-200/ x1\nProject: Ferdman Bus\nSub-system: Brakes\u00a0(edited)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:44",
+                  "text": "Parts arrived, for installation Monday."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "424438e654575a9d664ade2ccbb9f9e2c5967089676ed8f7587971aa0b96c5e3"
+              "content_hash": "8739a4435a004a0e9c3d9fab8c6baba54cb2bb713b39bc6d85542f571ab1d7ec"
             },
             {
               "id": "868gq82yv",
@@ -1116,10 +1131,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-02-20 15:32",
                   "text": "Cover under my desk."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:45",
+                  "text": "Once cooling testing complete, can proceed with Cover installation."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5a1c6b261adbaaee8abd1837c6d256a1ad61e667fca5bb8ef3c6029a2c974274"
+              "content_hash": "8efabb56af51b3c7c6311f1f05ae43d7f3dcf15a52619cf449a951947e307ac2"
             },
             {
               "id": "868gq8350",
@@ -1152,10 +1172,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-02-20 15:32",
                   "text": "Skid plates under my desk."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:45",
+                  "text": "Once cooling testing complete, can proceed with Cover installation."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "2de9880599142c0aeb548c1d42be416e1e1bc1a5b7af440dca3ae1c93533aa0c"
+              "content_hash": "4f8f8e0d31450f5eaf58fbc513e6571157b3ca1a52d89749b1e97c82f199ca1f"
             },
             {
               "id": "868jw0zyg",
@@ -1163,9 +1188,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868jw0zyg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:44",
+                  "text": "Parts arrived. For install Monday."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "0c7331743d02d0f251a6e33c599f6a62577144115c59005199133dde65e6a65a"
+              "content_hash": "6685331c0b6ebcb5e975d7a5e48be9ba09dcfd5289db5499ea809aef7d747035"
             },
             {
               "id": "868e45rzk",
@@ -1335,10 +1366,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-02 16:17",
                   "text": "Ordered new parts for motor circuit return line.\nhttps://www.summitracing.com/parts/rdm-14-0193 x1\nhttps://www.summitracing.com/parts/bpu-3254000160 x1\nhttps://www.amazon.com/EVIL-ENERGY-Straight-Fitting-Black/dp/B08NYLZC66/ x1 (pack of 2)\nProject: Ferdman Bus\nSubsystem: Cooling\n\nUpdated coolant return line information on coolant diagram. (see pdf above)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:39",
+                  "text": "Removed -6an reservoir and lines.\nRemoved motor to pump line for access.\nInstalled new reservoir with -10AN fitting.\nFabricated and installed new -10AN line from radiator to reservoir\nInstalled new lineclamps for new hose ses.\nVacuum filled cooling reservoir.\nOne leak found - at motor. Repaired.\n-25in/hg holding steady.\nRan pump on motor circuit for and hour. Inspected for leaks: none found.\n\nReady for testing on Monday."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8b2c2ff138b51a47bfbb34483911fcde12b378195f0b2398459b598f564375f5"
+              "content_hash": "4323ef08355679e75ebfa394504850bc2b2b9b30271c8f47449e2610dd220f24"
             },
             {
               "id": "868jqn5x7",
