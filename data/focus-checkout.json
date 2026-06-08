@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T18:43:58.860598Z",
+  "updated_at": "2026-06-08T21:10:02.369087Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1386,10 +1386,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-06 01:39",
                   "text": "Removed -6an reservoir and lines.\nRemoved motor to pump line for access.\nInstalled new reservoir with -10AN fitting.\nFabricated and installed new -10AN line from radiator to reservoir\nInstalled new lineclamps for new hose ses.\nVacuum filled cooling reservoir.\nOne leak found - at motor. Repaired.\n-25in/hg holding steady.\nRan pump on motor circuit for and hour. Inspected for leaks: none found.\n\nReady for testing on Monday."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-08 19:32",
+                  "text": "After sat over the weekend: leaks or drips.\nReinstalled cover and tail-light.\nZip-tied wiring harness back in place."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4323ef08355679e75ebfa394504850bc2b2b9b30271c8f47449e2610dd220f24"
+              "content_hash": "ba16c58dc64c3e7bcd1df6bdec8ba795f56ac65b8df658d740428379e89cbcb2"
             },
             {
               "id": "868jqn5x7",
