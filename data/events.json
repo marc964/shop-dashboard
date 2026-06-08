@@ -1,89 +1,15 @@
 {
-  "generated_at": "2026-06-07",
+  "generated_at": "2026-06-08",
   "weeks": [
-    {
-      "week_start": "2026-06-01",
-      "week_label": "Week of Jun 01",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-06-01",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Billy A Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-02",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-06-03",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-06-04",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Justin L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-05",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Justin L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-06",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-06-07",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-06-08",
       "week_label": "Week of Jun 08",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-06-08",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -307,6 +233,80 @@
         },
         {
           "date": "2026-06-28",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-06-29",
+      "week_label": "Week of Jun 29",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-06-29",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "David W Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "David W Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "David W Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-03",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-04",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-07-05",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
