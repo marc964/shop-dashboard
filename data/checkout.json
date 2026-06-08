@@ -29,7 +29,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 93.5,
+      "checkout": 94.1,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -45,7 +45,7 @@
         },
         {
           "label": "Raptor",
-          "value": 94.5
+          "value": 98.2
         },
         {
           "label": "Functional",
@@ -1074,7 +1074,7 @@
       "make": "Chevrolet",
       "model": "Corvette",
       "status": "Startup",
-      "checkout": 22.4,
+      "checkout": 24.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1090,7 +1090,7 @@
         },
         {
           "label": "Raptor",
-          "value": 0
+          "value": 7.3
         },
         {
           "label": "Functional",
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-08T12:09:11.934683+00:00",
+  "updated": "2026-06-08T16:21:41.057613+00:00",
   "source": "Google Sheets API"
 }

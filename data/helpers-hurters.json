@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 34.8,
-      "pct_of_total": 11.9,
+      "total_hours": 36.0,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 12.8
+          "hours": 14.0
         },
         {
           "task": "Manufacturing - Product",
@@ -36,9 +36,44 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 21.8,
+      "pct_of_total": 7.3,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 11.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.8
+        },
+        {
+          "task": "Interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 1.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "McDonough 77 Esprit",
       "total_hours": 21.0,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -67,44 +102,9 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 20.0,
-      "pct_of_total": 6.8,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 10.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.8
-        },
-        {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 1.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -131,7 +131,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 11.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -173,7 +173,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.2,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -184,7 +184,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 7.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -207,7 +207,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 7.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -228,9 +228,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 56.0,
-    "pct_of_total": 19.1,
-    "avg_per_person_per_day": 1.17,
+    "total_hours": 56.5,
+    "pct_of_total": 18.9,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 6,
@@ -241,7 +241,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 20.8
+        "hours": 21.2
       },
       {
         "label": "Personal Meetings",
@@ -261,7 +261,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -279,7 +279,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 21.2,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -300,7 +300,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 13.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -315,7 +315,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 10.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -326,7 +326,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 9.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "project": "Miner 95 911",
+      "project": "Avalos 72 Blazer",
       "total_hours": 1.0,
       "pct_of_total": 0.3,
       "tasks": [
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "project": "Feldman 69 280SE",
+      "project": "Miner 95 911",
       "total_hours": 1.0,
       "pct_of_total": 0.3,
       "tasks": [
@@ -394,9 +394,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 146.8,
-    "non_billable_hours": 146.0,
+    "billable_hours": 151.5,
+    "non_billable_hours": 147.5,
     "pto_hours": 37.0,
-    "total_hours": 292.8
+    "total_hours": 299.0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T12:09:57.240093Z",
+  "updated_at": "2026-06-08T16:22:28.750474Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -302,10 +302,15 @@
                   "author": "Marc Davis",
                   "date": "2026-06-04 15:33",
                   "text": "- Replace all interior screws with stainless steel hardware\n- New dome light covers\n- New coat hooks (rear)\n- New door lock knobs\n- New carpet kit (interior + trunk)\n- New Fisher Body sill plates once carpet is in \u2014 https://mkgarageinc.com/products/1959-1960-chevy-impala-bel-air-biscayne-hardtop-or-convertible-2-door-door-sill-plates-new?variant=42077312254031\n- Install package tray"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-08 13:56",
+                  "text": "Removed PS door panel and rear quarter panel for David G to look at,"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "af6c122825c4b8259a9ba3c34d9700f2959eb27e936a0994315d758c7306dded"
+              "content_hash": "b96b9faf08beb844ff5b1a0c32b7f2148578a771736b7f7c828dfe5fe07672d6"
             },
             {
               "id": "868jqnyzr",
@@ -824,10 +829,20 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-01 16:17",
                   "text": "Reviewed thermistor selection and re-ordered."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 13:26",
+                  "text": "Discussion with team over thermistor location and test procedure. Verified thermistor beta from calibration table. Loaded calibration into the digital dash project and setup logging. Found Ampere DBC for individual cell thermistors and loaded this too. Hooked up to vehicle and verified BMS thermistor temps coming in and matching the corresponding temps in the VCU. Wired up logger to match Jordans pinout."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 13:27",
+                  "text": "Wired remaining pullups for CSS CAN Input for all channels so thermistors could be read. Verified previous configuration, used thermistor beta and R0 to convert volts to ohms to temperature. Setup AEM Dash plot to log all of this. Performed three point calibration to verify sensors. Test drove vehicle, processed results and shared analysis with the team."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9822d787a495796610c4eab11bea93bdd34322cb57b82b9867ed6121d13eaff2"
+              "content_hash": "f5a2b96db8f9362c106eb6ed36c5081bc5ecddee2d253bb2f668c71b733a32da"
             }
           ]
         },
