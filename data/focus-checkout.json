@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T21:10:02.369087Z",
+  "updated_at": "2026-06-08T22:52:10.985733Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,9 +20,30 @@
         "matched_lists": [
           "Berke 69 Alfa"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868jywzuw",
+              "name": "clean up for delivery",
+              "status": "Open",
+              "list": "Berke 69 Alfa",
+              "url": "https://app.clickup.com/t/868jywzuw",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-08 22:04",
+                  "text": "clean up for delivery. interior and exterior. overall car look over and send off."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "348eb32dfdca65c5af4626b9f28b31c7964601542f7ec27b1a0a95bebc17dbd6"
+            }
+          ]
+        },
         {
           "name": "Justin Landry",
           "tasks": [
@@ -227,7 +248,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 14
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -248,32 +269,6 @@
               ],
               "checklist_items": [],
               "content_hash": "0f7de6facc6faf5f6c62b12a0acf0bb941949b3836b99032a761b2238604739a"
-            },
-            {
-              "id": "868jqp096",
-              "name": "Assess exterior",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jqp096",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-04 10:54",
-                  "text": "Waiting for Ryan/Alex to have a meeting breaking down what Colvin's will do, and what we will do."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-05 16:31",
-                  "text": "Went over parts we would need to order and gave info to MD for proposal."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-05 21:34",
-                  "text": "had a meeting With David G over what would be needed for door cards/seats. Relayed this info to MD. On Monday i will remove the PS door card for David to inspect."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "5bac3985cdaffa2eb02c2cb77b414b22b01539d2285a31ca5b02a097425ea7d2"
             },
             {
               "id": "868jxmvy7",
@@ -327,32 +322,6 @@
               ],
               "checklist_items": [],
               "content_hash": "7c038d9de034b2a5920192d63df4bdd9465a7534b4c8b7367574f629ff97a482"
-            },
-            {
-              "id": "868jdhjpm",
-              "name": "Troubleshoot speedo issue",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jdhjpm",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-03 11:49",
-                  "text": "Checked Pins on Speedo and Instrumentation, and hand spun cable drive to confirm cable/ speedo works. The issue is with the Speedo box, informed MD and he wants Devin to check the VCU settings before we proceed. For now, my part in this trouble shoot is dead."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-03 11:57",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/a370abe8-0742-46d0-aaa6-0ba826a1cd40/20260603_063703.mp4?view=open"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-04 10:55",
-                  "text": "This is now in Devin's wheel house, i need him to get into VCU software and see what we can find out as to why this isn't working now. AS stated yesterday, I've done all i can."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "58506ba95cd4325dc3cd624a5b30c80da44605c0755405a33517baea30bc772c"
             }
           ]
         },
@@ -996,7 +965,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 16
+        "open_tasks": 13
       },
       "assignees": [
         {
@@ -1116,47 +1085,6 @@
               "content_hash": "8739a4435a004a0e9c3d9fab8c6baba54cb2bb713b39bc6d85542f571ab1d7ec"
             },
             {
-              "id": "868gq82yv",
-              "name": "Install MMC engine bay cover",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868gq82yv",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-16 17:29",
-                  "text": "Test fit MMC engine bay cover.\nSome issues with engine bay cover design discovered. \n\"When the lid is centered and the m8s in the back are , the engine-lid catch-plate doesn't quite line up. Something went funny with the scan, because you're dead on in CAD but IRL it's ~5mm off. I'll go ahead and sink the nutserts, but let's re-order with that notch centered. If you change both these values to 411mm we're perfect\"PXL_20251216_162140611.jpg\nScreenshot%202025-12-16%20103250.png\nScreenshot%202025-12-16%20103315.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-16 17:31",
-                  "text": "Measured, drilled and installed nutserts.\nTouch-up paint on previously chipped edge.\nReady for install when new cover arrives."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-19 16:48",
-                  "text": "Waiting for return from powdercoat (not yet sent)."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-01-14 23:28",
-                  "text": "install"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-20 15:32",
-                  "text": "Cover under my desk."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:45",
-                  "text": "Once cooling testing complete, can proceed with Cover installation."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "8efabb56af51b3c7c6311f1f05ae43d7f3dcf15a52619cf449a951947e307ac2"
-            },
-            {
               "id": "868gq8350",
               "name": "Install skid plates",
               "status": "Open",
@@ -1250,112 +1178,6 @@
               "content_hash": "3d3cf185e3f8874f193165d020b3edd9c5d4c2e87d1441a9b7c4538445380d58"
             },
             {
-              "id": "868gkzc88",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868gkzc88",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-19 16:47",
-                  "text": "Awaiting @Devin DuMont participation or checklist."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-16 17:44",
-                  "text": "Removed engine cover\nReinstalled IMD box\nProvided documentation for Devin\nInstalled 12V ground\nDug up AEM programming cable"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-19 02:19",
-                  "text": "Installed MSDs\nAfter key-on, verified coolant levels.\nFinal check under vehicle prior to wheels down. Added a few harness securing points.\nTest-drove in parking lot. Findings below:\n\n\nVerify GUI power (Pin 1 aux 12V constant not getting power at the harness)\nTurn signal indicator light permanently on, but dim. (getting 7V directly from the OEM 9-pin relay -\u00a0 quick check against wiring diagram shows colors mixed up, need to verify OEM wiring here). Turn signals and indicator are functional otherwise.\nCouldn't lock the rear upper hatch. May have to adjust/replace this latch.\nDriver's door might need adjustment, requires a good bit of force to close, compared to passenger side).\nNo seatbelts in the car currently (waiting on hardware, should arrive Friday).\nNeed to install rear bumper (and eventually the roof rack).\nThe wipers are quite fast... don't think it's normal, pretty sure they're the stock 6V unit just running at 12V. Wiper blades need replacing, and do we want to ask Ferdman about adding a washer fluid solution?\nNow that the middle battery is in, we're getting rub from the front tires when on the outer fender rail when turning, especially with a passenger and over bumps/inclines.\nAs a reminder on the suspension saga, we bought an adjustable front beam which ended up being a 2\" narrowed beam which we did not order and we decided not to use it to avoid the potential changes. We ended up having the 'original' beam/spindle refreshed (which we later also found out had been flipped/modified). Right now, the suspension installed on the bus is exactly what came to us, just rebuilt. I think with the additional weight we'll have to go ahead and install the narrowed/adjustable beam. I pulled it out of storage. Should be able to do in a day."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-03-05 23:50",
-                  "text": "Began working through startup checklist. Most things already complete. Will continue tomorrow. Biggest thing: Install USB extensions to get CAN working on GUI."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-03-07 03:03",
-                  "text": "Continued through startup checklist\nAdded USB x2 for MMC - need to reseal.\nSecured wiring\nGave the car a wipe down, installed wheel covers"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-04-28 16:07",
-                  "text": "Prepped for startup this week.\nAdded all documentation to \" Build Documentation\" folder in vehicle folder.\nCreated HVAC controls document.\nimage.png\n\nFerdman-HVAC-Subharness-AC-1.2.drawio.pdf\nFerdman-HVAC-Subharness-Heater-1.2.drawio.pdfFerdman-Instrumentation-1.2.drawio.png\n\nFerdman-PRD-Harness-1.1.drawio.pdf\nFerdman-AC-Hose-1.0.drawio.pdf\nFerdman-CoolantDiagram-1.4.drawio.pdf\nFerdman-HVAC-Controls-1.0.drawio.pdf"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-08 02:59",
-                  "text": "Ferdman - HVAC Controls Doc.docx"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-08 02:59",
-                  "text": "Didn't realize there was a different form required for HVAC controls. Adapted HVAC diagrams into correct form. Uploaded to the Build folder of Ferdman."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-11 21:51",
-                  "text": "Assisted in getting Andrew started in the AM\nAssisted in diagnosing faulty motor-fan operation. Verified continuity of circuit, verified no power to fan. Ultimate issue was ECU master firmware issue. Andrew resolved.\nAssisted in locating rotational noise from rear of vehicle - identified noise from halfshafts.\nPer Andrew, SDU connector didn't have weatherseal plugs\nPer Andrew, ground wire should not be run parallel to HV. No issues present, just general build advice.\nLevel 2 charging - passed.\nPut vehicle on lift for AM inspection by @Billy Arrasmith"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-12 16:47",
-                  "text": "Rear end noise ended up being from the parking brake calipers. Minor distortion in the brake rotor (normal?) was causing the pads to clatter around in the caliper. Replaced the 'pull in' springs with 'push out' springs and noise appears resolved. Test drove, no noise present.\nMarc test drove his complaints:\nInconsistent throttle response / motor cogging at a standstill.\nInspected and cycled throttle-cable multiple times: unable to replicate any mechanical linkage issue.\nNoted that 'full throttle' did not actually bottom out the ampere cable assembly. Attempted an adjustment, however this reduced the bottom travel, preventing it from hitting full 'off'. Per Andrew, better to leave the top adjustable and have it bottom out. Returned to original state.\nBrakes weak.\nWill install a brake proportioning valve to move up to the front and see if that helps things.\nAlso accidentally stripped out one of the brake rotor wheel bolt holes. Ordering replacement rotor.\nOrdered these:\nwww.summitracing.com/parts/urr-bsce312 \n  x1\nwww.summitracing.com/parts/wil-260-12627 \n  x1\nwww.jbugs.com/product/22-2972-B.html?srsltid=AfmBOoo5NWpavWrgyKIYWfKCIOdot2qA9l69guMyh4_LKMD0ijEz1Vcj \n \nDuring inspection, noted small leak. Re-set hose clamp on SDU outlet (rear passenger side upper). Will monitor.\nDuring drive, noticed stereo picking up interference from inverter (static in drive/reverse, nothing in neutral/park). Will install suppressor\nNoise from coolant pumps excessive. Need to install cover."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-12 22:58",
-                  "text": "Coolant clamp re-installation didn't fix. OEM tension clamp appears to have lost tension. Installed worm clamp and cleaned leak again. Appears OK will monitor."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-14 00:15",
-                  "text": "Assisted Andrew with bus startup: CCS testing at EVGO. No issues with charging. 72kw steady from ~20-44%. Handshake good."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 14:42",
-                  "text": "Assisted Devin with HVAC startup.\nVerified correct signals from VCU\nVerified contactor function with 12V battery\nIdentified swapped pins on heater contactor box (my fault).\nAfter resolution, issue is done.\nDid some HVAC tuning.\nAssisted Devin with inverter tuning.\nTest drove while mapping torque request and pedal position. Pedal position always appears 'correct' to pedal angle - couldn't find a mechanical issue, however the linkage itself does seem to have a 'step' for the last few mm of travel. Appears to be functioning as designed. Devin to investigate more from Andrew/Cascadia.\n(didn't send from last Thursday)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 14:43",
-                  "text": "Meeting w/ @Marc Davis @Devin DuMont @Alex Noonan regarding Ferdman steps.\nWaiting on:\nFerrite cores\nSpindles\n@Marc Davis To test drive today."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 15:01",
-                  "text": "Two things I forgot to mention:\nInterior door handles are starting to crack now that they're being used regularly. Need replacement. Very easy. Ordered already.\nNot getting any LED indication from the PRND buttons. They are dimmly lit in general, but do not light up brightly when selected. Just for reference, here is how it's currently set up (the 2K resistors have been pulled). @Devin DuMont does this need to be enabled from the VCU?"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 15:02",
-                  "text": "https://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=211837225B x2\nhttp://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=131837597 x2\nhttp://www.wolfsburgwest.com/cart/DetailsList.cfm?ID=N141301 x2\nProject: Ferdman Bus\nSub-system: Interior"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 15:02",
-                  "text": "image (2).png\nFerdman-PRD-Harness-1.1.drawio.pdf"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 23:09",
-                  "text": "Resolved blank 'reverse camera' screen whenever going into reverse. Pulled the \"reverse power\" pin from the GUI extension connector, and taped it back, to prevent the 12V signal from reaching the GUI.\nSearched around and found the solution for the 'Apple Carplay' screen loading forever immediately upon startup. Will attempt to apply tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 23:10",
-                  "text": "*Note: If reverse camera ever needs to be added, the reverse-power pin has been pulled from the GUI extension cable (labeled) under the rear seat. Peel back the sheathing and it's there."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "7de7f73fa03be8498204c66b6be09b6ce6c99b0d99f3a5e105d4d561c70420b9"
-            },
-            {
               "id": "868jqn2ge",
               "name": "Troubleshoot cooling issue",
               "status": "Open",
@@ -1416,67 +1238,6 @@
               ],
               "checklist_items": [],
               "content_hash": "17a68e320c46615465028c9e28f2402d3a1b5a8ed2e0c96c5a3ee42b6af185a8"
-            },
-            {
-              "id": "868jqn3uf",
-              "name": "Troubleshoot throttle issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn3uf",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 03:00",
-                  "text": "Proceeded with throttle cable moving to eliminate it as a cause of the jerky throttle.\nFound spot close to pivot - verified clearance to steering arm and other components (very tight, but fits)\nDrilled holes and mounted.\nModified throttle cable guide to fit new spot (required to be parallel with base).\nInstalled guide and temporary throttle cable for testing.\nTo do: Wiring and final cable install."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 19:15",
-                  "text": "Created extension harness.\nHarness side:\nClipped and added DTM06-6S\nCreated extension harness: DTM06-6P to DTM06-6S\nUsed the clipped section and added a DTM06-6P\nPinout (all DTM connectors):\nPin 1 - Yellow 20ga\nPin 2 - Purple 20ga\nPin 3 - Blue 20ga\nPin 4 - Orange 20ga\nPin 5 - Grey 20ga\nPin 6 - White 20ga\nColors match Lokar throttle pinout in Ampere flying lead 1.9\nimage.png\nTidied wiring.\nTested on jackstands - functional."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 19:16",
-                  "text": "Swapped throttle unit: the behavior I'm seeing now is: 0-95% throttle is perfect, repeatable, very fast, no issues. When you put the throttle position to 100%, it will sometimes give you everything, sometimes fall off it's face, however now it's giving this eror. (see photo). Perhaps an 'over-range' error compared to the original throttle position sensor. Tomorrow the new, final cable will arrive and then @Devin DuMont if you want to make sure the 0-100% voltage windows are set correctly?\nIMG_2729.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 19:16",
-                  "text": "Throttle not improved. Still able to get some variations in expected torque. I'm going to swap the throttle unit with the one I have on my bench and see if that has an effect."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-28 19:39",
-                  "text": "Removed temporary cable for future replacement. Awaiting new cable end (out for delivery now)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-28 19:40",
-                  "text": "Length - 11.5\" from eye to end."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 02:08",
-                  "text": "Received new cable parts.\nFabricated new cable.\nInstalled new cable.\nWith @Devin DuMont, changed setpoints and adjusted cable. Full 0-100 available.\nPer Devin, during pedal tuning he found a software bug with the 'custom cable' setting, causing our issue. Issue was NOT mechanical, and likely the other throttle was actually OK.\nWill test drive tomorrow to verify.\n\\"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-29 21:49",
-                  "text": "Throttle feel is still not completely fixed IMO:\nUnable to replicate the 'temporary limp mode' feeling I could get before, where foot the floor it would just maintain speed. Nor am I getting the P0121 dash errors, things are certainly better from the last setup.\nBut depending on speed, I still feel like the torque request is not completely deterministic. It's like over a certain speed (35mph+) it brings the power on more gently, but at lower speeds it jumps off the line. Acceleration happens either way, it's very fast. I have now tried two different speed sensors and two different locations. Currently the cable is as direct as it could possibly be and we have fully 0-100 range on the sensor with no binding or mechanical hiccups. I don't know if this is a torque-ramp issue, another APP signal bug, or something else. @Devin DuMont will likely need to take another look at this. Happy to support however I can but I think my main work is done here unless another task pops up."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 23:08",
-                  "text": "@Devin DuMont thinks that was not a 'flooring it' test, but a cruising, then flooring it, so APP does appear to be correct in that screenshot.\n\nWe did a bunch of pulls just now. @Devin DuMont is going to parse the results and see what we get.\n\nAt one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter. @Devin DuMont\n\nThere is an issue we discovered whereby the bus didn't have enough torque to reverse up a hill. It could hold itself stationary and you could feel it trying to inch backwards but was unable to manage any distance. Devin noticed that once before. We need to figure out what sort of torque limiting is happening in Reverse and adjust that.\nimage (6).png\nimage (5).png\nimage (3).png\nimage (4).png\n\nThrottle didn't fully return at one point - have ordered replacement spring and plug to prevent further issue.\n\nAlso disassembled and lubrciated throttle pin just as a precaution."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:21",
-                  "text": "image.png\n\n@Devin DuMont and @Marc Davis did a pull and got the exact log. This is the issue we're looking into. Power jumps while APP stays steady"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "39cbc07dfad3d0b43fd88b679e918c82dd5d02129577e6d0b6c6bd5d7441eae7"
             }
           ]
         },
