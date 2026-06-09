@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T14:06:41.790943Z",
+  "updated_at": "2026-06-09T16:49:38.668277Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,103 +16,10 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Berke 69 Alfa"
-        ],
-        "open_tasks": 4
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868jywzuw",
-              "name": "clean up for delivery",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868jywzuw",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-08 22:04",
-                  "text": "clean up for delivery. interior and exterior. overall car look over and send off."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "348eb32dfdca65c5af4626b9f28b31c7964601542f7ec27b1a0a95bebc17dbd6"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868ju2cx1",
-              "name": "Conduct PDI",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868ju2cx1",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-05-27 20:04",
-                  "text": "Conducted PDI on the alfa. was able to check off most of the items on the current PDI list. Relayed found issues to marc/alex in the slack page with photos.\n\nI cleaned up the trunk wiring, tightened the trunk Ground nut and the conv top nut that was rattling.  Handed off the rest to alex to delegate elsewhere or to hand back to me tomorrow."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a562b21fb62cf286f8dcff1912695760e65a24a8fce86f35bf7504820580b468"
-            }
-          ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868jx6fd8",
-              "name": "Aid in charger relocation",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868jx6fd8",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-06-03 23:22",
-                  "text": "-met with Alex to understand what was needed\n-took measurements IRL of clearance underneath plate and of the opening (since it has a powder coat)\n-Designed cover to have captured m8 nuts.\n-Printed out of abs with extra wall loops and >20% infill\nimage.png\nimage.png"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a8170345ad9965087933f1e6a7d95f429f06ffd9c64f3859d771a2bb2be5f599"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jjjrrx",
-              "name": "Set up Berke transport home, 5/15",
-              "status": "Open",
-              "list": "Berke 69 Alfa",
-              "url": "https://app.clickup.com/t/868jjjrrx",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 17:52",
-                  "text": "Paused due to charger issue. Berke notified, transporters on standby ..."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:15",
-                  "text": "Waiting on go ahead."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f79b961fdb4657691630e637425625e75baf8c7721e1190f7cbb9ae2038724aa"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Barton",
@@ -578,7 +485,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 6
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -619,32 +526,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            },
-            {
-              "id": "868jqxpjy",
-              "name": "R&R battery box",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868jqxpjy",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-22 14:48",
-                  "text": "removed the battery box for inspectiokn"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-06-05 15:13",
-                  "text": "re installed the battery box\nhooked up 12 volt\nstarted the truck\nensured everything works\nready for testing"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-06-05 15:14",
-                  "text": "IMG_1219.jpeg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "9a7290b6d3de3c0b12af816992e44ac09aac9bc16beb0bae1619f7a60a358439"
             }
           ]
         },
@@ -817,88 +698,6 @@
               ],
               "checklist_items": [],
               "content_hash": "f5a2b96db8f9362c106eb6ed36c5081bc5ecddee2d253bb2f668c71b733a32da"
-            }
-          ]
-        },
-        {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868juez60",
-              "name": "Troubleshoot thermistor issue",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868juez60",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-05-28 20:15",
-                  "text": "Brainstorming/game plan"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 22:57",
-                  "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-05 01:58",
-                  "text": "Preheim-AdhesiveThermistor.drawio.png\nScreenshot 2026-06-04 135735.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-05 01:58",
-                  "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:42",
-                  "text": "Troubleshoot signals and debrief on data.\nAdhesive thermistors and busbar thermistors match - T1 and T3 significantly hotter than T2.\nT2 busbar and module similar.\nAdhesive thermistors respond as quickly as busbar thermistors.\nConclusion: Will remove T1 and T3 in software for Preheim only.\nWill NOT perform any work on Connolly's box at this time.\nJob complete."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "043784f49a5ed58b681909ac472e3b713390e504e6b62b3a1d605ff99710d5c5"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868juez60",
-              "name": "Troubleshoot thermistor issue",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868juez60",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-05-28 20:15",
-                  "text": "Brainstorming/game plan"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 22:57",
-                  "text": "Familiarizing myself with the issue, going over slack history and making a plan for tomorrow.\nimage.png\nConnolly's 42W with the lid off. Should be facing user.\n\nPreheim box photos for reference.\nIMG_6141.jpg\nIMG_6140.jpg\nIMG_6139.jpg\nIMG_6144.jpg\nIMG_6852.JPG\nIMG_6111.jpg\nIMG_6149.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-05 01:58",
-                  "text": "Preheim-AdhesiveThermistor.drawio.png\nScreenshot 2026-06-04 135735.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-05 01:58",
-                  "text": "Meeting with @Alex Noonan @Marc Davis @Devin DuMont to determine plan of action.\nDecided to proceed with an external CAN logger, and smaller adhesive thermistors.\nThermistors in the following locations:\nBusbar next to T1 (AT1)\nBusbar next to T2 (AT2)\nBusbar next to T3 (AT3)\nModule next to T2 (AT4).\nMade milspec-to-milspec adapter, with splices for adhesive thermistor 1-4, CAN1 and 12V MPR, 12V wake and ground. Left splices unterminated, per @Devin DuMont, for him to finish.\nInstalled thermistors into battery box, with terminals in the milspec (see wiring diagrams for details).\nTidied wiring.\nReassembled battery box.\nReinstalled missing busbars\nChecked HV connections.\nCleaned and reinstalled coolant connections.\nPerformed fill procedure on coolant fittings (couldn't see coolant - unclear how much coolant was lost during disassembly).\nChecked all LV connections.\nCleaned and re-sealed box (had been sealed previously with sealant, not o-ring - bit of a struggle getting the shells on again).\nBox is now ready for install in Preheim."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:42",
-                  "text": "Troubleshoot signals and debrief on data.\nAdhesive thermistors and busbar thermistors match - T1 and T3 significantly hotter than T2.\nT2 busbar and module similar.\nAdhesive thermistors respond as quickly as busbar thermistors.\nConclusion: Will remove T1 and T3 in software for Preheim only.\nWill NOT perform any work on Connolly's box at this time.\nJob complete."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "043784f49a5ed58b681909ac472e3b713390e504e6b62b3a1d605ff99710d5c5"
             }
           ]
         }
