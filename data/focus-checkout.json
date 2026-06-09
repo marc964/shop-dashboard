@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T11:40:52.557385Z",
+  "updated_at": "2026-06-09T14:06:41.790943Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1089,10 +1089,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-08 23:06",
                   "text": "Installed new master.\nInstalled new pivot pin and hardware.\nReturned pivot to 5:1 for now, will test.\nPressure tested brakes at 15psi - no drop in a few minutes.\nBled brakes twice - air bubbles persisted, but should be good now. DOT3 fluid.\nNote: During pressure testing bleeder sprung a leak and required service / interior needed to be cleaned of brake fluid. Extra time wasted here."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-09 13:47",
+                  "text": "Test drove in the AM - vehicle stops, but pedal is too soft. Need to rebleed manually."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a4a58c46dee49fdf8febc9aadc3fe13e23eade6e4fe2b94aded5816f1b74caa0"
+              "content_hash": "42d0620efa867840f2833a3e418cd0da2c22260ff0400c3bd7d02f1d705166a8"
             },
             {
               "id": "868gq8350",
