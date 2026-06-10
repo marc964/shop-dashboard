@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T19:12:55.720501Z",
+  "updated_at": "2026-06-10T21:30:30.239030Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1027,10 +1027,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-08 19:32",
                   "text": "After sat over the weekend: leaks or drips.\nReinstalled cover and tail-light.\nZip-tied wiring harness back in place."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-10 20:48",
+                  "text": "service.tesla.com/docs/ModelX/ServiceManual/en-us/GUID-C66F47F5-FD82-4FA5-B530-48F20DAAE254.html \n Correction codes:\n18301722\n18302522\n\nTesla runs motor and inverter in parallel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-10 21:07",
+                  "text": "image.png\nIncorrect coolant routing (inline, not parallel).\nTest drove up the hill a bunch of times. Maximum temperatures reached:\nInverter: 170F. (77C)Temp very responsive to throttle position. Get hot quick and cools down quick.\nMotor: 217F (102C). Slower to respond to temperature differences."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "ba16c58dc64c3e7bcd1df6bdec8ba795f56ac65b8df658d740428379e89cbcb2"
+              "content_hash": "15b31adf468429c1963fa8086e5a982aa1ed7358ee9778690682bbf1634af12c"
             },
             {
               "id": "868jqn5x7",

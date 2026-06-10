@@ -57,12 +57,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J early appt.",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early appt.",
               "type": "pto",
               "all_day": true
             }
