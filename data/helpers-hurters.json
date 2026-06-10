@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 54.8,
-      "pct_of_total": 12.7,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -50,7 +50,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 28.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -85,7 +85,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 25.8,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -126,32 +126,13 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
-      "total_hours": 21.2,
-      "pct_of_total": 4.9,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 13.5
-        },
-        {
-          "task": "Interior",
-          "hours": 4.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 3.5
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
-      "total_hours": 19.2,
-      "pct_of_total": 4.5,
+      "total_hours": 23.8,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Engineering - Product",
-          "hours": 6.2
+          "hours": 9.2
         },
         {
           "task": "HVAC",
@@ -160,6 +141,10 @@
         {
           "task": "Manufacturing - Product",
           "hours": 4.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 1.5
         },
         {
           "task": "Engineering - Core",
@@ -176,9 +161,28 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 21.2,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 13.5
+        },
+        {
+          "task": "Interior",
+          "hours": 4.2
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 3.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 15.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -201,7 +205,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -228,7 +232,7 @@
     {
       "project": "Jarowey 71 240Z",
       "total_hours": 7.2,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -248,36 +252,36 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
+      "project": "Connolly 58 220S",
       "total_hours": 6.5,
       "pct_of_total": 1.5,
       "tasks": [
         {
-          "task": "Brakes",
-          "hours": 5.0
+          "task": "Instrumentation",
+          "hours": 5.5
         },
         {
-          "task": "Audio",
-          "hours": 1.5
+          "task": "Motor & Transmission",
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 76.0,
-    "pct_of_total": 17.7,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 80.0,
+    "pct_of_total": 18.1,
+    "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 31.0
+        "hours": 33.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 27.8
+        "hours": 29.0
       },
       {
         "label": "Personal Meetings",
@@ -290,6 +294,10 @@
       {
         "label": "Organization",
         "hours": 2.2
+      },
+      {
+        "label": "Errands",
+        "hours": 0.5
       }
     ]
   },
@@ -297,7 +305,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 30.2,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -318,7 +326,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -336,7 +344,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 14.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -365,7 +373,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 10.2,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -376,11 +384,26 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 5.5,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Installation - Extra",
           "hours": 5.5
+        }
+      ]
+    },
+    {
+      "project": "Connolly 58 220S",
+      "total_hours": 4.8,
+      "pct_of_total": 1.1,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 3.0
+        },
+        {
+          "task": "Troubleshooting",
+          "hours": 1.8
         }
       ]
     },
@@ -402,26 +425,11 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 3.8,
-      "pct_of_total": 0.9,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Troubleshooting",
           "hours": 3.8
-        }
-      ]
-    },
-    {
-      "project": "Connolly 58 220S",
-      "total_hours": 2.8,
-      "pct_of_total": 0.6,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 1.5
-        },
-        {
-          "task": "Troubleshooting",
-          "hours": 1.2
         }
       ]
     },
@@ -438,9 +446,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 238.8,
-    "non_billable_hours": 190.8,
+    "billable_hours": 245.2,
+    "non_billable_hours": 196.8,
     "pto_hours": 45.0,
-    "total_hours": 429.5
+    "total_hours": 442.0
   }
 }
