@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 54.8,
-      "pct_of_total": 11.2,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -96,12 +96,16 @@
     },
     {
       "project": "McDonough 77 Esprit",
-      "total_hours": 28.0,
-      "pct_of_total": 5.7,
+      "total_hours": 31.0,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Suspension",
           "hours": 8.5
+        },
+        {
+          "task": "Interior",
+          "hours": 6.0
         },
         {
           "task": "Exterior",
@@ -110,10 +114,6 @@
         {
           "task": "Brakes",
           "hours": 5.0
-        },
-        {
-          "task": "Interior",
-          "hours": 4.0
         },
         {
           "task": "Steering",
@@ -125,14 +125,14 @@
         },
         {
           "task": "Engine Bay",
-          "hours": 0.5
+          "hours": 1.5
         }
       ]
     },
     {
       "project": "Jaffe 86 190E",
       "total_hours": 23.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -190,7 +190,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 21.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -224,7 +224,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 13.0,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -251,7 +251,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 10.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -293,7 +293,7 @@
   ],
   "shop_work": {
     "total_hours": 87.8,
-    "pct_of_total": 18.0,
+    "pct_of_total": 17.9,
     "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
@@ -383,7 +383,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 11.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -470,9 +470,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 279.8,
+    "billable_hours": 282.8,
     "non_billable_hours": 208.5,
     "pto_hours": 45.0,
-    "total_hours": 488.2
+    "total_hours": 491.2
   }
 }
