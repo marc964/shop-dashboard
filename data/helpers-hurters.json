@@ -281,12 +281,16 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 9.5,
-      "pct_of_total": 1.7,
+      "total_hours": 11.2,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Brakes",
           "hours": 8.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 1.8
         },
         {
           "task": "Audio",
@@ -332,8 +336,8 @@
   "project_hurters": [
     {
       "project": "Shah 65 Mustang",
-      "total_hours": 30.2,
-      "pct_of_total": 5.5,
+      "total_hours": 31.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -344,7 +348,7 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 1.5,
+          "hours": 3.0,
           "context": [
             "Vehicle Control"
           ]
@@ -370,24 +374,9 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 15.2,
-      "pct_of_total": 2.8,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 11.5
-        },
-        {
-          "task": "Installation - Extra",
-          "hours": 3.8
-        }
-      ]
-    },
-    {
       "project": "Vargas 66 Mustang",
-      "total_hours": 11.5,
-      "pct_of_total": 2.1,
+      "total_hours": 17.8,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -395,6 +384,29 @@
           "context": [
             "Motor & Transmission"
           ]
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 6.2,
+          "context": [
+            "Brakes",
+            "Instrumentation"
+          ]
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 13.5,
+      "pct_of_total": 2.4,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 11.5
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 2.0
         }
       ]
     },
@@ -411,8 +423,8 @@
     },
     {
       "project": "Connolly 58 220S",
-      "total_hours": 9.2,
-      "pct_of_total": 1.7,
+      "total_hours": 6.5,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -420,7 +432,7 @@
         },
         {
           "task": "Troubleshooting",
-          "hours": 3.8
+          "hours": 1.0
         }
       ]
     },
@@ -462,20 +474,20 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
+      "project": "Chuter 62 Healey",
       "total_hours": 3.8,
       "pct_of_total": 0.7,
       "tasks": [
         {
-          "task": "Troubleshooting",
+          "task": "Installation - Extra",
           "hours": 3.8
         }
       ]
     }
   ],
   "totals": {
-    "billable_hours": 327.0,
-    "non_billable_hours": 225.5,
+    "billable_hours": 320.0,
+    "non_billable_hours": 232.5,
     "pto_hours": 45.0,
     "total_hours": 552.5
   }
