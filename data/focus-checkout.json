@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T22:09:32.311911Z",
+  "updated_at": "2026-06-12T23:52:53.838107Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -923,10 +923,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-12 02:11",
                   "text": "Re-adjusted brake proportioning valve. Was allowing too much pressure to the rears.\nimage.png\nAble to lock up on test drive. However, brakes contact steering box slightly with increased travel.. Need to clearance steering box slightly."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 23:00",
+                  "text": "Went to @Marc Davis house to repair bus.\nDiscovered adjustment on rod, missed during install. Rod was set roughly where the original rod was.\nPerformed adjustment.. Test drove 8 miles.\nBrake feels OK for manual brakes. Can lock up the fronts with agressive braking. No further dragging. No further touching steering box. Will continue to test drive for possible bias valve adjustment."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a1f1263d2f24fd301a271974b886a0cfea8b32e83d5bd21e7a5d9a36ed5b5267"
+              "content_hash": "c1b765c79950ffdd8ab551a80b84c270667f8ba23704357de080a9f6222f7968"
             },
             {
               "id": "868gq8350",
@@ -1072,10 +1077,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-10 21:07",
                   "text": "image.png\nIncorrect coolant routing (inline, not parallel).\nTest drove up the hill a bunch of times. Maximum temperatures reached:\nInverter: 170F. (77C)Temp very responsive to throttle position. Get hot quick and cools down quick.\nMotor: 217F (102C). Slower to respond to temperature differences."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 23:05",
+                  "text": "Test drove 24 minutes, with logger installed. Able to get severe temp spike with a full-throttle run up Foremost hill (80C) with temp going from 35C to 80C by the top of the hill, and back to 35C at the bottom of the hill. No alerts or thermal derating present.\nTest drove with logger in Chuter healy.\nCompared logs on AEM dash. Discovered dash was reporting \"inverter module\" - aka IGBT temp. Inverter temp on GUI and speedhut temp gauge match. With @Devin DuMont, changed channel to proper channel for inverter temp measurement. After changing signals, dash now responding 'rationally', IE temp climbs and falls slowly over time as the vehilce is driven harder."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "15b31adf468429c1963fa8086e5a982aa1ed7358ee9778690682bbf1634af12c"
+              "content_hash": "bcd4fb77081cd6325eeff0e488f7b6e3d32631bff65ca8a27b413a304848b710"
             },
             {
               "id": "868jqn5x7",
