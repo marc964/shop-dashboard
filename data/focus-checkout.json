@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T12:34:50.057373Z",
+  "updated_at": "2026-06-12T15:57:44.340839Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 12
+        "open_tasks": 13
       },
       "assignees": [
         {
@@ -234,6 +234,16 @@
               ],
               "checklist_items": [],
               "content_hash": "7c038d9de034b2a5920192d63df4bdd9465a7534b4c8b7367574f629ff97a482"
+            },
+            {
+              "id": "868k0fmqv",
+              "name": "Troubleshoot brake issue",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868k0fmqv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "46ebb9da87210721e8250d73a8b78f32817daac3c8bd11eb78a61ad9d0503f13"
             }
           ]
         },
@@ -308,10 +318,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-04 23:13",
                   "text": "Spoke to Lupe and confirmed he can replace the seal. Well order the seal and then contact him when we're ready for him to perform the work."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:12",
+                  "text": "Waiting on Barton approval to proceed."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "37b025f163ebb0157d65296b3f79bd3334cab3a2010e607e9ae29a97eba47d77"
+              "content_hash": "a0501a10b452d59241e46cb956d676fd1246235c6ed6f9209b0cb7b6392ce8ca"
             },
             {
               "id": "868jxmw03",
@@ -1195,10 +1210,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-05-29 17:53",
                   "text": "Waiting on go ahead from Jordan once suspension is done."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:13",
+                  "text": "Still waiting on spindles, following up today, 6/12"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "29940ccb91dd367441d6ffdfd194363bf4633646db1587bb6cbd9e3fdf0eff08"
+              "content_hash": "85613314127825ae196e77bdb7f238be8d5c792c719689913551baf506d44cca"
             }
           ]
         }
