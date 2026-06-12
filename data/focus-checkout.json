@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T20:28:45.071106Z",
+  "updated_at": "2026-06-12T22:09:32.311911Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1179,10 +1179,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-02 21:49",
                   "text": "Retesting the APP power surge. Test drove with Marc and plotted the results. Noticed in the analysis that torque request is actually getting reduced and then increased. Wrote up analysis and sent to Ampere."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-12 21:16",
+                  "text": "Showed Jordan how to use the BlueBox to log temperatures, had him drive the bus and a second car as a control. Showed him how to extract the logs and analyze them to determine that coolant was actually motor. Hopped onto the VCU and selected the correct option, Verified with the test drive."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8d6e042850115b34da8d6988ea93f29e342f074022561e0c6a7240a638e5b85d"
+              "content_hash": "ffa85ce9c6bf65c14746b158f8c730190b4761a65184a5383f9e5fee5dd9d8f5"
             },
             {
               "id": "868jx2u8g",
