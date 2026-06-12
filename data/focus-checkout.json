@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T00:09:15.413707Z",
+  "updated_at": "2026-06-12T05:05:22.966799Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -898,10 +898,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-10 23:00",
                   "text": "Re-bleeding accomplished. Pedal much better, but travel is too long and unable to lock up brakes. Also, with increased stroke, now lever is hitting steering box. Further work needed."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 02:11",
+                  "text": "Update, brakes dragging on @Marc Davis on his way home. Likely master needs to be spaced out further to allow full retraction of pads."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 02:11",
+                  "text": "Re-adjusted brake proportioning valve. Was allowing too much pressure to the rears.\nimage.png\nAble to lock up on test drive. However, brakes contact steering box slightly with increased travel.. Need to clearance steering box slightly."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3f4401632c3fc99c9a97cd27431de9c85bd4cd582f70ff1bf9bcf3f018d2f67c"
+              "content_hash": "a1f1263d2f24fd301a271974b886a0cfea8b32e83d5bd21e7a5d9a36ed5b5267"
             },
             {
               "id": "868gq8350",
