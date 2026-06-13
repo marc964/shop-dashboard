@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 64.8,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -54,7 +54,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 48.5,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Cooling",
@@ -124,7 +124,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 34.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -213,7 +213,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 24.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -312,7 +312,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 107.0,
+    "total_hours": 107.5,
     "pct_of_total": 17.5,
     "avg_per_person_per_day": 1.34,
     "flagged": true,
@@ -321,7 +321,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.2
+        "hours": 43.8
       },
       {
         "label": "Shop Meetings",
@@ -410,7 +410,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 15.0,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -446,8 +446,8 @@
     },
     {
       "project": "Connolly 58 220S",
-      "total_hours": 6.5,
-      "pct_of_total": 1.1,
+      "total_hours": 8.0,
+      "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -455,7 +455,7 @@
         },
         {
           "task": "Troubleshooting",
-          "hours": 1.0
+          "hours": 2.5
         }
       ]
     },
@@ -498,9 +498,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 361.0,
-    "non_billable_hours": 248.8,
+    "billable_hours": 363.0,
+    "non_billable_hours": 250.8,
     "pto_hours": 45.0,
-    "total_hours": 609.8
+    "total_hours": 613.8
   }
 }
