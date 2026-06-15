@@ -57,7 +57,13 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Ryan L Out (work from home in the AM)",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-06-20",
