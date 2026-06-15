@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T13:41:54.835191Z",
+  "updated_at": "2026-06-15T18:18:22.295568Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -873,10 +873,15 @@
                   "author": "Alex Noonan",
                   "date": "2026-01-05 16:06",
                   "text": "Need to finish installing rear seat, but may want to wait until audio is tested"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-15 16:29",
+                  "text": "Installed window trim seals - front driver quarter window seal missing.\nTrimmed passenger side to fit.\nParked outside to test water proofness."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "925d209e8a6f5d88d3bdc961e53df1eb9e1835d83083c10407d16f2f41395790"
+              "content_hash": "8f260c11e939f7af2a511c8747bb8ebfc8d8a517d1173cdd4cbd4f3f6d4364e1"
             },
             {
               "id": "868jqn362",
