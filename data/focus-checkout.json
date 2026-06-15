@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T07:40:38.989154Z",
+  "updated_at": "2026-06-15T13:41:54.835191Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -241,9 +241,20 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868k0fmqv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-15 12:34",
+                  "text": "Inspected brake issue, found the bolt for PS upper brake caliper bracket backed out and rubbed the rotor a little. I tighten it back down with an open ended wrench, and also gave it several whacks with a hammer, so its incredibly secured. After that i marked it with a paint pen from the front so it can be inspected with ease. Checked the DS and found that bolt still tight, so i marked that with a paint pen also. So this task is done and car is back to a green tag."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-15 12:43",
+                  "text": "1000026169.jpg\n1000026168.jpg\n1000026161.jpg\n1000026160.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "46ebb9da87210721e8250d73a8b78f32817daac3c8bd11eb78a61ad9d0503f13"
+              "content_hash": "5106b84b4012786c73244ad728a00c2c6f71afca6d0ff8e5be78854632a9f100"
             }
           ]
         },

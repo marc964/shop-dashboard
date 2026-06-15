@@ -163,7 +163,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 31.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -370,7 +370,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -498,9 +498,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 363.0,
+    "billable_hours": 364.0,
     "non_billable_hours": 250.8,
     "pto_hours": 45.0,
-    "total_hours": 613.8
+    "total_hours": 614.8
   }
 }
