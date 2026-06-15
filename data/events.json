@@ -1,105 +1,15 @@
 {
-  "generated_at": "2026-06-14",
+  "generated_at": "2026-06-15",
   "weeks": [
-    {
-      "week_start": "2026-06-08",
-      "week_label": "Week of Jun 08",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-06-08",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Alex N Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-09",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Alex N Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-10",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Alex N Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Peter Lee Visit",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-11",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Alex N Out",
-              "type": "pto",
-              "all_day": true
-            },
-            {
-              "summary": "Jordan J early appt.",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-12",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-06-13",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-06-14",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-06-15",
       "week_label": "Week of Jun 15",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-06-15",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -312,6 +222,62 @@
         },
         {
           "date": "2026-07-05",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-07-06",
+      "week_label": "Week of Jul 06",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-07-06",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-07",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-08",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-09",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-10",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-11",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-07-12",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,

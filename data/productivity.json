@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14",
+  "generated_at": "2026-06-15",
   "target_pct": 75,
   "current_month": {
     "month": "2026-06",
@@ -21,8 +21,8 @@
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 50.8,
-      "delta": 8.3
+      "value": 66.8,
+      "delta": -7.7
     },
     "vs_target": {
       "label": "vs Target",
