@@ -2,20 +2,20 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 66.8,
-      "pct_of_total": 10.3,
+      "total_hours": 69.2,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Vehicle Control",
           "hours": 26.0
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 12.0
+          "task": "Charging",
+          "hours": 12.5
         },
         {
-          "task": "Charging",
-          "hours": 10.0
+          "task": "Manufacturing - Product",
+          "hours": 12.0
         },
         {
           "task": "Cooling",
@@ -53,8 +53,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 55.8,
-      "pct_of_total": 8.6,
+      "total_hours": 58.5,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Cooling",
@@ -75,6 +75,10 @@
         {
           "task": "Wiring - OEM",
           "hours": 4.8
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.8
         },
         {
           "task": "Interior",
@@ -124,7 +128,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.2,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -163,7 +167,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 31.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -198,7 +202,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 27.0,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Suspension",
@@ -312,7 +316,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 111.5,
+    "total_hours": 112.0,
     "pct_of_total": 17.2,
     "avg_per_person_per_day": 1.27,
     "flagged": true,
@@ -321,7 +325,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 45.8
+        "hours": 46.2
       },
       {
         "label": "Shop Meetings",
@@ -498,9 +502,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 391.0,
-    "non_billable_hours": 256.0,
+    "billable_hours": 396.2,
+    "non_billable_hours": 256.5,
     "pto_hours": 45.0,
-    "total_hours": 647.0
+    "total_hours": 652.8
   }
 }
