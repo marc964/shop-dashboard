@@ -367,6 +367,17 @@
       }
     },
     {
+      "owner": "Miner",
+      "year": 1995,
+      "color": "Green",
+      "make": "Porsche",
+      "model": "993",
+      "status": "Testing",
+      "checkout": 90.1,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Witter",
       "year": 1970,
       "color": "Dark Blue",
@@ -374,17 +385,6 @@
       "model": "280SL",
       "status": "Shipped",
       "checkout": 90.1,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Miner",
-      "year": 1995,
-      "color": "Green",
-      "make": "Porsche",
-      "model": "993",
-      "status": "Testing",
-      "checkout": 89.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-13T00:21:03.072967+00:00",
+  "updated": "2026-06-16T01:41:25.699026+00:00",
   "source": "Google Sheets API"
 }
