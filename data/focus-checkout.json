@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T12:34:09.296261Z",
+  "updated_at": "2026-06-16T17:50:47.496641Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -990,10 +990,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-16 00:43",
                   "text": "Unpacked and rough-installed skid plates.\nWill need to modify or shift spacers - not quite lining up after tightening up."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-16 16:59",
+                  "text": "Made small modifications to skid plate holes to accomodate frame / assembly differences.\nLoosened and standoffs and installed skidplates with extra long hardware, to allow for everything to lined up, while able to tighten down standoffs in place.\nTightened standoffs.\nDrilled and tapped radiator mount brackets.\nSwapped countersunk screws for button-head + wide washers to allow for play.\nPer @Geoff Raynak, swapped louvre direction."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5d5eb7511f6591d7f2968c39eae5f5122bad2578eb2e5bd4db41b2a2904650a0"
+              "content_hash": "a54cc018ad95344ed3bb31dd20361d277c0a7a12f8da2c5d95010d61617a924b"
             },
             {
               "id": "868jw0zyg",
