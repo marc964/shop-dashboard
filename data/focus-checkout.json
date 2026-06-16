@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T20:53:20.649445Z",
+  "updated_at": "2026-06-16T22:54:17.122284Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -847,10 +847,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-03 17:55",
                   "text": "Screenshot 2026-06-03 124556.png\n\nCame to my attention that drop spindles sometimes require different disc-brake conversion kits. Did extensive research to make sure we have the correct brackets for when the stock spindles arrive.\n1000011824.jpg\n1000012539.jpg\nResearched disc-brake kits and found the kit installed on this vehicle. Seen here:\nwww2.cip1.com/c31-499-264-5205-14/ \n \nAppears this kit should work with stock spindles."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-16 21:10",
+                  "text": "Received spindles.\nReference videos:\n\nwww.youtube.com/watch?v=u_eg9Kwv9NM \n \nwww.youtube.com/watch?v=zirVvgpK8uo&t=588s"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3aa4f46ce804b9912fe049465e817b14cfdbc6c6de4ebbcc00778f8fcc24cd55"
+              "content_hash": "ec0ba1b51e18e9692c2446e25d0b286a47493171b4839a1751bc31e4b0326803"
             },
             {
               "id": "868hgu3ee",
