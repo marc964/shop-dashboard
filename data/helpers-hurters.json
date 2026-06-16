@@ -53,8 +53,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 58.5,
-      "pct_of_total": 8.8,
+      "total_hours": 59.8,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Cooling",
@@ -69,12 +69,12 @@
           "hours": 9.2
         },
         {
-          "task": "Vehicle Control",
-          "hours": 5.5
+          "task": "Wiring - OEM",
+          "hours": 6.0
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 4.8
+          "task": "Vehicle Control",
+          "hours": 5.5
         },
         {
           "task": "Engineering - Core",
@@ -510,9 +510,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 403.2,
+    "billable_hours": 404.5,
     "non_billable_hours": 263.8,
     "pto_hours": 45.0,
-    "total_hours": 667.0
+    "total_hours": 668.2
   }
 }
