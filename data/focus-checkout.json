@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T14:05:55.489878Z",
+  "updated_at": "2026-06-17T17:25:27.198958Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 13
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -234,27 +234,6 @@
               ],
               "checklist_items": [],
               "content_hash": "7c038d9de034b2a5920192d63df4bdd9465a7534b4c8b7367574f629ff97a482"
-            },
-            {
-              "id": "868k0fmqv",
-              "name": "Troubleshoot brake issue",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868k0fmqv",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-15 12:34",
-                  "text": "Inspected brake issue, found the bolt for PS upper brake caliper bracket backed out and rubbed the rotor a little. I tighten it back down with an open ended wrench, and also gave it several whacks with a hammer, so its incredibly secured. After that i marked it with a paint pen from the front so it can be inspected with ease. Checked the DS and found that bolt still tight, so i marked that with a paint pen also. So this task is done and car is back to a green tag."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-15 12:43",
-                  "text": "1000026169.jpg\n1000026168.jpg\n1000026161.jpg\n1000026160.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "5106b84b4012786c73244ad728a00c2c6f71afca6d0ff8e5be78854632a9f100"
             }
           ]
         },
@@ -511,7 +490,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -724,6 +703,21 @@
               ],
               "checklist_items": [],
               "content_hash": "f5a2b96db8f9362c106eb6ed36c5081bc5ecddee2d253bb2f668c71b733a32da"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868k26f8t",
+              "name": "Set up alignment appoinment",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868k26f8t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3de9a7bc86cfe7c518df7317f43dca335b9c3a5d30487b37f5d79cc293485dcc"
             }
           ]
         }
@@ -1266,10 +1260,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-12 13:13",
                   "text": "Still waiting on spindles, following up today, 6/12"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:29",
+                  "text": "Jordan finalizing suspension work, will schedule as soon as he gives the thumbs up."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "85613314127825ae196e77bdb7f238be8d5c792c719689913551baf506d44cca"
+              "content_hash": "d2b1b71a6fde7bddba2b40bcb3852b75fb8099b3906e6d6124bd0f21ca46c470"
             }
           ]
         }
