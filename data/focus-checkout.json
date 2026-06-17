@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T21:36:41.489641Z",
+  "updated_at": "2026-06-17T23:09:33.948165Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -30,11 +30,11 @@
         "make": "Chevrolet",
         "model": "Impala",
         "status": "Testing & Tuning",
-        "checkout": 91.8,
+        "checkout": 91.4,
         "sub_metrics": [
           {
             "label": "BMS",
-            "value": 100
+            "value": 97.2
           },
           {
             "label": "Inverter",
@@ -373,11 +373,11 @@
         "make": "Chevrolet",
         "model": "Blazer",
         "status": "Checkout",
-        "checkout": 76.4,
+        "checkout": 75.9,
         "sub_metrics": [
           {
             "label": "BMS",
-            "value": 100
+            "value": 97.2
           },
           {
             "label": "Inverter",
@@ -732,11 +732,11 @@
         "make": "Volkswagen",
         "model": "Micro Bus",
         "status": "Startup",
-        "checkout": 77.4,
+        "checkout": 76.9,
         "sub_metrics": [
           {
             "label": "BMS",
-            "value": 91.4
+            "value": 88.9
           },
           {
             "label": "Inverter",
@@ -851,10 +851,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-17 00:46",
                   "text": "Installed new spindles.\nRemoved front brakes/bearings/tierods/spindles.\nInstalled new front shocks (Koni adjustables).\nSet fronts to 1 turn tight.\nSet rears to 1.5 turn tight (not yet installed)\nPressed out old bearing races from spindles\nInspected new spindles.\nFroze, then pressed in bearing races.\nRemoved adjusters from top and bottom beam - reset to center. Torqued for now, not loctited.\nLoosened and re-centered beam leaves.\nMeasured camber for spindles:\nPassenger side 8.5mm\nDriver's side 6mm\nAssembled shims. See photos for details.\nSee photos for camber / shim adjustments.\nCompressed spindle arms and slid new spindles on.\nDiscovered die-rod end assortment on-site wouldn't work. Ordered new tie-rod ends.\nReinstalled brakes/wheel bearings/spindles.\nTorqued and marked all hardware.\nTomorrow:\nRide height adjustment.\nThursday\nInstall new tie rod ends and do toe adjustment."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-17 21:51",
+                  "text": "Lubricated all grease points on front end.\nOne zerk fitting failed - requires replacement. Plugged for now.\nSet ride height in from to 300mm (was 270).\nInstalled tie rod ends and set preliminary toe."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "836b919d45bd62b5e9c6622186eb9675b9ada2bf80342bfb8f5ada2da5b19b0b"
+              "content_hash": "9967054f1569ca317380a8b3e0c46db6a137ad29052d9658ffe6909cc0ce6049"
             },
             {
               "id": "868hgu3ee",
