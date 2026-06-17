@@ -53,8 +53,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 65.8,
-      "pct_of_total": 9.0,
+      "total_hours": 67.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Cooling",
@@ -95,6 +95,10 @@
         {
           "task": "Audio",
           "hours": 1.8
+        },
+        {
+          "task": "Steering",
+          "hours": 1.5
         },
         {
           "task": "Suspension",
@@ -518,9 +522,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 440.5,
+    "billable_hours": 442.0,
     "non_billable_hours": 293.8,
     "pto_hours": 45.0,
-    "total_hours": 734.2
+    "total_hours": 735.8
   }
 }
