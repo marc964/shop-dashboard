@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T22:54:17.122284Z",
+  "updated_at": "2026-06-17T05:25:56.722509Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -852,10 +852,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-16 21:10",
                   "text": "Received spindles.\nReference videos:\n\nwww.youtube.com/watch?v=u_eg9Kwv9NM \n \nwww.youtube.com/watch?v=zirVvgpK8uo&t=588s"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-17 00:46",
+                  "text": "Installed new spindles.\nRemoved front brakes/bearings/tierods/spindles.\nInstalled new front shocks (Koni adjustables).\nSet fronts to 1 turn tight.\nSet rears to 1.5 turn tight (not yet installed)\nPressed out old bearing races from spindles\nInspected new spindles.\nFroze, then pressed in bearing races.\nRemoved adjusters from top and bottom beam - reset to center. Torqued for now, not loctited.\nLoosened and re-centered beam leaves.\nMeasured camber for spindles:\nPassenger side 8.5mm\nDriver's side 6mm\nAssembled shims. See photos for details.\nSee photos for camber / shim adjustments.\nCompressed spindle arms and slid new spindles on.\nDiscovered die-rod end assortment on-site wouldn't work. Ordered new tie-rod ends.\nReinstalled brakes/wheel bearings/spindles.\nTorqued and marked all hardware.\nTomorrow:\nRide height adjustment.\nThursday\nInstall new tie rod ends and do toe adjustment."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "ec0ba1b51e18e9692c2446e25d0b286a47493171b4839a1751bc31e4b0326803"
+              "content_hash": "836b919d45bd62b5e9c6622186eb9675b9ada2bf80342bfb8f5ada2da5b19b0b"
             },
             {
               "id": "868hgu3ee",
