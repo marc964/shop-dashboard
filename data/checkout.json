@@ -12,6 +12,17 @@
       "system": "AEM"
     },
     {
+      "owner": "Avalos",
+      "year": 1972,
+      "color": "Orange",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Shipped",
+      "checkout": 97.9,
+      "sub_metrics": [],
+      "system": "AEM"
+    },
+    {
       "owner": "Hastert",
       "year": 1960,
       "color": "Green",
@@ -565,7 +576,7 @@
       "make": "GMC",
       "model": "Truck",
       "status": "Shipped",
-      "checkout": 79.7,
+      "checkout": 81.2,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -853,17 +864,6 @@
       "model": "E-Type",
       "status": "Shipped",
       "checkout": 71.4,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
-      "owner": "Avalos",
-      "year": 1972,
-      "color": "Orange",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Shipped",
-      "checkout": 70.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-18T17:33:17.208603+00:00",
+  "updated": "2026-06-18T19:57:34.490484+00:00",
   "source": "Google Sheets API"
 }
