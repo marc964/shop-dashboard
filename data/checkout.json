@@ -863,7 +863,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Shipped",
-      "checkout": 70.3,
+      "checkout": 70.8,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1591,6 +1591,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-18T14:15:25.026400+00:00",
+  "updated": "2026-06-18T17:33:17.208603+00:00",
   "source": "Google Sheets API"
 }
