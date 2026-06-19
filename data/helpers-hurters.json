@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 89.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -65,16 +65,16 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 78.2,
-      "pct_of_total": 9.1,
+      "total_hours": 82.8,
+      "pct_of_total": 9.6,
       "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 18.8
+        },
         {
           "task": "Cooling",
           "hours": 16.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 15.8
         },
         {
           "task": "Brakes",
@@ -86,7 +86,7 @@
         },
         {
           "task": "Interior",
-          "hours": 6.0
+          "hours": 7.5
         },
         {
           "task": "Vehicle Control",
@@ -199,7 +199,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 52.2,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -245,12 +245,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 49.5,
-      "pct_of_total": 5.8,
+      "total_hours": 50.8,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 25.5
+          "hours": 26.8
         },
         {
           "task": "Exterior",
@@ -388,7 +388,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 141.0,
+    "total_hours": 141.5,
     "pct_of_total": 16.4,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
@@ -401,7 +401,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.8
+        "hours": 48.2
       },
       {
         "label": "Personal Meetings",
@@ -479,7 +479,7 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 22.0,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -574,9 +574,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 528.5,
-    "non_billable_hours": 329.2,
+    "billable_hours": 534.2,
+    "non_billable_hours": 329.8,
     "pto_hours": 53.0,
-    "total_hours": 857.8
+    "total_hours": 864.0
   }
 }

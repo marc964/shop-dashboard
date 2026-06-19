@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T13:42:29.027046Z",
+  "updated_at": "2026-06-19T16:22:20.465798Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -789,12 +789,22 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 12
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
+            {
+              "id": "868k33pkg",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k33pkg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a5fd15e53e60329d255fcc528a1ba16a94b2497d9ceb960d1de9317e9d65f5f0"
+            },
             {
               "id": "868hjy6ch",
               "name": "Address wheel clearance issue",
@@ -1145,6 +1155,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868k33prg",
+              "name": "Aid in rear suspension assessment",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k33prg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8b9bb482cb4e1431153ef7023887c82b036482bf779328136b5712a5f8e77c05"
             }
           ]
         },
