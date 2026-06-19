@@ -1,23 +1,13 @@
 {
-  "updated_at": "2026-06-19T00:02:47.212948Z",
+  "updated_at": "2026-06-19T05:25:59.861503Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Berke",
-      "vehicle": {
-        "owner": "Berke",
-        "year": 1969,
-        "color": "Blue",
-        "make": "Alfa",
-        "model": "Spyder",
-        "status": "Shipped",
-        "checkout": 100,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
         "found": false,
-        "error": "no_match"
+        "error": "no_vehicle"
       },
       "assignees": []
     },
@@ -856,10 +846,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-17 21:51",
                   "text": "Lubricated all grease points on front end.\nOne zerk fitting failed - requires replacement. Plugged for now.\nSet ride height in from to 300mm (was 270).\nInstalled tie rod ends and set preliminary toe."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 03:04",
+                  "text": "Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\n\n\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\n\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9967054f1569ca317380a8b3e0c46db6a137ad29052d9658ffe6909cc0ce6049"
+              "content_hash": "546b98264afbe65bee079eedcc168252712e91bcfac55c6c70b40488f2f26df4"
             },
             {
               "id": "868hgu3ee",
