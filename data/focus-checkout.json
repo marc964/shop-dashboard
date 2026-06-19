@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T22:39:02.252620Z",
+  "updated_at": "2026-06-19T23:50:07.778187Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1189,9 +1189,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k33prg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-19 23:49",
+                  "text": "assessment and brainstorming. it turned out to be missing a bushing and had too much room to move. reference Jordans notes for that.\nafter Jordan got everything removed and disassembled. I put together the welder and got everything prepped and welded. with some cleanup to make nice mating surfaces."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8b9bb482cb4e1431153ef7023887c82b036482bf779328136b5712a5f8e77c05"
+              "content_hash": "618c35aaeab48f39b7c8c4debbf54a87d3564773a49daf6c725a22a0dfbe1ea6"
             }
           ]
         },
