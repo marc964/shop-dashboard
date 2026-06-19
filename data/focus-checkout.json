@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T21:38:42.519845Z",
+  "updated_at": "2026-06-19T22:39:02.252620Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -699,10 +699,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-08 13:27",
                   "text": "Wired remaining pullups for CSS CAN Input for all channels so thermistors could be read. Verified previous configuration, used thermistor beta and R0 to convert volts to ohms to temperature. Setup AEM Dash plot to log all of this. Performed three point calibration to verify sensors. Test drove vehicle, processed results and shared analysis with the team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-19 22:06",
+                  "text": "Tried flashing VCU firmware 1.8.12 to test the new torque map but ran into some tag mapping error and could not complete. Also found a potentially dangerous scenario during a previous test drive where the VCU is limiting till the point the vehicle isn't moving at all and then suddenly removes the entire limiter resulting in a drag pull that you were not expecting. Updated Slack / Ampere tickets."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f5a2b96db8f9362c106eb6ed36c5081bc5ecddee2d253bb2f668c71b733a32da"
+              "content_hash": "0c8f043c9cba4715c2bd08904ec43177d8751b7ff08c1f14484eba5614192eff"
             }
           ]
         },
