@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T18:17:52.676091Z",
+  "updated_at": "2026-06-19T20:16:20.795969Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -715,9 +715,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868k26f8t",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-19 20:13",
+                  "text": "Alignment scheduled for July 1st @11am"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3de9a7bc86cfe7c518df7317f43dca335b9c3a5d30487b37f5d79cc293485dcc"
+              "content_hash": "f4fd82d31fedeb11c3b5c15be9c4cff2af7f235e386f0278f0f6a7182fa55381"
             }
           ]
         }
