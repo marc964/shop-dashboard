@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 84.5,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 78.2,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Cooling",
@@ -117,7 +117,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 56.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -164,7 +164,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 53.5,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -229,12 +229,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 37.5,
-      "pct_of_total": 4.5,
+      "total_hours": 44.0,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 18.5
+          "hours": 25.0
         },
         {
           "task": "Exterior",
@@ -368,24 +368,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 136.8,
+    "total_hours": 138.0,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.22,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 14,
+    "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 55.8
+        "hours": 56.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 46.2
+        "hours": 46.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 18.5
+        "hours": 18.8
       },
       {
         "label": "Other",
@@ -459,7 +459,7 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 22.0,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -554,9 +554,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 506.8,
-    "non_billable_hours": 320.5,
+    "billable_hours": 513.2,
+    "non_billable_hours": 321.8,
     "pto_hours": 53.0,
-    "total_hours": 827.2
+    "total_hours": 835.0
   }
 }
