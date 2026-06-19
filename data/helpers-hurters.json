@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 78.2,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Cooling",
@@ -125,7 +125,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 56.0,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -172,7 +172,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 53.5,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -245,16 +245,20 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 44.0,
-      "pct_of_total": 5.2,
+      "total_hours": 49.5,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 25.0
+          "hours": 25.5
         },
         {
           "task": "Exterior",
           "hours": 13.5
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
         },
         {
           "task": "Motor & Transmission",
@@ -385,7 +389,7 @@
   ],
   "shop_work": {
     "total_hours": 141.0,
-    "pct_of_total": 16.5,
+    "pct_of_total": 16.4,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
@@ -570,9 +574,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 523.0,
+    "billable_hours": 528.5,
     "non_billable_hours": 329.2,
     "pto_hours": 53.0,
-    "total_hours": 852.2
+    "total_hours": 857.8
   }
 }
