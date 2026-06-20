@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-06-20",
   "weeks": [
     {
       "week_start": "2026-06-15",
@@ -55,7 +55,7 @@
         {
           "date": "2026-06-19",
           "day_name": "Friday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
@@ -68,7 +68,7 @@
         {
           "date": "2026-06-20",
           "day_name": "Saturday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": true,
           "events": []
         },

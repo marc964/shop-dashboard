@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T23:50:07.778187Z",
+  "updated_at": "2026-06-20T07:40:21.945903Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -822,10 +822,25 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-19 20:29",
                   "text": "Today:\nPulled spring plates left and right.\nBoth backing plate and adjuster plate showed significant bending.\nStraightened all four pieces as much as practical\nCut and cleaned threaded block off both sides.\nDrilled pilot hole for stud."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "3D printinng TPU bushings temporarily until new ones arrive from Jbugs.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "Pressed in studs.\nCleaned from welding.\nPrepped for paint.\nPut 4 coats of hot-rod black.\nTouch-up painted adjustment blocks"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:58",
+                  "text": "Ordered wide, strong washers for clamp m8 stud"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bde6915f0295bff4db2507b061fd402d2f6a47976b2087534c8884bef8f7f905"
+              "content_hash": "9e6e4a5987bc53c655ebaa583b277648ac2f4669248e1e11bad79b05ec25a985"
             },
             {
               "id": "868hjy6ch",

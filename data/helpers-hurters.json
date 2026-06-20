@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 95.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.2,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 62.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -176,7 +176,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 58.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -201,8 +201,35 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 54.0,
+      "pct_of_total": 5.9,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 30.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 13.5
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 3.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
-      "total_hours": 52.2,
+      "total_hours": 52.8,
       "pct_of_total": 5.7,
       "tasks": [
         {
@@ -222,11 +249,11 @@
           "hours": 3.0
         },
         {
-          "task": "Motor & Transmission",
-          "hours": 2.0
+          "task": "Charging",
+          "hours": 2.5
         },
         {
-          "task": "Charging",
+          "task": "Motor & Transmission",
           "hours": 2.0
         },
         {
@@ -248,36 +275,9 @@
       ]
     },
     {
-      "project": "Witham 51 3100",
-      "total_hours": 50.8,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 26.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 13.5
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 3.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
       "total_hours": 32.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -376,20 +376,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 147.2,
+    "total_hours": 149.2,
     "pct_of_total": 16.2,
-    "avg_per_person_per_day": 1.23,
+    "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 60.0
+        "hours": 61.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 49.8
+        "hours": 50.2
       },
       {
         "label": "Personal Meetings",
@@ -413,7 +413,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -451,12 +451,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 23.2,
-      "pct_of_total": 2.6,
+      "total_hours": 25.2,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 21.2
+          "hours": 23.2
         },
         {
           "task": "Installation - Extra",
@@ -467,7 +467,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 17.8,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -525,12 +525,15 @@
     },
     {
       "project": "Ivanhoe 65 Alfa",
-      "total_hours": 6.0,
-      "pct_of_total": 0.7,
+      "total_hours": 7.5,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 6.0
+          "hours": 7.5,
+          "context": [
+            "Interior"
+          ]
         }
       ]
     },
@@ -566,9 +569,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 601.0,
-    "non_billable_hours": 309.2,
+    "billable_hours": 606.2,
+    "non_billable_hours": 314.8,
     "pto_hours": 53.0,
-    "total_hours": 910.2
+    "total_hours": 921.0
   }
 }
