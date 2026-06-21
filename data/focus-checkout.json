@@ -1,13 +1,23 @@
 {
-  "updated_at": "2026-06-21T17:06:17.086983Z",
+  "updated_at": "2026-06-21T18:52:50.004873Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Berke",
-      "vehicle": null,
+      "vehicle": {
+        "owner": "Berke",
+        "year": 1969,
+        "color": "Blue",
+        "make": "Alfa",
+        "model": "Spyder",
+        "status": "Shipped",
+        "checkout": 100,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
       "clickup_match": {
         "found": false,
-        "error": "no_vehicle"
+        "error": "no_match"
       },
       "assignees": []
     },
