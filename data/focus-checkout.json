@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T16:43:09.770025Z",
+  "updated_at": "2026-06-23T17:28:00.457790Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -743,7 +743,7 @@
         "make": "Volkswagen",
         "model": "Micro Bus",
         "status": "Startup",
-        "checkout": 76.9,
+        "checkout": 76.8,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -751,7 +751,7 @@
           },
           {
             "label": "Inverter",
-            "value": 74.1
+            "value": 73.1
           },
           {
             "label": "PMU",

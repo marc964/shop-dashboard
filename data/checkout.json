@@ -29,7 +29,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Shipped",
-      "checkout": 93.7,
+      "checkout": 93.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -37,7 +37,7 @@
         },
         {
           "label": "Inverter",
-          "value": 100
+          "value": 99.1
         },
         {
           "label": "PMU",
@@ -167,7 +167,7 @@
       "make": "Ford",
       "model": "Mustang",
       "status": "Testing",
-      "checkout": 92.6,
+      "checkout": 92.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -175,7 +175,7 @@
         },
         {
           "label": "Inverter",
-          "value": 100
+          "value": 99.1
         },
         {
           "label": "PMU",
@@ -576,7 +576,7 @@
       "make": "Volkswagen",
       "model": "Micro Bus",
       "status": "Startup",
-      "checkout": 76.9,
+      "checkout": 76.8,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -584,7 +584,7 @@
         },
         {
           "label": "Inverter",
-          "value": 74.1
+          "value": 73.1
         },
         {
           "label": "PMU",
@@ -635,7 +635,7 @@
       "make": "Austin",
       "model": "Healey",
       "status": "Fabrication",
-      "checkout": 76.3,
+      "checkout": 76.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -643,7 +643,7 @@
         },
         {
           "label": "Inverter",
-          "value": 100
+          "value": 99.1
         },
         {
           "label": "PMU",
@@ -900,7 +900,7 @@
       "make": "Lotus",
       "model": "Esprit",
       "status": "Checkout",
-      "checkout": 67.1,
+      "checkout": 66.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -908,7 +908,7 @@
         },
         {
           "label": "Inverter",
-          "value": 100
+          "value": 99.1
         },
         {
           "label": "PMU",
@@ -985,7 +985,7 @@
       "make": "Austin",
       "model": "Healey",
       "status": "Checkout",
-      "checkout": 49.1,
+      "checkout": 48.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -993,7 +993,7 @@
         },
         {
           "label": "Inverter",
-          "value": 97.2
+          "value": 96.3
         },
         {
           "label": "PMU",
@@ -1599,6 +1599,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-23T16:42:40.971113+00:00",
+  "updated": "2026-06-23T17:27:20.698131+00:00",
   "source": "Google Sheets API"
 }
