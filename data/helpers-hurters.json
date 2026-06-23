@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -331,7 +331,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 32.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -385,7 +385,7 @@
   ],
   "shop_work": {
     "total_hours": 162.5,
-    "pct_of_total": 16.3,
+    "pct_of_total": 16.2,
     "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
@@ -457,7 +457,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -574,9 +574,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 667.5,
-    "non_billable_hours": 328.5,
+    "billable_hours": 670.5,
+    "non_billable_hours": 329.5,
     "pto_hours": 53.0,
-    "total_hours": 996.0
+    "total_hours": 1000.0
   }
 }
