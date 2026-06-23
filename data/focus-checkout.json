@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T19:46:15.042880Z",
+  "updated_at": "2026-06-23T20:33:00.548709Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1214,25 +1214,20 @@
           "name": "Aharon Adams",
           "tasks": [
             {
-              "id": "868k33prg",
-              "name": "Aid in rear suspension assessment",
+              "id": "868k4c6y7",
+              "name": "Modify front beam",
               "status": "Open",
               "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k33prg",
+              "url": "https://app.clickup.com/t/868k4c6y7",
               "comments": [
                 {
                   "author": "Aharon Adams",
-                  "date": "2026-06-19 23:49",
-                  "text": "assessment and brainstorming. it turned out to be missing a bushing and had too much room to move. reference Jordans notes for that.\nafter Jordan got everything removed and disassembled. I put together the welder and got everything prepped and welded. with some cleanup to make nice mating surfaces."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-22 22:56",
-                  "text": "stiff suspension in the front/ no travel diag and test drives. help with ride height and settings"
+                  "date": "2026-06-23 20:29",
+                  "text": "make and assessment."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "024a420d0544d4118ed095d23599772d090acc9410856a6991cc88f82925d76f"
+              "content_hash": "016352f01f5e751913d2d36916e808d620138d7bdebe77ab6ec4f92063bf39f5"
             }
           ]
         },

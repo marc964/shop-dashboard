@@ -369,12 +369,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 30.0,
-      "pct_of_total": 2.9,
+      "total_hours": 30.5,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 17.2
+          "hours": 17.8
         },
         {
           "task": "Brakes",
@@ -450,7 +450,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 28.2,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 692.5,
+    "billable_hours": 693.0,
     "non_billable_hours": 334.5,
     "pto_hours": 53.0,
-    "total_hours": 1027.0
+    "total_hours": 1027.5
   }
 }
