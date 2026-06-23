@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -211,7 +211,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 62.2,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -262,7 +262,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 61.2,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Interior",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 693.0,
+    "billable_hours": 696.0,
     "non_billable_hours": 334.5,
     "pto_hours": 53.0,
-    "total_hours": 1027.5
+    "total_hours": 1030.5
   }
 }
