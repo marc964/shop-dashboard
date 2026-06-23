@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -178,6 +178,37 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 62.0,
+      "pct_of_total": 6.2,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 25.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 16.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 8.5
+        },
+        {
+          "task": "Interior",
+          "hours": 5.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 4.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Witham 51 3100",
       "total_hours": 61.2,
       "pct_of_total": 6.1,
@@ -205,33 +236,6 @@
         {
           "task": "Instrumentation",
           "hours": 0.8
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 60.0,
-      "pct_of_total": 6.0,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 25.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 16.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 8.5
-        },
-        {
-          "task": "Interior",
-          "hours": 5.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 4.5
         }
       ]
     },
@@ -384,9 +388,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 162.5,
+    "total_hours": 163.2,
     "pct_of_total": 16.2,
-    "avg_per_person_per_day": 1.19,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
@@ -397,7 +401,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 54.2
+        "hours": 55.0
       },
       {
         "label": "Personal Meetings",
@@ -574,9 +578,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 670.5,
-    "non_billable_hours": 329.5,
+    "billable_hours": 676.0,
+    "non_billable_hours": 330.2,
     "pto_hours": 53.0,
-    "total_hours": 1000.0
+    "total_hours": 1006.2
   }
 }
