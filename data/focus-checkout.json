@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T22:49:25.623586Z",
+  "updated_at": "2026-06-23T04:21:47.042158Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -837,10 +837,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-19 23:58",
                   "text": "Ordered wide, strong washers for clamp m8 stud"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 00:04",
+                  "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9e6e4a5987bc53c655ebaa583b277648ac2f4669248e1e11bad79b05ec25a985"
+              "content_hash": "9dc970c3a91cbd80f1ca45d22a2195d13c0dce6893c94d524eff852c35df4003"
             },
             {
               "id": "868hjy6ch",
@@ -908,10 +913,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-19 03:04",
                   "text": "Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\n\n\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\n\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 00:03",
+                  "text": "@channel\nRear springs plates are back on, everything is good in the rear thus far. Everything seems just fine, the modifications @Aharon Adams made are perfect.\n\nDuring test drive for clearance issue, noticed front suspension extremely harsh. Traced to the following: when at stock ride height, OEM shock mount making contact with the aftermarket beam.\n\nI've figured out what's happened. This adjustable beam vintage v-dubs sent us is probably for a Bay window bus. If you look closely at the split-window bus photos it shows the bracket tapering straight up from mount hole to mount hole. On the bay window bus it makes an elbow outward, which interferes with the kingpin front suspension travel. The bay-window bus runs a ball-joint front suspension, so it has a different shock mounting point. This did not appear when we had flipped spindles on the vehicle because the shock mount was much lower.\n\nAside from the obvious, throwing everything from this vintage-vdubs in the dumpster and reinstalling the stock beam, I think we'll be able to get the necessary clearance by modifying the lower shock mount/bushing, clearancing the beam slightly and running a low-profile nyloc with a thinner washers. I will do that tomorrow.\nimage (16).png\nimage (17).png\nIMG_3669.jpg\nimage (18).png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 00:08",
+                  "text": "In addition: Set toe.\nNoticed spindles not setting right (too far out on driver's front corner.) Determined cause to be incorrectly countersunk lower leaf assembly. I evened it out, but it doesn't look great."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "546b98264afbe65bee079eedcc168252712e91bcfac55c6c70b40488f2f26df4"
+              "content_hash": "58008ce91a72bf0a02d7869e1e024bfcf60d6ec7ae285b73b447cc8ab41f12cc"
             },
             {
               "id": "868hgu3ee",
@@ -1209,10 +1224,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-06-19 23:49",
                   "text": "assessment and brainstorming. it turned out to be missing a bushing and had too much room to move. reference Jordans notes for that.\nafter Jordan got everything removed and disassembled. I put together the welder and got everything prepped and welded. with some cleanup to make nice mating surfaces."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-22 22:56",
+                  "text": "stiff suspension in the front/ no travel diag and test drives. help with ride height and settings"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "618c35aaeab48f39b7c8c4debbf54a87d3564773a49daf6c725a22a0dfbe1ea6"
+              "content_hash": "024a420d0544d4118ed095d23599772d090acc9410856a6991cc88f82925d76f"
             }
           ]
         },
