@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 73.2,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -180,7 +180,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 66.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -393,7 +393,7 @@
   ],
   "shop_work": {
     "total_hours": 165.5,
-    "pct_of_total": 16.2,
+    "pct_of_total": 16.1,
     "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 687.2,
+    "billable_hours": 692.5,
     "non_billable_hours": 334.5,
     "pto_hours": 53.0,
-    "total_hours": 1021.8
+    "total_hours": 1027.0
   }
 }
