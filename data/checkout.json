@@ -805,7 +805,7 @@
       "make": "Mercedes",
       "model": "220S",
       "status": "Testing & Tuning",
-      "checkout": 75.1,
+      "checkout": 75.7,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -813,7 +813,7 @@
         },
         {
           "label": "Inverter",
-          "value": 94.4
+          "value": 98.1
         },
         {
           "label": "PMU",
@@ -1599,6 +1599,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-06-23T17:27:20.698131+00:00",
+  "updated": "2026-06-23T18:13:39.166388+00:00",
   "source": "Google Sheets API"
 }

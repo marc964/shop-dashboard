@@ -3,31 +3,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-06",
-    "productivity_pct": 67.2,
+    "productivity_pct": 67.1,
     "billable_hours": 680.0,
-    "total_hours": 1065.2,
+    "total_hours": 1066.2,
     "pto_hours": 53.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
       "value": 69.8,
-      "delta": -2.6
+      "delta": -2.7
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
       "value": 70.5,
-      "delta": -3.3
+      "delta": -3.4
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 78.7,
-      "delta": -11.5
+      "delta": -11.6
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": -7.8
+      "delta": -7.9
     }
   },
   "monthly": [
@@ -47,9 +47,9 @@
     },
     {
       "month": "2025-09",
-      "productivity_pct": 68.8,
-      "billable_hours": 813.8,
-      "total_hours": 1230.8,
+      "productivity_pct": 68.7,
+      "billable_hours": 809.8,
+      "total_hours": 1226.8,
       "pto_hours": 48.0
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "month": "2026-01",
-      "productivity_pct": 62.4,
-      "billable_hours": 674.0,
-      "total_hours": 1152.8,
+      "productivity_pct": 62.3,
+      "billable_hours": 673.2,
+      "total_hours": 1152.0,
       "pto_hours": 72.0
     },
     {
@@ -110,9 +110,9 @@
     },
     {
       "month": "2026-06",
-      "productivity_pct": 67.2,
+      "productivity_pct": 67.1,
       "billable_hours": 680.0,
-      "total_hours": 1065.2,
+      "total_hours": 1066.2,
       "pto_hours": 53.0
     }
   ],
@@ -137,9 +137,9 @@
     },
     {
       "week": "2026-W26",
-      "productivity_pct": 77.9,
+      "productivity_pct": 77.0,
       "billable_hours": 64.5,
-      "total_hours": 82.8
+      "total_hours": 83.8
     }
   ],
   "current_month_days": [
@@ -241,9 +241,9 @@
     },
     {
       "date": "2026-06-23",
-      "productivity_pct": 79.2,
+      "productivity_pct": 73.7,
       "billable_hours": 10.5,
-      "total_hours": 13.2
+      "total_hours": 14.2
     }
   ]
 }
