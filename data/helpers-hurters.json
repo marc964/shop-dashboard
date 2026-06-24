@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -180,7 +180,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -231,7 +231,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 66.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -262,7 +262,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 61.8,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Interior",
@@ -316,7 +316,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 36.0,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -350,12 +350,12 @@
     },
     {
       "project": "ICON Philbrick 41838",
-      "total_hours": 33.8,
-      "pct_of_total": 3.1,
+      "total_hours": 34.2,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Engineering - Product",
-          "hours": 33.8
+          "hours": 34.2
         }
       ]
     },
@@ -392,24 +392,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 174.8,
-    "pct_of_total": 16.3,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 177.5,
+    "pct_of_total": 16.5,
+    "avg_per_person_per_day": 1.23,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 73.2
+        "hours": 73.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.5
+        "hours": 58.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 24.2
+        "hours": 25.8
       },
       {
         "label": "Other",
@@ -450,7 +450,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 28.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -483,7 +483,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 17.8,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 728.0,
-    "non_billable_hours": 344.8,
+    "billable_hours": 728.5,
+    "non_billable_hours": 347.5,
     "pto_hours": 57.0,
-    "total_hours": 1072.8
+    "total_hours": 1076.0
   }
 }
