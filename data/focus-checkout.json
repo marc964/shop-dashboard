@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T17:15:22.299012Z",
+  "updated_at": "2026-06-24T18:01:49.065785Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 12
+        "open_tasks": 13
       },
       "assignees": [
         {
@@ -359,6 +359,21 @@
               ],
               "checklist_items": [],
               "content_hash": "32b9c5a8a5871d6d60ee355c622bbc79c2b04fcc46bd0876a463bb99b7890582"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868k4qe7r",
+              "name": "Add e-brake brackets supports",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868k4qe7r",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1dbf26b63a27322ed01c126c9c17ac888ab5b38d2458f7686bb3ef14f39902a4"
             }
           ]
         }
