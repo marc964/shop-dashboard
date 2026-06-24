@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 74.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -351,7 +351,7 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 34.2,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Engineering - Product",
@@ -360,48 +360,48 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 32.5,
-      "pct_of_total": 3.0,
+      "project": "Nolan 70 Challenger",
+      "total_hours": 34.0,
+      "pct_of_total": 3.1,
       "tasks": [
         {
-          "task": "Suspension",
-          "hours": 21.2
+          "task": "Manufacturing - Product",
+          "hours": 12.0
         },
         {
-          "task": "Steering",
+          "task": "Battery Pack",
+          "hours": 9.0
+        },
+        {
+          "task": "Vehicle Control",
           "hours": 5.8
         },
         {
-          "task": "Exterior",
-          "hours": 2.0
+          "task": "Cooling",
+          "hours": 3.5
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 1.5
+          "task": "HVAC",
+          "hours": 2.5
         },
         {
-          "task": "Brakes",
-          "hours": 1.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
+          "task": "Steering",
+          "hours": 1.2
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 177.5,
-    "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.23,
+    "total_hours": 178.0,
+    "pct_of_total": 16.4,
+    "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 73.8
+        "hours": 74.2
       },
       {
         "label": "Shop Meetings",
@@ -429,7 +429,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -465,7 +465,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -520,7 +520,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 10.2,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -531,7 +531,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 10.2,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 728.5,
-    "non_billable_hours": 347.5,
+    "billable_hours": 740.2,
+    "non_billable_hours": 348.0,
     "pto_hours": 57.0,
-    "total_hours": 1076.0
+    "total_hours": 1088.2
   }
 }
