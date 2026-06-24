@@ -128,8 +128,8 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 73.2,
-      "pct_of_total": 6.9,
+      "total_hours": 74.5,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -148,6 +148,10 @@
           "hours": 6.8
         },
         {
+          "task": "Steering",
+          "hours": 4.5
+        },
+        {
           "task": "Manufacturing - Product",
           "hours": 4.5
         },
@@ -160,19 +164,15 @@
           "hours": 4.0
         },
         {
-          "task": "Steering",
-          "hours": 3.5
-        },
-        {
           "task": "Battery Pack",
           "hours": 2.5
         },
         {
-          "task": "Engine Bay",
-          "hours": 2.0
+          "task": "Scanning",
+          "hours": 2.2
         },
         {
-          "task": "Scanning",
+          "task": "Engine Bay",
           "hours": 2.0
         }
       ]
@@ -293,7 +293,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 38.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -392,7 +392,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 174.0,
+    "total_hours": 174.8,
     "pct_of_total": 16.3,
     "avg_per_person_per_day": 1.21,
     "flagged": true,
@@ -405,7 +405,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.2
+        "hours": 57.5
       },
       {
         "label": "Personal Meetings",
@@ -421,7 +421,7 @@
       },
       {
         "label": "Organization",
-        "hours": 3.2
+        "hours": 3.8
       }
     ]
   },
@@ -505,7 +505,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 15.5,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 721.8,
-    "non_billable_hours": 344.0,
-    "pto_hours": 53.0,
-    "total_hours": 1065.8
+    "billable_hours": 726.5,
+    "non_billable_hours": 344.8,
+    "pto_hours": 57.0,
+    "total_hours": 1071.2
   }
 }
