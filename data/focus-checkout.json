@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T23:38:49.699369Z",
+  "updated_at": "2026-06-24T00:08:13.852367Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -842,10 +842,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-23 00:04",
                   "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:57",
+                  "text": "Installed new bushings and washers."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9dc970c3a91cbd80f1ca45d22a2195d13c0dce6893c94d524eff852c35df4003"
+              "content_hash": "ee345b340c157deb1685e80be8755cfbacbf6533f51e48ce2399261cf7b87a3a"
             },
             {
               "id": "868hjy6ch",
@@ -923,10 +928,25 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-23 00:08",
                   "text": "In addition: Set toe.\nNoticed spindles not setting right (too far out on driver's front corner.) Determined cause to be incorrectly countersunk lower leaf assembly. I evened it out, but it doesn't look great."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:58",
+                  "text": "image (20).png\nimage (19).png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:58",
+                  "text": "@Marc Davis @Alex Noonan\nWe have determined a course of action.\nOption 2 - modify the current beam. @Aharon Adams and I have decided on a design for the modification. Tomorrow I will drop the beam so Aharon can do the welding when the material comes in. I've made an example piece and a cutting jig for each side.\nI've ordered 3/8\"x2\" bar stock.\n\nOn my side, 4 hours to drop/reinstall the beam, re-set the toe and re-set the ride height.\nI'll do touch-up painting on the beam prior to install."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:58",
+                  "text": "Unable to remove or modify existing mounting studs.. have tried everything. To modify will need to be drilled out and a suitable replacement found, either an exact press-in replacement or helicoil and install a threaded rod.\n\n@Alex Noonan is advocating for leaving the lower mounting point and modifying the beam... that would be getting @Aharon Adams involved and welding on the beam* in situ.\nSo options are:\nCut, tap and modify lower shock mount / shock. Lower spindle arms need to be removed. Best case scenario we should get ~5mm of clearance from the stock arm to the beam.\u00a0 4 hours.\nModify the beam itself... cut, modify and re-weld the gusset. @Aharon Adams will chime in with an estimate for that.\nThere is also the option of reinstalling the stock beam and putting the entire front end back to stock and getting rid of all these variable. This will raise the ride height significantly (see below for a stock height example). 8 hours for swapping the beam.\nThe knock-on effects of option 3:\nNeed to get Ferdman's opinion on ride height. He brought us a very low bus, he might like the look.\nDepending on where the front actually settles out we might end up with another problem, the adjustable IRS is only so adjustable... it's not impossible that we would move beyond the adjustment window of the rear suspension height."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "58008ce91a72bf0a02d7869e1e024bfcf60d6ec7ae285b73b447cc8ab41f12cc"
+              "content_hash": "59738e0290b9337166eaf9dd895d04d1aa14d353c1b6b7d97e1735a109330571"
             },
             {
               "id": "868hgu3ee",
