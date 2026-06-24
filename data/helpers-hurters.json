@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 9.3,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 73.2,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -180,7 +180,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -231,7 +231,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 66.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -262,7 +262,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 61.8,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Interior",
@@ -392,8 +392,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 171.0,
-    "pct_of_total": 16.3,
+    "total_hours": 171.5,
+    "pct_of_total": 16.2,
     "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
@@ -401,7 +401,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 72.2
+        "hours": 72.8
       },
       {
         "label": "Shop Meetings",
@@ -582,9 +582,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 710.2,
-    "non_billable_hours": 341.0,
+    "billable_hours": 717.8,
+    "non_billable_hours": 341.5,
     "pto_hours": 53.0,
-    "total_hours": 1051.2
+    "total_hours": 1059.2
   }
 }
