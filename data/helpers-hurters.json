@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 98.8,
+      "total_hours": 99.2,
       "pct_of_total": 8.8,
       "tasks": [
         {
@@ -11,7 +11,7 @@
         },
         {
           "task": "Charging",
-          "hours": 15.2
+          "hours": 15.8
         },
         {
           "task": "Manufacturing - Product",
@@ -180,7 +180,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 68.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -464,10 +464,7 @@
         },
         {
           "task": "Installation - Extra",
-          "hours": 3.0,
-          "context": [
-            "Vehicle Control"
-          ]
+          "hours": 3.0
         }
       ]
     },
@@ -517,6 +514,7 @@
           "task": "Installation - Extra",
           "hours": 6.2,
           "context": [
+            "Brakes",
             "Instrumentation"
           ]
         }
@@ -602,9 +600,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 768.5,
+    "billable_hours": 769.0,
     "non_billable_hours": 355.2,
     "pto_hours": 57.0,
-    "total_hours": 1123.8
+    "total_hours": 1124.2
   }
 }
