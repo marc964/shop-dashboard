@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T01:19:56.514934Z",
+  "updated_at": "2026-06-25T02:23:57.310380Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -958,10 +958,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-23 23:58",
                   "text": "Unable to remove or modify existing mounting studs.. have tried everything. To modify will need to be drilled out and a suitable replacement found, either an exact press-in replacement or helicoil and install a threaded rod.\n\n@Alex Noonan is advocating for leaving the lower mounting point and modifying the beam... that would be getting @Aharon Adams involved and welding on the beam* in situ.\nSo options are:\nCut, tap and modify lower shock mount / shock. Lower spindle arms need to be removed. Best case scenario we should get ~5mm of clearance from the stock arm to the beam.\u00a0 4 hours.\nModify the beam itself... cut, modify and re-weld the gusset. @Aharon Adams will chime in with an estimate for that.\nThere is also the option of reinstalling the stock beam and putting the entire front end back to stock and getting rid of all these variable. This will raise the ride height significantly (see below for a stock height example). 8 hours for swapping the beam.\nThe knock-on effects of option 3:\nNeed to get Ferdman's opinion on ride height. He brought us a very low bus, he might like the look.\nDepending on where the front actually settles out we might end up with another problem, the adjustable IRS is only so adjustable... it's not impossible that we would move beyond the adjustment window of the rear suspension height."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-25 02:10",
+                  "text": "Removed beam.\nDrag link ball joint frozen in place - required air hammering out. Unfortunately, damaged nut/threads when hammer slipped. Had to remove entire assembly and cut off old nut, will require replacement. Extra time spent here.\nAfter beam welding completed, painted beam (and bare metal tie rods for good measure)."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "59738e0290b9337166eaf9dd895d04d1aa14d353c1b6b7d97e1735a109330571"
+              "content_hash": "c408ac094508c4b11c584f6445ba75d52edb95551724684c4ffa577a35f2efaa"
             },
             {
               "id": "868hgu3ee",
@@ -989,10 +994,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-15 16:29",
                   "text": "Installed window trim seals - front driver quarter window seal missing.\nTrimmed passenger side to fit.\nParked outside to test water proofness."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-25 02:05",
+                  "text": "Reinstalled rear seats.\nTime overage due to the following:\nRe-installed ferrite filters after emergency removal. Wrapped with felt tape. Unable to get the noise reduction to quite as good as it was before the filters were removed... added a few more and now to an acceptable level. Some trial and error required to get it as good as possible before installing the rear seat.\nHad to deep clean seats to remove residue to from earlier 3D scanning - some tape marks still visible.\nCarpet in trunk popping up. Attempted to add velcro to allow the carpet to be pulled up in the corner for coolant access. May need some simple interior work."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8f260c11e939f7af2a511c8747bb8ebfc8d8a517d1173cdd4cbd4f3f6d4364e1"
+              "content_hash": "4f87614fd2af36625c4808581a6e81dc6168dcce8db5f9ee8612c195ca3ca25d"
             },
             {
               "id": "868jqn362",

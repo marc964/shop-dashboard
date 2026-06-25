@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 74.5,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -231,7 +231,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 66.0,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -292,12 +292,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 43.0,
-      "pct_of_total": 3.9,
+      "total_hours": 47.2,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 30.2
+          "hours": 34.5
         },
         {
           "task": "Brakes",
@@ -416,20 +416,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 181.8,
+    "total_hours": 184.0,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.2,
+    "avg_per_person_per_day": 1.21,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 76.2
+        "hours": 77.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 59.2
+        "hours": 60.0
       },
       {
         "label": "Personal Meetings",
@@ -453,7 +453,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -474,7 +474,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 28.5,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -528,12 +528,12 @@
     },
     {
       "project": "Connolly 58 220S",
-      "total_hours": 15.5,
+      "total_hours": 16.0,
       "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 10.0
+          "hours": 10.5
         },
         {
           "task": "Installation - Extra",
@@ -577,7 +577,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 5.0,
-      "pct_of_total": 0.5,
+      "pct_of_total": 0.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -606,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 756.8,
-    "non_billable_hours": 351.8,
+    "billable_hours": 767.0,
+    "non_billable_hours": 354.5,
     "pto_hours": 57.0,
-    "total_hours": 1108.5
+    "total_hours": 1121.5
   }
 }
