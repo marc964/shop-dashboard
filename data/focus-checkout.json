@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T21:37:27.297053Z",
+  "updated_at": "2026-06-25T22:14:23.787531Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -719,10 +719,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-19 22:06",
                   "text": "Tried flashing VCU firmware 1.8.12 to test the new torque map but ran into some tag mapping error and could not complete. Also found a potentially dangerous scenario during a previous test drive where the VCU is limiting till the point the vehicle isn't moving at all and then suddenly removes the entire limiter resulting in a drag pull that you were not expecting. Updated Slack / Ampere tickets."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-25 21:53",
+                  "text": "Cleaned up and organized the various attempts at automating BMS firmware flashing and configuring. Settled on one batch script to flash firmware and one python script to send serial commands to configure EEPROM. Tested the whole process with the new thermistor enable firmware on an Arduino Due board. The process is very primitave but seems to useable in production. Read the docs on how to use and configure thermistors in this new firmware. Looked up the thermistor arrangement for this vehicle and converted that into the configuration. Verified configuration with Ampere and got clarification on a few details. Flashed just Box #2 with the firmware and then loaded the proper configurations. Loaded the correct logger program to the BlueBox and hooked that back up to the vehicle for testing. Drove around the block as close to what I remember from the baseline trials / what the baseline log detailed after reviewing again. Pulled logs but need more time to analyze and understand."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0c8f043c9cba4715c2bd08904ec43177d8751b7ff08c1f14484eba5614192eff"
+              "content_hash": "da14372d2e25d25df78356d2f88f60647b28e257f2dfee9094edfa491ee8053b"
             }
           ]
         },

@@ -65,8 +65,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 85.8,
-      "pct_of_total": 7.4,
+      "total_hours": 86.8,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -98,7 +98,7 @@
         },
         {
           "task": "Engineering - Core",
-          "hours": 2.8
+          "hours": 3.8
         },
         {
           "task": "Trunk",
@@ -347,7 +347,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 41.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -416,7 +416,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 187.8,
+    "total_hours": 188.5,
     "pct_of_total": 16.3,
     "avg_per_person_per_day": 1.24,
     "flagged": true,
@@ -425,7 +425,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 79.0
+        "hours": 79.5
       },
       {
         "label": "Shop Meetings",
@@ -445,7 +445,7 @@
       },
       {
         "label": "Organization",
-        "hours": 3.8
+        "hours": 4.0
       }
     ]
   },
@@ -453,7 +453,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -606,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 795.8,
-    "non_billable_hours": 358.2,
+    "billable_hours": 796.8,
+    "non_billable_hours": 359.0,
     "pto_hours": 57.0,
-    "total_hours": 1154.0
+    "total_hours": 1155.8
   }
 }
