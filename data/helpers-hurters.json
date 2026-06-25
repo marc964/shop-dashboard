@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 98.5,
+      "total_hours": 98.8,
       "pct_of_total": 8.8,
       "tasks": [
         {
@@ -11,7 +11,7 @@
         },
         {
           "task": "Charging",
-          "hours": 15.0
+          "hours": 15.2
         },
         {
           "task": "Manufacturing - Product",
@@ -493,10 +493,7 @@
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 23.5,
-          "context": [
-            "Charging"
-          ]
+          "hours": 23.5
         },
         {
           "task": "Installation - Extra",
@@ -520,7 +517,6 @@
           "task": "Installation - Extra",
           "hours": 6.2,
           "context": [
-            "Brakes",
             "Instrumentation"
           ]
         }
@@ -606,9 +602,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 768.2,
+    "billable_hours": 768.5,
     "non_billable_hours": 355.2,
     "pto_hours": 57.0,
-    "total_hours": 1123.5
+    "total_hours": 1123.8
   }
 }
