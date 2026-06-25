@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 97.2,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 74.5,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -179,8 +179,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 66.0,
-      "pct_of_total": 6.0,
+      "total_hours": 68.0,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -191,12 +191,12 @@
           "hours": 9.8
         },
         {
-          "task": "Battery Pack",
-          "hours": 5.8
+          "task": "Wiring - OEM",
+          "hours": 7.0
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 5.0
+          "task": "Battery Pack",
+          "hours": 5.8
         },
         {
           "task": "Charging",
@@ -314,6 +314,41 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 40.0,
+      "pct_of_total": 3.6,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 21.2
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 7.5
+        },
+        {
+          "task": "Steering",
+          "hours": 5.8
+        },
+        {
+          "task": "Exterior",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "McDonough 77 Esprit",
       "total_hours": 36.0,
       "pct_of_total": 3.3,
@@ -358,54 +393,23 @@
           "hours": 34.2
         }
       ]
-    },
-    {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 34.0,
-      "pct_of_total": 3.1,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 12.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 9.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Steering",
-          "hours": 1.2
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 178.0,
-    "pct_of_total": 16.3,
-    "avg_per_person_per_day": 1.24,
+    "total_hours": 181.0,
+    "pct_of_total": 16.4,
+    "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 18,
+    "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 74.2
+        "hours": 75.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 58.2
+        "hours": 59.2
       },
       {
         "label": "Personal Meetings",
@@ -413,7 +417,7 @@
       },
       {
         "label": "Other",
-        "hours": 11.5
+        "hours": 12.0
       },
       {
         "label": "Errands",
@@ -582,9 +586,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 745.2,
-    "non_billable_hours": 348.0,
+    "billable_hours": 754.8,
+    "non_billable_hours": 351.0,
     "pto_hours": 57.0,
-    "total_hours": 1093.2
+    "total_hours": 1105.8
   }
 }
