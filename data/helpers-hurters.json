@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.8,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -261,12 +261,12 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 61.8,
+      "total_hours": 62.2,
       "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Interior",
-          "hours": 35.5
+          "hours": 36.0
         },
         {
           "task": "Exterior",
@@ -315,8 +315,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 40.0,
-      "pct_of_total": 3.6,
+      "total_hours": 41.0,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -324,7 +324,7 @@
         },
         {
           "task": "Engine Bay",
-          "hours": 7.5
+          "hours": 8.5
         },
         {
           "task": "Steering",
@@ -351,7 +351,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 36.0,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -384,28 +384,48 @@
       ]
     },
     {
-      "project": "ICON Philbrick 41838",
-      "total_hours": 34.2,
+      "project": "Nolan 70 Challenger",
+      "total_hours": 34.5,
       "pct_of_total": 3.1,
       "tasks": [
         {
-          "task": "Engineering - Product",
-          "hours": 34.2
+          "task": "Manufacturing - Product",
+          "hours": 12.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 9.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Steering",
+          "hours": 1.2
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 181.0,
+    "total_hours": 181.8,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.19,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 75.8
+        "hours": 76.2
       },
       {
         "label": "Shop Meetings",
@@ -413,7 +433,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 25.8
+        "hours": 26.0
       },
       {
         "label": "Other",
@@ -586,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 754.8,
-    "non_billable_hours": 351.0,
+    "billable_hours": 756.8,
+    "non_billable_hours": 351.8,
     "pto_hours": 57.0,
-    "total_hours": 1105.8
+    "total_hours": 1108.5
   }
 }
