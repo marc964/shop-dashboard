@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T21:45:14.783299Z",
+  "updated_at": "2026-06-26T22:16:20.268394Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -978,10 +978,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-26 02:20",
                   "text": "Reassembled and re-greased beam after welding/painting.\nReinstalled steering gear.\nReinstalled beam.\nRe-measured camber after discovery of offset divots (see above). Camber value now beyond what's listed in the table Able to even-out the camber, but still  10mm either side.\nSet toe.\nReinstalled arms.\nLower arm too damaged after failed stud removal (see above), and broke when torquing the nut. Will require a new arm - ordered from CIP1.\nSet ride height - able to achieve the desired ride height for clearance (300mm to bottom of body), however suspension still way too stiff.\nPlayed with different adjustment settings between lower and upper beams per internet forums and @Aharon Adams. Able to get some travel, no rubbing, but still very stiff. Unclear if this torsion pack is stiffer than stock (for lowered vehicles) or if it's just stiffer as a result of shortening by 4\", which reduces twist and makes stiffer.\nTest drove. Better, but not perfect. Will take out dampers tomorrow and re-test."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 21:49",
+                  "text": "test drives and consultation"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a7f364d11497429f3bbfc891f2f577e02cad62c0188e804447041cc337d2966e"
+              "content_hash": "ca87d414aa3fc45a7fe0b483cba226f425be7efcf882daf9fc0f3e87b3a425ca"
             },
             {
               "id": "868hgu3ee",
