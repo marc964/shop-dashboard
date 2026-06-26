@@ -178,9 +178,60 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 73.0,
+      "pct_of_total": 6.2,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 31.2
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 9.8
+        },
+        {
+          "task": "Charging",
+          "hours": 7.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 5.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 5.0
+        },
+        {
+          "task": "Manufacturing - Support",
+          "hours": 3.0
+        },
+        {
+          "task": "Interior",
+          "hours": 3.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.0
+        },
+        {
+          "task": "Steering",
+          "hours": 0.8
+        },
+        {
+          "task": "Audio",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 72.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -205,57 +256,6 @@
         {
           "task": "Exterior",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "LB 82 911",
-      "total_hours": 68.0,
-      "pct_of_total": 5.8,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 31.2
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 9.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 7.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 5.8
-        },
-        {
-          "task": "Charging",
-          "hours": 4.5
-        },
-        {
-          "task": "Manufacturing - Support",
-          "hours": 3.0
-        },
-        {
-          "task": "Interior",
-          "hours": 3.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.0
-        },
-        {
-          "task": "Steering",
-          "hours": 0.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 0.5
-        },
-        {
-          "task": "Audio",
-          "hours": 0.5
         }
       ]
     },
@@ -293,7 +293,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 52.2,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -351,7 +351,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 42.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -382,7 +382,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 38.0,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -416,24 +416,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 189.8,
-    "pct_of_total": 16.2,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 192.2,
+    "pct_of_total": 16.3,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 80.8
+        "hours": 81.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 61.5
+        "hours": 62.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 27.0
+        "hours": 28.0
       },
       {
         "label": "Other",
@@ -606,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 808.8,
-    "non_billable_hours": 360.2,
+    "billable_hours": 814.8,
+    "non_billable_hours": 362.8,
     "pto_hours": 57.0,
-    "total_hours": 1169.0
+    "total_hours": 1177.5
   }
 }
