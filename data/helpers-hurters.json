@@ -211,7 +211,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 68.0,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -291,6 +291,41 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 48.0,
+      "pct_of_total": 4.1,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 28.2
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 8.5
+        },
+        {
+          "task": "Steering",
+          "hours": 5.8
+        },
+        {
+          "task": "Exterior",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 47.2,
       "pct_of_total": 4.1,
@@ -345,41 +380,6 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 41.0,
-      "pct_of_total": 3.5,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 21.2
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 8.5
-        },
-        {
-          "task": "Steering",
-          "hours": 5.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 1.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "McDonough 77 Esprit",
       "total_hours": 38.0,
       "pct_of_total": 3.3,
@@ -416,8 +416,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 188.5,
-    "pct_of_total": 16.3,
+    "total_hours": 189.0,
+    "pct_of_total": 16.2,
     "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
@@ -425,7 +425,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 79.5
+        "hours": 80.0
       },
       {
         "label": "Shop Meetings",
@@ -606,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 796.8,
-    "non_billable_hours": 359.0,
+    "billable_hours": 803.8,
+    "non_billable_hours": 359.5,
     "pto_hours": 57.0,
-    "total_hours": 1155.8
+    "total_hours": 1163.2
   }
 }
