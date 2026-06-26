@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T19:37:34.350986Z",
+  "updated_at": "2026-06-26T20:22:46.908861Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -820,7 +820,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -987,32 +987,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "21b8844bd7a993feae2688db2d5ce035d08439acbd2a1fb04d58f2b1f24f166f"
-            },
-            {
-              "id": "868gtt99p",
-              "name": "Finish installing interior",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868gtt99p",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-01-05 16:06",
-                  "text": "Need to finish installing rear seat, but may want to wait until audio is tested"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-15 16:29",
-                  "text": "Installed window trim seals - front driver quarter window seal missing.\nTrimmed passenger side to fit.\nParked outside to test water proofness."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-25 02:05",
-                  "text": "Reinstalled rear seats.\nTime overage due to the following:\nRe-installed ferrite filters after emergency removal. Wrapped with felt tape. Unable to get the noise reduction to quite as good as it was before the filters were removed... added a few more and now to an acceptable level. Some trial and error required to get it as good as possible before installing the rear seat.\nHad to deep clean seats to remove residue to from earlier 3D scanning - some tape marks still visible.\nCarpet in trunk popping up. Attempted to add velcro to allow the carpet to be pulled up in the corner for coolant access. May need some simple interior work."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4f87614fd2af36625c4808581a6e81dc6168dcce8db5f9ee8612c195ca3ca25d"
             },
             {
               "id": "868jqn362",

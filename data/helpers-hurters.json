@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 99.5,
+      "total_hours": 100.2,
       "pct_of_total": 8.3,
       "tasks": [
         {
@@ -19,7 +19,7 @@
         },
         {
           "task": "Engineering - Core",
-          "hours": 8.5
+          "hours": 9.2
         },
         {
           "task": "Trunk",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 86.8,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -215,7 +215,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 73.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -292,8 +292,8 @@
     },
     {
       "project": "Witham 51 3100",
-      "total_hours": 61.8,
-      "pct_of_total": 5.1,
+      "total_hours": 61.0,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Interior",
@@ -314,10 +314,37 @@
         {
           "task": "Wiring - OEM",
           "hours": 2.0
+        }
+      ]
+    },
+    {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 50.2,
+      "pct_of_total": 4.1,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 27.8
         },
         {
-          "task": "Instrumentation",
-          "hours": 0.8
+          "task": "Battery Pack",
+          "hours": 9.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Steering",
+          "hours": 1.2
         }
       ]
     },
@@ -357,40 +384,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 42.8,
-      "pct_of_total": 3.5,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 20.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 9.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Steering",
-          "hours": 1.2
-        }
-      ]
-    },
-    {
       "project": "McDonough 77 Esprit",
       "total_hours": 38.0,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Suspension",
@@ -424,20 +420,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 197.5,
+    "total_hours": 198.5,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.23,
+    "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 82.8
+        "hours": 83.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.2
+        "hours": 64.8
       },
       {
         "label": "Personal Meetings",
@@ -522,7 +518,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 17.5,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -571,7 +567,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 10.2,
-      "pct_of_total": 0.9,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -618,9 +614,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 836.5,
-    "non_billable_hours": 369.0,
+    "billable_hours": 844.0,
+    "non_billable_hours": 370.0,
     "pto_hours": 57.0,
-    "total_hours": 1205.5
+    "total_hours": 1214.0
   }
 }
