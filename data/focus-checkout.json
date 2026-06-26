@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T20:22:46.908861Z",
+  "updated_at": "2026-06-26T21:05:01.605872Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -724,10 +724,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-25 21:53",
                   "text": "Cleaned up and organized the various attempts at automating BMS firmware flashing and configuring. Settled on one batch script to flash firmware and one python script to send serial commands to configure EEPROM. Tested the whole process with the new thermistor enable firmware on an Arduino Due board. The process is very primitave but seems to useable in production. Read the docs on how to use and configure thermistors in this new firmware. Looked up the thermistor arrangement for this vehicle and converted that into the configuration. Verified configuration with Ampere and got clarification on a few details. Flashed just Box #2 with the firmware and then loaded the proper configurations. Loaded the correct logger program to the BlueBox and hooked that back up to the vehicle for testing. Drove around the block as close to what I remember from the baseline trials / what the baseline log detailed after reviewing again. Pulled logs but need more time to analyze and understand."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-26 20:50",
+                  "text": "Put the thermistor enable firmware in the two remaining boxes. Test drove rather hard, didn't get any temperature faults. Shared results to Slack."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "da14372d2e25d25df78356d2f88f60647b28e257f2dfee9094edfa491ee8053b"
+              "content_hash": "c0706ed805380ba135000d83f62c25f2714e4f57822b819f40552e85eff98fdd"
             }
           ]
         },

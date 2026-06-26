@@ -319,8 +319,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 50.2,
-      "pct_of_total": 4.1,
+      "total_hours": 51.0,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -336,7 +336,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 3.8
+          "hours": 4.5
         },
         {
           "task": "HVAC",
@@ -421,7 +421,7 @@
   ],
   "shop_work": {
     "total_hours": 198.5,
-    "pct_of_total": 16.4,
+    "pct_of_total": 16.3,
     "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
@@ -614,9 +614,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 844.0,
+    "billable_hours": 844.8,
     "non_billable_hours": 370.0,
     "pto_hours": 57.0,
-    "total_hours": 1214.0
+    "total_hours": 1214.8
   }
 }
