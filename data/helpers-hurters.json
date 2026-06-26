@@ -180,7 +180,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 73.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -315,8 +315,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 48.0,
-      "pct_of_total": 4.0,
+      "total_hours": 50.0,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -324,7 +324,7 @@
         },
         {
           "task": "Engine Bay",
-          "hours": 8.5
+          "hours": 10.5
         },
         {
           "task": "Steering",
@@ -416,7 +416,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 193.8,
+    "total_hours": 194.2,
     "pct_of_total": 16.3,
     "avg_per_person_per_day": 1.21,
     "flagged": true,
@@ -429,7 +429,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 63.0
+        "hours": 63.5
       },
       {
         "label": "Personal Meetings",
@@ -489,7 +489,7 @@
     {
       "project": "Berke 69 Alfa",
       "total_hours": 25.5,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -606,9 +606,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 821.8,
-    "non_billable_hours": 364.2,
+    "billable_hours": 823.8,
+    "non_billable_hours": 364.8,
     "pto_hours": 57.0,
-    "total_hours": 1186.0
+    "total_hours": 1188.5
   }
 }
