@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 100.2,
-      "pct_of_total": 8.3,
+      "total_hours": 102.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -11,7 +11,7 @@
         },
         {
           "task": "Charging",
-          "hours": 16.0
+          "hours": 17.2
         },
         {
           "task": "Manufacturing - Product",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Engineering - Core",
-          "hours": 9.2
+          "hours": 10.2
         },
         {
           "task": "Trunk",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 83.2,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -214,8 +214,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 73.0,
-      "pct_of_total": 6.0,
+      "total_hours": 75.0,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -250,6 +250,10 @@
           "hours": 3.0
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 2.0
+        },
+        {
           "task": "Motor & Transmission",
           "hours": 2.0
         },
@@ -266,7 +270,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 70.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -537,7 +541,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 14.0,
-      "pct_of_total": 1.2,
+      "pct_of_total": 1.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -614,9 +618,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 844.8,
+    "billable_hours": 849.0,
     "non_billable_hours": 370.0,
     "pto_hours": 57.0,
-    "total_hours": 1214.8
+    "total_hours": 1219.0
   }
 }
