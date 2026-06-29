@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 102.5,
-      "pct_of_total": 8.0,
+      "total_hours": 104.5,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Engineering - Core",
-          "hours": 10.2
+          "hours": 11.2
         },
         {
           "task": "Trunk",
@@ -27,7 +27,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 4.0
+          "hours": 5.0
         },
         {
           "task": "Cooling",
@@ -187,8 +187,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 80.2,
-      "pct_of_total": 6.3,
+      "total_hours": 83.2,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -211,6 +211,10 @@
           "hours": 5.8
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 5.0
+        },
+        {
           "task": "Wiring - OEM",
           "hours": 5.0
         },
@@ -221,10 +225,6 @@
         {
           "task": "Interior",
           "hours": 3.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 2.0
         },
         {
           "task": "Motor & Transmission",
@@ -243,7 +243,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 80.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -428,8 +428,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 209.8,
-    "pct_of_total": 16.5,
+    "total_hours": 210.2,
+    "pct_of_total": 16.4,
     "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
@@ -441,7 +441,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 67.5
+        "hours": 68.0
       },
       {
         "label": "Personal Meetings",
@@ -622,9 +622,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 891.2,
-    "non_billable_hours": 383.2,
+    "billable_hours": 896.2,
+    "non_billable_hours": 383.8,
     "pto_hours": 57.0,
-    "total_hours": 1274.5
+    "total_hours": 1280.0
   }
 }
