@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T20:03:21.288780Z",
+  "updated_at": "2026-06-29T20:54:32.318761Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -877,10 +877,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-27 02:33",
                   "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:53",
+                  "text": "Test drove after work performed. Adjustment working as designed, no halfshaft noise."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3a936b4380ce979c82fe094ccd9bb6d944de2427bbb6020e17635d4e09b62e12"
+              "content_hash": "1c0b817d5e1cdcb9316edd659f617e34796e55d778a5dad4b63a9c2197c85222"
             },
             {
               "id": "868hjy6ch",
@@ -993,10 +998,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-27 02:36",
                   "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:42",
+                  "text": "@Marc Davis @Ryan Laurel @Alex Noonan\nCaster is not natively adjustable on the split-window bus... most other aircool VWs can use beam shims to adjust the caster, but not the bus. The only solution I can find is this kit, which is just a jig to slot some of the mounting holes. I think we shouldn't worry too much about that unless it's too far out.\n\nA swaybar was mentioned in the meeting. Mounts are cheap and available for the split-window bus, however swaybars for the 4\" narrowed front beam are less easy to come by. Most people cut and sleeve a stock-width swaybar.\n\nUnfortunately the drag link replacement did not go as planned. I had it in in 10 minutes, but while old drag link was very tight and barely made contact at full lock the new drag link dragged after 3/4 turn in either direction. Removed the new drag link, compared to the old link. Very similar, but the new drag had slightly different bends. I searched for a solution or a direct replacement for the old drag link, no avail (original supplier is backordered). I ended up modifying the new drag link to get the clearance we needed. I believe this again points to: this is a bay-window beam, not a split-window beam, as the steering pickup is slightly different. In any case, the modified drag link now has plenty of clearance during the steering sweep and no longer makes any contact. A knock-on effect was reduced clearance to the new throttle sensor position. Removed and and shifted the throttle mount over slightly. The steering wheel is now slightly off, but I think I can leave that for the alignment next week.\n\nI added dampening, we're now at 1.25 turns.\n\nI located the likely cause of the front 'flapping' type noise at highway speeds: protective cover on the condenser. Added some constraint there and it shouldn't move any longer.\n\n@Marc Davis feel free to take it another day this week."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "dafffee90e9f74126b3774f7a2c99f339f056d8b280947c6d2da1461543b5464"
+              "content_hash": "63deff23957bfef8391852bb3d531fc57083213c265a0289187ccbe1b08b5151"
             },
             {
               "id": "868hgu3ee",
@@ -1069,10 +1079,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-12 23:00",
                   "text": "Went to @Marc Davis house to repair bus.\nDiscovered adjustment on rod, missed during install. Rod was set roughly where the original rod was.\nPerformed adjustment.. Test drove 8 miles.\nBrake feels OK for manual brakes. Can lock up the fronts with agressive braking. No further dragging. No further touching steering box. Will continue to test drive for possible bias valve adjustment."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:52",
+                  "text": "@Marc Davis test drove. Consensus: Good enough, as good as manual brakes are going to get."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c1b765c79950ffdd8ab551a80b84c270667f8ba23704357de080a9f6222f7968"
+              "content_hash": "64d0c321457dbc217404a341fbecadb487d7124634d7ce431521d177bf778995"
             },
             {
               "id": "868e45rzk",
@@ -1161,10 +1176,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-12 23:05",
                   "text": "Test drove 24 minutes, with logger installed. Able to get severe temp spike with a full-throttle run up Foremost hill (80C) with temp going from 35C to 80C by the top of the hill, and back to 35C at the bottom of the hill. No alerts or thermal derating present.\nTest drove with logger in Chuter healy.\nCompared logs on AEM dash. Discovered dash was reporting \"inverter module\" - aka IGBT temp. Inverter temp on GUI and speedhut temp gauge match. With @Devin DuMont, changed channel to proper channel for inverter temp measurement. After changing signals, dash now responding 'rationally', IE temp climbs and falls slowly over time as the vehilce is driven harder."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:52",
+                  "text": "@Marc Davis took vehicle home, and drove on the highway. No overheating observed, even with the skidplate. We can consider this one done."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bcd4fb77081cd6325eeff0e488f7b6e3d32631bff65ca8a27b413a304848b710"
+              "content_hash": "6248babb355c56ca3f36ba102fd1650649709df5571f768e186d154e9857ddab"
             }
           ]
         },
