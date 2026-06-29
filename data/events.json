@@ -57,14 +57,26 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Moment Holiday (Ind Day Observ.)",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-04",
           "day_name": "Saturday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Moment Holiday (July 4th)",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-05",
