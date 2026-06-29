@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T21:35:21.832087Z",
+  "updated_at": "2026-06-29T22:10:38.017005Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -825,68 +825,12 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 11
+        "open_tasks": 8
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
-            {
-              "id": "868k33pkg",
-              "name": "Address rear suspension issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k33pkg",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:25",
-                  "text": "Comment from yesterday:\n\"Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK.\""
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:29",
-                  "text": "Today:\nPulled spring plates left and right.\nBoth backing plate and adjuster plate showed significant bending.\nStraightened all four pieces as much as practical\nCut and cleaned threaded block off both sides.\nDrilled pilot hole for stud."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:57",
-                  "text": "3D printinng TPU bushings temporarily until new ones arrive from Jbugs.\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:57",
-                  "text": "Pressed in studs.\nCleaned from welding.\nPrepped for paint.\nPut 4 coats of hot-rod black.\nTouch-up painted adjustment blocks"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:58",
-                  "text": "Ordered wide, strong washers for clamp m8 stud"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 00:04",
-                  "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:57",
-                  "text": "Installed new bushings and washers."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-27 02:33",
-                  "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:53",
-                  "text": "Test drove after work performed. Adjustment working as designed, no halfshaft noise."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "1c0b817d5e1cdcb9316edd659f617e34796e55d778a5dad4b63a9c2197c85222"
-            },
             {
               "id": "868hjy6ch",
               "name": "Address wheel clearance issue",
@@ -1019,77 +963,6 @@
               "content_hash": "21b8844bd7a993feae2688db2d5ce035d08439acbd2a1fb04d58f2b1f24f166f"
             },
             {
-              "id": "868jqn362",
-              "name": "Improve brake feel",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn362",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-26 20:52",
-                  "text": "www2.cip1.com/VWC-211-721-205-D/?gad_source=1&gad_campaignid=21140055511&gbraid=0AAAAADyhjV1Eq1UhqUozNr11ji2xeqyuI&gclid=CjwKCAjwidXQBhAZEiwA4egw6MV_PQ358Dyk7JR9kvhQwVjhYp8W5xSig_-YE3gLTOvqbZCKHjX6VRoCi1MQAvD_BwE \n \nwww2.cip1.com/c31-611-021-211-14/?srsltid=AfmBOoocCou7jshV2r2R7_VwVlGGQ91KDXSxVJvKw2QHq6wGrVvpAWRp"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 02:48",
-                  "text": "Brake pedal effort: The current setup is a 15/16 master with the OEM pedal ratio of 5:1. I modified the pedal assembly for 7:1. We'll see how that feels, and if that doesn't do it we'll go for 13/16\" master. Something like this.\n\nRemoved OEM brake pedal assembly for measurement.\n250mm from pivot to center of pedal.\n50mm from pivot to pushrod clevis.\n5:1.\n\nDrilled new hole at 36mm for a 7:1 ratio.\nSlightly modified brake rod to clear.\nCleaned up clevis.\nReinstalled pedal assembly.\n\nWill test drive tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 15:34",
-                  "text": "@Marc Davis has gone ahead and OK'd the new master cylinder conversion. @Alex Noonan if you want to make me a task. Esimated time should be 4 hours including bleeding."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-01 15:35",
-                  "text": "https://www2.cip1.com/c31-611-021-211-14/?srsltid=AfmBOoocCou7jshV2r2R7_VwVlGGQ91KDXSxVJvKw2QHq6wGrVvpAWRp x1\nhttps://www2.cip1.com/VWC-211-721-205-D/?gad_source=1&gad_campaignid=21140055511&gb[\u2026]Q358Dyk7JR9kvhQwVjhYp8W5xSig_-YE3gLTOvqbZCKHjX6VRoCi1MQAvD_BwE x1\nhttps://www2.cip1.com/vwc-211-721-163-a/ x1\nhttps://www2.cip1.com/vwc-211-721-233/ x1\nhttps://www2.cip1.com/vwc-211-721-200/ x1\nProject: Ferdman Bus\nSub-system: Brakes\u00a0(edited)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:44",
-                  "text": "Parts arrived, for installation Monday."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-08 23:06",
-                  "text": "Installed new master.\nInstalled new pivot pin and hardware.\nReturned pivot to 5:1 for now, will test.\nPressure tested brakes at 15psi - no drop in a few minutes.\nBled brakes twice - air bubbles persisted, but should be good now. DOT3 fluid.\nNote: During pressure testing bleeder sprung a leak and required service / interior needed to be cleaned of brake fluid. Extra time wasted here."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-09 13:47",
-                  "text": "Test drove in the AM - vehicle stops, but pedal is too soft. Need to rebleed manually."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-10 23:00",
-                  "text": "Re-bleeding accomplished. Pedal much better, but travel is too long and unable to lock up brakes. Also, with increased stroke, now lever is hitting steering box. Further work needed."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 02:11",
-                  "text": "Update, brakes dragging on @Marc Davis on his way home. Likely master needs to be spaced out further to allow full retraction of pads."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 02:11",
-                  "text": "Re-adjusted brake proportioning valve. Was allowing too much pressure to the rears.\nimage.png\nAble to lock up on test drive. However, brakes contact steering box slightly with increased travel.. Need to clearance steering box slightly."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 23:00",
-                  "text": "Went to @Marc Davis house to repair bus.\nDiscovered adjustment on rod, missed during install. Rod was set roughly where the original rod was.\nPerformed adjustment.. Test drove 8 miles.\nBrake feels OK for manual brakes. Can lock up the fronts with agressive braking. No further dragging. No further touching steering box. Will continue to test drive for possible bias valve adjustment."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:52",
-                  "text": "@Marc Davis test drove. Consensus: Good enough, as good as manual brakes are going to get."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "64d0c321457dbc217404a341fbecadb487d7124634d7ce431521d177bf778995"
-            },
-            {
               "id": "868e45rzk",
               "name": "Replace kick panels",
               "status": "Open",
@@ -1124,67 +997,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3d3cf185e3f8874f193165d020b3edd9c5d4c2e87d1441a9b7c4538445380d58"
-            },
-            {
-              "id": "868jqn2ge",
-              "name": "Troubleshoot cooling issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn2ge",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-05-27 21:42",
-                  "text": "Removed coolant cover plate and inspected levels. (levels haven't been inspected since vehicle got on the road).\nBattery level: 120mm from top\nMotor level: 70mm from top\nTopped off both reservoirs.\nAttached charger to turn on motor circuit. Jacked up that corner to bring air bubbles to top.\nNo air bubbles observed.\nReinstalled cover. Will test drive tomorrow to attempt to replicate.\nHighest temp reached today while testing throttle: 190F (slightly over middle of gauge)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:16",
-                  "text": "image.png\nMade new coolant clamps to redo motor circuit return line."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:16",
-                  "text": "At one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter.\nimage (8).png\nimage (7).png\nFerdman-CoolantDiagram-1.5.drawio.pdf"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-02 16:17",
-                  "text": "Ordered new parts for motor circuit return line.\nhttps://www.summitracing.com/parts/rdm-14-0193 x1\nhttps://www.summitracing.com/parts/bpu-3254000160 x1\nhttps://www.amazon.com/EVIL-ENERGY-Straight-Fitting-Black/dp/B08NYLZC66/ x1 (pack of 2)\nProject: Ferdman Bus\nSubsystem: Cooling\n\nUpdated coolant return line information on coolant diagram. (see pdf above)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-06 01:39",
-                  "text": "Removed -6an reservoir and lines.\nRemoved motor to pump line for access.\nInstalled new reservoir with -10AN fitting.\nFabricated and installed new -10AN line from radiator to reservoir\nInstalled new lineclamps for new hose ses.\nVacuum filled cooling reservoir.\nOne leak found - at motor. Repaired.\n-25in/hg holding steady.\nRan pump on motor circuit for and hour. Inspected for leaks: none found.\n\nReady for testing on Monday."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-08 19:32",
-                  "text": "After sat over the weekend: leaks or drips.\nReinstalled cover and tail-light.\nZip-tied wiring harness back in place."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-10 20:48",
-                  "text": "service.tesla.com/docs/ModelX/ServiceManual/en-us/GUID-C66F47F5-FD82-4FA5-B530-48F20DAAE254.html \n Correction codes:\n18301722\n18302522\n\nTesla runs motor and inverter in parallel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-10 21:07",
-                  "text": "image.png\nIncorrect coolant routing (inline, not parallel).\nTest drove up the hill a bunch of times. Maximum temperatures reached:\nInverter: 170F. (77C)Temp very responsive to throttle position. Get hot quick and cools down quick.\nMotor: 217F (102C). Slower to respond to temperature differences."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 23:05",
-                  "text": "Test drove 24 minutes, with logger installed. Able to get severe temp spike with a full-throttle run up Foremost hill (80C) with temp going from 35C to 80C by the top of the hill, and back to 35C at the bottom of the hill. No alerts or thermal derating present.\nTest drove with logger in Chuter healy.\nCompared logs on AEM dash. Discovered dash was reporting \"inverter module\" - aka IGBT temp. Inverter temp on GUI and speedhut temp gauge match. With @Devin DuMont, changed channel to proper channel for inverter temp measurement. After changing signals, dash now responding 'rationally', IE temp climbs and falls slowly over time as the vehilce is driven harder."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:52",
-                  "text": "@Marc Davis took vehicle home, and drove on the highway. No overheating observed, even with the skidplate. We can consider this one done."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6248babb355c56ca3f36ba102fd1650649709df5571f768e186d154e9857ddab"
             }
           ]
         },
