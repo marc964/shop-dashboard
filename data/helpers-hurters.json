@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 88.2,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -129,7 +129,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 83.2,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -424,7 +424,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 206.2,
+    "total_hours": 207.0,
     "pct_of_total": 16.5,
     "avg_per_person_per_day": 1.23,
     "flagged": true,
@@ -433,11 +433,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 87.8
+        "hours": 88.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 66.0
+        "hours": 66.5
       },
       {
         "label": "Personal Meetings",
@@ -619,8 +619,8 @@
   ],
   "totals": {
     "billable_hours": 871.8,
-    "non_billable_hours": 379.8,
+    "non_billable_hours": 380.5,
     "pto_hours": 57.0,
-    "total_hours": 1251.5
+    "total_hours": 1252.2
   }
 }
