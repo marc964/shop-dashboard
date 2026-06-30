@@ -303,6 +303,37 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 63.5,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 39.8
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 9.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 5.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 4.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Steering",
+          "hours": 1.2
+        }
+      ]
+    },
+    {
       "project": "Witham 51 3100",
       "total_hours": 61.0,
       "pct_of_total": 4.6,
@@ -332,7 +363,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 60.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -361,37 +392,6 @@
         {
           "task": "Interior",
           "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 57.8,
-      "pct_of_total": 4.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 34.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 9.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "Cooling",
-          "hours": 4.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Steering",
-          "hours": 1.2
         }
       ]
     },
@@ -433,7 +433,7 @@
   ],
   "shop_work": {
     "total_hours": 229.8,
-    "pct_of_total": 17.4,
+    "pct_of_total": 17.3,
     "avg_per_person_per_day": 1.31,
     "flagged": true,
     "tech_count": 8,
@@ -626,9 +626,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 913.2,
+    "billable_hours": 919.0,
     "non_billable_hours": 406.2,
     "pto_hours": 57.0,
-    "total_hours": 1319.5
+    "total_hours": 1325.2
   }
 }
