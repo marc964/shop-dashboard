@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T14:39:04.180235Z",
+  "updated_at": "2026-06-30T15:39:04.952182Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -516,7 +516,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 5
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -557,6 +557,22 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            },
+            {
+              "id": "868jgzgh9",
+              "name": "Replace shocks",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868jgzgh9",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-13 03:38",
+                  "text": "removed the shocks from Ritchie\ninstalled shocks on Preheim\ntested\nrode much better"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "526620fd1ceaeedb1f661e103262b654a3000166c8de063864f4994fe8933bf6"
             }
           ]
         },

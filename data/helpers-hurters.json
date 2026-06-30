@@ -358,12 +358,12 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 56.0,
-      "pct_of_total": 4.3,
+      "total_hours": 57.0,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 34.2
+          "hours": 35.2
         },
         {
           "task": "Engine Bay",
@@ -428,24 +428,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 222.5,
-    "pct_of_total": 17.1,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 225.8,
+    "pct_of_total": 17.3,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 90.8
+        "hours": 91.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 69.0
+        "hours": 70.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 31.2
+        "hours": 33.0
       },
       {
         "label": "Other",
@@ -622,9 +622,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 904.0,
-    "non_billable_hours": 397.0,
+    "billable_hours": 905.0,
+    "non_billable_hours": 400.2,
     "pto_hours": 57.0,
-    "total_hours": 1301.0
+    "total_hours": 1305.2
   }
 }
