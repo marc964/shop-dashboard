@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 106.0,
-      "pct_of_total": 7.9,
+      "total_hours": 110.5,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -22,12 +22,12 @@
           "hours": 11.2
         },
         {
-          "task": "Trunk",
-          "hours": 6.5
+          "task": "Brakes",
+          "hours": 10.5
         },
         {
-          "task": "Brakes",
-          "hours": 6.0
+          "task": "Trunk",
+          "hours": 6.5
         },
         {
           "task": "Cooling",
@@ -66,7 +66,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 95.0,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -125,7 +125,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 91.2,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -187,8 +187,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 88.2,
-      "pct_of_total": 6.6,
+      "total_hours": 90.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "HVAC",
@@ -229,6 +229,14 @@
         {
           "task": "Motor & Transmission",
           "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 1.0
         },
         {
           "task": "Steering",
@@ -303,6 +311,41 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 65.2,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 40.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 10.5
+        },
+        {
+          "task": "Steering",
+          "hours": 9.2
+        },
+        {
+          "task": "Exterior",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 63.5,
       "pct_of_total": 4.7,
@@ -336,7 +379,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 61.0,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Interior",
@@ -357,41 +400,6 @@
         {
           "task": "Wiring - OEM",
           "hours": 2.0
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 60.2,
-      "pct_of_total": 4.5,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 38.5
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 10.5
-        },
-        {
-          "task": "Steering",
-          "hours": 5.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 1.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
         }
       ]
     },
@@ -432,24 +440,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 232.0,
+    "total_hours": 234.5,
     "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.32,
+    "avg_per_person_per_day": 1.33,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 92.5
+        "hours": 93.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 71.2
+        "hours": 71.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 35.8
+        "hours": 36.8
       },
       {
         "label": "Other",
@@ -469,7 +477,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,7 +516,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 19.5,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -626,9 +634,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 930.5,
-    "non_billable_hours": 408.5,
+    "billable_hours": 942.5,
+    "non_billable_hours": 411.0,
     "pto_hours": 57.0,
-    "total_hours": 1339.0
+    "total_hours": 1353.5
   }
 }
