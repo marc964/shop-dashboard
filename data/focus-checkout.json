@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T03:48:28.411971Z",
+  "updated_at": "2026-06-30T05:29:07.711503Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -371,9 +371,20 @@
               "status": "Open",
               "list": "Barton 59 Impala",
               "url": "https://app.clickup.com/t/868k4qe7r",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-30 04:21",
+                  "text": "IMG_1522.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-30 04:21",
+                  "text": "started on the brackets for Barton\nset out the parts\ni was 1 inc h short on the angle iron\nordered more\nwill finish up tomorrow"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1dbf26b63a27322ed01c126c9c17ac888ab5b38d2458f7686bb3ef14f39902a4"
+              "content_hash": "07541ec518bc235ecb361ab597d5222b62b9909dd169b59e0b28e74c271af865"
             }
           ]
         }
