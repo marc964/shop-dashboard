@@ -24,26 +24,14 @@
           "day_name": "Tuesday",
           "is_today": true,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "David W Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-07-01",
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": "David W Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-07-02",
@@ -239,12 +227,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             }
