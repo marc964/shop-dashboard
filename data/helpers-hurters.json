@@ -3,7 +3,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 106.0,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 90.2,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -330,6 +330,41 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 60.2,
+      "pct_of_total": 4.6,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 38.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 10.5
+        },
+        {
+          "task": "Steering",
+          "hours": 5.8
+        },
+        {
+          "task": "Exterior",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 1.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 57.8,
       "pct_of_total": 4.4,
@@ -357,41 +392,6 @@
         {
           "task": "Steering",
           "hours": 1.2
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 57.0,
-      "pct_of_total": 4.3,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 35.2
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 10.5
-        },
-        {
-          "task": "Steering",
-          "hours": 5.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 1.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.0
         }
       ]
     },
@@ -432,20 +432,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 228.0,
-    "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.3,
+    "total_hours": 229.8,
+    "pct_of_total": 17.4,
+    "avg_per_person_per_day": 1.31,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 91.8
+        "hours": 92.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 70.8
+        "hours": 71.2
       },
       {
         "label": "Personal Meetings",
@@ -457,7 +457,7 @@
       },
       {
         "label": "Errands",
-        "hours": 5.0
+        "hours": 5.5
       },
       {
         "label": "Organization",
@@ -527,7 +527,7 @@
     {
       "project": "Vargas 66 Mustang",
       "total_hours": 17.8,
-      "pct_of_total": 1.4,
+      "pct_of_total": 1.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -601,7 +601,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 7.2,
-      "pct_of_total": 0.6,
+      "pct_of_total": 0.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -626,9 +626,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 910.0,
-    "non_billable_hours": 404.5,
+    "billable_hours": 913.2,
+    "non_billable_hours": 406.2,
     "pto_hours": 57.0,
-    "total_hours": 1314.5
+    "total_hours": 1319.5
   }
 }
