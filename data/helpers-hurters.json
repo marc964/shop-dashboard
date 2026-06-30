@@ -66,7 +66,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 90.2,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -328,7 +328,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 57.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -428,9 +428,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 213.5,
-    "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 221.5,
+    "pct_of_total": 17.0,
+    "avg_per_person_per_day": 1.26,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
@@ -449,7 +449,7 @@
       },
       {
         "label": "Other",
-        "hours": 13.5
+        "hours": 21.5
       },
       {
         "label": "Organization",
@@ -465,7 +465,7 @@
     {
       "project": "Shah 65 Mustang",
       "total_hours": 31.8,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -623,8 +623,8 @@
   ],
   "totals": {
     "billable_hours": 904.0,
-    "non_billable_hours": 388.0,
+    "non_billable_hours": 396.0,
     "pto_hours": 57.0,
-    "total_hours": 1292.0
+    "total_hours": 1300.0
   }
 }
