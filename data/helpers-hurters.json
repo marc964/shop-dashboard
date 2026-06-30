@@ -188,7 +188,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 83.2,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -242,8 +242,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 80.0,
-      "pct_of_total": 6.1,
+      "total_hours": 82.0,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "HVAC",
@@ -251,7 +251,7 @@
         },
         {
           "task": "Interior",
-          "hours": 17.5
+          "hours": 19.0
         },
         {
           "task": "Brakes",
@@ -268,13 +268,17 @@
         {
           "task": "Exterior",
           "hours": 2.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 79.2,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -301,7 +305,7 @@
     {
       "project": "Witham 51 3100",
       "total_hours": 61.0,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Interior",
@@ -359,7 +363,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 57.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -428,20 +432,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 226.8,
+    "total_hours": 228.0,
     "pct_of_total": 17.3,
-    "avg_per_person_per_day": 1.29,
+    "avg_per_person_per_day": 1.3,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 91.2
+        "hours": 91.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 70.0
+        "hours": 70.8
       },
       {
         "label": "Personal Meetings",
@@ -622,9 +626,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 908.0,
-    "non_billable_hours": 401.2,
+    "billable_hours": 910.0,
+    "non_billable_hours": 404.5,
     "pto_hours": 57.0,
-    "total_hours": 1309.2
+    "total_hours": 1314.5
   }
 }
