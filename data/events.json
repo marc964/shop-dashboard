@@ -113,21 +113,39 @@
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Billy A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-11",
           "day_name": "Saturday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Billy A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-12",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Billy A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         }
       ]
     },
@@ -141,7 +159,13 @@
           "day_name": "Monday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Billy A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-14",
