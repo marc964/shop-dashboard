@@ -6,10 +6,35 @@ Auth via HARVEST_TOKEN and HARVEST_ACCOUNT_ID environment variables.
 """
 
 import os
+import time
 import requests
 from datetime import date
 
 HARVEST_BASE = "https://api.harvestapp.com/v2"
+
+# Harvest occasionally returns transient 5xx / connection errors mid-pagination.
+# Retry those with exponential backoff rather than failing the whole pipeline.
+MAX_RETRIES = 5
+RETRY_STATUSES = {429, 500, 502, 503, 504}
+
+
+def get_with_retry(url, headers, params):
+    """GET with exponential backoff on transient errors."""
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=30)
+            if resp.status_code in RETRY_STATUSES and attempt < MAX_RETRIES - 1:
+                raise requests.exceptions.HTTPError(f"{resp.status_code} transient", response=resp)
+            resp.raise_for_status()
+            return resp
+        except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout) as e:
+            if attempt >= MAX_RETRIES - 1:
+                raise
+            wait = 2 ** attempt
+            print(f"  Harvest request failed ({e}); retrying in {wait}s "
+                  f"(attempt {attempt + 1}/{MAX_RETRIES})...")
+            time.sleep(wait)
 
 
 def get_headers():
@@ -31,8 +56,7 @@ def paginate(url, key, params=None):
     all_items = []
     while True:
         params["page"] = page
-        resp = requests.get(url, headers=headers, params=params)
-        resp.raise_for_status()
+        resp = get_with_retry(url, headers, params)
         data = resp.json()
         items = data.get(key, [])
         if not items:
