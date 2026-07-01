@@ -11,13 +11,13 @@
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 69.7,
-      "delta": -69.7
+      "value": 69.8,
+      "delta": -69.8
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
-      "value": 70.8,
-      "delta": -70.8
+      "value": 70.9,
+      "delta": -70.9
     },
     "vs_last_week": {
       "label": "vs Last Week",
@@ -110,9 +110,9 @@
     },
     {
       "month": "2026-06",
-      "productivity_pct": 69.7,
-      "billable_hours": 951.0,
-      "total_hours": 1420.5,
+      "productivity_pct": 69.8,
+      "billable_hours": 952.0,
+      "total_hours": 1421.5,
       "pto_hours": 57.0
     }
   ],
