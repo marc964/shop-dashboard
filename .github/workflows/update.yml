@@ -5,6 +5,8 @@ on:
     - cron: '*/15 * * * *'  # Every 15 min, every day
   push:
     branches: [main]
+    paths-ignore:
+      - 'data/**'  # don't re-trigger on the pipeline's own automated data commits
   workflow_dispatch:
 
 permissions:
