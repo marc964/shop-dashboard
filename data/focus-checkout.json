@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T18:59:22.251513Z",
+  "updated_at": "2026-07-01T20:26:26.893164Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -882,7 +882,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -945,125 +945,14 @@
               "content_hash": "1c0b817d5e1cdcb9316edd659f617e34796e55d778a5dad4b63a9c2197c85222"
             },
             {
-              "id": "868hjy6ch",
-              "name": "Address wheel clearance issue",
+              "id": "868k7faah",
+              "name": "Adjust front ride height",
               "status": "Open",
               "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868hjy6ch",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-26 03:18",
-                  "text": "Installed front beam\nRemoved old front beam and removed spindles.\nDisassembled new front beam and greased all leafs, carefully noting orientation.\nReassembled new front beam and installed spindles onto new beam.\nPut new beam into vehicle (see issues below).\nTemporarily installed old tie rods (major toe in) to allow vehicle to be moved to allow lift to be freed up."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-02-28 02:49",
-                  "text": "Issues with front beam during assembly:\nUpper outer grease fittings interfered with the body. Needed to remove front beam, remove and seal these parts of the beam, then reinstall.\nTie-rods supplied by the front beam company were incorrect (too long). 4\" narrowed beam like this one (which we didn't order) need shortened tie rods. Attempted to adjust toe with shortest rods on-site (we ended up with 3 sets), but still too toe-in. Attempted to cut and tap, per the Samba forum, however we did not have the correct tap (M14x1.5)\nContacted Type E Motorsports, who sell shortened tie rods for this application. They could get a set out today, however they did not have the LH threaded lock-nut. Found the correct nut on McMaster. Ordered all with the help of @Ryan Laurel \nAdjusted ride height. Ride height currently set to maximum lift, and the clearance looks good... will see how it settles. Unable to test drive due to lack of tie-rods. Installed a temporary, rough-cut set of tie rod ends (only 1\" of thread engagement) to aid in keeping the wheels straight. Wheels are quite deep into the wheel wells now, so aesthetically it's not clear if this is the right move. No rubbing lock to lock.\nIf rubbing continues over bumps, will need to switch back to non-drop-spindles."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-03-05 23:53",
-                  "text": "Received tie-rods. 370mm both sides.\nMissing hardware. Ordered hardware.\nReceived today EOD. Rough installed, them, too long on driver's side. Need to trim and modify."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-03-07 03:00",
-                  "text": "- Cut driver\u2019s side tie-rod to 345mm (shortest possible while still allowing full thread engagement).\n-Installed onto vehicle.\n-Received hardware and spacers for strut spacing (without spacers contacts new beam). Installed new strut mount spacers and verified clearance.\n-Test drove: still some rubbing on RH turns (LH corner).\n-Adjusted front ride height to maximum. \n-Test drove again: no more rubbing\n-Adjusted rear to match front."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-03-13 16:30",
-                  "text": "Here's the suspension update for Ferdman: @Alex Noonan @Marc Davis @Ryan Laurel\n\nWheel clearance issue appears resolved from my limited test driving on Friday. The random narrowed beam Vintage V-dubs sent us at the beginning of the build fit with minor modification, however the drop was significant combined with the modified drop spindles the car came with (which was only caught when we sent them to be rebuilt). Unless you're building a lowrider you would normally just do one or the other, not both. The suspension height is set to max and it looks good now that the rear has been brought up to maximum height adjustment.\n\nThings to note:\nYou can get contact between the left front wheel and front-inner-wheel-well when the steering is cranked all the way over on RH turn. The paint was rubbed off before we got this vehicle in the exact same spot. It's only at maximum crank in a turn you can get this. If that's an issue, either a steering stop may be in order, or a mild spacer.\nDue the maxed out height adjustment, the front end seems fairly stiff. When we get it driving more we'll be able to decide if this constitutes an issue.\nThe new beam does not have a provision for the OEM steering damper, which seems pretty common for adjustable beams. Would be easy to add later if we decide the steering needs it. \n\nThere is some juddering from the rear of the vehicle at certain throttle positions. We should verify the inverter settings before diving into this issue. Don't believe this is suspension related but wanted to mention it here. This should be resolved before any significant test driving."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-04-15 19:18",
-                  "text": "Investigated wheel rub issue: determined contact at front RH (rear edge). Vehicle received damage on this corner sometime in the past, multiple weld repairs visible, this is the side that the headlight doesn't fit onto. Left front clears fine.\nTested with 1/4\" spacers. Clearance exists when this is performed (1mm). Both sides fit fine.\nOrdered 3/8\" spacers and longer wheel studs.\n\n**Note: This note was written two weeks ago, but I didn't hit send. Old note."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-04-15 19:22",
-                  "text": "Installed wheel spacers and new studs (both sides). Verified clearance full lock both directions, both corners.\nSignificant time on RH front - seized wheel stud required significant effort and heat to break loose. Eventually completed and wheels are now back on vehicle.\n\nAll work complete (in theory). Waiting on test-drive for final validation."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-03 17:55",
-                  "text": "Screenshot 2026-06-03 124556.png\n\nCame to my attention that drop spindles sometimes require different disc-brake conversion kits. Did extensive research to make sure we have the correct brackets for when the stock spindles arrive.\n1000011824.jpg\n1000012539.jpg\nResearched disc-brake kits and found the kit installed on this vehicle. Seen here:\nwww2.cip1.com/c31-499-264-5205-14/ \n \nAppears this kit should work with stock spindles."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-16 21:10",
-                  "text": "Received spindles.\nReference videos:\n\nwww.youtube.com/watch?v=u_eg9Kwv9NM \n \nwww.youtube.com/watch?v=zirVvgpK8uo&t=588s"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-17 00:46",
-                  "text": "Installed new spindles.\nRemoved front brakes/bearings/tierods/spindles.\nInstalled new front shocks (Koni adjustables).\nSet fronts to 1 turn tight.\nSet rears to 1.5 turn tight (not yet installed)\nPressed out old bearing races from spindles\nInspected new spindles.\nFroze, then pressed in bearing races.\nRemoved adjusters from top and bottom beam - reset to center. Torqued for now, not loctited.\nLoosened and re-centered beam leaves.\nMeasured camber for spindles:\nPassenger side 8.5mm\nDriver's side 6mm\nAssembled shims. See photos for details.\nSee photos for camber / shim adjustments.\nCompressed spindle arms and slid new spindles on.\nDiscovered die-rod end assortment on-site wouldn't work. Ordered new tie-rod ends.\nReinstalled brakes/wheel bearings/spindles.\nTorqued and marked all hardware.\nTomorrow:\nRide height adjustment.\nThursday\nInstall new tie rod ends and do toe adjustment."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-17 21:51",
-                  "text": "Lubricated all grease points on front end.\nOne zerk fitting failed - requires replacement. Plugged for now.\nSet ride height in from to 300mm (was 270).\nInstalled tie rod ends and set preliminary toe."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 03:04",
-                  "text": "Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\n\n\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\n\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 00:03",
-                  "text": "@channel\nRear springs plates are back on, everything is good in the rear thus far. Everything seems just fine, the modifications @Aharon Adams made are perfect.\n\nDuring test drive for clearance issue, noticed front suspension extremely harsh. Traced to the following: when at stock ride height, OEM shock mount making contact with the aftermarket beam.\n\nI've figured out what's happened. This adjustable beam vintage v-dubs sent us is probably for a Bay window bus. If you look closely at the split-window bus photos it shows the bracket tapering straight up from mount hole to mount hole. On the bay window bus it makes an elbow outward, which interferes with the kingpin front suspension travel. The bay-window bus runs a ball-joint front suspension, so it has a different shock mounting point. This did not appear when we had flipped spindles on the vehicle because the shock mount was much lower.\n\nAside from the obvious, throwing everything from this vintage-vdubs in the dumpster and reinstalling the stock beam, I think we'll be able to get the necessary clearance by modifying the lower shock mount/bushing, clearancing the beam slightly and running a low-profile nyloc with a thinner washers. I will do that tomorrow.\nimage (16).png\nimage (17).png\nIMG_3669.jpg\nimage (18).png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 00:08",
-                  "text": "In addition: Set toe.\nNoticed spindles not setting right (too far out on driver's front corner.) Determined cause to be incorrectly countersunk lower leaf assembly. I evened it out, but it doesn't look great."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:58",
-                  "text": "image (20).png\nimage (19).png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:58",
-                  "text": "@Marc Davis @Alex Noonan\nWe have determined a course of action.\nOption 2 - modify the current beam. @Aharon Adams and I have decided on a design for the modification. Tomorrow I will drop the beam so Aharon can do the welding when the material comes in. I've made an example piece and a cutting jig for each side.\nI've ordered 3/8\"x2\" bar stock.\n\nOn my side, 4 hours to drop/reinstall the beam, re-set the toe and re-set the ride height.\nI'll do touch-up painting on the beam prior to install."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:58",
-                  "text": "Unable to remove or modify existing mounting studs.. have tried everything. To modify will need to be drilled out and a suitable replacement found, either an exact press-in replacement or helicoil and install a threaded rod.\n\n@Alex Noonan is advocating for leaving the lower mounting point and modifying the beam... that would be getting @Aharon Adams involved and welding on the beam* in situ.\nSo options are:\nCut, tap and modify lower shock mount / shock. Lower spindle arms need to be removed. Best case scenario we should get ~5mm of clearance from the stock arm to the beam.\u00a0 4 hours.\nModify the beam itself... cut, modify and re-weld the gusset. @Aharon Adams will chime in with an estimate for that.\nThere is also the option of reinstalling the stock beam and putting the entire front end back to stock and getting rid of all these variable. This will raise the ride height significantly (see below for a stock height example). 8 hours for swapping the beam.\nThe knock-on effects of option 3:\nNeed to get Ferdman's opinion on ride height. He brought us a very low bus, he might like the look.\nDepending on where the front actually settles out we might end up with another problem, the adjustable IRS is only so adjustable... it's not impossible that we would move beyond the adjustment window of the rear suspension height."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-25 02:10",
-                  "text": "Removed beam.\nDrag link ball joint frozen in place - required air hammering out. Unfortunately, damaged nut/threads when hammer slipped. Had to remove entire assembly and cut off old nut, will require replacement. Extra time spent here.\nAfter beam welding completed, painted beam (and bare metal tie rods for good measure)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-26 02:20",
-                  "text": "Reassembled and re-greased beam after welding/painting.\nReinstalled steering gear.\nReinstalled beam.\nRe-measured camber after discovery of offset divots (see above). Camber value now beyond what's listed in the table Able to even-out the camber, but still  10mm either side.\nSet toe.\nReinstalled arms.\nLower arm too damaged after failed stud removal (see above), and broke when torquing the nut. Will require a new arm - ordered from CIP1.\nSet ride height - able to achieve the desired ride height for clearance (300mm to bottom of body), however suspension still way too stiff.\nPlayed with different adjustment settings between lower and upper beams per internet forums and @Aharon Adams. Able to get some travel, no rubbing, but still very stiff. Unclear if this torsion pack is stiffer than stock (for lowered vehicles) or if it's just stiffer as a result of shortening by 4\", which reduces twist and makes stiffer.\nTest drove. Better, but not perfect. Will take out dampers tomorrow and re-test."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 21:49",
-                  "text": "test drives and consultation"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-27 02:36",
-                  "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:42",
-                  "text": "@Marc Davis @Ryan Laurel @Alex Noonan\nCaster is not natively adjustable on the split-window bus... most other aircool VWs can use beam shims to adjust the caster, but not the bus. The only solution I can find is this kit, which is just a jig to slot some of the mounting holes. I think we shouldn't worry too much about that unless it's too far out.\n\nA swaybar was mentioned in the meeting. Mounts are cheap and available for the split-window bus, however swaybars for the 4\" narrowed front beam are less easy to come by. Most people cut and sleeve a stock-width swaybar.\n\nUnfortunately the drag link replacement did not go as planned. I had it in in 10 minutes, but while old drag link was very tight and barely made contact at full lock the new drag link dragged after 3/4 turn in either direction. Removed the new drag link, compared to the old link. Very similar, but the new drag had slightly different bends. I searched for a solution or a direct replacement for the old drag link, no avail (original supplier is backordered). I ended up modifying the new drag link to get the clearance we needed. I believe this again points to: this is a bay-window beam, not a split-window beam, as the steering pickup is slightly different. In any case, the modified drag link now has plenty of clearance during the steering sweep and no longer makes any contact. A knock-on effect was reduced clearance to the new throttle sensor position. Removed and and shifted the throttle mount over slightly. The steering wheel is now slightly off, but I think I can leave that for the alignment next week.\n\nI added dampening, we're now at 1.25 turns.\n\nI located the likely cause of the front 'flapping' type noise at highway speeds: protective cover on the condenser. Added some constraint there and it shouldn't move any longer.\n\n@Marc Davis feel free to take it another day this week."
-                }
-              ],
+              "url": "https://app.clickup.com/t/868k7faah",
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "63deff23957bfef8391852bb3d531fc57083213c265a0289187ccbe1b08b5151"
+              "content_hash": "a3508d7521576a9b05513ccddece02498ddeefdd3cbd2e2839e24e662f712734"
             },
             {
               "id": "868hgu3ee",
@@ -1229,9 +1118,30 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7dx7z",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-01 19:50",
+                  "text": "help and advise"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "cc9744c4b9bbb72acf435e8fc838deaef6d90099c85a4f5d3fae7e04ffabf3ee"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868k7fdjp",
+              "name": "Assess noise",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7fdjp",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "d051309ecf51844a01eea71f651b84677fdd9210414920bb6eea1274fa999c4e"
+              "content_hash": "7579ed8698a8b6c3e3eaac144b9337ce4ac8e46cbea09f0baef79f51e568bd8d"
             }
           ]
         },
