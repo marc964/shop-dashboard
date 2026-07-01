@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T18:13:44.276377Z",
+  "updated_at": "2026-07-01T18:59:22.251513Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -882,12 +882,68 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 8
+        "open_tasks": 10
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
+            {
+              "id": "868k33pkg",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k33pkg",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:25",
+                  "text": "Comment from yesterday:\n\"Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK.\""
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:29",
+                  "text": "Today:\nPulled spring plates left and right.\nBoth backing plate and adjuster plate showed significant bending.\nStraightened all four pieces as much as practical\nCut and cleaned threaded block off both sides.\nDrilled pilot hole for stud."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "3D printinng TPU bushings temporarily until new ones arrive from Jbugs.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "Pressed in studs.\nCleaned from welding.\nPrepped for paint.\nPut 4 coats of hot-rod black.\nTouch-up painted adjustment blocks"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:58",
+                  "text": "Ordered wide, strong washers for clamp m8 stud"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 00:04",
+                  "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:57",
+                  "text": "Installed new bushings and washers."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-27 02:33",
+                  "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:53",
+                  "text": "Test drove after work performed. Adjustment working as designed, no halfshaft noise."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1c0b817d5e1cdcb9316edd659f617e34796e55d778a5dad4b63a9c2197c85222"
+            },
             {
               "id": "868hjy6ch",
               "name": "Address wheel clearance issue",
@@ -1011,7 +1067,7 @@
             },
             {
               "id": "868hgu3ee",
-              "name": "Facilitate headlight repair",
+              "name": "Aid in headlight repair",
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868hgu3ee",
@@ -1023,7 +1079,17 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "cc579c47bfc7d052e8695f3505d4ad4a044447c19555eadb94503e419fd3b8b5"
+              "content_hash": "8513918c8069052154ba7d0c4daf874038bd2d3e711c79b94a06b60af0f02127"
+            },
+            {
+              "id": "868k7em0v",
+              "name": "Install roof rack",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7em0v",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
             },
             {
               "id": "868e45rzk",
