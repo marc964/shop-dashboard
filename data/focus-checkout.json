@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T16:23:17.417003Z",
+  "updated_at": "2026-07-01T18:13:44.276377Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,88 +155,9 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
       "assignees": [
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868jdhmvv",
-              "name": "Add pull tab to CP opening",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jdhmvv",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-04 10:54",
-                  "text": "Waiting On parts From Marshal"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "0f7de6facc6faf5f6c62b12a0acf0bb941949b3836b99032a761b2238604739a"
-            },
-            {
-              "id": "868jxmvy7",
-              "name": "Exterior refresh",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvy7",
-              "comments": [
-                {
-                  "author": "Marc Davis",
-                  "date": "2026-06-04 15:33",
-                  "text": "- New side mirror with proper stainless hardware\n- New hood lip moldings to match new turn signal end trim pieces \u2014 https://www.ebay.com/itm/297509070167\n- Rear quarter window seals\n- Front and rear bumpers \u2014 re-chrome originals (Ryan will send to our guy)\n- Recondition police lights"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "29c88a4c3ca74afa1938b06de2a8ec54dab4a77206774eeaa140ca9295fb4369"
-            },
-            {
-              "id": "868jxmvwy",
-              "name": "Interior refresh",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jxmvwy",
-              "comments": [
-                {
-                  "author": "Marc Davis",
-                  "date": "2026-06-04 15:33",
-                  "text": "- Replace all interior screws with stainless steel hardware\n- New dome light covers\n- New coat hooks (rear)\n- New door lock knobs\n- New carpet kit (interior + trunk)\n- New Fisher Body sill plates once carpet is in \u2014 https://mkgarageinc.com/products/1959-1960-chevy-impala-bel-air-biscayne-hardtop-or-convertible-2-door-door-sill-plates-new?variant=42077312254031\n- Install package tray"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-08 13:56",
-                  "text": "Removed PS door panel and rear quarter panel for David G to look at,"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-09 11:13",
-                  "text": "1000026007.jpg\n1000026005.jpg\n1000026006.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ae51e01348b597390fa8373c9e80550e7eabb47c964ecde8bbbd6a04c7661b9a"
-            },
-            {
-              "id": "868jqnyzr",
-              "name": "Replace package tray",
-              "status": "Open",
-              "list": "Barton 59 Impala",
-              "url": "https://app.clickup.com/t/868jqnyzr",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-06-04 10:52",
-                  "text": "waiting to do this until after Colvin's does the Rear Windshield"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "7c038d9de034b2a5920192d63df4bdd9465a7534b4c8b7367574f629ff97a482"
-            }
-          ]
-        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -290,6 +211,126 @@
           ]
         },
         {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868jdhmvv",
+              "name": "Add pull tab to CP opening",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jdhmvv",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-04 10:54",
+                  "text": "Waiting On parts From Marshal"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "0f7de6facc6faf5f6c62b12a0acf0bb941949b3836b99032a761b2238604739a"
+            },
+            {
+              "id": "868jxmvy7",
+              "name": "Replace exterior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvy7",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "- New side mirror with proper stainless hardware\n- New hood lip moldings to match new turn signal end trim pieces \u2014 https://www.ebay.com/itm/297509070167\n- Rear quarter window seals\n- Front and rear bumpers \u2014 re-chrome originals (Ryan will send to our guy)\n- Recondition police lights"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Side Mirror Replacement (2)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Recondition Police Lights (4)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Replace and fit new hood lip moldings (4)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Bumper removal and reinstall (10)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Removal and Replace Rear quarter window seals (6)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "9f147fffb9c9058538df2d2f69faaabc51a209497b3361b1d777705d67802b79"
+            },
+            {
+              "id": "868jxmvwy",
+              "name": "Replace interior parts",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868jxmvwy",
+              "comments": [
+                {
+                  "author": "Marc Davis",
+                  "date": "2026-06-04 15:33",
+                  "text": "- Replace all interior screws with stainless steel hardware\n- New dome light covers\n- New coat hooks (rear)\n- New door lock knobs\n- New carpet kit (interior + trunk)\n- New Fisher Body sill plates once carpet is in \u2014 https://mkgarageinc.com/products/1959-1960-chevy-impala-bel-air-biscayne-hardtop-or-convertible-2-door-door-sill-plates-new?variant=42077312254031\n- Install package tray"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-08 13:56",
+                  "text": "Removed PS door panel and rear quarter panel for David G to look at,"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-06-09 11:13",
+                  "text": "1000026007.jpg\n1000026005.jpg\n1000026006.jpg"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Replace Coat hangers, door locks, dome light covers (2)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Replace all interior Trim Screws with new hardware (4)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Install Packing tray, fitted well/trimmed to shape (4)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Seat Removal and Reinstall (3)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Door Card Removal and Reinstall (6)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Removal and replace Carpet set--new (6)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "c81e2fde6ddf2f4d85ed0eb9e942709b531f1ec695d925a1cc57d82e2e059ffc"
+            }
+          ]
+        },
+        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -313,10 +354,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-12 13:12",
                   "text": "Waiting on Barton approval to proceed."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:02",
+                  "text": "Approval received. Seal incoming. Will schedule with Lupe when seal arrives."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a0501a10b452d59241e46cb956d676fd1246235c6ed6f9209b0cb7b6392ce8ca"
+              "content_hash": "a4474e4ab726ca7b2880aa3e1a80a51fef562b9d6af67263bd601794f4fb03c5"
             },
             {
               "id": "868jxmw03",
@@ -334,10 +380,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-04 23:15",
                   "text": "Spoke to Sean @Taurus about upper windshield seam seal and they can also do the cut and buff when it's ready."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:03",
+                  "text": "Approval received. Exterior parts incoming. Once all the exterior parts are installed, and Lupe is done with the rear windshield seal, we'll schedule the front windshield re-seal with Taurus."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1e2ee042af76deec0ea604044860b4823eeeec24a58500e02f51ab07a9f4fd9a"
+              "content_hash": "5a2fbf03b81a58e0f2b3d6eb5b87973abf4a34a14e97b45f2b7a5eca4ec98a51"
             },
             {
               "id": "868jxmvpn",
@@ -355,10 +406,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-04 23:14",
                   "text": "David Gonzalez coming at 10am on Fri 6/5 to review door card and seat refresh."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:02",
+                  "text": "Approval received. Will order interior kit today."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "32b9c5a8a5871d6d60ee355c622bbc79c2b04fcc46bd0876a463bb99b7890582"
+              "content_hash": "c70429ea4f472d2f05a3c4c5203136a822aa009511f9aabffe309eb1e957b326"
             }
           ]
         }
@@ -826,7 +882,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -959,9 +1015,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868hgu3ee",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-01 17:02",
+                  "text": "With @Aharon Adams, inspected headlight assortment.\nAttempted install with seal - not possible without modification.\nInstalled OK with two people, shaved spacer, slotted mount and no seal, and replaced hardware on parking light assembly for more clearance (grounding out on headlight bucket).\nModified other side to match.\nHeadlight on passenger side non-functional after work performed. DIagnosed incorrect wiring on LH headlight bucket. Removed and repaired wiring. Headlights work now.\nAfter work performed, parking lights non -functional . Inspected and tested wiring, power and ground. Diagnosed new hardware shorting across the gap. Modified old hardware for appropriate clearance.\nReinstalled everything and tested. Looks OK.\nNo seals were installed when vehicle arrived. Ordered new silicone sealant applicator for fine black silicone application if desired."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "21b8844bd7a993feae2688db2d5ce035d08439acbd2a1fb04d58f2b1f24f166f"
+              "content_hash": "cc579c47bfc7d052e8695f3505d4ad4a044447c19555eadb94503e419fd3b8b5"
             },
             {
               "id": "868e45rzk",
@@ -1089,6 +1151,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868k7dx7z",
+              "name": "Mount headlight",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7dx7z",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d051309ecf51844a01eea71f651b84677fdd9210414920bb6eea1274fa999c4e"
             }
           ]
         },
