@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Share a concurrency group with update.yml so the two never race on data/.
+concurrency:
+  group: shop-dashboard-data-commit
+  cancel-in-progress: false
+
 jobs:
   track-changes:
     runs-on: ubuntu-latest
@@ -53,8 +58,22 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update snapshot data [automated]"
-            git pull --rebase || true
-            git push
+            # Rebase onto commits pushed since checkout; on conflict keep our
+            # freshly generated data (-X theirs = the commit being replayed).
+            # Retry to absorb a push race with another run.
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase -X theirs origin main && git push; then
+                echo "Pushed snapshot update"
+                break
+              fi
+              echo "Push failed (attempt $attempt); aborting rebase and retrying..."
+              git rebase --abort 2>/dev/null || true
+              sleep $((attempt * 3))
+              if [ "$attempt" = "5" ]; then
+                echo "::error::Could not push snapshot update after 5 attempts"
+                exit 1
+              fi
+            done
           fi
 
       # Uncomment below to re-enable vehicle image posting to Slack channels:

@@ -12,6 +12,12 @@ permissions:
   pages: write
   id-token: write
 
+# Serialize against any run that commits data/ (including slack-summaries)
+# so overlapping runs don't race. Let an in-progress run finish, don't cancel.
+concurrency:
+  group: shop-dashboard-data-commit
+  cancel-in-progress: false
+
 jobs:
   update-and-deploy:
     environment:
@@ -50,8 +56,23 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update dashboard data [automated]"
-            git pull --rebase || true
-            git push
+            # Rebase onto any commits pushed since checkout. The pipeline
+            # regenerates data/ deterministically, so on conflict our freshly
+            # generated version wins (-X theirs = the commit being replayed).
+            # Retry to absorb a push race with another run.
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase -X theirs origin main && git push; then
+                echo "Pushed data update"
+                break
+              fi
+              echo "Push failed (attempt $attempt); aborting rebase and retrying..."
+              git rebase --abort 2>/dev/null || true
+              sleep $((attempt * 3))
+              if [ "$attempt" = "5" ]; then
+                echo "::error::Could not push data update after 5 attempts"
+                exit 1
+              fi
+            done
           fi
 
       - name: Setup Pages
