@@ -1,9 +1,32 @@
 {
   "helpers": [
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 8.5,
+      "pct_of_total": 11.8,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 3.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 2.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 8.5,
-      "pct_of_total": 13.5,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -18,7 +41,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.8,
-      "pct_of_total": 12.4,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -35,9 +58,24 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 6.5,
+      "pct_of_total": 9.0,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 4.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Nolan 70 Challenger",
       "total_hours": 6.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Cooling",
@@ -48,7 +86,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -63,7 +101,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 9.6,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -76,58 +114,28 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 4.5,
-      "pct_of_total": 7.2,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 3.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 1.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 3.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 3.0
         }
       ]
-    },
-    {
-      "project": "Jaffe 86 190E",
-      "total_hours": 2.0,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 17.2,
-    "pct_of_total": 27.5,
-    "avg_per_person_per_day": 1.08,
+    "total_hours": 18.2,
+    "pct_of_total": 25.3,
+    "avg_per_person_per_day": 1.14,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 7.0
+        "hours": 7.5
       },
       {
         "label": "Other",
@@ -135,7 +143,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 3.5
+        "hours": 4.0
       },
       {
         "label": "Personal Meetings",
@@ -151,7 +159,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 0.8,
-      "pct_of_total": 1.2,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -161,9 +169,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 44.8,
-    "non_billable_hours": 18.0,
+    "billable_hours": 53.2,
+    "non_billable_hours": 19.0,
     "pto_hours": 0.0,
-    "total_hours": 62.8
+    "total_hours": 72.2
   }
 }
