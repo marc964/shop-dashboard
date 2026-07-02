@@ -24,7 +24,7 @@ jobs:
   update-and-deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -85,8 +85,22 @@ jobs:
         with:
           path: '.'
 
+      # GitHub Pages deploys transiently return "Deployment failed, try again
+      # later." First attempt is non-fatal; on failure we wait and retry once.
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
           timeout: 300000  # fail after 5 min instead of blocking the queue for 10
+
+      - name: Wait before deploy retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 300000
