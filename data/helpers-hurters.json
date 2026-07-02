@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 8.5,
-      "pct_of_total": 14.2,
+      "pct_of_total": 14.0,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -18,7 +18,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 6.5,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Cooling",
@@ -29,7 +29,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.5,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -44,7 +44,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -59,7 +59,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 6.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Steering",
@@ -77,8 +77,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 4.0,
-      "pct_of_total": 6.7,
+      "total_hours": 4.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -87,6 +87,10 @@
         {
           "task": "HVAC",
           "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 0.5
         }
       ]
     },
@@ -115,7 +119,7 @@
   ],
   "shop_work": {
     "total_hours": 16.8,
-    "pct_of_total": 27.9,
+    "pct_of_total": 27.7,
     "avg_per_person_per_day": 1.05,
     "flagged": true,
     "tech_count": 8,
@@ -157,9 +161,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 42.5,
+    "billable_hours": 43.0,
     "non_billable_hours": 17.5,
     "pto_hours": 0.0,
-    "total_hours": 60.0
+    "total_hours": 60.5
   }
 }
