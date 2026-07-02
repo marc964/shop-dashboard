@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 8.5,
-      "pct_of_total": 13.8,
+      "pct_of_total": 13.5,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -17,12 +17,12 @@
     },
     {
       "project": "Chuter 62 Healey",
-      "total_hours": 7.2,
-      "pct_of_total": 11.7,
+      "total_hours": 7.8,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 3.2
+          "hours": 3.8
         },
         {
           "task": "Steering",
@@ -37,7 +37,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 6.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Cooling",
@@ -48,7 +48,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -63,7 +63,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -78,7 +78,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 4.5,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -97,7 +97,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 3.0,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -118,16 +118,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 16.8,
-    "pct_of_total": 27.1,
-    "avg_per_person_per_day": 1.05,
+    "total_hours": 17.2,
+    "pct_of_total": 27.5,
+    "avg_per_person_per_day": 1.08,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 6.5
+        "hours": 7.0
       },
       {
         "label": "Other",
@@ -161,9 +161,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 44.2,
-    "non_billable_hours": 17.5,
+    "billable_hours": 44.8,
+    "non_billable_hours": 18.0,
     "pto_hours": 0.0,
-    "total_hours": 61.8
+    "total_hours": 62.8
   }
 }
