@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 18.0,
-      "pct_of_total": 18.8,
+      "total_hours": 22.5,
+      "pct_of_total": 22.3,
       "tasks": [
         {
           "task": "Cooling",
-          "hours": 6.5
+          "hours": 11.0
         },
         {
           "task": "Vehicle Control",
@@ -26,7 +26,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 8.5,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -49,7 +49,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 8.5,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -64,7 +64,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 8.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -83,7 +83,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.8,
-      "pct_of_total": 8.1,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -102,7 +102,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.5,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -117,7 +117,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -132,7 +132,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 3.5,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -143,7 +143,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 3.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -153,9 +153,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 25.2,
-    "pct_of_total": 26.4,
-    "avg_per_person_per_day": 1.58,
+    "total_hours": 25.8,
+    "pct_of_total": 25.6,
+    "avg_per_person_per_day": 1.61,
     "flagged": true,
     "tech_count": 8,
     "working_days": 2,
@@ -170,7 +170,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 5.0
+        "hours": 5.5
       },
       {
         "label": "Personal Meetings",
@@ -186,7 +186,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 0.8,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -196,9 +196,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 69.8,
-    "non_billable_hours": 26.0,
+    "billable_hours": 74.2,
+    "non_billable_hours": 26.5,
     "pto_hours": 0.0,
-    "total_hours": 95.8
+    "total_hours": 100.8
   }
 }
