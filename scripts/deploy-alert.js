@@ -18,7 +18,7 @@
  *   GITHUB_RUN_ID         current Actions run id (for the link)
  *   GITHUB_SERVER_URL     e.g. https://github.com
  *   SLACK_BOT_TOKEN       Slack bot token (same one daily-diff.js uses)
- *   SLACK_CHANNEL         target channel (default "#moment-ops")
+ *   SLACK_ALERT_TARGET    DM target Slack user id (default Marc, UKJH79UGK)
  *   STALE_AFTER_FAILURES  consecutive failures before alerting (default 3)
  */
 
@@ -30,7 +30,8 @@ const REPO = process.env.GITHUB_REPOSITORY || "";
 const RUN_ID = process.env.GITHUB_RUN_ID || "";
 const SERVER = process.env.GITHUB_SERVER_URL || "https://github.com";
 const SLACK_TOKEN = process.env.SLACK_BOT_TOKEN || "";
-const SLACK_CHANNEL = process.env.SLACK_CHANNEL || "#moment-ops";
+// A user id here makes chat.postMessage open a DM to that user.
+const SLACK_TARGET = process.env.SLACK_ALERT_TARGET || "UKJH79UGK"; // Marc Davis
 const THRESHOLD = parseInt(process.env.STALE_AFTER_FAILURES || "3", 10);
 const REMINDER_EVERY = 12; // re-alert every ~12 failures (~3h at 15-min cadence)
 
@@ -67,7 +68,7 @@ function ghGet(path) {
 
 function slackPost(text) {
   return new Promise((resolve, reject) => {
-    const data = JSON.stringify({ channel: SLACK_CHANNEL, text, unfurl_links: false });
+    const data = JSON.stringify({ channel: SLACK_TARGET, text, unfurl_links: false });
     const req = https.request(
       {
         hostname: "slack.com",
@@ -189,7 +190,7 @@ async function main() {
     `• GitHub status: https://www.githubstatus.com\n` +
     `• Latest run: ${runUrl}`;
   const resp = await slackPost(msg);
-  if (resp && resp.ok) console.log(`deploy-alert: posted alert to ${SLACK_CHANNEL}.`);
+  if (resp && resp.ok) console.log(`deploy-alert: DMed alert to ${SLACK_TARGET}.`);
   else console.warn(`deploy-alert: Slack post failed: ${JSON.stringify(resp)}`);
 }
 
