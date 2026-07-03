@@ -13,6 +13,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  deployments: read  # deploy-alert.js reads Pages deployment history
 
 # Serialize against any run that commits data/ (including slack-summaries)
 # so overlapping runs don't race. Let an in-progress run finish, don't cancel.
@@ -24,7 +25,7 @@ jobs:
   update-and-deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -85,22 +86,25 @@ jobs:
         with:
           path: '.'
 
-      # GitHub Pages deploys transiently return "Deployment failed, try again
-      # later." First attempt is non-fatal; on failure we wait and retry once.
+      # A single failed Pages deploy is not actionable: the data pipeline
+      # succeeded, the site keeps serving the last good version, and the next
+      # run (~15 min) redeploys a fresh SHA. So the deploy is non-fatal — it
+      # never fails the run on its own. Sustained failures are escalated to
+      # Slack by deploy-alert.js below. (Retrying the same SHA in-run is
+      # futile: GitHub caches the Pages build result per commit.)
       - name: Deploy to GitHub Pages
         id: deployment
         continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
-          timeout: 300000  # fail after 5 min instead of blocking the queue for 10
+          timeout: 300000  # fail fast (5 min) instead of blocking the queue for 10
 
-      - name: Wait before deploy retry
-        if: steps.deployment.outcome == 'failure'
-        run: sleep 60
-
-      - name: Deploy to GitHub Pages (retry)
-        id: deployment_retry
-        if: steps.deployment.outcome == 'failure'
-        uses: actions/deploy-pages@v5
-        with:
-          timeout: 300000
+      - name: Alert on sustained deploy failure
+        if: always()
+        env:
+          DEPLOY_OK: ${{ steps.deployment.outcome == 'success' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL: '#moment-ops'
+          STALE_AFTER_FAILURES: '3'
+        run: node scripts/deploy-alert.js
