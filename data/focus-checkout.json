@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T01:58:03.408200Z",
+  "updated_at": "2026-07-03T03:16:04.786057Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -944,10 +944,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-02 01:21",
                   "text": "Decided to proceed with rear shock mount replacement.\nRemoved snubber mount from passenger side to test fitment of bracket.\nDrilling of spotwelds insufficient, bead on upper edge blocked by body. Had to remove what I could below and chisel / work the rest loose."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:01",
+                  "text": "Updated CAD and placed CAD in purchases.\nContinued removal of damper and old shock mount. Both sides removed with grinding/spot weld drilling/and metal fatiguing.\nNeed to clean and paint."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bcf96ce11f781fd271767540fc6a53f7c436006cee496cc12ce671d38eaaa327"
+              "content_hash": "5f8a34ef6d72401261fa0683af79cd85abc3bef9d5430fd663a86041e45b8f0b"
             },
             {
               "id": "868k7faah",
@@ -955,9 +960,20 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7faah",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:48",
+                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:49",
+                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a3508d7521576a9b05513ccddece02498ddeefdd3cbd2e2839e24e662f712734"
+              "content_hash": "55d0a92a05da5bd322b27f655cc72a708b5eabf61a52e4a97dcb449afafefcbe"
             },
             {
               "id": "868hgu3ee",
