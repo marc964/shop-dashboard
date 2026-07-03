@@ -52,12 +52,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 8.5,
-      "pct_of_total": 6.7,
+      "total_hours": 12.5,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Suspension",
-          "hours": 4.5
+          "hours": 8.5
         },
         {
           "task": "Exterior",
@@ -142,17 +142,6 @@
       ]
     },
     {
-      "project": "Buck 70 280SL",
-      "total_hours": 5.0,
-      "pct_of_total": 4.0,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 5.0
-        }
-      ]
-    },
-    {
       "project": "Connolly 58 220S",
       "total_hours": 3.5,
       "pct_of_total": 2.8,
@@ -171,6 +160,17 @@
         {
           "task": "Manufacturing - Product",
           "hours": 3.0
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 2.5,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 2.5
         }
       ]
     }
@@ -207,13 +207,13 @@
   },
   "project_hurters": [
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 4.0,
-      "pct_of_total": 3.2,
+      "project": "Buck 70 280SL",
+      "total_hours": 5.0,
+      "pct_of_total": 4.0,
       "tasks": [
         {
-          "task": "Installation - Extra",
-          "hours": 4.0
+          "task": "Manufacturing - Extra",
+          "hours": 5.0
         }
       ]
     },
@@ -230,8 +230,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 88.8,
-    "non_billable_hours": 37.2,
+    "billable_hours": 87.8,
+    "non_billable_hours": 38.2,
     "pto_hours": 0.0,
     "total_hours": 126.0
   }
