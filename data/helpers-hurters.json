@@ -3,7 +3,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 22.5,
-      "pct_of_total": 17.9,
+      "pct_of_total": 17.3,
       "tasks": [
         {
           "task": "Cooling",
@@ -25,16 +25,20 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 13.5,
-      "pct_of_total": 10.7,
+      "total_hours": 17.5,
+      "pct_of_total": 13.5,
       "tasks": [
         {
           "task": "Manufacturing - Core",
-          "hours": 5.0
+          "hours": 7.0
         },
         {
           "task": "Battery Pack",
           "hours": 4.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 3.0
         },
         {
           "task": "Vehicle Control",
@@ -43,17 +47,13 @@
         {
           "task": "Manufacturing - Product",
           "hours": 1.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 1.0
         }
       ]
     },
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 12.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -68,7 +68,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 8.5,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -91,7 +91,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 8.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -110,7 +110,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.8,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -129,7 +129,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -144,7 +144,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 3.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -155,7 +155,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 3.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -166,7 +166,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 2.5,
-      "pct_of_total": 2.0,
+      "pct_of_total": 1.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -177,7 +177,7 @@
   ],
   "shop_work": {
     "total_hours": 32.5,
-    "pct_of_total": 25.8,
+    "pct_of_total": 25.0,
     "avg_per_person_per_day": 1.35,
     "flagged": true,
     "tech_count": 8,
@@ -209,7 +209,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 5.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Manufacturing - Extra",
@@ -230,9 +230,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 87.8,
+    "billable_hours": 91.8,
     "non_billable_hours": 38.2,
     "pto_hours": 0.0,
-    "total_hours": 126.0
+    "total_hours": 130.0
   }
 }
