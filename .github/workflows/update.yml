@@ -105,6 +105,6 @@ jobs:
           DEPLOY_OK: ${{ steps.deployment.outcome == 'success' }}
           GITHUB_TOKEN: ${{ github.token }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL: '#moment-ops'
+          SLACK_ALERT_TARGET: 'UKJH79UGK'  # DM Marc Davis
           STALE_AFTER_FAILURES: '3'
         run: node scripts/deploy-alert.js
