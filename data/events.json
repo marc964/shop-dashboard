@@ -161,12 +161,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Billy A Out",
+              "summary": "Marc - Jury Duty",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Marc - Jury Duty",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             }
