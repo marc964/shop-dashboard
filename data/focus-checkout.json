@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T22:56:52.504450Z",
+  "updated_at": "2026-07-06T23:30:18.646605Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1041,10 +1041,15 @@
                   "author": "Jordan Jones",
                   "date": "2025-12-19 16:46",
                   "text": "Waiting for startup to button-up (will be time consuming/difficult to install).\n\nAlso will need to come out for bodyshop visit"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-06 23:16",
+                  "text": "Attempted kickpanel installation.\nMore modifications required to clear final HVAC lines / neutral button.\nModified kickpanels.\nDrilled new holes and installed with new hardware."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3d3cf185e3f8874f193165d020b3edd9c5d4c2e87d1441a9b7c4538445380d58"
+              "content_hash": "4620be614e55cd7125da2645dd6983e9aad04a981ac516b69d437c82178e13e4"
             }
           ]
         },

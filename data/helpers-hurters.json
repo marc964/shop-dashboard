@@ -3,7 +3,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 28.8,
-      "pct_of_total": 17.3,
+      "pct_of_total": 16.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -26,7 +26,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 24.8,
-      "pct_of_total": 14.9,
+      "pct_of_total": 14.2,
       "tasks": [
         {
           "task": "Cooling",
@@ -52,12 +52,16 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 12.5,
-      "pct_of_total": 7.5,
+      "total_hours": 17.0,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Suspension",
           "hours": 8.5
+        },
+        {
+          "task": "Interior",
+          "hours": 4.5
         },
         {
           "task": "Exterior",
@@ -68,7 +72,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 11.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -99,7 +103,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 11.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -118,7 +122,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 10.8,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -133,7 +137,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -152,7 +156,7 @@
     {
       "project": "Nagel 65 Scout",
       "total_hours": 6.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -167,7 +171,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 4.0,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -182,7 +186,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 3.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Inspection",
@@ -192,24 +196,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 37.2,
-    "pct_of_total": 22.4,
-    "avg_per_person_per_day": 1.16,
+    "total_hours": 39.2,
+    "pct_of_total": 22.6,
+    "avg_per_person_per_day": 1.23,
     "flagged": true,
     "tech_count": 8,
     "working_days": 4,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 11.0
+        "label": "Other",
+        "hours": 12.0
       },
       {
-        "label": "Other",
-        "hours": 11.0
+        "label": "Shop Meetings",
+        "hours": 11.2
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 9.2
+        "hours": 10.0
       },
       {
         "label": "Personal Meetings",
@@ -225,7 +229,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 5.0,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Manufacturing - Extra",
@@ -236,7 +240,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 0.8,
-      "pct_of_total": 0.5,
+      "pct_of_total": 0.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -246,9 +250,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 123.5,
-    "non_billable_hours": 43.0,
+    "billable_hours": 128.8,
+    "non_billable_hours": 45.0,
     "pto_hours": 0.0,
-    "total_hours": 166.5
+    "total_hours": 173.8
   }
 }
