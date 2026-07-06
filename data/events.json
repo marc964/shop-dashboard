@@ -1,89 +1,15 @@
 {
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-06",
   "weeks": [
-    {
-      "week_start": "2026-06-29",
-      "week_label": "Week of Jun 29",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-06-29",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "David W Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-06-30",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-07-01",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-07-02",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-07-03",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Moment Holiday (Ind Day Observ.)",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-07-04",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": [
-            {
-              "summary": "Moment Holiday (July 4th)",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-07-05",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-07-06",
       "week_label": "Week of Jul 06",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-07-06",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -200,12 +126,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
@@ -256,12 +182,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             }
@@ -304,6 +230,62 @@
         },
         {
           "date": "2026-07-26",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-07-27",
+      "week_label": "Week of Jul 27",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-07-27",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-28",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-29",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-30",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-07-31",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-08-01",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-08-02",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
