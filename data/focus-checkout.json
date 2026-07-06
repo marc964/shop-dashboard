@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T17:08:56.016272Z",
+  "updated_at": "2026-07-06T18:03:19.410724Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -534,11 +534,15 @@
             {
               "text": "Fix the gear ratio",
               "done": false
+            },
+            {
+              "text": "Battery type in preheim",
+              "done": false
             }
           ],
-          "total": 20,
+          "total": 21,
           "done": 15,
-          "open": 5
+          "open": 6
         }
       },
       "clickup_match": {

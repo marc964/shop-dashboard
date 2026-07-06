@@ -791,11 +791,15 @@
           {
             "text": "Fix the gear ratio",
             "done": false
+          },
+          {
+            "text": "Battery type in preheim",
+            "done": false
           }
         ],
-        "total": 20,
+        "total": 21,
         "done": 15,
-        "open": 5
+        "open": 6
       }
     },
     {
@@ -1599,6 +1603,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-06T17:08:32.044621+00:00",
+  "updated": "2026-07-06T18:02:45.428137+00:00",
   "source": "Google Sheets API"
 }
