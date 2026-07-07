@@ -3,7 +3,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 28.8,
-      "pct_of_total": 15.9,
+      "pct_of_total": 15.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -25,8 +25,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 24.8,
-      "pct_of_total": 13.7,
+      "total_hours": 26.8,
+      "pct_of_total": 14.6,
       "tasks": [
         {
           "task": "Cooling",
@@ -41,11 +41,11 @@
           "hours": 6.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 1.5
+          "task": "Manufacturing - Product",
+          "hours": 3.5
         },
         {
-          "task": "Manufacturing - Product",
+          "task": "Vehicle Control",
           "hours": 1.5
         }
       ]
@@ -53,7 +53,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -72,7 +72,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 11.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -103,7 +103,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 11.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -122,7 +122,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 10.8,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Brakes",
@@ -137,7 +137,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 8.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -156,7 +156,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 7.8,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -204,10 +204,10 @@
     }
   ],
   "shop_work": {
-    "total_hours": 39.4,
-    "pct_of_total": 21.8,
-    "avg_per_person_per_day": 0.98,
-    "flagged": false,
+    "total_hours": 40.2,
+    "pct_of_total": 21.9,
+    "avg_per_person_per_day": 1.01,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 5,
     "breakdown": [
@@ -217,11 +217,11 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 11.4
+        "hours": 11.8
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 10.0
+        "hours": 10.5
       },
       {
         "label": "Personal Meetings",
@@ -237,7 +237,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 5.0,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Manufacturing - Extra",
@@ -258,9 +258,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 134.5,
-    "non_billable_hours": 46.1,
+    "billable_hours": 136.5,
+    "non_billable_hours": 47.0,
     "pto_hours": 0.0,
-    "total_hours": 180.6
+    "total_hours": 183.5
   }
 }
