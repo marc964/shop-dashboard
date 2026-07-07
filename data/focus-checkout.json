@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T23:23:52.025356Z",
+  "updated_at": "2026-07-07T23:50:02.177082Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1127,10 +1127,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-06-12 21:16",
                   "text": "Showed Jordan how to use the BlueBox to log temperatures, had him drive the bus and a second car as a control. Showed him how to extract the logs and analyze them to determine that coolant was actually motor. Hopped onto the VCU and selected the correct option, Verified with the test drive."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:27",
+                  "text": "Reviewed various EEPROM backups and HEX files provided by AEM and developed previously in house. Couldn't find anything in the EEPROM limiting reverse torque. Wrote up email for support ticket with AEM to build a new firmware without a hardcoded reverse torque cap."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "ffa85ce9c6bf65c14746b158f8c730190b4761a65184a5383f9e5fee5dd9d8f5"
+              "content_hash": "887adc15bdebf36a95c4b1403fc75db1f0e3a0fc7144c03c3e8e2822b8320c5b"
             },
             {
               "id": "868jx2u8g",
