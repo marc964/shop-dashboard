@@ -69,7 +69,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 21.5,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -103,7 +103,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 15.2,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -248,20 +248,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 50.2,
-    "pct_of_total": 19.3,
-    "avg_per_person_per_day": 1.05,
+    "total_hours": 51.0,
+    "pct_of_total": 19.5,
+    "avg_per_person_per_day": 1.06,
     "flagged": true,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
+        "label": "Shop Meetings",
         "hours": 15.8
       },
       {
-        "label": "Shop Meetings",
-        "hours": 15.0
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 15.8
       },
       {
         "label": "Other",
@@ -307,8 +307,8 @@
   ],
   "totals": {
     "billable_hours": 204.2,
-    "non_billable_hours": 56.0,
+    "non_billable_hours": 56.8,
     "pto_hours": 0.0,
-    "total_hours": 260.2
+    "total_hours": 261.0
   }
 }
