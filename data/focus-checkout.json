@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T18:34:30.712118Z",
+  "updated_at": "2026-07-08T19:12:30.308207Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -901,7 +901,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 11
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -1161,27 +1161,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868k7dx7z",
-              "name": "Mount headlight",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7dx7z",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-01 19:50",
-                  "text": "help and advise"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "cc9744c4b9bbb72acf435e8fc838deaef6d90099c85a4f5d3fae7e04ffabf3ee"
             }
           ]
         },
