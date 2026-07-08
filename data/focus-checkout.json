@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T15:34:21.172409Z",
+  "updated_at": "2026-07-08T16:20:08.805909Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -155,7 +155,7 @@
         "matched_lists": [
           "Barton 59 Impala"
         ],
-        "open_tasks": 11
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -415,6 +415,21 @@
               ],
               "checklist_items": [],
               "content_hash": "c70429ea4f472d2f05a3c4c5203136a822aa009511f9aabffe309eb1e957b326"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868ka4zrm",
+              "name": "Design and print pull tab for charge port",
+              "status": "Open",
+              "list": "Barton 59 Impala",
+              "url": "https://app.clickup.com/t/868ka4zrm",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "12f126e06e8e47ed1c867c6d9b4001518f8303bb6745cdfe5979ea7bfe290f65"
             }
           ]
         }

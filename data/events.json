@@ -87,12 +87,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc - Jury Duty",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc - Jury Duty",
               "type": "pto",
               "all_day": true
             }
@@ -103,13 +103,7 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": [
-            {
-              "summary": " Ferdman Bus Alignment",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-07-15",
@@ -188,13 +182,18 @@
           "is_weekend": false,
           "events": [
             {
+              "summary": "Alex N Out",
+              "type": "pto",
+              "all_day": true
+            },
+            {
               "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
-              "type": "pto",
+              "summary": "Ferdman Bus Alignment",
+              "type": "shop",
               "all_day": true
             }
           ]
