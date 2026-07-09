@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 42.8,
-      "pct_of_total": 13.4,
+      "total_hours": 45.2,
+      "pct_of_total": 14.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 1.8
+          "hours": 4.2
         },
         {
           "task": "Motor & Transmission",
@@ -38,7 +38,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 36.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -73,7 +73,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 31.8,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -88,7 +88,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 22.0,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -123,7 +123,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 17.5,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -162,7 +162,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 15.5,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -201,7 +201,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 15.2,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -220,7 +220,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 14.5,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -276,9 +276,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 64.5,
-    "pct_of_total": 20.3,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 65.5,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.17,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
@@ -289,7 +289,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 19.5
+        "hours": 20.0
       },
       {
         "label": "Other",
@@ -301,7 +301,7 @@
       },
       {
         "label": "Organization",
-        "hours": 0.5
+        "hours": 1.0
       },
       {
         "label": "Errands",
@@ -334,9 +334,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 248.0,
-    "non_billable_hours": 70.2,
-    "pto_hours": 0.0,
-    "total_hours": 318.2
+    "billable_hours": 250.5,
+    "non_billable_hours": 71.2,
+    "pto_hours": 8.0,
+    "total_hours": 321.8
   }
 }
