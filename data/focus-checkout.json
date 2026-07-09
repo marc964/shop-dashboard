@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T11:45:56.853870Z",
+  "updated_at": "2026-07-09T13:43:58.525325Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1179,9 +1179,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7fdjp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-09 13:22",
+                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "7579ed8698a8b6c3e3eaac144b9337ce4ac8e46cbea09f0baef79f51e568bd8d"
+              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
             }
           ]
         },
