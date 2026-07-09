@@ -3,7 +3,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 45.2,
-      "pct_of_total": 13.1,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +38,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 36.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -73,7 +73,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.0,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -88,7 +88,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 22.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Brakes",
@@ -123,7 +123,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.8,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -162,7 +162,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 15.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -201,7 +201,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 15.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -220,7 +220,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 14.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Brakes",
@@ -241,9 +241,56 @@
       ]
     },
     {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 13.0,
+      "pct_of_total": 3.7,
+      "tasks": [
+        {
+          "task": "Inspection",
+          "hours": 5.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 2.0
+        },
+        {
+          "task": "Steering",
+          "hours": 1.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.2
+        },
+        {
+          "task": "Interior",
+          "hours": 0.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 0.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 0.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 0.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.2
+        }
+      ]
+    },
+    {
       "project": "Chuter 62 Healey",
       "total_hours": 12.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -258,38 +305,23 @@
           "hours": 2.5
         }
       ]
-    },
-    {
-      "project": "Ivanhoe 65 Alfa",
-      "total_hours": 8.2,
-      "pct_of_total": 2.4,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 5.8
-        },
-        {
-          "task": "Inspection",
-          "hours": 2.5
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 69.5,
-    "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.24,
+    "total_hours": 72.0,
+    "pct_of_total": 20.2,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 7,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 22.5
+        "hours": 23.0
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 21.2
+        "hours": 22.5
       },
       {
         "label": "Other",
@@ -297,7 +329,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 9.5
+        "hours": 10.2
       },
       {
         "label": "Organization",
@@ -345,9 +377,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 268.8,
-    "non_billable_hours": 77.5,
+    "billable_hours": 275.8,
+    "non_billable_hours": 80.0,
     "pto_hours": 8.0,
-    "total_hours": 346.2
+    "total_hours": 355.8
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T19:55:10.440733Z",
+  "updated_at": "2026-07-09T20:38:23.686970Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -364,10 +364,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-07-01 17:02",
                   "text": "Approval received. Seal incoming. Will schedule with Lupe when seal arrives."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:26",
+                  "text": "Seal received. Coordinating with Lupe on when he can come."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a4474e4ab726ca7b2880aa3e1a80a51fef562b9d6af67263bd601794f4fb03c5"
+              "content_hash": "82f7f39153069ea848a344763d41b00310f78299965321bafdba6aeec3b633fc"
             },
             {
               "id": "868jxmw03",
@@ -390,10 +395,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-07-01 17:03",
                   "text": "Approval received. Exterior parts incoming. Once all the exterior parts are installed, and Lupe is done with the rear windshield seal, we'll schedule the front windshield re-seal with Taurus."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:26",
+                  "text": "Will send out bumpers next week, 7/13"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5a2fbf03b81a58e0f2b3d6eb5b87973abf4a34a14e97b45f2b7a5eca4ec98a51"
+              "content_hash": "63c8560fb0ddaa025a9c09bc54813b9ddec56b3580ffa3976fcb8763b0adccee"
             },
             {
               "id": "868jxmvpn",
@@ -576,7 +586,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 6
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -820,27 +830,6 @@
               ],
               "checklist_items": [],
               "content_hash": "c0706ed805380ba135000d83f62c25f2714e4f57822b819f40552e85eff98fdd"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868k26f8t",
-              "name": "Set up alignment appoinment",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868k26f8t",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-19 20:13",
-                  "text": "Alignment scheduled for July 1st @11am"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f4fd82d31fedeb11c3b5c15be9c4cff2af7f235e386f0278f0f6a7182fa55381"
             }
           ]
         }
@@ -1158,10 +1147,15 @@
                   "author": "Ryan Laurel",
                   "date": "2026-06-17 15:29",
                   "text": "Jordan finalizing suspension work, will schedule as soon as he gives the thumbs up."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:28",
+                  "text": "Alignment scheduled for Wed 7/22 @2pm, Dropping off the afternoon on the 20th."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d2b1b71a6fde7bddba2b40bcb3852b75fb8099b3906e6d6124bd0f21ca46c470"
+              "content_hash": "1c3b1ea3d51bf59a46d4eda5b436c057f4be5ed7141143b3ee61377706ffea07"
             }
           ]
         }
