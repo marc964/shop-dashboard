@@ -1,0 +1,55 @@
+name: Auto-rerun startup-cancelled runs
+
+# GitHub's hosted-runner pool occasionally fails to acquire a runner and
+# cancels the job before any step runs ("The job was not acquired by Runner
+# of type hosted" / internal server error). That is a transient GitHub infra
+# failure, not a workflow problem. When it happens, re-run the failed run once
+# so the dashboards self-heal in ~1 min instead of waiting for the next
+# scheduled run. Genuine failures (steps actually ran) are left untouched.
+
+on:
+  workflow_run:
+    workflows: ["Update & Deploy Dashboard"]
+    types: [completed]
+
+permissions:
+  actions: write  # required to re-run jobs
+
+jobs:
+  rerun:
+    if: github.event.workflow_run.conclusion != 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Re-run only if the job was cancelled before any step ran
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          set -euo pipefail
+          echo "Triggering run $RUN_ID: conclusion=$CONCLUSION attempt=$RUN_ATTEMPT"
+
+          # Only ever retry once, so a persistent runner outage can't loop.
+          if [ "$RUN_ATTEMPT" -ge 2 ]; then
+            echo "Already retried (attempt $RUN_ATTEMPT); leaving as-is."
+            exit 0
+          fi
+
+          # Startup cancellation = a cancelled job whose steps never executed
+          # (no step reached a success/failure conclusion). A genuine failure
+          # has steps that ran, and is deliberately NOT retried here.
+          startup_cancel=$(gh api "repos/$REPO/actions/runs/$RUN_ID/jobs" \
+            | jq '[.jobs[]
+                | select(.conclusion=="cancelled")
+                | select([.steps[]? | select(.conclusion=="success" or .conclusion=="failure")] | length == 0)]
+                | length')
+          echo "Startup-cancelled jobs detected: $startup_cancel"
+
+          if [ "$startup_cancel" -ge 1 ]; then
+            echo "Runner-acquisition cancellation; re-running failed jobs."
+            gh api -X POST "repos/$REPO/actions/runs/$RUN_ID/rerun-failed-jobs"
+          else
+            echo "Steps ran (genuine failure) or nothing to retry; not re-running."
+          fi
