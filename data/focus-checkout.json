@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T16:54:56.718987Z",
+  "updated_at": "2026-07-09T17:41:21.429913Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -907,7 +907,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -1001,27 +1001,6 @@
               "content_hash": "55d0a92a05da5bd322b27f655cc72a708b5eabf61a52e4a97dcb449afafefcbe"
             },
             {
-              "id": "868hgu3ee",
-              "name": "Aid in headlight repair",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868hgu3ee",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-01 17:02",
-                  "text": "With @Aharon Adams, inspected headlight assortment.\nAttempted install with seal - not possible without modification.\nInstalled OK with two people, shaved spacer, slotted mount and no seal, and replaced hardware on parking light assembly for more clearance (grounding out on headlight bucket).\nModified other side to match.\nHeadlight on passenger side non-functional after work performed. DIagnosed incorrect wiring on LH headlight bucket. Removed and repaired wiring. Headlights work now.\nAfter work performed, parking lights non -functional . Inspected and tested wiring, power and ground. Diagnosed new hardware shorting across the gap. Modified old hardware for appropriate clearance.\nReinstalled everything and tested. Looks OK.\nNo seals were installed when vehicle arrived. Ordered new silicone sealant applicator for fine black silicone application if desired."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-02 01:22",
-                  "text": "Sealed passenger side headlight with body-color sealant."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3ea43fbe303cdcca156c33aa0abacbd7181bd5b54e5525bcc2b87f90844a1a7b"
-            },
-            {
               "id": "868k7em0v",
               "name": "Install roof rack",
               "status": "Open",
@@ -1030,47 +1009,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
-            },
-            {
-              "id": "868e45rzk",
-              "name": "Replace kick panels",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868e45rzk",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-07-01 16:16",
-                  "text": "Jbugs order made several weeks ago. Waiting for shipment info, @Ryan Laurel is on top of it."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-07-16 16:21",
-                  "text": "Received and test-fit panels.\nDriver's side fit great.\nPassenger side will need modification. Final modification will depend on final speaker placement"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-08-05 21:44",
-                  "text": "Measured and modified passenger side panel.\nMarked holes for install.\nWill wait to install for two things:\nHVAC removed for access\nWater testing.\n\n\nHold for now until those two things happen."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-05 01:07",
-                  "text": "Worked on tidying up wiring, hoses in preparation for kick panel install. HVAC case and speakers needed to be loosened and adjusted."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-12-19 16:46",
-                  "text": "Waiting for startup to button-up (will be time consuming/difficult to install).\n\nAlso will need to come out for bodyshop visit"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-06 23:16",
-                  "text": "Attempted kickpanel installation.\nMore modifications required to clear final HVAC lines / neutral button.\nModified kickpanels.\nDrilled new holes and installed with new hardware."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4620be614e55cd7125da2645dd6983e9aad04a981ac516b69d437c82178e13e4"
             }
           ]
         },

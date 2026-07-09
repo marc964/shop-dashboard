@@ -72,12 +72,12 @@
     },
     {
       "project": "Connolly 58 220S",
-      "total_hours": 31.8,
+      "total_hours": 32.0,
       "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 23.5
+          "hours": 23.8
         },
         {
           "task": "Brakes",
@@ -345,9 +345,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 253.5,
+    "billable_hours": 253.8,
     "non_billable_hours": 75.2,
     "pto_hours": 8.0,
-    "total_hours": 328.8
+    "total_hours": 329.0
   }
 }
