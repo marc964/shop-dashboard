@@ -3,7 +3,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 45.2,
-      "pct_of_total": 12.0,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -38,7 +38,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 41.5,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -77,7 +77,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -92,7 +92,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 22.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -127,7 +127,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 20.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -166,7 +166,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.2,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -185,7 +185,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 15.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -224,7 +224,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 14.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -247,7 +247,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 13.0,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Inspection",
@@ -294,7 +294,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 12.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -312,20 +312,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 76.0,
+    "total_hours": 77.5,
     "pct_of_total": 20.2,
-    "avg_per_person_per_day": 1.36,
+    "avg_per_person_per_day": 1.21,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 7,
+    "working_days": 8,
     "breakdown": [
+      {
+        "label": "Shop Meetings",
+        "hours": 25.0
+      },
       {
         "label": "EOD Time Entry/Cleanup",
         "hours": 24.0
-      },
-      {
-        "label": "Shop Meetings",
-        "hours": 23.5
       },
       {
         "label": "Other",
@@ -385,9 +385,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 291.8,
-    "non_billable_hours": 84.8,
+    "billable_hours": 296.8,
+    "non_billable_hours": 86.2,
     "pto_hours": 8.0,
-    "total_hours": 376.5
+    "total_hours": 383.0
   }
 }

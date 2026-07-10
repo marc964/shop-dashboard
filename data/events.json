@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09",
+  "generated_at": "2026-07-10",
   "weeks": [
     {
       "week_start": "2026-07-06",
@@ -30,14 +30,14 @@
         {
           "date": "2026-07-09",
           "day_name": "Thursday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-07-10",
           "day_name": "Friday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -87,12 +87,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Marc - Jury Duty",
+              "summary": "Billy A Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Billy A Out",
+              "summary": "Marc - Jury Duty",
               "type": "pto",
               "all_day": true
             }
@@ -126,12 +126,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Ryan L Out",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
