@@ -38,7 +38,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 41.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -108,7 +108,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 3.5
+          "hours": 3.0
         },
         {
           "task": "Scanning",
@@ -120,7 +120,7 @@
         },
         {
           "task": "Charging",
-          "hours": 1.0
+          "hours": 1.5
         },
         {
           "task": "Steering",
@@ -312,20 +312,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 79.5,
-    "pct_of_total": 20.2,
-    "avg_per_person_per_day": 1.24,
+    "total_hours": 80.5,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.26,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 26.5
+        "hours": 27.0
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 24.5
+        "hours": 25.0
       },
       {
         "label": "Other",
@@ -386,8 +386,8 @@
   ],
   "totals": {
     "billable_hours": 304.8,
-    "non_billable_hours": 88.2,
+    "non_billable_hours": 89.2,
     "pto_hours": 8.0,
-    "total_hours": 393.0
+    "total_hours": 394.0
   }
 }
