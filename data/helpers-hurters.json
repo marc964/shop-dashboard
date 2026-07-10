@@ -77,7 +77,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -312,9 +312,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 77.5,
-    "pct_of_total": 20.2,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 78.0,
+    "pct_of_total": 20.3,
+    "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
@@ -325,7 +325,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 24.0
+        "hours": 24.5
       },
       {
         "label": "Other",
@@ -386,8 +386,8 @@
   ],
   "totals": {
     "billable_hours": 296.8,
-    "non_billable_hours": 86.2,
+    "non_billable_hours": 86.8,
     "pto_hours": 8.0,
-    "total_hours": 383.0
+    "total_hours": 383.5
   }
 }
