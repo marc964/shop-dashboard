@@ -145,8 +145,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 24.8,
-      "pct_of_total": 5.7,
+      "total_hours": 21.8,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Interior",
@@ -165,10 +165,6 @@
           "hours": 3.0
         },
         {
-          "task": "Scanning",
-          "hours": 3.0
-        },
-        {
           "task": "Cooling",
           "hours": 2.0
         },
@@ -179,53 +175,6 @@
         {
           "task": "Steering",
           "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Avalos 72 Blazer",
-      "total_hours": 16.5,
-      "pct_of_total": 3.8,
-      "tasks": [
-        {
-          "task": "Inspection",
-          "hours": 9.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 2.0
-        },
-        {
-          "task": "Steering",
-          "hours": 1.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 1.2
-        },
-        {
-          "task": "Interior",
-          "hours": 0.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 0.5
-        },
-        {
-          "task": "HVAC",
-          "hours": 0.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 0.5
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 0.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.2
         }
       ]
     },
@@ -309,6 +258,21 @@
           "hours": 2.5
         }
       ]
+    },
+    {
+      "project": "Barton 59 Impala",
+      "total_hours": 11.8,
+      "pct_of_total": 2.7,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 10.2
+        },
+        {
+          "task": "Interior",
+          "hours": 1.5
+        }
+      ]
     }
   ],
   "shop_work": {
@@ -347,6 +311,31 @@
   },
   "project_hurters": [
     {
+      "project": "Avalos 72 Blazer",
+      "total_hours": 13.0,
+      "pct_of_total": 3.0,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 13.0
+        }
+      ]
+    },
+    {
+      "project": "Ivanhoe 65 Alfa",
+      "total_hours": 9.8,
+      "pct_of_total": 2.3,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 9.8,
+          "context": [
+            "Vehicle Control"
+          ]
+        }
+      ]
+    },
+    {
       "project": "Buck 70 280SL",
       "total_hours": 5.0,
       "pct_of_total": 1.2,
@@ -354,6 +343,17 @@
         {
           "task": "Manufacturing - Extra",
           "hours": 5.0
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 3.0,
+      "pct_of_total": 0.7,
+      "tasks": [
+        {
+          "task": "Engineering - Extra",
+          "hours": 3.0
         }
       ]
     },
@@ -385,8 +385,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 336.8,
-    "non_billable_hours": 95.2,
+    "billable_hours": 311.0,
+    "non_billable_hours": 121.0,
     "pto_hours": 8.0,
     "total_hours": 432.0
   }
