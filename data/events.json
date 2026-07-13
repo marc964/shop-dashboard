@@ -103,12 +103,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
@@ -139,6 +139,11 @@
           "is_today": false,
           "is_weekend": false,
           "events": [
+            {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            },
             {
               "summary": "John Nolan (Challenger) Visit",
               "type": "shop",
