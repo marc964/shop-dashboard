@@ -98,69 +98,6 @@
       }
     },
     {
-      "owner": "Buck",
-      "year": 1971,
-      "color": "Red",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 92.8,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 94.4
-        },
-        {
-          "label": "PMU",
-          "value": 100
-        },
-        {
-          "label": "Raptor",
-          "value": 98.2
-        },
-        {
-          "label": "Functional",
-          "value": 66.7
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2025-xx-xx: Verify I have the correct status / overrides for battery pump and heater.\n2026-04-22: I now know how to properly check that IO point next time there's access to the vehicle.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.\n2026-04-22: Should verify this is not one of the reasons the gauge cluster has alarm lights.",
-            "done": false
-          },
-          {
-            "text": "2025-xx-xx: Ask why weight calibration in the VCU only goes to 100kg.\n2026-04-22: Resolved in firmware 1.7.9.493.",
-            "done": true
-          },
-          {
-            "text": "2025-xx-xx: Verify logs are uploading with customer's wifi.\n2026-04-22: Resolved, Remote session with Ampere and customer corrected an incorrect password.",
-            "done": true
-          },
-          {
-            "text": "2026-04-22: Customer complains about a lack of off the line power and motor vibrate-y sound.\n2026-04-22: Can look into inverter EEPROM settings for the shudder and develop a firmware branch with a more agressive torque map.",
-            "done": false
-          },
-          {
-            "text": "2026-04-22: Analog gauges are showing a number of warning lights along with DTC codes when the GUI is plugged in.\n2026-04-22: Updated ticket with Ampere asking for Andrew to look into that.",
-            "done": false
-          }
-        ],
-        "total": 6,
-        "done": 2,
-        "open": 4
-      }
-    },
-    {
       "owner": "Shah",
       "year": 1965,
       "color": "Silver",
@@ -237,6 +174,69 @@
         "total": 10,
         "done": 9,
         "open": 1
+      }
+    },
+    {
+      "owner": "Buck",
+      "year": 1971,
+      "color": "Red",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 91.8,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 94.4
+        },
+        {
+          "label": "PMU",
+          "value": 100
+        },
+        {
+          "label": "Raptor",
+          "value": 92.7
+        },
+        {
+          "label": "Functional",
+          "value": 66.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2025-xx-xx: Verify I have the correct status / overrides for battery pump and heater.\n2026-04-22: I now know how to properly check that IO point next time there's access to the vehicle.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask which settings turn off brake faults since it's working but sends an alarm to the gauges.\n2026-04-22: Should verify this is not one of the reasons the gauge cluster has alarm lights.",
+            "done": false
+          },
+          {
+            "text": "2025-xx-xx: Ask why weight calibration in the VCU only goes to 100kg.\n2026-04-22: Resolved in firmware 1.7.9.493.",
+            "done": true
+          },
+          {
+            "text": "2025-xx-xx: Verify logs are uploading with customer's wifi.\n2026-04-22: Resolved, Remote session with Ampere and customer corrected an incorrect password.",
+            "done": true
+          },
+          {
+            "text": "2026-04-22: Customer complains about a lack of off the line power and motor vibrate-y sound.\n2026-04-22: Can look into inverter EEPROM settings for the shudder and develop a firmware branch with a more agressive torque map.",
+            "done": false
+          },
+          {
+            "text": "2026-04-22: Analog gauges are showing a number of warning lights along with DTC codes when the GUI is plugged in.\n2026-04-22: Updated ticket with Ampere asking for Andrew to look into that.",
+            "done": false
+          }
+        ],
+        "total": 6,
+        "done": 2,
+        "open": 4
       }
     },
     {
@@ -1603,6 +1603,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-13T17:17:49.291313+00:00",
+  "updated": "2026-07-13T18:10:23.018120+00:00",
   "source": "Google Sheets API"
 }
