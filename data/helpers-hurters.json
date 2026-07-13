@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 47.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -92,7 +92,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 27.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Suspension",
@@ -146,7 +146,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 21.8,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Interior",
@@ -175,6 +175,29 @@
         {
           "task": "Steering",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 16.2,
+      "pct_of_total": 3.7,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 7.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 6.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.5
         }
       ]
     },
@@ -218,29 +241,6 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 14.5,
-      "pct_of_total": 3.3,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 6.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 5.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Barton 59 Impala",
       "total_hours": 14.2,
       "pct_of_total": 3.2,
@@ -277,7 +277,7 @@
   ],
   "shop_work": {
     "total_hours": 88.2,
-    "pct_of_total": 20.1,
+    "pct_of_total": 20.0,
     "avg_per_person_per_day": 1.23,
     "flagged": true,
     "tech_count": 8,
@@ -385,9 +385,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 315.8,
+    "billable_hours": 317.5,
     "non_billable_hours": 123.0,
     "pto_hours": 8.0,
-    "total_hours": 438.8
+    "total_hours": 440.5
   }
 }
