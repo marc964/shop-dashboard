@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T15:30:59.299693Z",
+  "updated_at": "2026-07-13T16:26:15.128090Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1054,10 +1054,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-10 23:44",
                   "text": "Currently has 1\" reverse rake."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 16:24",
+                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6890c31c30b87245bb77d8b435de1160cace9c7768c3c2ebcd6a48f6f25487b3"
+              "content_hash": "c89189713d483aec6124c7b8906d040391f119196c56ea72ef4900150f75761f"
             },
             {
               "id": "868k7em0v",
