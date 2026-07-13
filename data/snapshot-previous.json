@@ -104,7 +104,7 @@
       "make": "Mercedes",
       "model": "280SL",
       "status": "Shipped",
-      "checkout": 92.8,
+      "checkout": 92.5,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -112,7 +112,7 @@
         },
         {
           "label": "Inverter",
-          "value": 94.4
+          "value": 98.1
         },
         {
           "label": "PMU",
@@ -120,7 +120,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.2
+          "value": 92.7
         },
         {
           "label": "Functional",
@@ -1603,6 +1603,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-10T23:22:09.251646+00:00",
+  "updated": "2026-07-13T23:21:13.311176+00:00",
   "source": "Google Sheets API"
 }
