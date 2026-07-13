@@ -47,12 +47,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
@@ -103,12 +103,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
@@ -138,7 +138,13 @@
           "day_name": "Thursday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "John Nolan (Challenger) Visit",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-07-24",
