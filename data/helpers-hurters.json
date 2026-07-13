@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 47.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -42,7 +42,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 45.2,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -77,7 +77,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.0,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -90,9 +90,44 @@
       ]
     },
     {
+      "project": "Jaffe 86 190E",
+      "total_hours": 31.0,
+      "pct_of_total": 6.6,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 14.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 5.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 4.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 4.0
+        },
+        {
+          "task": "Interior",
+          "hours": 1.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.8
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 27.0,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -109,44 +144,9 @@
       ]
     },
     {
-      "project": "Jaffe 86 190E",
-      "total_hours": 25.0,
-      "pct_of_total": 5.4,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 12.5
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 5.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.5
-        },
-        {
-          "task": "Interior",
-          "hours": 1.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.8
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 0.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 24.8,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Interior",
@@ -181,7 +181,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Suspension",
@@ -227,7 +227,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 15.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -264,25 +264,33 @@
       ]
     },
     {
-      "project": "Barton 59 Impala",
-      "total_hours": 14.2,
+      "project": "Warke 61 Eldorado",
+      "total_hours": 14.5,
       "pct_of_total": 3.1,
       "tasks": [
         {
-          "task": "Exterior",
-          "hours": 11.8
+          "task": "Manufacturing - Product",
+          "hours": 8.5
         },
         {
-          "task": "Interior",
-          "hours": 2.5
+          "task": "Audio",
+          "hours": 4.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 91.2,
-    "pct_of_total": 19.9,
-    "avg_per_person_per_day": 1.27,
+    "total_hours": 92.8,
+    "pct_of_total": 19.7,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
@@ -293,7 +301,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 29.8
+        "hours": 30.8
       },
       {
         "label": "Other",
@@ -301,7 +309,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 10.8
+        "hours": 11.2
       },
       {
         "label": "Organization",
@@ -353,7 +361,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 3.0,
-      "pct_of_total": 0.7,
+      "pct_of_total": 0.6,
       "tasks": [
         {
           "task": "Engineering - Extra",
@@ -389,9 +397,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 333.0,
-    "non_billable_hours": 126.0,
+    "billable_hours": 343.5,
+    "non_billable_hours": 127.5,
     "pto_hours": 8.0,
-    "total_hours": 459.0
+    "total_hours": 471.0
   }
 }
