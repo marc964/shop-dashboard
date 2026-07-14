@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T21:50:15.353748Z",
+  "updated_at": "2026-07-14T22:24:12.679897Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1023,10 +1023,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-03 02:01",
                   "text": "Updated CAD and placed CAD in purchases.\nContinued removal of damper and old shock mount. Both sides removed with grinding/spot weld drilling/and metal fatiguing.\nNeed to clean and paint."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-14 21:52",
+                  "text": "Received brackets.\nMeasured, drilled and installed brackets.\nInstalled shocks - 1.5 turns CW (middle setting).\nSet ride height to 280mm in the rear."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5f8a34ef6d72401261fa0683af79cd85abc3bef9d5430fd663a86041e45b8f0b"
+              "content_hash": "12e765521e3da13df9cd8f20096dd95dc6ec87266beae782eb81b1aa11e17fbc"
             },
             {
               "id": "868k7faah",
