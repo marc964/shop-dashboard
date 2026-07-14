@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T18:10:00.668070Z",
+  "updated_at": "2026-07-14T18:40:54.581150Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -956,7 +956,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -1174,6 +1174,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868kcb9y1",
+              "name": "Assess CV axles",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kcb9y1",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "81ab74e67aa8887c240e97b55ac606bf115810c3b531736daa6ebe4b29833e53"
             }
           ]
         },
