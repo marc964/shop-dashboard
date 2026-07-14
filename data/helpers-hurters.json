@@ -176,9 +176,13 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 24.8,
-      "pct_of_total": 5.0,
+      "total_hours": 25.8,
+      "pct_of_total": 5.2,
       "tasks": [
+        {
+          "task": "Charging",
+          "hours": 5.5
+        },
         {
           "task": "Interior",
           "hours": 5.2
@@ -186,10 +190,6 @@
         {
           "task": "Vehicle Control",
           "hours": 5.0
-        },
-        {
-          "task": "Charging",
-          "hours": 4.5
         },
         {
           "task": "HVAC",
@@ -409,9 +409,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 366.8,
+    "billable_hours": 367.8,
     "non_billable_hours": 131.0,
     "pto_hours": 8.0,
-    "total_hours": 497.8
+    "total_hours": 498.8
   }
 }
