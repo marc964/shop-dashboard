@@ -7,7 +7,7 @@
       "tasks": [
         {
           "task": "Wiring - High Voltage",
-          "hours": 11.5
+          "hours": 12.5
         },
         {
           "task": "Manufacturing - Product",
@@ -15,7 +15,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 8.8
+          "hours": 8.2
         },
         {
           "task": "Cooling",
@@ -31,15 +31,11 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 2.8
+          "hours": 3.2
         },
         {
           "task": "Motor & Transmission",
           "hours": 2.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 1.0
         }
       ]
     },
