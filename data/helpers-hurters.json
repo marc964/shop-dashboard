@@ -99,8 +99,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 31.0,
-      "pct_of_total": 6.2,
+      "total_hours": 31.5,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -108,7 +108,7 @@
         },
         {
           "task": "Interior",
-          "hours": 5.5
+          "hours": 6.0
         },
         {
           "task": "Steering",
@@ -409,9 +409,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 367.8,
+    "billable_hours": 368.2,
     "non_billable_hours": 131.0,
     "pto_hours": 8.0,
-    "total_hours": 498.8
+    "total_hours": 499.2
   }
 }
