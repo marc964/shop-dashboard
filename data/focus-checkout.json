@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T21:36:15.591848Z",
+  "updated_at": "2026-07-15T22:09:45.946570Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1237,9 +1237,20 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kcb9y1",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:45",
+                  "text": "pulled the axles\ni had them out of phase\nreassembled them correctly\ninstalled them back in\nspun up the bus\nhad some clicking in the dr side\nfound the shaft was hitting the mounting flange inside the CV\nshimmed the CV and recentered them\nthis took care of all the clicking noise\nwaited till later to test drive\nMarc drove it\nhe heard a grinding noise\nthis was the shock hitting the CV while tuning\nthis was due to the new shock pacement\nAharon is looking into this issue while Jordan is out"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:46",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/bd7c49c5-8022-4d73-aa41-f343c1658a89/IMG_1646.mov?view=openIMG_1645.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "81ab74e67aa8887c240e97b55ac606bf115810c3b531736daa6ebe4b29833e53"
+              "content_hash": "37e5a05def04cb1ac5ff3fce65e5d886ddd1d7c5e10c2ad4aff3f664682375e5"
             }
           ]
         },
