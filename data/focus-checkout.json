@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T23:08:47.598175Z",
+  "updated_at": "2026-07-15T23:37:10.756443Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1069,10 +1069,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-13 16:24",
                   "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-15 23:23",
+                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c89189713d483aec6124c7b8906d040391f119196c56ea72ef4900150f75761f"
+              "content_hash": "e29ce88cd8ab07386b45e20277a0ed816ca12a55cec7427fb2b576bf0abe3b10"
             },
             {
               "id": "868k7em0v",
@@ -1221,10 +1226,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-13 16:24",
                   "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-15 23:23",
+                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c89189713d483aec6124c7b8906d040391f119196c56ea72ef4900150f75761f"
+              "content_hash": "e29ce88cd8ab07386b45e20277a0ed816ca12a55cec7427fb2b576bf0abe3b10"
             }
           ]
         },
