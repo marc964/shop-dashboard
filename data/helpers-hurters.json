@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 68.0,
-      "pct_of_total": 10.4,
+      "total_hours": 68.5,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -18,12 +18,12 @@
           "hours": 6.5
         },
         {
-          "task": "Interior",
+          "task": "Brakes",
           "hours": 6.0
         },
         {
-          "task": "Brakes",
-          "hours": 5.5
+          "task": "Interior",
+          "hours": 6.0
         },
         {
           "task": "HVAC",
@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 47.5,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -271,7 +271,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 23.2,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -313,7 +313,7 @@
   ],
   "shop_work": {
     "total_hours": 123.5,
-    "pct_of_total": 18.9,
+    "pct_of_total": 18.8,
     "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
@@ -454,9 +454,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 479.0,
+    "billable_hours": 479.5,
     "non_billable_hours": 175.8,
     "pto_hours": 36.8,
-    "total_hours": 654.8
+    "total_hours": 655.2
   }
 }
