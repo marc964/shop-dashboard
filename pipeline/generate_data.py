@@ -21,7 +21,6 @@ from compute_helpers_hurters import compute_helpers_hurters
 from fetch_calendar import fetch_events
 from fetch_checkout import fetch_checkout_data
 from fetch_focus_clickup import fetch_focus_data
-from summarize_focus_tasks import apply_summaries
 
 # Configuration
 CONFIG = {
@@ -129,8 +128,6 @@ def main():
         focus_owners = json.loads(focus_config_path.read_text()).get("focus", [])
         if focus_owners:
             focus_data = fetch_focus_data(checkout_data, focus_owners)
-            print("  Generating task summaries...")
-            focus_data = apply_summaries(focus_data, cache_path=DATA_DIR / "focus-summary-cache.json")
         else:
             print("  focus-projects.json has no 'focus' owners listed; skipping")
     elif not checkout_data:

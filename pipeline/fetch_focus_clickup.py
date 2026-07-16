@@ -59,6 +59,26 @@ def _list_matches_owner(list_name, owner):
     return bool(re.match(rf"^{re.escape(owner)}\b", list_name, re.IGNORECASE))
 
 
+def _normalize_focus(focus_owners):
+    """Normalize focus-projects entries into {owner, match} dicts.
+
+    An entry may be a plain owner string ("Preheim") or an object that pins the
+    ClickUp list prefix to use when an owner has more than one car:
+      {"owner": "Avalos", "list": "Avalos 72 Blazer"}
+    `owner` drives the vehicle lookup + display; `match` drives list matching.
+    """
+    norm = []
+    for entry in focus_owners:
+        if isinstance(entry, dict):
+            owner = entry.get("owner")
+            if not owner:
+                continue
+            norm.append({"owner": owner, "match": entry.get("list") or owner})
+        elif entry:
+            norm.append({"owner": entry, "match": entry})
+    return norm
+
+
 def _ms_to_iso(ms_str):
     try:
         return datetime.utcfromtimestamp(int(ms_str) / 1000).strftime("%Y-%m-%d %H:%M")
@@ -141,9 +161,10 @@ def _enrich_task(token, task):
     return task
 
 
-def _placeholder_projects(focus_owners, vehicles_by_owner, error):
+def _placeholder_projects(focus_entries, vehicles_by_owner, error):
     projects = []
-    for owner in focus_owners:
+    for entry in focus_entries:
+        owner = entry["owner"]
         projects.append({
             "owner": owner,
             "vehicle": vehicles_by_owner.get(owner.lower()),
@@ -155,6 +176,7 @@ def _placeholder_projects(focus_owners, vehicles_by_owner, error):
 
 def fetch_focus_data(checkout_data, focus_owners):
     print(f"  Focus owners requested: {focus_owners}")
+    focus_entries = _normalize_focus(focus_owners)
 
     vehicles_by_owner = {
         (v.get("owner") or "").lower(): v
@@ -170,7 +192,7 @@ def fetch_focus_data(checkout_data, focus_owners):
         return {
             "updated_at": datetime.utcnow().isoformat() + "Z",
             "team_id": team_id,
-            "projects": _placeholder_projects(focus_owners, vehicles_by_owner, "no_token"),
+            "projects": _placeholder_projects(focus_entries, vehicles_by_owner, "no_token"),
         }
 
     try:
@@ -181,11 +203,13 @@ def fetch_focus_data(checkout_data, focus_owners):
         return {
             "updated_at": datetime.utcnow().isoformat() + "Z",
             "team_id": team_id,
-            "projects": _placeholder_projects(focus_owners, vehicles_by_owner, f"fetch_failed: {e}"),
+            "projects": _placeholder_projects(focus_entries, vehicles_by_owner, f"fetch_failed: {e}"),
         }
 
     projects = []
-    for owner in focus_owners:
+    for entry in focus_entries:
+        owner = entry["owner"]
+        match_prefix = entry["match"]
         vehicle = vehicles_by_owner.get(owner.lower())
         if not vehicle:
             print(f"  '{owner}': not found in checkout data")
@@ -199,7 +223,7 @@ def fetch_focus_data(checkout_data, focus_owners):
 
         matching = [
             m for m in all_mgs
-            if _list_matches_owner((m.get("list") or {}).get("name"), owner)
+            if _list_matches_owner((m.get("list") or {}).get("name"), match_prefix)
         ]
         matched_lists = sorted({
             (m.get("list") or {}).get("name")

@@ -1,8 +1,12 @@
 {
   "focus": [
-    "Berke",
-    "Barton",
+    "Ivanhoe",
     "Preheim",
-    "Ferdman"
+    { "owner": "Avalos", "list": "Avalos 72 Blazer" },
+    "Miner",
+    "Connolly",
+    "Ferdman",
+    "Chuter",
+    "Kelly"
   ]
 }

@@ -3,270 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moment Motor Co. — Focus Checkout</title>
+    <title>Moment Motor Co. — Priority Builds</title>
     <meta http-equiv="refresh" content="300">
     <link rel="stylesheet" href="shared/dashboard.css">
     <style>
-        body {
-            overflow: hidden;
-            height: 100vh;
-            width: 100vw;
-        }
-
-        .focus-stage {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            padding: 24px 32px;
+        .build-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 18px;
+            flex: 1;
+            overflow: hidden;
+            padding-bottom: 8px;
+            align-items: start;
+            align-content: start;
         }
 
-        .focus-header {
+        /* Page indicator */
+        .page-dots {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            flex-shrink: 0;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 6px;
+            margin-top: 8px;
         }
-        .focus-header .owner-block .owner-name {
-            font-size: 44px;
-            font-weight: 800;
-            color: #1a1a2e;
-            letter-spacing: -0.5px;
-            line-height: 1;
-        }
-        .focus-header .owner-block .vehicle-label {
-            font-size: 22px;
-            color: #8a8aa0;
-            margin-top: 6px;
-        }
-        .focus-header .status-block {
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 8px;
-        }
-        .focus-header .focus-title {
-            font-size: 13px;
-            font-weight: 700;
-            color: #8a8aa0;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-        }
-        .focus-header .pagination {
-            font-size: 14px;
-            color: #8a8aa0;
-            font-weight: 600;
-        }
-        .focus-header .pagination .dot {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
+        .page-dots .dot {
+            width: 9px;
+            height: 9px;
             border-radius: 50%;
             background: #d0d0d8;
-            margin: 0 3px;
-            vertical-align: middle;
+            transition: background 0.3s;
         }
-        .focus-header .pagination .dot.active {
-            background: #1a1a2e;
-        }
-
-        .columns {
-            display: flex;
-            gap: 16px;
-            flex: 1;
-            min-height: 0;
-            justify-content: flex-start;
+        .page-dots .dot.active { background: #1a1a2e; }
+        .page-dots .page-label {
+            font-size: 13px;
+            color: #8a8aa0;
+            font-weight: 600;
+            margin-left: 6px;
         }
 
-        .col {
+        .build-card {
             background: white;
             border-radius: 14px;
+            padding: 22px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-            padding: 20px;
             display: flex;
             flex-direction: column;
-            gap: 14px;
-            min-height: 0;
+            gap: 16px;
             min-width: 0;
         }
 
-        .col-label {
-            font-size: 12px;
-            font-weight: 700;
-            color: #8a8aa0;
-            text-transform: uppercase;
-            letter-spacing: 1.8px;
-        }
-
-        /* --- Devin column --- */
-        .col-devin {
-            flex: 0 0 440px;
-        }
-        .devin-pct {
-            font-size: 60px;
-            font-weight: 800;
-            line-height: 1;
-        }
-        .devin-pct .pct-symbol {
-            font-size: 28px;
-            font-weight: 600;
-        }
-        .devin-status-row {
+        .card-header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             gap: 12px;
         }
+        .card-header .vehicle-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        .card-header .system-label {
+            font-size: 12px;
+            color: #8a8aa0;
+            margin-left: 6px;
+            font-weight: 600;
+        }
+        .card-header .vehicle-detail {
+            font-size: 15px;
+            color: #8a8aa0;
+            margin-top: 2px;
+        }
+        .card-header .pct-big {
+            font-size: 44px;
+            font-weight: 800;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .card-header .pct-big .pct-symbol {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
         .status-badge {
             display: inline-block;
-            padding: 5px 14px;
+            padding: 4px 12px;
             border-radius: 12px;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.4px;
+            letter-spacing: 0.3px;
+            margin-top: 6px;
         }
         .status-testing { background: #e8f4fd; color: #2b7bb9; }
         .status-acceptance { background: #e6f9ee; color: #1a8a4a; }
         .status-fabrication { background: #fff3e0; color: #f5a623; }
         .status-other { background: #f0f0f5; color: #6b6b80; }
-        .system-label {
-            font-size: 13px;
-            color: #8a8aa0;
-            font-weight: 600;
-        }
-        .sub-metrics {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 6px 18px;
-            padding-top: 4px;
-        }
-        .sub-metric {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 15px;
-        }
-        .sub-metric .label {
-            color: #8a8aa0;
-        }
-        .sub-metric .value {
-            font-weight: 700;
-            color: #1a1a2e;
-        }
 
-        .devin-punchlist {
-            flex: 1;
-            min-height: 0;
+        /* --- Assignee groups --- */
+        .assignee-groups {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .assignee-group {
             display: flex;
             flex-direction: column;
             gap: 6px;
         }
-        .devin-punchlist-header {
-            font-size: 12px;
-            font-weight: 700;
-            color: #8a8aa0;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .devin-punchlist-scroll {
-            flex: 1;
-            overflow: hidden;
-            position: relative;
-            min-height: 0;
-        }
-        .devin-punchlist-items {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-        .devin-punchlist-scroll.scrolling .devin-punchlist-items {
-            animation: punchscroll var(--scroll-duration, 14s) linear infinite alternate;
-        }
-        @keyframes punchscroll {
-            0%   { transform: translateY(0); }
-            12%  { transform: translateY(0); }
-            88%  { transform: translateY(var(--scroll-distance, 0px)); }
-            100% { transform: translateY(var(--scroll-distance, 0px)); }
-        }
-        .pl-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 8px;
-            padding: 5px 0;
-            font-size: 14px;
-            line-height: 1.35;
-            border-bottom: 1px solid #f5f6f8;
-        }
-        .pl-item .pl-bullet {
-            flex-shrink: 0;
-            width: 14px;
-            height: 14px;
-            border-radius: 4px;
-            border: 2px solid #e6a200;
-            margin-top: 2px;
-        }
-        .pl-item .pl-text {
-            color: #1a1a2e;
-            white-space: pre-line;
-        }
-
-        /* --- Assignee columns --- */
-        .col-assignee {
-            flex: 1 1 0;
-            min-width: 340px;
-            max-width: 460px;
-        }
-        .assignee-header {
+        .assignee-head {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
+            border-bottom: 1px solid #eef0f4;
+            padding-bottom: 4px;
         }
         .assignee-name {
-            font-size: 26px;
+            font-size: 17px;
             font-weight: 700;
             color: #1a1a2e;
-            letter-spacing: -0.3px;
+            letter-spacing: -0.2px;
         }
         .assignee-count {
-            font-size: 14px;
+            font-size: 12px;
             color: #8a8aa0;
             font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
         }
         .task-list {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            flex: 1;
-            min-height: 0;
-            overflow-y: auto;
+            gap: 6px;
         }
-        .task-item {
-            padding: 16px 18px;
+        .task-row {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 10px 12px;
             background: #f8f9fb;
             border-radius: 10px;
             border-left: 4px solid #2b7bb9;
+        }
+        .task-row .task-top {
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
             gap: 10px;
         }
-        .task-item .task-name {
-            font-size: 20px;
-            font-weight: 700;
+        .task-row .task-name {
+            font-size: 16px;
+            font-weight: 600;
             color: #1a1a2e;
-            line-height: 1.25;
-        }
-        .task-item .task-summary {
-            font-size: 18px;
-            line-height: 1.35;
-            color: #3a3a52;
-            font-weight: 500;
-        }
-        .task-item .task-summary-empty {
-            font-size: 15px;
-            color: #aab;
-            font-style: italic;
+            line-height: 1.3;
         }
         .task-status {
             display: inline-block;
@@ -278,78 +167,69 @@
             letter-spacing: 0.4px;
             background: #e8f4fd;
             color: #2b7bb9;
-            align-self: flex-start;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
         .task-status.task-status-progress { background: #fff3e0; color: #f5a623; }
         .task-status.task-status-blocked { background: #fde8e8; color: #d94040; }
         .task-status.task-status-done { background: #e6f9ee; color: #1a8a4a; }
 
-        /* Empty / error state */
-        .col-empty {
-            flex: 1 1 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+        .more-row {
+            font-size: 14px;
+            font-weight: 600;
             color: #8a8aa0;
-            font-size: 16px;
-            padding: 32px;
+            padding: 4px 2px 0;
         }
 
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-shrink: 0;
-            font-size: 13px;
+        .card-empty {
+            font-size: 15px;
             color: #8a8aa0;
-        }
-        .footer .company {
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #1a1a2e;
+            font-style: italic;
+            padding: 8px 0;
         }
 
-        .error-msg {
-            text-align: center;
-            padding: 80px 40px;
-            font-size: 22px;
-            color: #8a8aa0;
-        }
-
-        @media (min-width: 2200px) {
-            .col-devin { flex: 0 0 520px; }
-            .assignee-name { font-size: 30px; }
-            .task-item .task-name { font-size: 22px; }
-            .task-item .task-summary { font-size: 20px; }
-        }
     </style>
 </head>
 <body>
-<div id="stage">
-    <div class="loading-msg">Loading focus data...</div>
+<div class="dashboard">
+    <div class="header">
+        <div>
+            <h1>Priority Builds</h1>
+            <div class="subtitle">Focus vehicles &mdash; open ClickUp tasks by assignee</div>
+        </div>
+        <div>
+            <div class="updated" id="updatedTime"></div>
+            <div class="page-dots" id="pageDots"></div>
+        </div>
+    </div>
+
+    <div class="summary-strip" id="summaryStrip"></div>
+
+    <div class="build-grid" id="buildGrid">
+        <div class="loading-msg">Loading priority build data...</div>
+    </div>
 </div>
 
 <script src="shared/dashboard.js"></script>
 <script>
 const DATA_URL = 'data/focus-checkout.json';
-const TOTAL_CYCLE_MS = 60000;  // full rotation always takes 60s, regardless of car count
+const PAGE_SIZE = 4;              // cards per screen (tuned for 1080p)
+const PAGE_ROTATE_MS = 25000;    // dwell time per page
+const MAX_VISIBLE_TASKS = 10;    // per card; overflow collapses to "+N more"
 
 let PROJECTS = [];
-let currentIndex = 0;
+let currentPage = 0;
 let rotateTimer = null;
-let pinnedOwner = null;
-
-function getOwnerParam() {
-    var params = new URLSearchParams(window.location.search);
-    return (params.get('owner') || '').trim();
-}
 
 function escapeHtml(text) {
     var div = document.createElement('div');
     div.textContent = text == null ? '' : String(text);
     return div.innerHTML;
+}
+
+function getOwnerParam() {
+    var params = new URLSearchParams(window.location.search);
+    return (params.get('owner') || '').trim();
 }
 
 function getStatusClass(status) {
@@ -379,187 +259,182 @@ function getVehicleLabel(v) {
     return parts.join(' ');
 }
 
-function renderDevinColumn(v) {
-    if (!v) {
-        return '<div class="col col-devin">' +
-            '<div class="col-empty">No checkout data for this owner.</div>' +
-            '</div>';
-    }
-    var cls = getPctClass(v.checkout);
-    var statusCls = getStatusClass(v.status);
-    var openItems = (v.punchlist && v.punchlist.items)
-        ? v.punchlist.items.filter(function(it) {
-            var t = (it.text || '').trim();
-            return !it.done && t && t !== '-';
-        })
-        : [];
-
-    var subMetricsHtml = '';
-    if (v.sub_metrics && v.sub_metrics.length > 0) {
-        subMetricsHtml = '<div class="sub-metrics">' +
-            v.sub_metrics.map(function(m) {
-                return '<div class="sub-metric">' +
-                    '<span class="label">' + escapeHtml(m.label) + '</span>' +
-                    '<span class="value pct-' + getPctClass(m.value) + '">' + m.value.toFixed(0) + '%</span>' +
-                    '</div>';
-            }).join('') +
-            '</div>';
-    }
-
-    var punchHtml = '';
-    if (openItems.length > 0) {
-        punchHtml = '<div class="devin-punchlist">' +
-            '<div class="devin-punchlist-header">Open punchlist &mdash; ' + openItems.length + '</div>' +
-            '<div class="devin-punchlist-scroll"><div class="devin-punchlist-items">' +
-                openItems.map(function(item) {
-                    return '<div class="pl-item">' +
-                        '<span class="pl-bullet"></span>' +
-                        '<span class="pl-text">' + escapeHtml(item.text) + '</span>' +
-                        '</div>';
-                }).join('') +
-            '</div></div>' +
-            '</div>';
-    } else if (v.punchlist && v.punchlist.total > 0) {
-        punchHtml = '<div class="devin-punchlist">' +
-            '<div class="devin-punchlist-header">Open punchlist</div>' +
-            '<div class="col-empty" style="padding:20px">All punchlist items complete.</div>' +
-            '</div>';
-    }
-
-    return '<div class="col col-devin">' +
-        '<div class="devin-status-row">' +
-            '<span class="devin-pct pct-' + cls + '">' + v.checkout.toFixed(1) + '<span class="pct-symbol">%</span></span>' +
-            (v.system ? '<span class="system-label">' + escapeHtml(v.system) + '</span>' : '') +
-        '</div>' +
-        (v.status ? '<div><span class="status-badge status-' + statusCls + '">' + escapeHtml(v.status) + '</span></div>' : '') +
-        '<div class="progress-bar-container"><div class="progress-bar-fill fill-' + cls + '" style="width:' + v.checkout + '%"></div></div>' +
-        subMetricsHtml +
-        punchHtml +
-        '</div>';
-}
-
-function renderAssigneeColumn(assignee) {
-    var tasks = assignee.tasks || [];
-    var taskHtml = tasks.map(function(t) {
-        var statusCls = getTaskStatusClass(t.status);
-        var summaryHtml;
-        if (t.summary) {
-            summaryHtml = '<div class="task-summary">' + escapeHtml(t.summary) + '</div>';
-        } else {
-            summaryHtml = '<div class="task-summary-empty">No comments or checklist on this task yet.</div>';
-        }
-        return '<div class="task-item">' +
-            '<div class="task-name">' + escapeHtml(t.name) + '</div>' +
-            summaryHtml +
-            (t.status ? '<span class="task-status ' + statusCls + '">' + escapeHtml(t.status) + '</span>' : '') +
-            '</div>';
-    }).join('');
-
-    return '<div class="col col-assignee">' +
-        '<div class="col-label">Assigned</div>' +
-        '<div class="assignee-header">' +
-            '<span class="assignee-name">' + escapeHtml(assignee.name) + '</span>' +
-            '<span class="assignee-count">' + tasks.length + ' open</span>' +
-        '</div>' +
-        '<div class="task-list">' + taskHtml + '</div>' +
-        '</div>';
-}
-
-function renderEmptyColumn(message) {
-    return '<div class="col col-assignee">' +
-        '<div class="col-label">Assigned</div>' +
-        '<div class="col-empty">' + escapeHtml(message) + '</div>' +
-        '</div>';
+function projectTaskCount(p) {
+    return (p.assignees || []).reduce(function(sum, a) {
+        return sum + (a.tasks ? a.tasks.length : 0);
+    }, 0);
 }
 
 function clickupErrorMessage(err) {
     if (err === 'no_token') return 'ClickUp token missing in pipeline — assignee data unavailable.';
-    if (err === 'no_match') return 'No matching ClickUp list found for this owner.';
-    if (err === 'no_vehicle') return 'Owner not present in checkout data.';
-    if (err && err.indexOf('fetch_failed') === 0) return 'Failed to reach ClickUp. Last pipeline run errored.';
-    return 'No open Monthly Goal tasks for this car.';
+    if (err === 'no_match') return 'No matching ClickUp list found for this build.';
+    if (err === 'no_vehicle') return 'Not present in checkout data.';
+    if (err && err.indexOf('fetch_failed') === 0) return 'Failed to reach ClickUp on last pipeline run.';
+    return 'No open Monthly Goal tasks.';
 }
 
-function renderProject(project, indexInfo) {
-    var v = project.vehicle;
-    var label = getVehicleLabel(v);
-    var assignees = project.assignees || [];
-    var assigneeHtml;
-    if (assignees.length > 0) {
-        assigneeHtml = assignees.map(renderAssigneeColumn).join('');
-    } else {
-        var err = (project.clickup_match && project.clickup_match.error) || null;
-        assigneeHtml = renderEmptyColumn(clickupErrorMessage(err));
-    }
-
-    var paginationHtml = '';
-    if (indexInfo && indexInfo.total > 1) {
-        var dots = '';
-        for (var i = 0; i < indexInfo.total; i++) {
-            dots += '<span class="dot' + (i === indexInfo.current ? ' active' : '') + '"></span>';
-        }
-        paginationHtml = '<div class="pagination">' + dots +
-            ' &nbsp;' + (indexInfo.current + 1) + ' / ' + indexInfo.total + '</div>';
-    }
-
-    return '<div class="focus-stage">' +
-        '<div class="focus-header">' +
-            '<div class="owner-block">' +
-                '<div class="owner-name">' + escapeHtml(project.owner) + '</div>' +
-                (label ? '<div class="vehicle-label">' + escapeHtml(label) + '</div>' : '') +
-            '</div>' +
-            '<div class="status-block">' +
-                '<div class="focus-title">Focus Checkout</div>' +
-                paginationHtml +
-            '</div>' +
-        '</div>' +
-        '<div class="columns">' +
-            renderDevinColumn(v) +
-            assigneeHtml +
-        '</div>' +
-        '<div class="footer">' +
-            '<span class="company">Moment Motor Co.</span>' +
-            '<span id="updatedTime"></span>' +
+function renderTask(t) {
+    var statusCls = getTaskStatusClass(t.status);
+    var statusHtml = t.status
+        ? '<span class="task-status ' + statusCls + '">' + escapeHtml(t.status) + '</span>'
+        : '';
+    return '<div class="task-row">' +
+        '<div class="task-top">' +
+            '<span class="task-name">' + escapeHtml(t.name) + '</span>' +
+            statusHtml +
         '</div>' +
         '</div>';
 }
 
-function initPunchlistScroll() {
-    document.querySelectorAll('.devin-punchlist-scroll').forEach(function(scroll) {
-        var items = scroll.querySelector('.devin-punchlist-items');
-        if (!items) return;
-        var overflow = items.scrollHeight - scroll.clientHeight;
-        if (overflow > 4) {
-            var duration = Math.max(10, overflow / 12);
-            scroll.style.setProperty('--scroll-distance', '-' + overflow + 'px');
-            scroll.style.setProperty('--scroll-duration', duration + 's');
-            scroll.classList.add('scrolling');
-        }
-    });
+function renderAssigneeGroup(a, limit) {
+    var allTasks = a.tasks || [];
+    var shown = (limit == null) ? allTasks : allTasks.slice(0, limit);
+    if (shown.length === 0) return '';
+    return '<div class="assignee-group">' +
+        '<div class="assignee-head">' +
+            '<span class="assignee-name">' + escapeHtml(a.name) + '</span>' +
+            '<span class="assignee-count">' + allTasks.length + ' open</span>' +
+        '</div>' +
+        '<div class="task-list">' + shown.map(renderTask).join('') + '</div>' +
+        '</div>';
 }
 
-function showProjectAt(idx) {
-    if (PROJECTS.length === 0) return;
-    var project = PROJECTS[idx];
-    var indexInfo = pinnedOwner ? null : { current: idx, total: PROJECTS.length };
-    document.getElementById('stage').innerHTML = renderProject(project, indexInfo);
-    updateTimestamp('updatedTime', 'Pipeline');
-    document.title = (project.owner || 'Focus') + ' — Moment Motor Co.';
-    requestAnimationFrame(initPunchlistScroll);
+// Render assignee groups in order, capping total visible tasks at
+// MAX_VISIBLE_TASKS. Any tasks beyond the cap collapse into a "+N more" row.
+function renderAssigneeGroups(assignees) {
+    var budget = MAX_VISIBLE_TASKS;
+    var total = 0, shownTotal = 0;
+    var groupsHtml = '';
+    assignees.forEach(function(a) {
+        var count = (a.tasks || []).length;
+        total += count;
+        var take = Math.max(0, Math.min(count, budget));
+        if (take > 0) {
+            groupsHtml += renderAssigneeGroup(a, take);
+            budget -= take;
+            shownTotal += take;
+        }
+    });
+    var hidden = total - shownTotal;
+    var moreHtml = hidden > 0
+        ? '<div class="more-row">+' + hidden + ' more task' + (hidden === 1 ? '' : 's') + '</div>'
+        : '';
+    return '<div class="assignee-groups">' + groupsHtml + moreHtml + '</div>';
+}
+
+function renderCard(p) {
+    var v = p.vehicle || {};
+    var label = getVehicleLabel(v);
+    var hasPct = typeof v.checkout === 'number';
+    var cls = hasPct ? getPctClass(v.checkout) : 'zero';
+    var statusCls = getStatusClass(v.status);
+    var assignees = p.assignees || [];
+
+    var pctHtml = hasPct
+        ? '<div class="pct-big pct-' + cls + '">' + v.checkout.toFixed(1) +
+          '<span class="pct-symbol">%</span></div>'
+        : '';
+
+    var progressHtml = hasPct
+        ? '<div class="progress-bar-container"><div class="progress-bar-fill fill-' + cls +
+          '" style="width:' + v.checkout + '%"></div></div>'
+        : '';
+
+    var bodyHtml;
+    if (assignees.length > 0) {
+        bodyHtml = renderAssigneeGroups(assignees);
+    } else {
+        var err = (p.clickup_match && p.clickup_match.error) || null;
+        bodyHtml = '<div class="card-empty">' + escapeHtml(clickupErrorMessage(err)) + '</div>';
+    }
+
+    return '<div class="build-card">' +
+        '<div class="card-header">' +
+            '<div>' +
+                '<div class="vehicle-name">' + escapeHtml(p.owner) +
+                    (v.system ? '<span class="system-label">' + escapeHtml(v.system) + '</span>' : '') +
+                '</div>' +
+                (label ? '<div class="vehicle-detail">' + escapeHtml(label) + '</div>' : '') +
+                (v.status ? '<div><span class="status-badge status-' + statusCls + '">' +
+                    escapeHtml(v.status) + '</span></div>' : '') +
+            '</div>' +
+            pctHtml +
+        '</div>' +
+        progressHtml +
+        bodyHtml +
+        '</div>';
+}
+
+function renderSummary() {
+    var totalTasks = PROJECTS.reduce(function(s, p) { return s + projectTaskCount(p); }, 0);
+    var people = {};
+    PROJECTS.forEach(function(p) {
+        (p.assignees || []).forEach(function(a) {
+            if (a.tasks && a.tasks.length > 0) people[a.name] = true;
+        });
+    });
+    var withPct = PROJECTS.filter(function(p) {
+        return p.vehicle && typeof p.vehicle.checkout === 'number' && p.vehicle.checkout > 0;
+    });
+    var avg = withPct.length > 0
+        ? (withPct.reduce(function(s, p) { return s + p.vehicle.checkout; }, 0) / withPct.length).toFixed(1)
+        : 0;
+
+    document.getElementById('summaryStrip').innerHTML =
+        '<div class="summary-stat"><div class="stat-value">' + PROJECTS.length + '</div><div class="stat-label">Priority Builds</div></div>' +
+        '<div class="summary-stat"><div class="stat-value">' + totalTasks + '</div><div class="stat-label">Open Tasks</div></div>' +
+        '<div class="summary-stat"><div class="stat-value">' + Object.keys(people).length + '</div><div class="stat-label">People Assigned</div></div>' +
+        '<div class="summary-stat"><div class="stat-value">' + avg + '<span class="pct-unit">%</span></div><div class="stat-label">Avg. Checkout</div></div>';
+}
+
+function pageCount() {
+    return Math.max(1, Math.ceil(PROJECTS.length / PAGE_SIZE));
+}
+
+function renderPageDots() {
+    var total = pageCount();
+    var el = document.getElementById('pageDots');
+    if (total <= 1) { el.innerHTML = ''; return; }
+    var dots = '';
+    for (var i = 0; i < total; i++) {
+        dots += '<span class="dot' + (i === currentPage ? ' active' : '') + '"></span>';
+    }
+    el.innerHTML = dots + '<span class="page-label">' + (currentPage + 1) + ' / ' + total + '</span>';
+}
+
+function renderPage() {
+    var grid = document.getElementById('buildGrid');
+    var start = currentPage * PAGE_SIZE;
+    var pageProjects = PROJECTS.slice(start, start + PAGE_SIZE);
+    // Keep card width consistent across pages: always size for a full page,
+    // unless there's only ever one short page.
+    var cols = PROJECTS.length <= PAGE_SIZE
+        ? Math.min(PAGE_SIZE, PROJECTS.length)
+        : PAGE_SIZE;
+    grid.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
+    grid.innerHTML = pageProjects.map(renderCard).join('');
+    renderPageDots();
+    updateTimestamp('updatedTime', 'Pipeline data');
 }
 
 function startRotation() {
     if (rotateTimer) clearInterval(rotateTimer);
-    if (PROJECTS.length <= 1 || pinnedOwner) return;
-    var perSlideMs = Math.round(TOTAL_CYCLE_MS / PROJECTS.length);
+    if (pageCount() <= 1) return;
     rotateTimer = setInterval(function() {
-        currentIndex = (currentIndex + 1) % PROJECTS.length;
-        showProjectAt(currentIndex);
-    }, perSlideMs);
+        currentPage = (currentPage + 1) % pageCount();
+        renderPage();
+    }, PAGE_ROTATE_MS);
+}
+
+function render() {
+    renderSummary();
+    currentPage = 0;
+    renderPage();
+    startRotation();
 }
 
 async function loadData() {
-    pinnedOwner = getOwnerParam();
+    var pinnedOwner = getOwnerParam();
     try {
         var json = await fetchData(DATA_URL);
         var projects = (json.projects || []).filter(function(p) {
@@ -570,28 +445,30 @@ async function loadData() {
             projects = projects.filter(function(p) {
                 return p.owner && p.owner.toLowerCase() === pinnedOwner.toLowerCase();
             });
-            if (projects.length === 0) {
-                document.getElementById('stage').innerHTML =
-                    '<div class="error-msg">No focus project found for owner &quot;' +
-                    escapeHtml(pinnedOwner) + '&quot;.</div>';
-                return;
-            }
         }
 
-        if (projects.length === 0) {
-            document.getElementById('stage').innerHTML =
-                '<div class="error-msg">No focus projects configured. Add owners to <code>data/focus-projects.json</code>.</div>';
-            return;
-        }
+        // Nearest-to-done first; builds without a % sink to the bottom.
+        projects.sort(function(a, b) {
+            var av = (a.vehicle && typeof a.vehicle.checkout === 'number') ? a.vehicle.checkout : -1;
+            var bv = (b.vehicle && typeof b.vehicle.checkout === 'number') ? b.vehicle.checkout : -1;
+            return bv - av;
+        });
 
         PROJECTS = projects;
-        currentIndex = 0;
-        showProjectAt(currentIndex);
-        startRotation();
     } catch (err) {
-        document.getElementById('stage').innerHTML =
-            '<div class="error-msg">Failed to load focus data: ' + escapeHtml(err.message) + '</div>';
+        document.getElementById('buildGrid').innerHTML =
+            '<div class="loading-msg">Failed to load priority build data: ' + escapeHtml(err.message) + '</div>';
+        return;
     }
+
+    if (PROJECTS.length === 0) {
+        document.getElementById('buildGrid').innerHTML =
+            '<div class="loading-msg">No priority builds configured. Add owners to <code>data/focus-projects.json</code>.</div>';
+        document.getElementById('summaryStrip').innerHTML = '';
+        return;
+    }
+
+    render();
 }
 
 loadData();
