@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 64.8,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -42,7 +42,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 63.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 47.5,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -120,7 +120,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Brakes",
@@ -165,51 +165,13 @@
       ]
     },
     {
-      "project": "Connolly 58 220S",
-      "total_hours": 32.8,
-      "pct_of_total": 5.1,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 23.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 8.2
-        },
-        {
-          "task": "Interior",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 31.5,
-      "pct_of_total": 4.9,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 24.8
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.8
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
-      "total_hours": 31.2,
-      "pct_of_total": 4.9,
+      "total_hours": 35.5,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Audio",
-          "hours": 13.0
+          "hours": 17.2
         },
         {
           "task": "Manufacturing - Product",
@@ -230,6 +192,44 @@
         {
           "task": "Engineering - Core",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Connolly 58 220S",
+      "total_hours": 32.8,
+      "pct_of_total": 5.0,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 23.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 8.2
+        },
+        {
+          "task": "Interior",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 31.5,
+      "pct_of_total": 4.8,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 24.8
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.8
         }
       ]
     },
@@ -312,20 +312,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 121.8,
+    "total_hours": 123.5,
     "pct_of_total": 19.0,
-    "avg_per_person_per_day": 1.27,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 42.0
+        "hours": 43.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 41.0
+        "hours": 41.5
       },
       {
         "label": "Other",
@@ -337,7 +337,7 @@
       },
       {
         "label": "Organization",
-        "hours": 5.0
+        "hours": 5.2
       },
       {
         "label": "Errands",
@@ -348,12 +348,12 @@
   "project_hurters": [
     {
       "project": "Avalos 72 Blazer",
-      "total_hours": 20.0,
-      "pct_of_total": 3.1,
+      "total_hours": 22.0,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 20.0
+          "hours": 22.0
         }
       ]
     },
@@ -407,7 +407,7 @@
     {
       "project": "Miner 95 911",
       "total_hours": 2.2,
-      "pct_of_total": 0.4,
+      "pct_of_total": 0.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -454,9 +454,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 470.2,
-    "non_billable_hours": 172.0,
+    "billable_hours": 474.5,
+    "non_billable_hours": 175.8,
     "pto_hours": 36.8,
-    "total_hours": 642.2
+    "total_hours": 650.2
   }
 }
