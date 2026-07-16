@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "weeks": [
     {
       "week_start": "2026-07-13",
@@ -29,14 +29,14 @@
         {
           "date": "2026-07-15",
           "day_name": "Wednesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-07-16",
           "day_name": "Thursday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -47,12 +47,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Ryan L Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Ryan L Out",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
