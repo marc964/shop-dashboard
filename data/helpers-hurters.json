@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 64.8,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -41,8 +41,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 61.5,
-      "pct_of_total": 9.7,
+      "total_hours": 63.5,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -73,6 +73,10 @@
           "hours": 3.0
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 2.0
+        },
+        {
           "task": "Exterior",
           "hours": 1.5
         }
@@ -81,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 47.5,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -116,7 +120,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -163,7 +167,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -182,7 +186,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 31.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -200,8 +204,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 29.2,
-      "pct_of_total": 4.6,
+      "total_hours": 31.2,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Audio",
@@ -209,7 +213,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 8.5
+          "hours": 10.5
         },
         {
           "task": "Motor & Transmission",
@@ -232,7 +236,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Charging",
@@ -267,7 +271,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 23.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -294,7 +298,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -308,20 +312,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 119.8,
-    "pct_of_total": 18.9,
-    "avg_per_person_per_day": 1.25,
+    "total_hours": 121.8,
+    "pct_of_total": 19.0,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 41.5
+        "hours": 42.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 39.5
+        "hours": 41.0
       },
       {
         "label": "Other",
@@ -345,7 +349,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 20.0,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -450,9 +454,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 464.2,
-    "non_billable_hours": 170.0,
+    "billable_hours": 470.2,
+    "non_billable_hours": 172.0,
     "pto_hours": 36.8,
-    "total_hours": 634.2
+    "total_hours": 642.2
   }
 }
