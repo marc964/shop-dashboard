@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 49.0,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -324,7 +324,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 133.8,
+    "total_hours": 134.2,
     "pct_of_total": 19.3,
     "avg_per_person_per_day": 1.29,
     "flagged": true,
@@ -337,7 +337,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 43.8
+        "hours": 44.2
       },
       {
         "label": "Other",
@@ -467,8 +467,8 @@
   ],
   "totals": {
     "billable_hours": 504.8,
-    "non_billable_hours": 190.0,
+    "non_billable_hours": 190.5,
     "pto_hours": 36.8,
-    "total_hours": 694.8
+    "total_hours": 695.2
   }
 }
