@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T23:50:32.717072Z",
+  "updated_at": "2026-07-17T00:40:01.544507Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1771,10 +1771,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-07-15 23:23",
                   "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-17 00:09",
+                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e29ce88cd8ab07386b45e20277a0ed816ca12a55cec7427fb2b576bf0abe3b10"
+              "content_hash": "78dbc1bc4de8fef77dbe445d3d0d841e01418bf2fdf63477e4533e474318e113"
             },
             {
               "id": "868k7em0v",
@@ -1928,10 +1933,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-07-15 23:23",
                   "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-17 00:09",
+                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e29ce88cd8ab07386b45e20277a0ed816ca12a55cec7427fb2b576bf0abe3b10"
+              "content_hash": "78dbc1bc4de8fef77dbe445d3d0d841e01418bf2fdf63477e4533e474318e113"
             }
           ]
         },
