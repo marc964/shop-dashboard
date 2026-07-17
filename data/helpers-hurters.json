@@ -3,7 +3,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 70.8,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -46,7 +46,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.8,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -120,7 +120,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 41.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Brakes",
@@ -167,7 +167,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 39.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -185,12 +185,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 35.5,
-      "pct_of_total": 5.3,
+      "total_hours": 38.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Audio",
-          "hours": 17.2
+          "hours": 20.5
         },
         {
           "task": "Manufacturing - Product",
@@ -217,7 +217,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -312,8 +312,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 128.5,
-    "pct_of_total": 19.1,
+    "total_hours": 128.8,
+    "pct_of_total": 19.0,
     "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
@@ -325,7 +325,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 42.5
+        "hours": 42.8
       },
       {
         "label": "Other",
@@ -349,7 +349,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 22.0,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -454,9 +454,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 493.8,
-    "non_billable_hours": 180.8,
+    "billable_hours": 497.0,
+    "non_billable_hours": 181.0,
     "pto_hours": 36.8,
-    "total_hours": 674.5
+    "total_hours": 678.0
   }
 }
