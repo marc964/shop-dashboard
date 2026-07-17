@@ -165,6 +165,41 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 40.5,
+      "pct_of_total": 6.0,
+      "tasks": [
+        {
+          "task": "Audio",
+          "hours": 20.5
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 10.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 4.2
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 1.8
+        },
+        {
+          "task": "Scanning",
+          "hours": 1.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ferdman 66 Bus",
       "total_hours": 39.5,
       "pct_of_total": 5.8,
@@ -180,37 +215,6 @@
         {
           "task": "Interior",
           "hours": 2.8
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 38.8,
-      "pct_of_total": 5.7,
-      "tasks": [
-        {
-          "task": "Audio",
-          "hours": 20.5
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 10.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 4.2
-        },
-        {
-          "task": "Scanning",
-          "hours": 1.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 1.0
         }
       ]
     },
@@ -313,7 +317,7 @@
   ],
   "shop_work": {
     "total_hours": 128.8,
-    "pct_of_total": 19.0,
+    "pct_of_total": 18.9,
     "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
@@ -454,9 +458,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 497.0,
+    "billable_hours": 498.8,
     "non_billable_hours": 181.0,
     "pto_hours": 36.8,
-    "total_hours": 678.0
+    "total_hours": 679.8
   }
 }
