@@ -167,7 +167,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 40.5,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Audio",
@@ -316,20 +316,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 128.8,
-    "pct_of_total": 18.9,
-    "avg_per_person_per_day": 1.24,
+    "total_hours": 129.8,
+    "pct_of_total": 19.0,
+    "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 44.5
+        "hours": 45.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 42.8
+        "hours": 43.2
       },
       {
         "label": "Other",
@@ -398,6 +398,17 @@
       ]
     },
     {
+      "project": "Witham 51 3100",
+      "total_hours": 3.0,
+      "pct_of_total": 0.4,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 3.0,
       "pct_of_total": 0.4,
@@ -444,23 +455,12 @@
           "hours": 0.8
         }
       ]
-    },
-    {
-      "project": "Witham 51 3100",
-      "total_hours": 1.5,
-      "pct_of_total": 0.2,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 1.5
-        }
-      ]
     }
   ],
   "totals": {
     "billable_hours": 498.8,
-    "non_billable_hours": 181.0,
+    "non_billable_hours": 183.5,
     "pto_hours": 36.8,
-    "total_hours": 679.8
+    "total_hours": 682.2
   }
 }

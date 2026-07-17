@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T17:28:22.786944Z",
+  "updated_at": "2026-07-17T17:53:46.278777Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2197,7 +2197,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 5
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -2354,21 +2354,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
-            }
-          ]
-        },
-        {
-          "name": "Geoff Raynak",
-          "tasks": [
-            {
-              "id": "868jz2ky2",
-              "name": "Engineer Core - Battery Pack Lids",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868jz2ky2",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "2e0f1656c5460b55b1f5fe1f4f9839f243dec418250466d17f3002c4020b0b67"
             }
           ]
         },
