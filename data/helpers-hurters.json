@@ -45,20 +45,20 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 66.8,
-      "pct_of_total": 9.5,
+      "total_hours": 69.8,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Core",
           "hours": 14.8
         },
         {
-          "task": "Wiring - High Voltage",
+          "task": "Manufacturing - Product",
           "hours": 14.5
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 11.5
+          "task": "Wiring - High Voltage",
+          "hours": 14.5
         },
         {
           "task": "Cooling",
@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 49.0,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -167,7 +167,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 42.5,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Brakes",
@@ -233,7 +233,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -252,7 +252,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Charging",
@@ -328,16 +328,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 138.5,
-    "pct_of_total": 19.7,
-    "avg_per_person_per_day": 1.33,
+    "total_hours": 139.9,
+    "pct_of_total": 19.8,
+    "avg_per_person_per_day": 1.34,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 46.5
+        "hours": 46.9
       },
       {
         "label": "Shop Meetings",
@@ -345,7 +345,7 @@
       },
       {
         "label": "Other",
-        "hours": 24.8
+        "hours": 25.8
       },
       {
         "label": "Personal Meetings",
@@ -470,9 +470,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 507.0,
-    "non_billable_hours": 194.8,
+    "billable_hours": 510.0,
+    "non_billable_hours": 196.1,
     "pto_hours": 36.8,
-    "total_hours": 701.8
+    "total_hours": 706.1
   }
 }
