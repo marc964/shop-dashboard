@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 70.8,
-      "pct_of_total": 10.4,
+      "total_hours": 71.8,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -34,19 +34,19 @@
           "hours": 4.0
         },
         {
-          "task": "Exterior",
-          "hours": 2.2
+          "task": "Manufacturing - Product",
+          "hours": 3.0
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 2.0
+          "task": "Exterior",
+          "hours": 2.2
         }
       ]
     },
     {
       "project": "LB 82 911",
       "total_hours": 66.8,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -84,8 +84,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 47.5,
-      "pct_of_total": 7.0,
+      "total_hours": 49.0,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -112,27 +112,35 @@
           "hours": 1.2
         },
         {
+          "task": "Interior",
+          "hours": 1.0
+        },
+        {
           "task": "Motor & Transmission",
           "hours": 1.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 41.0,
-      "pct_of_total": 6.0,
+      "total_hours": 42.5,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Brakes",
           "hours": 14.0
         },
         {
-          "task": "Engine Bay",
-          "hours": 5.8
+          "task": "Steering",
+          "hours": 6.0
         },
         {
-          "task": "Steering",
-          "hours": 4.5
+          "task": "Engine Bay",
+          "hours": 5.8
         },
         {
           "task": "Motor & Transmission",
@@ -166,8 +174,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 40.5,
-      "pct_of_total": 5.9,
+      "total_hours": 41.5,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Audio",
@@ -175,7 +183,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 10.5
+          "hours": 11.5
         },
         {
           "task": "Motor & Transmission",
@@ -202,7 +210,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 39.5,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -221,7 +229,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -240,7 +248,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Charging",
@@ -275,7 +283,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -302,7 +310,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.5,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -316,24 +324,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 129.8,
-    "pct_of_total": 19.0,
-    "avg_per_person_per_day": 1.25,
+    "total_hours": 133.8,
+    "pct_of_total": 19.3,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 45.0
+        "hours": 46.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 43.2
+        "hours": 43.8
       },
       {
         "label": "Other",
-        "hours": 20.2
+        "hours": 22.8
       },
       {
         "label": "Personal Meetings",
@@ -364,7 +372,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 10.8,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -376,6 +384,17 @@
       ]
     },
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 6.5,
+      "pct_of_total": 0.9,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 6.5
+        }
+      ]
+    },
+    {
       "project": "Buck 70 280SL",
       "total_hours": 5.0,
       "pct_of_total": 0.7,
@@ -383,17 +402,6 @@
         {
           "task": "Manufacturing - Extra",
           "hours": 5.0
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 4.0,
-      "pct_of_total": 0.6,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 4.0
         }
       ]
     },
@@ -458,9 +466,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 498.8,
-    "non_billable_hours": 183.5,
+    "billable_hours": 504.8,
+    "non_billable_hours": 190.0,
     "pto_hours": 36.8,
-    "total_hours": 682.2
+    "total_hours": 694.8
   }
 }

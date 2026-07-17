@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T17:53:46.278777Z",
+  "updated_at": "2026-07-17T18:27:05.640420Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1969,10 +1969,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-07-15 21:46",
                   "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/bd7c49c5-8022-4d73-aa41-f343c1658a89/IMG_1646.mov?view=openIMG_1645.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-17 18:15",
+                  "text": "so after ride height adjustments\nwe found the CV's to be at 19* and jump to 22-25* when taking a corner\nthis is outside the limit of the stock style CV range\nClaude said we need a CV with the Star machined for clearance\nthis will give us the angle we need without it hitting\nparts are ordered will take a week before we get them"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "37e5a05def04cb1ac5ff3fce65e5d886ddd1d7c5e10c2ad4aff3f664682375e5"
+              "content_hash": "c7a5d802e84e392ca22d88be0e5e81e0ab1c09d4773d21782df70e6a7f428e03"
             }
           ]
         },
