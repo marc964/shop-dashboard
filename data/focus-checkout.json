@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T22:19:06.693298Z",
+  "updated_at": "2026-07-17T22:49:17.046893Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,10 +16,290 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Ivanhoe 65 Alfa"
+        ],
+        "open_tasks": 4
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868ecue57",
+              "name": "Change AEM dash layout to work vertically",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868ecue57",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-09 02:39",
+                  "text": "Experimentally determined the cropped limits of the vertical dash. Tested various layouts and positioning with Alex. Collected font assets for Alex."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-14 02:06",
+                  "text": "Tried idea to build modulus function from pure arithmetic. Idea seems correct but the dash software for some reason just spits out the default value above 9. Reverted back to image selector idea. Used paint to concatenate two images, could probably pump out the full image set in one to two hours but sounds prone to error. Looked up Python libraries to make images. Used OpenCV and a for loop to build all images 0-99 needed. Loaded first 25 and test drove on live hardware. Adjusted speed variable to use GPS instead of AEM speed. Concept works. Extended idea to 200+ images to check memory constraints. Downloads take a little time but everything fits and the dash boots."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-18 20:46",
+                  "text": "Built static proof image of dash to show team. Organized development directory and purged messy / no working code bits. Re-visited python script to combine images. Ran script again for both big and little numbers. Loaded all 400+ image assets into the dash program. Tested downloads working correct with increased memory demands."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-23 22:58",
+                  "text": "Analyzed script that ChatGPT gave me to understand how it was working. Modified script for loops to have 00-99 and 000-999 for the little numbers. Created new image assets and organized into working directory to load into AEMDash. Sat and clicked ~2000 times to load all image selectors."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-24 21:47",
+                  "text": "Finished uploading all 500 images to the dash program. Replaced static screen images with dynamic image selectors. Manually typed in all scenarios to round 0-254 for range. Tested background colors and removed pink border from testing. Re-loaded all images assets provided by Alex to verify I was using the correct ones. Met with Alex to discuss charge screen."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-25 23:40",
+                  "text": "Continued adding in numbers to the rounding function for range. Downloaded new image set from Alex. Replaced on screen objects. Used alignment template to position things properly."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-30 21:36",
+                  "text": "Picked up where I left off loading in new image assets. Verified I as using the latest for everything. Finished typing in channel to round estimated range from float to integer. Loaded all the charge bar images & discovered program too large to download. Deleted images until the exact max file size was found, ~8kB. Discussion with Alex about getting smaller images. Tried various methods to reduce memory."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-31 22:40",
+                  "text": "Loaded new charge bar images and calculated memory difference. ~850kB less which should give enough room to add back in some of the other features. Test downloaded. Everything fits now."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-01 21:53",
+                  "text": "Reviewed all onscreen objects and verified each and everyone functional and matches expected value. Test drove to verify additional calibration points. Reduced Warning and Fault screens by 35% and moved into display area. Added in condensed diag screen with core items, checked everything transferred correctly. Validated charge screen pulling up reasonable estimates."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-04 21:52",
+                  "text": "Loaded correct temperature bar and splash images. Adjusted width for power bar. Tested new idea to reduce clicks necessary to make an image selector. Started on image selector for pack voltage."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-05 21:36",
+                  "text": "Finished uploading images for Pack Voltage on the charge screen. Ran into the memory limit again. Started stripping out non-essential images and re-trying loading until the dash boots."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-09-05 22:51",
+                  "text": "Loaded correct RND images and tested in vehicle. Corrected dash version numbers. Removed background box used for alignment."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-09 23:07",
+                  "text": "Located Dash program and reduced memory until it would load. Moved Pack Volts back on to the charge screen. That display channel now only shows odd numbers between 330V and 370V. Charged for a bit. Added gauges to the new gauge sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-26 20:50",
+                  "text": "Opened the portrait dash design file and got back up to speed on remaining items. Looked into how I was able to make the temperature slider work, it has 17 possible values going from 0 to 80 by 5. Closest I can get to 20 to 80 is 22 to 78 by 3.5. Inputing this is very tedious so I'm saving it for the start of a day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-29 22:21",
+                  "text": "Adjusted the temperature scale on the digital dash to better suit the type W motor. Added new channels and a lookup table for a 16 to 80 scaling. Added in all the new number ranges for the channel doing the rounding then went to update the image selector which turns out can't handle floating point. Went back to the tedious brute force input method. Battled program memory useage getting too high and the dash no longer booting. Removed some charge bar photos to resolve that. Tested the temperature slider on the bench with the gauges program, mostly working now. Worked to get the no data message to turn on and timeout correctly. Added in a change log and verified verion numbers correct on the boot and diag screens."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-01 15:59",
+                  "text": "Continued digital dash work. Checked PRD was in the right order. Added Pack_Current to the charge screen by filling out another image selector with all the associated variables and logic to round and filter that signal. Tested charging to verify functionality. Ivanhoe showing 13% SOC now. Checked the total energy accum on the pack and multiplied that by the current SOC based on cell voltage alone. Added this new number to the energy counter and set that as the new PackMaxCapacity. Results show a change from 32,000 kWh to 38,000 kWh in comparison to the 36,000 kWh we ended up with in Berke."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 22:27",
+                  "text": "Started on a more automated dash / gauges checkout program but couldn't really figure out a format that would work and be done today. Used Claude to organize all the signals that are used on the dash into a single DBC as a happy medium. Now I don't have to dig through a list with hundreds and hundreds of signals 41 times to fully validate a set of gauges or dash. Used new DBC with old gauges test program to verify the latest dash program. Fixed a few minor things and removed the temporary development widgets. Added in a PackVoltage image selector to the charge screen using a new MUCH easier dash technique I found. Still need to strip out any addition un-used pictures and load into the vehicle."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-10 22:43",
+                  "text": "Continued loading the numbers from 300 to 405 one by one for the pack volts image selector. Stripped all un-used images from the file saving some memory which puts the dash further away from where it instantly doesn't boot. Loaded the program into the vehicle and verified the basics working as expected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-14 23:18",
+                  "text": "Methodically walked through all the widgets for the main screen and charge screen substituting values and watching how they worked on screen. Corrected various issues along the way. Completed 11/13 of the complicated widgets."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-15 19:55",
+                  "text": "Finished checking the various widgets while taking thorough status notes. Loaded the screen to the vehicle and gave a basic look over. Posted notes to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-17 02:04",
+                  "text": "Ivanhoe Alfa Dash: Finished checking widgets and making any improvements along the way. Thoroughly documented all the backend work and posted to Slack. Developed new logic for PND which still need to be better tested on a dry day. Fed a bunch of screen shots of DashDesign to Claude and developed a list of everything that makes the Warning and Fault lamps trigger. Collected other resources and built a prompt that resulted in a test tool that send CAN messages like the VCU would but without having to sit down and reason what each value should be and then go find it somewhere in a giant list. Used the tool to check warning and fault lamps. Wrote up summary of the day."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Charge screen",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Temp gauge rescale",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Check flickering value on Dash diag screen",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "b05fea7978c88439f671facf68ccb665e27bb4413496f0f52efe1ef7f02d5d25"
+            },
+            {
+              "id": "868ecuf7p",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868ecuf7p",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-01 21:52",
+                  "text": "Troubleshooting for BMS fault now showing on the dash and gauges. Disabled fault reporting for thermistor channels BMSM1_G03_Therm3 & BMSM1_G06_Therm3 since they seemed way out of range (disconnected) and were causing a BMS fault. Fault still shows up in VCU but apparently doesn't do anything. Checked dash and narrowed down a second fault to upgraded BMS firmware. Corrected the false flag in the dash logic."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-01 01:45",
+                  "text": "Loaded the Berke calibration into the vehicle. Started charging the vehicle up to the top but not getting current for some reason. Found many checkout items haven't been looked at. Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 13:28",
+                  "text": "Already had a Berke firmware migration installed, reviewed the delta an found ~20 differences. Flashed the latest Berke firmware burn and updated gear ratio and pedal calibration, and pack capacity. Added all these changes into the tracking sheet. Reviewed completeness in the rest of the sheet. Need to at a minimul check the inverter settings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 23:02",
+                  "text": "Verified energy counters messed up due to incorrect current direction. Inverted the IVT direction and left on charge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-10 22:21",
+                  "text": "Reviewed compare reports again between Berke and Ivanhoe. Produced a list of required differences and what those configuration options should be for Ivanhoe. Checked energy counters, still massively off after one charge cycle. Reflashed Berke Rev5 firmware burn to get the \"reset\" option. Transfered the compare report settings in. Verified everything set correctly, backed up this calibrations and sent off to AEM for a firmware burn. Charged to the top alongside watching energy counters, pack resistance, etc. making sure everything looked within reason. Couldn't average the CellR values like I usually do since the pack was too high but the initial calculation was within spec. Clicked through the digital dash making note problems due to the VCU200_15 build with an Elcon charger and DCDC, as well as portrait layout oddities. Test drove verifying top end limiters. The digital dash doesn't have a logger but I manually pulled the logs and used my existing scripts to convert to CSV. Imported the logs for plotting and verified the limiters plot looked consistent with the cell specs. Made final backups of the inverter and PMU. Flashed the firmware burn and left on charge.\n\nFor review, here's the Berke To Ivanhoe Delta\n        APP1_Min        1.110        1.130\n        APP2_Min        0.560        0.570\n        DriveGearRatio        4.10        4.56\n        DriveTireDiameter        23.44        24.80\n        PackCurrentPolarity        Invert        ---\n        PackMaxCapacity        36000        32000\n\nIvanhoe ToDo's Before Shipping\n        Get wifi credentials, upload, verify configuration sync'd.\n        Finish Digital Dash (Remove EGT/CCU readings, Add charge confirmation, Correct portrait visual problems)\n        Test drive, verify lower limiters, make plots for pack consumption, temps, & low limiters.\n        Verify running temps and InvTempRefOption."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-06 22:12",
+                  "text": "Continued Dash work. Removed more image assets to give a little more memory headroom. Used Claude to make an additional image asset to properly label the pack current channel. Loaded this and tested for boot stability. Added in missing message for low SOC warning. Tested gauges to make sure warning light came on in various scenarios. Verified PackMaxCapacity was set up higher, test drove and checked limiters. Sent firmware off to AEM for a second burn."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:27",
+                  "text": "Flashed the firmware burn, checked various options looked correct, left on the charger overnight."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 01:02",
+                  "text": "Organized and reduced the ten or so partial efforts to convert and decode logs. Ended up with single well organized directory with tools compatible with our logger that AI could use to properly digest data. Organized DBC files specific to AEM and copied them over to the Conversion Tools directory changing their format as required. Manually downloaded logs from the CANcloud for the charge the evening of July 7th and manually ran them through the conversion process. This conversion process is now setup correctly to have AI repeat without ever getting the \"Oh you're right, good for you to push back\" instead of garbage presented as fact. Fed all the previous into an open conversation and had Claude build a report of the failure. Reviewed analysis and posted for the team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 22:25",
+                  "text": "Re-downloaded the logs from yesterday and added in some additional logs to make sure that the recharge was captured, Converted these and gave them to Claude along with AEM manuals, an exported calibration, and additional context about how this charger works. Went back and forth evaluating and dismissing various theories proposed based off of actual experience with what option does what and what parts of logic in the VCU don't work and are bypassed on purpose. Built a CSV plotter with the log data, clicked around a little bit and ultimately became very concerned about how basic plots don't look as expected. Told this to Claude & continued discussing with the team. Ultimately decided the charge not starting is not a problem."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 22:25",
+                  "text": "Continued back and forth with Claude and various Slack correspondence with Marc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-10 22:42",
+                  "text": "(Last night) Built a log replay script with Claude to get the CSS logs into the AEM format for analysis. (Today) Tested the log replay script which crashed immediatly. Let Claude debug everything with actual hardware in auto mode. Got everything working and tested the process to get a CSS log into AEMData. All looked good so I set the whole charge failure to play back at 10x speed while logging, overloaded the bus. Will setup to run over night and check back in tomorrow."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-13 22:17",
+                  "text": "Continued work on the log replay tool. Added a way to change the playback speed and worked on the display setup to be logging all the critical channels. Tried logging but started getting bus overload errors with CAN2 and CAN3 merged."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-13 22:18",
+                  "text": "Setup the log playback tool with 1M baud to hopefully eliminate bus overload issues. Played back the very start of the log and got useable results. Let run for a while to get a fuller log to test. Removed not applicable items from the diag screen and verified logic and CAN messages associated with the gauges, couldn't get the VCU turned off with the digital dash still turned on to test the signal chain. Trying alternative methods tomorrow."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-15 19:55",
+                  "text": "Continued diag and correspondence with AEM. Used Claude to better understand the problem & analyzed plots on my own. Decided there's nothing more we can do about the issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-17 22:11",
+                  "text": "Test drove to verify mileage. Ran through drive modes to verify PND on the dash. Updated the change log and version info in the dash and re-downloaded. Scaled the power bar and verified. Ran through the checklist & updated on Slack. Added in a firmware reset detection mechanism and the images in the dash to make that work. Tested. During testing found a reliable way to force a weak charge. Repeated this procedure until I caught it on a log. Analyzed and posted to Slack."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Get wifi credentials",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "eb91da333ec1cb95c58d1f315273c86dd36329693a27a2dceef4be14e3c376f4"
+            },
+            {
+              "id": "868jxvewg",
+              "name": "Update firmware and calibration",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868jxvewg",
+              "comments": [],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Test drive and verify lower limiters",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify running temps and InvTempRefOption",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Firmware burn",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "392a591ae74130029ac6d3faf3bddbbcef51d6d0bbcc5cb5f6e6bbf579b02501"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kbwh1y",
+              "name": "Facilitate transport",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868kbwh1y",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-15 13:22",
+                  "text": "In progress ..."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1a9e536b9022e6de952bb61022a6b258363ebac076fda0ba9cb1d5c08cafcea0"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
@@ -147,10 +427,258 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Preheim 72 Blazer"
+        ],
+        "open_tasks": 5
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a3d94edfbd5dccbdce89684c59d3e32fce491bea9d70a7dcfe6b40947da1df8b"
+            },
+            {
+              "id": "868gjgucg",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868gjgucg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            },
+            {
+              "id": "868jgzgh9",
+              "name": "Replace shocks",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868jgzgh9",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-13 03:38",
+                  "text": "removed the shocks from Ritchie\ninstalled shocks on Preheim\ntested\nrode much better"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "526620fd1ceaeedb1f661e103262b654a3000166c8de063864f4994fe8933bf6"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868hd97nv",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868hd97nv",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-10 23:00",
+                  "text": "Installed correct C2Prog version for flashing AEM LDU boards. Flashed firmware 6B33. Compared the symbols files I'm using for backups between 6B28 thru 6B33. They all match exactly. Used Claude to compare EEPROM. Setup a directory with the 3 stock EEPROM files as well as the Ampere provided, the Icon Bronco, and the previous Blazer. Fed Claude prompts and inspected output till something very copy and pastable was produced, checked each setting line by line and then flashed into this LDU. Marked all inverter parts on the sheet N/A where the don't line up because of the different motor type. Inverter checkout now 100%."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-11 21:59",
+                  "text": "Built longer PMU programming harness to avoid PSU balancing act. Disconnected PMU's from vehicle, and upgraded both their firmwares to the latest. Looked up which PMU software revision we were on and flashed those calibrations to each. Hooked up Raptor-Service and key'd on to an immediate CAN1 crash. Will need to investigate vehicle basics like CAN termination tomorrow."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-13 00:18",
+                  "text": "Started diag on CAN1 crashing. Checked CAN termination on all networks. CAN3 and BMS CAN both missing one resistor. Discovered PMU's no longer waking up properly. Pulled open doc for the power block and verified MPR relay connections. Measured GND where 12V should actually be, discussed both issues with Brandon, Billy, and Alex and found the GUI needed to be plugged in and one critical connector to the rear battery box was pinned the wrong gender. Swept and mopped the grease and machine chips scattered around the truck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-16 22:04",
+                  "text": "Picked backup after connector issue last week. Verified PMUs booting properly now and all CAN networks were terminated correctly. Filled out that section of the checkout sheet. Connected to Raptor-Service and pulled a configuration backup from the VCU. Noticed BMS configuration hadn't made it to the VCU. Tried forcing this from Raptor-Service but was locked out. Checked all faults and there's a bunch including ole BattWakeFault. Measured BMS CAN traffic and found 100% with many error per second. Checked for BMS CAN High / Low swap at all three boxes, didn't see anything but the wiring is extra tight."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-18 14:23",
+                  "text": "Watched the VCU, PMU, and BMS CAN simultaneously while trying to enable the battery system. Looks like the battery wake signal never makes it to the BMS or even the PMU. Checked a few outputs on one PMU to determine PMU1 and PMU2 were flipped. Corrected that and cleared faults. Pumps turned on for a moment, topped off coolant. Keycycled and the pumps stopped, now getting an HVIL fault. Diagnosed that back to the CCS box and HVJB box connectors being swapped. Disassembled that enough to get access to the connector. Re-assembled and cleared faults, VCU seems to be stable now. Troubleshot GUI rebooting every 1/2 second, will need more access to that to continue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-18 23:19",
+                  "text": "Wrote up finding from yesterdays work. Verified all backups in correct directory and all notes made it to the checkout sheet. Cleaned up cable mess around vehicle."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-20 23:57",
+                  "text": "Downloaded new VCU release and fully read through the change notes. Made a Raptor-Service tab that has all the tags for values that get reset during a firmware flash. Flashed the new VCU firmware release 1.8.4 and checked over the configuration. Adjusted to match checkout sheet. Grabbed logger from pile, verified configuration backup and installed. Verified HVIL now working correctly. Troubleshot pedal out of range fault, still only reading 0-30%. Got the GUI to boot by re-seating a jammed & crooked connector. Unflipped the constant and switched power to the GUI. Cleaned up and checked off punch list items."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-25 03:01",
+                  "text": "Verified APP min and max for Connolly and Barton. Ran the same test in Preheim to compare. Preheim definitly has APP channel 1 and APP channel 2 swapped. Installed APK 2.5.0, Dash 2.1, and XML V36. Configured the autolaunch app in settings. Tested GUI boot and it all seems to be working well."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-25 23:32",
+                  "text": "Verified APP is now seeing 100%, test drove the truck finally. Noticed some mechanical issues like a spongy brake and a shooshooshoo sound. Kept getting a fault for DCDCVoltXChk and ChgPortContFlt when we tried charging. Added various new issues to the punchlist and opened a ticket to Ampere for them."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-17 21:43",
+                  "text": "Troubleshot gear selection issue with Billy. Checked PRND, BrakeSwitch, IMD, HVIL, etc. in Raptor-Service. Nothing wrong could be found, VCU seemed to simply not be running logic. Re-flashed firmware and issue went away."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-19 22:32",
+                  "text": "Built an AEMDash screen to show a similar view to the ECUMaster software, but with some flexibility on view and no control to incorrectly alter the program. Dusted off my collection of PMU CAN integration notes and programs and looked for a good donor candidate to pull the CAN configuration out of. Imported this configuration to get back to the spot I was when developing on Buck and having CAN bus crashing issues. Realized again that ECUMaster Export changes input to outputs and output to inputs. Rebuilt the Output_Status messages with the proper direction for PMU1. Reloaded the other PMU programs so the truck is still driveable."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-20 21:24",
+                  "text": "Continued adding messages into the PMU CAN Interface DBC for PMU2. Manually copied these over into the PMU for a number of the messages. Ran through five or so points in the PMU checkout process, corrected fans that would never turn on. Still need to verify some non critical points like cabin heat and lights and then all the more dangerous points like HV contactors, which I was unwilling to do with Billy physically shaking the vehicle side to side."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-24 04:23",
+                  "text": "Loaded the PMU CAN Interface version of logic matricies so I wouldn't have to re-check all outputs to continue development on that. Re-checked the several channels I had done previously. Ran through the rest of the channels including cabin heat. Marked notes and punch list items that where found. All IO is good except for the AC and heat related ones, as well as the reverse lights and EPAS sensor. Improved my Raptor-Service tab for PMU checkout. Made new logic matrix for the PMU CAN revisions, added in comments and marked changes in red. Removed some spare channels. Verified current trip settings and input voltage hysteresis settings. Corrected the few that were slightly off. Took note of all input voltages as I ran through the whole checkout list and changed their threshold to 1.5/2.5V to increase their error margin. Reviewed vehicle requirements doc and converted that into a VCU configuration. Checked settings in the VCU. Set the battery cell type to a 155Ah cell since there's not a 147Ah one available. Asked Ampere about adding this 6S-2P cell to the firmware. Weighed the vehicle and put the numbers into the GUI. Verified they made it to the VCU. Ran through the punch list marking off items and posted open items to Slack. Ran through checkout sheet marking off previous items as skipped. Vehicle now at 78% progress, has moved from checkout to testing, and has a green card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-02 18:45",
+                  "text": "Tested old negative contactor. Definitely welded. Hooked up a meter to the output of the junction box and verified that the 25 Ohm precharge and discharge resistors were not blown. Verified contactor replacement cycling without MSD. Disabled high voltage via Ampere's \"HVdisable\" and verified vehicle had no faults. Plugged in MSD. Started up vechile and sucessfully put into gear."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-03 21:44",
+                  "text": "Continued evening Slack discussion."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-15 20:37",
+                  "text": "Ran through the punch list checking items on vehicle and updating any items possible. Posted for the team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-17 21:42",
+                  "text": "Updated all the firmwares and configurations and re-tried charging, no luck. The charger itself is much simpler and doesn't have a lot of built-in diagnostics but we figure it's not seeing the pack voltage. We should check if the charger fuse is blown or maybe a HV pin isn't terminated quite correctly. Then definitely make sure the polarity is not reversed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-21 03:11",
+                  "text": "Worked with Billy to confirm that pack voltage was not seen at the onboard charger. Determined there was a blown fuse, had him replace that. Troubleshot Raptor-Service repeatedly crashing after ~30 seconds of use, deleted extra & similar firmware versions from the repository but still couldn't get a solid connection to the VCU established. Asked Andrew about a potential firmware bug, moved on. Plugged in and verified charging was now working. Loaded latest PMU software from Witham with the heater controls included. Immediatly got a terrible sounding relay and had to disable. Reviewed logic compatibility with HVAC doc, it was not compatible with more than just a blower powered from a PWM blower output. Changed this to Ignition and re-worked how the master branch climate controls work in the PMU. Opened ticket to enable correct heater option in VCU."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-21 23:33",
+                  "text": "Transfered over firmware files from Summit and verified the Raptor-Service crashing issue was gone. Enabled the cabin heater option in the VCU and ran through the PMU heater controls again. Found awful buzzing sound when using PWM again. Determined actual wiring did not match the PMU comments. Talked to Billy for more information and drew climate controls schematic from the HVAC document. Added in information not captured in HVAC document or diagram. Adjusted controls in vehicle, will need to determine better strategy to have universal PMU program."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:38",
+                  "text": "Hooked up to PMU while Andrew hooked up to the VCU. Slid the fan and temp sliders back and forth monitoring signals to the PMU and signals to the VCU. Determined a theory on the wiring and desired control scheme, stopped there to clarify some questions with the team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 22:18",
+                  "text": "Corrected bug where PMU was sending output status 1 for all channels. Started on HVAC controls drawing."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-15 21:04",
+                  "text": "Finished up HVAC controls. Validated with Andrew. Troubleshot new contactor cross check fault."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-18 21:52",
+                  "text": "Ran into compiling issues with the Claude generated BMS firmware, moved on. Found a copy of a program Lawson wrote some time ago that should do the same thing but said with less confidence. Also ran into compiling problems with that. Pulled libraries from the master BMS firmware and then started getting code syntax problems. Program seems under developed. Put in question with Andrew for the latest known working version if he has it, turns out I already had it. Edited a few lines of code causing the problem and finally got it to compile. Flashed to the rear box and ran a number of contactor cycles, seems to have worked. Re-flashed the BMS firmware and verified the configuration. Hooked up HV and verified the vehicle was fixed and would go into gear."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-21 00:17",
+                  "text": "Discussed with team about bad thermistor location. Adjusted ADC max/min and test drove to observe if correct thermistors are gettting tossed out incorrectly. Used Claude to further analyze results."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 03:52",
+                  "text": "Various discussions with team. Opened up 147Ah 590 6S module to look at the thermistors, compared to the 169Ah 590 6S modules. Looks like a whole different thermistor and mounted differently. Decided to add additional thermistors to validate their readings correct and that a bus bar is getting hot."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a3f931bbe573e77468830d5ca02e6976b47bd9afc71e1ff3f8f93c829ffb4321"
+            },
+            {
+              "id": "868jqzugw",
+              "name": "Troubleshoot thermistor issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868jqzugw",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-27 22:51",
+                  "text": "Pulled out CAN Input hardware and documentation. Reviewed how to configure and wired up a thermistor to the first input. Powered up, loaded configuration and monitored unscaled raw voltage values change while heating up and cooling off the thermistor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-01 16:17",
+                  "text": "Reviewed thermistor selection and re-ordered."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 13:26",
+                  "text": "Discussion with team over thermistor location and test procedure. Verified thermistor beta from calibration table. Loaded calibration into the digital dash project and setup logging. Found Ampere DBC for individual cell thermistors and loaded this too. Hooked up to vehicle and verified BMS thermistor temps coming in and matching the corresponding temps in the VCU. Wired up logger to match Jordans pinout."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-08 13:27",
+                  "text": "Wired remaining pullups for CSS CAN Input for all channels so thermistors could be read. Verified previous configuration, used thermistor beta and R0 to convert volts to ohms to temperature. Setup AEM Dash plot to log all of this. Performed three point calibration to verify sensors. Test drove vehicle, processed results and shared analysis with the team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-19 22:06",
+                  "text": "Tried flashing VCU firmware 1.8.12 to test the new torque map but ran into some tag mapping error and could not complete. Also found a potentially dangerous scenario during a previous test drive where the VCU is limiting till the point the vehicle isn't moving at all and then suddenly removes the entire limiter resulting in a drag pull that you were not expecting. Updated Slack / Ampere tickets."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-25 21:53",
+                  "text": "Cleaned up and organized the various attempts at automating BMS firmware flashing and configuring. Settled on one batch script to flash firmware and one python script to send serial commands to configure EEPROM. Tested the whole process with the new thermistor enable firmware on an Arduino Due board. The process is very primitave but seems to useable in production. Read the docs on how to use and configure thermistors in this new firmware. Looked up the thermistor arrangement for this vehicle and converted that into the configuration. Verified configuration with Ampere and got clarification on a few details. Flashed just Box #2 with the firmware and then loaded the proper configurations. Loaded the correct logger program to the BlueBox and hooked that back up to the vehicle for testing. Drove around the block as close to what I remember from the baseline trials / what the baseline log detailed after reviewing again. Pulled logs but need more time to analyze and understand."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-26 20:50",
+                  "text": "Put the thermistor enable firmware in the two remaining boxes. Test drove rather hard, didn't get any temperature faults. Shared results to Slack."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c0706ed805380ba135000d83f62c25f2714e4f57822b819f40552e85eff98fdd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Avalos",
@@ -166,10 +694,464 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Avalos 72 Blazer"
+        ],
+        "open_tasks": 10
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868k92h3e",
+              "name": "Address Brake issues (checklist)",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k92h3e",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-06 20:01",
+                  "text": "Comment from Justin in Slack:\nEbrake adjustment lock nuts all loose where it turns from one cable into 2"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-09 20:04",
+                  "text": "toped the fluid off"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 19:32",
+                  "text": "installed the valve\ntest drove\nadjusted valve\ngtg"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Top off fluid level",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tighten e-brake cable jam nuts",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Install bias valve",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "b8c64b5dde5cb9e1e9d3331399f4739869915ba3144846b1125b93eef5bca89d"
+            },
+            {
+              "id": "868k9295a",
+              "name": "Address Exterior issues (checklist)",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k9295a",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-09 20:00",
+                  "text": "checked pressures\nreplaced one body bolt & tightened up others\ninstalled plates"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 04:18",
+                  "text": "added some weather stripping to the back hatch\nadded someVHB to the rear tailgate strip ( it was loose)\nchanged the screws out for next size up\ntested the hatch\nmost of the rattles are gone"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Install linces plate",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Check tire pressure and torque lug nuts",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Address hardtop squeaks and rattles (if possible)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tighten all body mounts",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "ed00f8c419d771e0082997896b1268a2b779812b9b3b5c32963f0aa4f989ef7d"
+            },
+            {
+              "id": "868k92m12",
+              "name": "Address Instrumentation issues (checklist)",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k92m12",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-06 20:05",
+                  "text": "Comment from Justin in Slack:\nA red backlight dot appears in the speedo gauge when the headlights are turned on. is this by design or some funky backlighting?"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-09 20:08",
+                  "text": "light is bleeding through when the lights are on\nshort of pulling dash and taking gauges apart  no  big issue\nI will ask for guidance"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 19:32",
+                  "text": "No action needed"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Assess red warning indicator in speedo",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "68252b765875f7a797bc924fce551f2dd2e5fcac991600d77d0d734e83d95667"
+            },
+            {
+              "id": "868k92bcj",
+              "name": "Address Interior issues (checklist)",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k92bcj",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-09 20:01",
+                  "text": "secured the defrost vent\nthe rearview mirror is bad we will need to order a new one"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 19:30",
+                  "text": "no action on mirror needed"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Clean up under dash wiring (whatever can be done)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tighten rear view mirror",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Secure defrost vent",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "f7b5a74cef3cf3df1b776c5fc0727d7025473911dcc7008e600b842d272b3b9b"
+            },
+            {
+              "id": "868k91zx6",
+              "name": "Address Motor & Trans issues (checklist)",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k91zx6",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-09 19:56",
+                  "text": "CV boots have a tears ordered new boots\ntightened all bolts\nordered new diff hose\nno action needed on the bolt contact"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:52",
+                  "text": "pulled the front DS to start\ngot to the CV clip\nthis clip sucks\ntried several ways to get it off\nno luck yet\nI am likely to go over budget"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 16:55",
+                  "text": "IMG_1654.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-16 16:59",
+                  "text": "Had to take a grinder to the clip and got it out\ngot the front CV on and back together\nremoved the rear DS\nthe shaft came apart much easier\nrear DS is back in"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Replace and secure diff vent hoses",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Check driveshaft hardware and mark with paint pen",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CV grease issue",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "b44416ba828a513de45971e465d360e0632bcb1335521608f9362fb4b983ea52"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868k4m3j8",
+              "name": "Troubleshoot BMS issue",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k4m3j8",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-24 19:47",
+                  "text": "Ran various ISO-SPI tests with Justin changing the number of groups on the BMS chain and observinng the results. Couldn't narrow down an exact hardware failure but did eliminate a number of theories. Called AEM and bounced ideas back and forth."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-25 21:53",
+                  "text": "Met with Justin on the best path forward to replace BMS satellites and verify wire integrity. Shared with team, continued Slack correspondence."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-26 20:51",
+                  "text": "Used AEMCal to verify BMS now reportinng all satellites correctly."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bd8a828231726a86c88943107e64c4a28abd2c9b8837e6017fcba671647faac8"
+            },
+            {
+              "id": "868jfwyt9",
+              "name": "Update firmware",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868jfwyt9",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 22:11",
+                  "text": "Met with the team and reviewed status. Pulled logs, corrupted as expected. Cleared logs and did a quick test drive to verify working. Tracked down software versions for the DashBox and the digital dash to determine which BRAKE warning lamp logic was in use."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-02 21:53",
+                  "text": "The two lights in Avalos are TEMP (Amber) and BRAKE (Red). The BRAKE lamp is the Fault Summary which has a significant number of things it's looking at, a lot of them are pretty important which merits looking into making this. Most the individual signals are logged but the summary is not logged due to technical difficulties. This means there's no marker in the log to find when the problem was. Tried a number of ways to get the fault logs useable, none worked. Trying Claude next."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-12 21:17",
+                  "text": "Determining current checkout status. Added Billy's Wi Fi to the logger and verified connectivity. Compared the VCU calibration to the latest GMC calibration. Determined a fuller upgrade process is needed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-15 20:42",
+                  "text": "Flashed the vehicle with the Hastert firmware burn. Reset options and reviewed compare report. Started going through options one by one."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-17 02:47",
+                  "text": "Reviewed precharge settings and transfered over some required for the LDU vs a Cascadia motor. Hooked up the MSD and tested precharge, had to adjust some more seemingly unrelated settings to get a success. Tested putting the inverter in PWM mode and driving forward / backwards several inches."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-18 23:27",
+                  "text": "Went over precharge settings and adjusted slightly to get a faster precharge with less pack voltage delta when the positive contactor pulls in. Reviewed charge related settings and charged up to ~370 Volts. Forced in a CellR during this charge but kept running into cells jumping between 0.005 mOhms and ~70 mOhms between trials. Having these correct impacts torque limiting. Upgraded the digital dash to the latest version 2.31 and branched that to a LDU specific one, adjusted the temperature channel to RTD1. Still need to do more digital dash and gauges validation."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-19 22:06",
+                  "text": "Continued forcing Cell R and got it to settle down at 0.55 mOhms per cell. Set this as the default and continued charging. Monitored till the top and checked that the energy counters reset and the vehicle shut off properly. Copied over SOC and range tables and verified they were for Tesla modules in a SUV. Checked on the CAN bus that two thermistors in group 6 were causing a fault to show up. Disabled faults for these two thermistors. Reviewed the limiters for cell voltage, pack SOC, and temperature. Still need to test drive and verify the limiters, then get a firmware burn."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-23 02:02",
+                  "text": "Verified charge ended correctly. Pack voltage was 396V which seemed a little bit low, looked for reasoning in the log and the charge did finish at 399 V but must have been warm and just settled out over the weekend. Adjusted the charge to voltage to 400 V and topped off the charge. Drove to test the limiters initially getting heavy cutting in and out between SOC and Cell Max. Compared torque map between the GMC and the previous Avalos calibration, repeated for the limiter set. Everything looks okay must be due to the different gear ratio. Increased the SOC blanket limiter down to 80% and re-tested with Billy as the driver so I could monitor. Still getting a limiter cut-out and need to re-adjust some more. Left on charge for the evening."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-23 22:24",
+                  "text": "Went online with the VCU to continue fine tuning the limiters and noticed pack voltage at 229 Volts with 3 BMS groups missing. Verified reading on the CAN bus and checked actual pack voltage from the IVT at 396 Volts. Continued troubleshooting from the VCU and then tried a few key cycles and pulling 12V at the battery. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-29 22:20",
+                  "text": "Reviewed the limiters against several previous Avalos calibrations and the current Hastert calibration. Most were the same with Hastert being more protective, made some slight modifications to increase this. Turned on creep and copied over the related settings from Berke. Test drove to collect logs and evaluate creep smoothness. Charged to the top again and test drove with additional channels in the log to tell me which limiter is on when. Analyzed data, need one more round to get to acceptable."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-01 15:58",
+                  "text": "Looked around in the VCU for a rate limiter that applys to the transition between SOC and Cell_Max limiters, couldn't find anything and it probably doesn't exist. Asked Scott just incase. Used the logs collected yesterday to determine the exact SOC and Cell_Max that the limiter are flopping between, adjusted their ranges to have a similar derating when they transition then shifted the SOC limiter slightly heavier so it would be favored. Charged back up to the very top and test drove. Also reviewed plots from yesterday and noticed increasing the OCV first order filter TC from 2s to 10s didn't show up in the OCV variable getting used for SOC and then eventually wasn't impacting the torque limiters. Continued log analysis & trials before landing on a fully fuctional calibration that Billy thinks drives well. Had Marc test drive also."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-02 22:31",
+                  "text": "Reviewed yesterdays work and compared calibration against other vehicles in the fleet looking for any gotchas. Updated checkout sheet to fully reflect vehicle progress.  Wrote up email about OCV dipping issue and sent firmware off to AEM for a burn. Verified and fixed various notes found in the checkout sheet. Talked to AEM on the phone for a while about the OCV dip problem, looked at the raptor logic with Scott. Determined several tests to run to understand the filter TC's and ran them, analyzed results and determined whole new VCU200 build would be required to get the current configuration any better. Discussion with Marc and held off on the firmware burn for more testing."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-06 22:11",
+                  "text": "Troubleshot SOC dip by experimentally changing values in the SOC K Factor table and watching the results. Determined the SOC not using Coloumb counting at all because too few charge cycles have been completed, could not find a channel with the current count of charge cycles. Wrote email to AEM to verify all this."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:28",
+                  "text": "When through any and all notes for the truck looking for remaining items to tend to. Charged up to the top and modified SOC_EstimateBeforeChargeCycles to various numbers while watching SOC to determine how many \"valid\" charges there were. Looks like that critera is only met 2/3 so far which means it needs one more charge. Pulled current inverter settings and reviewed LDU EEPROM against latest profiles. Organized the LDU / SDU directories a little better."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 00:33",
+                  "text": "Shuffled around cars and chargers till I could get both Ivanhoe and Avalos charging. Plugged in Avalos and monitored charge near the top. Saw PackFullyCharged_Count drop from 2 to 1 and then count back up to 3. Seems like a bug of some sort but with lowering SOC_EstimateBeforeChargeCycles to 1 it might not matter. Asked AEM about that and put in a request for another firmware burn. Test drove with SOC now on Coloumb counting and monitored CellMax, SOC dip, regen smoothness, etc. verified in logs. Wrote up the results and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-09 22:40",
+                  "text": "Checked in on charge and trouble shot the reverse lights."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-10 22:43",
+                  "text": "Corrected the option for reverse lights and verified with Justin. Sent this new calibration out to AEM for a burn. Got that back and flashed it, forced a CellR in and then charged to the top. Test drove very gently to get EstimatedRange data to set. Vehicle ready for road testing."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-13 22:16",
+                  "text": "Explored various methods to get RND on the DigitalDash to show up more truthfully."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Fix SOC",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Firmware burn",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "d7f2b98bdf7687462715ca9359c50d727ada51a81527447a88966757a99ea47e"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kbwfup",
+              "name": "Call Shwash to detail, Wed",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868kbwfup",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2661d7ec5ca774c41714f3c88a7e7279f39898a89fdf8e5ed451c76b233891b4"
+            },
+            {
+              "id": "868jv1z7m",
+              "name": "Coordinate transport to CA",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868jv1z7m",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-04 23:13",
+                  "text": "Waiting on go ahead to ship."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-05 17:58",
+                  "text": "Ask Julio about the Corvette."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-05 19:24",
+                  "text": "Emailed asking about plan for the Corvette."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:12",
+                  "text": "Waiting on go ahead to ship."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:24",
+                  "text": "Waiting on confirmation. Julio wants assistance in moving Corvette, not shipping back to CA. We'll come up with a plan when Marc gets back."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "9cc7a7f5cb76678883a870c6a48810b66c150c7862f69f256e7abf7bb21c51a0"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868k6wmub",
+              "name": "Complete PDI",
+              "status": "Open",
+              "list": "Avalos 72 Blazer",
+              "url": "https://app.clickup.com/t/868k6wmub",
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-06 19:07",
+                  "text": "@Alex Noonan @Marc Davis  PDI Findings.\n\nOverall wirings and hoses could use more zip ties and securing and existing ones need tails cut.\nLDU forward Motor mount contacts the bolt head thats holding the bracket on.\nAC Charger wiring dangling down near rear shock.\nFront fender liners are loose and or missing fasteners on both sides.\nRear battery hardlines rattling around and not secured.\nEbrake adjustment lock nuts all loose where it turns from one cable into 2.\n!!!Both inner drive shaft CVs at the LDU seem to be slinging grease.\nLets check front and rear axle Ubolt nuts and mark them tight.\nFront and rear diff vent hosed damaged or not secured. (front is just jammed up between brake lines)\nCheck all body mounts, 2 on the drivers side completely loose.\nTop/hardshell creaks/squeaks a bit. (prob not much to do about it)\n!!!vehicle drives ok but i felt like i was struggling to keep it in a straight line. it feels like it sticks in positions. maybe too much drag from the double dampers but it felt not great to me.\nRight defrost vent popping out of dash.\nA red backlight dot appears in the speedo gauge when the headlights are turned on. is this by design or some funky backlighting?\nReverse lights were INOP\nRear view mirror floppy.\nSlight looseness in the steering but it seems like its in the steering box and its a big ole truck. might be totally normal.\nMagnetic MSD cover missing.\nRadiator core support missing hardware\nBrake fluid a little low\nPower steering fluid very low\n12V battery mount very floppy\nA/C compressor mount missing hardware and flopping around\nPower steering pump flopping around. mount looks too light duty for it.\nA/C lines from compressor are not secured and cable clamp is falling off.\nPower steering return line quite cracked at both ends with no hose clamps.( might be wrong type of hose and fluid is degrading it.\nNo marking compound on any steering, suspension or brake components. would be nice to have everything double checked and marked as tight.\nOverall wiring in this vehicle is quite messy, most likely due to all the various repairs and revisions to the car over the years.\nHV going into LDU has a very tight bend and no support on it. is also rubbing on the frame.\n!!! AC charger input to the OBC connector looks blackened/burned!!!!\nNo license plate.\nCharge test passes ish. wakes up, starts charging but relays odd numbers. Known issue by marc and Devin.\n\nStill need to check tire pressures and lug torque when we dive into these things."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-06 19:10",
+                  "text": "Initial PDI is complete. list has been tagged to Marc and Alex to decide what we want to tackle and by who."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-09 19:34",
+                  "text": "Assisted Billy with tasks made form the PDI list. i secured more wiring and hoses under the truck, helped with diag of the reverse/brake lights and replaced the AC line into the charger connector that had melted on one of the legs. Is now charging and Devin is monitoring."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-10 19:01",
+                  "text": "This morning i was back on the blazer. took a look at the brakes, the booster had got out of sync. reset the adjustment at the pedal an the brakes came back. tested function with a few more key cycles and they were working.\nMoved onto the rear vehicle lighting. after yesterdays advice that the reverse lights were always on i started by confirming this. we found that it had changed and that no turn signals were working now but the brakes and reverse were. started some diag and checking fuses, then found that someone had inspected the steering column and then found that the wiring had been pulled down, pulled apart and not installed correctly. 2 pins were pushed back and the connector was only half connected. re secured the connector and all lighting came back."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-10 19:30",
+                  "text": "Continued brake adjustment at the end of the day."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-13 19:38",
+                  "text": "Took a look at the brakes from the lock up issue on friday. advised marc on what to watch for during test driving."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-07-14 18:38",
+                  "text": "test drove for a rear lock up concern in the rain from marc. confirmed the rears did seem to want to lock up first so we decided to look up parts to install a rear bias adjustment. got with billy about the parts selection and parts are on the way."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d1d4c50019ad2a5f3603edac784c15bffc5d1d7c90bb885131a2244c7a02b033"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Miner",
@@ -185,10 +1167,152 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "4923c129aa427501c2a657842372b56f4db7b9a2fd3464a226499e056e96e2db"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868ecur5m",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868ecur5m",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-17 23:10",
+                  "text": "Went through AEM checkout sheet and highlighted all the items I want to be in the finalized checkout process. Organized and sorted various items into a more meaningful order. Reviewed pack burn logs and determined the pack held 53kWh of energy. Updated this in the calibration and continued checking various options and transferring to the sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-08 23:04",
+                  "text": "Checked heater contactor control with Dave. Ran through inverter checkout adjusting minor settings and transferring them to the sheet. Drove checkout from 27.64% to 53.66%."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-14 00:08",
+                  "text": "Worked checkout sheet from 53.66% to 65.04%. Added various items that require a more in depth look to the punch list."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-14 21:52",
+                  "text": "Walked through remaining checkout options modifying and transferring to sheet. Checkout now at 76.28% Tables, Maps, Limiters, and log analysis still left."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-16 03:42",
+                  "text": "Continued filling out checkout sheet. Found data needed to complete checkout was between one and two years out of date and prior to several firmware changes. Discussed priority with Alex."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-20 03:15",
+                  "text": "Diag for clicking contactor during charge. Started charge and over rode contactors to narrow down which one was clicking. Ended up being a channel marked spare that actually had heater bricks on it. Changed this channel from Wake to Battery Pump which should stay always on during charging and driving. Should review logs to verify this behavior."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-09 21:38",
+                  "text": "Troubleshooting for vehicle stuck on with the key out. Hooked up AEM Cal and discovered wake switch was kicked on."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-22 23:28",
+                  "text": "Re-organized and moved gauge checkout information to the vehicles sheet. Marked done. Disabled the LEM sensor. Don't see any faults in the VCU but should also check the CAN bus. Ran through the checkout sheet updating items. Posted for the team with additional status details."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-23 22:35",
+                  "text": "Charged the vehicle up till 402.3 but charge doesn't seem to shutdown. Troubleshot a bit and ended up sending logs to AEM.  Verified correct SOC profile for the pack was being used. Marked off a few extra miscellaneous items in the checkout sheet and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-24 21:13",
+                  "text": "Reviewed various charge for related settings to verify they matched as expected. Monitored the CAN bus for the VCU request for voltage and current and noticed that current was set at zero even with the correct voltage. Moved back to the VCU and reviewed various current limits and found CCL was set to zero. Looked into the configuration for that and changed it from CellR based back to temperature based and reviewed the temperature tables. Monitored charge for another couple of minutes and it shut down correctly. Fed Claude exported AEM calibration files and several manuals for AEM then asked for a summary with default settings with a startup guide. Unfortunately Claude turned two ~40 page manuals into one 259 page guide with way more content to validate and review making the strategy not worthful on the first attempt. Reviewed the high level limiters and took the vehicle for a test drive to verify cell max under regen and adjusted the torque table with Marc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-06 22:33",
+                  "text": "Updated the pedal calibration. Ran various stomp cycles slow and fast to ensure the cable wasn't sticking and that the cross check between channels was 1 percent or so. Exported the torque tables for Hopkins and Miner. Wrote a Python script to interpolate the 10x10 dimensional torque table to a 19x19 dimension torque table that the VCU300 requires. Provided information and an explanation to Marc as a starting point for his tuning. Pulled AEMDash logs and troubleshot coolant temp warning showing up. Temperature did indeed spike when the pump was not running, The VCU was requesting the pump to run the entire time, and the log shows pump failing the previous key cycle, suspected air bubbles that causes that specific pump to shut down internally. Raised the regen limit from -50 to -100 Nm."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-18 21:56",
+                  "text": "Test drove with Marc and adjusted limiters and pack capacity. Also enabled creep and tuned."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:26",
+                  "text": "Reviewed all punchlist items. Added the wifi credentials to the CAN logger, still need to verify the configuration has sync'd once the vehicle is within wifi range. Reviewed various temperature setpoinnts for different drive systems and decided digital dash temperature slider was okay without changes. Formatted punch list and posted to Slack."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "206b69058a4a089dfe4138fc0de3a328b42e3bdc783e37ee1231090f4e401f0e"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
@@ -244,10 +1368,234 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Connolly 58 220S"
+        ],
+        "open_tasks": 4
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868jyua5n",
+              "name": "Install passenger sun-visor",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868jyua5n",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-08 19:27",
+                  "text": "Need to find and install passenger-side sun visor. I have a vague memory it was in the trunk when the car came in. Need to go to storage and in look for it. 1 hour."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 02:06",
+                  "text": "Went to storage and located box with trunk accessories, including passenger sunvisor. Will attempt to install tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-15 20:36",
+                  "text": "Installed sun-visor.\nMounting brackets slightly damaged, unable to hold visor 'up'.\nRemoved brackets and visor, attempted a variety of adjustments to get more tension onto the visor. Settled on lock-washers on each side, when brackets are bolted on created enough tension to hold it up."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-01 20:51",
+                  "text": "The passenger sun visor which was in the trunk and I installed is... still being floppy. The brackets are partially broken, and I have tried a few fixes and it's better but still flopping down over bumps. I've found new brackets on ebay. @Ryan Laurel has ordered it."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "20375998322f0298dcbedb217c1f40a0d3382a32e0ada8270056bbfc87ad50a7"
+            },
+            {
+              "id": "868karcam",
+              "name": "Replace front springs",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868karcam",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-09 21:59",
+                  "text": "Cross-referenced multiple websites to find correct springs for Connolly.\nMeasured - 25mm of rake on vehicle currently."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:30",
+                  "text": "Call/emailing Jelenik\nScreenshot 2026-07-10 182431.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 22:52",
+                  "text": "Order sent today"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "70c98fd073d5754c5e03bcc6cea83d852385b0faa095d602f912f34e6b0a2791"
+            },
+            {
+              "id": "868k0angv",
+              "name": "Troubleshoot vibration",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0angv",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 00:38",
+                  "text": "Vibration still appears present after driveshaft balancing, believed to be suspension or tire.\n\nVibration felt in steering wheel, especially between 50-60.\n\nTomorrow will swap front and rear tires to see if it follows."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-13 02:14",
+                  "text": "Swapped front tires to rear.\nPulled off front bearing covers and inspected front hubs for play: no significant play found.\nDuring tire swap, noticed a chunk missing out of the right rear rotor. Issue not present before vehicle ewnt to Colvin's. Cheapest rotor I can find (PN 1804210801\u00a0)\nwww.mboemparts.com/oem-parts/mercedes-benz-brake-drum-1804210801 \n Same front and rear."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-16 00:48",
+                  "text": "Colvin's provided replacement brake drum.\nScoured drum surface - prepped for installation.\nInstalled. Test drove.\nVibration much reduced from 50-60. Still some vibration around 40mph, according to @Billy Arrasmith this is a characteristic which we haven't been able to rectify.\nWill do further test-driving tomorrow. May be complete."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-16 17:51",
+                  "text": "I also feel like the front end vibration is much improved after replacing the broken brake drum and swapping wheels front to rear. The steering wheel is now pretty steady. The back seat feels slightly more vibey, I think it's one of the wheels slightly out of balance. May be worth having the tires rebalanced when we get the alignment done, but overall it's pretty good. There is still a little vibration at right around 40mph, @Billy Arrasmith indicated this is sort of known characteristic of the driveshafts and there's not much to do there. I'd like @Marc Davis and @Billy Arrasmith to give their blessing when they get back, but I feel we're good here."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:30",
+                  "text": "Marc Davis\u00a0\u00a0[12:34 PM]\n@channel OK, I drove it. Definitely still vibration, though. I used the vibration app on my phone on the floor of the car and found two peaks. One at 12Hz and one at 24Hz when I was driving at about 50 mph. These tires turn 870 revs per mile so, at 50mph, that's about 725rpm. 725rpm/60 seconds = 12Hz.\u00a0 If it were driveshaft vibration, it would be at 4.1x wheel speed which is 2972rpm and about 49.5Hz.\u00a0 So, I believe we are dealing with wheel vibration here\n\nLet's have our best shop re-balance these wheels @Ryan Laurel and, if it's still there, we can tell Pat that we can try to get a set of these but no guarantee that they'll be perfect either:\n\nwww.niemoeller.de/en/w180/w180/B010/26/c40004-disc-wheel-with-drop-centre-rim-5jx13 \n from our collective brain:\nThe two cursors land on two different things.\nCursor 1 at 11.8 Hz = 708 rpm. That's your wheel/tire rotation. At 50 mph and 870 rev/mile you computed 725 rpm = 12.1 Hz, so 11.8 Hz is dead-on (within speedometer/tire-circumference slop). This is first-order tire/wheel imbalance \u2014 a heavy spot or out-of-balance wheel hitting once per revolution. It shows up strongest on X (fore-aft) and Z, consistent with an imbalance/uniformity issue.\nCursor 2 at 23.7 Hz = 2\u00d7 the wheel frequency, the second harmonic. A peak at exactly twice rotation speed is the classic signature of tire/wheel non-uniformity \u2014 radial force variation, out-of-round, a flat spot, or a mounted-tire/rim runout that produces two bumps per revolution. It's the dominant peak in your X trace, which fits a radial uniformity problem felt as a fore-aft/vertical shake.\nSo what's going on: you've got a wheel-speed-order vibration. 1st order (11.8 Hz) points to imbalance, and a strong 2nd order (23.7 Hz) points to tire uniformity / out-of-round / runout. Both scale with vehicle speed, so the give-away test is to drive at a different speed \u2014 both peaks should slide proportionally (e.g., at 60 mph they'd move to ~14.2 and ~28.4 Hz). If they move with speed, it's rotational and not engine/driveline-fixed or structural resonance.\nA couple of things worth checking to confirm and narrow it down:\nThe smaller red bump near ~3 Hz (around 180 rpm) \u2014 too slow for the tire; could be a driveshaft or half-shaft order depending on your axle ratio, or body/suspension hop. Worth identifying since your build has a custom driveline.\nWhether the 23.7 Hz peak dominates over 11.8 Hz (it does here, in X) suggests the uniformity/out-of-round issue is the bigger contributor to what you feel than raw imbalance.\nPractical next step: road-force balance or at least a spin balance plus a runout check on the worst wheel. If balancing kills the 11.8 Hz but leaves 23.7 Hz, the tire itself (or the rim) has a uniformity defect and may need to be re-indexed on the rim or replaced.\n\nJordan Jones\u00a0\u00a0[12:56 PM]\nVery thoughtful analysis there, thanks for typing all that up 'Geoff'.\n\n@Ryan Laurel can you see if they have the ability to do a road-force balance (not just a regular balance)? If not, let's find somewhere that can.\n\ngeoff raynak\u00a0\u00a0[12:57 PM]\nwell ... i went deeper ... and told it \"this really only happens around 50mph\" ... and the answer is quite interesting (if true)\n\nHere's the distinction. Imbalance and uniformity peaks (your 11.8 and 23.7 Hz) are always present; their amplitude grows smoothly with speed and never has a \"sweet spot\" where it gets bad and then better. What you're describing \u2014 bad at 50, better on either side \u2014 means that at 50 mph, a rotational forcing frequency is lining up with the natural frequency of some part of the car, and that part is ringing.\nAt 50 mph your tire turns at 11.8 Hz (1st order) and the 2nd order sits at 23.7 Hz. One of those is almost certainly coinciding with a structural resonance:\n23.7 Hz is a very typical tire/suspension hop or wheel-hop resonance (unsprung mass on the tire/suspension spring rate usually lands in the 12\u201318 Hz range, but bushing-stiffened or heavier custom setups push higher). It's also right in the band for many driveshaft bending modes and subframe modes.\nThe fact that the 23.7 Hz peak is the dominant one in your X trace, and the symptom is speed-specific, strongly suggests the 2nd tire order is exciting a structure that resonates around there.\nSo the mechanism: the tire's 2nd-order force (from uniformity/out-of-round) is the exciter, and something on the car has a natural frequency near 23.7 Hz that amplifies it. Off 50 mph, the forcing frequency walks away from the resonance and the amplitude drops. That's why it's a 50 mph phenomenon and not a 40 or 60 phenomenon.\n\n[12:59 PM]\nand this was teh suggested \"test\"\nThe clean test is to decouple forcing frequency from road speed. Coast in neutral through 50 mph versus pull through 50 under power. If the vibration is identical either way, it's tire/wheel-driven (rules the engine and driveline torque path out as the source). If it changes, driveline is involved.\nMarc Davis\u00a0\u00a0[12:59 PM]\nTo add more to this, the car definitely exhibits the wheel hop at speeds above75-80mph. Tiny tires on old wheels"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:31",
+                  "text": "IMG_2022 (2).jpeg\nIMG_2021.jpeg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:52",
+                  "text": "Test drove after work performed. Feels not perfect, but better."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:54",
+                  "text": "After test drive and @Devin DuMont 's inverter/firmware flashing, GUI entered boot loop. Persisted for 20 minutes, plus through a 12V reset. An hour later I went to bring the vehicle in and issue was resolved.\n12V constant and MPR both read steady 13.8V.\nWaiting for further instruction / new task for this issue."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-25 02:06",
+                  "text": "Test drove Connolly... I was noticing a clicking at very low speeds, almost like something rattling around in the wheel cover? I pulled the covers when I got back and didn't see anything amiss, but now the noise is gone. Possibly one of the wheels covers not set right? Anyway keep an ear out for that.\n\nWhile I was walking around I noticed that they put some wheel weights on the outer lip, interfering with how the chrome trim sits against rim. The right rear is the worst with the two weights. My concerns are aesthetic (doesn't look great) and the fact that the chrome trim may fly off someday, though it feels pretty solid right now."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 22:14",
+                  "text": "@Alex Noonan @Billy Arrasmith\n\nFor the pulsing vibration... my gut feeling is there is a lot of added weight on the right rear tire... I still think road-force balancing is worth a shot... did a bunch of that at Tesla and it would reveal things a regular balance would not. The Hunter website lists all the Firestone locations as having the ability to Road Force balance. If Firestone doesn't want to touch a car this old I'm happy to put Connolly on jacks and pull the wheels off."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-01 20:50",
+                  "text": "Test drove after road-force balancing. Vibration still present. Harmonic pulse especially present between 40-45mph, coasting or decelleration.\nSwapped spare tire on. No change.\nPer @Billy Arrasmith, a vibration around this speed is inherent in these driveshafts and he has not been able to tune it out."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-02 01:25",
+                  "text": "@Marc Davis :\nMarc Davis\u00a0\u00a0[6:13 PM]\nNew vibration theory. The vibration has not gotten any better than before after the tire balancing and spare swapping. @Jordan Jones and I were brainstorming about when it appeared. It seemed to be after the second Colvin trip. @Devin DuMont - did you turn self sense assist on in this car? If so, when? I'm beginning to wonder if this is like the Corvette Lowe rpm \u201cgrowl\u201d we experienced when we turned it on in that car. This would be the only W motor we have turned on SSA in and maybe that is the culprit. This car, at 60, is spinning at about the same speed that the Corvette is at 30 so there's a chance this is related. Can we confirm the EEPROM tomorrow and test?"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-06 23:30",
+                  "text": "Assisted Dave in troubleshooting vibration issue (ran throttle pedal, held differential, supplied spare parts and instructions for rebuilding, etc...)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-06 23:31",
+                  "text": "New axles are possibly available from Germany (Niemoller lists as 'not in stock but may be ordered'), but cost is extreme (approx $7500 for the pair) Left Right.\n\nThere are used axles on ebay for a few hundred each, condition unknown. Left Right\n\nNew wheels are currently ~$200 per from Germany. Some photos they are painted black, some silver. Unclear of exact color."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-07 15:46",
+                  "text": "Meeting with @David Webber @Marc Davis to decide on plan for vibration troubleshooting. Test: Clocking of wheels. Moving worse wheels to the front.\nAssisted getting vehicle onto jackstands, preliminary testing.\nLugnut: 110 990 00 59\nTire OD: 24\""
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-07 19:20",
+                  "text": "Connolly 220S \u2014 vibration diagnosis (July 7)\nDiagnostic steps taken today:\nRe-measured vibration after roadforce balancing + re-clocking the wheels. The 2nd-order \"out-of-round wheel\" signature dropped ~75% (wheels were a real, now largely-fixed contributor), but a once-per-rev (1st-order) vibration remained and became dominant. Balancing can't touch that, so it points inboard to the hub/flange \u2014 matching Dave's damaged pass-rear flange reading .007\u2013.009\" lateral runout.\nCleared a separate scraping noise: cotter-pin wire diameter too small, letting the spring keeper rub inside the drum. Confirmed the flange damage was pre-existing (visible in earlier brake-work photos).\nJackstand test, driveline spun bare (no wheels/tires/drums, ~55\u201360 mph equiv): pulling the wheels + drums removed ~70% of total vibration (0.110 \u2192 0.031 g). Confirmed most of it lives at the wheel/tire/drum/flange interface, but exposed a smaller driveshaft 1st-order residual (~0.013 g) that wheel work won't fix.\nAxle isolation test, each rear axle spun alone (open diff, opposite side held): right axle threw a big once-per-rev shake (0.039 g) vs the left (0.002 g) \u2014 ~20x worse. A clean 1st order like that is the signature of a bent/eccentric right rear axle shaft or flange.\nFinal conclusion: the right rear axle is bent \u2014 that's the residual vibration source; the left axle is good. It's one axle, not the pair, so the ~$7,500 German set isn't needed. Plan: confirm with a dial indicator (right vs. left as reference), re-face the flange for brake-drum seating, and source/refurbish a used right axle. Next steps: order a 2nd-hand right axle plus wheel bearing, pull the RH axle and take both to a machine shop; if the old one measures true, the issue is deeper in the diff (possibly u-joint). Colvin's was called for input before pulling on-site.\nPurchases links you just posted:\nRight rear axle (eBay): www.ebay.com/itm/322206351454 \n \nU-joint example (eBay): www.ebay.com/itm/226568823977"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-07 19:21",
+                  "text": "image (28).png\nimage (27).png\nIMG_7862.jpg\nimage (26).png\nimage (25).png\nimage (24).png\nimage (22).png\nimage (23).png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-08 16:12",
+                  "text": "Per @Marc Davis, attempted a test at 'ride height' (Billy in the trunk).\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-08 16:14",
+                  "text": "@David Webber to investigate the u-joint."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-08 16:14",
+                  "text": "Angle from tube to case:\nRide height: 2.0-2.5 degrees (axle pointed up).\nAt jackstand level: ~6 degrees\n\nGot another vibration measurement at 60mph. Marc put into Claude. Results:\nU-joint / ride-height experiment \u2014 it split the problem in two\nRe-ran the right-axle jackstand test, but this time loaded the car so the swing-axle U-joint was straight (yesterday it was bent because unloaded).\nConfirmed \u2014 U-joint angle drives the 2nd-order vibration.\u00a0A Cardan joint at an angle makes a twice-per-rev shake. Straightening it dropped the 2nd-order component\u00a087%\u00a0(0.0083 \u2192 0.0011 g). So ride height genuinely matters \u2014 setting/holding correct static ride height removes a real chunk of vibration. Cheap win.\nBut the main defect is 1st-order and it did NOT move.\u00a0The right axle's once-per-rev shake stayed put (0.042 \u2192 0.035 g, within speed variation). A U-joint angle can't cause a 1st-order \u2014 that's a bent shaft / eccentric flange / imbalance. So the joint isn't the cause of the big one; it's mechanical, and it travels with the right axle.\nRoad implication worth noting:\u00a0on the road the U-joint's 2nd-order lands at ~29 Hz \u2014 the\u00a0same\u00a0frequency we've been calling \"out-of-round wheel.\" So part of that stubborn 28.6 Hz on the road was probably the U-joint running at an angle, which is why roadforce balancing never fully killed it. Fixing ride height should take another bite out of it.\nTwo separable issues on the right rear now:\n1.\u00a0U-joint operating angle (ride height)\u00a0\u2014 real, 2nd-order, fixable by geometry. Set + verify static ride height. Experiment shows it works.\n2.\u00a0Right axle 1st-order defect\u00a0\u2014 bent shaft / eccentric joint flange (part 27) / imbalance. This is the main event. Dial-indicate the right axle shaft + flange runout vs the left as reference, and check the U-joint (part 6) for wear/play while we're in there.\nCaveat: jackstand spins the right axle at 2x road speed, so it exaggerates the 1st-order force ~4x. Real defect, but the road contribution is more modest than the number here (it's the ~14 Hz road residual, ~0.03 g).\nPlan: dial in ride height, then measure/address the right axle shaft + flange runout. New wheels still won't touch either of these.\nimage.png\nimage.png\n\n\n\nMarc Davis\u00a0\u00a011:05 AM\nOK,\u00a0@David Webber\u00a0this is what we need:\nRadial play at the joint\u00a0\u2014 pry/rock the shaft each side of the cross and dial-indicate the movement. This is the direct \"is the joint sloppy\" number. More than a few thou, and especially anything approaching the ~0.08\u20130.1\u2033 the lever-arm math said you'd need, tells the story.\nRotational lash\u00a0\u2014 rock the yoke back and forth and feel/measure free play across the cross (worn trunnions/needle bearings show up here).\nRadial runout of the shaft right at the joint\u00a0while turning it slowly \u2014 separates a worn joint from a bent shaft.\nAny notchiness or roughness as you rotate it through a full turn.\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-08 20:36",
+                  "text": "Work performed\nThe right rear axle and a new wheel bearing were ordered first thing. Marc's ride-height experiment split the vibration in two: straightening the U-joint angle killed the 2nd-order shake by 87% (fixable via ride height), but the main 1st-order defect stayed \u2014 a mechanical fault traveling with the right axle. David then inspected the internal U-joint and found it clearly bad: excessive play, lash, witness marks, notchiness. He made the car drivable again (gear oil, parking brake, wheels torqued). Jordan mapped the parts across German fiches (sliding joint 1803500513, U-joint 111 350 00 28, sliding sleeve, shims) \u2014 ~$1,600 to rebuild, or ~$450 for a used U-joint \u2014 and located a needed special tool.\nCommunications made\nInternally, the team agreed to call Casey at Colvin's for a removal/rebuild plan; Jordan noted he'd specifically asked Colvin's to check this joint during the original rebuild and it apparently wasn't. Externally, you sent two supplier emails: one to Jelinek (\"1959 220S\") asking for part 53/53A from a rear-axle diagram, and one to Niem\u00f6ller (\"W180 rear axle sliding joint compatibility question\") asking them to confirm sliding sleeve 180 350 07 13 fits your car.\nConclusions\nTwo separable issues: a ride-height/U-joint angle component (fixable by geometry) and the main 1st-order defect, now pinned largely on a worn internal U-joint that should have been caught in the prior rebuild. Next step is a gameplan call with Colvin's, with parts sourcing pending replies from the two German suppliers. The car is drivable meanwhile."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 22:53",
+                  "text": "Order sent today"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "3b07d331698ec9c3b4d96dc51df9f7c49570db90cf8a4d2c7e2a46766ab1e8ee"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868k0je6t",
+              "name": "Update EEPROM",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0je6t",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-22 23:08",
+                  "text": "test drive"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 02:39",
+                  "text": "long test drive, notes, and updates"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on shutter comp",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on self sense assist",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ferdman",
@@ -311,10 +1659,391 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Ferdman 66 Bus"
+        ],
+        "open_tasks": 9
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868k33pkg",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k33pkg",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:25",
+                  "text": "Comment from yesterday:\n\"Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK.\""
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 20:29",
+                  "text": "Today:\nPulled spring plates left and right.\nBoth backing plate and adjuster plate showed significant bending.\nStraightened all four pieces as much as practical\nCut and cleaned threaded block off both sides.\nDrilled pilot hole for stud."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "3D printinng TPU bushings temporarily until new ones arrive from Jbugs.\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:57",
+                  "text": "Pressed in studs.\nCleaned from welding.\nPrepped for paint.\nPut 4 coats of hot-rod black.\nTouch-up painted adjustment blocks"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-19 23:58",
+                  "text": "Ordered wide, strong washers for clamp m8 stud"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 00:04",
+                  "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-23 23:57",
+                  "text": "Installed new bushings and washers."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-27 02:33",
+                  "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:53",
+                  "text": "Test drove after work performed. Adjustment working as designed, no halfshaft noise."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-02 01:21",
+                  "text": "Decided to proceed with rear shock mount replacement.\nRemoved snubber mount from passenger side to test fitment of bracket.\nDrilling of spotwelds insufficient, bead on upper edge blocked by body. Had to remove what I could below and chisel / work the rest loose."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:01",
+                  "text": "Updated CAD and placed CAD in purchases.\nContinued removal of damper and old shock mount. Both sides removed with grinding/spot weld drilling/and metal fatiguing.\nNeed to clean and paint."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-14 21:52",
+                  "text": "Received brackets.\nMeasured, drilled and installed brackets.\nInstalled shocks - 1.5 turns CW (middle setting).\nSet ride height to 280mm in the rear."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "12e765521e3da13df9cd8f20096dd95dc6ec87266beae782eb81b1aa11e17fbc"
+            },
+            {
+              "id": "868k7faah",
+              "name": "Adjust front ride height",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7faah",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:48",
+                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:49",
+                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-09 21:57",
+                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:43",
+                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:44",
+                  "text": "Currently has 1\" reverse rake."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 16:24",
+                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-15 23:23",
+                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-17 00:09",
+                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "78dbc1bc4de8fef77dbe445d3d0d841e01418bf2fdf63477e4533e474318e113"
+            },
+            {
+              "id": "868k7em0v",
+              "name": "Install roof rack",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7em0v",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868h453az",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868h453az",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-16 22:05",
+                  "text": "Read through AEM Tesla SDU board swap manual to find any differences from the LDU. Contacted AEM to verify firmware. Looked around for new programming cable mentioned in manual, verified pinout against docs before powering up. Tried connecting with latest LDU symbols file, no luck. Will need AEM support. Hooked up to both PMUs and flashed their corresponding firmware's. Verified CAN network resistances and transferred to startup sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-18 14:24",
+                  "text": "Caught up with email chain from AEM, added the new SDU firmware into my repository. Connected to vehicle to verify, made back up to the existing EEPROM settings and added to my compare report."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-02-18 23:18",
+                  "text": "Compared inverter EEPROM setting to the LDU profile. Developed SDU settings profile from stock siles and notes in the SDU manual. Verified all these made it into the inverter and got backed up in the correct directory. Upgraded firmware to and flashed calibrations for both PMUs. Key'd on vehicle for first time and connected to VCU to check faults. All faults easy to clear. Test drove vehicle."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-11 23:17",
+                  "text": "Reviewed checkout progress. Adjusted VCU settings and marked off in checkout sheet. Flashed main branch of the PMU software, verified all channels except for HVAC related things. Took vehicle weight and filled in various other checklist items. Test drove and felt a significant shudder prohibitinng speeds about 5mph. Shutter comp was already on but adjusted the setting further which completely removed the problem. Couldn't continue testing due to another mechanical noise suspected in the axles."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:39",
+                  "text": "Attempted to connect to the SDU \"online\" like we do with the Cascadia variety motors. Tried various cables and adaptors until one was found that connected. Adjusted shudder down and eventually off testing scenarios and measuring clatter, which in my opinion seemes to be gear lash and a poorly tuned control loop. At very low and zero torque requests the motor seearches for a home position but never finds it due to smacking gears and over applying torque. EEPROM settings have not been reviewed against all avaliable information, this needs to be done first before moving on."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 03:01",
+                  "text": "Reviewed all emails which mentioned SDU. Read through the SDU specific manual and noted default EEPROM settings that were mentioned. Compared this to the two default SDU files provided as well as the current blend and noted differences. Also compared four additional stock SDU files and several files from the LDU. Developed a default profile and workable zip folder for future use. Tried new shudder tune in vehicle, need vehicle on the lift to fully verify."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Ferdman Bus Startup: Drew HVAC summary diagram for understanding of which control needs to be configured where. Removed Preheim / Witham blended logic and added in clear logic specific to the bus. Tried various PWM frequencies until I found the least annoying sounding one. Tested fully working, no longer getting heater contactor 2 with no logic changes, dead contactor suspected. Could not hookup to the VCU to fix AC since the firmware was modified and the proper files were not provided by Ampere. Test drove and observed the gear clatter. Found a good stretch where I can repeat that phenomenon. Reviewed the shudder comp manual to better understand the several settings I can change. Went online with the SDU. Made EEPROM backups and flashed my new tune. Test drove again. Repeated several times. Found several worse tunes and one suspected better. Want to start observing torque feedback instead of relying on \"feel\" before deciding the final tune proposal."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-21 00:16",
+                  "text": "HVAC: Diagnosed the heater contactor down to bad box wiring. Verified AC settings in the VCU and activated power to the slim vintage air unit. Tested AC cold and working.\n\nShudder Tune: Went back to the default Ampere shutter tune today and immediately got a zero RPM search like before. Put my shutter tune back in and that instantly disappeared, so I left mine in. Happy to go for a test drive with anybody since there's always questioning about is Devin hearing the right thing, but Jordan can also verify this fixed. The gear clack / spline looseness is completely gone, makes sense why I could only make it worse with shudder gain. Last, there was one sub 1 MPH shudder noise I think I can tune out since I can tune it way worse, but I might be getting picky again. If no one else can find that scenario we can leave it as is. It does rattle tthe window but you have to be on the right slope hill with the right pedal position.\n\nPedal Fullness: Test drove with Jordan monitoring the pedal input and torque. Always saw 100% pedal and 100% torque request, need to see logs to be sure but suspected inverter level problem. Also could be user/cable level problem where they are not fully pressing the pedal. There's a significant difference between slow and fast pedal presses, pressing slowly takes more pressure to reach 100% than stomping the pedal."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 22:12",
+                  "text": "Met with the team and reviewed status. Re-ran the throttle pedal test using raptor to log APP, torque request and torque feedback. Had Claude make a plotting tool for the raptor logs. Determined issue due to the physical pedal linkage"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-01 16:18",
+                  "text": "Tested the new pedal assembly. Set the calibration back to default. Verified smooth 0-100% APP in Raptor-Service. Hooked up the AC gauges with Jordan and tuned the fan pressure setpoints to something more stable."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-02 03:21",
+                  "text": "Met with the team and reviewed status. Drove with Jordan taking logs of the APP, and resulting torque request. Discussion with the team. Re-configured PRND to use LED's. Verified which signal was actually used for inverter temp and motor temp on the GUI. Updated the GUI to the latest versions. The status for AC / Heat still not workinng correctly, put in ticket with Ampere."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-02 21:49",
+                  "text": "Retesting the APP power surge. Test drove with Marc and plotted the results. Noticed in the analysis that torque request is actually getting reduced and then increased. Wrote up analysis and sent to Ampere."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-12 21:16",
+                  "text": "Showed Jordan how to use the BlueBox to log temperatures, had him drive the bus and a second car as a control. Showed him how to extract the logs and analyze them to determine that coolant was actually motor. Hopped onto the VCU and selected the correct option, Verified with the test drive."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:27",
+                  "text": "Reviewed various EEPROM backups and HEX files provided by AEM and developed previously in house. Couldn't find anything in the EEPROM limiting reverse torque. Wrote up email for support ticket with AEM to build a new firmware without a hardcoded reverse torque cap."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "887adc15bdebf36a95c4b1403fc75db1f0e3a0fc7144c03c3e8e2822b8320c5b"
+            },
+            {
+              "id": "868jx2u8g",
+              "name": "Troubleshoot throttle issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jx2u8g",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868k7faah",
+              "name": "Adjust front ride height",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7faah",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:48",
+                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:49",
+                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-09 21:57",
+                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:43",
+                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:44",
+                  "text": "Currently has 1\" reverse rake."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 16:24",
+                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-15 23:23",
+                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-17 00:09",
+                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "78dbc1bc4de8fef77dbe445d3d0d841e01418bf2fdf63477e4533e474318e113"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868kcb9y1",
+              "name": "Assess CV axles",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kcb9y1",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:45",
+                  "text": "pulled the axles\ni had them out of phase\nreassembled them correctly\ninstalled them back in\nspun up the bus\nhad some clicking in the dr side\nfound the shaft was hitting the mounting flange inside the CV\nshimmed the CV and recentered them\nthis took care of all the clicking noise\nwaited till later to test drive\nMarc drove it\nhe heard a grinding noise\nthis was the shock hitting the CV while tuning\nthis was due to the new shock pacement\nAharon is looking into this issue while Jordan is out"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-15 21:46",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/bd7c49c5-8022-4d73-aa41-f343c1658a89/IMG_1646.mov?view=openIMG_1645.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-17 18:15",
+                  "text": "so after ride height adjustments\nwe found the CV's to be at 19* and jump to 22-25* when taking a corner\nthis is outside the limit of the stock style CV range\nClaude said we need a CV with the Star machined for clearance\nthis will give us the angle we need without it hitting\nparts are ordered will take a week before we get them"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c7a5d802e84e392ca22d88be0e5e81e0ab1c09d4773d21782df70e6a7f428e03"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868k7fdjp",
+              "name": "Assess noise",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7fdjp",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-09 13:22",
+                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jqn3f6",
+              "name": "Vehicle alignment",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jqn3f6",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-05-29 17:53",
+                  "text": "Waiting on go ahead from Jordan once suspension is done."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:13",
+                  "text": "Still waiting on spindles, following up today, 6/12"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:29",
+                  "text": "Jordan finalizing suspension work, will schedule as soon as he gives the thumbs up."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:28",
+                  "text": "Alignment scheduled for Wed 7/22 @2pm, Dropping off the afternoon on the 20th."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1c3b1ea3d51bf59a46d4eda5b436c057f4be5ed7141143b3ee61377706ffea07"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Chuter",
@@ -370,10 +2099,55 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Chuter 62 Healey"
+        ],
+        "open_tasks": 2
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868g9vwju",
+              "name": "Start up Vehicle",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868g9vwju",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:41",
+                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 03:09",
+                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 22:21",
+                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-15 21:03",
+                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 03:51",
+                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "23b9af3e50f959c2ebd004f61b2cba0dc841669cef7ec47b584e1c9f0cfd92ea"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Kelly",
@@ -429,10 +2203,186 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=3"
+        "found": true,
+        "matched_lists": [
+          "Kelly 63 Corvette"
+        ],
+        "open_tasks": 4
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868eqndhd",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868eqndhd",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-14 02:15",
+                  "text": "Started on checkout list. Checked off easy things like the BMS related items. Those were all looked at last month. Upgraded the VCU firmware, Cleared faults most came back. Checked inverter settings and made backups. Checked other various easy items like pedal, brakes, and PRND."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-15 21:52",
+                  "text": "Started working on alarm reduction. Checked current status on Raptor. Also tried out OBDII scanner made by PEAK. Tried several ways to get the GUI updated and set as default, not working like the other vehicles for some reason. Put in a ticket with Ampere. Also discovered an interesting bug that resulted in the parking brakes getting stuck in the opening state when plugging in the charger. Also added to an Ampere ticket."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-16 21:39",
+                  "text": "Continued work to eliminate faults in the diagnostic buffer. Inverted direction for IVT current. Range still showing -400 miles, put in a ticket with Ampere. Updated dash with Lawson on the phone, after several key cycles default app no longer selected, put in a ticket with Ampere. DCDC faults came back, another ticket. Weighed vehicle, noted tire size, etc. Ran through checkout sheet again checking off boxes for charging and vehicle specs."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-17 21:02",
+                  "text": "Checked GUI firmware versions and responded to ticket. Checked in on status of other items, all are acknowledged by Ampere but not yet resolved. Checked AC and heater with Billy."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-18 21:27",
+                  "text": "Continued follow up on Ampere Tickets. Installed new FW with lash control. Trouble shot not going into gear. Un installed then re installed new FW."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-21 21:14",
+                  "text": "Checked Raptor for a way to turn on all fans to help with AC tuning. Nothing found as a permanent solution. Temporarily forced on all fans. Put in ticket with Ampere to add in that feature."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-23 22:55",
+                  "text": "Updated GUI firmware with Laswon. Troubleshooting brakes with team. Verified PMU settings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-24 21:46",
+                  "text": "Hooked up to Raptor-Service and checked the AC pressure under various AC settings. Watched AC compressor pressures for a few cycles to verify pressure. 1200 kPa looks fine, got alarm again driving with Billy. Updated Ampere ticket. Checked inverter settings, disabled self sense."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-25 23:40",
+                  "text": "Continued troubleshooting AC with Billy."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-01 21:54",
+                  "text": "Checked AC pressure with Noah & Aharon using Raptor-Service. Checked item off checklist, reviewed other faults. None seem to be popping up currently. Will continue to monitor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-06 22:38",
+                  "text": "Tested delaying AC fans to 1500kPa, compressor still kicking off with over current fault. Put in ticket with Ampere to update them on findings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-22 02:43",
+                  "text": "Used Raptor-Service to monitor AC pressures while Billy verified with the gauges. Took a video and discussed with Marc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-22 21:47",
+                  "text": "Looked up specs of sensor and verified pinout with Alex docs and Ampere docs. Checked pressure readings of sensor installed on Shah Mustang as well as used that VCU to get a second data point on the spare sensor we tested yesterday. Consolidated all data collected and continued verifying pinouts, wiring, configs, etc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-25 21:21",
+                  "text": "Continued following my theory about pressure sensor wiring. Tested and proved that, corrected wiring in both Shah and Kelly. Pressures now match the analog gauges but compressor still faults out. Discussion with team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-26 23:05",
+                  "text": "Re-checked wiring with Aharon, monitored Raptor service to correlate new pressure values with analog gauges."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-29 21:37",
+                  "text": "Verified gamma EEPROM setting was correct. Made backup of EEPROM and transferred everything to the checkout sheet. Compared EEPROM profile to the stock symbols file to verify correct settings were input."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-04-29 22:19",
+                  "text": "multiple test drives and log reporting. set car up for gamma adjustment. wipe down after wet drive"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-01 01:43",
+                  "text": "Updated ticket with Ampere about new testing data available with the correct motor. Reviewed response and collected information to send to Cascadia. Drafted and finalized email then sent off. Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-09 22:29",
+                  "text": "test drives and data logging."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-10 22:20",
+                  "text": "Organized and reviewed all the road testing data from yesterday. Downloaded most up to date Cascadia documentation and looked for any updates to describe the use of various EEPROM setting not mentioned in previous documentation. Still didn't find documentation. Reviewed email recap and testing procedure, added in questions. Sent off to Cascadia. Repeated six trials with the CAN logger, still need to fully analyze this data."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-10 22:20",
+                  "text": "Grabbed up to date backup from Kelly's invverter. Compared Kelly, Lee, Ampere Default, and Moment Default EEPROM settings. Built corrected CM350 default EEPROM file, went online with Kelly and loaded this. Read through Cascadia email chain to get full test procedure picture, took re-cap notes to share with the team due to the short hiatus. Verified many of the EEPROM paramaters discussed in the thread not listed in any current documentation. Ran a good number of road trials with Aharon collecting inverter diag data under various EEPROM settings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-11 01:49",
+                  "text": "Additional log analysis."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d9124b0ab080a007f1a2e3c198f48b4a7e338e73d23242dd04edfb96edfdc1e4"
+            },
+            {
+              "id": "868k2w1bc",
+              "name": "Troubleshoot AC compressor issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w1bc",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k2w2xp",
+              "name": "Manufacture Core - Battery Pack Lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2xp",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
