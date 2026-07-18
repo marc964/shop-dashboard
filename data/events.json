@@ -68,26 +68,14 @@
           "day_name": "Saturday",
           "is_today": true,
           "is_weekend": true,
-          "events": [
-            {
-              "summary": "Richardson 72 240Z Delivery",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         },
         {
           "date": "2026-07-19",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
-          "events": [
-            {
-              "summary": "Richardson 72 240Z Delivery",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
+          "events": []
         }
       ]
     },
@@ -103,12 +91,12 @@
           "is_weekend": false,
           "events": [
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
