@@ -312,32 +312,56 @@
       ]
     },
     {
-      "project": "ICON Bronco Prototype",
-      "total_hours": 17.5,
-      "pct_of_total": 2.4,
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 19.5,
+      "pct_of_total": 2.7,
       "tasks": [
         {
-          "task": "Motor & Transmission",
-          "hours": 13.5
+          "task": "Vehicle Control",
+          "hours": 6.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 4.0
+          "task": "Exterior",
+          "hours": 3.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.5
+        },
+        {
+          "task": "Steering",
+          "hours": 2.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Audio",
+          "hours": 1.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 1.0
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 160.5,
+    "total_hours": 160.9,
     "pct_of_total": 21.9,
-    "avg_per_person_per_day": 1.54,
+    "avg_per_person_per_day": 1.55,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 67.2
+        "hours": 67.7
       },
       {
         "label": "Shop Meetings",
@@ -471,8 +495,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 216.7,
+    "non_billable_hours": 217.2,
     "pto_hours": 36.8,
-    "total_hours": 733.7
+    "total_hours": 734.1
   }
 }
