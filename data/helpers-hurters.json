@@ -3,7 +3,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 71.8,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -233,7 +233,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -314,7 +314,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 19.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -352,16 +352,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 162.5,
+    "total_hours": 163.0,
     "pct_of_total": 22.1,
-    "avg_per_person_per_day": 1.56,
+    "avg_per_person_per_day": 1.57,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 69.3
+        "hours": 69.7
       },
       {
         "label": "Shop Meetings",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 218.8,
+    "non_billable_hours": 219.2,
     "pto_hours": 36.8,
-    "total_hours": 735.8
+    "total_hours": 736.2
   }
 }
