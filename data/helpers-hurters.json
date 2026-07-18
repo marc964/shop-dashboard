@@ -252,7 +252,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Charging",
@@ -328,8 +328,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 151.7,
-    "pct_of_total": 20.9,
+    "total_hours": 152.3,
+    "pct_of_total": 21.0,
     "avg_per_person_per_day": 1.46,
     "flagged": true,
     "tech_count": 8,
@@ -337,7 +337,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 58.5
+        "hours": 59.0
       },
       {
         "label": "Shop Meetings",
@@ -471,8 +471,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 207.9,
+    "non_billable_hours": 208.5,
     "pto_hours": 36.8,
-    "total_hours": 725.0
+    "total_hours": 725.5
   }
 }
