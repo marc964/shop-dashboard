@@ -250,6 +250,33 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 27.2,
+      "pct_of_total": 3.7,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 9.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 8.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 7.2
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
       "pct_of_total": 3.5,
@@ -281,33 +308,6 @@
         {
           "task": "Steering",
           "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 25.2,
-      "pct_of_total": 3.4,
-      "tasks": [
-        {
-          "task": "Brakes",
-          "hours": 8.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 7.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 7.2
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
         }
       ]
     },
@@ -352,8 +352,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 160.9,
-    "pct_of_total": 21.9,
+    "total_hours": 161.4,
+    "pct_of_total": 22.0,
     "avg_per_person_per_day": 1.55,
     "flagged": true,
     "tech_count": 8,
@@ -361,7 +361,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 67.7
+        "hours": 68.2
       },
       {
         "label": "Shop Meetings",
@@ -434,6 +434,17 @@
       ]
     },
     {
+      "project": "Miner 95 911",
+      "total_hours": 4.2,
+      "pct_of_total": 0.6,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 4.2
+        }
+      ]
+    },
+    {
       "project": "Witham 51 3100",
       "total_hours": 3.0,
       "pct_of_total": 0.4,
@@ -456,28 +467,6 @@
       ]
     },
     {
-      "project": "Miner 95 911",
-      "total_hours": 2.2,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 2.2
-        }
-      ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 2.0,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 2.0
-        }
-      ]
-    },
-    {
       "project": "Connolly 58 220S",
       "total_hours": 1.8,
       "pct_of_total": 0.2,
@@ -495,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 217.2,
+    "non_billable_hours": 217.7,
     "pto_hours": 36.8,
-    "total_hours": 734.1
+    "total_hours": 734.7
   }
 }
