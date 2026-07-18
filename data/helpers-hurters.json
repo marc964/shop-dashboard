@@ -287,7 +287,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -328,16 +328,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 158.4,
+    "total_hours": 158.9,
     "pct_of_total": 21.7,
-    "avg_per_person_per_day": 1.52,
+    "avg_per_person_per_day": 1.53,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 65.2
+        "hours": 65.6
       },
       {
         "label": "Shop Meetings",
@@ -471,8 +471,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 214.7,
+    "non_billable_hours": 215.1,
     "pto_hours": 36.8,
-    "total_hours": 731.7
+    "total_hours": 732.1
   }
 }
