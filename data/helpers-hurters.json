@@ -3,7 +3,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 71.8,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Suspension",
@@ -328,16 +328,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 147.3,
-    "pct_of_total": 20.4,
-    "avg_per_person_per_day": 1.42,
+    "total_hours": 148.4,
+    "pct_of_total": 20.6,
+    "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 54.1
+        "hours": 55.1
       },
       {
         "label": "Shop Meetings",
@@ -365,7 +365,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 22.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -471,8 +471,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 203.6,
+    "non_billable_hours": 204.6,
     "pto_hours": 36.8,
-    "total_hours": 720.6
+    "total_hours": 721.6
   }
 }
