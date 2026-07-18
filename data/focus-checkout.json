@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T01:13:34.137804Z",
+  "updated_at": "2026-07-18T02:00:17.881383Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1735,10 +1735,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-14 21:52",
                   "text": "Received brackets.\nMeasured, drilled and installed brackets.\nInstalled shocks - 1.5 turns CW (middle setting).\nSet ride height to 280mm in the rear."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-18 01:58",
+                  "text": "Picking this up. Summary of Thurs/Fri: Thu 7/16 \u2014 Aharon flagged adjustment asymmetry (passenger tight turning, driver easy/near end of travel); you attributed it to tolerance stacking, said re-indexing is limited by the wide plate. Driver-side vintageveedubs spring plate started deflecting again. Long deliberation on a permanent fix \u2014 confirmed no better off-the-shelf plate exists (Type E out on summer break), debated m16 studs+tap vs. through-bolt vs. m12. Decision: go m12, set ride height, then weld it solid. Aharon tacked brackets (washers down to m8), installed shocks at lowest setting with slight preload. Final drive: shock no longer contacting; minor noise remains only on hard right-turn-on-throttle. Marc: \"ride height looks great.\"\nTest drove in AM - sounds like halfshafts.\nTest drove with @Billy Arrasmith to hear noise reported by @Aharon Adams. Heard inside the cab, not outside.\nBack inside for chassis ears. Test drive again. Billy reported noise coming from center of motor - indicating inner CVs.\nLooked at various options. @Billy Arrasmith ordered new CVs. Will be here next week."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "12e765521e3da13df9cd8f20096dd95dc6ec87266beae782eb81b1aa11e17fbc"
+              "content_hash": "f76fe8af85fe4e11502fa4dfc2dbf8c9f3e0eed74d202f349a6da9b5a6ba2334"
             },
             {
               "id": "868k7faah",
