@@ -3,7 +3,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 71.8,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -352,7 +352,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 177.8,
+    "total_hours": 178.3,
     "pct_of_total": 23.7,
     "avg_per_person_per_day": 1.71,
     "flagged": true,
@@ -361,7 +361,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 84.6
+        "hours": 85.1
       },
       {
         "label": "Shop Meetings",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 234.1,
+    "non_billable_hours": 234.6,
     "pto_hours": 36.8,
-    "total_hours": 751.1
+    "total_hours": 751.6
   }
 }
