@@ -46,7 +46,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 69.8,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -252,7 +252,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 27.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -279,7 +279,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Charging",
@@ -352,16 +352,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 172.7,
-    "pct_of_total": 23.1,
-    "avg_per_person_per_day": 1.66,
+    "total_hours": 173.7,
+    "pct_of_total": 23.3,
+    "avg_per_person_per_day": 1.67,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 79.4
+        "hours": 80.5
       },
       {
         "label": "Shop Meetings",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 228.9,
+    "non_billable_hours": 230.0,
     "pto_hours": 36.8,
-    "total_hours": 745.9
+    "total_hours": 747.0
   }
 }
