@@ -167,7 +167,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 42.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -214,7 +214,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 41.8,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -352,16 +352,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 178.9,
+    "total_hours": 179.4,
     "pct_of_total": 23.8,
-    "avg_per_person_per_day": 1.72,
+    "avg_per_person_per_day": 1.73,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 85.7
+        "hours": 86.2
       },
       {
         "label": "Shop Meetings",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 235.2,
+    "non_billable_hours": 235.7,
     "pto_hours": 36.8,
-    "total_hours": 752.1
+    "total_hours": 752.7
   }
 }
