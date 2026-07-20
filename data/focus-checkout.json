@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T19:39:34.355985Z",
+  "updated_at": "2026-07-20T20:15:29.857592Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -137,6 +137,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-07-17 02:04",
                   "text": "Ivanhoe Alfa Dash: Finished checking widgets and making any improvements along the way. Thoroughly documented all the backend work and posted to Slack. Developed new logic for PND which still need to be better tested on a dry day. Fed a bunch of screen shots of DashDesign to Claude and developed a list of everything that makes the Warning and Fault lamps trigger. Collected other resources and built a prompt that resulted in a test tool that send CAN messages like the VCU would but without having to sit down and reason what each value should be and then go find it somewhere in a giant list. Used the tool to check warning and fault lamps. Wrote up summary of the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-20 20:00",
+                  "text": "Added in a widget for minutes to the dash setup. Adjusted charge screen spacing to make things fit. Had Claude make more labels. Changed the source of Pack_Voltage and Pack_Current to a different set of signals to make Pack_Power. Test drove and charged to check everything. No new problems found. This vehicle is ready to ship electrically."
                 }
               ],
               "checklist_items": [
@@ -156,7 +161,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "b05fea7978c88439f671facf68ccb665e27bb4413496f0f52efe1ef7f02d5d25"
+              "content_hash": "aadbd8d585d2352708bd1ca6165661828bed1dc17ce80539a424960853ae68fb"
             },
             {
               "id": "868ecuf7p",
@@ -1057,6 +1062,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-07-13 22:16",
                   "text": "Explored various methods to get RND on the DigitalDash to show up more truthfully."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-20 20:01",
+                  "text": "Tested signal chain between VCU to dash to gauges for all warning and fault case scenarios. Corrected little things along the way and kept a list of improvements that can be made to the test program. Checked that there were no remaining items on the punch list. This vehicle is ready to ship electrically."
                 }
               ],
               "checklist_items": [
@@ -1071,7 +1081,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "d7f2b98bdf7687462715ca9359c50d727ada51a81527447a88966757a99ea47e"
+              "content_hash": "57558c9319e326a5cd0d0dfc9d6c46d265a5ce92277b63d98da0defabb79e7ef"
             }
           ]
         },
