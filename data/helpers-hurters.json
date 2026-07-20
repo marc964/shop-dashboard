@@ -84,16 +84,16 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 58.5,
-      "pct_of_total": 7.8,
+      "total_hours": 60.0,
+      "pct_of_total": 8.0,
       "tasks": [
         {
-          "task": "Manufacturing - Product",
+          "task": "Vehicle Control",
           "hours": 19.5
         },
         {
-          "task": "Vehicle Control",
-          "hours": 18.0
+          "task": "Manufacturing - Product",
+          "hours": 19.5
         },
         {
           "task": "Cooling",
@@ -218,7 +218,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 41.8,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -237,7 +237,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -487,9 +487,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 536.5,
+    "billable_hours": 538.0,
     "non_billable_hours": 215.8,
     "pto_hours": 36.8,
-    "total_hours": 752.2
+    "total_hours": 753.8
   }
 }
