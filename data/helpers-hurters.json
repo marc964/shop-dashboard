@@ -46,7 +46,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 69.8,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -128,7 +128,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 43.8,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Audio",
@@ -352,9 +352,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 149.5,
+    "total_hours": 150.0,
     "pct_of_total": 20.7,
-    "avg_per_person_per_day": 1.33,
+    "avg_per_person_per_day": 1.34,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -365,7 +365,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 45.5
+        "hours": 46.0
       },
       {
         "label": "Other",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 205.8,
+    "non_billable_hours": 206.2,
     "pto_hours": 36.8,
-    "total_hours": 722.8
+    "total_hours": 723.2
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T14:18:11.488859Z",
+  "updated_at": "2026-07-20T15:17:42.338336Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Ivanhoe 65 Alfa"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -275,6 +275,21 @@
                 }
               ],
               "content_hash": "392a591ae74130029ac6d3faf3bddbbcef51d6d0bbcc5cb5f6e6bbf579b02501"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868ke2e0d",
+              "name": "Diag/repair front passenger suspension clunk over speedbumps",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868ke2e0d",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "71faa6c4706ea3f17391e2f605159d0776a00a302846c9dcf489044c748f180b"
             }
           ]
         },
