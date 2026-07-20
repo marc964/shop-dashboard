@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T16:06:27.774290Z",
+  "updated_at": "2026-07-20T16:46:52.411608Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -287,9 +287,20 @@
               "status": "Open",
               "list": "Ivanhoe 65 Alfa",
               "url": "https://app.clickup.com/t/868ke2e0d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-20 16:06",
+                  "text": "Performed initial road testing over speed bumps to reproduce suspension noise concern. Noted three noises over speed bumps, none of which seem to come from the steering or suspension. (unoccupied passenger seat back noisy over bumps, key colection in glove box noisy over bumps & hood was not latched resulting in rattle/knocking over bumps) Latched hood & performed visual inspection of steering & suspension systems. All components tight & secure. Performed final road testing with Marc. Concern was noot reproduced."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-20 16:07",
+                  "text": "Performed assist Billy with balancing including multiple road tests & bringing/holding car at speed while on jackstands. Driveline vibrations between 30-40 mph now noticably reduced."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "71faa6c4706ea3f17391e2f605159d0776a00a302846c9dcf489044c748f180b"
+              "content_hash": "ee9b23d2554f16997a5dac135b5f57ffff625d7476c6ea1a114e6691245ed70c"
             }
           ]
         },

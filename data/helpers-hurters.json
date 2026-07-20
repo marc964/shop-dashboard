@@ -85,7 +85,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 49.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -167,7 +167,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 42.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -214,7 +214,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 41.8,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -252,7 +252,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 27.2,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -279,7 +279,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Charging",
@@ -352,9 +352,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 152.0,
-    "pct_of_total": 21.0,
-    "avg_per_person_per_day": 1.36,
+    "total_hours": 155.0,
+    "pct_of_total": 21.3,
+    "avg_per_person_per_day": 1.38,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -369,7 +369,7 @@
       },
       {
         "label": "Other",
-        "hours": 35.8
+        "hours": 38.8
       },
       {
         "label": "Personal Meetings",
@@ -484,8 +484,8 @@
   ],
   "totals": {
     "billable_hours": 517.0,
-    "non_billable_hours": 208.2,
+    "non_billable_hours": 211.2,
     "pto_hours": 36.8,
-    "total_hours": 725.2
+    "total_hours": 728.2
   }
 }
