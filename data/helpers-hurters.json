@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 82.5,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -50,7 +50,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 72.8,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -136,7 +136,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 50.2,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Audio",
@@ -365,7 +365,7 @@
   ],
   "shop_work": {
     "total_hours": 166.8,
-    "pct_of_total": 21.5,
+    "pct_of_total": 21.3,
     "avg_per_person_per_day": 1.49,
     "flagged": true,
     "tech_count": 8,
@@ -495,9 +495,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 552.0,
+    "billable_hours": 558.5,
     "non_billable_hours": 224.5,
     "pto_hours": 36.8,
-    "total_hours": 776.5
+    "total_hours": 783.0
   }
 }
