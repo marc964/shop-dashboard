@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T16:34:05.814320Z",
+  "updated_at": "2026-07-21T17:12:35.570625Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -729,7 +729,7 @@
         "matched_lists": [
           "Avalos 72 Blazer"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -1133,57 +1133,6 @@
               ],
               "checklist_items": [],
               "content_hash": "9cc7a7f5cb76678883a870c6a48810b66c150c7862f69f256e7abf7bb21c51a0"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868k6wmub",
-              "name": "Complete PDI",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k6wmub",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-06 19:07",
-                  "text": "@Alex Noonan @Marc Davis  PDI Findings.\n\nOverall wirings and hoses could use more zip ties and securing and existing ones need tails cut.\nLDU forward Motor mount contacts the bolt head thats holding the bracket on.\nAC Charger wiring dangling down near rear shock.\nFront fender liners are loose and or missing fasteners on both sides.\nRear battery hardlines rattling around and not secured.\nEbrake adjustment lock nuts all loose where it turns from one cable into 2.\n!!!Both inner drive shaft CVs at the LDU seem to be slinging grease.\nLets check front and rear axle Ubolt nuts and mark them tight.\nFront and rear diff vent hosed damaged or not secured. (front is just jammed up between brake lines)\nCheck all body mounts, 2 on the drivers side completely loose.\nTop/hardshell creaks/squeaks a bit. (prob not much to do about it)\n!!!vehicle drives ok but i felt like i was struggling to keep it in a straight line. it feels like it sticks in positions. maybe too much drag from the double dampers but it felt not great to me.\nRight defrost vent popping out of dash.\nA red backlight dot appears in the speedo gauge when the headlights are turned on. is this by design or some funky backlighting?\nReverse lights were INOP\nRear view mirror floppy.\nSlight looseness in the steering but it seems like its in the steering box and its a big ole truck. might be totally normal.\nMagnetic MSD cover missing.\nRadiator core support missing hardware\nBrake fluid a little low\nPower steering fluid very low\n12V battery mount very floppy\nA/C compressor mount missing hardware and flopping around\nPower steering pump flopping around. mount looks too light duty for it.\nA/C lines from compressor are not secured and cable clamp is falling off.\nPower steering return line quite cracked at both ends with no hose clamps.( might be wrong type of hose and fluid is degrading it.\nNo marking compound on any steering, suspension or brake components. would be nice to have everything double checked and marked as tight.\nOverall wiring in this vehicle is quite messy, most likely due to all the various repairs and revisions to the car over the years.\nHV going into LDU has a very tight bend and no support on it. is also rubbing on the frame.\n!!! AC charger input to the OBC connector looks blackened/burned!!!!\nNo license plate.\nCharge test passes ish. wakes up, starts charging but relays odd numbers. Known issue by marc and Devin.\n\nStill need to check tire pressures and lug torque when we dive into these things."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-06 19:10",
-                  "text": "Initial PDI is complete. list has been tagged to Marc and Alex to decide what we want to tackle and by who."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-09 19:34",
-                  "text": "Assisted Billy with tasks made form the PDI list. i secured more wiring and hoses under the truck, helped with diag of the reverse/brake lights and replaced the AC line into the charger connector that had melted on one of the legs. Is now charging and Devin is monitoring."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-10 19:01",
-                  "text": "This morning i was back on the blazer. took a look at the brakes, the booster had got out of sync. reset the adjustment at the pedal an the brakes came back. tested function with a few more key cycles and they were working.\nMoved onto the rear vehicle lighting. after yesterdays advice that the reverse lights were always on i started by confirming this. we found that it had changed and that no turn signals were working now but the brakes and reverse were. started some diag and checking fuses, then found that someone had inspected the steering column and then found that the wiring had been pulled down, pulled apart and not installed correctly. 2 pins were pushed back and the connector was only half connected. re secured the connector and all lighting came back."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-10 19:30",
-                  "text": "Continued brake adjustment at the end of the day."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-13 19:38",
-                  "text": "Took a look at the brakes from the lock up issue on friday. advised marc on what to watch for during test driving."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-07-14 18:38",
-                  "text": "test drove for a rear lock up concern in the rain from marc. confirmed the rears did seem to want to lock up first so we decided to look up parts to install a rear bias adjustment. got with billy about the parts selection and parts are on the way."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "d1d4c50019ad2a5f3603edac784c15bffc5d1d7c90bb885131a2244c7a02b033"
             }
           ]
         }
