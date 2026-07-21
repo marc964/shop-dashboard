@@ -97,7 +97,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 61.5,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -139,8 +139,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 51.2,
-      "pct_of_total": 6.5,
+      "total_hours": 55.2,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Audio",
@@ -152,7 +152,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 5.0
+          "hours": 9.0
         },
         {
           "task": "Motor & Transmission",
@@ -334,7 +334,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 19.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -373,7 +373,7 @@
   ],
   "shop_work": {
     "total_hours": 168.8,
-    "pct_of_total": 21.3,
+    "pct_of_total": 21.2,
     "avg_per_person_per_day": 1.41,
     "flagged": true,
     "tech_count": 8,
@@ -409,7 +409,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 23.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -503,9 +503,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 562.5,
+    "billable_hours": 566.5,
     "non_billable_hours": 230.5,
     "pto_hours": 36.8,
-    "total_hours": 793.0
+    "total_hours": 797.0
   }
 }
