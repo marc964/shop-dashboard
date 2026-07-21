@@ -96,12 +96,12 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 61.5,
-      "pct_of_total": 7.7,
+      "total_hours": 62.5,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 21.0
+          "hours": 22.0
         },
         {
           "task": "Manufacturing - Product",
@@ -183,7 +183,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 44.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -234,7 +234,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.0,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Suspension",
@@ -372,20 +372,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 168.8,
-    "pct_of_total": 21.1,
-    "avg_per_person_per_day": 1.41,
+    "total_hours": 171.0,
+    "pct_of_total": 21.3,
+    "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 53.0
+        "hours": 53.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 48.5
+        "hours": 49.5
       },
       {
         "label": "Other",
@@ -393,7 +393,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 15.8
+        "hours": 16.8
       },
       {
         "label": "Organization",
@@ -503,9 +503,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 568.5,
-    "non_billable_hours": 230.5,
+    "billable_hours": 569.5,
+    "non_billable_hours": 232.8,
     "pto_hours": 36.8,
-    "total_hours": 799.0
+    "total_hours": 802.2
   }
 }
