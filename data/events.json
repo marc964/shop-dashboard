@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20",
+  "generated_at": "2026-07-21",
   "weeks": [
     {
       "week_start": "2026-07-20",
@@ -9,16 +9,16 @@
         {
           "date": "2026-07-20",
           "day_name": "Monday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
-              "summary": "Jordan J early Doc Appt",
+              "summary": "Alex N Out",
               "type": "pto",
               "all_day": true
             },
             {
-              "summary": "Alex N Out",
+              "summary": "Jordan J early Doc Appt",
               "type": "pto",
               "all_day": true
             },
@@ -32,7 +32,7 @@
         {
           "date": "2026-07-21",
           "day_name": "Tuesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },

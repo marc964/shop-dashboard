@@ -92,12 +92,12 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 60.0,
-      "pct_of_total": 7.7,
+      "total_hours": 61.5,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 19.5
+          "hours": 21.0
         },
         {
           "task": "Manufacturing - Product",
@@ -364,16 +364,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 166.8,
+    "total_hours": 167.2,
     "pct_of_total": 21.3,
-    "avg_per_person_per_day": 1.49,
+    "avg_per_person_per_day": 1.39,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 14,
+    "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 51.5
+        "hours": 52.0
       },
       {
         "label": "Shop Meetings",
@@ -495,9 +495,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 558.5,
-    "non_billable_hours": 224.5,
+    "billable_hours": 560.0,
+    "non_billable_hours": 225.0,
     "pto_hours": 36.8,
-    "total_hours": 783.0
+    "total_hours": 785.0
   }
 }
