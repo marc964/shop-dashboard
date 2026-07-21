@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T18:33:48.457131Z",
+  "updated_at": "2026-07-21T19:12:31.475120Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1357,43 +1357,12 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
-            {
-              "id": "868jyua5n",
-              "name": "Install passenger sun-visor",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868jyua5n",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-08 19:27",
-                  "text": "Need to find and install passenger-side sun visor. I have a vague memory it was in the trunk when the car came in. Need to go to storage and in look for it. 1 hour."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-12 02:06",
-                  "text": "Went to storage and located box with trunk accessories, including passenger sunvisor. Will attempt to install tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-15 20:36",
-                  "text": "Installed sun-visor.\nMounting brackets slightly damaged, unable to hold visor 'up'.\nRemoved brackets and visor, attempted a variety of adjustments to get more tension onto the visor. Settled on lock-washers on each side, when brackets are bolted on created enough tension to hold it up."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-01 20:51",
-                  "text": "The passenger sun visor which was in the trunk and I installed is... still being floppy. The brackets are partially broken, and I have tried a few fixes and it's better but still flopping down over bumps. I've found new brackets on ebay. @Ryan Laurel has ordered it."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "20375998322f0298dcbedb217c1f40a0d3382a32e0ada8270056bbfc87ad50a7"
-            },
             {
               "id": "868karcam",
               "name": "Replace front springs",
@@ -1415,10 +1384,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-13 22:52",
                   "text": "Order sent today"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-21 18:52",
+                  "text": "Parts in German customs - @Ryan Laurel working with vendor"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "70c98fd073d5754c5e03bcc6cea83d852385b0faa095d602f912f34e6b0a2791"
+              "content_hash": "6daefb028fa6b484319b0f41bb46298adf8f5d749031553cd77c52b327f170d3"
             },
             {
               "id": "868k0angv",
@@ -1536,10 +1510,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-13 22:53",
                   "text": "Order sent today"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-21 18:52",
+                  "text": "Parts in German customs - @Ryan Laurel working with vendor"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3b07d331698ec9c3b4d96dc51df9f7c49570db90cf8a4d2c7e2a46766ab1e8ee"
+              "content_hash": "4ee7b5dd8917ed3f912a513751f6d13f47e15733687ffe31ab90fea081c28a91"
             }
           ]
         },
@@ -1648,7 +1627,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -1791,10 +1770,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-18 02:03",
                   "text": "image.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-21 18:52",
+                  "text": "7/20 - Bus went to Soulspeed"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "45a8a6f10298e26f4f0072b6bbbb5fc42f3daebe56454254a50e84396d76523d"
+              "content_hash": "5c01fb390b02c3c67b60f5baa7dd6b2d99e6ca07e80ccfc7cce9d9db080baff5"
             },
             {
               "id": "868k7em0v",
@@ -1805,6 +1789,87 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kert77",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kert77",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a5fd15e53e60329d255fcc528a1ba16a94b2497d9ceb960d1de9317e9d65f5f0"
+            },
+            {
+              "id": "868k7faah",
+              "name": "Adjust front ride height",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7faah",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:48",
+                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:49",
+                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-09 21:57",
+                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:43",
+                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:44",
+                  "text": "Currently has 1\" reverse rake."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 16:24",
+                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-15 23:23",
+                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-17 00:09",
+                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-18 02:00",
+                  "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-18 02:03",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-21 18:52",
+                  "text": "7/20 - Bus went to Soulspeed"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "5c01fb390b02c3c67b60f5baa7dd6b2d99e6ca07e80ccfc7cce9d9db080baff5"
             }
           ]
         },
@@ -1901,72 +1966,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868k7faah",
-              "name": "Adjust front ride height",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7faah",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:48",
-                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:49",
-                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-09 21:57",
-                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:43",
-                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:44",
-                  "text": "Currently has 1\" reverse rake."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-13 16:24",
-                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-15 23:23",
-                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-17 00:09",
-                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:00",
-                  "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:03",
-                  "text": "image.png"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "45a8a6f10298e26f4f0072b6bbbb5fc42f3daebe56454254a50e84396d76523d"
             }
           ]
         },
