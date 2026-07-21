@@ -49,8 +49,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 77.2,
-      "pct_of_total": 9.3,
+      "total_hours": 77.8,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -59,6 +59,10 @@
         {
           "task": "Wiring - OEM",
           "hours": 15.5
+        },
+        {
+          "task": "Interior",
+          "hours": 6.5
         },
         {
           "task": "HVAC",
@@ -71,10 +75,6 @@
         {
           "task": "Motor & Transmission",
           "hours": 6.5
-        },
-        {
-          "task": "Interior",
-          "hours": 6.0
         },
         {
           "task": "Steering",
@@ -369,7 +369,7 @@
   ],
   "shop_work": {
     "total_hours": 174.0,
-    "pct_of_total": 21.1,
+    "pct_of_total": 21.0,
     "avg_per_person_per_day": 1.45,
     "flagged": true,
     "tech_count": 8,
@@ -499,9 +499,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 590.5,
+    "billable_hours": 591.0,
     "non_billable_hours": 235.8,
     "pto_hours": 36.8,
-    "total_hours": 826.2
+    "total_hours": 826.8
   }
 }
