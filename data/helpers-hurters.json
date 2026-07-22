@@ -96,8 +96,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 77.0,
-      "pct_of_total": 8.6,
+      "total_hours": 77.2,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Audio",
@@ -105,7 +105,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 18.2
+          "hours": 18.5
         },
         {
           "task": "Manufacturing - Product",
@@ -507,9 +507,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 644.5,
+    "billable_hours": 644.8,
     "non_billable_hours": 247.0,
     "pto_hours": 44.8,
-    "total_hours": 891.5
+    "total_hours": 891.8
   }
 }
