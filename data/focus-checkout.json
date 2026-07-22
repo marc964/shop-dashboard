@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T14:31:22.867362Z",
+  "updated_at": "2026-07-22T15:18:13.607206Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -249,6 +249,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-07-21 22:06",
                   "text": "Troubleshooting charge only working at 12A overnight. Downloaded logs and determined a VCU related problem. Continued diag, collected resources for Claude and started fuller picture diag."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-22 14:43",
+                  "text": "Continued conversations with Claude."
                 }
               ],
               "checklist_items": [
@@ -258,7 +263,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "fecea231fa8a562a2c4f34f9301258714c6dd4173abdb224e1943f5eacc5057b"
+              "content_hash": "f8585fffc0131f0613afd8635cc6df944c4ccc848d64e1a3456773ff0443b71d"
             },
             {
               "id": "868jxvewg",
@@ -1778,16 +1783,6 @@
                   "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
                 },
                 {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-15 23:23",
-                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-17 00:09",
-                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
-                },
-                {
                   "author": "Jordan Jones",
                   "date": "2026-07-18 02:00",
                   "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
@@ -1804,7 +1799,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5c01fb390b02c3c67b60f5baa7dd6b2d99e6ca07e80ccfc7cce9d9db080baff5"
+              "content_hash": "2782ed83e9423589c6c09308fdac28b7da99e0e2913365b012ef716f1447c566"
             },
             {
               "id": "868k7em0v",
@@ -1832,10 +1827,20 @@
                   "author": "Aharon Adams",
                   "date": "2026-07-22 03:44",
                   "text": "chat about game plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:00",
+                  "text": "from 7/16:\nspent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:05",
+                  "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "78800290f684de4c781cc0a5243520f1769bb92f713091648d2fe0ab42ece13b"
+              "content_hash": "bdd8a35725df993df97b2bf8489e573ed78fdaadcaa0671ad5f9ebfd1b78af9d"
             },
             {
               "id": "868k7faah",
@@ -1875,16 +1880,6 @@
                   "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
                 },
                 {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-15 23:23",
-                  "text": "billy remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-17 00:09",
-                  "text": "spent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
-                },
-                {
                   "author": "Jordan Jones",
                   "date": "2026-07-18 02:00",
                   "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
@@ -1901,7 +1896,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5c01fb390b02c3c67b60f5baa7dd6b2d99e6ca07e80ccfc7cce9d9db080baff5"
+              "content_hash": "2782ed83e9423589c6c09308fdac28b7da99e0e2913365b012ef716f1447c566"
             }
           ]
         },
