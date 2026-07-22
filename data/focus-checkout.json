@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T00:39:04.378407Z",
+  "updated_at": "2026-07-22T01:14:06.344178Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -169,88 +169,7 @@
               "status": "Open",
               "list": "Ivanhoe 65 Alfa",
               "url": "https://app.clickup.com/t/868ecuf7p",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-01 21:52",
-                  "text": "Troubleshooting for BMS fault now showing on the dash and gauges. Disabled fault reporting for thermistor channels BMSM1_G03_Therm3 & BMSM1_G06_Therm3 since they seemed way out of range (disconnected) and were causing a BMS fault. Fault still shows up in VCU but apparently doesn't do anything. Checked dash and narrowed down a second fault to upgraded BMS firmware. Corrected the false flag in the dash logic."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-01 01:45",
-                  "text": "Loaded the Berke calibration into the vehicle. Started charging the vehicle up to the top but not getting current for some reason. Found many checkout items haven't been looked at. Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-08 13:28",
-                  "text": "Already had a Berke firmware migration installed, reviewed the delta an found ~20 differences. Flashed the latest Berke firmware burn and updated gear ratio and pedal calibration, and pack capacity. Added all these changes into the tracking sheet. Reviewed completeness in the rest of the sheet. Need to at a minimul check the inverter settings."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-08 23:02",
-                  "text": "Verified energy counters messed up due to incorrect current direction. Inverted the IVT direction and left on charge."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-10 22:21",
-                  "text": "Reviewed compare reports again between Berke and Ivanhoe. Produced a list of required differences and what those configuration options should be for Ivanhoe. Checked energy counters, still massively off after one charge cycle. Reflashed Berke Rev5 firmware burn to get the \"reset\" option. Transfered the compare report settings in. Verified everything set correctly, backed up this calibrations and sent off to AEM for a firmware burn. Charged to the top alongside watching energy counters, pack resistance, etc. making sure everything looked within reason. Couldn't average the CellR values like I usually do since the pack was too high but the initial calculation was within spec. Clicked through the digital dash making note problems due to the VCU200_15 build with an Elcon charger and DCDC, as well as portrait layout oddities. Test drove verifying top end limiters. The digital dash doesn't have a logger but I manually pulled the logs and used my existing scripts to convert to CSV. Imported the logs for plotting and verified the limiters plot looked consistent with the cell specs. Made final backups of the inverter and PMU. Flashed the firmware burn and left on charge.\n\nFor review, here's the Berke To Ivanhoe Delta\n        APP1_Min        1.110        1.130\n        APP2_Min        0.560        0.570\n        DriveGearRatio        4.10        4.56\n        DriveTireDiameter        23.44        24.80\n        PackCurrentPolarity        Invert        ---\n        PackMaxCapacity        36000        32000\n\nIvanhoe ToDo's Before Shipping\n        Get wifi credentials, upload, verify configuration sync'd.\n        Finish Digital Dash (Remove EGT/CCU readings, Add charge confirmation, Correct portrait visual problems)\n        Test drive, verify lower limiters, make plots for pack consumption, temps, & low limiters.\n        Verify running temps and InvTempRefOption."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-06 22:12",
-                  "text": "Continued Dash work. Removed more image assets to give a little more memory headroom. Used Claude to make an additional image asset to properly label the pack current channel. Loaded this and tested for boot stability. Added in missing message for low SOC warning. Tested gauges to make sure warning light came on in various scenarios. Verified PackMaxCapacity was set up higher, test drove and checked limiters. Sent firmware off to AEM for a second burn."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-07 23:27",
-                  "text": "Flashed the firmware burn, checked various options looked correct, left on the charger overnight."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-09 01:02",
-                  "text": "Organized and reduced the ten or so partial efforts to convert and decode logs. Ended up with single well organized directory with tools compatible with our logger that AI could use to properly digest data. Organized DBC files specific to AEM and copied them over to the Conversion Tools directory changing their format as required. Manually downloaded logs from the CANcloud for the charge the evening of July 7th and manually ran them through the conversion process. This conversion process is now setup correctly to have AI repeat without ever getting the \"Oh you're right, good for you to push back\" instead of garbage presented as fact. Fed all the previous into an open conversation and had Claude build a report of the failure. Reviewed analysis and posted for the team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-09 22:25",
-                  "text": "Re-downloaded the logs from yesterday and added in some additional logs to make sure that the recharge was captured, Converted these and gave them to Claude along with AEM manuals, an exported calibration, and additional context about how this charger works. Went back and forth evaluating and dismissing various theories proposed based off of actual experience with what option does what and what parts of logic in the VCU don't work and are bypassed on purpose. Built a CSV plotter with the log data, clicked around a little bit and ultimately became very concerned about how basic plots don't look as expected. Told this to Claude & continued discussing with the team. Ultimately decided the charge not starting is not a problem."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-09 22:25",
-                  "text": "Continued back and forth with Claude and various Slack correspondence with Marc."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-10 22:42",
-                  "text": "(Last night) Built a log replay script with Claude to get the CSS logs into the AEM format for analysis. (Today) Tested the log replay script which crashed immediatly. Let Claude debug everything with actual hardware in auto mode. Got everything working and tested the process to get a CSS log into AEMData. All looked good so I set the whole charge failure to play back at 10x speed while logging, overloaded the bus. Will setup to run over night and check back in tomorrow."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-13 22:17",
-                  "text": "Continued work on the log replay tool. Added a way to change the playback speed and worked on the display setup to be logging all the critical channels. Tried logging but started getting bus overload errors with CAN2 and CAN3 merged."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-13 22:18",
-                  "text": "Setup the log playback tool with 1M baud to hopefully eliminate bus overload issues. Played back the very start of the log and got useable results. Let run for a while to get a fuller log to test. Removed not applicable items from the diag screen and verified logic and CAN messages associated with the gauges, couldn't get the VCU turned off with the digital dash still turned on to test the signal chain. Trying alternative methods tomorrow."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-15 19:55",
-                  "text": "Continued diag and correspondence with AEM. Used Claude to better understand the problem & analyzed plots on my own. Decided there's nothing more we can do about the issue."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-17 22:11",
-                  "text": "Test drove to verify mileage. Ran through drive modes to verify PND on the dash. Updated the change log and version info in the dash and re-downloaded. Scaled the power bar and verified. Ran through the checklist & updated on Slack. Added in a firmware reset detection mechanism and the images in the dash to make that work. Tested. During testing found a reliable way to force a weak charge. Repeated this procedure until I caught it on a log. Analyzed and posted to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-21 22:06",
-                  "text": "Troubleshooting charge only working at 12A overnight. Downloaded logs and determined a VCU related problem. Continued diag, collected resources for Claude and started fuller picture diag."
-                }
-              ],
+              "comments": [],
               "checklist_items": [
                 {
                   "checklist": "Checklist",
@@ -258,7 +177,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "fecea231fa8a562a2c4f34f9301258714c6dd4173abdb224e1943f5eacc5057b"
+              "content_hash": "ed20e2894c9f87ee59b3c74dc359f12a09a0afec8f12daeef16070f3419173b1"
             },
             {
               "id": "868jxvewg",
