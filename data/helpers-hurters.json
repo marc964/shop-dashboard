@@ -376,9 +376,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 180.5,
-    "pct_of_total": 20.8,
-    "avg_per_person_per_day": 1.41,
+    "total_hours": 181.8,
+    "pct_of_total": 20.9,
+    "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
@@ -397,7 +397,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 18.5
+        "hours": 19.8
       },
       {
         "label": "Organization",
@@ -438,7 +438,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 6.5,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -508,8 +508,8 @@
   ],
   "totals": {
     "billable_hours": 624.2,
-    "non_billable_hours": 242.2,
+    "non_billable_hours": 243.5,
     "pto_hours": 44.8,
-    "total_hours": 866.5
+    "total_hours": 867.8
   }
 }
