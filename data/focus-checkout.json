@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T22:25:12.024739Z",
+  "updated_at": "2026-07-22T22:50:56.036803Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1437,7 +1437,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 11
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -1579,6 +1579,16 @@
               ],
               "checklist_items": [],
               "content_hash": "2782ed83e9423589c6c09308fdac28b7da99e0e2913365b012ef716f1447c566"
+            },
+            {
+              "id": "868kfdbr9",
+              "name": "Facilitate Windshield repair",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kfdbr9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "5a498614823ceaec177e1567734fb5556f5d83667448b4175ebaa8aa19350c88"
             },
             {
               "id": "868k7em0v",

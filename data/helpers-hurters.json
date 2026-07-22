@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 88.0,
-      "pct_of_total": 9.9,
+      "total_hours": 91.5,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 24.0
+          "hours": 27.5
         },
         {
           "task": "Wiring - High Voltage",
@@ -50,7 +50,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 84.8,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -96,8 +96,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 77.2,
-      "pct_of_total": 8.7,
+      "total_hours": 81.8,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Audio",
@@ -108,16 +108,20 @@
           "hours": 18.5
         },
         {
+          "task": "Vehicle Control",
+          "hours": 13.8
+        },
+        {
           "task": "Manufacturing - Product",
           "hours": 12.0
         },
         {
-          "task": "Vehicle Control",
-          "hours": 11.8
-        },
-        {
           "task": "Motor & Transmission",
           "hours": 4.2
+        },
+        {
+          "task": "Manufacturing - Support",
+          "hours": 3.5
         },
         {
           "task": "Instrumentation",
@@ -126,10 +130,6 @@
         {
           "task": "Scanning",
           "hours": 1.5
-        },
-        {
-          "task": "Manufacturing - Support",
-          "hours": 1.0
         },
         {
           "task": "Engineering - Core",
@@ -144,7 +144,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 72.0,
-      "pct_of_total": 8.1,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -191,7 +191,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 51.0,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -242,7 +242,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -261,7 +261,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 33.8,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -292,7 +292,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -376,20 +376,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 185.8,
+    "total_hours": 189.5,
     "pct_of_total": 20.8,
-    "avg_per_person_per_day": 1.45,
+    "avg_per_person_per_day": 1.48,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 59.8
+        "hours": 61.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 54.0
+        "hours": 55.0
       },
       {
         "label": "Other",
@@ -397,7 +397,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 20.0
+        "hours": 21.0
       },
       {
         "label": "Organization",
@@ -424,7 +424,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 14.8,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -436,24 +436,32 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 6.5,
-      "pct_of_total": 0.7,
+      "project": "Buck 70 280SL",
+      "total_hours": 10.0,
+      "pct_of_total": 1.1,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 6.5
+          "hours": 5.0
+        },
+        {
+          "task": "Manufacturing - Extra",
+          "hours": 5.0
         }
       ]
     },
     {
-      "project": "Buck 70 280SL",
-      "total_hours": 5.0,
-      "pct_of_total": 0.6,
+      "project": "Ferdman 66 Bus",
+      "total_hours": 7.2,
+      "pct_of_total": 0.8,
       "tasks": [
         {
-          "task": "Manufacturing - Extra",
-          "hours": 5.0
+          "task": "Troubleshooting",
+          "hours": 6.5
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 0.8
         }
       ]
     },
@@ -507,9 +515,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 644.8,
-    "non_billable_hours": 247.5,
+    "billable_hours": 652.8,
+    "non_billable_hours": 257.0,
     "pto_hours": 44.8,
-    "total_hours": 892.2
+    "total_hours": 909.8
   }
 }
