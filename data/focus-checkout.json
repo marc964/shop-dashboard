@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T22:50:56.036803Z",
+  "updated_at": "2026-07-22T23:24:38.862206Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1586,9 +1586,25 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kfdbr9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-22 22:53",
+                  "text": "Summary of findings \u2014 Ferdman Bus, right front safari window\nI inspected the reported rock chip on the right front safari window. The damage is limited to the glass; the frame and hardware are intact. My recommended fix is to replace just the single pane and reuse the existing frame. However, I found that loose single-side front safari glass isn't available from US suppliers \u2014 front safari kits are sold only as both-sides pairs. So my cleanest single-pane path is to have a local auto-glass shop cut one laminated pane to the original template.\nIf we opt for a full kit instead, I priced the US-based sellers (front, split-bus 55-67): CIP1 ACC-C20-1010 stainless at $585 (imported/economy); West Coast Metric 261-100A raw steel at $974.95 (best US-associated off-shelf price); CIP1 BBT aluminum $988; ISP West stainless $1,257.95; Mid America $1,299.99 (currently out of stock); JBugs $1,359.96; CIP1 UK aluminum $1,235\u2013$1,400. For confirmed US manufacture, I'd call CIP1 on the ACC-C20-1000 (Wolfgang) or VW LooseNuts. I still need to confirm the bus year (split vs bay) to lock the exact part.\nWhat I worked through today\nI sourced three replacement options with emphasis on quality and US supply, comparing glass-only versus full-kit routes.  I pulled the specific CIP1 part, identified its US-made equivalent, verified no vendor sells a single front side, and compiled a full US-seller price chart."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-22 22:55",
+                  "text": "So during the soulspeed run there was an unfortunate rock chip on the passenger Safari front window.\n\nThese Safari windows are relatively easy to remove and replace. However they are not cheap, and I am unable to find anyone who sells just one side.\n\nOptions:\nTake it somewhere and attempt to repair it.\nTake it somewhere that can cut custom glass (it's flat) and have them re-make that pane. It appears the frame just screws together so this shouldn't be too complex.\nPurchase 'cheap' replacement windows and hope the quality is OK. CIP1 sells both fronts for $600, but they stress that this is an 'economy' part with gaps where the metal frame joins together.\nPurchase a high quality version for $1300 and be done with it.\n\nSearched extensively for single pane replacement or quality lower-cost alternatives, none found.\n\nCurrent plan is windshield repair specialist. @Ryan Laurel to investigate tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-22 22:56",
+                  "text": "IMG_4459.jpg\nIMG_4464.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5a498614823ceaec177e1567734fb5556f5d83667448b4175ebaa8aa19350c88"
+              "content_hash": "9609920317b885ab73672800d3ac4d10e2027daf380ae30db412584ad7a3c683"
             },
             {
               "id": "868k7em0v",
@@ -1656,10 +1672,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-06-29 20:52",
                   "text": "@Marc Davis took vehicle home, and drove on the highway. No overheating observed, even with the skidplate. We can consider this one done."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-22 22:52",
+                  "text": "Ryan brought the bus back from Soulspeed today reporting another inverter overtemp \"limp mode\" \u2014 an issue we hadn't seen in weeks since switching the reservoir return line from 3/8\" to 5/8\". I verified the basics first: coolant reservoir full and flowing well, no bubbles, and the coolant fan operating.\nA few observations from digging in: the inlet and outlet are swapped on the inverter (probably doesn't matter, but we could set it to Tesla spec), and we run the inverter and motor in series while Tesla actually plumbs them in parallel. Neither seems likely to fix the inverter temp, but both are options to test.\nI ran two controlled test drives at 100\u00b0F ambient to isolate whether airflow (the skidplate) is the culprit.\nRun 1 (skidplate on): inverter started at 109\u00b0F and hit the 160\u00b0F overtemp limp mode after 13 minutes of hard-ish driving. Motor climbed from 163\u00b0F to 232\u00b0F \u2014 still mid-gauge in the Ampere GUI. Notably, the temperature creep is slow and steady, not \"peaky\" like Connolly was with its restrictive return line (30\u00b0F swings with throttle); Ferdman barely reacts to power input or off-throttle periods.\nRun 2 (skidplate removed): inverter started at 104\u00b0F, motor at 165\u00b0F. Took 17 minutes / 2.5 laps of the same loop to hit limp mode at 160\u00b0F inverter, 241\u00b0F motor.\nConclusion: removing the skidplate bought roughly 25% more time/distance before limp mode, but didn't prevent it. Airflow is a contributing factor, not the root cause. Next candidates to test: correcting the inverter inlet/outlet to Tesla spec and re-plumbing the motor/inverter from series to parallel.\n\nInvestigated a variety of small options for additional cooler.\nInvestigated possible locations.\n\nMade a mockup of the Derale 15865 unit - appears it will fit. Handed off the Geoff to verify.\n\nCurrent thought:\nLH rear corner."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6248babb355c56ca3f36ba102fd1650649709df5571f768e186d154e9857ddab"
+              "content_hash": "455c31e7298faf794f6cb50e6ecc559afe01f4d300f22064d37e477f279c6a3d"
             }
           ]
         },
