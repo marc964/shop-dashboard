@@ -96,8 +96,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 74.0,
-      "pct_of_total": 8.3,
+      "total_hours": 77.0,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Audio",
@@ -105,7 +105,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 15.5
+          "hours": 18.2
         },
         {
           "task": "Manufacturing - Product",
@@ -113,7 +113,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 11.5
+          "hours": 11.8
         },
         {
           "task": "Motor & Transmission",
@@ -242,7 +242,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -311,7 +311,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Interior",
@@ -507,9 +507,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 641.5,
+    "billable_hours": 644.5,
     "non_billable_hours": 247.0,
     "pto_hours": 44.8,
-    "total_hours": 888.5
+    "total_hours": 891.5
   }
 }
