@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T15:18:13.607206Z",
+  "updated_at": "2026-07-22T16:03:29.254290Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -760,214 +760,9 @@
         "matched_lists": [
           "Avalos 72 Blazer"
         ],
-        "open_tasks": 9
+        "open_tasks": 4
       },
       "assignees": [
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868k92h3e",
-              "name": "Address Brake issues (checklist)",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k92h3e",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-06 20:01",
-                  "text": "Comment from Justin in Slack:\nEbrake adjustment lock nuts all loose where it turns from one cable into 2"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-09 20:04",
-                  "text": "toped the fluid off"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-16 19:32",
-                  "text": "installed the valve\ntest drove\nadjusted valve\ngtg"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Top off fluid level",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Tighten e-brake cable jam nuts",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Install bias valve",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "b8c64b5dde5cb9e1e9d3331399f4739869915ba3144846b1125b93eef5bca89d"
-            },
-            {
-              "id": "868k9295a",
-              "name": "Address Exterior issues (checklist)",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k9295a",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-09 20:00",
-                  "text": "checked pressures\nreplaced one body bolt & tightened up others\ninstalled plates"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-15 04:18",
-                  "text": "added some weather stripping to the back hatch\nadded someVHB to the rear tailgate strip ( it was loose)\nchanged the screws out for next size up\ntested the hatch\nmost of the rattles are gone"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Install linces plate",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Check tire pressure and torque lug nuts",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Address hardtop squeaks and rattles (if possible)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Tighten all body mounts",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "ed00f8c419d771e0082997896b1268a2b779812b9b3b5c32963f0aa4f989ef7d"
-            },
-            {
-              "id": "868k92m12",
-              "name": "Address Instrumentation issues (checklist)",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k92m12",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-06 20:05",
-                  "text": "Comment from Justin in Slack:\nA red backlight dot appears in the speedo gauge when the headlights are turned on. is this by design or some funky backlighting?"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-09 20:08",
-                  "text": "light is bleeding through when the lights are on\nshort of pulling dash and taking gauges apart  no  big issue\nI will ask for guidance"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-16 19:32",
-                  "text": "No action needed"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Assess red warning indicator in speedo",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "68252b765875f7a797bc924fce551f2dd2e5fcac991600d77d0d734e83d95667"
-            },
-            {
-              "id": "868k92bcj",
-              "name": "Address Interior issues (checklist)",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k92bcj",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-09 20:01",
-                  "text": "secured the defrost vent\nthe rearview mirror is bad we will need to order a new one"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-16 19:30",
-                  "text": "no action on mirror needed"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Clean up under dash wiring (whatever can be done)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Tighten rear view mirror",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Secure defrost vent",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "f7b5a74cef3cf3df1b776c5fc0727d7025473911dcc7008e600b842d272b3b9b"
-            },
-            {
-              "id": "868k91zx6",
-              "name": "Address Motor & Trans issues (checklist)",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868k91zx6",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-09 19:56",
-                  "text": "CV boots have a tears ordered new boots\ntightened all bolts\nordered new diff hose\nno action needed on the bolt contact"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-15 21:52",
-                  "text": "pulled the front DS to start\ngot to the CV clip\nthis clip sucks\ntried several ways to get it off\nno luck yet\nI am likely to go over budget"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-16 16:55",
-                  "text": "IMG_1654.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-16 16:59",
-                  "text": "Had to take a grinder to the clip and got it out\ngot the front CV on and back together\nremoved the rear DS\nthe shaft came apart much easier\nrear DS is back in"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Replace and secure diff vent hoses",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Check driveshaft hardware and mark with paint pen",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Address CV grease issue",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "b44416ba828a513de45971e465d360e0632bcb1335521608f9362fb4b983ea52"
-            }
-          ]
-        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -2001,7 +1796,7 @@
           "tasks": [
             {
               "id": "868kcb9y1",
-              "name": "Assess CV axles",
+              "name": "Address CV axle issue",
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kcb9y1",
@@ -2023,7 +1818,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c7a5d802e84e392ca22d88be0e5e81e0ab1c09d4773d21782df70e6a7f428e03"
+              "content_hash": "c6c15e1f25192622eac6746a80b8401831e0c561c820964c80e09a7844043d92"
             }
           ]
         },
