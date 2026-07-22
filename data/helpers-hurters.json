@@ -311,7 +311,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Interior",
@@ -349,8 +349,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 24.5,
-      "pct_of_total": 2.8,
+      "total_hours": 25.2,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -362,7 +362,7 @@
         },
         {
           "task": "Engineering - Support",
-          "hours": 2.8
+          "hours": 3.5
         },
         {
           "task": "Engineering - Core",
@@ -507,9 +507,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 623.5,
+    "billable_hours": 624.2,
     "non_billable_hours": 242.2,
     "pto_hours": 44.8,
-    "total_hours": 865.8
+    "total_hours": 866.5
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T16:03:29.254290Z",
+  "updated_at": "2026-07-22T16:48:29.985184Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1609,93 +1609,6 @@
           ]
         },
         {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kert77",
-              "name": "Address rear suspension issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kert77",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 03:44",
-                  "text": "chat about game plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 15:00",
-                  "text": "from 7/16:\nspent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 15:05",
-                  "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "bdd8a35725df993df97b2bf8489e573ed78fdaadcaa0671ad5f9ebfd1b78af9d"
-            },
-            {
-              "id": "868k7faah",
-              "name": "Adjust front ride height",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7faah",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:48",
-                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:49",
-                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-09 21:57",
-                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:43",
-                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:44",
-                  "text": "Currently has 1\" reverse rake."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-13 16:24",
-                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:00",
-                  "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:03",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-21 18:52",
-                  "text": "7/20 - Bus went to Soulspeed"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "2782ed83e9423589c6c09308fdac28b7da99e0e2913365b012ef716f1447c566"
-            }
-          ]
-        },
-        {
           "name": "Devin DuMont",
           "tasks": [
             {
@@ -1788,6 +1701,37 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kert77",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kert77",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 03:44",
+                  "text": "chat about game plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:00",
+                  "text": "from 7/16:\nspent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:05",
+                  "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bdd8a35725df993df97b2bf8489e573ed78fdaadcaa0671ad5f9ebfd1b78af9d"
             }
           ]
         },
