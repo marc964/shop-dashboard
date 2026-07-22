@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T03:13:51.693536Z",
+  "updated_at": "2026-07-22T04:26:55.968165Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Ivanhoe 65 Alfa"
         ],
-        "open_tasks": 5
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -285,6 +285,27 @@
                 }
               ],
               "content_hash": "392a591ae74130029ac6d3faf3bddbbcef51d6d0bbcc5cb5f6e6bbf579b02501"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868key6kq",
+              "name": "NEEDS REVIEW  Replace charger",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868key6kq",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 03:41",
+                  "text": "remove and replace charger. The new charger uses a different HV plug so i had to remake a section of harness and cut out a particularly bad anderson plug."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "04c18a50cfd9360ed5363f587bef98e4b364b9e076e6b9c93a5e811fdc1e830d"
             }
           ]
         },
@@ -1806,9 +1827,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kert77",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 03:44",
+                  "text": "chat about game plan"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a5fd15e53e60329d255fcc528a1ba16a94b2497d9ceb960d1de9317e9d65f5f0"
+              "content_hash": "78800290f684de4c781cc0a5243520f1769bb92f713091648d2fe0ab42ece13b"
             },
             {
               "id": "868k7faah",
