@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 87.0,
+      "total_hours": 88.0,
       "pct_of_total": 9.9,
       "tasks": [
         {
@@ -19,7 +19,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 10.8
+          "hours": 11.8
         },
         {
           "task": "Battery Pack",
@@ -50,7 +50,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 84.8,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -97,7 +97,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 72.0,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -143,12 +143,12 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 70.8,
+      "total_hours": 71.5,
       "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Audio",
-          "hours": 24.2
+          "hours": 25.0
         },
         {
           "task": "Manufacturing - Core",
@@ -190,12 +190,16 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 44.5,
-      "pct_of_total": 5.1,
+      "total_hours": 51.0,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
-          "hours": 15.0
+          "hours": 17.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 7.5
         },
         {
           "task": "Steering",
@@ -210,12 +214,8 @@
           "hours": 4.5
         },
         {
-          "task": "HVAC",
-          "hours": 4.0
-        },
-        {
           "task": "Manufacturing - Product",
-          "hours": 2.5
+          "hours": 3.5
         },
         {
           "task": "Scanning",
@@ -261,7 +261,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 33.8,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -376,16 +376,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 183.8,
-    "pct_of_total": 21.0,
-    "avg_per_person_per_day": 1.44,
+    "total_hours": 185.2,
+    "pct_of_total": 20.9,
+    "avg_per_person_per_day": 1.45,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 58.5
+        "hours": 59.8
       },
       {
         "label": "Shop Meetings",
@@ -397,7 +397,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 19.8
+        "hours": 20.0
       },
       {
         "label": "Organization",
@@ -507,9 +507,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 630.2,
-    "non_billable_hours": 245.5,
+    "billable_hours": 638.5,
+    "non_billable_hours": 247.0,
     "pto_hours": 44.8,
-    "total_hours": 875.8
+    "total_hours": 885.5
   }
 }
