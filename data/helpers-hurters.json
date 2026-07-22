@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 82.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -97,7 +97,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 66.8,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Audio",
@@ -257,7 +257,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 32.8,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -270,6 +270,33 @@
         {
           "task": "Interior",
           "hours": 0.8
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 29.2,
+      "pct_of_total": 3.5,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 9.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 8.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 7.2
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 2.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 2.0
         }
       ]
     },
@@ -313,33 +340,6 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 27.2,
-      "pct_of_total": 3.3,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 9.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 8.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 7.2
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 22.2,
       "pct_of_total": 2.7,
@@ -368,12 +368,12 @@
     }
   ],
   "shop_work": {
-    "total_hours": 174.0,
+    "total_hours": 174.5,
     "pct_of_total": 21.0,
-    "avg_per_person_per_day": 1.45,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 15,
+    "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
@@ -381,7 +381,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 50.5
+        "hours": 51.0
       },
       {
         "label": "Other",
@@ -499,9 +499,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 591.0,
-    "non_billable_hours": 235.8,
+    "billable_hours": 593.0,
+    "non_billable_hours": 236.2,
     "pto_hours": 36.8,
-    "total_hours": 826.8
+    "total_hours": 829.2
   }
 }
