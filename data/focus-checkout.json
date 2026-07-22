@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T12:09:08.639816Z",
+  "updated_at": "2026-07-22T12:48:26.385200Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -297,9 +297,15 @@
               "status": "Open",
               "list": "Ivanhoe 65 Alfa",
               "url": "https://app.clickup.com/t/868key6kq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 03:41",
+                  "text": "remove and replace charger. The new charger uses a different HV plug so i had to remake a section of harness and cut out a particularly bad anderson plug."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a858635002b99c9adf065b83797f6a3538697fc7ea140fbfab4ed6ded89a05be"
+              "content_hash": "04c18a50cfd9360ed5363f587bef98e4b364b9e076e6b9c93a5e811fdc1e830d"
             }
           ]
         },
