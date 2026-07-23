@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 97.2,
-      "pct_of_total": 10.1,
+      "total_hours": 104.2,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -11,7 +11,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 19.0
+          "hours": 21.8
         },
         {
           "task": "Wiring - High Voltage",
@@ -19,11 +19,11 @@
         },
         {
           "task": "Cooling",
-          "hours": 12.2
+          "hours": 13.5
         },
         {
           "task": "Battery Pack",
-          "hours": 7.5
+          "hours": 9.0
         },
         {
           "task": "Manufacturing - Support",
@@ -34,6 +34,10 @@
           "hours": 3.2
         },
         {
+          "task": "Wiring - OEM",
+          "hours": 2.8
+        },
+        {
           "task": "Motor & Transmission",
           "hours": 2.5
         },
@@ -42,19 +46,15 @@
           "hours": 2.0
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 1.8
-        },
-        {
           "task": "Interior",
-          "hours": 1.0
+          "hours": 1.5
         }
       ]
     },
     {
       "project": "Thacker 46 Woody",
       "total_hours": 93.2,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -100,7 +100,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 88.2,
+      "total_hours": 90.2,
       "pct_of_total": 9.2,
       "tasks": [
         {
@@ -124,16 +124,16 @@
           "hours": 5.8
         },
         {
+          "task": "Scanning",
+          "hours": 3.5
+        },
+        {
           "task": "Manufacturing - Support",
           "hours": 3.5
         },
         {
           "task": "Instrumentation",
           "hours": 1.8
-        },
-        {
-          "task": "Scanning",
-          "hours": 1.5
         },
         {
           "task": "Engineering - Core",
@@ -148,7 +148,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 82.5,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -203,7 +203,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 56.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -254,7 +254,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -303,12 +303,12 @@
     },
     {
       "project": "Connolly 58 220S",
-      "total_hours": 32.8,
+      "total_hours": 33.2,
       "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 23.8
+          "hours": 24.2
         },
         {
           "task": "Brakes",
@@ -323,7 +323,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Interior",
@@ -362,7 +362,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 25.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -388,20 +388,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 197.5,
-    "pct_of_total": 20.5,
-    "avg_per_person_per_day": 1.45,
+    "total_hours": 199.5,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.47,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.5
+        "hours": 64.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.5
+        "hours": 58.5
       },
       {
         "label": "Other",
@@ -527,9 +527,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 694.5,
-    "non_billable_hours": 268.8,
+    "billable_hours": 706.0,
+    "non_billable_hours": 270.8,
     "pto_hours": 44.8,
-    "total_hours": 963.2
+    "total_hours": 976.8
   }
 }
