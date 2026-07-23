@@ -53,8 +53,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 88.8,
-      "pct_of_total": 9.3,
+      "total_hours": 89.2,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -90,7 +90,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 3.0
+          "hours": 3.5
         },
         {
           "task": "Audio",
@@ -100,8 +100,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 87.8,
-      "pct_of_total": 9.2,
+      "total_hours": 88.2,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Audio",
@@ -117,7 +117,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 12.0
+          "hours": 12.5
         },
         {
           "task": "Motor & Transmission",
@@ -465,7 +465,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 10.0,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -527,9 +527,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 684.0,
+    "billable_hours": 685.0,
     "non_billable_hours": 267.8,
     "pto_hours": 44.8,
-    "total_hours": 951.8
+    "total_hours": 952.8
   }
 }

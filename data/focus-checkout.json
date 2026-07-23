@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T18:43:39.179434Z",
+  "updated_at": "2026-07-23T19:14:17.366213Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Ivanhoe 65 Alfa"
         ],
-        "open_tasks": 5
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -295,32 +295,6 @@
                 }
               ],
               "content_hash": "392a591ae74130029ac6d3faf3bddbbcef51d6d0bbcc5cb5f6e6bbf579b02501"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868ke2e0d",
-              "name": "Diag/repair front passenger suspension clunk over speedbumps",
-              "status": "Open",
-              "list": "Ivanhoe 65 Alfa",
-              "url": "https://app.clickup.com/t/868ke2e0d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-20 16:06",
-                  "text": "Performed initial road testing over speed bumps to reproduce suspension noise concern. Noted three noises over speed bumps, none of which seem to come from the steering or suspension. (unoccupied passenger seat back noisy over bumps, key colection in glove box noisy over bumps & hood was not latched resulting in rattle/knocking over bumps) Latched hood & performed visual inspection of steering & suspension systems. All components tight & secure. Performed final road testing with Marc. Concern was noot reproduced."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-20 16:07",
-                  "text": "Performed assist Billy with balancing including multiple road tests & bringing/holding car at speed while on jackstands. Driveline vibrations between 30-40 mph now noticably reduced."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ee9b23d2554f16997a5dac135b5f57ffff625d7476c6ea1a114e6691245ed70c"
             }
           ]
         },
