@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T15:18:11.837816Z",
+  "updated_at": "2026-07-24T16:02:58.956906Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -397,22 +397,12 @@
         "matched_lists": [
           "Avalos 72 Blazer"
         ],
-        "open_tasks": 2
+        "open_tasks": 1
       },
       "assignees": [
         {
           "name": "Ryan Laurel",
           "tasks": [
-            {
-              "id": "868kbwfup",
-              "name": "Call Shwash to detail, Wed",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868kbwfup",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "2661d7ec5ca774c41714f3c88a7e7279f39898a89fdf8e5ed451c76b233891b4"
-            },
             {
               "id": "868jv1z7m",
               "name": "Coordinate transport to CA",
@@ -947,7 +937,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -1370,42 +1360,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jqn3f6",
-              "name": "Vehicle alignment",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jqn3f6",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-05-29 17:53",
-                  "text": "Waiting on go ahead from Jordan once suspension is done."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:13",
-                  "text": "Still waiting on spindles, following up today, 6/12"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 15:29",
-                  "text": "Jordan finalizing suspension work, will schedule as soon as he gives the thumbs up."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-07-09 20:28",
-                  "text": "Alignment scheduled for Wed 7/22 @2pm, Dropping off the afternoon on the 20th."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "1c3b1ea3d51bf59a46d4eda5b436c057f4be5ed7141143b3ee61377706ffea07"
             }
           ]
         }

@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 110.2,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -392,9 +392,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 204.0,
-    "pct_of_total": 20.6,
-    "avg_per_person_per_day": 1.42,
+    "total_hours": 201.0,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
@@ -409,7 +409,7 @@
       },
       {
         "label": "Other",
-        "hours": 50.2
+        "hours": 47.2
       },
       {
         "label": "Personal Meetings",
@@ -532,8 +532,8 @@
   ],
   "totals": {
     "billable_hours": 714.2,
-    "non_billable_hours": 276.2,
+    "non_billable_hours": 273.2,
     "pto_hours": 44.8,
-    "total_hours": 990.5
+    "total_hours": 987.5
   }
 }
