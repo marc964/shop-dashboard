@@ -54,7 +54,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 99.2,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -392,9 +392,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 206.2,
+    "total_hours": 206.8,
     "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.43,
+    "avg_per_person_per_day": 1.44,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
@@ -405,7 +405,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.5
+        "hours": 61.0
       },
       {
         "label": "Other",
@@ -532,8 +532,8 @@
   ],
   "totals": {
     "billable_hours": 749.8,
-    "non_billable_hours": 278.5,
+    "non_billable_hours": 279.0,
     "pto_hours": 44.8,
-    "total_hours": 1028.2
+    "total_hours": 1028.8
   }
 }
