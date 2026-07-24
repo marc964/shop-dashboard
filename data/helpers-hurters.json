@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 110.2,
-      "pct_of_total": 11.2,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -54,7 +54,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 93.2,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -147,8 +147,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 82.5,
-      "pct_of_total": 8.4,
+      "total_hours": 84.0,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -171,6 +171,10 @@
           "hours": 4.2
         },
         {
+          "task": "Exterior",
+          "hours": 3.2
+        },
+        {
           "task": "Suspension",
           "hours": 3.2
         },
@@ -185,10 +189,6 @@
         {
           "task": "Brakes",
           "hours": 2.2
-        },
-        {
-          "task": "Exterior",
-          "hours": 1.8
         },
         {
           "task": "Audio",
@@ -392,9 +392,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 201.5,
-    "pct_of_total": 20.4,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 204.0,
+    "pct_of_total": 20.6,
+    "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
@@ -409,7 +409,7 @@
       },
       {
         "label": "Other",
-        "hours": 47.8
+        "hours": 50.2
       },
       {
         "label": "Personal Meetings",
@@ -531,9 +531,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 712.8,
-    "non_billable_hours": 273.8,
+    "billable_hours": 714.2,
+    "non_billable_hours": 276.2,
     "pto_hours": 44.8,
-    "total_hours": 986.5
+    "total_hours": 990.5
   }
 }
