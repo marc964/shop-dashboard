@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 115.2,
-      "pct_of_total": 11.3,
+      "total_hours": 120.8,
+      "pct_of_total": 11.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -15,11 +15,11 @@
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 17.0
+          "hours": 20.5
         },
         {
           "task": "Cooling",
-          "hours": 13.5
+          "hours": 15.5
         },
         {
           "task": "Battery Pack",
@@ -101,7 +101,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 97.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Audio",
@@ -148,7 +148,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 92.5,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -277,7 +277,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 35.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -308,7 +308,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 33.2,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -392,20 +392,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 204.2,
-    "pct_of_total": 20.0,
-    "avg_per_person_per_day": 1.42,
+    "total_hours": 206.2,
+    "pct_of_total": 20.1,
+    "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 67.5
+        "hours": 69.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.0
+        "hours": 60.5
       },
       {
         "label": "Other",
@@ -531,9 +531,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 744.2,
-    "non_billable_hours": 276.5,
+    "billable_hours": 749.8,
+    "non_billable_hours": 278.5,
     "pto_hours": 44.8,
-    "total_hours": 1020.8
+    "total_hours": 1028.2
   }
 }
