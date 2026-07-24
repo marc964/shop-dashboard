@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 110.2,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -52,6 +52,53 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 99.2,
+      "pct_of_total": 9.9,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 31.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 26.5
+        },
+        {
+          "task": "Brakes",
+          "hours": 7.0
+        },
+        {
+          "task": "Interior",
+          "hours": 6.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 6.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 6.2
+        },
+        {
+          "task": "Steering",
+          "hours": 4.2
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 3.5
+        },
+        {
+          "task": "Audio",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 97.0,
       "pct_of_total": 9.7,
@@ -94,53 +141,6 @@
         },
         {
           "task": "Brakes",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 93.2,
-      "pct_of_total": 9.4,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 26.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 25.5
-        },
-        {
-          "task": "Brakes",
-          "hours": 7.0
-        },
-        {
-          "task": "Interior",
-          "hours": 6.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 6.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 6.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 6.2
-        },
-        {
-          "task": "Steering",
-          "hours": 4.2
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 3.5
-        },
-        {
-          "task": "Audio",
           "hours": 0.5
         }
       ]
@@ -203,7 +203,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 57.2,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Brakes",
@@ -392,20 +392,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 201.8,
-    "pct_of_total": 20.3,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 202.8,
+    "pct_of_total": 20.2,
+    "avg_per_person_per_day": 1.41,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 66.0
+        "hours": 66.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 59.0
+        "hours": 59.5
       },
       {
         "label": "Other",
@@ -429,7 +429,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 23.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -531,9 +531,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 721.2,
-    "non_billable_hours": 274.0,
+    "billable_hours": 729.2,
+    "non_billable_hours": 275.0,
     "pto_hours": 44.8,
-    "total_hours": 995.2
+    "total_hours": 1004.2
   }
 }
