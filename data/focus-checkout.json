@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T16:02:58.956906Z",
+  "updated_at": "2026-07-24T16:52:43.555891Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -393,55 +393,10 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Avalos 72 Blazer"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jv1z7m",
-              "name": "Coordinate transport to CA",
-              "status": "Open",
-              "list": "Avalos 72 Blazer",
-              "url": "https://app.clickup.com/t/868jv1z7m",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-04 23:13",
-                  "text": "Waiting on go ahead to ship."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-05 17:58",
-                  "text": "Ask Julio about the Corvette."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-05 19:24",
-                  "text": "Emailed asking about plan for the Corvette."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:12",
-                  "text": "Waiting on go ahead to ship."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 15:24",
-                  "text": "Waiting on confirmation. Julio wants assistance in moving Corvette, not shipping back to CA. We'll come up with a plan when Marc gets back."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "9cc7a7f5cb76678883a870c6a48810b66c150c7862f69f256e7abf7bb21c51a0"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Miner",
@@ -937,7 +892,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 11
+        "open_tasks": 12
       },
       "assignees": [
         {
@@ -1360,6 +1315,21 @@
               ],
               "checklist_items": [],
               "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kg17x2",
+              "name": "Fix passenger windshield",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kg17x2",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "6ee5f57d2cfa752738c96d3feea4b3433b3d3649756294892954036c68c2f7f1"
             }
           ]
         }
