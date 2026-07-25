@@ -53,7 +53,7 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 99.2,
+      "total_hours": 100.8,
       "pct_of_total": 9.6,
       "tasks": [
         {
@@ -86,7 +86,7 @@
         },
         {
           "task": "Steering",
-          "hours": 4.2
+          "hours": 5.8
         },
         {
           "task": "Manufacturing - Product",
@@ -100,7 +100,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 97.0,
+      "total_hours": 98.5,
       "pct_of_total": 9.4,
       "tasks": [
         {
@@ -136,6 +136,10 @@
           "hours": 3.5
         },
         {
+          "task": "Suspension",
+          "hours": 1.5
+        },
+        {
           "task": "Engineering - Core",
           "hours": 1.0
         },
@@ -148,7 +152,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 92.5,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -258,7 +262,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -327,7 +331,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Interior",
@@ -392,24 +396,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 208.5,
-    "pct_of_total": 20.1,
-    "avg_per_person_per_day": 1.45,
+    "total_hours": 213.5,
+    "pct_of_total": 20.4,
+    "avg_per_person_per_day": 1.48,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 70.2
+        "hours": 70.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 61.0
+        "hours": 61.5
       },
       {
         "label": "Other",
-        "hours": 47.2
+        "hours": 49.2
       },
       {
         "label": "Personal Meetings",
@@ -417,11 +421,11 @@
       },
       {
         "label": "Organization",
-        "hours": 5.8
+        "hours": 6.8
       },
       {
         "label": "Errands",
-        "hours": 1.0
+        "hours": 2.0
       }
     ]
   },
@@ -429,7 +433,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 23.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -531,9 +535,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 755.8,
-    "non_billable_hours": 281.5,
+    "billable_hours": 758.8,
+    "non_billable_hours": 286.5,
     "pto_hours": 44.8,
-    "total_hours": 1037.2
+    "total_hours": 1045.2
   }
 }
