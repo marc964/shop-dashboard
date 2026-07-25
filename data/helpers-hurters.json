@@ -443,8 +443,8 @@
     },
     {
       "project": "Ivanhoe 65 Alfa",
-      "total_hours": 14.8,
-      "pct_of_total": 1.4,
+      "total_hours": 18.8,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -452,6 +452,10 @@
           "context": [
             "Vehicle Control"
           ]
+        },
+        {
+          "task": "Troubleshooting",
+          "hours": 4.0
         }
       ]
     },
@@ -535,8 +539,8 @@
     }
   ],
   "totals": {
-    "billable_hours": 758.8,
-    "non_billable_hours": 286.5,
+    "billable_hours": 754.8,
+    "non_billable_hours": 290.5,
     "pto_hours": 44.8,
     "total_hours": 1045.2
   }
