@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T21:40:58.927440Z",
+  "updated_at": "2026-07-27T22:10:45.287618Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -545,10 +545,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-07-07 23:26",
                   "text": "Reviewed all punchlist items. Added the wifi credentials to the CAN logger, still need to verify the configuration has sync'd once the vehicle is within wifi range. Reviewed various temperature setpoinnts for different drive systems and decided digital dash temperature slider was okay without changes. Formatted punch list and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-27 21:52",
+                  "text": "Test drove with Marc to observe \"torque surge\". Couldn't reliably feel the issue but looking in the logs there was an obvious 50Nm increase right as creep mode turns off. Used the log to find the intersection of the pedal torque table and the creep torque table, set the new creep APP threshold to happen exactly there. Test drove again with no surge feeling, logs confirmed. Made backups of the VCU and inverter, followed along in Slack for final vehicle ship details. Scanned startup column making sure all unfinished items were reviewed."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "206b69058a4a089dfe4138fc0de3a328b42e3bdc783e37ee1231090f4e401f0e"
+              "content_hash": "1efa23a860acd15160b1b3f013f0e02fe6b165731fde2edb0ec3196b8abc3cea"
             }
           ]
         }
