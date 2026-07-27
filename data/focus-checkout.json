@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T19:52:43.010198Z",
+  "updated_at": "2026-07-27T20:34:35.421089Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -396,7 +396,7 @@
         "matched_lists": [
           "Miner 95 911"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -453,6 +453,21 @@
               ],
               "checklist_items": [],
               "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868kgqy5y",
+              "name": "Troubleshoot and repair soft top",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868kgqy5y",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "86243296825cd367419be8b301c4278289760242af4c0d13ed3395a827404145"
             }
           ]
         },
