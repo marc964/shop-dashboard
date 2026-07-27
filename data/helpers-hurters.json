@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 120.8,
-      "pct_of_total": 11.2,
+      "total_hours": 127.8,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -23,7 +23,11 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 9.0
+          "hours": 14.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.2
         },
         {
           "task": "Manufacturing - Support",
@@ -32,10 +36,6 @@
         {
           "task": "Vehicle Control",
           "hours": 3.2
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.8
         },
         {
           "task": "Motor & Transmission",
@@ -48,13 +48,17 @@
         {
           "task": "Interior",
           "hours": 1.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 111.8,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -160,7 +164,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 93.0,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -339,7 +343,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Interior",
@@ -404,20 +408,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 217.2,
+    "total_hours": 218.2,
     "pct_of_total": 20.2,
-    "avg_per_person_per_day": 1.43,
+    "avg_per_person_per_day": 1.44,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 72.2
+        "hours": 72.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 63.0
+        "hours": 63.5
       },
       {
         "label": "Other",
@@ -547,9 +551,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 779.8,
-    "non_billable_hours": 294.2,
+    "billable_hours": 786.8,
+    "non_billable_hours": 295.2,
     "pto_hours": 52.8,
-    "total_hours": 1074.0
+    "total_hours": 1082.0
   }
 }
