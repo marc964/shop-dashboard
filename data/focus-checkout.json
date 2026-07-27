@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T21:11:27.047408Z",
+  "updated_at": "2026-07-27T21:40:58.927440Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1641,9 +1641,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
             }
           ]
         },
