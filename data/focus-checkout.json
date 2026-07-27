@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T17:52:46.510112Z",
+  "updated_at": "2026-07-27T18:37:06.819539Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,35 +16,10 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Ivanhoe 65 Alfa"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868kbwh1y",
-              "name": "Facilitate transport",
-              "status": "Open",
-              "list": "Ivanhoe 65 Alfa",
-              "url": "https://app.clickup.com/t/868kbwh1y",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-07-15 13:22",
-                  "text": "In progress ..."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "1a9e536b9022e6de952bb61022a6b258363ebac076fda0ba9cb1d5c08cafcea0"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Preheim",
@@ -897,7 +872,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 12
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -1330,21 +1305,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
-            }
-          ]
-        },
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868kg17x2",
-              "name": "Fix passenger windshield",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kg17x2",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "6ee5f57d2cfa752738c96d3feea4b3433b3d3649756294892954036c68c2f7f1"
             }
           ]
         }
