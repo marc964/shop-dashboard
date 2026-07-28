@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T18:48:11.782696Z",
+  "updated_at": "2026-07-28T19:34:18.880045Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -139,11 +139,19 @@
             {
               "text": "Battery type in preheim",
               "done": false
+            },
+            {
+              "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
+              "done": false
+            },
+            {
+              "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
+              "done": false
             }
           ],
-          "total": 21,
+          "total": 23,
           "done": 15,
-          "open": 6
+          "open": 8
         }
       },
       "clickup_match": {
@@ -465,9 +473,15 @@
               "status": "Open",
               "list": "Miner 95 911",
               "url": "https://app.clickup.com/t/868kgqy5y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-28 19:27",
+                  "text": "Performed soft top diagnosis including removal of interior items to expose soft top components. Performed electrical testing using wiring diagram provided by Porsche South Austin.\nSoft Top control unit supply values:\nCircuit 15 = 14.2vdc\nCircuit 30 - 13.6vdc\nCircuit 31 = 0ohms to 12 batt.\n\nR/R & D/A passenger side transmission to reset gear alignment.\ntested all 4 top motors... windscreen latch motors OK & top actuator motors operational but sluggish when connected to transmissions.\nGot shop foreman from Porsche to visit, clear DTCs and view actual values of limit switches & latches. Opened & closed top manually many times & transmissions have finally failed internally, causing excessive resistance &  possibly damaging the soft top ECU. (f13/30amp fuse still OK) Waiting on Porsche to work up an estimate to replace these items."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "86243296825cd367419be8b301c4278289760242af4c0d13ed3395a827404145"
+              "content_hash": "f5088db38d2c15d30c56e68f7a2789dab91180c0fb92795d14ca6ebc609b0b12"
             }
           ]
         },

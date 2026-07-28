@@ -795,11 +795,19 @@
           {
             "text": "Battery type in preheim",
             "done": false
+          },
+          {
+            "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
+            "done": false
+          },
+          {
+            "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
+            "done": false
           }
         ],
-        "total": 21,
+        "total": 23,
         "done": 15,
-        "open": 6
+        "open": 8
       }
     },
     {
@@ -1603,6 +1611,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-28T18:47:47.681391+00:00",
+  "updated": "2026-07-28T19:33:54.130093+00:00",
   "source": "Google Sheets API"
 }
