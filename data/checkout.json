@@ -1227,6 +1227,38 @@
       }
     },
     {
+      "owner": "Ritchie",
+      "year": 1972,
+      "color": "",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Fabrication",
+      "checkout": 16.7,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 100
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Nolan",
       "year": 1970,
       "color": "",
@@ -1363,38 +1395,6 @@
         "done": 0,
         "open": 1
       }
-    },
-    {
-      "owner": "Ritchie",
-      "year": 1972,
-      "color": "",
-      "make": "Chevrolet",
-      "model": "Blazer",
-      "status": "Fabrication",
-      "checkout": 10.8,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 64.8
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
     },
     {
       "owner": "Ampere Default",
@@ -1611,6 +1611,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-28T19:33:54.130093+00:00",
+  "updated": "2026-07-28T20:12:23.566038+00:00",
   "source": "Google Sheets API"
 }
