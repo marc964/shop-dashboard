@@ -1357,6 +1357,38 @@
       }
     },
     {
+      "owner": "Ritchie",
+      "year": 1972,
+      "color": "",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "status": "Fabrication",
+      "checkout": 8.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 51.9
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
+    },
+    {
       "owner": "Ampere Default",
       "year": null,
       "color": "",
@@ -1448,38 +1480,6 @@
       "color": "",
       "make": "",
       "model": "Corvette",
-      "status": "Fabrication",
-      "checkout": 0,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 0
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Ritchie",
-      "year": 1972,
-      "color": "",
-      "make": "Chevrolet",
-      "model": "Blazer",
       "status": "Fabrication",
       "checkout": 0,
       "sub_metrics": [
@@ -1603,6 +1603,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-28T15:19:04.122656+00:00",
+  "updated": "2026-07-28T16:13:45.708925+00:00",
   "source": "Google Sheets API"
 }
