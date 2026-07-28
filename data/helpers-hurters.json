@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 135.2,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -57,8 +57,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 117.2,
-      "pct_of_total": 10.6,
+      "total_hours": 119.5,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -78,7 +78,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 9.5
+          "hours": 11.8
         },
         {
           "task": "Instrumentation",
@@ -164,7 +164,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 98.2,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -218,8 +218,8 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 58.0,
-      "pct_of_total": 5.2,
+      "total_hours": 60.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -231,7 +231,7 @@
         },
         {
           "task": "Steering",
-          "hours": 6.0
+          "hours": 7.5
         },
         {
           "task": "Engine Bay",
@@ -260,6 +260,10 @@
         {
           "task": "Interior",
           "hours": 1.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
         },
         {
           "task": "Manufacturing - Core",
@@ -408,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 222.0,
+    "total_hours": 223.2,
     "pct_of_total": 20.0,
-    "avg_per_person_per_day": 1.39,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 74.8
+        "hours": 75.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.5
+        "hours": 65.0
       },
       {
         "label": "Other",
@@ -433,7 +437,7 @@
       },
       {
         "label": "Organization",
-        "hours": 7.0
+        "hours": 7.2
       },
       {
         "label": "Errands",
@@ -551,9 +555,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 808.8,
-    "non_billable_hours": 299.2,
+    "billable_hours": 814.0,
+    "non_billable_hours": 300.5,
     "pto_hours": 52.8,
-    "total_hours": 1108.0
+    "total_hours": 1114.5
   }
 }
