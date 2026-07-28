@@ -57,7 +57,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 117.0,
+      "total_hours": 117.2,
       "pct_of_total": 10.6,
       "tasks": [
         {
@@ -78,7 +78,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 9.2
+          "hours": 9.5
         },
         {
           "task": "Instrumentation",
@@ -408,7 +408,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 220.8,
+    "total_hours": 221.5,
     "pct_of_total": 20.0,
     "avg_per_person_per_day": 1.38,
     "flagged": true,
@@ -421,7 +421,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 64.0
+        "hours": 64.5
       },
       {
         "label": "Other",
@@ -433,7 +433,7 @@
       },
       {
         "label": "Organization",
-        "hours": 6.8
+        "hours": 7.0
       },
       {
         "label": "Errands",
@@ -551,9 +551,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 808.0,
-    "non_billable_hours": 298.0,
+    "billable_hours": 808.2,
+    "non_billable_hours": 298.8,
     "pto_hours": 52.8,
-    "total_hours": 1106.0
+    "total_hours": 1107.0
   }
 }
