@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 135.2,
-      "pct_of_total": 11.9,
+      "total_hours": 141.2,
+      "pct_of_total": 12.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -11,7 +11,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 21.8
+          "hours": 22.2
         },
         {
           "task": "Wiring - High Voltage",
@@ -26,6 +26,10 @@
           "hours": 14.0
         },
         {
+          "task": "Motor & Transmission",
+          "hours": 8.0
+        },
+        {
           "task": "Wiring - OEM",
           "hours": 4.2
         },
@@ -36,10 +40,6 @@
         {
           "task": "Vehicle Control",
           "hours": 3.2
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.5
         },
         {
           "task": "Engine Bay",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 119.5,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -112,8 +112,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 108.8,
-      "pct_of_total": 9.6,
+      "total_hours": 110.8,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -121,7 +121,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 26.5
+          "hours": 28.5
         },
         {
           "task": "HVAC",
@@ -164,7 +164,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 98.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -219,7 +219,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 64.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -436,20 +436,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 225.2,
-    "pct_of_total": 19.8,
-    "avg_per_person_per_day": 1.41,
+    "total_hours": 227.8,
+    "pct_of_total": 19.9,
+    "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
     "working_days": 20,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 76.2
+        "hours": 77.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 66.0
+        "hours": 67.0
       },
       {
         "label": "Other",
@@ -457,7 +457,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 24.5
+        "hours": 25.2
       },
       {
         "label": "Organization",
@@ -484,7 +484,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 18.8,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -502,7 +502,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 12.0,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -579,9 +579,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 833.0,
-    "non_billable_hours": 302.5,
+    "billable_hours": 841.0,
+    "non_billable_hours": 305.0,
     "pto_hours": 52.8,
-    "total_hours": 1135.5
+    "total_hours": 1146.0
   }
 }
