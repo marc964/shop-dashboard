@@ -1363,11 +1363,11 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Fabrication",
-      "checkout": 8.6,
+      "checkout": 10.8,
       "sub_metrics": [
         {
           "label": "BMS",
-          "value": 51.9
+          "value": 64.8
         },
         {
           "label": "Inverter",
@@ -1603,6 +1603,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-28T16:13:45.708925+00:00",
+  "updated": "2026-07-28T16:51:35.198032+00:00",
   "source": "Google Sheets API"
 }
