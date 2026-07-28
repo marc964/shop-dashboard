@@ -1072,7 +1072,7 @@
       "make": "Alfa Romero",
       "model": "GTV",
       "status": "Checkout",
-      "checkout": 45.3,
+      "checkout": 46.4,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1446,7 +1446,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Shipped",
-      "checkout": 1.0,
+      "checkout": 1.1,
       "sub_metrics": [],
       "system": "AEM"
     },
@@ -1611,6 +1611,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-28T20:42:34.982149+00:00",
+  "updated": "2026-07-28T21:11:51.477886+00:00",
   "source": "Google Sheets API"
 }
