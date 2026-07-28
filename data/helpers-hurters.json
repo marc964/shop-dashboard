@@ -113,7 +113,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 110.8,
-      "pct_of_total": 9.7,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -163,8 +163,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 98.2,
-      "pct_of_total": 8.6,
+      "total_hours": 100.8,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -176,7 +176,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 13.5
+          "hours": 16.0
         },
         {
           "task": "Exterior",
@@ -437,7 +437,7 @@
   ],
   "shop_work": {
     "total_hours": 227.8,
-    "pct_of_total": 19.9,
+    "pct_of_total": 19.8,
     "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
@@ -473,7 +473,7 @@
     {
       "project": "Avalos 72 Blazer",
       "total_hours": 23.5,
-      "pct_of_total": 2.1,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -579,9 +579,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 841.0,
+    "billable_hours": 843.5,
     "non_billable_hours": 305.0,
     "pto_hours": 52.8,
-    "total_hours": 1146.0
+    "total_hours": 1148.5
   }
 }
