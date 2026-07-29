@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 141.2,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 119.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -112,8 +112,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 110.8,
-      "pct_of_total": 9.6,
+      "total_hours": 113.2,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -121,7 +121,7 @@
         },
         {
           "task": "Suspension",
-          "hours": 28.5
+          "hours": 31.0
         },
         {
           "task": "HVAC",
@@ -164,7 +164,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 100.8,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -219,7 +219,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 64.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -282,7 +282,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -301,7 +301,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 36.8,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -332,7 +332,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 33.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -351,7 +351,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 30.8,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Interior",
@@ -388,56 +388,20 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 30.0,
+      "project": "ICON Bronco Prototype",
+      "total_hours": 30.5,
       "pct_of_total": 2.6,
       "tasks": [
         {
-          "task": "Manufacturing - Product",
-          "hours": 7.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 7.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 3.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.5
-        },
-        {
-          "task": "Steering",
-          "hours": 2.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Interior",
-          "hours": 1.5
-        },
-        {
-          "task": "Audio",
-          "hours": 1.0
-        },
-        {
           "task": "Motor & Transmission",
-          "hours": 1.0
+          "hours": 30.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 228.2,
-    "pct_of_total": 19.8,
+    "total_hours": 228.8,
+    "pct_of_total": 19.5,
     "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
@@ -445,7 +409,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.5
+        "hours": 78.0
       },
       {
         "label": "Shop Meetings",
@@ -517,7 +481,7 @@
     {
       "project": "Buck 70 280SL",
       "total_hours": 11.0,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -565,7 +529,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 1.8,
-      "pct_of_total": 0.2,
+      "pct_of_total": 0.1,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -579,9 +543,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 843.5,
-    "non_billable_hours": 310.0,
+    "billable_hours": 862.0,
+    "non_billable_hours": 310.5,
     "pto_hours": 52.8,
-    "total_hours": 1153.5
+    "total_hours": 1172.5
   }
 }
