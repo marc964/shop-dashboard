@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T06:13:09.613353Z",
+  "updated_at": "2026-07-29T07:14:39.805273Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1533,9 +1533,120 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868eqndhd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-14 02:15",
+                  "text": "Started on checkout list. Checked off easy things like the BMS related items. Those were all looked at last month. Upgraded the VCU firmware, Cleared faults most came back. Checked inverter settings and made backups. Checked other various easy items like pedal, brakes, and PRND."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-15 21:52",
+                  "text": "Started working on alarm reduction. Checked current status on Raptor. Also tried out OBDII scanner made by PEAK. Tried several ways to get the GUI updated and set as default, not working like the other vehicles for some reason. Put in a ticket with Ampere. Also discovered an interesting bug that resulted in the parking brakes getting stuck in the opening state when plugging in the charger. Also added to an Ampere ticket."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-16 21:39",
+                  "text": "Continued work to eliminate faults in the diagnostic buffer. Inverted direction for IVT current. Range still showing -400 miles, put in a ticket with Ampere. Updated dash with Lawson on the phone, after several key cycles default app no longer selected, put in a ticket with Ampere. DCDC faults came back, another ticket. Weighed vehicle, noted tire size, etc. Ran through checkout sheet again checking off boxes for charging and vehicle specs."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-17 21:02",
+                  "text": "Checked GUI firmware versions and responded to ticket. Checked in on status of other items, all are acknowledged by Ampere but not yet resolved. Checked AC and heater with Billy."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-18 21:27",
+                  "text": "Continued follow up on Ampere Tickets. Installed new FW with lash control. Trouble shot not going into gear. Un installed then re installed new FW."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-21 21:14",
+                  "text": "Checked Raptor for a way to turn on all fans to help with AC tuning. Nothing found as a permanent solution. Temporarily forced on all fans. Put in ticket with Ampere to add in that feature."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-23 22:55",
+                  "text": "Updated GUI firmware with Laswon. Troubleshooting brakes with team. Verified PMU settings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-24 21:46",
+                  "text": "Hooked up to Raptor-Service and checked the AC pressure under various AC settings. Watched AC compressor pressures for a few cycles to verify pressure. 1200 kPa looks fine, got alarm again driving with Billy. Updated Ampere ticket. Checked inverter settings, disabled self sense."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-07-25 23:40",
+                  "text": "Continued troubleshooting AC with Billy."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-01 21:54",
+                  "text": "Checked AC pressure with Noah & Aharon using Raptor-Service. Checked item off checklist, reviewed other faults. None seem to be popping up currently. Will continue to monitor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-06 22:38",
+                  "text": "Tested delaying AC fans to 1500kPa, compressor still kicking off with over current fault. Put in ticket with Ampere to update them on findings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-22 02:43",
+                  "text": "Used Raptor-Service to monitor AC pressures while Billy verified with the gauges. Took a video and discussed with Marc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-22 21:47",
+                  "text": "Looked up specs of sensor and verified pinout with Alex docs and Ampere docs. Checked pressure readings of sensor installed on Shah Mustang as well as used that VCU to get a second data point on the spare sensor we tested yesterday. Consolidated all data collected and continued verifying pinouts, wiring, configs, etc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-25 21:21",
+                  "text": "Continued following my theory about pressure sensor wiring. Tested and proved that, corrected wiring in both Shah and Kelly. Pressures now match the analog gauges but compressor still faults out. Discussion with team."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-08-26 23:05",
+                  "text": "Re-checked wiring with Aharon, monitored Raptor service to correlate new pressure values with analog gauges."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-29 21:37",
+                  "text": "Verified gamma EEPROM setting was correct. Made backup of EEPROM and transferred everything to the checkout sheet. Compared EEPROM profile to the stock symbols file to verify correct settings were input."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-04-29 22:19",
+                  "text": "multiple test drives and log reporting. set car up for gamma adjustment. wipe down after wet drive"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-01 01:43",
+                  "text": "Updated ticket with Ampere about new testing data available with the correct motor. Reviewed response and collected information to send to Cascadia. Drafted and finalized email then sent off. Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-09 22:29",
+                  "text": "test drives and data logging."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-10 22:20",
+                  "text": "Organized and reviewed all the road testing data from yesterday. Downloaded most up to date Cascadia documentation and looked for any updates to describe the use of various EEPROM setting not mentioned in previous documentation. Still didn't find documentation. Reviewed email recap and testing procedure, added in questions. Sent off to Cascadia. Repeated six trials with the CAN logger, still need to fully analyze this data."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-10 22:20",
+                  "text": "Grabbed up to date backup from Kelly's invverter. Compared Kelly, Lee, Ampere Default, and Moment Default EEPROM settings. Built corrected CM350 default EEPROM file, went online with Kelly and loaded this. Read through Cascadia email chain to get full test procedure picture, took re-cap notes to share with the team due to the short hiatus. Verified many of the EEPROM paramaters discussed in the thread not listed in any current documentation. Ran a good number of road trials with Aharon collecting inverter diag data under various EEPROM settings."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-06-11 01:49",
+                  "text": "Additional log analysis."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "d9124b0ab080a007f1a2e3c198f48b4a7e338e73d23242dd04edfb96edfdc1e4"
             },
             {
               "id": "868k2w1bc",
