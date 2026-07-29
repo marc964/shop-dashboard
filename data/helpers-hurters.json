@@ -112,8 +112,8 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 113.2,
-      "pct_of_total": 9.6,
+      "total_hours": 115.2,
+      "pct_of_total": 9.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -125,7 +125,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 9.5
+          "hours": 11.5
         },
         {
           "task": "Brakes",
@@ -543,9 +543,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 864.5,
+    "billable_hours": 866.5,
     "non_billable_hours": 311.2,
     "pto_hours": 52.8,
-    "total_hours": 1175.8
+    "total_hours": 1177.8
   }
 }
