@@ -1259,49 +1259,17 @@
       "system": "Ampere"
     },
     {
-      "owner": "Nolan",
-      "year": 1970,
-      "color": "",
-      "make": "",
-      "model": "Challenger",
+      "owner": "Teague",
+      "year": 1962,
+      "color": "Black",
+      "make": "Jaguar",
+      "model": "",
       "status": "Fabrication",
       "checkout": 16.2,
       "sub_metrics": [
         {
           "label": "BMS",
           "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere"
-    },
-    {
-      "owner": "Teague",
-      "year": 1962,
-      "color": "",
-      "make": "Jaguar",
-      "model": "",
-      "status": "Fabrication",
-      "checkout": 15.9,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 95.4
         },
         {
           "label": "Inverter",
@@ -1352,6 +1320,38 @@
         "done": 4,
         "open": 2
       }
+    },
+    {
+      "owner": "Nolan",
+      "year": 1970,
+      "color": "",
+      "make": "",
+      "model": "Challenger",
+      "status": "Fabrication",
+      "checkout": 16.2,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 0
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 0
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere"
     },
     {
       "owner": "Icon",
@@ -1611,6 +1611,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-29T18:14:50.640502+00:00",
+  "updated": "2026-07-29T18:39:56.307934+00:00",
   "source": "Google Sheets API"
 }
