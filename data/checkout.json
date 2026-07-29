@@ -1077,6 +1077,69 @@
       "system": "AEM"
     },
     {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "Black",
+      "make": "Jaguar",
+      "model": "",
+      "status": "Fabrication",
+      "checkout": 26.6,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 2.8
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 36.4
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
+            "done": true
+          },
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Incorrect Contactor Orientation",
+            "done": true
+          }
+        ],
+        "total": 6,
+        "done": 4,
+        "open": 2
+      }
+    },
+    {
       "owner": "Kelly",
       "year": 1963,
       "color": "Blue",
@@ -1257,69 +1320,6 @@
         }
       ],
       "system": "Ampere"
-    },
-    {
-      "owner": "Teague",
-      "year": 1962,
-      "color": "Black",
-      "make": "Jaguar",
-      "model": "",
-      "status": "Fabrication",
-      "checkout": 16.2,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 0
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 0
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
-            "done": true
-          },
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Incorrect Contactor Orientation",
-            "done": true
-          }
-        ],
-        "total": 6,
-        "done": 4,
-        "open": 2
-      }
     },
     {
       "owner": "Nolan",
@@ -1611,6 +1611,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-29T19:11:35.448137+00:00",
+  "updated": "2026-07-29T19:46:43.877091+00:00",
   "source": "Google Sheets API"
 }
