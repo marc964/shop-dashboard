@@ -980,24 +980,13 @@
       "system": "AEM"
     },
     {
-      "owner": "Wilson",
-      "year": 1969,
-      "color": "Dark Blue",
-      "make": "Mercedes",
-      "model": "280SL",
-      "status": "Shipped",
-      "checkout": 56.2,
-      "sub_metrics": [],
-      "system": "AEM"
-    },
-    {
       "owner": "Teague",
       "year": 1962,
       "color": "Black",
       "make": "Jaguar",
       "model": "",
       "status": "Startup",
-      "checkout": 54.3,
+      "checkout": 57.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1060,6 +1049,17 @@
         "done": 4,
         "open": 4
       }
+    },
+    {
+      "owner": "Wilson",
+      "year": 1969,
+      "color": "Dark Blue",
+      "make": "Mercedes",
+      "model": "280SL",
+      "status": "Shipped",
+      "checkout": 56.2,
+      "sub_metrics": [],
+      "system": "AEM"
     },
     {
       "owner": "Dan Henry",
@@ -1619,6 +1619,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-29T22:22:30.835935+00:00",
+  "updated": "2026-07-29T22:50:19.936071+00:00",
   "source": "Google Sheets API"
 }
