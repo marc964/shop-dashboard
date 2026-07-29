@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 148.8,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 125.5,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -286,7 +286,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -315,20 +315,20 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 37.2,
-      "pct_of_total": 3.0,
+      "total_hours": 39.8,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
           "hours": 13.0
         },
         {
-          "task": "Brakes",
-          "hours": 8.0
+          "task": "Vehicle Control",
+          "hours": 8.8
         },
         {
-          "task": "Vehicle Control",
-          "hours": 7.2
+          "task": "Brakes",
+          "hours": 8.0
         },
         {
           "task": "Exterior",
@@ -341,6 +341,10 @@
         {
           "task": "Engineering - Support",
           "hours": 2.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 1.0
         }
       ]
     },
@@ -432,7 +436,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 236.2,
+    "total_hours": 237.0,
     "pct_of_total": 19.3,
     "avg_per_person_per_day": 1.41,
     "flagged": true,
@@ -441,7 +445,7 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 80.2
+        "hours": 81.0
       },
       {
         "label": "Shop Meetings",
@@ -575,9 +579,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 906.0,
-    "non_billable_hours": 318.0,
+    "billable_hours": 908.5,
+    "non_billable_hours": 318.8,
     "pto_hours": 52.8,
-    "total_hours": 1224.0
+    "total_hours": 1227.2
   }
 }
