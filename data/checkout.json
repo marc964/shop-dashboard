@@ -997,7 +997,7 @@
       "make": "Jaguar",
       "model": "",
       "status": "Startup",
-      "checkout": 49.3,
+      "checkout": 54.3,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1619,6 +1619,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-29T21:49:55.329963+00:00",
+  "updated": "2026-07-29T22:22:30.835935+00:00",
   "source": "Google Sheets API"
 }
