@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 141.2,
-      "pct_of_total": 12.3,
+      "pct_of_total": 12.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -164,7 +164,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 100.8,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -436,16 +436,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 227.8,
+    "total_hours": 228.2,
     "pct_of_total": 19.8,
-    "avg_per_person_per_day": 1.42,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 20,
+    "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 77.0
+        "hours": 77.5
       },
       {
         "label": "Shop Meetings",
@@ -501,12 +501,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 12.0,
-      "pct_of_total": 1.0,
+      "total_hours": 16.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 11.0
+          "hours": 15.5
         },
         {
           "task": "Installation - Extra",
@@ -580,8 +580,8 @@
   ],
   "totals": {
     "billable_hours": 843.5,
-    "non_billable_hours": 305.0,
+    "non_billable_hours": 310.0,
     "pto_hours": 52.8,
-    "total_hours": 1148.5
+    "total_hours": 1153.5
   }
 }

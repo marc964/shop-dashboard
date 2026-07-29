@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T23:36:55.737874Z",
+  "updated_at": "2026-07-29T00:07:33.315124Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1166,10 +1166,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-24 23:50",
                   "text": "Screenshot 2026-07-24 102005.png\nScreenshot 2026-07-24 102054.png\nScreenshot 2026-07-24 102313.png\nScreenshot 2026-07-24 102402.png\nScreenshot 2026-07-24 102407.png\nScreenshot 2026-07-24 122916.png\nScreenshot 2026-07-24 123516.png\nScreenshot 2026-07-24 123606.png\nScreenshot 2026-07-24 123610.png\nScreenshot 2026-07-24 124434.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-28 23:52",
+                  "text": "Received Derale cooler\nRough-installed for testing:\nSoft lines plumbed in series between motor outlet and charger.\nRelay added:\n12V+ comes from PDM stud\nground from tailight ground\nRelay mounted in driver's side cubby\nRelay signal spliced into motor fan with pigtail. Twisted pair runs to relay.\nTest drove:\nUnable to reach temps above 117F. Confirmed both fans come on at the same time.\nWill re-test tomororw PM when heat is up."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c546075755eaeaa76f83de82e6c8e10ac7bd4b82af0d3f69a5b5861fde0fa329"
+              "content_hash": "4c81d1a53e8a17f8a51ad04808cdb724eae043fe1d7973888811fa33fa2de31d"
             }
           ]
         },
