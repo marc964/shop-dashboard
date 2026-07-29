@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T20:26:33.000483Z",
+  "updated_at": "2026-07-29T20:49:11.641482Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -17,7 +17,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -156,7 +156,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -175,7 +175,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -194,7 +194,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -253,7 +253,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -320,7 +320,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -379,7 +379,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     },
@@ -438,7 +438,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: HTTPSConnectionPool(host='api.clickup.com', port=443): Read timed out. (read timeout=30)"
+        "error": "fetch_failed: 500 Server Error: Internal Server Error for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
       },
       "assignees": []
     }
