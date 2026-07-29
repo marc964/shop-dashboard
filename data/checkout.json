@@ -991,6 +991,77 @@
       "system": "AEM"
     },
     {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "Black",
+      "make": "Jaguar",
+      "model": "",
+      "status": "Startup",
+      "checkout": 49.3,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 93.5
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 81.8
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
+            "done": true
+          },
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Incorrect Contactor Orientation",
+            "done": true
+          },
+          {
+            "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
+            "done": false
+          },
+          {
+            "text": "2026-07-29:",
+            "done": false
+          }
+        ],
+        "total": 8,
+        "done": 4,
+        "open": 4
+      }
+    },
+    {
       "owner": "Dan Henry",
       "year": 1961,
       "color": "Green",
@@ -1075,69 +1146,6 @@
       "checkout": 46.4,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "Teague",
-      "year": 1962,
-      "color": "Black",
-      "make": "Jaguar",
-      "model": "",
-      "status": "Fabrication",
-      "checkout": 26.6,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 2.8
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 36.4
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
-            "done": true
-          },
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Incorrect Contactor Orientation",
-            "done": true
-          }
-        ],
-        "total": 6,
-        "done": 4,
-        "open": 2
-      }
     },
     {
       "owner": "Kelly",
@@ -1611,6 +1619,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-29T19:46:43.877091+00:00",
+  "updated": "2026-07-29T20:26:02.421904+00:00",
   "source": "Google Sheets API"
 }
