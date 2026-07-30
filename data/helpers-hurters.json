@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 148.8,
-      "pct_of_total": 11.7,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 132.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -235,7 +235,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 71.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Brakes",
@@ -297,12 +297,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 43.2,
-      "pct_of_total": 3.4,
+      "total_hours": 48.2,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 16.0
+          "hours": 21.0
         },
         {
           "task": "Interior",
@@ -367,7 +367,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 40.2,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -449,7 +449,7 @@
   ],
   "shop_work": {
     "total_hours": 250.0,
-    "pct_of_total": 19.6,
+    "pct_of_total": 19.5,
     "avg_per_person_per_day": 1.42,
     "flagged": true,
     "tech_count": 8,
@@ -591,9 +591,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 941.8,
+    "billable_hours": 946.8,
     "non_billable_hours": 332.8,
     "pto_hours": 52.8,
-    "total_hours": 1274.5
+    "total_hours": 1279.5
   }
 }
