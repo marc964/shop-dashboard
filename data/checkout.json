@@ -986,7 +986,7 @@
       "make": "Jaguar",
       "model": "",
       "status": "Startup",
-      "checkout": 57.2,
+      "checkout": 61.2,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -994,7 +994,7 @@
         },
         {
           "label": "Inverter",
-          "value": 93.5
+          "value": 92.6
         },
         {
           "label": "PMU",
@@ -1006,7 +1006,7 @@
         },
         {
           "label": "Functional",
-          "value": 0
+          "value": 25.0
         }
       ],
       "system": "Ampere",
@@ -1619,6 +1619,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-07-30T16:48:43.106156+00:00",
+  "updated": "2026-07-30T17:34:53.676935+00:00",
   "source": "Google Sheets API"
 }
