@@ -180,7 +180,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 102.5,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -296,28 +296,9 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 42.2,
-      "pct_of_total": 3.3,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 35.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.8
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
-      "total_hours": 41.8,
-      "pct_of_total": 3.3,
+      "total_hours": 43.2,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -337,7 +318,7 @@
         },
         {
           "task": "Instrumentation",
-          "hours": 3.0
+          "hours": 4.5
         },
         {
           "task": "Suspension",
@@ -350,6 +331,25 @@
         {
           "task": "Steering",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 42.2,
+      "pct_of_total": 3.3,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 35.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.8
         }
       ]
     },
@@ -591,9 +591,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 940.2,
+    "billable_hours": 941.8,
     "non_billable_hours": 332.8,
     "pto_hours": 52.8,
-    "total_hours": 1273.0
+    "total_hours": 1274.5
   }
 }
