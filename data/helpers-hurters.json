@@ -125,7 +125,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 131.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -297,12 +297,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 48.2,
+      "total_hours": 49.0,
       "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 21.0
+          "hours": 21.8
         },
         {
           "task": "Interior",
@@ -402,7 +402,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 36.5,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -448,16 +448,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 250.0,
+    "total_hours": 251.2,
     "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.42,
+    "avg_per_person_per_day": 1.43,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 85.0
+        "hours": 86.2
       },
       {
         "label": "Shop Meetings",
@@ -513,12 +513,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 17.5,
+      "total_hours": 18.2,
       "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 16.5
+          "hours": 17.2
         },
         {
           "task": "Installation - Extra",
@@ -591,9 +591,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 946.8,
-    "non_billable_hours": 332.8,
+    "billable_hours": 950.8,
+    "non_billable_hours": 334.8,
     "pto_hours": 52.8,
-    "total_hours": 1279.5
+    "total_hours": 1285.5
   }
 }
