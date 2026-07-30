@@ -113,7 +113,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 125.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -172,7 +172,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 102.5,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -226,8 +226,8 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 65.0,
-      "pct_of_total": 5.2,
+      "total_hours": 71.0,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Brakes",
@@ -235,7 +235,11 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 11.5
+          "hours": 12.0
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 7.8
         },
         {
           "task": "Steering",
@@ -256,10 +260,6 @@
         {
           "task": "Cooling",
           "hours": 2.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 2.2
         },
         {
           "task": "Interior",
@@ -290,7 +290,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 42.2,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -359,7 +359,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 39.8,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -440,24 +440,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 247.0,
-    "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 249.0,
+    "pct_of_total": 19.7,
+    "avg_per_person_per_day": 1.41,
     "flagged": true,
     "tech_count": 8,
     "working_days": 22,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 84.0
+        "hours": 84.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 72.0
+        "hours": 72.5
       },
       {
         "label": "Other",
-        "hours": 54.2
+        "hours": 55.2
       },
       {
         "label": "Personal Meetings",
@@ -583,9 +583,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 927.2,
-    "non_billable_hours": 329.8,
+    "billable_hours": 933.2,
+    "non_billable_hours": 331.8,
     "pto_hours": 52.8,
-    "total_hours": 1257.0
+    "total_hours": 1265.0
   }
 }
