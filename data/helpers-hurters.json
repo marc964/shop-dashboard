@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 146.8,
-      "pct_of_total": 11.2,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -58,7 +58,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 135.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -113,7 +113,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 132.0,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -297,8 +297,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 49.0,
-      "pct_of_total": 3.7,
+      "total_hours": 51.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -323,6 +323,10 @@
         {
           "task": "Suspension",
           "hours": 3.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.0
         },
         {
           "task": "Cooling",
@@ -452,8 +456,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 256.8,
-    "pct_of_total": 19.6,
+    "total_hours": 257.8,
+    "pct_of_total": 19.5,
     "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
@@ -461,11 +465,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 89.2
+        "hours": 89.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 75.5
+        "hours": 76.0
       },
       {
         "label": "Other",
@@ -546,6 +550,21 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 8.5,
+      "pct_of_total": 0.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 5.5
+        },
+        {
+          "task": "Engineering - Extra",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Miner 95 911",
       "total_hours": 4.2,
       "pct_of_total": 0.3,
@@ -568,17 +587,6 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 3.0,
-      "pct_of_total": 0.2,
-      "tasks": [
-        {
-          "task": "Engineering - Extra",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Connolly 58 220S",
       "total_hours": 1.8,
       "pct_of_total": 0.1,
@@ -595,9 +603,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 967.8,
-    "non_billable_hours": 344.2,
+    "billable_hours": 970.2,
+    "non_billable_hours": 350.8,
     "pto_hours": 52.8,
-    "total_hours": 1312.0
+    "total_hours": 1321.0
   }
 }
