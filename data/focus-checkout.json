@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T21:10:34.186074Z",
+  "updated_at": "2026-07-31T21:40:19.300059Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -236,11 +236,6 @@
               "comments": [
                 {
                   "author": "Devin DuMont",
-                  "date": "2026-02-10 23:00",
-                  "text": "Installed correct C2Prog version for flashing AEM LDU boards. Flashed firmware 6B33. Compared the symbols files I'm using for backups between 6B28 thru 6B33. They all match exactly. Used Claude to compare EEPROM. Setup a directory with the 3 stock EEPROM files as well as the Ampere provided, the Icon Bronco, and the previous Blazer. Fed Claude prompts and inspected output till something very copy and pastable was produced, checked each setting line by line and then flashed into this LDU. Marked all inverter parts on the sheet N/A where the don't line up because of the different motor type. Inverter checkout now 100%."
-                },
-                {
-                  "author": "Devin DuMont",
                   "date": "2026-02-11 21:59",
                   "text": "Built longer PMU programming harness to avoid PSU balancing act. Disconnected PMU's from vehicle, and upgraded both their firmwares to the latest. Looked up which PMU software revision we were on and flashed those calibrations to each. Hooked up Raptor-Service and key'd on to an immediate CAN1 crash. Will need to investigate vehicle basics like CAN termination tomorrow."
                 },
@@ -358,10 +353,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-05-22 03:52",
                   "text": "Various discussions with team. Opened up 147Ah 590 6S module to look at the thermistors, compared to the 169Ah 590 6S modules. Looks like a whole different thermistor and mounted differently. Decided to add additional thermistors to validate their readings correct and that a bus bar is getting hot."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-31 21:34",
+                  "text": "Verified EEPROM settings for regen and noticed a second setting for regen rate. Test drove before, changed that, and test drove again. The regen rate limit seems to be working and noticeable. Vehicle now ready for VCU map tuning."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a3f931bbe573e77468830d5ca02e6976b47bd9afc71e1ff3f8f93c829ffb4321"
+              "content_hash": "4c97c6b36e4b4f120fc84de54eff34e07bc17c16cf4348df83c4000f25023496"
             }
           ]
         }
