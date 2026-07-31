@@ -56,6 +56,61 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 135.2,
+      "pct_of_total": 10.3,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 40.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 31.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 12.5
+        },
+        {
+          "task": "Scanning",
+          "hours": 8.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 8.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 7.5
+        },
+        {
+          "task": "Interior",
+          "hours": 6.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 6.5
+        },
+        {
+          "task": "Steering",
+          "hours": 5.8
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 5.5
+        },
+        {
+          "task": "Audio",
+          "hours": 1.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 132.0,
       "pct_of_total": 10.1,
@@ -118,61 +173,6 @@
         },
         {
           "task": "Cooling",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Thacker 46 Woody",
-      "total_hours": 131.2,
-      "pct_of_total": 10.0,
-      "tasks": [
-        {
-          "task": "Wiring - OEM",
-          "hours": 37.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 31.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 11.5
-        },
-        {
-          "task": "Scanning",
-          "hours": 8.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 8.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 7.5
-        },
-        {
-          "task": "Interior",
-          "hours": 6.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 6.5
-        },
-        {
-          "task": "Steering",
-          "hours": 5.8
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 5.5
-        },
-        {
-          "task": "Audio",
-          "hours": 1.5
-        },
-        {
-          "task": "Instrumentation",
           "hours": 1.0
         }
       ]
@@ -595,9 +595,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 963.8,
+    "billable_hours": 967.8,
     "non_billable_hours": 344.2,
     "pto_hours": 52.8,
-    "total_hours": 1308.0
+    "total_hours": 1312.0
   }
 }
