@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T01:39:32.890051Z",
+  "updated_at": "2026-07-31T02:41:37.154040Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1339,10 +1339,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-07-17 18:15",
                   "text": "so after ride height adjustments\nwe found the CV's to be at 19* and jump to 22-25* when taking a corner\nthis is outside the limit of the stock style CV range\nClaude said we need a CV with the Star machined for clearance\nthis will give us the angle we need without it hitting\nparts are ordered will take a week before we get them"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-31 02:38",
+                  "text": "swapped the CV's\nhad to make a retaining groove in the outer spline\ninstalled the CV's\ntest drove the bus\nthe noise was better but not all gone\nwe will need to look further for a solution"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c6c15e1f25192622eac6746a80b8401831e0c561c820964c80e09a7844043d92"
+              "content_hash": "be34acb9eeef835ae6f4cd84d656f2ea5407b7295a81872baefff9f199ebfc38"
             }
           ]
         },
