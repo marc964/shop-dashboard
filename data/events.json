@@ -67,7 +67,13 @@
           "day_name": "Monday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "BIlly A Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-08-04",
