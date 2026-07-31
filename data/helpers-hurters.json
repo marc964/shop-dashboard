@@ -57,7 +57,7 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 135.2,
+      "total_hours": 135.8,
       "pct_of_total": 10.2,
       "tasks": [
         {
@@ -82,7 +82,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 7.5
+          "hours": 8.0
         },
         {
           "task": "Interior",
@@ -341,7 +341,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 47.2,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -603,9 +603,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 983.2,
+    "billable_hours": 983.8,
     "non_billable_hours": 347.2,
     "pto_hours": 52.8,
-    "total_hours": 1330.5
+    "total_hours": 1331.0
   }
 }
