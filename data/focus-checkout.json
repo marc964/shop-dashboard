@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T14:53:28.220023Z",
+  "updated_at": "2026-07-31T15:46:18.969151Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -404,7 +404,7 @@
         "matched_lists": [
           "Miner 95 911"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -461,27 +461,6 @@
               ],
               "checklist_items": [],
               "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868kgqy5y",
-              "name": "Troubleshoot and repair soft top",
-              "status": "Open",
-              "list": "Miner 95 911",
-              "url": "https://app.clickup.com/t/868kgqy5y",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-28 19:27",
-                  "text": "Performed soft top diagnosis including removal of interior items to expose soft top components. Performed electrical testing using wiring diagram provided by Porsche South Austin.\nSoft Top control unit supply values:\nCircuit 15 = 14.2vdc\nCircuit 30 - 13.6vdc\nCircuit 31 = 0ohms to 12 batt.\n\nR/R & D/A passenger side transmission to reset gear alignment.\ntested all 4 top motors... windscreen latch motors OK & top actuator motors operational but sluggish when connected to transmissions.\nGot shop foreman from Porsche to visit, clear DTCs and view actual values of limit switches & latches. Opened & closed top manually many times & transmissions have finally failed internally, causing excessive resistance &  possibly damaging the soft top ECU. (f13/30amp fuse still OK) Waiting on Porsche to work up an estimate to replace these items."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f5088db38d2c15d30c56e68f7a2789dab91180c0fb92795d14ca6ebc609b0b12"
             }
           ]
         },
@@ -1432,7 +1411,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -1473,6 +1452,21 @@
               ],
               "checklist_items": [],
               "content_hash": "23b9af3e50f959c2ebd004f61b2cba0dc841669cef7ec47b584e1c9f0cfd92ea"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kjmg8j",
+              "name": "Coordinate with Jackie on license plates",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kjmg8j",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "ed032ee5447d4dd22cabcbb19a72dc358efad38eef4db82d9378d497a50b97fc"
             }
           ]
         }

@@ -125,7 +125,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 131.2,
-      "pct_of_total": 10.1,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -180,7 +180,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 102.5,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -298,7 +298,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 49.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -452,20 +452,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 254.2,
-    "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.38,
+    "total_hours": 256.2,
+    "pct_of_total": 19.6,
+    "avg_per_person_per_day": 1.39,
     "flagged": true,
     "tech_count": 8,
     "working_days": 23,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 88.8
+        "hours": 89.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 73.5
+        "hours": 75.0
       },
       {
         "label": "Other",
@@ -596,8 +596,8 @@
   ],
   "totals": {
     "billable_hours": 963.8,
-    "non_billable_hours": 341.8,
+    "non_billable_hours": 343.8,
     "pto_hours": 52.8,
-    "total_hours": 1305.5
+    "total_hours": 1307.5
   }
 }
