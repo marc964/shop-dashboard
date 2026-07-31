@@ -372,7 +372,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 42.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -423,7 +423,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 42.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -452,9 +452,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 256.2,
+    "total_hours": 256.8,
     "pct_of_total": 19.6,
-    "avg_per_person_per_day": 1.39,
+    "avg_per_person_per_day": 1.4,
     "flagged": true,
     "tech_count": 8,
     "working_days": 23,
@@ -465,7 +465,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 75.0
+        "hours": 75.5
       },
       {
         "label": "Other",
@@ -596,8 +596,8 @@
   ],
   "totals": {
     "billable_hours": 963.8,
-    "non_billable_hours": 343.8,
+    "non_billable_hours": 344.2,
     "pto_hours": 52.8,
-    "total_hours": 1307.5
+    "total_hours": 1308.0
   }
 }
