@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "LB 82 911",
-      "total_hours": 148.8,
-      "pct_of_total": 11.6,
+      "total_hours": 146.8,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 20.0
+          "hours": 18.0
         },
         {
           "task": "Battery Pack",
@@ -58,7 +58,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 132.0,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -180,7 +180,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 102.5,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -335,43 +335,13 @@
       ]
     },
     {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 42.2,
-      "pct_of_total": 3.3,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 35.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 4.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.8
-        }
-      ]
-    },
-    {
-      "project": "ICON Bronco Prototype",
-      "total_hours": 40.5,
-      "pct_of_total": 3.2,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 40.5
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
-      "total_hours": 40.2,
-      "pct_of_total": 3.1,
+      "total_hours": 47.2,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 13.5
+          "hours": 20.5
         },
         {
           "task": "Vehicle Control",
@@ -396,6 +366,36 @@
         {
           "task": "HVAC",
           "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 42.2,
+      "pct_of_total": 3.3,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 35.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 4.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.8
+        }
+      ]
+    },
+    {
+      "project": "ICON Bronco Prototype",
+      "total_hours": 40.5,
+      "pct_of_total": 3.1,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 40.5
         }
       ]
     },
@@ -448,16 +448,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 251.2,
-    "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.43,
+    "total_hours": 253.2,
+    "pct_of_total": 19.6,
+    "avg_per_person_per_day": 1.38,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 22,
+    "working_days": 23,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 86.2
+        "hours": 88.2
       },
       {
         "label": "Shop Meetings",
@@ -591,9 +591,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 950.8,
-    "non_billable_hours": 334.8,
+    "billable_hours": 955.8,
+    "non_billable_hours": 336.8,
     "pto_hours": 52.8,
-    "total_hours": 1285.5
+    "total_hours": 1292.5
   }
 }
