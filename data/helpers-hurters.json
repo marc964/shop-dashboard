@@ -3,7 +3,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 146.8,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -112,7 +112,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 132.0,
+      "total_hours": 132.5,
       "pct_of_total": 10.0,
       "tasks": [
         {
@@ -156,12 +156,12 @@
           "hours": 5.5
         },
         {
-          "task": "Manufacturing - Support",
+          "task": "Wiring - High Voltage",
           "hours": 3.5
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 3.0
+          "task": "Manufacturing - Support",
+          "hours": 3.5
         },
         {
           "task": "Wiring - OEM",
@@ -180,7 +180,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 102.5,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -234,20 +234,20 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 71.0,
-      "pct_of_total": 5.4,
+      "total_hours": 77.0,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Brakes",
           "hours": 17.0
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 12.0
+          "task": "Wiring - High Voltage",
+          "hours": 12.2
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 7.8
+          "task": "Manufacturing - Product",
+          "hours": 12.0
         },
         {
           "task": "Steering",
@@ -264,6 +264,10 @@
         {
           "task": "Motor & Transmission",
           "hours": 4.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 2.5
         },
         {
           "task": "Cooling",
@@ -286,10 +290,6 @@
           "hours": 1.0
         },
         {
-          "task": "Manufacturing - Core",
-          "hours": 1.0
-        },
-        {
           "task": "Engineering - Product",
           "hours": 0.8
         }
@@ -297,12 +297,12 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 51.0,
+      "total_hours": 52.5,
       "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Vehicle Control",
-          "hours": 21.8
+          "hours": 23.2
         },
         {
           "task": "Interior",
@@ -456,24 +456,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 258.2,
-    "pct_of_total": 19.5,
-    "avg_per_person_per_day": 1.4,
+    "total_hours": 252.2,
+    "pct_of_total": 19.0,
+    "avg_per_person_per_day": 1.37,
     "flagged": true,
     "tech_count": 8,
     "working_days": 23,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 90.2
+        "hours": 90.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 76.0
+        "hours": 76.5
       },
       {
         "label": "Other",
-        "hours": 55.2
+        "hours": 48.2
       },
       {
         "label": "Personal Meetings",
@@ -518,12 +518,12 @@
     },
     {
       "project": "Ivanhoe 65 Alfa",
-      "total_hours": 18.8,
-      "pct_of_total": 1.4,
+      "total_hours": 20.8,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 14.8,
+          "hours": 16.8,
           "context": [
             "Vehicle Control"
           ]
@@ -603,9 +603,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 970.2,
-    "non_billable_hours": 351.2,
+    "billable_hours": 983.2,
+    "non_billable_hours": 347.2,
     "pto_hours": 52.8,
-    "total_hours": 1321.5
+    "total_hours": 1330.5
   }
 }
