@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T00:08:55.605953Z",
+  "updated_at": "2026-08-01T00:57:15.006706Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1023,10 +1023,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-21 18:52",
                   "text": "7/20 - Bus went to Soulspeed"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-01 00:15",
+                  "text": "OK.\n\nGood news.\nAfter much experimentation, I am now at the following:\nWith the drop spindles back in, adjusters cranked to max height and 3/8\" wheel spacers added back in, we now have minimal rubbing. This shows the old VVDub internal torsion leaf keepers were likely failing when we were doing our adjustment before, able to get much higher ride height with the new keepers. Doing aggressive donuts in a nearby parking-lot I can't hear anything, but the masking tape I have in the wheelwells shows a slight rub either side at full lock. Not enough to burn through the tape, but some minor scrub. Given that I'm trying my hardest to replicate this issue, I think we're as close to 'acceptable' as we're going to get. The rub is now at the center of the roof of the wheel-well, not the edges. Nothing can be done except raise the height further, which we can't do.\n\nGoing back-to-back with the stock spindles at full low vs drop spindles at full high, huge difference in front suspension feel. Rides really nicely now in the front.\n\nWe are now at 280mm at the front, 290mm at the rear.\nTarget height from the last time I experimented with CV height to eliminate the noise was 275mm. Pretty close to what we've got in the front.\n\n@Aharon Adams on Monday let's drop the rear height to 275mm and verify that the CV growl is once again eliminated.\n@Billy Arrasmith I want to test drive with the both of us in the front and see how the rub is fully loaded.\nI'll do a proper toe adjustment, I just eyeballed it for this test.\nI may order slightly longer front shocks, the new height is a bit beyond what the shocks can do.\nI'm going to order slightly wider spacers to see if we can't mitigate the slight rub there is, very fast to test.\n(edited)"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "2782ed83e9423589c6c09308fdac28b7da99e0e2913365b012ef716f1447c566"
+              "content_hash": "d58680998bd136226ac3f8e6dc764c686f78c7115af72230dc866d6c03e0995a"
             },
             {
               "id": "868kfdbr9",
