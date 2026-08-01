@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T15:39:35.207414Z",
+  "updated_at": "2026-08-01T16:09:03.247880Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1292,10 +1292,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-07-22 15:05",
                   "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-01 16:03",
+                  "text": "discussions and searching for rubbing/ solutions"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bdd8a35725df993df97b2bf8489e573ed78fdaadcaa0671ad5f9ebfd1b78af9d"
+              "content_hash": "f01cc891610cd35c4a84be2087f3076a680ade287d026bb6ca0fa6cb4be7c806"
             }
           ]
         },
