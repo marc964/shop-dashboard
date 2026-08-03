@@ -1,9 +1,32 @@
 {
   "helpers": [
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 7.0,
+      "pct_of_total": 32.2,
+      "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 3.0
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 6.5,
-      "pct_of_total": 44.8,
+      "pct_of_total": 29.9,
       "tasks": [
         {
           "task": "Steering",
@@ -24,28 +47,20 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 5.0,
-      "pct_of_total": 34.5,
+      "project": "Warke 61 Eldorado",
+      "total_hours": 4.0,
+      "pct_of_total": 18.4,
       "tasks": [
         {
-          "task": "Battery Pack",
-          "hours": 3.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 1.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
+          "task": "Charging",
+          "hours": 4.0
         }
       ]
     },
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 1.0,
-      "pct_of_total": 6.9,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -55,32 +70,32 @@
     }
   ],
   "shop_work": {
-    "total_hours": 2.0,
-    "pct_of_total": 13.8,
-    "avg_per_person_per_day": 0.25,
+    "total_hours": 3.2,
+    "pct_of_total": 14.9,
+    "avg_per_person_per_day": 0.41,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
+        "hours": 1.5
+      },
+      {
+        "label": "Shop Meetings",
         "hours": 1.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 0.5
-      },
-      {
-        "label": "Shop Meetings",
-        "hours": 0.5
+        "hours": 0.8
       }
     ]
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 12.5,
-    "non_billable_hours": 2.0,
+    "billable_hours": 18.5,
+    "non_billable_hours": 3.2,
     "pto_hours": 0.0,
-    "total_hours": 14.5
+    "total_hours": 21.8
   }
 }
