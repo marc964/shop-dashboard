@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T20:34:16.551259Z",
+  "updated_at": "2026-08-03T21:10:21.524962Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -885,7 +885,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 11
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -1032,42 +1032,6 @@
               ],
               "checklist_items": [],
               "content_hash": "d58680998bd136226ac3f8e6dc764c686f78c7115af72230dc866d6c03e0995a"
-            },
-            {
-              "id": "868kfdbr9",
-              "name": "Facilitate Windshield repair",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kfdbr9",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-22 22:53",
-                  "text": "Summary of findings \u2014 Ferdman Bus, right front safari window\nI inspected the reported rock chip on the right front safari window. The damage is limited to the glass; the frame and hardware are intact. My recommended fix is to replace just the single pane and reuse the existing frame. However, I found that loose single-side front safari glass isn't available from US suppliers \u2014 front safari kits are sold only as both-sides pairs. So my cleanest single-pane path is to have a local auto-glass shop cut one laminated pane to the original template.\nIf we opt for a full kit instead, I priced the US-based sellers (front, split-bus 55-67): CIP1 ACC-C20-1010 stainless at $585 (imported/economy); West Coast Metric 261-100A raw steel at $974.95 (best US-associated off-shelf price); CIP1 BBT aluminum $988; ISP West stainless $1,257.95; Mid America $1,299.99 (currently out of stock); JBugs $1,359.96; CIP1 UK aluminum $1,235\u2013$1,400. For confirmed US manufacture, I'd call CIP1 on the ACC-C20-1000 (Wolfgang) or VW LooseNuts. I still need to confirm the bus year (split vs bay) to lock the exact part.\nWhat I worked through today\nI sourced three replacement options with emphasis on quality and US supply, comparing glass-only versus full-kit routes.  I pulled the specific CIP1 part, identified its US-made equivalent, verified no vendor sells a single front side, and compiled a full US-seller price chart."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-22 22:55",
-                  "text": "So during the soulspeed run there was an unfortunate rock chip on the passenger Safari front window.\n\nThese Safari windows are relatively easy to remove and replace. However they are not cheap, and I am unable to find anyone who sells just one side.\n\nOptions:\nTake it somewhere and attempt to repair it.\nTake it somewhere that can cut custom glass (it's flat) and have them re-make that pane. It appears the frame just screws together so this shouldn't be too complex.\nPurchase 'cheap' replacement windows and hope the quality is OK. CIP1 sells both fronts for $600, but they stress that this is an 'economy' part with gaps where the metal frame joins together.\nPurchase a high quality version for $1300 and be done with it.\n\nSearched extensively for single pane replacement or quality lower-cost alternatives, none found.\n\nCurrent plan is windshield repair specialist. @Ryan Laurel to investigate tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-22 22:56",
-                  "text": "IMG_4459.jpg\nIMG_4464.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-28 00:53",
-                  "text": "Shuffled vehicles to bring Ferdman inside for window repair."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-28 00:54",
-                  "text": "Example of what we're going for:\nimage.png"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "789bc2e805bdd19538375ad95fa096fb4a3b8514ed4a97c0b7ccc055b5fee6f8"
             },
             {
               "id": "868k7em0v",
