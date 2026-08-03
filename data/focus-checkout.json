@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T23:10:27.442963Z",
+  "updated_at": "2026-08-03T23:39:46.861398Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -967,10 +967,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-18 02:02",
                   "text": "image.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-03 23:16",
+                  "text": "Adjusted rear suspension to achieve a ride height of 275mm in the rear.\nRH outer: 3 clicks lower\nRH inner: 3 clicks higher\nLH inner: 3 clicks higher\nLH outer: 4 clicks lower\nTest drove after work performed: CV noise resolved."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "6ac46d8f097288c4123a8354ba3f29df5d2da949b30b605b078e184d75f75d1e"
+              "content_hash": "7b8865dd3dc478e06055dd2867a2e2e598575d014d5e87e5ed082ae01ef61a29"
             },
             {
               "id": "868k7faah",
@@ -1028,10 +1033,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-01 00:15",
                   "text": "OK.\n\nGood news.\nAfter much experimentation, I am now at the following:\nWith the drop spindles back in, adjusters cranked to max height and 3/8\" wheel spacers added back in, we now have minimal rubbing. This shows the old VVDub internal torsion leaf keepers were likely failing when we were doing our adjustment before, able to get much higher ride height with the new keepers. Doing aggressive donuts in a nearby parking-lot I can't hear anything, but the masking tape I have in the wheelwells shows a slight rub either side at full lock. Not enough to burn through the tape, but some minor scrub. Given that I'm trying my hardest to replicate this issue, I think we're as close to 'acceptable' as we're going to get. The rub is now at the center of the roof of the wheel-well, not the edges. Nothing can be done except raise the height further, which we can't do.\n\nGoing back-to-back with the stock spindles at full low vs drop spindles at full high, huge difference in front suspension feel. Rides really nicely now in the front.\n\nWe are now at 280mm at the front, 290mm at the rear.\nTarget height from the last time I experimented with CV height to eliminate the noise was 275mm. Pretty close to what we've got in the front.\n\n@Aharon Adams on Monday let's drop the rear height to 275mm and verify that the CV growl is once again eliminated.\n@Billy Arrasmith I want to test drive with the both of us in the front and see how the rub is fully loaded.\nI'll do a proper toe adjustment, I just eyeballed it for this test.\nI may order slightly longer front shocks, the new height is a bit beyond what the shocks can do.\nI'm going to order slightly wider spacers to see if we can't mitigate the slight rub there is, very fast to test.\n(edited)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-03 23:12",
+                  "text": "Set front toe.\nInstalled front shocks to investigate for rubbing.\nTest drove after shock install - no rubbing present. I can see the rub @Marc Davis is talking about though, suspension settled overnight, worse than on Friday.\nThere is now a return of the rub at full lock to the chassis on the rear of the RH front to body... we had tuned that out with spacers before. Might have to go up a size in spacers or clearance.\u00a0 Will investigate tomorrow."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d58680998bd136226ac3f8e6dc764c686f78c7115af72230dc866d6c03e0995a"
+              "content_hash": "e29a1f9955dd0a453aa4ecae1a46aa51c3cc8b315c27b9e45ece91483a6e4be6"
             },
             {
               "id": "868k7em0v",

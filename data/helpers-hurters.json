@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 9.8,
-      "pct_of_total": 26.2,
+      "total_hours": 11.8,
+      "pct_of_total": 22.9,
       "tasks": [
         {
           "task": "Charging",
           "hours": 7.8
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.0
         },
         {
           "task": "Vehicle Control",
@@ -30,7 +34,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 7.5,
-      "pct_of_total": 20.1,
+      "pct_of_total": 14.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -51,9 +55,28 @@
       ]
     },
     {
+      "project": "Thacker 46 Woody",
+      "total_hours": 6.8,
+      "pct_of_total": 13.2,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 4.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 2.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 6.5,
-      "pct_of_total": 17.4,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Steering",
@@ -74,24 +97,9 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 4.8,
-      "pct_of_total": 12.8,
-      "tasks": [
-        {
-          "task": "Interior",
-          "hours": 4.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 0.8
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 3.5,
-      "pct_of_total": 9.4,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -100,44 +108,93 @@
       ]
     },
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 3.0,
+      "pct_of_total": 5.9,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 1.0,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Brakes",
+          "hours": 0.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 1.0,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
           "hours": 1.0
         }
       ]
+    },
+    {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 0.2,
+      "pct_of_total": 0.5,
+      "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.2
+        }
+      ]
     }
   ],
   "shop_work": {
-    "total_hours": 4.2,
-    "pct_of_total": 11.4,
-    "avg_per_person_per_day": 0.53,
+    "total_hours": 8.0,
+    "pct_of_total": 15.6,
+    "avg_per_person_per_day": 1.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 2.0
-      },
-      {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 1.5
+        "hours": 3.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 0.8
+        "hours": 2.5
+      },
+      {
+        "label": "Shop Meetings",
+        "hours": 2.5
       }
     ]
   },
-  "project_hurters": [],
+  "project_hurters": [
+    {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 2.0,
+      "pct_of_total": 3.9,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 2.0
+        }
+      ]
+    }
+  ],
   "totals": {
-    "billable_hours": 33.0,
-    "non_billable_hours": 4.2,
+    "billable_hours": 41.2,
+    "non_billable_hours": 10.0,
     "pto_hours": 0.0,
-    "total_hours": 37.2
+    "total_hours": 51.2
   }
 }
