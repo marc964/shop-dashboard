@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T21:13:29.938144Z",
+  "updated_at": "2026-08-04T22:31:10.987186Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,10 +16,50 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": false,
-        "error": "no_match"
+        "found": true,
+        "matched_lists": [
+          "Ivanhoe 65 Alfa"
+        ],
+        "open_tasks": 2
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868kmbwjq",
+              "name": "Prep replacement inverter",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868kmbwjq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "9486b60a855b435387730e70447610758142890773efcca76e0d0d36d57e4534"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kmbxw8",
+              "name": "Trouble shoot inverter issue",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868kmbxw8",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-04 22:12",
+                  "text": "Setup and connected to laptop remotely. Found vehicle not precharging with the new inverter. Connected to AEMCal and verified no DC bus volts. Repeated various tests always confirming no DC bus voltage. Swapped back to the old inverter and immediately got a good precharge. Compared all the extended EEPROM files, tried flashing firmware again (twice), etc. No luck, decided on shipping a new inverter."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a7d27e2d63e1b3c150ae8357461ef8806e879a4d6429d914d1ca535fbfd6784b"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
