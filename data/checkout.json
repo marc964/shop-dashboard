@@ -912,7 +912,7 @@
       "make": "Lotus",
       "model": "Esprit",
       "status": "Checkout",
-      "checkout": 66.9,
+      "checkout": 67.9,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1304,7 +1304,7 @@
       "make": "Chevrolet",
       "model": "Blazer",
       "status": "Fabrication",
-      "checkout": 16.7,
+      "checkout": 17.6,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1619,6 +1619,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-04T15:34:44.672462+00:00",
+  "updated": "2026-08-04T16:27:08.122871+00:00",
   "source": "Google Sheets API"
 }
