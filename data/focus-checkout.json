@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T22:31:10.987186Z",
+  "updated_at": "2026-08-04T23:36:21.097219Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -696,11 +696,6 @@
               "comments": [
                 {
                   "author": "Jordan Jones",
-                  "date": "2026-06-12 00:38",
-                  "text": "Vibration still appears present after driveshaft balancing, believed to be suspension or tire.\n\nVibration felt in steering wheel, especially between 50-60.\n\nTomorrow will swap front and rear tires to see if it follows."
-                },
-                {
-                  "author": "Jordan Jones",
                   "date": "2026-06-13 02:14",
                   "text": "Swapped front tires to rear.\nPulled off front bearing covers and inspected front hubs for play: no significant play found.\nDuring tire swap, noticed a chunk missing out of the right rear rotor. Issue not present before vehicle ewnt to Colvin's. Cheapest rotor I can find (PN 1804210801\u00a0)\nwww.mboemparts.com/oem-parts/mercedes-benz-brake-drum-1804210801 \n Same front and rear."
                 },
@@ -813,10 +808,20 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-23 21:53",
                   "text": "Opened and inspected parts which arrived from Germany. Made up box for Colvin and wrote out instructions."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-04 23:29",
+                  "text": "IMG_4969.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-04 23:29",
+                  "text": "Casey / technician:\nRebuilt the slip joint. The one had good bearings/u-joint but the yokes were 'egg shaped' and the caps were rotating, which they shouldn't do.\nPut the two halfshafts in a lathe and measured runout. Both were good. They ended up putting the 'new' ebay one in.\nThe new springs brought the rear end up significantly.\nThey didn't replace the wheel bearing, they said it was still good.\n\n\nDriving:\nThe pulsing vibration at 38-42mph seems gone. I couldn't get it to appear\nGeneral vibration exists, starting around 50, increasing with speed to 80. Slight lull possibly at 62-67mph. This is not resolved\n\n\nGoing forward:\n@Marc Davis if you have a chance, drive it.\nCasey has a Mercedes of the same vintage he's working on now, same exact wheels and tires size. He's going to drive it once they're finished, if it's smooth at highway speeds he says we can bring Connolly back for a wheel/tire swap to eliminate that variable."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "aed76c59f11fd0e6200720721bbbe0a21fbb56376973ff819618aa7fbc7722e7"
+              "content_hash": "597c575ec8e618d69fc7f826ac2dfc67203a3348d40ca05f0f57821ab42272f5"
             }
           ]
         },
@@ -1179,10 +1184,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-07-30 22:43",
                   "text": "Good news:\nHighway driving isn't an issue for the cooling. Current draw is significantly higher, but airflow over even our oddly placed radiators more than makes up for it. Once you get off the highway, speeds are lower, and you're trying to beat on it, that's when we start to have inverter temp creep up. But again, still unable to get it to overheat with the second cooler even though the temps do get higher.\nAmbient temp: 95F\nRun length: 30 minutes\n\nStarting temps:\nInverter: 104F\nMotor: 129F\n\nHighway cruising (65-70mph indicated), temps very steady, no creep.\nInverter: 129F\nMotor: 181F\n\nEnding temps (lower speeds to get back to the shop):\nInverter: 131\nMotor: 196F\n\nAs I mentioned before, ideally I would like to test at 100F+, but the weather forecast is not forthcoming. Next Monday may be close...\nBut in any case, I think we're good to proceed with designing/ordering a simple mount for the Derale cooler in the vertical orientation. Simple top-mounted bracket with press-in nuts so that it can be installed from the floor of the cargo area, similar to the other side."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-04 23:31",
+                  "text": "Claude:\n\"Fix cooling. Stop chasing signals.\nThree reasons, and the third decides the order.\n1. The bus has given up what it has. We now know the derate driver (motor temp), the inverter's limit and which sensor it uses (module, 80 \u00b0C), and the coolant temperature (RTD1). The remaining signal mysteries \u2014 hot-spot reading zero, the duplicated coolant field, AEM's channel labels \u2014 wouldn't change a single action. Chasing them further is bookkeeping.\n\n2. The cooling system is already flat out and losing. Pump at 100 % duty and ~6,500 rpm for the entire evening \u2014 never modulated, no reserve. Module-to-coolant delta normal at 3.2 \u00b0C median. So heat transfer out of the modules is fine and the pump is maxed; the constraint is heat-rejection capacity, not control and not the interface.\n\n3. Order matters \u2014 settings first would make it worse. Raising the derate thresholds hands torque back, which puts more heat into a loop that's already out of margin, while the inverter sits at its 80 \u00b0C limit. Cooling first isn't just safer, it's the only sequence that isn't self-defeating. And it pays twice: cooler coolant means a cooler motor, which backs the derate off on its own and gives you some torque back without touching a single parameter.\n\nStart here \u2014 Fan1 is never commanded\nNot once, at any coolant temperature, all the way to 65 \u00b0C with 40 \u00b0C ambient. Fan2 runs continuously. Either this car only has one fan wired to the Fan2 output, or there's a second fan that isn't being asked to run \u2014 which would be free capacity sitting idle. That's a five-minute check and it's the cheapest possible outcome.\n\nAfter that, in cost order:\nAirflow at the radiator\u2014 blockage, missing shroud, or hot air recirculating. At 40 \u00b0C ambient every degree of approach matters.\nLoop topology\u2014 is the inverter fed before or after the motor? RTD1 is coolantbefore the inverterand it's already 62 \u00b0C. If a 129 \u00b0C motor sits upstream, the inverter is being handed pre-heated coolant and can never win. Worth confirming the plumbing order; if it is motor-then-inverter, re-routing or splitting the loop is likely the single biggest lever.\nRadiator capacity\u2014 to hold modules under 70 \u00b0C you need coolant near 50 \u00b0C, which is only 10 \u00b0C above that day's ambient. That may simply be more than this radiator can do, in which case it's a sizing decision.\nActual flow\u2014 the pump is commanded 100 %, but air lock or a restriction would still starve it.\"\nMe:\nI'm not sure what is meant by 'modules'. Is claude confusing the motor circuit and the battery circuit? Claude is only looking at the motor circuit, correct?\n\nNot sure what is referred to as 'fan 1' and 'fan 2', but I can confirm that all 3 fans come on as expected. There are currently two motor radiators, the original and the temporary secondary, both come on at the same time.\nAirflow at both radiators is questionable. We have one small radiator horizontally under the car, and one in the cubby on the rear driver's side.\nInverter is fed before the motor. Circuit currently:\nPump > inverter > motor > secondary rad > ovar > primary rad > reservoir\nRadiator capacity... I don't believe this is significantly different than any of our other cars.\nAir lock or starvation. I see no evidence of flow restriction. In the reservoir there are no bubbles, flow looks good, level stays steady.\n\n\n\n\nMy thoughts...\nAirflow on the primary radiator does appear to have an effect. Removing the skidplate increased the time-to-overheat by 25%.\nAdding a secondary radiator did make a significant improvement in the symptoms with no other changes Prior to that change coolant temps were over 160F and the symptom was inverter overtemp errors and the vehicle shutting off. Adding a second radiator in a spot with minimal airflow temps dropped by 20F. Not enough to prevent derating, but better than before.\nThe differences between this car and our other cars:\nSDU\nRadiator placement\n\n\nThings to test:\nI can swap the inverter inlets and see if that helps. As I mentioned before, I plumbed it backwards to how Tesla runs it. Could have an effect.\n\nToday:\nSwapped the inlet on the inverter.\nRemoved the cover on the LH fenderwell to increase airflow."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "bac66e752580440276c5b4c2b5d2aa2d1a70a1f99a56ccd0e6180c719867fe14"
+              "content_hash": "7c3e0588e1c8bd7817f7aa2f3d83836b5b02a93ad25f609921ea2b109d08e7f2"
             }
           ]
         },
