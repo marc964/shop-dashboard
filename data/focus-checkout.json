@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T22:22:34.764892Z",
+  "updated_at": "2026-08-05T23:30:45.563016Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -52,10 +52,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-04 22:12",
                   "text": "Setup and connected to laptop remotely. Found vehicle not precharging with the new inverter. Connected to AEMCal and verified no DC bus volts. Repeated various tests always confirming no DC bus voltage. Swapped back to the old inverter and immediately got a good precharge. Compared all the extended EEPROM files, tried flashing firmware again (twice), etc. No luck, decided on shipping a new inverter."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-05 23:02",
+                  "text": "Remote support for the second inverter swap. Flashed the iNetic firmware and corrected all EEPROM settings. Re-verified the Gamma setting and then made backups."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a7d27e2d63e1b3c150ae8357461ef8806e879a4d6429d914d1ca535fbfd6784b"
+              "content_hash": "c1341d36f4d9bd20dc77c62828a910f83ab0cbd9e53ce2200d9ba69f5caf28c9"
             }
           ]
         }
@@ -1264,10 +1269,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-03 23:45",
                   "text": "Configured logger and took two test pulls. Log's look quality from breif analysis. Started list of questions related to the issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-05 23:03",
+                  "text": "Reviewed and further organized SDU / LDU EEPROM."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f941655163dcf583631cc2aa2c11df42780c0a7f558b9c42109a4ac06699f523"
+              "content_hash": "b5350c3c5dcda997b6cdf4de2e9c315d32e8435ee2a74fa831af3b05b04ab024"
             },
             {
               "id": "868jx2u8g",
