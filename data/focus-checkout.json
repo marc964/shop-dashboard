@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T18:12:36.260681Z",
+  "updated_at": "2026-08-05T19:56:53.034666Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -11,7 +11,7 @@
         "make": "Alfa Romero",
         "model": "GTV",
         "status": "Checkout",
-        "checkout": 46.9,
+        "checkout": 47.4,
         "sub_metrics": [],
         "system": "AEM"
       },
