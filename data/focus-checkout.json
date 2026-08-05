@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T14:56:05.148582Z",
+  "updated_at": "2026-08-05T16:43:36.975875Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -199,7 +199,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -240,27 +240,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            },
-            {
-              "id": "868jgzgh9",
-              "name": "Replace shocks",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868jgzgh9",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-13 03:38",
-                  "text": "removed the shocks from Ritchie\ninstalled shocks on Preheim\ntested\nrode much better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-25 00:14",
-                  "text": "installed the shocks\nIMG_1723.jpeg\nIMG_1722.jpeg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "269ff2d03732ab05b8e6552d9bf11236b1217ef6a7103dd65b2569b2811835dd"
             }
           ]
         },
@@ -930,7 +909,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -1330,47 +1309,6 @@
               ],
               "checklist_items": [],
               "content_hash": "f01cc891610cd35c4a84be2087f3076a680ade287d026bb6ca0fa6cb4be7c806"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868kcb9y1",
-              "name": "Address CV axle issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kcb9y1",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-15 21:45",
-                  "text": "pulled the axles\ni had them out of phase\nreassembled them correctly\ninstalled them back in\nspun up the bus\nhad some clicking in the dr side\nfound the shaft was hitting the mounting flange inside the CV\nshimmed the CV and recentered them\nthis took care of all the clicking noise\nwaited till later to test drive\nMarc drove it\nhe heard a grinding noise\nthis was the shock hitting the CV while tuning\nthis was due to the new shock pacement\nAharon is looking into this issue while Jordan is out"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-15 21:46",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/bd7c49c5-8022-4d73-aa41-f343c1658a89/IMG_1646.mov?view=openIMG_1645.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-17 18:15",
-                  "text": "so after ride height adjustments\nwe found the CV's to be at 19* and jump to 22-25* when taking a corner\nthis is outside the limit of the stock style CV range\nClaude said we need a CV with the Star machined for clearance\nthis will give us the angle we need without it hitting\nparts are ordered will take a week before we get them"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-31 02:38",
-                  "text": "swapped the CV's\nhad to make a retaining groove in the outer spline\ninstalled the CV's\ntest drove the bus\nthe noise was better but not all gone\nwe will need to look further for a solution"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-01 03:52",
-                  "text": "looking up solutions and discussing issue"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "682336b7e22efdeafd505130c654c2ef986a9c596133241325dd4a2287fd6df2"
             }
           ]
         },
