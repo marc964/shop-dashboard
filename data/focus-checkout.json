@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T21:10:42.517554Z",
+  "updated_at": "2026-08-05T22:22:34.764892Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -665,11 +665,11 @@
                 {
                   "author": "Jordan Jones",
                   "date": "2026-08-05 17:57",
-                  "text": "Removed old springs.\nDiscovered significant buildup on lower arms. Cleaned and painted inner surface to prevent rust."
+                  "text": "Removed old springs.\nDiscovered significant buildup on lower arms. Chiseled, ceaned and painted inner surface to prevent rust / allow for proper spring seating.\nUnable to compress springs sufficiently with Dave's mercedes spring compressor. Designed a simple block to allow more coil compression.\nRemoved and installed springs.\nGreased all grease points in front of vehicle.\nAdditionally:\nFixed small coolant leak at reservoir.\nChecked over rear differential after recent work. Fluid level OK."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9c082c37ed940ee01ab1005fb6233cfd1b4386c01ba3cc908c2e8942ee9b33de"
+              "content_hash": "a205ec620dcd72d6cce613b5210b98d1e1fa5fb62c7c40a7e14b73e78734518b"
             },
             {
               "id": "868k0angv",
