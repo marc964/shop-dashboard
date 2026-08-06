@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T23:30:45.563016Z",
+  "updated_at": "2026-08-06T00:56:52.213478Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -32,9 +32,15 @@
               "status": "Open",
               "list": "Ivanhoe 65 Alfa",
               "url": "https://app.clickup.com/t/868kmbwjq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-06 00:04",
+                  "text": "Pulled Inverter from chuter\nHanded off for shipping\nStarted install new inverter into chuter.\nThis entry didnt send when it should have. This is for 8.4.26"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "9486b60a855b435387730e70447610758142890773efcca76e0d0d36d57e4534"
+              "content_hash": "f9ec5d2b3bfadc817ffb83cdc649ba8ce29c11e8779e4c474dc83d8e84c3806e"
             }
           ]
         },

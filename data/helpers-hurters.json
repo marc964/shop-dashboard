@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 25.2,
-      "pct_of_total": 13.1,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Charging",
@@ -34,7 +34,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 23.5,
-      "pct_of_total": 12.2,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -73,7 +73,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 17.5,
-      "pct_of_total": 9.1,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -100,7 +100,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 17.5,
-      "pct_of_total": 9.1,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Brakes",
@@ -119,7 +119,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 8.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Interior",
@@ -142,7 +142,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 8.0,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Suspension",
@@ -157,7 +157,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 7.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -191,7 +191,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 3.2,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -218,7 +218,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 3.0,
-      "pct_of_total": 1.6,
+      "pct_of_total": 1.5,
       "tasks": [
         {
           "task": "Suspension",
@@ -229,11 +229,11 @@
   ],
   "shop_work": {
     "total_hours": 52.0,
-    "pct_of_total": 26.9,
-    "avg_per_person_per_day": 2.17,
+    "pct_of_total": 26.1,
+    "avg_per_person_per_day": 1.62,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 3,
+    "working_days": 4,
     "breakdown": [
       {
         "label": "Other",
@@ -257,7 +257,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 10.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -266,9 +266,20 @@
       ]
     },
     {
+      "project": "Product Development",
+      "total_hours": 6.0,
+      "pct_of_total": 3.0,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 6.0
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 6.0,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -290,8 +301,8 @@
   ],
   "totals": {
     "billable_hours": 119.5,
-    "non_billable_hours": 73.5,
+    "non_billable_hours": 79.5,
     "pto_hours": 8.0,
-    "total_hours": 193.0
+    "total_hours": 199.0
   }
 }
