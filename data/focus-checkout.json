@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T15:37:23.946788Z",
+  "updated_at": "2026-08-07T16:35:43.430260Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -215,7 +215,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -397,6 +397,21 @@
               ],
               "checklist_items": [],
               "content_hash": "4c97c6b36e4b4f120fc84de54eff34e07bc17c16cf4348df83c4000f25023496"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868knpamj",
+              "name": "Troubleshoot voltage issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868knpamj",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "40ad0bf03bff84ecd3cac0ad1418be6fe502b61bf7d75225c7ef1ab522d55e21"
             }
           ]
         }
