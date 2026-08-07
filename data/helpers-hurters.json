@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 35.0,
-      "pct_of_total": 13.0,
+      "pct_of_total": 12.6,
       "tasks": [
         {
           "task": "Charging",
@@ -38,7 +38,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 30.0,
-      "pct_of_total": 11.1,
+      "pct_of_total": 10.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -85,7 +85,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 24.0,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -108,7 +108,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 21.0,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -143,7 +143,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 14.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -156,9 +156,28 @@
       ]
     },
     {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 9.5,
+      "pct_of_total": 3.4,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 7.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Connolly 58 220S",
       "total_hours": 9.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -173,7 +192,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 9.5,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Audio",
@@ -196,7 +215,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 8.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Interior",
@@ -219,7 +238,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 6.8,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Brakes",
@@ -250,22 +269,11 @@
           "hours": 0.5
         }
       ]
-    },
-    {
-      "project": "Ivanhoe 65 Alfa",
-      "total_hours": 6.0,
-      "pct_of_total": 2.2,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 6.0
-        }
-      ]
     }
   ],
   "shop_work": {
     "total_hours": 60.5,
-    "pct_of_total": 22.4,
+    "pct_of_total": 21.9,
     "avg_per_person_per_day": 1.51,
     "flagged": true,
     "tech_count": 8,
@@ -293,7 +301,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 10.0,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -347,9 +355,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 172.2,
+    "billable_hours": 179.2,
     "non_billable_hours": 97.5,
     "pto_hours": 8.0,
-    "total_hours": 269.8
+    "total_hours": 276.8
   }
 }
