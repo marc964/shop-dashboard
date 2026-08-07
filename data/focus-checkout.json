@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T21:56:47.191300Z",
+  "updated_at": "2026-08-07T22:37:38.583837Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -610,7 +610,7 @@
         "color": "Black",
         "make": "Mercedes",
         "model": "220S",
-        "status": "Testing & Tuning",
+        "status": "Testing",
         "checkout": 100,
         "sub_metrics": [
           {
@@ -646,8 +646,8 @@
               "done": false
             },
             {
-              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.15 with AWD mods.",
-              "done": false
+              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
+              "done": true
             },
             {
               "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
@@ -655,8 +655,8 @@
             }
           ],
           "total": 4,
-          "done": 0,
-          "open": 4
+          "done": 1,
+          "open": 3
         }
       },
       "clickup_match": {

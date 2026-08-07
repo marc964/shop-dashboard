@@ -6,7 +6,7 @@
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
-      "status": "Testing & Tuning",
+      "status": "Testing",
       "checkout": 100,
       "sub_metrics": [
         {
@@ -42,8 +42,8 @@
             "done": false
           },
           {
-            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.15 with AWD mods.",
-            "done": false
+            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
+            "done": true
           },
           {
             "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
@@ -51,8 +51,8 @@
           }
         ],
         "total": 4,
-        "done": 0,
-        "open": 4
+        "done": 1,
+        "open": 3
       }
     },
     {
@@ -61,7 +61,7 @@
       "color": "Red",
       "make": "Lotus",
       "model": "Esprit",
-      "status": "Checkout",
+      "status": "Testing",
       "checkout": 100,
       "sub_metrics": [
         {
@@ -93,8 +93,8 @@
             "done": true
           },
           {
-            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.",
-            "done": false
+            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.\n2026-08-07: This seems to be fixed.",
+            "done": true
           },
           {
             "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
@@ -139,10 +139,14 @@
           {
             "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
             "done": false
+          },
+          {
+            "text": "2026-08-07: Need to verify break speed in the inverter.",
+            "done": false
           }
         ],
-        "total": 13,
-        "done": 4,
+        "total": 14,
+        "done": 5,
         "open": 9
       }
     },
@@ -1663,6 +1667,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-07T21:56:24.976138+00:00",
+  "updated": "2026-08-07T22:37:06.058266+00:00",
   "source": "Google Sheets API"
 }
