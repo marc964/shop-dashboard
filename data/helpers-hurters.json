@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 32.0,
-      "pct_of_total": 12.1,
+      "pct_of_total": 12.0,
       "tasks": [
         {
           "task": "Charging",
@@ -85,7 +85,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 24.0,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -347,9 +347,9 @@
     }
   ],
   "totals": {
-    "billable_hours": 168.2,
+    "billable_hours": 169.2,
     "non_billable_hours": 96.8,
     "pto_hours": 8.0,
-    "total_hours": 265.0
+    "total_hours": 266.0
   }
 }
