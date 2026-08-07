@@ -1,6 +1,152 @@
 {
   "vehicles": [
     {
+      "owner": "Connolly",
+      "year": 1958,
+      "color": "Black",
+      "make": "Mercedes",
+      "model": "220S",
+      "status": "Testing & Tuning",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 95.4
+        },
+        {
+          "label": "Inverter",
+          "value": 98.1
+        },
+        {
+          "label": "PMU",
+          "value": 40.6
+        },
+        {
+          "label": "Raptor",
+          "value": 92.7
+        },
+        {
+          "label": "Functional",
+          "value": 33.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Temperature Gauge Might Not Be Working.",
+            "done": false
+          },
+          {
+            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.15 with AWD mods.",
+            "done": false
+          },
+          {
+            "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
+            "done": false
+          }
+        ],
+        "total": 4,
+        "done": 0,
+        "open": 4
+      }
+    },
+    {
+      "owner": "McDonough",
+      "year": 1977,
+      "color": "Red",
+      "make": "Lotus",
+      "model": "Esprit",
+      "status": "Checkout",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 50.0
+        },
+        {
+          "label": "Raptor",
+          "value": 89.1
+        },
+        {
+          "label": "Functional",
+          "value": 25.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
+            "done": true
+          },
+          {
+            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.",
+            "done": false
+          },
+          {
+            "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
+            "done": true
+          },
+          {
+            "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
+            "done": false
+          },
+          {
+            "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
+            "done": true
+          },
+          {
+            "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacing the unit.",
+            "done": true
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The GUI needs to be updated to the latest.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
+            "done": false
+          }
+        ],
+        "total": 13,
+        "done": 4,
+        "open": 9
+      }
+    },
+    {
       "owner": "Berke",
       "year": 1969,
       "color": "Blue",
@@ -811,57 +957,6 @@
       }
     },
     {
-      "owner": "Connolly",
-      "year": 1958,
-      "color": "Black",
-      "make": "Mercedes",
-      "model": "220S",
-      "status": "Testing & Tuning",
-      "checkout": 75.7,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 95.4
-        },
-        {
-          "label": "Inverter",
-          "value": 98.1
-        },
-        {
-          "label": "PMU",
-          "value": 40.6
-        },
-        {
-          "label": "Raptor",
-          "value": 92.7
-        },
-        {
-          "label": "Functional",
-          "value": 33.3
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Temperature Gauge Might Not Be Working",
-            "done": false
-          },
-          {
-            "text": "Flash Connolly with 1.7.9",
-            "done": false
-          },
-          {
-            "text": "DisplayDashGUI_SettingsMsgTimeout",
-            "done": false
-          }
-        ],
-        "total": 3,
-        "done": 0,
-        "open": 3
-      }
-    },
-    {
       "owner": "Hopkins",
       "year": 1966,
       "color": "Silver",
@@ -904,97 +999,6 @@
       "checkout": 68.8,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "McDonough",
-      "year": 1977,
-      "color": "Red",
-      "make": "Lotus",
-      "model": "Esprit",
-      "status": "Checkout",
-      "checkout": 67.9,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 99.1
-        },
-        {
-          "label": "PMU",
-          "value": 50.0
-        },
-        {
-          "label": "Raptor",
-          "value": 89.1
-        },
-        {
-          "label": "Functional",
-          "value": 25.0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
-            "done": false
-          },
-          {
-            "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.",
-            "done": false
-          },
-          {
-            "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
-            "done": true
-          },
-          {
-            "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
-            "done": false
-          },
-          {
-            "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
-            "done": true
-          },
-          {
-            "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacinng the unit.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: The GUI needs to be updated to the latest.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: Fast charging needs to be tested.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
-            "done": false
-          }
-        ],
-        "total": 13,
-        "done": 2,
-        "open": 11
-      }
     },
     {
       "owner": "Coogan",
@@ -1659,6 +1663,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-07T21:11:29.268501+00:00",
+  "updated": "2026-08-07T21:56:24.976138+00:00",
   "source": "Google Sheets API"
 }

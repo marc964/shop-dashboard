@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T21:11:50.885298Z",
+  "updated_at": "2026-08-07T21:56:47.191300Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -611,7 +611,7 @@
         "make": "Mercedes",
         "model": "220S",
         "status": "Testing & Tuning",
-        "checkout": 75.7,
+        "checkout": 100,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -638,21 +638,25 @@
         "punchlist": {
           "items": [
             {
-              "text": "Temperature Gauge Might Not Be Working",
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
               "done": false
             },
             {
-              "text": "Flash Connolly with 1.7.9",
+              "text": "2026-08-07: Temperature Gauge Might Not Be Working.",
               "done": false
             },
             {
-              "text": "DisplayDashGUI_SettingsMsgTimeout",
+              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.15 with AWD mods.",
+              "done": false
+            },
+            {
+              "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
               "done": false
             }
           ],
-          "total": 3,
+          "total": 4,
           "done": 0,
-          "open": 3
+          "open": 4
         }
       },
       "clickup_match": {
