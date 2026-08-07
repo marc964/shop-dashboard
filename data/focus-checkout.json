@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T14:10:55.819318Z",
+  "updated_at": "2026-08-07T12:03:42.210744Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -645,7 +645,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -694,11 +694,6 @@
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868k0angv",
               "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-13 02:14",
-                  "text": "Swapped front tires to rear.\nPulled off front bearing covers and inspected front hubs for play: no significant play found.\nDuring tire swap, noticed a chunk missing out of the right rear rotor. Issue not present before vehicle ewnt to Colvin's. Cheapest rotor I can find (PN 1804210801\u00a0)\nwww.mboemparts.com/oem-parts/mercedes-benz-brake-drum-1804210801 \n Same front and rear."
-                },
                 {
                   "author": "Jordan Jones",
                   "date": "2026-06-16 00:48",
@@ -818,10 +813,41 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-04 23:29",
                   "text": "Casey / technician:\nRebuilt the slip joint. The one had good bearings/u-joint but the yokes were 'egg shaped' and the caps were rotating, which they shouldn't do.\nPut the two halfshafts in a lathe and measured runout. Both were good. They ended up putting the 'new' ebay one in.\nThe new springs brought the rear end up significantly.\nThey didn't replace the wheel bearing, they said it was still good.\n\n\nDriving:\nThe pulsing vibration at 38-42mph seems gone. I couldn't get it to appear\nGeneral vibration exists, starting around 50, increasing with speed to 80. Slight lull possibly at 62-67mph. This is not resolved\n\n\nGoing forward:\n@Marc Davis if you have a chance, drive it.\nCasey has a Mercedes of the same vintage he's working on now, same exact wheels and tires size. He's going to drive it once they're finished, if it's smooth at highway speeds he says we can bring Connolly back for a wheel/tire swap to eliminate that variable."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-06 21:31",
+                  "text": "Test drove with @Billy Arrasmith after driveshaft balancing. Not perfect, but much better. No significant vibration at 60mph.\nNoticed odd parking brake behavior. Found the parking brake lines had been tangled, likely when Colvin's disconnected/reconnected the parking brake.\nRemoved and readjusted parking-brake cables. Torqued to spec.\nReinstalled trim pieces (coolant cover, wheel trim).\n@Marc Davis test drove. He thinks vibration is OK, ready to ship."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "597c575ec8e618d69fc7f826ac2dfc67203a3348d40ca05f0f57821ab42272f5"
+              "content_hash": "ca20dd258b2b40853c7ea12e36ab8c3cea3154dc86eef3a641d3a2109ec2b2a5"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868k0jcn7",
+              "name": "Re-balance DS",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0jcn7",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-12 16:23",
+                  "text": "Colvin likely unbolted DS from diff during rear end repair work and it seems we need to rebalance DS as a result."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-06 19:55",
+                  "text": "test drove the car\nfelt the vibration\njacked the car up\nremoved the wheels and brake drums\nspun the car up\nchecked for the vibration\nDS looked out\nmeasured the run out\nfound it to be 22 tho\nchecked runout at the CV\nit was 22 tho also\nfound that the Pinion adapter was not clocked the same\nremoved the bolts and re clocked it\nrunout is at 4 tho now\nstarted spinning it up again\nvibration was less than before\nstarted adding weight\nany weight added made vibrations worse\nchecked several places on the DS but no avail\nMarc suggested driving it while adjusting the weight rings\nmade several laps any weight made the vibrations more apparent\nremoved the weight and it feels better\nMarc drove and likes it\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/55b7a6d3-8d5d-4745-8bbb-294dd0e23296/IMG_1832.mov?view=open\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/4f9a175b-8341-4e77-9c86-6a85eb469d44/IMG_1831.mov?view=open"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "62a63547ff31a49b8f1bfe2bf3f8268fdc76c0467664ee34fab034a52ab46d4d"
             }
           ]
         },
@@ -1083,10 +1109,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-03 23:12",
                   "text": "Set front toe.\nInstalled front shocks to investigate for rubbing.\nTest drove after shock install - no rubbing present. I can see the rub @Marc Davis is talking about though, suspension settled overnight, worse than on Friday.\nThere is now a return of the rub at full lock to the chassis on the rear of the RH front to body... we had tuned that out with spacers before. Might have to go up a size in spacers or clearance.\u00a0 Will investigate tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-06 22:56",
+                  "text": "Ordered new spacers - slight rub on lock.\nOrdered new shocks. Volvo 240 rear shocks should fit. Ordered from Summit racing.\nimage.png"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e29a1f9955dd0a453aa4ecae1a46aa51c3cc8b315c27b9e45ece91483a6e4be6"
+              "content_hash": "d0330e3af7fb9a8feae9209f0571e97161fdd15c08c23f156067f5824aab968d"
             },
             {
               "id": "868k7em0v",
@@ -1094,9 +1125,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7em0v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-06 22:59",
+                  "text": "Some exterior pieces need replacing. Will do when doing roof rack.\nAs we've been driving it more I've noticed two things:\nExterior mirrors are floppy, vibey. The rubber mount is perished. New mirrors are cheap.\nRH blinker lens cracked.\nParts are less than $100, less than .5 hours to replace these parts. I'll put the time under the 'install roof rack' task."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
+              "content_hash": "966e6296c3d76fa685d3432e828cb89d15cc698ea1e44ea358c9e5b4832396f7"
             },
             {
               "id": "868jqn2ge",
