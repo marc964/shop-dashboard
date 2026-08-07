@@ -959,13 +959,41 @@
             "done": true
           },
           {
-            "text": "DCDC seems to be dead",
+            "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacinng the unit.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The GUI needs to be updated to the latest.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
             "done": false
           }
         ],
-        "total": 6,
+        "total": 13,
         "done": 2,
-        "open": 4
+        "open": 11
       }
     },
     {
@@ -1037,6 +1065,18 @@
             "done": true
           },
           {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
             "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
             "done": false
           },
@@ -1045,9 +1085,9 @@
             "done": false
           }
         ],
-        "total": 8,
+        "total": 11,
         "done": 4,
-        "open": 4
+        "open": 7
       }
     },
     {
@@ -1619,6 +1659,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-07T18:30:52.793542+00:00",
+  "updated": "2026-08-07T19:35:00.313368+00:00",
   "source": "Google Sheets API"
 }

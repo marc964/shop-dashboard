@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T18:31:22.366500Z",
+  "updated_at": "2026-08-07T19:35:25.962526Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,9 +20,24 @@
         "matched_lists": [
           "Ivanhoe 65 Alfa"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868knrw3d",
+              "name": "Troubleshoot inverter isssue",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868knrw3d",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "81f00e1deb51314ce63c66bf01fa5ff0302d2ea07d41c8219a4fb23749a40406"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -54,7 +69,7 @@
           "tasks": [
             {
               "id": "868kmbxw8",
-              "name": "Trouble shoot inverter issue",
+              "name": "Troubleshoot inverter issue",
               "status": "Open",
               "list": "Ivanhoe 65 Alfa",
               "url": "https://app.clickup.com/t/868kmbxw8",
@@ -71,7 +86,7 @@
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c1341d36f4d9bd20dc77c62828a910f83ab0cbd9e53ce2200d9ba69f5caf28c9"
+              "content_hash": "b19b49e516d6acd6860bec238ad7828cbd0f1a3936f28246a3f96a7c634f8988"
             }
           ]
         }
