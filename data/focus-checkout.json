@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T06:08:17.896823Z",
+  "updated_at": "2026-08-08T07:16:25.630403Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1073,9 +1073,70 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868k7faah",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:48",
+                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-03 02:49",
+                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-09 21:57",
+                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:43",
+                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-10 23:44",
+                  "text": "Currently has 1\" reverse rake."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-13 16:24",
+                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-18 02:00",
+                  "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-18 02:03",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-21 18:52",
+                  "text": "7/20 - Bus went to Soulspeed"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-01 00:15",
+                  "text": "OK.\n\nGood news.\nAfter much experimentation, I am now at the following:\nWith the drop spindles back in, adjusters cranked to max height and 3/8\" wheel spacers added back in, we now have minimal rubbing. This shows the old VVDub internal torsion leaf keepers were likely failing when we were doing our adjustment before, able to get much higher ride height with the new keepers. Doing aggressive donuts in a nearby parking-lot I can't hear anything, but the masking tape I have in the wheelwells shows a slight rub either side at full lock. Not enough to burn through the tape, but some minor scrub. Given that I'm trying my hardest to replicate this issue, I think we're as close to 'acceptable' as we're going to get. The rub is now at the center of the roof of the wheel-well, not the edges. Nothing can be done except raise the height further, which we can't do.\n\nGoing back-to-back with the stock spindles at full low vs drop spindles at full high, huge difference in front suspension feel. Rides really nicely now in the front.\n\nWe are now at 280mm at the front, 290mm at the rear.\nTarget height from the last time I experimented with CV height to eliminate the noise was 275mm. Pretty close to what we've got in the front.\n\n@Aharon Adams on Monday let's drop the rear height to 275mm and verify that the CV growl is once again eliminated.\n@Billy Arrasmith I want to test drive with the both of us in the front and see how the rub is fully loaded.\nI'll do a proper toe adjustment, I just eyeballed it for this test.\nI may order slightly longer front shocks, the new height is a bit beyond what the shocks can do.\nI'm going to order slightly wider spacers to see if we can't mitigate the slight rub there is, very fast to test.\n(edited)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-03 23:12",
+                  "text": "Set front toe.\nInstalled front shocks to investigate for rubbing.\nTest drove after shock install - no rubbing present. I can see the rub @Marc Davis is talking about though, suspension settled overnight, worse than on Friday.\nThere is now a return of the rub at full lock to the chassis on the rear of the RH front to body... we had tuned that out with spacers before. Might have to go up a size in spacers or clearance.\u00a0 Will investigate tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-06 22:56",
+                  "text": "Ordered new spacers - slight rub on lock.\nOrdered new shocks. Volvo 240 rear shocks should fit. Ordered from Summit racing.\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a3508d7521576a9b05513ccddece02498ddeefdd3cbd2e2839e24e662f712734"
+              "content_hash": "d0330e3af7fb9a8feae9209f0571e97161fdd15c08c23f156067f5824aab968d"
             },
             {
               "id": "868k7em0v",
