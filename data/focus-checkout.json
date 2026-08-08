@@ -1,15 +1,81 @@
 {
-  "updated_at": "2026-08-08T16:34:13.440879Z",
+  "updated_at": "2026-08-08T17:13:26.682039Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Ivanhoe",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Ivanhoe",
+        "year": 1965,
+        "color": "Green",
+        "make": "Alfa Romero",
+        "model": "GTV",
+        "status": "Checkout",
+        "checkout": 47.4,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Ivanhoe 65 Alfa"
+        ],
+        "open_tasks": 2
+      },
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868kmbwjq",
+              "name": "Prep replacement inverter",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868kmbwjq",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-06 00:04",
+                  "text": "Pulled Inverter from chuter\nHanded off for shipping\nStarted install new inverter into chuter.\nThis entry didnt send when it should have. This is for 8.4.26"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-06 00:59",
+                  "text": "Finished inverter install.\nVac and Fill coolant.\nWill need to run the pumps and monitor coolant level to ensure that the system is full.\nRe checked the vehicle later in the evening found a small puddle of coolant on the floor\nremoved the skid plate checked for a leak\nfound no leak at the inverter.\nLeak found at the reservoir return fitting.\nReinstalled skid plate and tightened return fitting.\nThis is now complete for my part."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a3500d401999b0869ab51e89d0df6e9fd7e6794a6473806a0ae16153e930f05c"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kmbxw8",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Ivanhoe 65 Alfa",
+              "url": "https://app.clickup.com/t/868kmbxw8",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-04 22:12",
+                  "text": "Setup and connected to laptop remotely. Found vehicle not precharging with the new inverter. Connected to AEMCal and verified no DC bus volts. Repeated various tests always confirming no DC bus voltage. Swapped back to the old inverter and immediately got a good precharge. Compared all the extended EEPROM files, tried flashing firmware again (twice), etc. No luck, decided on shipping a new inverter."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-05 23:02",
+                  "text": "Remote support for the second inverter swap. Flashed the iNetic firmware and corrected all EEPROM settings. Re-verified the Gamma setting and then made backups."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b19b49e516d6acd6860bec238ad7828cbd0f1a3936f28246a3f96a7c634f8988"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
@@ -353,21 +419,188 @@
     },
     {
       "owner": "Avalos",
-      "vehicle": null,
+      "vehicle": {
+        "owner": "Avalos",
+        "year": 1972,
+        "color": "Orange",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "status": "Shipped",
+        "checkout": 1.1,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
       "clickup_match": {
         "found": false,
-        "error": "no_vehicle"
+        "error": "no_match"
       },
       "assignees": []
     },
     {
       "owner": "Miner",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
+      },
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "4923c129aa427501c2a657842372b56f4db7b9a2fd3464a226499e056e96e2db"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868ecur5m",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868ecur5m",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-17 23:10",
+                  "text": "Went through AEM checkout sheet and highlighted all the items I want to be in the finalized checkout process. Organized and sorted various items into a more meaningful order. Reviewed pack burn logs and determined the pack held 53kWh of energy. Updated this in the calibration and continued checking various options and transferring to the sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-08 23:04",
+                  "text": "Checked heater contactor control with Dave. Ran through inverter checkout adjusting minor settings and transferring them to the sheet. Drove checkout from 27.64% to 53.66%."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-14 00:08",
+                  "text": "Worked checkout sheet from 53.66% to 65.04%. Added various items that require a more in depth look to the punch list."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-14 21:52",
+                  "text": "Walked through remaining checkout options modifying and transferring to sheet. Checkout now at 76.28% Tables, Maps, Limiters, and log analysis still left."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-16 03:42",
+                  "text": "Continued filling out checkout sheet. Found data needed to complete checkout was between one and two years out of date and prior to several firmware changes. Discussed priority with Alex."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-01-20 03:15",
+                  "text": "Diag for clicking contactor during charge. Started charge and over rode contactors to narrow down which one was clicking. Ended up being a channel marked spare that actually had heater bricks on it. Changed this channel from Wake to Battery Pump which should stay always on during charging and driving. Should review logs to verify this behavior."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-03-09 21:38",
+                  "text": "Troubleshooting for vehicle stuck on with the key out. Hooked up AEM Cal and discovered wake switch was kicked on."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-22 23:28",
+                  "text": "Re-organized and moved gauge checkout information to the vehicles sheet. Marked done. Disabled the LEM sensor. Don't see any faults in the VCU but should also check the CAN bus. Ran through the checkout sheet updating items. Posted for the team with additional status details."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-23 22:35",
+                  "text": "Charged the vehicle up till 402.3 but charge doesn't seem to shutdown. Troubleshot a bit and ended up sending logs to AEM.  Verified correct SOC profile for the pack was being used. Marked off a few extra miscellaneous items in the checkout sheet and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-04-24 21:13",
+                  "text": "Reviewed various charge for related settings to verify they matched as expected. Monitored the CAN bus for the VCU request for voltage and current and noticed that current was set at zero even with the correct voltage. Moved back to the VCU and reviewed various current limits and found CCL was set to zero. Looked into the configuration for that and changed it from CellR based back to temperature based and reviewed the temperature tables. Monitored charge for another couple of minutes and it shut down correctly. Fed Claude exported AEM calibration files and several manuals for AEM then asked for a summary with default settings with a startup guide. Unfortunately Claude turned two ~40 page manuals into one 259 page guide with way more content to validate and review making the strategy not worthful on the first attempt. Reviewed the high level limiters and took the vehicle for a test drive to verify cell max under regen and adjusted the torque table with Marc."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-06 22:33",
+                  "text": "Updated the pedal calibration. Ran various stomp cycles slow and fast to ensure the cable wasn't sticking and that the cross check between channels was 1 percent or so. Exported the torque tables for Hopkins and Miner. Wrote a Python script to interpolate the 10x10 dimensional torque table to a 19x19 dimension torque table that the VCU300 requires. Provided information and an explanation to Marc as a starting point for his tuning. Pulled AEMDash logs and troubleshot coolant temp warning showing up. Temperature did indeed spike when the pump was not running, The VCU was requesting the pump to run the entire time, and the log shows pump failing the previous key cycle, suspected air bubbles that causes that specific pump to shut down internally. Raised the regen limit from -50 to -100 Nm."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-18 21:56",
+                  "text": "Test drove with Marc and adjusted limiters and pack capacity. Also enabled creep and tuned."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-07 23:26",
+                  "text": "Reviewed all punchlist items. Added the wifi credentials to the CAN logger, still need to verify the configuration has sync'd once the vehicle is within wifi range. Reviewed various temperature setpoinnts for different drive systems and decided digital dash temperature slider was okay without changes. Formatted punch list and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-27 21:52",
+                  "text": "Test drove with Marc to observe \"torque surge\". Couldn't reliably feel the issue but looking in the logs there was an obvious 50Nm increase right as creep mode turns off. Used the log to find the intersection of the pedal torque table and the creep torque table, set the new creep APP threshold to happen exactly there. Test drove again with no surge feeling, logs confirmed. Made backups of the VCU and inverter, followed along in Slack for final vehicle ship details. Scanned startup column making sure all unfinished items were reviewed."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1efa23a860acd15160b1b3f013f0e02fe6b165731fde2edb0ec3196b8abc3cea"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
