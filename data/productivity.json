@@ -1,5 +1,4 @@
 {
-  "generated_at": "2026-08-10",
   "target_pct": 75,
   "current_month": {
     "month": "2026-08",
@@ -173,5 +172,6 @@
       "billable_hours": 39.0,
       "total_hours": 60.8
     }
-  ]
+  ],
+  "generated_at": "2026-08-10T14:57:14Z"
 }
