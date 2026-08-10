@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T21:14:00.780233Z",
+  "updated_at": "2026-08-10T22:01:33.712984Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -891,8 +891,8 @@
         "color": "White",
         "make": "Volkswagen",
         "model": "Micro Bus",
-        "status": "Startup",
-        "checkout": 76.8,
+        "status": "Testing",
+        "checkout": 100,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -935,13 +935,21 @@
               "done": false
             },
             {
-              "text": "2026-05-12: Motor seemps to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+              "text": "2026-05-12: Motor seems to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
               "done": false
             }
           ],
-          "total": 5,
+          "total": 7,
           "done": 2,
-          "open": 3
+          "open": 5
         }
       },
       "clickup_match": {
@@ -1389,7 +1397,7 @@
         "color": "Red + White",
         "make": "Austin",
         "model": "Healey",
-        "status": "Fabrication",
+        "status": "Testing",
         "checkout": 100,
         "sub_metrics": [
           {
@@ -1402,7 +1410,7 @@
           },
           {
             "label": "PMU",
-            "value": 34.4
+            "value": 100
           },
           {
             "label": "Raptor",
@@ -1433,13 +1441,21 @@
               "done": true
             },
             {
-              "text": "2026-08-10: Vehicle weight may be incorrect in the GUI.",
+              "text": "2026-08-10: Vehicle weight may be incorrect in the GUI. Gear ratio is incorrect.",
+              "done": false
+            },
+            {
+              "text": "2026-08-10: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
               "done": false
             }
           ],
-          "total": 5,
+          "total": 7,
           "done": 3,
-          "open": 2
+          "open": 4
         }
       },
       "clickup_match": {
@@ -1765,5 +1781,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-10T21:12:28Z"
+  "generated_at": "2026-08-10T21:59:39Z"
 }

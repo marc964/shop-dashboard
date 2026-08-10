@@ -156,7 +156,7 @@
       "color": "Red + White",
       "make": "Austin",
       "model": "Healey",
-      "status": "Fabrication",
+      "status": "Testing",
       "checkout": 100,
       "sub_metrics": [
         {
@@ -169,7 +169,7 @@
         },
         {
           "label": "PMU",
-          "value": 34.4
+          "value": 100
         },
         {
           "label": "Raptor",
@@ -200,13 +200,88 @@
             "done": true
           },
           {
-            "text": "2026-08-10: Vehicle weight may be incorrect in the GUI.",
+            "text": "2026-08-10: Vehicle weight may be incorrect in the GUI. Gear ratio is incorrect.",
+            "done": false
+          },
+          {
+            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
             "done": false
           }
         ],
-        "total": 5,
+        "total": 7,
         "done": 3,
-        "open": 2
+        "open": 4
+      }
+    },
+    {
+      "owner": "Ferdman",
+      "year": 1966,
+      "color": "White",
+      "make": "Volkswagen",
+      "model": "Micro Bus",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 88.9
+        },
+        {
+          "label": "Inverter",
+          "value": 73.1
+        },
+        {
+          "label": "PMU",
+          "value": 90.6
+        },
+        {
+          "label": "Raptor",
+          "value": 98.2
+        },
+        {
+          "label": "Functional",
+          "value": 33.3
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-03-xx: Motor cable hangs close to axle.",
+            "done": false
+          },
+          {
+            "text": "2026-05-11: Fan 2 - Motor not working - May be a ECU Master firmware issue.\n2026-05-11: Resolved, flashed latest PMU version.",
+            "done": true
+          },
+          {
+            "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
+            "done": true
+          },
+          {
+            "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
+            "done": false
+          },
+          {
+            "text": "2026-05-12: Motor seems to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          }
+        ],
+        "total": 7,
+        "done": 2,
+        "open": 5
       }
     },
     {
@@ -777,65 +852,6 @@
       "checkout": 81.2,
       "sub_metrics": [],
       "system": "AEM"
-    },
-    {
-      "owner": "Ferdman",
-      "year": 1966,
-      "color": "White",
-      "make": "Volkswagen",
-      "model": "Micro Bus",
-      "status": "Startup",
-      "checkout": 76.8,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 88.9
-        },
-        {
-          "label": "Inverter",
-          "value": 73.1
-        },
-        {
-          "label": "PMU",
-          "value": 90.6
-        },
-        {
-          "label": "Raptor",
-          "value": 98.2
-        },
-        {
-          "label": "Functional",
-          "value": 33.3
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-03-xx: Motor cable hangs close to axle.",
-            "done": false
-          },
-          {
-            "text": "2026-05-11: Fan 2 - Motor not working - May be a ECU Master firmware issue.\n2026-05-11: Resolved, flashed latest PMU version.",
-            "done": true
-          },
-          {
-            "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
-            "done": true
-          },
-          {
-            "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
-            "done": false
-          },
-          {
-            "text": "2026-05-12: Motor seemps to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
-            "done": false
-          }
-        ],
-        "total": 5,
-        "done": 2,
-        "open": 3
-      }
     },
     {
       "owner": "Preheim",
@@ -1675,7 +1691,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-10T21:13:36.070675+00:00",
+  "updated": "2026-08-10T22:01:04.939315+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-10T21:12:28Z"
+  "generated_at": "2026-08-10T21:59:39Z"
 }
