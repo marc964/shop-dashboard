@@ -2,20 +2,20 @@
   "helpers": [
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 41.8,
-      "pct_of_total": 12.4,
+      "total_hours": 45.2,
+      "pct_of_total": 12.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
           "hours": 11.0
         },
         {
-          "task": "Charging",
-          "hours": 10.5
+          "task": "Wiring - High Voltage",
+          "hours": 10.8
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 7.2
+          "task": "Charging",
+          "hours": 10.5
         },
         {
           "task": "Cooling",
@@ -37,16 +37,16 @@
     },
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 33.5,
-      "pct_of_total": 9.9,
+      "total_hours": 40.0,
+      "pct_of_total": 11.2,
       "tasks": [
+        {
+          "task": "Charging",
+          "hours": 12.0
+        },
         {
           "task": "Vehicle Control",
           "hours": 7.0
-        },
-        {
-          "task": "Charging",
-          "hours": 5.5
         },
         {
           "task": "HVAC",
@@ -84,8 +84,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 25.0,
-      "pct_of_total": 7.4,
+      "total_hours": 28.5,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -96,12 +96,12 @@
           "hours": 9.5
         },
         {
-          "task": "HVAC",
-          "hours": 2.5
+          "task": "Interior",
+          "hours": 4.5
         },
         {
-          "task": "Interior",
-          "hours": 1.0
+          "task": "HVAC",
+          "hours": 2.5
         },
         {
           "task": "Wiring - OEM",
@@ -112,7 +112,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 22.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -127,7 +127,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 21.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -160,9 +160,28 @@
       ]
     },
     {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 14.0,
+      "pct_of_total": 3.9,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 11.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 13.0,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -189,7 +208,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 11.0,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Scanning",
@@ -230,28 +249,9 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 9.5,
-      "pct_of_total": 2.8,
-      "tasks": [
-        {
-          "task": "Wiring - OEM",
-          "hours": 7.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Connolly 58 220S",
       "total_hours": 9.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Suspension",
@@ -266,7 +266,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 8.2,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Interior",
@@ -288,24 +288,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 45.5,
-    "pct_of_total": 13.5,
-    "avg_per_person_per_day": 0.95,
+    "total_hours": 48.0,
+    "pct_of_total": 13.4,
+    "avg_per_person_per_day": 1.0,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 18.8
+        "hours": 19.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 17.8
+        "hours": 18.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 8.5
+        "hours": 9.0
       },
       {
         "label": "Errands",
@@ -317,7 +317,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 33.5,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -328,7 +328,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 12.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -339,7 +339,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -350,7 +350,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 9.0,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -361,7 +361,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 6.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -372,7 +372,7 @@
     {
       "project": "Product Development",
       "total_hours": 6.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -383,7 +383,7 @@
     {
       "project": "Weidman-Iris 85 911",
       "total_hours": 4.0,
-      "pct_of_total": 1.2,
+      "pct_of_total": 1.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -393,10 +393,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 209.2,
-    "non_billable_hours": 128.0,
+    "billable_hours": 227.2,
+    "non_billable_hours": 130.5,
     "pto_hours": 8.0,
-    "total_hours": 337.2
+    "total_hours": 357.8
   },
-  "generated_at": "2026-08-10T18:34:09Z"
+  "generated_at": "2026-08-10T19:42:20Z"
 }
