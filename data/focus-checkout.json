@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T14:59:00.215375Z",
+  "updated_at": "2026-08-10T15:43:57.653887Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -20,7 +20,7 @@
         "matched_lists": [
           "Ivanhoe 65 Alfa"
         ],
-        "open_tasks": 2
+        "open_tasks": 1
       },
       "assignees": [
         {
@@ -46,32 +46,6 @@
               ],
               "checklist_items": [],
               "content_hash": "a3500d401999b0869ab51e89d0df6e9fd7e6794a6473806a0ae16153e930f05c"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868kmbxw8",
-              "name": "Troubleshoot inverter issue",
-              "status": "Open",
-              "list": "Ivanhoe 65 Alfa",
-              "url": "https://app.clickup.com/t/868kmbxw8",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-04 22:12",
-                  "text": "Setup and connected to laptop remotely. Found vehicle not precharging with the new inverter. Connected to AEMCal and verified no DC bus volts. Repeated various tests always confirming no DC bus voltage. Swapped back to the old inverter and immediately got a good precharge. Compared all the extended EEPROM files, tried flashing firmware again (twice), etc. No luck, decided on shipping a new inverter."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-05 23:02",
-                  "text": "Remote support for the second inverter swap. Flashed the iNetic firmware and corrected all EEPROM settings. Re-verified the Gamma setting and then made backups."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b19b49e516d6acd6860bec238ad7828cbd0f1a3936f28246a3f96a7c634f8988"
             }
           ]
         }
@@ -975,7 +949,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -1253,6 +1227,63 @@
           ]
         },
         {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kert77",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kert77",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 03:44",
+                  "text": "chat about game plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:00",
+                  "text": "from 7/16:\nspent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-07-22 15:05",
+                  "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-01 16:03",
+                  "text": "discussions and searching for rubbing/ solutions"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "f01cc891610cd35c4a84be2087f3076a680ade287d026bb6ca0fa6cb4be7c806"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868k7fdjp",
+              "name": "Assess noise",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7fdjp",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-09 13:22",
+                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
+            }
+          ]
+        },
+        {
           "name": "Devin DuMont",
           "tasks": [
             {
@@ -1345,73 +1376,6 @@
               ],
               "checklist_items": [],
               "content_hash": "b5350c3c5dcda997b6cdf4de2e9c315d32e8435ee2a74fa831af3b05b04ab024"
-            },
-            {
-              "id": "868jx2u8g",
-              "name": "Troubleshoot throttle issue",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868jx2u8g",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "a4512900e66a18004d16a400dcc65b70d525aed6bd56158408daf953849f237f"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kert77",
-              "name": "Address rear suspension issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kert77",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 03:44",
-                  "text": "chat about game plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 15:00",
-                  "text": "from 7/16:\nspent the day deliberating and choosing a path forward.\nI ended up straightening all the bent plates from the drivers side\nThen tapping both slide plates to m12 so we can have a better clamping force.\nWhile installing the torsion plates, I evened both sides at 9cm- spring plate to corner of the housing. I then preloaded the arms while sliding them in and securing.\nAfter that I could pull the arms over to meet the slide plates and realign to the previous spots.\nThis method insures our \"lowest\" ride height is also the lowest position on the adjuster, now we can go way up if we want.\nAfter we decide we like our ride height, we will remove the wheels and add 2 extra bolts towards the end of the spring plates, that way we can lock it down permanently and not worry about the plates deforming any more."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-07-22 15:05",
-                  "text": "from 7/15:\nbilly remedied the axle alignment issue but that uncovered a grinding from the cvs hitting the shock under compression. after test drives we decided to raise the rear ride height. I don't care for the difference in adjustment heights and effort side to side. but the height change did make a big difference temporarily. the interference only occurs during very hard right turns and under acceleration. will discuss tomorrow and make a plan"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-01 16:03",
-                  "text": "discussions and searching for rubbing/ solutions"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f01cc891610cd35c4a84be2087f3076a680ade287d026bb6ca0fa6cb4be7c806"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868k7fdjp",
-              "name": "Assess noise",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7fdjp",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-09 13:22",
-                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
             }
           ]
         }
@@ -1793,5 +1757,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-10T14:57:14Z"
+  "generated_at": "2026-08-10T15:42:32Z"
 }
