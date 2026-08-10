@@ -142,7 +142,8 @@ def compute_productivity(time_entries, tech_user_ids, config):
             })
 
     return {
-        "generated_at": today.isoformat(),
+        # generated_at is stamped centrally by generate_data.write_json, at full
+        # UTC precision — a date alone can't express how stale the data is.
         "target_pct": target,
         "current_month": {
             "month": current_month,

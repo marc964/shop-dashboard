@@ -156,7 +156,7 @@ async function loadAndRender() {
     try {
         var data = await fetchData(DATA_URL);
         render(data);
-        updateTimestamp('updatedTime', 'Updated every 15 min');
+        updateTimestamp('updatedTime', data.generated_at);
     } catch (err) {
         document.getElementById('content').innerHTML =
             '<div class="loading-msg">Unable to load data. Pipeline may not have run yet.</div>';

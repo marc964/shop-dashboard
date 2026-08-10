@@ -56,16 +56,67 @@ function fmtHours(value) {
     return value.toFixed(1);
 }
 
+// How stale the data has to be before the header says so. Scheduled runs land
+// every ~75-130 min in practice (GitHub throttles the */15 cron hard), so 3h is
+// comfortably past normal jitter — it flags a stalled pipeline without crying
+// wolf on an ordinary slow cycle.
+const STALE_AMBER_MS = 3 * 60 * 60 * 1000;
+const STALE_RED_MS = 6 * 60 * 60 * 1000;
+
 /**
- * Update the "Last updated" timestamp in the header.
+ * Human-readable age, e.g. "37 min ago" / "4h 10m ago" / "2 days ago".
  */
-function updateTimestamp(elementId, source) {
+function formatAge(ms) {
+    // Negative age means the viewing device's clock is behind the build clock;
+    // report it as current rather than showing a nonsensical negative.
+    const mins = Math.max(0, Math.round(ms / 60000));
+    if (mins < 1) return 'just now';
+    if (mins < 60) return `${mins} min ago`;
+    const h = Math.floor(mins / 60), m = mins % 60;
+    if (h < 24) return m ? `${h}h ${m}m ago` : `${h}h ago`;
+    const d = Math.floor(h / 24);
+    return d === 1 ? '1 day ago' : `${d} days ago`;
+}
+
+/**
+ * Render the "Last updated" header from the DATA's build time.
+ *
+ * Deliberately not `new Date()`: that reports when the browser rendered the
+ * page, and since the dashboards reload every 5 minutes it always looked fresh
+ * no matter how old the numbers were. During a 20-hour pipeline outage the shop
+ * TVs showed a "last updated" time tracking the current clock while displaying
+ * days-old data. The header now states the age of the data itself and colours
+ * itself once that age is abnormal, which makes a stalled pipeline visible on
+ * the TV without needing any alerting at all.
+ *
+ * @param {string} elementId  header element to fill
+ * @param {string} generatedAt  ISO 8601 UTC timestamp from the data file
+ * @param {string} [source]  optional small label above the timestamp
+ */
+function updateTimestamp(elementId, generatedAt, source) {
     const el = document.getElementById(elementId);
     if (!el) return;
-    const now = new Date();
-    const opts = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' };
+
     const sourceLabel = source ? `<span style="font-size:13px">${source}</span><br>` : '';
-    el.innerHTML = `${sourceLabel}Last updated<br><strong>${now.toLocaleDateString('en-US', opts)}</strong>`;
+    el.classList.remove('stale', 'very-stale');
+
+    const built = generatedAt ? new Date(generatedAt) : null;
+    if (!built || isNaN(built.getTime())) {
+        // No usable timestamp: say so rather than substituting the clock, which
+        // is the exact failure this function exists to remove.
+        el.classList.add('very-stale');
+        el.innerHTML = `${sourceLabel}Last updated<br><strong>unknown</strong>`;
+        return;
+    }
+
+    const ageMs = Date.now() - built.getTime();
+    if (ageMs >= STALE_RED_MS) el.classList.add('very-stale');
+    else if (ageMs >= STALE_AMBER_MS) el.classList.add('stale');
+
+    const opts = { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+    el.innerHTML = `${sourceLabel}Last updated<br>` +
+        `<strong>${built.toLocaleString('en-US', opts)}</strong><br>` +
+        `<span class="age">${formatAge(ageMs)}</span>`;
 }
 
 /**

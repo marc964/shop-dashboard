@@ -187,10 +187,12 @@ const DATA_URL = 'data/checkout.json';
 const EXCLUDED_STATUSES = ['', 'shipped', 'fabrication', 'acceptance'];
 
 let VEHICLES = [];
+let GENERATED_AT = null;   // data build time, for the "Last updated" header
 
 async function loadData() {
     try {
         var json = await fetchData(DATA_URL);
+        GENERATED_AT = json.generated_at;
         if (json.vehicles && json.vehicles.length > 0) {
             VEHICLES = json.vehicles.filter(function(v) {
                 return v.owner && !v.owner.includes('#REF') &&
@@ -301,7 +303,7 @@ function initPunchlistScroll() {
 function render() {
     renderSummary();
     renderGrid();
-    updateTimestamp('updatedTime', 'Pipeline data');
+    updateTimestamp('updatedTime', GENERATED_AT, 'Pipeline data');
     requestAnimationFrame(initPunchlistScroll);
 }
 

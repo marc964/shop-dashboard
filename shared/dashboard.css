@@ -48,6 +48,23 @@ body {
 .header .updated strong {
     font-size: 17px;
 }
+.header .updated .age {
+    font-size: 15px;
+}
+/* Data older than a normal refresh cycle. Readable from across the shop, so a
+   stalled pipeline is visible on the TV itself rather than only in Slack. */
+.header .updated.stale,
+.header .updated.stale strong {
+    color: #f5a623;
+}
+.header .updated.very-stale,
+.header .updated.very-stale strong {
+    color: #d94040;
+}
+.header .updated.stale .age,
+.header .updated.very-stale .age {
+    font-weight: 700;
+}
 
 /* Summary Strip */
 .summary-strip {

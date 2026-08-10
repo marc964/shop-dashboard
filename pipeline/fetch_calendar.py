@@ -172,6 +172,6 @@ def fetch_events(config):
         })
 
     return {
-        "generated_at": today.isoformat(),
+        # generated_at is stamped centrally by generate_data.write_json.
         "weeks": weeks,
     }

@@ -9,7 +9,7 @@ computes metrics, and writes JSON files to data/.
 import json
 import os
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 # Add pipeline dir to path for imports
@@ -34,11 +34,26 @@ CONFIG = {
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
+# One timestamp for the whole run, so every file agrees on when this data was
+# built. The dashboards render this as the "Last updated" age — previously they
+# showed the browser's own clock, which meant a stalled pipeline still looked
+# freshly updated on the shop TVs. Full UTC precision, not just a date.
+RUN_GENERATED_AT = (
+    datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+)
+
 
 def write_json(filename, data):
-    """Write data to a JSON file in the data/ directory."""
+    """
+    Write data to a JSON file in the data/ directory.
+
+    Stamps generated_at centrally so no output file can quietly ship without a
+    timestamp — the dashboards depend on it to detect staleness.
+    """
     DATA_DIR.mkdir(exist_ok=True)
     filepath = DATA_DIR / filename
+    if isinstance(data, dict):
+        data = {**data, "generated_at": RUN_GENERATED_AT}
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)
     print(f"  Wrote {filepath} ({os.path.getsize(filepath)} bytes)")

@@ -218,6 +218,7 @@ const PAGE_ROTATE_MS = 20000;    // dwell time per page
 const MAX_VISIBLE_TASKS = 10;    // per card; overflow collapses to "+N more"
 
 let PROJECTS = [];
+let GENERATED_AT = null;   // data build time, for the "Last updated" header
 let currentPage = 0;
 let rotateTimer = null;
 
@@ -414,7 +415,7 @@ function renderPage() {
     grid.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
     grid.innerHTML = pageProjects.map(renderCard).join('');
     renderPageDots();
-    updateTimestamp('updatedTime', 'Pipeline data');
+    updateTimestamp('updatedTime', GENERATED_AT, 'Pipeline data');
 }
 
 function startRotation() {
@@ -437,6 +438,7 @@ async function loadData() {
     var pinnedOwner = getOwnerParam();
     try {
         var json = await fetchData(DATA_URL);
+        GENERATED_AT = json.generated_at;
         var projects = (json.projects || []).filter(function(p) {
             return p.vehicle || (p.clickup_match && p.clickup_match.found);
         });
