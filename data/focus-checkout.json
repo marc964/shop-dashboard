@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T20:25:54.965807Z",
+  "updated_at": "2026-08-10T21:14:00.780233Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1390,7 +1390,7 @@
         "make": "Austin",
         "model": "Healey",
         "status": "Fabrication",
-        "checkout": 76.8,
+        "checkout": 100,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -1417,8 +1417,8 @@
         "punchlist": {
           "items": [
             {
-              "text": "2026-05-14: CAN3 termination is incorrect.",
-              "done": false
+              "text": "2026-05-14: CAN3 termination is incorrect.\n2026-08-10: Resolved. Measured 60.8 Ohms today.",
+              "done": true
             },
             {
               "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
@@ -1430,12 +1430,16 @@
             },
             {
               "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "done": true
+            },
+            {
+              "text": "2026-08-10: Vehicle weight may be incorrect in the GUI.",
               "done": false
             }
           ],
-          "total": 4,
-          "done": 1,
-          "open": 3
+          "total": 5,
+          "done": 3,
+          "open": 2
         }
       },
       "clickup_match": {
@@ -1761,5 +1765,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-10T20:24:24Z"
+  "generated_at": "2026-08-10T21:12:28Z"
 }
