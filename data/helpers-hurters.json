@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 41.8,
-      "pct_of_total": 12.5,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -38,7 +38,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 33.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -85,7 +85,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.0,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -112,7 +112,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 22.0,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -127,7 +127,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 21.0,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -266,7 +266,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 8.2,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Interior",
@@ -288,24 +288,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 44.0,
-    "pct_of_total": 13.2,
-    "avg_per_person_per_day": 0.92,
+    "total_hours": 45.5,
+    "pct_of_total": 13.5,
+    "avg_per_person_per_day": 0.95,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 18.0
+        "hours": 18.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 17.2
+        "hours": 17.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 8.2
+        "hours": 8.5
       },
       {
         "label": "Errands",
@@ -317,7 +317,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 33.5,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -393,10 +393,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 207.2,
-    "non_billable_hours": 126.5,
+    "billable_hours": 209.2,
+    "non_billable_hours": 128.0,
     "pto_hours": 8.0,
-    "total_hours": 333.8
+    "total_hours": 337.2
   },
-  "generated_at": "2026-08-10T17:36:54Z"
+  "generated_at": "2026-08-10T18:34:09Z"
 }

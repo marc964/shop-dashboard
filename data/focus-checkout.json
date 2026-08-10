@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T17:38:22.706287Z",
+  "updated_at": "2026-08-10T18:36:07.007768Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1421,16 +1421,20 @@
               "done": false
             },
             {
-              "text": "The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.",
+              "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "done": true
+            },
+            {
+              "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
               "done": false
             },
             {
-              "text": "charge chuter to 390 volts and see if the dcdc goes out after 6-7 hours",
+              "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
               "done": false
             }
           ],
-          "total": 3,
-          "done": 0,
+          "total": 4,
+          "done": 1,
           "open": 3
         }
       },
@@ -1757,5 +1761,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-10T17:36:54Z"
+  "generated_at": "2026-08-10T18:34:09Z"
 }
