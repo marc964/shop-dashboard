@@ -38,8 +38,8 @@
             "done": false
           },
           {
-            "text": "2026-08-07: Temperature Gauge Might Not Be Working.",
-            "done": false
+            "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
+            "done": true
           },
           {
             "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
@@ -51,8 +51,8 @@
           }
         ],
         "total": 4,
-        "done": 1,
-        "open": 3
+        "done": 2,
+        "open": 2
       }
     },
     {
@@ -1667,7 +1667,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-10T16:35:35.689570+00:00",
+  "updated": "2026-08-10T17:37:56.856313+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-10T16:34:27Z"
+  "generated_at": "2026-08-10T17:36:54Z"
 }
