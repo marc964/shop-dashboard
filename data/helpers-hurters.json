@@ -36,17 +36,6 @@
       ]
     },
     {
-      "project": "Ivanhoe 65 Alfa",
-      "total_hours": 39.5,
-      "pct_of_total": 11.8,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 39.5
-        }
-      ]
-    },
-    {
       "project": "Jaffe 86 190E",
       "total_hours": 33.5,
       "pct_of_total": 10.0,
@@ -273,12 +262,35 @@
           "hours": 3.5
         }
       ]
+    },
+    {
+      "project": "Thacker 46 Woody",
+      "total_hours": 8.2,
+      "pct_of_total": 2.5,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 4.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 3.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 0.8
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
     }
   ],
   "shop_work": {
-    "total_hours": 48.0,
-    "pct_of_total": 14.4,
-    "avg_per_person_per_day": 1.0,
+    "total_hours": 44.0,
+    "pct_of_total": 13.2,
+    "avg_per_person_per_day": 0.92,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
@@ -296,16 +308,23 @@
         "hours": 8.2
       },
       {
-        "label": "Other",
-        "hours": 4.0
-      },
-      {
         "label": "Errands",
         "hours": 0.5
       }
     ]
   },
   "project_hurters": [
+    {
+      "project": "Ivanhoe 65 Alfa",
+      "total_hours": 33.5,
+      "pct_of_total": 10.0,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 33.5
+        }
+      ]
+    },
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 12.0,
@@ -360,11 +379,22 @@
           "hours": 6.0
         }
       ]
+    },
+    {
+      "project": "Weidman-Iris 85 911",
+      "total_hours": 4.0,
+      "pct_of_total": 1.2,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 4.0
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 240.8,
-    "non_billable_hours": 93.0,
+    "billable_hours": 207.2,
+    "non_billable_hours": 126.5,
     "pto_hours": 8.0,
     "total_hours": 333.8
   }
