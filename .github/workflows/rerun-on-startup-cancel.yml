@@ -1,11 +1,19 @@
-name: Auto-rerun startup-cancelled runs
+name: Update & Deploy watchdog
 
-# GitHub's hosted-runner pool occasionally fails to acquire a runner and
-# cancels the job before any step runs ("The job was not acquired by Runner
-# of type hosted" / internal server error). That is a transient GitHub infra
-# failure, not a workflow problem. When it happens, re-run the failed run once
-# so the dashboards self-heal in ~1 min instead of waiting for the next
-# scheduled run. Genuine failures (steps actually ran) are left untouched.
+# Two jobs, both reacting to a completed "Update & Deploy Dashboard" run:
+#
+#   rerun  — GitHub's hosted-runner pool occasionally fails to acquire a runner
+#            and cancels the job before any step runs ("The job was not acquired
+#            by Runner of type hosted" / internal server error). That is a
+#            transient GitHub infra failure, not a workflow problem. When it
+#            happens, re-run the failed run once so the dashboards self-heal in
+#            ~1 min instead of waiting for the next scheduled run. Genuine
+#            failures (steps actually ran) are left untouched.
+#
+#   alert  — escalate to Slack only once enough runs in a row have failed that
+#            the dashboards are meaningfully stale. GitHub's built-in failure
+#            email can't tell a one-off infra hiccup from a broken pipeline, so
+#            it fires on both and is safe to turn off in favour of this.
 
 on:
   workflow_run:
@@ -13,14 +21,19 @@ on:
     types: [completed]
 
 permissions:
-  actions: write  # required to re-run jobs
+  actions: write  # required to re-run jobs (and to read run history)
 
 jobs:
   rerun:
     if: github.event.workflow_run.conclusion != 'success'
     runs-on: ubuntu-latest
+    outputs:
+      # Tells the alert job to stay quiet: another attempt is on its way and
+      # will re-evaluate, so alerting now would double-post at the same count.
+      retried: ${{ steps.maybe_rerun.outputs.retried }}
     steps:
       - name: Re-run only if the job was cancelled before any step ran
+        id: maybe_rerun
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -30,10 +43,25 @@ jobs:
         run: |
           set -euo pipefail
           echo "Triggering run $RUN_ID: conclusion=$CONCLUSION attempt=$RUN_ATTEMPT"
+          echo "retried=false" >> "$GITHUB_OUTPUT"
 
           # Only ever retry once, so a persistent runner outage can't loop.
           if [ "$RUN_ATTEMPT" -ge 2 ]; then
             echo "Already retried (attempt $RUN_ATTEMPT); leaving as-is."
+            exit 0
+          fi
+
+          # A run wedged in waiting/queued holds the shop-dashboard-data-commit
+          # concurrency lock, so everything behind it is cancelled before it
+          # starts — same shape as a runner-acquisition cancellation, but a
+          # re-run just queues behind the same wedge and is cancelled too.
+          # Don't retry into it; the alert job escalates this case instead.
+          wedged=$(gh api "repos/$REPO/actions/workflows/update.yml/runs?per_page=30" \
+            | jq '[.workflow_runs[]
+                | select(.status=="waiting" or .status=="queued" or .status=="pending")]
+                | length')
+          if [ "$wedged" -ge 1 ]; then
+            echo "A run is wedged in waiting/queued ($wedged); retrying is futile. Not re-running."
             exit 0
           fi
 
@@ -50,6 +78,31 @@ jobs:
           if [ "$startup_cancel" -ge 1 ]; then
             echo "Runner-acquisition cancellation; re-running failed jobs."
             gh api -X POST "repos/$REPO/actions/runs/$RUN_ID/rerun-failed-jobs"
+            echo "retried=true" >> "$GITHUB_OUTPUT"
           else
             echo "Steps ran (genuine failure) or nothing to retry; not re-running."
           fi
+
+  alert:
+    # always(): the rerun job is skipped entirely on a successful run, but we
+    # still want to reach the alerter so it can post the recovery notice.
+    needs: rerun
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Escalate to Slack only if runs keep failing
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RETRIED: ${{ needs.rerun.outputs.retried }}
+          WORKFLOW_FILE: update.yml
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_ALERT_TARGET: 'UKJH79UGK'  # DM Marc Davis
+          ALERT_AFTER_FAILURES: '2'
+          WEDGED_AFTER_MINUTES: '60'
+          WEDGE_AUTOCANCEL: 'true'
+        run: node scripts/run-failure-alert.js
