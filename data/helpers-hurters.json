@@ -3,7 +3,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 41.8,
-      "pct_of_total": 13.0,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -38,7 +38,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 12.3,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -49,7 +49,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 33.5,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.0,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -96,7 +96,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 25.0,
-      "pct_of_total": 7.8,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -123,7 +123,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 22.0,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -138,7 +138,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 21.0,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -171,9 +171,36 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 13.0,
+      "pct_of_total": 3.9,
+      "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 4.5
+        },
+        {
+          "task": "Audio",
+          "hours": 4.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 11.0,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -216,7 +243,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 9.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -235,7 +262,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 9.5,
-      "pct_of_total": 3.0,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Suspension",
@@ -246,46 +273,23 @@
           "hours": 3.5
         }
       ]
-    },
-    {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 9.5,
-      "pct_of_total": 3.0,
-      "tasks": [
-        {
-          "task": "Audio",
-          "hours": 4.5
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 3.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 1.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 47.0,
-    "pct_of_total": 14.6,
-    "avg_per_person_per_day": 1.18,
-    "flagged": true,
+    "total_hours": 48.0,
+    "pct_of_total": 14.4,
+    "avg_per_person_per_day": 1.0,
+    "flagged": false,
     "tech_count": 8,
-    "working_days": 5,
+    "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 17.5
+        "hours": 18.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 16.8
+        "hours": 17.2
       },
       {
         "label": "Personal Meetings",
@@ -304,19 +308,30 @@
   "project_hurters": [
     {
       "project": "ICON Bronco Prototype",
-      "total_hours": 10.0,
-      "pct_of_total": 3.1,
+      "total_hours": 12.0,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Installation - Extra",
-          "hours": 10.0
+          "hours": 12.0
+        }
+      ]
+    },
+    {
+      "project": "Lee 68 Mustang",
+      "total_hours": 12.0,
+      "pct_of_total": 3.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 12.0
         }
       ]
     },
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 9.0,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -327,7 +342,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 6.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -338,30 +353,19 @@
     {
       "project": "Product Development",
       "total_hours": 6.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
           "hours": 6.0
         }
       ]
-    },
-    {
-      "project": "Lee 68 Mustang",
-      "total_hours": 6.0,
-      "pct_of_total": 1.9,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 6.0
-        }
-      ]
     }
   ],
   "totals": {
-    "billable_hours": 237.8,
-    "non_billable_hours": 84.0,
+    "billable_hours": 240.8,
+    "non_billable_hours": 93.0,
     "pto_hours": 8.0,
-    "total_hours": 321.8
+    "total_hours": 333.8
   }
 }

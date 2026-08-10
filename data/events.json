@@ -1,83 +1,15 @@
 {
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-08-10",
   "weeks": [
-    {
-      "week_start": "2026-08-03",
-      "week_label": "Week of Aug 03",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-08-03",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "BIlly A Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-08-04",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-05",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-06",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-07",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Ryan L Out",
-              "type": "pto",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-08-08",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-08-09",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
     {
       "week_start": "2026-08-10",
       "week_label": "Week of Aug 10",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-08-10",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -266,6 +198,74 @@
         },
         {
           "date": "2026-08-30",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
+    },
+    {
+      "week_start": "2026-08-31",
+      "week_label": "Week of Aug 31",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-08-31",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Brandon B Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-09-01",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-02",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-03",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-04",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Jordan J Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-09-05",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-09-06",
           "day_name": "Sunday",
           "is_today": false,
           "is_weekend": true,
