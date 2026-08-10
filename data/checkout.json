@@ -720,6 +720,61 @@
       "system": "AEM"
     },
     {
+      "owner": "Chuter",
+      "year": 1962,
+      "color": "Red + White",
+      "make": "Austin",
+      "model": "Healey",
+      "status": "Fabrication",
+      "checkout": 76.8,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 99.1
+        },
+        {
+          "label": "PMU",
+          "value": 34.4
+        },
+        {
+          "label": "Raptor",
+          "value": 100
+        },
+        {
+          "label": "Functional",
+          "value": 41.7
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "2026-05-14: CAN3 termination is incorrect.",
+            "done": false
+          },
+          {
+            "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+            "done": true
+          },
+          {
+            "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
+            "done": false
+          },
+          {
+            "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+            "done": false
+          }
+        ],
+        "total": 4,
+        "done": 1,
+        "open": 3
+      }
+    },
+    {
       "owner": "Ferdman",
       "year": 1966,
       "color": "White",
@@ -775,61 +830,6 @@
         ],
         "total": 5,
         "done": 2,
-        "open": 3
-      }
-    },
-    {
-      "owner": "Chuter",
-      "year": 1962,
-      "color": "Red + White",
-      "make": "Austin",
-      "model": "Healey",
-      "status": "Fabrication",
-      "checkout": 76.2,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 99.1
-        },
-        {
-          "label": "PMU",
-          "value": 34.4
-        },
-        {
-          "label": "Raptor",
-          "value": 96.4
-        },
-        {
-          "label": "Functional",
-          "value": 41.7
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "2026-05-14: CAN3 termination is incorrect.",
-            "done": false
-          },
-          {
-            "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
-            "done": true
-          },
-          {
-            "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
-            "done": false
-          },
-          {
-            "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
-            "done": false
-          }
-        ],
-        "total": 4,
-        "done": 1,
         "open": 3
       }
     },
@@ -1671,7 +1671,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-10T19:43:25.892629+00:00",
+  "updated": "2026-08-10T20:25:27.888025+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-10T19:42:20Z"
+  "generated_at": "2026-08-10T20:24:24Z"
 }
