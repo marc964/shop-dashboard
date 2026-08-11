@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T18:38:02.957185Z",
+  "updated_at": "2026-08-11T19:47:43.639640Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -193,47 +193,6 @@
       },
       "assignees": [
         {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868j626qw",
-              "name": "Add step sides",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-09 02:03",
-                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-20 19:41",
-                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-29 19:51",
-                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a3d94edfbd5dccbdce89684c59d3e32fce491bea9d70a7dcfe6b40947da1df8b"
-            },
-            {
-              "id": "868gjgucg",
-              "name": "Balance driveshafts",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868gjgucg",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            }
-          ]
-        },
-        {
           "name": "Jordan Jones",
           "tasks": [
             {
@@ -276,6 +235,52 @@
               ],
               "checklist_items": [],
               "content_hash": "a0237314074a826648d487c175672859572b9dc98341a98bb8a700dcd62a8543"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868gjgucg",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868gjgucg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a3d94edfbd5dccbdce89684c59d3e32fce491bea9d70a7dcfe6b40947da1df8b"
             }
           ]
         },
@@ -669,7 +674,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -850,32 +855,6 @@
           ]
         },
         {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868k0jcn7",
-              "name": "Re-balance DS",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868k0jcn7",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-06-12 16:23",
-                  "text": "Colvin likely unbolted DS from diff during rear end repair work and it seems we need to rebalance DS as a result."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-06 19:55",
-                  "text": "test drove the car\nfelt the vibration\njacked the car up\nremoved the wheels and brake drums\nspun the car up\nchecked for the vibration\nDS looked out\nmeasured the run out\nfound it to be 22 tho\nchecked runout at the CV\nit was 22 tho also\nfound that the Pinion adapter was not clocked the same\nremoved the bolts and re clocked it\nrunout is at 4 tho now\nstarted spinning it up again\nvibration was less than before\nstarted adding weight\nany weight added made vibrations worse\nchecked several places on the DS but no avail\nMarc suggested driving it while adjusting the weight rings\nmade several laps any weight made the vibrations more apparent\nremoved the weight and it feels better\nMarc drove and likes it\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/55b7a6d3-8d5d-4745-8bbb-294dd0e23296/IMG_1832.mov?view=open\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/4f9a175b-8341-4e77-9c86-6a85eb469d44/IMG_1831.mov?view=open"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "62a63547ff31a49b8f1bfe2bf3f8268fdc76c0467664ee34fab034a52ab46d4d"
-            }
-          ]
-        },
-        {
           "name": "Devin DuMont",
           "tasks": [
             {
@@ -988,7 +967,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -1152,6 +1131,16 @@
               "content_hash": "d0330e3af7fb9a8feae9209f0571e97161fdd15c08c23f156067f5824aab968d"
             },
             {
+              "id": "868kq38dz",
+              "name": "Facilitate head liner repair",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kq38dz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "59732d4b9948b960d87a339e4a4984a7398330244c01b8163c5a64e12e13de90"
+            },
+            {
               "id": "868k7em0v",
               "name": "Install roof rack",
               "status": "Open",
@@ -1162,10 +1151,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-06 22:59",
                   "text": "Some exterior pieces need replacing. Will do when doing roof rack.\nAs we've been driving it more I've noticed two things:\nExterior mirrors are floppy, vibey. The rubber mount is perished. New mirrors are cheap.\nRH blinker lens cracked.\nParts are less than $100, less than .5 hours to replace these parts. I'll put the time under the 'install roof rack' task."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 19:11",
+                  "text": "Installed new front marker light trim/lenses.\nObserved LH rear tailight bulb out. Diagnosed sticky bulb socket. Repaired."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "966e6296c3d76fa685d3432e828cb89d15cc698ea1e44ea358c9e5b4832396f7"
+              "content_hash": "ab553c81f432672373f25355215392a7017ae7fc250a6a779b3e8e3c04c40301"
             },
             {
               "id": "868jqn2ge",
@@ -1828,5 +1822,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-11T18:36:43Z"
+  "generated_at": "2026-08-11T19:45:52Z"
 }

@@ -1113,13 +1113,17 @@
             "done": false
           },
           {
-            "text": "2026-07-29:",
+            "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.",
+            "done": false
+          },
+          {
+            "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.",
             "done": false
           }
         ],
-        "total": 11,
+        "total": 12,
         "done": 4,
-        "open": 7
+        "open": 8
       }
     },
     {
@@ -1691,7 +1695,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-11T18:37:36.314260+00:00",
+  "updated": "2026-08-11T19:47:17.641430+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-11T18:36:43Z"
+  "generated_at": "2026-08-11T19:45:52Z"
 }
