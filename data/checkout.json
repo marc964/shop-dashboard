@@ -151,6 +151,93 @@
       }
     },
     {
+      "owner": "Teague",
+      "year": 1962,
+      "color": "Black",
+      "make": "Jaguar",
+      "model": "",
+      "status": "Testing",
+      "checkout": 100,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 97.2
+        },
+        {
+          "label": "Inverter",
+          "value": 93.5
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 81.8
+        },
+        {
+          "label": "Functional",
+          "value": 25.0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
+            "done": true
+          },
+          {
+            "text": "Missing Build Photos",
+            "done": false
+          },
+          {
+            "text": "Missing Polarity Label",
+            "done": true
+          },
+          {
+            "text": "Incorrect Contactor Orientation",
+            "done": true
+          },
+          {
+            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: Fast charging needs to be tested.",
+            "done": false
+          },
+          {
+            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+            "done": false
+          },
+          {
+            "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
+            "done": false
+          },
+          {
+            "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.",
+            "done": false
+          },
+          {
+            "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.",
+            "done": false
+          }
+        ],
+        "total": 12,
+        "done": 4,
+        "open": 8
+      }
+    },
+    {
       "owner": "Chuter",
       "year": 1962,
       "color": "Red + White",
@@ -1040,93 +1127,6 @@
       "system": "AEM"
     },
     {
-      "owner": "Teague",
-      "year": 1962,
-      "color": "Black",
-      "make": "Jaguar",
-      "model": "",
-      "status": "Startup",
-      "checkout": 61.4,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 97.2
-        },
-        {
-          "label": "Inverter",
-          "value": 93.5
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 81.8
-        },
-        {
-          "label": "Functional",
-          "value": 25.0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
-            "done": true
-          },
-          {
-            "text": "Missing Build Photos",
-            "done": false
-          },
-          {
-            "text": "Missing Polarity Label",
-            "done": true
-          },
-          {
-            "text": "Incorrect Contactor Orientation",
-            "done": true
-          },
-          {
-            "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: Fast charging needs to be tested.",
-            "done": false
-          },
-          {
-            "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
-            "done": false
-          },
-          {
-            "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
-            "done": false
-          },
-          {
-            "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.",
-            "done": false
-          },
-          {
-            "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.",
-            "done": false
-          }
-        ],
-        "total": 12,
-        "done": 4,
-        "open": 8
-      }
-    },
-    {
       "owner": "Wilson",
       "year": 1969,
       "color": "Dark Blue",
@@ -1695,7 +1695,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-11T19:47:17.641430+00:00",
+  "updated": "2026-08-11T21:30:32.970606+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-11T19:45:52Z"
+  "generated_at": "2026-08-11T21:29:37Z"
 }
