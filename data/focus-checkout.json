@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T14:33:16.540454Z",
+  "updated_at": "2026-08-11T15:40:18.498853Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -189,7 +189,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 4
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -230,6 +230,52 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868kpyf6y",
+              "name": "R&R battery boxes",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kpyf6y",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "83ee4832e7032148212b866b55febb2d66bef71fe765b4faa8332bb8ee21a32c"
+            },
+            {
+              "id": "868knpamj",
+              "name": "Troubleshoot voltage issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868knpamj",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "This is also certainly a contributing factor to the anomalous temperature readings we were getting on these boxes. (We took this box apart a few weeks ago to investigate the thermistors)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Diagnosis on Preheim voltage drop issue:\n\nBox 2 (590 D4) pulled.\nTested our cheap miliohmeter on the MEB_S3 and misc. busbars.\nThe tool: I'm not 100% convinced on the absolute values, which seem higher than should be expected even in a 'perfect' scenario... I think we can chalk that up to the quality of the leads. This Amazon special is like $130 total... Hioki leads by themselves are $250-$750.The tool itself is solid. Consistent, reliable readings, maintains it's 'zero' point, you can re-test the same connection after testing a few others and the value is accurate to the uOhm. So these values are useful compared to themselves, not to what we actually expect if we were measuring with a $2000 meter.\n\nWhat I found is that there was a lack of contact at all three of the 'lateral' busbars (going from side-to-side on a module).\n\nYou can see this in the NOOXID pattern on the busbars. The module connections which had the worst values had the smallest area of NOOXID compression.\n\nThis is primarily due to insufficient material cut out of the protective housing on the 590s.\u00a0 This caused the plastic to be .5mm-1.5mm proud of the terminal, causing the busbar to not make full contact. You could also see a small amount of plastic being smashed between the busbar and the terminal.\n\nA secondary cause was excessive insulation on the busbars, which interfered with the plastic housing.\n\nIt wasn't pretty, but I was able to trim down the excess plastic using fine snips to where no further material was proud. I also trimmed back the insulation where necessary. This would be much more easily accomplished prior to installation.\n\nMeasurements were taken from internal-module-busbar directly adjacent to the desired joint to be measured. Meter was zerod to this value to reduce discrepancies relating to mating surface."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Troubleshoot voltage issue \u2014 work performed August 10, 2026\nI set up the Vici VC480C+ micro-ohmmeter on the 20 m\u03a9 range and verified its zero behavior by re-zeroing on a terminal-to-terminal placement and re-measuring each joint. Implied offset was 0.69 / 0.73 / 0.68 m\u03a9 across spans of 1.19\u20131.92 m\u03a9, with no relationship to reading magnitude. Repeatability is \u00b10.025 m\u03a9. All readings below are terminal-zeroed.\nI measured all three module-to-module busbar joints in Box 2 over two passes. As found: 1-to-2 at 1.23 m\u03a9, 2-to-3 at 0.46 m\u03a9, 3-to-4 at 0.72 m\u03a9. Ranking held across both passes.\nI pulled the 1-to-2 and 3-to-4 busbars. The NO-OX-ID witness pattern showed partial compression on both. The orange terminal housing on the LYTH VDA590 sits up to 1.7 mm proud of the terminal face and was visibly crushed between busbar and terminal.\nI trimmed the housing, applied NO-OX-ID and reinstalled each joint. On 3-to-4 I also found HV insulation fouling the joint face and removed it. 2-to-3 needed the housing cut down but no insulation trim.\nResults\n\nundefined\n3-to-4 read 0.56 m\u03a9 reinstalled dry, before insulation removal and NO-OX-ID.\nDocumented with 72 photos."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:27",
+                  "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a0237314074a826648d487c175672859572b9dc98341a98bb8a700dcd62a8543"
             }
           ]
         },
@@ -371,42 +417,6 @@
               ],
               "checklist_items": [],
               "content_hash": "4c97c6b36e4b4f120fc84de54eff34e07bc17c16cf4348df83c4000f25023496"
-            }
-          ]
-        },
-        {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868knpamj",
-              "name": "Troubleshoot voltage issue",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868knpamj",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "This is also certainly a contributing factor to the anomalous temperature readings we were getting on these boxes. (We took this box apart a few weeks ago to investigate the thermistors)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "Diagnosis on Preheim voltage drop issue:\n\nBox 2 (590 D4) pulled.\nTested our cheap miliohmeter on the MEB_S3 and misc. busbars.\nThe tool: I'm not 100% convinced on the absolute values, which seem higher than should be expected even in a 'perfect' scenario... I think we can chalk that up to the quality of the leads. This Amazon special is like $130 total... Hioki leads by themselves are $250-$750.The tool itself is solid. Consistent, reliable readings, maintains it's 'zero' point, you can re-test the same connection after testing a few others and the value is accurate to the uOhm. So these values are useful compared to themselves, not to what we actually expect if we were measuring with a $2000 meter.\n\nWhat I found is that there was a lack of contact at all three of the 'lateral' busbars (going from side-to-side on a module).\n\nYou can see this in the NOOXID pattern on the busbars. The module connections which had the worst values had the smallest area of NOOXID compression.\n\nThis is primarily due to insufficient material cut out of the protective housing on the 590s.\u00a0 This caused the plastic to be .5mm-1.5mm proud of the terminal, causing the busbar to not make full contact. You could also see a small amount of plastic being smashed between the busbar and the terminal.\n\nA secondary cause was excessive insulation on the busbars, which interfered with the plastic housing.\n\nIt wasn't pretty, but I was able to trim down the excess plastic using fine snips to where no further material was proud. I also trimmed back the insulation where necessary. This would be much more easily accomplished prior to installation.\n\nMeasurements were taken from internal-module-busbar directly adjacent to the desired joint to be measured. Meter was zerod to this value to reduce discrepancies relating to mating surface."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "Troubleshoot voltage issue \u2014 work performed August 10, 2026\nI set up the Vici VC480C+ micro-ohmmeter on the 20 m\u03a9 range and verified its zero behavior by re-zeroing on a terminal-to-terminal placement and re-measuring each joint. Implied offset was 0.69 / 0.73 / 0.68 m\u03a9 across spans of 1.19\u20131.92 m\u03a9, with no relationship to reading magnitude. Repeatability is \u00b10.025 m\u03a9. All readings below are terminal-zeroed.\nI measured all three module-to-module busbar joints in Box 2 over two passes. As found: 1-to-2 at 1.23 m\u03a9, 2-to-3 at 0.46 m\u03a9, 3-to-4 at 0.72 m\u03a9. Ranking held across both passes.\nI pulled the 1-to-2 and 3-to-4 busbars. The NO-OX-ID witness pattern showed partial compression on both. The orange terminal housing on the LYTH VDA590 sits up to 1.7 mm proud of the terminal face and was visibly crushed between busbar and terminal.\nI trimmed the housing, applied NO-OX-ID and reinstalled each joint. On 3-to-4 I also found HV insulation fouling the joint face and removed it. 2-to-3 needed the housing cut down but no insulation trim.\nResults\n\nundefined\n3-to-4 read 0.56 m\u03a9 reinstalled dry, before insulation removal and NO-OX-ID.\nDocumented with 72 photos."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:27",
-                  "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a0237314074a826648d487c175672859572b9dc98341a98bb8a700dcd62a8543"
             }
           ]
         }
@@ -1813,5 +1823,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-11T14:31:48Z"
+  "generated_at": "2026-08-11T15:38:41Z"
 }
