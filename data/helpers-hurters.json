@@ -54,7 +54,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 49.0,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -115,20 +115,20 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 28.8,
-      "pct_of_total": 6.3,
+      "total_hours": 31.0,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 8.2
+          "hours": 9.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 7.0
         },
         {
           "task": "Battery Pack",
           "hours": 6.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.2
         },
         {
           "task": "Audio",
@@ -286,7 +286,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 10.8,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Interior",
@@ -308,20 +308,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 69.2,
+    "total_hours": 69.8,
     "pct_of_total": 15.2,
-    "avg_per_person_per_day": 1.08,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
     "working_days": 8,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
+        "label": "Shop Meetings",
         "hours": 26.2
       },
       {
-        "label": "Shop Meetings",
-        "hours": 25.8
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 26.2
       },
       {
         "label": "Personal Meetings",
@@ -345,7 +345,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 33.5,
-      "pct_of_total": 7.4,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -443,10 +443,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 288.8,
-    "non_billable_hours": 166.5,
+    "billable_hours": 291.0,
+    "non_billable_hours": 167.0,
     "pto_hours": 8.0,
-    "total_hours": 455.2
+    "total_hours": 458.0
   },
-  "generated_at": "2026-08-12T15:41:18Z"
+  "generated_at": "2026-08-12T16:37:08Z"
 }
