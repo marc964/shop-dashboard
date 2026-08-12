@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T23:13:19.838753Z",
+  "updated_at": "2026-08-12T00:02:58.267674Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -201,9 +201,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kpyf6y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:29",
+                  "text": "Removed hood.\nRemoved front battery box for rework."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83ee4832e7032148212b866b55febb2d66bef71fe765b4faa8332bb8ee21a32c"
+              "content_hash": "f281b0b826e85f4dc28a52cbb49f0fd6f0a1aef9340acc2ba32fb28a9ddbb05a"
             },
             {
               "id": "868knpamj",
@@ -231,10 +237,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-10 22:27",
                   "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:31",
+                  "text": "Removed shell from front box.\nNote: Shell is glued on, not o-ring. Difficult to remove shells, needed to be worked off with plastic chisel without damaging powdercoat.\nRemoved A-plate\nInspected joints. Issue present.\nCrushed wire on MSD amphenol needs replacement."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a0237314074a826648d487c175672859572b9dc98341a98bb8a700dcd62a8543"
+              "content_hash": "abad8f210bbd2f76f7c96271bde63b7916e5a438ed570202864fdf1df8391a78"
             }
           ]
         },
@@ -1136,9 +1147,20 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kq38dz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:34",
+                  "text": "IMG_5314.jpg\nIMG_5316.jpg\nIMG_5317.jpg\nIMG_5318.jpg\nIMG_5319.jpg\nIMG_5320.jpg\nIMG_5321.jpg\nIMG_5322.jpg\nIMG_5323.jpg\nIMG_5324.jpg\nIMG_5325.jpg\nIMG_8469-scaled-14355.webp\nIMG_5315.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:34",
+                  "text": "Austin vee dub - No answer\nMotormania - They don't know who could do that sort of work, but recommended calling a Jim's Top Shop\nJim's top shop - Recommended possibly Texas Auto Tops\nTexas Auto Tops - They asked for some photos. Emailed for quote.\nEmailed Austin vee dub\nSent information to Ryan to ask Colvin's\nGot information for David G - he sent photos of other 'bow' headliners he's done.\nGot parts list for David G."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "59732d4b9948b960d87a339e4a4984a7398330244c01b8163c5a64e12e13de90"
+              "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
             },
             {
               "id": "868k7em0v",
@@ -1822,5 +1844,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-11T23:11:57Z"
+  "generated_at": "2026-08-12T00:00:37Z"
 }
