@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T18:39:58.178041Z",
+  "updated_at": "2026-08-12T19:50:06.983594Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1582,10 +1582,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-05-22 03:51",
                   "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-12 18:45",
+                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "23b9af3e50f959c2ebd004f61b2cba0dc841669cef7ec47b584e1c9f0cfd92ea"
+              "content_hash": "186062091ab8b1ec44908f9d95e3d9de7e2493e9c95e5c9b8d0d4f15b3ec8beb"
             }
           ]
         },
@@ -1894,5 +1899,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-12T18:38:21Z"
+  "generated_at": "2026-08-12T19:48:26Z"
 }
