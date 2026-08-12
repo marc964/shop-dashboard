@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T16:38:44.637807Z",
+  "updated_at": "2026-08-12T17:44:22.631510Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1520,9 +1520,34 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 3
+        "open_tasks": 5
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868kqgqv9",
+              "name": "Consolidate battery terminals",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kqgqv9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8cc8cffed334389518ac9662a33d0d50801476ce341977aaa9f2af9bd14b7ad7"
+            },
+            {
+              "id": "868kqgqam",
+              "name": "Install license plate",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kqgqam",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "6f1f9b138f73512b994364b5ea8eadfc85e3ab95521ca46ead958a97e4e545bf"
+            }
+          ]
+        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -1869,5 +1894,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-12T16:37:08Z"
+  "generated_at": "2026-08-12T17:42:44Z"
 }
