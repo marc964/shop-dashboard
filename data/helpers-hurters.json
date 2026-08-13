@@ -266,8 +266,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 15.0,
-      "pct_of_total": 2.7,
+      "total_hours": 16.0,
+      "pct_of_total": 2.9,
       "tasks": [
         {
           "task": "Inspection",
@@ -278,16 +278,20 @@
           "hours": 4.0
         },
         {
-          "task": "HVAC",
-          "hours": 2.0
+          "task": "Audio",
+          "hours": 2.5
         },
         {
-          "task": "Audio",
+          "task": "HVAC",
           "hours": 2.0
         },
         {
           "task": "Manufacturing - Product",
           "hours": 1.5
+        },
+        {
+          "task": "Steering",
+          "hours": 0.5
         }
       ]
     },
@@ -317,7 +321,7 @@
   ],
   "shop_work": {
     "total_hours": 80.0,
-    "pct_of_total": 14.7,
+    "pct_of_total": 14.6,
     "avg_per_person_per_day": 1.11,
     "flagged": true,
     "tech_count": 8,
@@ -364,7 +368,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 17.8,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -451,10 +455,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 360.8,
+    "billable_hours": 361.8,
     "non_billable_hours": 185.2,
     "pto_hours": 12.0,
-    "total_hours": 546.0
+    "total_hours": 547.0
   },
-  "generated_at": "2026-08-13T20:03:42Z"
+  "generated_at": "2026-08-13T21:03:07Z"
 }
