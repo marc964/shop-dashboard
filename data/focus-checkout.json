@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T23:04:17.845206Z",
+  "updated_at": "2026-08-13T23:59:40.412412Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -206,10 +206,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-11 23:29",
                   "text": "Removed hood.\nRemoved front battery box for rework."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:13",
+                  "text": "Flipped, lifted and dropped front battery box into position for install."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f281b0b826e85f4dc28a52cbb49f0fd6f0a1aef9340acc2ba32fb28a9ddbb05a"
+              "content_hash": "f7446199dfe8434d3178e4b1de80b484cec9a379c576fe7235c2afea9b512e00"
             },
             {
               "id": "868knpamj",
@@ -252,10 +257,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-12 23:40",
                   "text": "Disassembled module havlves and busbar assemblies. Measured each busbar span before removal. Measured after rework. Experimented. Resistance values significantly dropped after flipping busbar / block assemblies, due to some 'bowing' present after torquing. High torque also very useful for getting lowest resistance value."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:12",
+                  "text": "Finalized and sealed battery box.\nRepaired damaged wiring.\nNote: Excessive time due to box being sealed with silicone, not rubber o-ring. Had to clean before reinstall."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "586452a6ff6b30fa16434c40191b2e86a5f75545f6d9309d36f244f586b31e77"
+              "content_hash": "af09ca0413005fd1a7c79d5d2c42185c333e53a093398a062de32ed44e08ec1e"
             }
           ]
         },
@@ -1308,10 +1318,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-06 22:56",
                   "text": "Ordered new spacers - slight rub on lock.\nOrdered new shocks. Volvo 240 rear shocks should fit. Ordered from Summit racing.\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:10",
+                  "text": "Installed new shocks and 1/2\" spacers.\nTest drove.\nShocks possibly too stiff\nScraping on full RH lock reduced, not eliminated."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d0330e3af7fb9a8feae9209f0571e97161fdd15c08c23f156067f5824aab968d"
+              "content_hash": "8270f187b6d7d1fe984cd17c30eab6ec0bdd0e2923e7ba89e6a4f6536ca06ac8"
             },
             {
               "id": "868kq38dz",
@@ -2087,5 +2102,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-13T23:02:43Z"
+  "generated_at": "2026-08-13T23:58:21Z"
 }
