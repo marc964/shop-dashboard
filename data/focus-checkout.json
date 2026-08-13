@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T04:31:11.905535Z",
+  "updated_at": "2026-08-13T06:02:40.669841Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1567,40 +1567,9 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868g9vwju",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-07 23:41",
-                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 03:09",
-                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 22:21",
-                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-15 21:03",
-                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-22 03:51",
-                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-12 18:45",
-                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "186062091ab8b1ec44908f9d95e3d9de7e2493e9c95e5c9b8d0d4f15b3ec8beb"
+              "content_hash": "8c861e3259df30b88d1f544245bdd606cf5731d102a22092ed006e224d4803ff"
             }
           ]
         },
@@ -1691,120 +1660,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868eqndhd",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-14 02:15",
-                  "text": "Started on checkout list. Checked off easy things like the BMS related items. Those were all looked at last month. Upgraded the VCU firmware, Cleared faults most came back. Checked inverter settings and made backups. Checked other various easy items like pedal, brakes, and PRND."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-15 21:52",
-                  "text": "Started working on alarm reduction. Checked current status on Raptor. Also tried out OBDII scanner made by PEAK. Tried several ways to get the GUI updated and set as default, not working like the other vehicles for some reason. Put in a ticket with Ampere. Also discovered an interesting bug that resulted in the parking brakes getting stuck in the opening state when plugging in the charger. Also added to an Ampere ticket."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-16 21:39",
-                  "text": "Continued work to eliminate faults in the diagnostic buffer. Inverted direction for IVT current. Range still showing -400 miles, put in a ticket with Ampere. Updated dash with Lawson on the phone, after several key cycles default app no longer selected, put in a ticket with Ampere. DCDC faults came back, another ticket. Weighed vehicle, noted tire size, etc. Ran through checkout sheet again checking off boxes for charging and vehicle specs."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-17 21:02",
-                  "text": "Checked GUI firmware versions and responded to ticket. Checked in on status of other items, all are acknowledged by Ampere but not yet resolved. Checked AC and heater with Billy."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-18 21:27",
-                  "text": "Continued follow up on Ampere Tickets. Installed new FW with lash control. Trouble shot not going into gear. Un installed then re installed new FW."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-21 21:14",
-                  "text": "Checked Raptor for a way to turn on all fans to help with AC tuning. Nothing found as a permanent solution. Temporarily forced on all fans. Put in ticket with Ampere to add in that feature."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-23 22:55",
-                  "text": "Updated GUI firmware with Laswon. Troubleshooting brakes with team. Verified PMU settings."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-24 21:46",
-                  "text": "Hooked up to Raptor-Service and checked the AC pressure under various AC settings. Watched AC compressor pressures for a few cycles to verify pressure. 1200 kPa looks fine, got alarm again driving with Billy. Updated Ampere ticket. Checked inverter settings, disabled self sense."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-07-25 23:40",
-                  "text": "Continued troubleshooting AC with Billy."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-01 21:54",
-                  "text": "Checked AC pressure with Noah & Aharon using Raptor-Service. Checked item off checklist, reviewed other faults. None seem to be popping up currently. Will continue to monitor."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-06 22:38",
-                  "text": "Tested delaying AC fans to 1500kPa, compressor still kicking off with over current fault. Put in ticket with Ampere to update them on findings."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-22 02:43",
-                  "text": "Used Raptor-Service to monitor AC pressures while Billy verified with the gauges. Took a video and discussed with Marc."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-22 21:47",
-                  "text": "Looked up specs of sensor and verified pinout with Alex docs and Ampere docs. Checked pressure readings of sensor installed on Shah Mustang as well as used that VCU to get a second data point on the spare sensor we tested yesterday. Consolidated all data collected and continued verifying pinouts, wiring, configs, etc."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-25 21:21",
-                  "text": "Continued following my theory about pressure sensor wiring. Tested and proved that, corrected wiring in both Shah and Kelly. Pressures now match the analog gauges but compressor still faults out. Discussion with team."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-08-26 23:05",
-                  "text": "Re-checked wiring with Aharon, monitored Raptor service to correlate new pressure values with analog gauges."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-04-29 21:37",
-                  "text": "Verified gamma EEPROM setting was correct. Made backup of EEPROM and transferred everything to the checkout sheet. Compared EEPROM profile to the stock symbols file to verify correct settings were input."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-04-29 22:19",
-                  "text": "multiple test drives and log reporting. set car up for gamma adjustment. wipe down after wet drive"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-01 01:43",
-                  "text": "Updated ticket with Ampere about new testing data available with the correct motor. Reviewed response and collected information to send to Cascadia. Drafted and finalized email then sent off. Ran through the entire checkout sheet from top to bottom and added items to the formatted punch list. Posted for team."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-09 22:29",
-                  "text": "test drives and data logging."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-10 22:20",
-                  "text": "Organized and reviewed all the road testing data from yesterday. Downloaded most up to date Cascadia documentation and looked for any updates to describe the use of various EEPROM setting not mentioned in previous documentation. Still didn't find documentation. Reviewed email recap and testing procedure, added in questions. Sent off to Cascadia. Repeated six trials with the CAN logger, still need to fully analyze this data."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-10 22:20",
-                  "text": "Grabbed up to date backup from Kelly's invverter. Compared Kelly, Lee, Ampere Default, and Moment Default EEPROM settings. Built corrected CM350 default EEPROM file, went online with Kelly and loaded this. Read through Cascadia email chain to get full test procedure picture, took re-cap notes to share with the team due to the short hiatus. Verified many of the EEPROM paramaters discussed in the thread not listed in any current documentation. Ran a good number of road trials with Aharon collecting inverter diag data under various EEPROM settings."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-06-11 01:49",
-                  "text": "Additional log analysis."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "d9124b0ab080a007f1a2e3c198f48b4a7e338e73d23242dd04edfb96edfdc1e4"
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             },
             {
               "id": "868k2w1bc",
@@ -1812,15 +1670,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w1bc",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-06-18 21:33",
-                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
+              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
             }
           ]
         },
@@ -1848,15 +1700,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-07-27 21:26",
-                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
+              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
             }
           ]
         },
@@ -1869,25 +1715,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kmpy5w",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-10 22:47",
-                  "text": "Built new motor sub harness for this vehicle. This harness uses our new standard for resolver wiring and shortened the resolver length by 10 inches to help with signal strength."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-10 22:48",
-                  "text": "Will need to label and install with remaining time."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-11 16:25",
-                  "text": "Labeled and Installed Motor Sub harness.\nVehicle ready for test drive.\nNotified slack channel."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ac254a9aa922b8f25ca68ae1a1e7395b2b3aaf18c32d55072d895662c4d61db4"
+              "content_hash": "c7518b9324d5976b492dd4c96a99be0da01c8401c36d7949d95f358fec122667"
             }
           ]
         },
@@ -1909,5 +1739,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-13T04:29:40Z"
+  "generated_at": "2026-08-13T06:00:38Z"
 }
