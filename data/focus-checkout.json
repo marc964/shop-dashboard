@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T22:04:29.901490Z",
+  "updated_at": "2026-08-13T23:04:17.845206Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1599,10 +1599,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-05 23:03",
                   "text": "Reviewed and further organized SDU / LDU EEPROM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-13 22:16",
+                  "text": "Flashed VCU firmware VCM_516_Beta010813_SDU_Persist (same build number by accident) and went through the readme for what options to change and what trials to test. Couldn't find the tuning guide and stopped there. Posted to Slack."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b5350c3c5dcda997b6cdf4de2e9c315d32e8435ee2a74fa831af3b05b04ab024"
+              "content_hash": "baf991dc09d5d09020d2a5d1f23a0efa30b5ceaa7610278e5d21b41d4401501b"
             }
           ]
         }
@@ -2082,5 +2087,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-13T22:02:51Z"
+  "generated_at": "2026-08-13T23:02:43Z"
 }

@@ -170,8 +170,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 27.8,
-      "pct_of_total": 5.0,
+      "total_hours": 28.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -188,6 +188,10 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 2.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.5
         }
       ]
     },
@@ -302,7 +306,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 12.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Interior",
@@ -324,20 +328,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 80.5,
-    "pct_of_total": 14.5,
-    "avg_per_person_per_day": 1.12,
+    "total_hours": 81.5,
+    "pct_of_total": 14.7,
+    "avg_per_person_per_day": 1.13,
     "flagged": true,
     "tech_count": 8,
     "working_days": 9,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 32.5
+        "hours": 33.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 30.0
+        "hours": 30.5
       },
       {
         "label": "Personal Meetings",
@@ -459,10 +463,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 368.8,
-    "non_billable_hours": 185.8,
+    "billable_hours": 369.2,
+    "non_billable_hours": 186.8,
     "pto_hours": 12.0,
-    "total_hours": 554.5
+    "total_hours": 556.0
   },
-  "generated_at": "2026-08-13T22:02:51Z"
+  "generated_at": "2026-08-13T23:02:43Z"
 }
