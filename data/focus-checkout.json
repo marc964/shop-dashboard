@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T21:04:38.967520Z",
+  "updated_at": "2026-08-13T22:04:29.901490Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -695,9 +695,198 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868exjqjc",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868exjqjc",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:17",
+                  "text": "Issues:\nVery small brake fluid leak from the brake switch sensor. Brake sensor is functional but you have to get very deep into the pedal for it to engage. Might warrant replacement (did not come with new booster). There was no seal on the original I took off, but perhaps there should be one. Will get one.\nVacuum is bleeding out of the booster, causing the pump to cycle on approximately every 45 seconds.\u00a0 If the vacuum line is plugged before the booster it holds vacuum perfectly. With the booster installed there is a slow leak. I tightened all the hardware and the leak decreased significantly but is still present. Reaching out to the rebuilder for his advice.\nGUI speedo is about 50% slow.\nPeterson instrumentation not showing any values.\nSpeaker interference noise, both from power steering input and throttle application.\nSteering wheel is not centered.\nFront left drum seems like it may be sticking.\nEstop non-functional (see above)\nHeater not functional (will come online with PMUs)\nPRD dimming/lighting non-functional.\nPowertrain coolant loop is cavitating. I think it needs another vacuum bleed after the coolant leak."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:17",
+                  "text": "Re-installed interior, with 'external' PRD buttons so we can troubleshoot the PRD dimming issue.\nPut vehicle back on ground.\nInstalled a port for vacuum-testing the brake booster system.\n23 in/hg achieved. When vacuum drops to 18in/hg the pump kicks back on.\nCycling every 15 seconds.\nWith the booster removed from the system, and the line going to the booster plugged, no leakage was detected. 23in/hg steady.\nWith the booster installed, leakage continues.\nTightened all external hardware. Leakage reduced. Cycling every 40 seconds now.\nTest-drove for the first time. Noticed scraping from rear of vehicle.\nAfter diagnosis, discovered the new pins that came with the brake kit had holes that were 3mm too long, allowing the shoe  to contact the drum. Found the original pins and reinstalled. Issue resolved.\nE-stop was disabled by @Devin DuMont during the brake diagnosis, however during that process it appears the e-stop was toasted, possibly by receiving a constant run signal. E-stop no longer functional. Checked vehicle-side, voltages as expected. Attempted to apply voltage to e-stop side: no movement. New e-stop required.\nTest-drove some more. Notes below:"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-09-12 21:51",
+                  "text": "Finished EEPROM Compare and reviewed with Marc. Verified settings correct in Connolly. Plugged in ChargeByte controller and tested charging. Looked around for logger. Started consolidating logger information. Tested PRND LED's on bench."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-12 23:30",
+                  "text": "Tested different resistances on PRD buttons. Currently 2K installed.\nWith 2K - LEDs completely off\nWith 0K (disconnected) - All LEDs completely on\n5K - dim, very slight difference between 'selected' and non-selected.\n10K - mostly bright, slight difference between selected and non-selected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-13 22:27",
+                  "text": "Fully ran through the new PDM checkout process as best possible, will need to rework. Diag for the speedo and CAN1 errors. Will need to investigate further."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-15 21:35",
+                  "text": "Followed along with new checkout system for various PMU channels. Also reviewed inverter EEPROM and corrected where necessary. Still need to calibrate the resolver. Troubleshot major CAN1 error and opened up a ticket with Ampere. Tuned parking brakes down to shorter times. Continued improving Raptor-Service tabs. Moved checkout status from 22% to 66%"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-16 22:45",
+                  "text": "Attempted to calibrate resolver but the inverter kept dropping the RS-232 connection when going into PWM mode. Had a spare inverter installed and flashed to the latest firmware. Combed over all EEPROM settings and now getting a CAN command message timeout error. Error message can be disabled in the inverter but the inverter is still not sending messages back out or they are getting lost before making it to the VCU and Kvaser. Started troubleshooting CAN basics again."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-18 02:33",
+                  "text": "Continued diag on inverter related issue. Used bench test harness with adaptor to narrow the issue down to the inverter sub harness. Broken wires found on removal."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-20 21:28",
+                  "text": "Re-tested for the inverter CAN issue. All fixed. Calibrated resolver and updated sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-21 23:23",
+                  "text": "Verified old inverter serial no. 59 had all the correct EEPROM setting and that the noise problem still exists. It does, that inverter needs to be returned."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-22 22:38",
+                  "text": "Checked all EEPROM settings of the new inverter to verify correct. Didn't initially have the CAN1 errors but started getting them again later in the day. Had Ampere turn on error frame logging to get more information on the issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-23 22:07",
+                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-25 00:21",
+                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-28 22:16",
+                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-31 16:27",
+                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-06 01:06",
+                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 00:48",
+                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:43",
+                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:08",
+                  "text": "Met with team over strategy. Followed along with diag over the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-05 21:30",
+                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test temp gauge functionality",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f8381248cf8683d9a6fedfe4b4e602253c8dfd2f29c302de2c9623852642be32"
+            },
+            {
+              "id": "868k0je6t",
+              "name": "Update EEPROM",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0je6t",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-22 23:08",
+                  "text": "test drive"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 02:39",
+                  "text": "long test drive, notes, and updates"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on shutter comp",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on self sense assist",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
+            }
+          ]
+        },
         {
           "name": "Jordan Jones",
           "tasks": [
@@ -872,43 +1061,6 @@
               ],
               "checklist_items": [],
               "content_hash": "ca20dd258b2b40853c7ea12e36ab8c3cea3154dc86eef3a641d3a2109ec2b2a5"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868k0je6t",
-              "name": "Update EEPROM",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868k0je6t",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-22 23:08",
-                  "text": "test drive"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 02:39",
-                  "text": "long test drive, notes, and updates"
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Turn on shutter comp",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Turn on self sense assist",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
             }
           ]
         }
@@ -1599,8 +1751,29 @@
                   "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
                 }
               ],
-              "checklist_items": [],
-              "content_hash": "186062091ab8b1ec44908f9d95e3d9de7e2493e9c95e5c9b8d0d4f15b3ec8beb"
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Charge pack to 390V for at least 6-7 hours",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Confirm vehicle weight and gearing is correct",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "bfa42934bea3e3d0dc36daa761f35fdb7d3ec4ae694136da44138a7c8b1b0efa"
             }
           ]
         },
@@ -1909,5 +2082,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-13T21:03:07Z"
+  "generated_at": "2026-08-13T22:02:51Z"
 }
