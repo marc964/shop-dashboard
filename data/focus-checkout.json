@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T21:50:59.987426Z",
+  "updated_at": "2026-08-14T22:24:07.999008Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1488,9 +1488,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             }
           ]
         },
@@ -1548,5 +1554,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T21:49:34Z"
+  "generated_at": "2026-08-14T22:22:39Z"
 }
