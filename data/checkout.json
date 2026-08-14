@@ -1234,7 +1234,7 @@
       "make": "Chevrolet",
       "model": "Corvette",
       "status": "Startup",
-      "checkout": 24.7,
+      "checkout": 39.4,
       "sub_metrics": [
         {
           "label": "BMS",
@@ -1242,7 +1242,7 @@
         },
         {
           "label": "Inverter",
-          "value": 3.7
+          "value": 91.7
         },
         {
           "label": "PMU",
@@ -1699,7 +1699,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-14T20:06:05.855719+00:00",
+  "updated": "2026-08-14T20:46:14.162355+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-14T20:05:02Z"
+  "generated_at": "2026-08-14T20:45:18Z"
 }

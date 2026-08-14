@@ -230,7 +230,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 28.2,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -487,10 +487,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 407.5,
+    "billable_hours": 408.5,
     "non_billable_hours": 199.5,
     "pto_hours": 12.0,
-    "total_hours": 607.0
+    "total_hours": 608.0
   },
-  "generated_at": "2026-08-14T20:05:02Z"
+  "generated_at": "2026-08-14T20:45:18Z"
 }
