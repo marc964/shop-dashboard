@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T21:26:10.591112Z",
+  "updated_at": "2026-08-14T21:50:59.987426Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -501,7 +501,7 @@
           "tasks": [
             {
               "id": "868exjqjc",
-              "name": "Start up vehicle",
+              "name": "Checkout vehicle",
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868exjqjc",
@@ -654,7 +654,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "c509ea474ce061b6f32207f06b8ffb2062e8fffa1ed7edc546ea9fe525d40b31"
+              "content_hash": "6042480760f12e33cffd779e8517f12cb159b60ed1906d9e623c15cc2505bd73"
             },
             {
               "id": "868k0je6t",
@@ -1191,9 +1191,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868krf5h0",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed torque doc and amps doc. Ran trials requested by Andrew. Developed tune and re-tested. Wrote up time and observations and posted to Slack."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "4f9f55d1f813650cf17b53a2bde0b2ac70ca86bff1ed39d378f57715cdf135b8"
             }
           ]
         }
@@ -1306,7 +1312,7 @@
           "tasks": [
             {
               "id": "868g9vwju",
-              "name": "Start up Vehicle",
+              "name": "Checkout Vehicle",
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868g9vwju",
@@ -1369,7 +1375,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "e6bb9e88d553c3abd6861fd5a441465847e7dc9fbbc1ef726fa872738053a04a"
+              "content_hash": "0120b583ac4671092342ab58acc6e3654e8b5db14f3b03ed094e1daba2808af8"
             }
           ]
         }
@@ -1461,9 +1467,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "38742cd0f467e0ddb4812b92a269fcc35718ea0f105e00b76a683ec7968f7af2"
             }
           ]
         },
@@ -1536,5 +1548,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T21:24:47Z"
+  "generated_at": "2026-08-14T21:49:34Z"
 }
