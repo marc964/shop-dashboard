@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T22:50:35.192445Z",
+  "updated_at": "2026-08-14T23:22:49.991068Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -206,10 +206,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-13 23:13",
                   "text": "Flipped, lifted and dropped front battery box into position for install."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:53",
+                  "text": "Installed box 2\nDifficulty lining up M8s - eventually got them all.\nInstalled VCU stack.\nReinstalled MSDs and HV , cooling\nReinstalled 12V.\nReinstalled hood.\nTest-drove, briefly. No issues.\n@Marc Davis to test drive and we will pull logs, see voltage drop across busbars."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f7446199dfe8434d3178e4b1de80b484cec9a379c576fe7235c2afea9b512e00"
+              "content_hash": "5b9a3975859f81629c710d2d90c5563a7c24adb102051dddc94ae3f57bd779c5"
             },
             {
               "id": "868knpamj",
@@ -257,10 +262,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-13 23:12",
                   "text": "Finalized and sealed battery box.\nRepaired damaged wiring.\nNote: Excessive time due to box being sealed with silicone, not rubber o-ring. Had to clean before reinstall."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:50",
+                  "text": "Compared IRL readings to CANbus readings.\nMagnitudes don't correlate exactly miliohmeter to CANbus measurement (I assume that as the metal heats up and expands the measured resistance values will change.) but otherwise pretty darn close. No surprises. I think we should see a marked decrease with the rework.\nScreenshot 2026-08-14 174007.png"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "af09ca0413005fd1a7c79d5d2c42185c333e53a093398a062de32ed44e08ec1e"
+              "content_hash": "b3e3304f782c6466eea63b284f74025cc6754965787000a0835d1e6d8b065892"
             }
           ]
         },
@@ -1554,5 +1564,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T22:49:21Z"
+  "generated_at": "2026-08-14T23:21:23Z"
 }
