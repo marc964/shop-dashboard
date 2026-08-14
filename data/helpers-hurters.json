@@ -100,8 +100,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 43.2,
-      "pct_of_total": 7.5,
+      "total_hours": 44.2,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -109,7 +109,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 11.5
+          "hours": 12.5
         },
         {
           "task": "Interior",
@@ -479,10 +479,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 381.2,
+    "billable_hours": 382.2,
     "non_billable_hours": 195.0,
     "pto_hours": 12.0,
-    "total_hours": 576.2
+    "total_hours": 577.2
   },
-  "generated_at": "2026-08-14T10:02:07Z"
+  "generated_at": "2026-08-14T11:07:44Z"
 }
