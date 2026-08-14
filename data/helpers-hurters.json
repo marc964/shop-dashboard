@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 63.2,
-      "pct_of_total": 10.8,
+      "total_hours": 69.2,
+      "pct_of_total": 11.6,
       "tasks": [
         {
           "task": "Charging",
@@ -11,7 +11,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 10.5
+          "hours": 11.5
         },
         {
           "task": "Wiring - High Voltage",
@@ -23,6 +23,10 @@
         },
         {
           "task": "Steering",
+          "hours": 5.0
+        },
+        {
+          "task": "Wiring - OEM",
           "hours": 3.5
         },
         {
@@ -66,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 61.0,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -101,7 +105,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 51.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -136,7 +140,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 39.2,
-      "pct_of_total": 6.7,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -179,7 +183,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 30.2,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -222,7 +226,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 28.2,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -344,16 +348,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 87.2,
-    "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.09,
+    "total_hours": 87.8,
+    "pct_of_total": 14.6,
+    "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
     "working_days": 10,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 36.5
+        "hours": 37.0
       },
       {
         "label": "Shop Meetings",
@@ -381,7 +385,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 33.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -425,7 +429,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 11.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -458,7 +462,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 0.9,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -479,10 +483,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 389.2,
-    "non_billable_hours": 197.5,
+    "billable_hours": 401.0,
+    "non_billable_hours": 198.0,
     "pto_hours": 12.0,
-    "total_hours": 586.8
+    "total_hours": 599.0
   },
-  "generated_at": "2026-08-14T18:26:53Z"
+  "generated_at": "2026-08-14T19:29:20Z"
 }
