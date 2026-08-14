@@ -157,6 +157,11 @@
               "summary": "Noah S out",
               "type": "pto",
               "all_day": true
+            },
+            {
+              "summary": "Bus Alignment",
+              "type": "shop",
+              "all_day": true
             }
           ]
         },
@@ -273,5 +278,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T17:28:16Z"
+  "generated_at": "2026-08-14T18:26:53Z"
 }

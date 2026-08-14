@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T17:29:46.906899Z",
+  "updated_at": "2026-08-14T18:28:26.594497Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -523,7 +523,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -721,179 +721,28 @@
           ]
         },
         {
-          "name": "Jordan Jones",
+          "name": "Billy Arrasmith",
           "tasks": [
             {
-              "id": "868karcam",
-              "name": "Replace front springs",
+              "id": "868k0jcn7",
+              "name": "Re-balance DS",
               "status": "Open",
               "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868karcam",
+              "url": "https://app.clickup.com/t/868k0jcn7",
               "comments": [
                 {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-09 21:59",
-                  "text": "Cross-referenced multiple websites to find correct springs for Connolly.\nMeasured - 25mm of rake on vehicle currently."
+                  "author": "Alex Noonan",
+                  "date": "2026-06-12 16:23",
+                  "text": "Colvin likely unbolted DS from diff during rear end repair work and it seems we need to rebalance DS as a result."
                 },
                 {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:30",
-                  "text": "Call/emailing Jelenik\nScreenshot 2026-07-10 182431.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-13 22:52",
-                  "text": "Order sent today"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-21 18:52",
-                  "text": "Parts in German customs - @Ryan Laurel working with vendor"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-05 17:57",
-                  "text": "Removed old springs.\nDiscovered significant buildup on lower arms. Chiseled, ceaned and painted inner surface to prevent rust / allow for proper spring seating.\nUnable to compress springs sufficiently with Dave's mercedes spring compressor. Designed a simple block to allow more coil compression.\nRemoved and installed springs.\nGreased all grease points in front of vehicle.\nAdditionally:\nFixed small coolant leak at reservoir.\nChecked over rear differential after recent work. Fluid level OK."
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-06 19:55",
+                  "text": "test drove the car\nfelt the vibration\njacked the car up\nremoved the wheels and brake drums\nspun the car up\nchecked for the vibration\nDS looked out\nmeasured the run out\nfound it to be 22 tho\nchecked runout at the CV\nit was 22 tho also\nfound that the Pinion adapter was not clocked the same\nremoved the bolts and re clocked it\nrunout is at 4 tho now\nstarted spinning it up again\nvibration was less than before\nstarted adding weight\nany weight added made vibrations worse\nchecked several places on the DS but no avail\nMarc suggested driving it while adjusting the weight rings\nmade several laps any weight made the vibrations more apparent\nremoved the weight and it feels better\nMarc drove and likes it\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/55b7a6d3-8d5d-4745-8bbb-294dd0e23296/IMG_1832.mov?view=open\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/4f9a175b-8341-4e77-9c86-6a85eb469d44/IMG_1831.mov?view=open"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a205ec620dcd72d6cce613b5210b98d1e1fa5fb62c7c40a7e14b73e78734518b"
-            },
-            {
-              "id": "868k0angv",
-              "name": "Troubleshoot vibration",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868k0angv",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-16 00:48",
-                  "text": "Colvin's provided replacement brake drum.\nScoured drum surface - prepped for installation.\nInstalled. Test drove.\nVibration much reduced from 50-60. Still some vibration around 40mph, according to @Billy Arrasmith this is a characteristic which we haven't been able to rectify.\nWill do further test-driving tomorrow. May be complete."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-16 17:51",
-                  "text": "I also feel like the front end vibration is much improved after replacing the broken brake drum and swapping wheels front to rear. The steering wheel is now pretty steady. The back seat feels slightly more vibey, I think it's one of the wheels slightly out of balance. May be worth having the tires rebalanced when we get the alignment done, but overall it's pretty good. There is still a little vibration at right around 40mph, @Billy Arrasmith indicated this is sort of known characteristic of the driveshafts and there's not much to do there. I'd like @Marc Davis and @Billy Arrasmith to give their blessing when they get back, but I feel we're good here."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:30",
-                  "text": "Marc Davis\u00a0\u00a0[12:34 PM]\n@channel OK, I drove it. Definitely still vibration, though. I used the vibration app on my phone on the floor of the car and found two peaks. One at 12Hz and one at 24Hz when I was driving at about 50 mph. These tires turn 870 revs per mile so, at 50mph, that's about 725rpm. 725rpm/60 seconds = 12Hz.\u00a0 If it were driveshaft vibration, it would be at 4.1x wheel speed which is 2972rpm and about 49.5Hz.\u00a0 So, I believe we are dealing with wheel vibration here\n\nLet's have our best shop re-balance these wheels @Ryan Laurel and, if it's still there, we can tell Pat that we can try to get a set of these but no guarantee that they'll be perfect either:\n\nwww.niemoeller.de/en/w180/w180/B010/26/c40004-disc-wheel-with-drop-centre-rim-5jx13 \n from our collective brain:\nThe two cursors land on two different things.\nCursor 1 at 11.8 Hz = 708 rpm. That's your wheel/tire rotation. At 50 mph and 870 rev/mile you computed 725 rpm = 12.1 Hz, so 11.8 Hz is dead-on (within speedometer/tire-circumference slop). This is first-order tire/wheel imbalance \u2014 a heavy spot or out-of-balance wheel hitting once per revolution. It shows up strongest on X (fore-aft) and Z, consistent with an imbalance/uniformity issue.\nCursor 2 at 23.7 Hz = 2\u00d7 the wheel frequency, the second harmonic. A peak at exactly twice rotation speed is the classic signature of tire/wheel non-uniformity \u2014 radial force variation, out-of-round, a flat spot, or a mounted-tire/rim runout that produces two bumps per revolution. It's the dominant peak in your X trace, which fits a radial uniformity problem felt as a fore-aft/vertical shake.\nSo what's going on: you've got a wheel-speed-order vibration. 1st order (11.8 Hz) points to imbalance, and a strong 2nd order (23.7 Hz) points to tire uniformity / out-of-round / runout. Both scale with vehicle speed, so the give-away test is to drive at a different speed \u2014 both peaks should slide proportionally (e.g., at 60 mph they'd move to ~14.2 and ~28.4 Hz). If they move with speed, it's rotational and not engine/driveline-fixed or structural resonance.\nA couple of things worth checking to confirm and narrow it down:\nThe smaller red bump near ~3 Hz (around 180 rpm) \u2014 too slow for the tire; could be a driveshaft or half-shaft order depending on your axle ratio, or body/suspension hop. Worth identifying since your build has a custom driveline.\nWhether the 23.7 Hz peak dominates over 11.8 Hz (it does here, in X) suggests the uniformity/out-of-round issue is the bigger contributor to what you feel than raw imbalance.\nPractical next step: road-force balance or at least a spin balance plus a runout check on the worst wheel. If balancing kills the 11.8 Hz but leaves 23.7 Hz, the tire itself (or the rim) has a uniformity defect and may need to be re-indexed on the rim or replaced.\n\nJordan Jones\u00a0\u00a0[12:56 PM]\nVery thoughtful analysis there, thanks for typing all that up 'Geoff'.\n\n@Ryan Laurel can you see if they have the ability to do a road-force balance (not just a regular balance)? If not, let's find somewhere that can.\n\ngeoff raynak\u00a0\u00a0[12:57 PM]\nwell ... i went deeper ... and told it \"this really only happens around 50mph\" ... and the answer is quite interesting (if true)\n\nHere's the distinction. Imbalance and uniformity peaks (your 11.8 and 23.7 Hz) are always present; their amplitude grows smoothly with speed and never has a \"sweet spot\" where it gets bad and then better. What you're describing \u2014 bad at 50, better on either side \u2014 means that at 50 mph, a rotational forcing frequency is lining up with the natural frequency of some part of the car, and that part is ringing.\nAt 50 mph your tire turns at 11.8 Hz (1st order) and the 2nd order sits at 23.7 Hz. One of those is almost certainly coinciding with a structural resonance:\n23.7 Hz is a very typical tire/suspension hop or wheel-hop resonance (unsprung mass on the tire/suspension spring rate usually lands in the 12\u201318 Hz range, but bushing-stiffened or heavier custom setups push higher). It's also right in the band for many driveshaft bending modes and subframe modes.\nThe fact that the 23.7 Hz peak is the dominant one in your X trace, and the symptom is speed-specific, strongly suggests the 2nd tire order is exciting a structure that resonates around there.\nSo the mechanism: the tire's 2nd-order force (from uniformity/out-of-round) is the exciter, and something on the car has a natural frequency near 23.7 Hz that amplifies it. Off 50 mph, the forcing frequency walks away from the resonance and the amplitude drops. That's why it's a 50 mph phenomenon and not a 40 or 60 phenomenon.\n\n[12:59 PM]\nand this was teh suggested \"test\"\nThe clean test is to decouple forcing frequency from road speed. Coast in neutral through 50 mph versus pull through 50 under power. If the vibration is identical either way, it's tire/wheel-driven (rules the engine and driveline torque path out as the source). If it changes, driveline is involved.\nMarc Davis\u00a0\u00a0[12:59 PM]\nTo add more to this, the car definitely exhibits the wheel hop at speeds above75-80mph. Tiny tires on old wheels"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:31",
-                  "text": "IMG_2022 (2).jpeg\nIMG_2021.jpeg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:52",
-                  "text": "Test drove after work performed. Feels not perfect, but better."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:54",
-                  "text": "After test drive and @Devin DuMont 's inverter/firmware flashing, GUI entered boot loop. Persisted for 20 minutes, plus through a 12V reset. An hour later I went to bring the vehicle in and issue was resolved.\n12V constant and MPR both read steady 13.8V.\nWaiting for further instruction / new task for this issue."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-25 02:06",
-                  "text": "Test drove Connolly... I was noticing a clicking at very low speeds, almost like something rattling around in the wheel cover? I pulled the covers when I got back and didn't see anything amiss, but now the noise is gone. Possibly one of the wheels covers not set right? Anyway keep an ear out for that.\n\nWhile I was walking around I noticed that they put some wheel weights on the outer lip, interfering with how the chrome trim sits against rim. The right rear is the worst with the two weights. My concerns are aesthetic (doesn't look great) and the fact that the chrome trim may fly off someday, though it feels pretty solid right now."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 22:14",
-                  "text": "@Alex Noonan @Billy Arrasmith\n\nFor the pulsing vibration... my gut feeling is there is a lot of added weight on the right rear tire... I still think road-force balancing is worth a shot... did a bunch of that at Tesla and it would reveal things a regular balance would not. The Hunter website lists all the Firestone locations as having the ability to Road Force balance. If Firestone doesn't want to touch a car this old I'm happy to put Connolly on jacks and pull the wheels off."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-01 20:50",
-                  "text": "Test drove after road-force balancing. Vibration still present. Harmonic pulse especially present between 40-45mph, coasting or decelleration.\nSwapped spare tire on. No change.\nPer @Billy Arrasmith, a vibration around this speed is inherent in these driveshafts and he has not been able to tune it out."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-02 01:25",
-                  "text": "@Marc Davis :\nMarc Davis\u00a0\u00a0[6:13 PM]\nNew vibration theory. The vibration has not gotten any better than before after the tire balancing and spare swapping. @Jordan Jones and I were brainstorming about when it appeared. It seemed to be after the second Colvin trip. @Devin DuMont - did you turn self sense assist on in this car? If so, when? I'm beginning to wonder if this is like the Corvette Lowe rpm \u201cgrowl\u201d we experienced when we turned it on in that car. This would be the only W motor we have turned on SSA in and maybe that is the culprit. This car, at 60, is spinning at about the same speed that the Corvette is at 30 so there's a chance this is related. Can we confirm the EEPROM tomorrow and test?"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-06 23:30",
-                  "text": "Assisted Dave in troubleshooting vibration issue (ran throttle pedal, held differential, supplied spare parts and instructions for rebuilding, etc...)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-06 23:31",
-                  "text": "New axles are possibly available from Germany (Niemoller lists as 'not in stock but may be ordered'), but cost is extreme (approx $7500 for the pair) Left Right.\n\nThere are used axles on ebay for a few hundred each, condition unknown. Left Right\n\nNew wheels are currently ~$200 per from Germany. Some photos they are painted black, some silver. Unclear of exact color."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-07 15:46",
-                  "text": "Meeting with @David Webber @Marc Davis to decide on plan for vibration troubleshooting. Test: Clocking of wheels. Moving worse wheels to the front.\nAssisted getting vehicle onto jackstands, preliminary testing.\nLugnut: 110 990 00 59\nTire OD: 24\""
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-07 19:20",
-                  "text": "Connolly 220S \u2014 vibration diagnosis (July 7)\nDiagnostic steps taken today:\nRe-measured vibration after roadforce balancing + re-clocking the wheels. The 2nd-order \"out-of-round wheel\" signature dropped ~75% (wheels were a real, now largely-fixed contributor), but a once-per-rev (1st-order) vibration remained and became dominant. Balancing can't touch that, so it points inboard to the hub/flange \u2014 matching Dave's damaged pass-rear flange reading .007\u2013.009\" lateral runout.\nCleared a separate scraping noise: cotter-pin wire diameter too small, letting the spring keeper rub inside the drum. Confirmed the flange damage was pre-existing (visible in earlier brake-work photos).\nJackstand test, driveline spun bare (no wheels/tires/drums, ~55\u201360 mph equiv): pulling the wheels + drums removed ~70% of total vibration (0.110 \u2192 0.031 g). Confirmed most of it lives at the wheel/tire/drum/flange interface, but exposed a smaller driveshaft 1st-order residual (~0.013 g) that wheel work won't fix.\nAxle isolation test, each rear axle spun alone (open diff, opposite side held): right axle threw a big once-per-rev shake (0.039 g) vs the left (0.002 g) \u2014 ~20x worse. A clean 1st order like that is the signature of a bent/eccentric right rear axle shaft or flange.\nFinal conclusion: the right rear axle is bent \u2014 that's the residual vibration source; the left axle is good. It's one axle, not the pair, so the ~$7,500 German set isn't needed. Plan: confirm with a dial indicator (right vs. left as reference), re-face the flange for brake-drum seating, and source/refurbish a used right axle. Next steps: order a 2nd-hand right axle plus wheel bearing, pull the RH axle and take both to a machine shop; if the old one measures true, the issue is deeper in the diff (possibly u-joint). Colvin's was called for input before pulling on-site.\nPurchases links you just posted:\nRight rear axle (eBay): www.ebay.com/itm/322206351454 \n \nU-joint example (eBay): www.ebay.com/itm/226568823977"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-07 19:21",
-                  "text": "image (28).png\nimage (27).png\nIMG_7862.jpg\nimage (26).png\nimage (25).png\nimage (24).png\nimage (22).png\nimage (23).png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-08 16:12",
-                  "text": "Per @Marc Davis, attempted a test at 'ride height' (Billy in the trunk).\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-08 16:14",
-                  "text": "@David Webber to investigate the u-joint."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-08 16:14",
-                  "text": "Angle from tube to case:\nRide height: 2.0-2.5 degrees (axle pointed up).\nAt jackstand level: ~6 degrees\n\nGot another vibration measurement at 60mph. Marc put into Claude. Results:\nU-joint / ride-height experiment \u2014 it split the problem in two\nRe-ran the right-axle jackstand test, but this time loaded the car so the swing-axle U-joint was straight (yesterday it was bent because unloaded).\nConfirmed \u2014 U-joint angle drives the 2nd-order vibration.\u00a0A Cardan joint at an angle makes a twice-per-rev shake. Straightening it dropped the 2nd-order component\u00a087%\u00a0(0.0083 \u2192 0.0011 g). So ride height genuinely matters \u2014 setting/holding correct static ride height removes a real chunk of vibration. Cheap win.\nBut the main defect is 1st-order and it did NOT move.\u00a0The right axle's once-per-rev shake stayed put (0.042 \u2192 0.035 g, within speed variation). A U-joint angle can't cause a 1st-order \u2014 that's a bent shaft / eccentric flange / imbalance. So the joint isn't the cause of the big one; it's mechanical, and it travels with the right axle.\nRoad implication worth noting:\u00a0on the road the U-joint's 2nd-order lands at ~29 Hz \u2014 the\u00a0same\u00a0frequency we've been calling \"out-of-round wheel.\" So part of that stubborn 28.6 Hz on the road was probably the U-joint running at an angle, which is why roadforce balancing never fully killed it. Fixing ride height should take another bite out of it.\nTwo separable issues on the right rear now:\n1.\u00a0U-joint operating angle (ride height)\u00a0\u2014 real, 2nd-order, fixable by geometry. Set + verify static ride height. Experiment shows it works.\n2.\u00a0Right axle 1st-order defect\u00a0\u2014 bent shaft / eccentric joint flange (part 27) / imbalance. This is the main event. Dial-indicate the right axle shaft + flange runout vs the left as reference, and check the U-joint (part 6) for wear/play while we're in there.\nCaveat: jackstand spins the right axle at 2x road speed, so it exaggerates the 1st-order force ~4x. Real defect, but the road contribution is more modest than the number here (it's the ~14 Hz road residual, ~0.03 g).\nPlan: dial in ride height, then measure/address the right axle shaft + flange runout. New wheels still won't touch either of these.\nimage.png\nimage.png\n\n\n\nMarc Davis\u00a0\u00a011:05 AM\nOK,\u00a0@David Webber\u00a0this is what we need:\nRadial play at the joint\u00a0\u2014 pry/rock the shaft each side of the cross and dial-indicate the movement. This is the direct \"is the joint sloppy\" number. More than a few thou, and especially anything approaching the ~0.08\u20130.1\u2033 the lever-arm math said you'd need, tells the story.\nRotational lash\u00a0\u2014 rock the yoke back and forth and feel/measure free play across the cross (worn trunnions/needle bearings show up here).\nRadial runout of the shaft right at the joint\u00a0while turning it slowly \u2014 separates a worn joint from a bent shaft.\nAny notchiness or roughness as you rotate it through a full turn.\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-08 20:36",
-                  "text": "Work performed\nThe right rear axle and a new wheel bearing were ordered first thing. Marc's ride-height experiment split the vibration in two: straightening the U-joint angle killed the 2nd-order shake by 87% (fixable via ride height), but the main 1st-order defect stayed \u2014 a mechanical fault traveling with the right axle. David then inspected the internal U-joint and found it clearly bad: excessive play, lash, witness marks, notchiness. He made the car drivable again (gear oil, parking brake, wheels torqued). Jordan mapped the parts across German fiches (sliding joint 1803500513, U-joint 111 350 00 28, sliding sleeve, shims) \u2014 ~$1,600 to rebuild, or ~$450 for a used U-joint \u2014 and located a needed special tool.\nCommunications made\nInternally, the team agreed to call Casey at Colvin's for a removal/rebuild plan; Jordan noted he'd specifically asked Colvin's to check this joint during the original rebuild and it apparently wasn't. Externally, you sent two supplier emails: one to Jelinek (\"1959 220S\") asking for part 53/53A from a rear-axle diagram, and one to Niem\u00f6ller (\"W180 rear axle sliding joint compatibility question\") asking them to confirm sliding sleeve 180 350 07 13 fits your car.\nConclusions\nTwo separable issues: a ride-height/U-joint angle component (fixable by geometry) and the main 1st-order defect, now pinned largely on a worn internal U-joint that should have been caught in the prior rebuild. Next step is a gameplan call with Colvin's, with parts sourcing pending replies from the two German suppliers. The car is drivable meanwhile."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-13 22:53",
-                  "text": "Order sent today"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-21 18:52",
-                  "text": "Parts in German customs - @Ryan Laurel working with vendor"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-23 21:53",
-                  "text": "Opened and inspected parts which arrived from Germany. Made up box for Colvin and wrote out instructions."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-04 23:29",
-                  "text": "IMG_4969.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-04 23:29",
-                  "text": "Casey / technician:\nRebuilt the slip joint. The one had good bearings/u-joint but the yokes were 'egg shaped' and the caps were rotating, which they shouldn't do.\nPut the two halfshafts in a lathe and measured runout. Both were good. They ended up putting the 'new' ebay one in.\nThe new springs brought the rear end up significantly.\nThey didn't replace the wheel bearing, they said it was still good.\n\n\nDriving:\nThe pulsing vibration at 38-42mph seems gone. I couldn't get it to appear\nGeneral vibration exists, starting around 50, increasing with speed to 80. Slight lull possibly at 62-67mph. This is not resolved\n\n\nGoing forward:\n@Marc Davis if you have a chance, drive it.\nCasey has a Mercedes of the same vintage he's working on now, same exact wheels and tires size. He's going to drive it once they're finished, if it's smooth at highway speeds he says we can bring Connolly back for a wheel/tire swap to eliminate that variable."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-06 21:31",
-                  "text": "Test drove with @Billy Arrasmith after driveshaft balancing. Not perfect, but much better. No significant vibration at 60mph.\nNoticed odd parking brake behavior. Found the parking brake lines had been tangled, likely when Colvin's disconnected/reconnected the parking brake.\nRemoved and readjusted parking-brake cables. Torqued to spec.\nReinstalled trim pieces (coolant cover, wheel trim).\n@Marc Davis test drove. He thinks vibration is OK, ready to ship."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ca20dd258b2b40853c7ea12e36ab8c3cea3154dc86eef3a641d3a2109ec2b2a5"
+              "content_hash": "62a63547ff31a49b8f1bfe2bf3f8268fdc76c0467664ee34fab034a52ab46d4d"
             }
           ]
         }
@@ -1743,5 +1592,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T17:28:16Z"
+  "generated_at": "2026-08-14T18:26:53Z"
 }
