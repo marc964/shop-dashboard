@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T20:46:46.972485Z",
+  "updated_at": "2026-08-14T21:26:10.591112Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -16,40 +16,10 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Ivanhoe 65 Alfa"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_match"
       },
-      "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868kmbwjq",
-              "name": "Prep replacement inverter",
-              "status": "Open",
-              "list": "Ivanhoe 65 Alfa",
-              "url": "https://app.clickup.com/t/868kmbwjq",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-06 00:04",
-                  "text": "Pulled Inverter from chuter\nHanded off for shipping\nStarted install new inverter into chuter.\nThis entry didnt send when it should have. This is for 8.4.26"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-06 00:59",
-                  "text": "Finished inverter install.\nVac and Fill coolant.\nWill need to run the pumps and monitor coolant level to ensure that the system is full.\nRe checked the vehicle later in the evening found a small puddle of coolant on the floor\nremoved the skid plate checked for a leak\nfound no leak at the inverter.\nLeak found at the reservoir return fitting.\nReinstalled skid plate and tightened return fitting.\nThis is now complete for my part."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "a3500d401999b0869ab51e89d0df6e9fd7e6794a6473806a0ae16153e930f05c"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Preheim",
@@ -1463,50 +1433,9 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 7
+        "open_tasks": 6
       },
       "assignees": [
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868krf6f9",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf6f9",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            },
-            {
-              "id": "868kmpy5w",
-              "name": "Rebuild Motor Sub Harness",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kmpy5w",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-10 22:47",
-                  "text": "Built new motor sub harness for this vehicle. This harness uses our new standard for resolver wiring and shortened the resolver length by 10 inches to help with signal strength."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-10 22:48",
-                  "text": "Will need to label and install with remaining time."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-11 16:25",
-                  "text": "Labeled and Installed Motor Sub harness.\nVehicle ready for test drive.\nNotified slack channel."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ac254a9aa922b8f25ca68ae1a1e7395b2b3aaf18c32d55072d895662c4d61db4"
-            }
-          ]
-        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -1575,6 +1504,21 @@
           ]
         },
         {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
           "name": "Noah Sharif",
           "tasks": [
             {
@@ -1592,5 +1536,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-14T20:45:18Z"
+  "generated_at": "2026-08-14T21:24:47Z"
 }

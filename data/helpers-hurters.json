@@ -328,24 +328,44 @@
       ]
     },
     {
-      "project": "Thacker 46 Woody",
+      "project": "Krafcik 02 Caterham",
       "total_hours": 12.5,
       "pct_of_total": 2.1,
       "tasks": [
         {
-          "task": "Interior",
-          "hours": 6.5
+          "task": "Scanning",
+          "hours": 2.2
         },
         {
-          "task": "Engineering - Core",
-          "hours": 3.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 2.5
+          "task": "Brakes",
+          "hours": 2.0
         },
         {
           "task": "Instrumentation",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 1.2
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 1.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.5
+        },
+        {
+          "task": "Engineering - Support",
           "hours": 0.5
         }
       ]
@@ -487,10 +507,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 408.5,
+    "billable_hours": 409.0,
     "non_billable_hours": 199.5,
     "pto_hours": 12.0,
-    "total_hours": 608.0
+    "total_hours": 608.5
   },
-  "generated_at": "2026-08-14T20:45:18Z"
+  "generated_at": "2026-08-14T21:24:47Z"
 }
