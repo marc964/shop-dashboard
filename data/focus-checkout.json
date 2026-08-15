@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T18:59:05.715247Z",
+  "updated_at": "2026-08-15T19:27:50.012827Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1149,10 +1149,15 @@
                   "author": "Aharon Adams",
                   "date": "2026-08-01 16:03",
                   "text": "discussions and searching for rubbing/ solutions"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-15 19:25",
+                  "text": "Racked Ferdman and removed both rear shocks and shock mounts. Cleaned, sanded, and painted the shock mounts. While those dried, started on capturing the slide and spring plates. Began with an M8 through-bolt, but that didn't pull the plates close enough at 25 ft-lb \u2014 could still see light through the plates when shined from underneath. Moved to tapping the rear plate to M10, but on torquing realized I couldn't get enough clamp force, and \"pulling\" one plate to the other didn't seem sufficient on its own. Ended up drilling 10.5mm holes through all plates to allow the front plates to move as they came together, then sandwiched the plates together with M10 hardware torqued to 38 ft-lb. Reassembled with new shocks, painted shock mounts, and torqued the wheels."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f01cc891610cd35c4a84be2087f3076a680ade287d026bb6ca0fa6cb4be7c806"
+              "content_hash": "891c53922787b0a28df8566f6f56e19759f74f3ceddad56b8afb3ed258ce2e2e"
             }
           ]
         },
@@ -1564,5 +1569,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-15T18:57:55Z"
+  "generated_at": "2026-08-15T19:26:37Z"
 }
