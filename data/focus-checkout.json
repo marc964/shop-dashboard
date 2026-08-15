@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T04:05:01.299336Z",
+  "updated_at": "2026-08-15T04:47:56.340144Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1326,66 +1326,9 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868g9vwju",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-11-07 23:41",
-                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 03:09",
-                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-14 22:21",
-                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-15 21:03",
-                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-05-22 03:51",
-                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-12 18:45",
-                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Charge pack to 390V for at least 6-7 hours",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Confirm vehicle weight and gearing is correct",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test heater",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "0120b583ac4671092342ab58acc6e3654e8b5db14f3b03ed094e1daba2808af8"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
             }
           ]
         }
@@ -1461,15 +1404,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w1bc",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-06-18 21:33",
-                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
+              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
             },
             {
               "id": "868krf65c",
@@ -1477,15 +1414,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-14 21:44",
-                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "38742cd0f467e0ddb4812b92a269fcc35718ea0f105e00b76a683ec7968f7af2"
+              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
             }
           ]
         },
@@ -1498,15 +1429,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 22:02",
-                  "text": "test driving after new settings"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             }
           ]
         },
@@ -1519,15 +1444,9 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-07-27 21:26",
-                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
+              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
             }
           ]
         },
@@ -1564,5 +1483,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-15T04:03:37Z"
+  "generated_at": "2026-08-15T04:46:35Z"
 }
