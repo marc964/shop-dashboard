@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T05:25:13.436463Z",
+  "updated_at": "2026-08-15T05:52:19.310326Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -17,7 +17,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -155,10 +155,94 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Preheim 72 Blazer"
+        ],
+        "open_tasks": 6
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krfacg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868krfacg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            },
+            {
+              "id": "868krfa25",
+              "name": "Troubleshoot cell temp/voltage issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868krfa25",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2651e293912470212312b621bfb5431cea872189e72d0192fadb02d574ed0498"
+            }
+          ]
+        },
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868kpyf6y",
+              "name": "R&R battery boxes",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kpyf6y",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "83ee4832e7032148212b866b55febb2d66bef71fe765b4faa8332bb8ee21a32c"
+            },
+            {
+              "id": "868knpamj",
+              "name": "Troubleshoot voltage issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868knpamj",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "40ad0bf03bff84ecd3cac0ad1418be6fe502b61bf7d75225c7ef1ab522d55e21"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868gjgucg",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868gjgucg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Avalos",
@@ -175,7 +259,7 @@
       },
       "clickup_match": {
         "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -193,10 +277,54 @@
         "system": "AEM"
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "6dde146d2b6ad4f8818c059468c6adee493042dc4411cce77e35c4201c2ba9c9"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7e77149c11b59fb805f291356f8d6430bce389c65531399889727ac798c86add"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf9gv",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868krf9gv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
@@ -256,10 +384,54 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Connolly 58 220S"
+        ],
+        "open_tasks": 3
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868exjqjc",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868exjqjc",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            },
+            {
+              "id": "868k0je6t",
+              "name": "Update EEPROM",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0je6t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "163e296b863ba13103ab3c8c6796c8d5d6ee1b4de0f2a71f592261ceeaee5e82"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868k0jcn7",
+              "name": "Re-balance DS",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0jcn7",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "917ba2d9e7786dfd0f33b78697e534b5072efb620c8e0c112f36142261e09e4e"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ferdman",
@@ -331,10 +503,139 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Ferdman 66 Bus"
+        ],
+        "open_tasks": 11
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868k33pkg",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k33pkg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a5fd15e53e60329d255fcc528a1ba16a94b2497d9ceb960d1de9317e9d65f5f0"
+            },
+            {
+              "id": "868kqcr2w",
+              "name": "Adjust door fitment",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kqcr2w",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a1b1521e08a0c069e43034de60a7ffe8c62bec11cbcdbeb17f367af89fb46272"
+            },
+            {
+              "id": "868k7faah",
+              "name": "Adjust front ride height",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7faah",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a3508d7521576a9b05513ccddece02498ddeefdd3cbd2e2839e24e662f712734"
+            },
+            {
+              "id": "868kq38dz",
+              "name": "Facilitate head liner repair",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kq38dz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "59732d4b9948b960d87a339e4a4984a7398330244c01b8163c5a64e12e13de90"
+            },
+            {
+              "id": "868k7em0v",
+              "name": "Install roof rack",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7em0v",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "50fc9d84c3355de220fb3b731c8503bf4fba35ad333e6d11cfc4788709f58506"
+            },
+            {
+              "id": "868jqn2ge",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jqn2ge",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kert77",
+              "name": "Address rear suspension issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kert77",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a5fd15e53e60329d255fcc528a1ba16a94b2497d9ceb960d1de9317e9d65f5f0"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf5mg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5mg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868k7fdjp",
+              "name": "Assess noise",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7fdjp",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7579ed8698a8b6c3e3eaac144b9337ce4ac8e46cbea09f0baef79f51e568bd8d"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf5h0",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5h0",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Chuter",
@@ -406,10 +707,54 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Chuter 62 Healey"
+        ],
+        "open_tasks": 4
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868kqgqv9",
+              "name": "Consolidate battery terminals",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kqgqv9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8cc8cffed334389518ac9662a33d0d50801476ce341977aaa9f2af9bd14b7ad7"
+            },
+            {
+              "id": "868kqgqam",
+              "name": "Install license plate",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kqgqam",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "6f1f9b138f73512b994364b5ea8eadfc85e3ab95521ca46ead958a97e4e545bf"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868g9vwju",
+              "name": "Checkout Vehicle",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868g9vwju",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "83bb4f939a841271259612353f26a6babb67e422ab4f557b85b2019d3d381794"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Kelly",
@@ -465,11 +810,124 @@
         }
       },
       "clickup_match": {
-        "found": false,
-        "error": "fetch_failed: 429 Client Error: Too Many Requests for url: https://api.clickup.com/api/v2/team/9011243300/task?custom_items%5B%5D=1003&include_closed=false&subtasks=true&page=1"
+        "found": true,
+        "matched_lists": [
+          "Kelly 63 Corvette"
+        ],
+        "open_tasks": 6
       },
-      "assignees": []
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868k2w1bc",
+              "name": "Troubleshoot AC compressor issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w1bc",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
+            },
+            {
+              "id": "868krf65c",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf65c",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "38742cd0f467e0ddb4812b92a269fcc35718ea0f105e00b76a683ec7968f7af2"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k2w2xp",
+              "name": "Manufacture Core - Battery Pack Lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2xp",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generated_at": "2026-08-15T05:24:07Z"
+  "generated_at": "2026-08-15T05:50:58Z"
 }
