@@ -445,6 +445,21 @@
       ]
     },
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 16.5,
+      "pct_of_total": 2.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 11.0
+        },
+        {
+          "task": "Installation - Extra",
+          "hours": 5.5
+        }
+      ]
+    },
+    {
       "project": "ICON Bronco Prototype",
       "total_hours": 12.0,
       "pct_of_total": 1.9,
@@ -463,17 +478,6 @@
         {
           "task": "Troubleshooting",
           "hours": 12.0
-        }
-      ]
-    },
-    {
-      "project": "Ferdman 66 Bus",
-      "total_hours": 11.0,
-      "pct_of_total": 1.7,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 11.0
         }
       ]
     },
@@ -523,10 +527,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 437.8,
-    "non_billable_hours": 206.2,
+    "billable_hours": 432.2,
+    "non_billable_hours": 211.8,
     "pto_hours": 12.0,
     "total_hours": 644.0
   },
-  "generated_at": "2026-08-15T21:45:44Z"
+  "generated_at": "2026-08-15T22:20:54Z"
 }
