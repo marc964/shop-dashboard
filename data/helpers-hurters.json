@@ -424,23 +424,23 @@
   "project_hurters": [
     {
       "project": "Ivanhoe 65 Alfa",
-      "total_hours": 33.5,
-      "pct_of_total": 5.2,
+      "total_hours": 39.5,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 33.5
+          "hours": 39.5
         }
       ]
     },
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 21.2,
-      "pct_of_total": 3.3,
+      "total_hours": 29.5,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 21.2
+          "hours": 29.5
         }
       ]
     },
@@ -531,10 +531,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 431.8,
-    "non_billable_hours": 212.2,
+    "billable_hours": 417.5,
+    "non_billable_hours": 226.5,
     "pto_hours": 12.0,
     "total_hours": 644.0
   },
-  "generated_at": "2026-08-15T22:47:20Z"
+  "generated_at": "2026-08-15T23:19:33Z"
 }
