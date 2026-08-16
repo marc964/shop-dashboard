@@ -1,13 +1,23 @@
 {
-  "updated_at": "2026-08-16T09:53:10.476854Z",
+  "updated_at": "2026-08-16T10:23:41.431390Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Ivanhoe",
-      "vehicle": null,
+      "vehicle": {
+        "owner": "Ivanhoe",
+        "year": 1965,
+        "color": "Green",
+        "make": "Alfa Romero",
+        "model": "GTV",
+        "status": "Checkout",
+        "checkout": 47.4,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
       "clickup_match": {
         "found": false,
-        "error": "no_vehicle"
+        "error": "no_match"
       },
       "assignees": []
     },
@@ -314,21 +324,122 @@
     },
     {
       "owner": "Avalos",
-      "vehicle": null,
+      "vehicle": {
+        "owner": "Avalos",
+        "year": 1972,
+        "color": "Orange",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "status": "Shipped",
+        "checkout": 1.1,
+        "sub_metrics": [],
+        "system": "AEM"
+      },
       "clickup_match": {
         "found": false,
-        "error": "no_vehicle"
+        "error": "no_match"
       },
       "assignees": []
     },
     {
       "owner": "Miner",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
+      },
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:37",
+                  "text": "Coordinating with TPWS on motor pick up. Spoke to Frannie week of 8/3."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "02a901f76b0a6294c5f8636659dcf9f7e4c3cc2efe4de867ef4d587fa1683c37"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf9gv",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868krf9gv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
@@ -1458,5 +1569,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-16T09:52:00Z"
+  "generated_at": "2026-08-16T10:22:24Z"
 }
