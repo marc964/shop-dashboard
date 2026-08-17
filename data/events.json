@@ -102,7 +102,13 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D Out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-08-26",
@@ -232,35 +238,65 @@
           "day_name": "Tuesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-09",
           "day_name": "Wednesday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-10",
           "day_name": "Thursday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-11",
           "day_name": "Friday",
           "is_today": false,
           "is_weekend": false,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-12",
           "day_name": "Saturday",
           "is_today": false,
           "is_weekend": true,
-          "events": []
+          "events": [
+            {
+              "summary": "Devin D out",
+              "type": "pto",
+              "all_day": true
+            }
+          ]
         },
         {
           "date": "2026-09-13",
@@ -272,5 +308,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-17T21:51:00Z"
+  "generated_at": "2026-08-17T22:24:01Z"
 }

@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 75.8,
-      "pct_of_total": 11.2,
+      "pct_of_total": 11.1,
       "tasks": [
         {
           "task": "Charging",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 63.5,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.3,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -105,7 +105,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 57.8,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -148,7 +148,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 45.8,
-      "pct_of_total": 6.8,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -241,12 +241,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 34.5,
-      "pct_of_total": 5.1,
+      "total_hours": 39.0,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 10.2
+          "hours": 10.8
         },
         {
           "task": "Vehicle Control",
@@ -257,16 +257,16 @@
           "hours": 7.0
         },
         {
+          "task": "Wiring - OEM",
+          "hours": 4.5
+        },
+        {
           "task": "Manufacturing - Core",
           "hours": 4.0
         },
         {
           "task": "Wiring - High Voltage",
           "hours": 2.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 0.5
         },
         {
           "task": "Cooling",
@@ -277,7 +277,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 22.8,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -292,7 +292,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 3.2,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Inspection",
@@ -372,20 +372,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 101.0,
-    "pct_of_total": 15.0,
-    "avg_per_person_per_day": 1.15,
+    "total_hours": 102.5,
+    "pct_of_total": 15.1,
+    "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 42.2
+        "hours": 43.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 36.5
+        "hours": 37.0
       },
       {
         "label": "Personal Meetings",
@@ -409,7 +409,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -446,7 +446,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 12.5,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -515,10 +515,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 438.2,
-    "non_billable_hours": 235.5,
+    "billable_hours": 443.2,
+    "non_billable_hours": 237.0,
     "pto_hours": 12.0,
-    "total_hours": 673.8
+    "total_hours": 680.2
   },
-  "generated_at": "2026-08-17T21:51:00Z"
+  "generated_at": "2026-08-17T22:24:01Z"
 }
