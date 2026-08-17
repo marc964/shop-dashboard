@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T19:29:59.832031Z",
+  "updated_at": "2026-08-17T19:54:15.511409Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1920,7 +1920,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 44
+        "open_tasks": 42
       },
       "assignees": [
         {
@@ -2114,9 +2114,95 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 16:36",
+                  "text": "ordering interior kit"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:57",
+                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "In communication with customer on this."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:25",
+                  "text": "Dash upper pad replaced"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:26",
+                  "text": "Door panels unboxed and test fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:30",
+                  "text": "1000014098.jpg1000014099.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:12",
+                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:14",
+                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:06",
+                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:07",
+                  "text": "Dave is picking up front and rear bench seat tonight"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "1000014208.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "Rubber seam installed in door panel\nDoor panel installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:56",
+                  "text": "Door panel arm rests ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
             },
             {
               "id": "868gaza9t",
@@ -2163,93 +2249,6 @@
               ],
               "checklist_items": [],
               "content_hash": "c26e5307aa3ace2238a86a5263075f3bb68b8ec45966468578eecefffb51b22e"
-            },
-            {
-              "id": "868kq3xk9",
-              "name": "Paint and seal bed rails",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kq3xk9",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:32",
-                  "text": "Bed cap seam taped off\nBed cap was sanded and prepped for sealing/paint"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:35",
-                  "text": "Faded sticker removed off tailgate\n1000014607.jpg1000014608.jpg1000014609.jpg1000014610.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-13 00:21",
-                  "text": "Bed side caps degreased, prepped and primered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-13 22:52",
-                  "text": "1000014656.jpg1000014657.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-13 22:52",
-                  "text": "Bed rail caps painted and ready for bed cap covers to be modified and installed when recieved"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "c5e46a1b88bb7713858127fce50c9f73ead3c83880bc6b8d1f2f58e52efa3b60"
-            },
-            {
-              "id": "868kp9utg",
-              "name": "Terminate main 12V power cables",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kp9utg",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:41",
-                  "text": "1000014576.jpg1000014578.jpg1000014580.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:41",
-                  "text": "Power distribution stud tapped and mounted\nMeasured for stud to fuse block cable\nCable built and installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 15:42",
-                  "text": "12V feed fuse block mounted\n12V feed cable Stud to fuse block made and mounted\n12V feed cable from fuse block to pass through made and mounted\n12V cable from battery to stud made and mounted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 15:43",
-                  "text": "1000014602.jpg1000014603.jpg1000014604.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 15:44",
-                  "text": "Battery rubber vibration pad cut and battery installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 15:45",
-                  "text": "1000014605.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-12 16:30",
-                  "text": "1000014621.jpg1000014622.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-12 16:31",
-                  "text": "PDM 12V feed cable made and installed"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "903aab0df5b53d127dc9597ca65d0fb7c9939075016e2c86e9c47859a719001f"
             }
           ]
         },
@@ -2262,9 +2261,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-15 23:03",
+                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
+              "content_hash": "861056c91b88b1941ad756218e7d8f42c5ad6e0eaab0bdddd993fd79b59ef11a"
             },
             {
               "id": "868ka1pgr",
@@ -2570,5 +2580,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-17T19:28:12Z"
+  "generated_at": "2026-08-17T19:52:39Z"
 }

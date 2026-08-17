@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 71.8,
-      "pct_of_total": 10.7,
+      "total_hours": 75.8,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Charging",
-          "hours": 13.5
+          "hours": 14.5
         },
         {
           "task": "Vehicle Control",
@@ -16,6 +16,10 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 10.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 6.5
         },
         {
           "task": "HVAC",
@@ -28,10 +32,6 @@
         {
           "task": "Steering",
           "hours": 5.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 3.5
         },
         {
           "task": "Engineering - Support",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 63.5,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -195,7 +195,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 40.0,
-      "pct_of_total": 6.0,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -242,7 +242,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 34.5,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -373,7 +373,7 @@
   ],
   "shop_work": {
     "total_hours": 101.0,
-    "pct_of_total": 15.1,
+    "pct_of_total": 15.0,
     "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
@@ -431,7 +431,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 16.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -515,10 +515,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 433.5,
+    "billable_hours": 438.2,
     "non_billable_hours": 235.5,
     "pto_hours": 12.0,
-    "total_hours": 669.0
+    "total_hours": 673.8
   },
-  "generated_at": "2026-08-17T19:28:12Z"
+  "generated_at": "2026-08-17T19:52:39Z"
 }
