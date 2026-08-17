@@ -1697,9 +1697,41 @@
         }
       ],
       "system": "Ampere"
+    },
+    {
+      "owner": "#REF! (Reference does not exist.)",
+      "year": null,
+      "color": "#REF! (Reference does not exist.)",
+      "make": "#REF! (Reference does not exist.)",
+      "model": "#REF! (Reference does not exist.)",
+      "status": "#REF! (Reference does not exist.)",
+      "checkout": 0.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 0.0
+        },
+        {
+          "label": "Inverter",
+          "value": 0.0
+        },
+        {
+          "label": "PMU",
+          "value": 0.0
+        },
+        {
+          "label": "Raptor",
+          "value": 0.0
+        },
+        {
+          "label": "Functional",
+          "value": 0.0
+        }
+      ],
+      "system": "Ampere"
     }
   ],
-  "updated": "2026-08-17T14:28:39.695907+00:00",
+  "updated": "2026-08-17T14:40:37.826402+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-17T14:27:23Z"
+  "generated_at": "2026-08-17T14:39:38Z"
 }
