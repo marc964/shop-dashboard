@@ -309,6 +309,57 @@
       }
     },
     {
+      "owner": "Kelly",
+      "year": 1963,
+      "color": "Blue",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "status": "Startup",
+      "checkout": 100.0,
+      "sub_metrics": [
+        {
+          "label": "BMS",
+          "value": 66.7
+        },
+        {
+          "label": "Inverter",
+          "value": 97.2
+        },
+        {
+          "label": "PMU",
+          "value": 0
+        },
+        {
+          "label": "Raptor",
+          "value": 7.3
+        },
+        {
+          "label": "Functional",
+          "value": 0
+        }
+      ],
+      "system": "Ampere",
+      "punchlist": {
+        "items": [
+          {
+            "text": "cutback under high acceleration, probably in inverter, review settings.",
+            "done": false
+          },
+          {
+            "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
+            "done": false
+          },
+          {
+            "text": "590 12s PCB+ivt",
+            "done": false
+          }
+        ],
+        "total": 3,
+        "done": 0,
+        "open": 3
+      }
+    },
+    {
       "owner": "Ferdman",
       "year": 1966,
       "color": "White",
@@ -1228,57 +1279,6 @@
       "system": "AEM"
     },
     {
-      "owner": "Kelly",
-      "year": 1963,
-      "color": "Blue",
-      "make": "Chevrolet",
-      "model": "Corvette",
-      "status": "Startup",
-      "checkout": 39.4,
-      "sub_metrics": [
-        {
-          "label": "BMS",
-          "value": 66.7
-        },
-        {
-          "label": "Inverter",
-          "value": 91.7
-        },
-        {
-          "label": "PMU",
-          "value": 0
-        },
-        {
-          "label": "Raptor",
-          "value": 7.3
-        },
-        {
-          "label": "Functional",
-          "value": 0
-        }
-      ],
-      "system": "Ampere",
-      "punchlist": {
-        "items": [
-          {
-            "text": "cutback under high acceleration, probably in inverter, review settings.",
-            "done": false
-          },
-          {
-            "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
-            "done": false
-          },
-          {
-            "text": "590 12s PCB+ivt",
-            "done": false
-          }
-        ],
-        "total": 3,
-        "done": 0,
-        "open": 3
-      }
-    },
-    {
       "owner": "Alvarez",
       "year": 1966,
       "color": "Green",
@@ -1731,7 +1731,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-17T14:56:41.040222+00:00",
+  "updated": "2026-08-17T16:28:27.572771+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-17T14:55:30Z"
+  "generated_at": "2026-08-17T16:27:14Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T14:57:19.439926Z",
+  "updated_at": "2026-08-17T16:29:13.425837Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -966,7 +966,7 @@
         "make": "Chevrolet",
         "model": "Corvette",
         "status": "Startup",
-        "checkout": 39.4,
+        "checkout": 100.0,
         "sub_metrics": [
           {
             "label": "BMS",
@@ -974,7 +974,7 @@
           },
           {
             "label": "Inverter",
-            "value": 91.7
+            "value": 97.2
           },
           {
             "label": "PMU",
@@ -1915,7 +1915,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 43
+        "open_tasks": 44
       },
       "assignees": [
         {
@@ -2257,20 +2257,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-15 23:03",
-                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "861056c91b88b1941ad756218e7d8f42c5ad6e0eaab0bdddd993fd79b59ef11a"
+              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
             },
             {
               "id": "868ka1pgr",
@@ -2306,6 +2295,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+            },
+            {
+              "id": "868kt2w9z",
+              "name": "Scan center console",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kt2w9z",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "a0fef33f9dbd1ec84f0df30697db003b07b8e3399d362b584cd7763a80715883"
             }
           ]
         },
@@ -2430,12 +2429,22 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 20
+        "open_tasks": 23
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
+            {
+              "id": "868kt2rtu",
+              "name": "Address front bumper noise",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt2rtu",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "663fdff639882a7ffd5585ad4d53caee30a3aa2551489dbd8c03ee4899bace86"
+            },
             {
               "id": "868kr28at",
               "name": "Address interior noises",
@@ -2477,6 +2486,16 @@
               "content_hash": "776444cd8609f5d469d019a33ea9b0551fe4d87c271be731bac3d13d844f9cc3"
             },
             {
+              "id": "868kt2ttw",
+              "name": "Repair steering column adjustment",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt2ttw",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "ac4f83735ee563350f2a01a30cc84a9f317927364f36fc76f09c1c7b91ed08f0"
+            },
+            {
               "id": "868j84xbd",
               "name": "Set ride height",
               "status": "Open",
@@ -2505,6 +2524,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "5e27b5338f754d5a9a01f4db28e74d4262d820a34dfe6f5ab771ae8ebd64bf0a"
+            },
+            {
+              "id": "868kt2t1w",
+              "name": "Troubleshoot front suspension noise",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt2t1w",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
             }
           ]
         },
@@ -2526,5 +2555,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-17T14:55:30Z"
+  "generated_at": "2026-08-17T16:27:14Z"
 }
