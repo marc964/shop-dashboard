@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T17:59:29.896449Z",
+  "updated_at": "2026-08-17T18:50:54.485689Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1765,10 +1765,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-14 22:53",
                   "text": "Installed box 2\nDifficulty lining up M8s - eventually got them all.\nInstalled VCU stack.\nReinstalled MSDs and HV , cooling\nReinstalled 12V.\nReinstalled hood.\nTest-drove, briefly. No issues.\n@Marc Davis to test drive and we will pull logs, see voltage drop across busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 18:03",
+                  "text": "Vehicle shuffle to get Preheim back into position.\nDrained motor circuit coolant.\nDisconnected battery box connections.\nRemoved vertical mounting hardware - two broken/crossthreaded bolts. Will need repair before reinstall.\nRemoved coolant hoses from hardlines.\nRemoved charge controller connections\nDropped motor 6\", then disconnected all charger connections.\nDropped assembly\nDisassembled assembly. Separated battery box from mounts. Ready for disassembly.\nNote:\nCross threaded bolts x2 (see above)\nAppears to be a leak from battery box coolant quick connect / barb.\nBrake line extremely close to battery box assembly."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5b9a3975859f81629c710d2d90c5563a7c24adb102051dddc94ae3f57bd779c5"
+              "content_hash": "73423a2d5abe7cf847d0df30412bed35fa58344402f5096d8b463437c84ae8dc"
             },
             {
               "id": "868knpamj",
@@ -2429,7 +2434,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 23
+        "open_tasks": 24
       },
       "assignees": [
         {
@@ -2534,6 +2539,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
+            },
+            {
+              "id": "868kt5w1j",
+              "name": "Troubleshoot power steering issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt5w1j",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
             }
           ]
         },
@@ -2555,5 +2570,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-17T17:57:44Z"
+  "generated_at": "2026-08-17T18:49:08Z"
 }
