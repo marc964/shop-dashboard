@@ -1,82 +1,14 @@
 {
   "weeks": [
     {
-      "week_start": "2026-08-10",
-      "week_label": "Week of Aug 10",
-      "is_current_week": true,
-      "days": [
-        {
-          "date": "2026-08-10",
-          "day_name": "Monday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Peter Lee (Mustang) Visit",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-08-11",
-          "day_name": "Tuesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": [
-            {
-              "summary": "Peter Lee (Mustang) Visit",
-              "type": "shop",
-              "all_day": true
-            }
-          ]
-        },
-        {
-          "date": "2026-08-12",
-          "day_name": "Wednesday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-13",
-          "day_name": "Thursday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-14",
-          "day_name": "Friday",
-          "is_today": false,
-          "is_weekend": false,
-          "events": []
-        },
-        {
-          "date": "2026-08-15",
-          "day_name": "Saturday",
-          "is_today": false,
-          "is_weekend": true,
-          "events": []
-        },
-        {
-          "date": "2026-08-16",
-          "day_name": "Sunday",
-          "is_today": true,
-          "is_weekend": true,
-          "events": []
-        }
-      ]
-    },
-    {
       "week_start": "2026-08-17",
       "week_label": "Week of Aug 17",
-      "is_current_week": false,
+      "is_current_week": true,
       "days": [
         {
           "date": "2026-08-17",
           "day_name": "Monday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -276,7 +208,69 @@
           "events": []
         }
       ]
+    },
+    {
+      "week_start": "2026-09-07",
+      "week_label": "Week of Sep 07",
+      "is_current_week": false,
+      "days": [
+        {
+          "date": "2026-09-07",
+          "day_name": "Monday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": [
+            {
+              "summary": "Moment Holiday (Labor Day)",
+              "type": "shop",
+              "all_day": true
+            }
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "day_name": "Tuesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-09",
+          "day_name": "Wednesday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-10",
+          "day_name": "Thursday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-11",
+          "day_name": "Friday",
+          "is_today": false,
+          "is_weekend": false,
+          "events": []
+        },
+        {
+          "date": "2026-09-12",
+          "day_name": "Saturday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        },
+        {
+          "date": "2026-09-13",
+          "day_name": "Sunday",
+          "is_today": false,
+          "is_weekend": true,
+          "events": []
+        }
+      ]
     }
   ],
-  "generated_at": "2026-08-16T23:58:42Z"
+  "generated_at": "2026-08-17T01:48:46Z"
 }
