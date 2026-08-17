@@ -210,8 +210,11 @@ def parse_ampere_overview(service):
       Row 6: "Status" + status values
       Row 7+: Sub-metric rows with labels in col A
     """
-    # Fetch enough rows/cols to cover all vehicles and metrics
-    rows = fetch_values(service, AMPERE_SHEET_ID, "Vehicles Overview!A1:Z20")
+    # Vehicles are columns, so the column bound caps how many cars the dashboard
+    # can ever see. A1:Z20 allowed 25 and the sheet is already at 26 used
+    # columns — the next car added would have been dropped silently, with no
+    # error anywhere. Read well past the current edge instead.
+    rows = fetch_values(service, AMPERE_SHEET_ID, "Vehicles Overview!A1:CZ20")
     if not rows:
         return []
 
@@ -403,7 +406,9 @@ def parse_aem_vehicles(service):
       Row 7: "Checkout Status" + status values
     All rows have labels in column A.
     """
-    rows = fetch_values(service, AEM_SHEET_ID, "Vehicles!A1:Z20")
+    # Same column-bound trap as the Ampere overview above: vehicles are columns,
+    # so a fixed Z bound silently caps the fleet. Currently 15 columns used.
+    rows = fetch_values(service, AEM_SHEET_ID, "Vehicles!A1:CZ20")
     if not rows:
         return []
 
