@@ -75,12 +75,37 @@ jobs:
                 | length')
           echo "Startup-cancelled jobs detected: $startup_cancel"
 
-          if [ "$startup_cancel" -ge 1 ]; then
-            echo "Runner-acquisition cancellation; re-running failed jobs."
+          # Same class of GitHub-side failure, different shape: the job failed
+          # in "Set up job" — the runner's own step — because GitHub could not
+          # provision it or could not download the actions the job uses
+          # (codeload 429/503). No step of ours ran, so there is nothing of ours
+          # to fix, and a retry often lands once the blip passes.
+          setup_fail=$(gh api "repos/$REPO/actions/runs/$RUN_ID/jobs" \
+            | jq '[.jobs[]
+                | select(.conclusion=="failure")
+                | select([.steps[]?
+                    | select(.conclusion=="success" or .conclusion=="failure")
+                    | select((.name | ascii_downcase | gsub("^\\s+|\\s+$";"")) != "set up job")]
+                    | length == 0)]
+                | length')
+          echo "Setup-only failures detected: $setup_fail"
+
+          if [ "$startup_cancel" -ge 1 ] || [ "$setup_fail" -ge 1 ]; then
+            # A retry is worth it for an isolated blip, but during a declared
+            # Actions outage it just fails the same way. Ask before spending it.
+            actions_status=$(curl -sf --max-time 10 https://www.githubstatus.com/api/v2/summary.json \
+              | jq -r '[.components[]? | select(.name=="Actions") | .status] | first // "unknown"' 2>/dev/null || echo "unknown")
+            echo "GitHub Actions status: $actions_status"
+            if [ "$actions_status" = "major_outage" ]; then
+              echo "Actions is in a declared major outage; a re-run would fail the same way. Not re-running."
+              exit 0
+            fi
+
+            echo "GitHub-side failure (no step of ours ran); re-running failed jobs."
             gh api -X POST "repos/$REPO/actions/runs/$RUN_ID/rerun-failed-jobs"
             echo "retried=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Steps ran (genuine failure) or nothing to retry; not re-running."
+            echo "Steps of ours ran (genuine failure) or nothing to retry; not re-running."
           fi
 
   alert:
