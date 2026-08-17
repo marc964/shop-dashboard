@@ -324,11 +324,16 @@ async function main() {
   const failed = (r) => r.conclusion !== "success" && r.conclusion !== "skipped";
 
   if (!failed(runs[0])) {
-    // Newest run is green. Did we just recover from a sustained outage?
-    let i = 0;
-    while (i < runs.length && !failed(runs[i])) i++;
+    // Newest run is green. Announce recovery only on the run that actually
+    // ended the streak — i.e. the one immediately after the last failure.
+    // Skipping *all* leading successes instead would re-announce on every green
+    // run until the failures aged out of this 20-run window, turning one
+    // recovery into hours of duplicate DMs.
     let priorFails = 0;
-    while (i < runs.length && failed(runs[i])) { priorFails++; i++; }
+    if (runs.length > 1 && failed(runs[1])) {
+      let i = 1;
+      while (i < runs.length && failed(runs[i])) { priorFails++; i++; }
+    }
 
     if (priorFails >= THRESHOLD && SLACK_TOKEN) {
       await slackPost(
