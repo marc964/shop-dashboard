@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 71.8,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Charging",
@@ -69,8 +69,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 61.5,
-      "pct_of_total": 9.2,
+      "total_hours": 63.5,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -86,7 +86,7 @@
         },
         {
           "task": "Cooling",
-          "hours": 5.0
+          "hours": 7.0
         },
         {
           "task": "Engineering - Core",
@@ -104,7 +104,7 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 57.2,
+      "total_hours": 57.8,
       "pct_of_total": 8.6,
       "tasks": [
         {
@@ -121,7 +121,7 @@
         },
         {
           "task": "Steering",
-          "hours": 5.0
+          "hours": 5.5
         },
         {
           "task": "Exterior",
@@ -148,7 +148,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 45.8,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -372,20 +372,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 99.5,
-    "pct_of_total": 15.0,
-    "avg_per_person_per_day": 1.13,
+    "total_hours": 101.0,
+    "pct_of_total": 15.1,
+    "avg_per_person_per_day": 1.15,
     "flagged": true,
     "tech_count": 8,
     "working_days": 11,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 41.8
+        "hours": 42.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 36.0
+        "hours": 36.5
       },
       {
         "label": "Personal Meetings",
@@ -393,7 +393,7 @@
       },
       {
         "label": "Other",
-        "hours": 5.5
+        "hours": 6.0
       },
       {
         "label": "Organization",
@@ -420,7 +420,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 33.0,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -494,7 +494,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -515,10 +515,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 431.0,
-    "non_billable_hours": 234.0,
+    "billable_hours": 433.5,
+    "non_billable_hours": 235.5,
     "pto_hours": 12.0,
-    "total_hours": 665.0
+    "total_hours": 669.0
   },
-  "generated_at": "2026-08-17T18:49:08Z"
+  "generated_at": "2026-08-17T19:28:12Z"
 }
