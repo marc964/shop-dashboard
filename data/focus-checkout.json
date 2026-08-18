@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T21:49:35.758646Z",
+  "updated_at": "2026-08-18T22:25:07.551344Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2137,11 +2137,16 @@
                 {
                   "author": "Ben Drinkard",
                   "date": "2026-08-18 00:18",
-                  "text": "1000014712.jpg1000014711.jpg1000014710.jpg"
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7c633ac978ca6bdd2907a49565b3c0a6488758669b6cd6445076715d4f875ac7"
+              "content_hash": "10ee3f3eed5efca6514b5bb23bb9bb271d241eb34496cb68de894dd69369e530"
             },
             {
               "id": "868ka4d5e",
@@ -2502,5 +2507,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T21:47:59Z"
+  "generated_at": "2026-08-18T22:23:28Z"
 }
