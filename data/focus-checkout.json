@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T23:23:26.396750Z",
+  "updated_at": "2026-08-18T23:48:53.698953Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -912,10 +912,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-17 22:55",
                   "text": "Used Claude to plot the trials from Friday. Determined peak amps wise my tune looks good, just needs to have a better \"feel\" in one area. Developed a plan for a new torque limit tune based from amperage feedback instead of torque. Still need to generate number to input to Raptor-Service and actually test."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-18 23:37",
+                  "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f45ad0378d7287cd595808bd99e0633d7374040c8fd19c3a5b9f0cb1b4cf11ba"
+              "content_hash": "4c8fbc12eb10144ef711ffda34a95e9be6428ff28d7d63e794e67f82202a1f59"
             }
           ]
         }
@@ -2522,5 +2527,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T23:21:46Z"
+  "generated_at": "2026-08-18T23:47:15Z"
 }
