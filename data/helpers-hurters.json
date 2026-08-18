@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 76.2,
-      "pct_of_total": 10.8,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Charging",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 63.5,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -104,8 +104,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 58.8,
-      "pct_of_total": 8.3,
+      "total_hours": 60.8,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -120,12 +120,12 @@
           "hours": 12.5
         },
         {
-          "task": "Steering",
-          "hours": 5.5
+          "task": "Exterior",
+          "hours": 6.5
         },
         {
-          "task": "Exterior",
-          "hours": 4.5
+          "task": "Steering",
+          "hours": 5.5
         },
         {
           "task": "Vehicle Control",
@@ -343,7 +343,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 19.5,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -385,7 +385,7 @@
   ],
   "shop_work": {
     "total_hours": 106.0,
-    "pct_of_total": 15.0,
+    "pct_of_total": 14.9,
     "avg_per_person_per_day": 1.1,
     "flagged": true,
     "tech_count": 8,
@@ -527,10 +527,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 458.8,
+    "billable_hours": 460.8,
     "non_billable_hours": 248.8,
     "pto_hours": 12.0,
-    "total_hours": 707.5
+    "total_hours": 709.5
   },
-  "generated_at": "2026-08-18T13:41:54Z"
+  "generated_at": "2026-08-18T14:17:10Z"
 }
