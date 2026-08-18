@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T05:58:38.462647Z",
+  "updated_at": "2026-08-18T06:54:11.526503Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1526,9 +1526,40 @@
               "status": "Open",
               "list": "Miner 95 911",
               "url": "https://app.clickup.com/t/868jy3yw8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:37",
+                  "text": "Coordinating with TPWS on motor pick up. Spoke to Frannie week of 8/3."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6dde146d2b6ad4f8818c059468c6adee493042dc4411cce77e35c4201c2ba9c9"
+              "content_hash": "02a901f76b0a6294c5f8636659dcf9f7e4c3cc2efe4de867ef4d587fa1683c37"
             },
             {
               "id": "868jy3ykv",
@@ -1536,9 +1567,15 @@
               "status": "Open",
               "list": "Miner 95 911",
               "url": "https://app.clickup.com/t/868jy3ykv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "7e77149c11b59fb805f291356f8d6430bce389c65531399889727ac798c86add"
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
             }
           ]
         },
@@ -1734,9 +1771,30 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kpyf6y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:29",
+                  "text": "Removed hood.\nRemoved front battery box for rework."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:13",
+                  "text": "Flipped, lifted and dropped front battery box into position for install."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:53",
+                  "text": "Installed box 2\nDifficulty lining up M8s - eventually got them all.\nInstalled VCU stack.\nReinstalled MSDs and HV , cooling\nReinstalled 12V.\nReinstalled hood.\nTest-drove, briefly. No issues.\n@Marc Davis to test drive and we will pull logs, see voltage drop across busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 18:03",
+                  "text": "Vehicle shuffle to get Preheim back into position.\nDrained motor circuit coolant.\nDisconnected battery box connections.\nRemoved vertical mounting hardware - two broken/crossthreaded bolts. Will need repair before reinstall.\nRemoved coolant hoses from hardlines.\nRemoved charge controller connections\nDropped motor 6\", then disconnected all charger connections.\nDropped assembly\nDisassembled assembly. Separated battery box from mounts. Ready for disassembly.\nNote:\nCross threaded bolts x2 (see above)\nAppears to be a leak from battery box coolant quick connect / barb.\nBrake line extremely close to battery box assembly."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83ee4832e7032148212b866b55febb2d66bef71fe765b4faa8332bb8ee21a32c"
+              "content_hash": "73423a2d5abe7cf847d0df30412bed35fa58344402f5096d8b463437c84ae8dc"
             },
             {
               "id": "868knpamj",
@@ -1744,9 +1802,65 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868knpamj",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "This is also certainly a contributing factor to the anomalous temperature readings we were getting on these boxes. (We took this box apart a few weeks ago to investigate the thermistors)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Diagnosis on Preheim voltage drop issue:\n\nBox 2 (590 D4) pulled.\nTested our cheap miliohmeter on the MEB_S3 and misc. busbars.\nThe tool: I'm not 100% convinced on the absolute values, which seem higher than should be expected even in a 'perfect' scenario... I think we can chalk that up to the quality of the leads. This Amazon special is like $130 total... Hioki leads by themselves are $250-$750.The tool itself is solid. Consistent, reliable readings, maintains it's 'zero' point, you can re-test the same connection after testing a few others and the value is accurate to the uOhm. So these values are useful compared to themselves, not to what we actually expect if we were measuring with a $2000 meter.\n\nWhat I found is that there was a lack of contact at all three of the 'lateral' busbars (going from side-to-side on a module).\n\nYou can see this in the NOOXID pattern on the busbars. The module connections which had the worst values had the smallest area of NOOXID compression.\n\nThis is primarily due to insufficient material cut out of the protective housing on the 590s.\u00a0 This caused the plastic to be .5mm-1.5mm proud of the terminal, causing the busbar to not make full contact. You could also see a small amount of plastic being smashed between the busbar and the terminal.\n\nA secondary cause was excessive insulation on the busbars, which interfered with the plastic housing.\n\nIt wasn't pretty, but I was able to trim down the excess plastic using fine snips to where no further material was proud. I also trimmed back the insulation where necessary. This would be much more easily accomplished prior to installation.\n\nMeasurements were taken from internal-module-busbar directly adjacent to the desired joint to be measured. Meter was zerod to this value to reduce discrepancies relating to mating surface."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Troubleshoot voltage issue \u2014 work performed August 10, 2026\nI set up the Vici VC480C+ micro-ohmmeter on the 20 m\u03a9 range and verified its zero behavior by re-zeroing on a terminal-to-terminal placement and re-measuring each joint. Implied offset was 0.69 / 0.73 / 0.68 m\u03a9 across spans of 1.19\u20131.92 m\u03a9, with no relationship to reading magnitude. Repeatability is \u00b10.025 m\u03a9. All readings below are terminal-zeroed.\nI measured all three module-to-module busbar joints in Box 2 over two passes. As found: 1-to-2 at 1.23 m\u03a9, 2-to-3 at 0.46 m\u03a9, 3-to-4 at 0.72 m\u03a9. Ranking held across both passes.\nI pulled the 1-to-2 and 3-to-4 busbars. The NO-OX-ID witness pattern showed partial compression on both. The orange terminal housing on the LYTH VDA590 sits up to 1.7 mm proud of the terminal face and was visibly crushed between busbar and terminal.\nI trimmed the housing, applied NO-OX-ID and reinstalled each joint. On 3-to-4 I also found HV insulation fouling the joint face and removed it. 2-to-3 needed the housing cut down but no insulation trim.\nResults\n\nundefined\n3-to-4 read 0.56 m\u03a9 reinstalled dry, before insulation removal and NO-OX-ID.\nDocumented with 72 photos."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:27",
+                  "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:31",
+                  "text": "Removed shell from front box.\nNote: Shell is glued on, not o-ring. Difficult to remove shells, needed to be worked off with plastic chisel without damaging powdercoat.\nRemoved A-plate\nInspected joints. Issue present.\nCrushed wire on MSD amphenol needs replacement."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-12 23:38",
+                  "text": "undefinedD8 results"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-12 23:40",
+                  "text": "Disassembled module havlves and busbar assemblies. Measured each busbar span before removal. Measured after rework. Experimented. Resistance values significantly dropped after flipping busbar / block assemblies, due to some 'bowing' present after torquing. High torque also very useful for getting lowest resistance value."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:12",
+                  "text": "Finalized and sealed battery box.\nRepaired damaged wiring.\nNote: Excessive time due to box being sealed with silicone, not rubber o-ring. Had to clean before reinstall."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:50",
+                  "text": "Compared IRL readings to CANbus readings.\nMagnitudes don't correlate exactly miliohmeter to CANbus measurement (I assume that as the metal heats up and expands the measured resistance values will change.) but otherwise pretty darn close. No surprises. I think we should see a marked decrease with the rework.\nScreenshot 2026-08-14 174007.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 22:43",
+                  "text": "Partial reassembly. Will complete tomorrow AM.\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 22:43",
+                  "text": "Disassembled S4.\nInvestigated:\nTerminal resistance dropped by 50% after retorquing.\nAfter rework (flipping, new NOOXID, M6x20mm screws w/ blue loctite and larger washer), 90% reduction.\nS4 \u2014 all readings, terminal-zeroed:\n\nundefined"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "40ad0bf03bff84ecd3cac0ad1418be6fe502b61bf7d75225c7ef1ab522d55e21"
+              "content_hash": "b576973cd830ba3ba6e9636f326315376fcddfa65a2515f85bdfd7930e62df15"
             }
           ]
         },
@@ -1774,9 +1888,25 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
+              "content_hash": "a3d94edfbd5dccbdce89684c59d3e32fce491bea9d70a7dcfe6b40947da1df8b"
             }
           ]
         }
@@ -1923,9 +2053,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868jwk2kc",
@@ -1988,9 +2124,30 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014712.jpg1000014711.jpg1000014710.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "7c633ac978ca6bdd2907a49565b3c0a6488758669b6cd6445076715d4f875ac7"
             },
             {
               "id": "868ka4d5e",
@@ -1998,9 +2155,95 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 16:36",
+                  "text": "ordering interior kit"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:57",
+                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "In communication with customer on this."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:25",
+                  "text": "Dash upper pad replaced"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:26",
+                  "text": "Door panels unboxed and test fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:30",
+                  "text": "1000014098.jpg1000014099.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:12",
+                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:14",
+                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:06",
+                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:07",
+                  "text": "Dave is picking up front and rear bench seat tonight"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "1000014208.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "Rubber seam installed in door panel\nDoor panel installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:56",
+                  "text": "Door panel arm rests ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
             },
             {
               "id": "868gaza9t",
@@ -2018,9 +2261,35 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpyh0j",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:51",
+                  "text": "Fuel filler mocked up\nCut marks made\nFiller neck cut down and planed smooth\nFlange deburred\nFiller neck sanded and prepped for paint\nNeck cleaned and primed\nNeck painted and left to cure over night\nBody to neck gasket sourced and ordered\nBed side to flange gasket sourced and ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:56",
+                  "text": "1000014575.jpg1000014606.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:36",
+                  "text": "Fuel filler received once more coat of paint to remove light spots"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:24",
+                  "text": "Fuel filler pass through in body floor traced\nTemplate used to cut steel plate\nPlate shaped to fit floor contour\nPlate cleaned, prepped and painted\nPlate was sealed w/ RTV and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:28",
+                  "text": "1000014624.jpg1000014620.jpg1000014625.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "c1f99d329743e991831fcf033174356957eda38028b485d81bc3e506568dea81"
+              "content_hash": "c26e5307aa3ace2238a86a5263075f3bb68b8ec45966468578eecefffb51b22e"
             }
           ]
         },
@@ -2033,9 +2302,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-15 23:03",
+                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
+              "content_hash": "861056c91b88b1941ad756218e7d8f42c5ad6e0eaab0bdddd993fd79b59ef11a"
             },
             {
               "id": "868ka1pgr",
@@ -2093,9 +2373,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-05 21:03",
+                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "54c97fee58c94e39c2ae390157e58282d52742d45f9544ebdcbbbb136088511f"
+              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
             }
           ]
         }
@@ -2335,5 +2621,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T05:57:04Z"
+  "generated_at": "2026-08-18T06:52:18Z"
 }
