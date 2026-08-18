@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 76.2,
-      "pct_of_total": 11.0,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Charging",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 63.5,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -105,7 +105,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 58.8,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -147,12 +147,12 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 45.8,
-      "pct_of_total": 6.6,
+      "total_hours": 51.2,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 13.2
+          "hours": 15.8
         },
         {
           "task": "Battery Pack",
@@ -164,7 +164,7 @@
         },
         {
           "task": "Audio",
-          "hours": 5.0
+          "hours": 8.0
         },
         {
           "task": "Cooling",
@@ -193,9 +193,56 @@
       ]
     },
     {
+      "project": "Nolan 70 Challenger",
+      "total_hours": 40.5,
+      "pct_of_total": 5.8,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 10.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 8.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 7.5
+        },
+        {
+          "task": "Interior",
+          "hours": 5.2
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 3.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.2
+        },
+        {
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 0.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 40.2,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -236,56 +283,9 @@
       ]
     },
     {
-      "project": "Nolan 70 Challenger",
-      "total_hours": 40.0,
-      "pct_of_total": 5.8,
-      "tasks": [
-        {
-          "task": "Wiring - OEM",
-          "hours": 10.0
-        },
-        {
-          "task": "Exterior",
-          "hours": 8.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 7.0
-        },
-        {
-          "task": "Interior",
-          "hours": 5.2
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 3.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.2
-        },
-        {
-          "task": "Audio",
-          "hours": 2.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 0.5
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -304,7 +304,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Inspection",
@@ -384,24 +384,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 103.5,
-    "pct_of_total": 14.9,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 105.0,
+    "pct_of_total": 15.0,
+    "avg_per_person_per_day": 1.09,
     "flagged": true,
     "tech_count": 8,
-    "working_days": 11,
+    "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 43.8
+        "hours": 44.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 37.5
+        "hours": 38.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 15.0
+        "hours": 15.5
       },
       {
         "label": "Other",
@@ -421,7 +421,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -432,7 +432,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 36.8,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -527,10 +527,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 452.8,
-    "non_billable_hours": 241.8,
+    "billable_hours": 458.8,
+    "non_billable_hours": 243.2,
     "pto_hours": 12.0,
-    "total_hours": 694.5
+    "total_hours": 702.0
   },
-  "generated_at": "2026-08-17T23:47:04Z"
+  "generated_at": "2026-08-18T01:13:15Z"
 }

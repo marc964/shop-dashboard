@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T23:48:48.669151Z",
+  "updated_at": "2026-08-18T01:15:04.700670Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -456,10 +456,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-06 19:55",
                   "text": "test drove the car\nfelt the vibration\njacked the car up\nremoved the wheels and brake drums\nspun the car up\nchecked for the vibration\nDS looked out\nmeasured the run out\nfound it to be 22 tho\nchecked runout at the CV\nit was 22 tho also\nfound that the Pinion adapter was not clocked the same\nremoved the bolts and re clocked it\nrunout is at 4 tho now\nstarted spinning it up again\nvibration was less than before\nstarted adding weight\nany weight added made vibrations worse\nchecked several places on the DS but no avail\nMarc suggested driving it while adjusting the weight rings\nmade several laps any weight made the vibrations more apparent\nremoved the weight and it feels better\nMarc drove and likes it\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/55b7a6d3-8d5d-4745-8bbb-294dd0e23296/IMG_1832.mov?view=open\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/4f9a175b-8341-4e77-9c86-6a85eb469d44/IMG_1831.mov?view=open"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-18 01:13",
+                  "text": "rebalanced the DS clocked the pinion adapter several times removed the pinion and clocked it also\nIMG_1900.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "62a63547ff31a49b8f1bfe2bf3f8268fdc76c0467664ee34fab034a52ab46d4d"
+              "content_hash": "ec811d1b812066b2c63af1cd6184afbd236a6c30df42710fe38021071103000c"
             }
           ]
         }
@@ -2129,10 +2134,20 @@
                   "author": "Ben Drinkard",
                   "date": "2026-08-11 16:29",
                   "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014712.jpg1000014711.jpg1000014710.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "05b12e98b986c5e77abee64cc0497a9bd1bde5a018eab0acc795255a92f3a9cd"
+              "content_hash": "7c633ac978ca6bdd2907a49565b3c0a6488758669b6cd6445076715d4f875ac7"
             },
             {
               "id": "868ka4d5e",
@@ -2606,5 +2621,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-17T23:47:04Z"
+  "generated_at": "2026-08-18T01:13:15Z"
 }
