@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 76.2,
-      "pct_of_total": 10.4,
+      "total_hours": 77.2,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Charging",
-          "hours": 14.5
+          "hours": 15.0
         },
         {
           "task": "Vehicle Control",
@@ -42,6 +42,10 @@
           "hours": 2.5
         },
         {
+          "task": "Instrumentation",
+          "hours": 2.0
+        },
+        {
           "task": "Battery Pack",
           "hours": 2.0
         },
@@ -56,10 +60,6 @@
         {
           "task": "Engineering - Product",
           "hours": 1.8
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 1.5
         },
         {
           "task": "Manufacturing - Core",
@@ -535,10 +535,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 474.2,
+    "billable_hours": 475.2,
     "non_billable_hours": 260.2,
     "pto_hours": 12.0,
-    "total_hours": 734.5
+    "total_hours": 735.5
   },
-  "generated_at": "2026-08-18T19:29:22Z"
+  "generated_at": "2026-08-18T19:51:18Z"
 }
