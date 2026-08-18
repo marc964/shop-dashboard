@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 76.2,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Charging",
@@ -69,8 +69,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 64.0,
-      "pct_of_total": 8.9,
+      "total_hours": 66.5,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -78,7 +78,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 11.5
+          "hours": 14.0
         },
         {
           "task": "Charging",
@@ -105,7 +105,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 61.8,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -148,7 +148,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 51.2,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -242,7 +242,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 40.2,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -384,20 +384,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 112.8,
+    "total_hours": 113.8,
     "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.17,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 45.2
+        "hours": 45.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 40.8
+        "hours": 41.2
       },
       {
         "label": "Personal Meetings",
@@ -432,7 +432,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -473,7 +473,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -517,7 +517,7 @@
     {
       "project": "Weidman-Iris 85 911",
       "total_hours": 4.0,
-      "pct_of_total": 0.6,
+      "pct_of_total": 0.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -527,10 +527,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 462.2,
-    "non_billable_hours": 258.5,
+    "billable_hours": 468.2,
+    "non_billable_hours": 259.5,
     "pto_hours": 12.0,
-    "total_hours": 720.8
+    "total_hours": 727.8
   },
-  "generated_at": "2026-08-18T18:03:40Z"
+  "generated_at": "2026-08-18T18:56:15Z"
 }

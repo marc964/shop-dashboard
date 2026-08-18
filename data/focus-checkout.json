@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T18:05:32.998558Z",
+  "updated_at": "2026-08-18T18:57:58.846515Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -446,9 +446,15 @@
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868ktkqf3",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-18 18:35",
+                  "text": "Test drove, tested functions, lifted car and inspected underneath. cleaned driveshaft from previous marks and added one blue one through the cv, adapter and yoke. inspected under hood, interior and trunk. took photos for marc to use for the client doc and filled out PDI sheet."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
+              "content_hash": "4c3122ec5825ec407fe3d8c50929dfaf8620123fd7fb42bfd63de5a4895ea334"
             }
           ]
         }
@@ -1950,7 +1956,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 40
+        "open_tasks": 44
       },
       "assignees": [
         {
@@ -2052,15 +2058,29 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ktqjxq",
+              "name": "Install seat belts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqjxq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+            },
+            {
+              "id": "868ktqj7a",
+              "name": "Install steering wheel",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqj7a",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4eefcecc12042d45511a40e69baf8e36f7e966048db1eeb9896e80a02f248372"
             },
             {
               "id": "868gaza16",
@@ -2073,6 +2093,16 @@
               "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
             },
             {
+              "id": "868ktqjqy",
+              "name": "Refinish rear seat mounts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqjqy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
+            },
+            {
               "id": "868hbmtxh",
               "name": "Set preliminary alignment",
               "status": "Open",
@@ -2081,6 +2111,26 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
+            },
+            {
+              "id": "868ka1nuh",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ka1nuh",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+            },
+            {
+              "id": "868ktqm7v",
+              "name": "Test OEM wiring",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqm7v",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "44428effbbac51861d82c768f8aa9a4466cf20df664b3f1da3721bb9aa7ce82c"
             }
           ]
         },
@@ -2195,20 +2245,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-15 23:03",
-                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "861056c91b88b1941ad756218e7d8f42c5ad6e0eaab0bdddd993fd79b59ef11a"
+              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
             },
             {
               "id": "868ka1pgr",
@@ -2216,16 +2255,6 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
-            },
-            {
-              "id": "868ka1nuh",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ka1nuh",
               "comments": [],
               "checklist_items": [],
               "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
@@ -2266,15 +2295,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-05 21:03",
-                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
+              "content_hash": "54c97fee58c94e39c2ae390157e58282d52742d45f9544ebdcbbbb136088511f"
             }
           ]
         }
@@ -2514,5 +2537,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T18:03:40Z"
+  "generated_at": "2026-08-18T18:56:15Z"
 }
