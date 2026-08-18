@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T11:27:13.285071Z",
+  "updated_at": "2026-08-18T11:52:57.720715Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2507,15 +2507,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kr28at",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:49",
-                  "text": "Multiple noises in the rear of this car. Removed rear licence plate bracket, re-tightened rear shock absorbers, R/R rear seat and installed insulation & lubrication at contact points. Also removed spare tire and tire well cover too help eliminate noises noted in the boot. This allowed me to note a knocking noise coming from charger ground cable contacting inner rear bulkhead. Re-routed & secured this cable. Also removed & reinstalled fender skirts as part of the diagnosis process."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a17c452c86cb09c43a1bfa8b3a5226391f5cff07c6f97fa463cd125ae5aa78fc"
+              "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
             },
             {
               "id": "868jj1ac8",
@@ -2523,15 +2517,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:10",
-                  "text": "I don't believe we have a design for this yet"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "28600f08ef84fb5d1748ae12c51501068b170d98d2dc0bc8d566eaf9addc3c7a"
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
               "id": "868jj17xm",
@@ -2539,25 +2527,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj17xm",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-09 12:53",
-                  "text": "Waiting to install hood until after initial startup. This will make for easier access to things that may come up & need addressing during startup."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-13 18:16",
-                  "text": "Installed bonnet and performed adjustments to hinges, latch & striker to try and achieve a good fit. I'm concerned that the drivers side rear corner sits a little high. Also installed grille and side view mirrors"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 11:57",
-                  "text": "Performed additional adjustments to hood at drivers side rear. Got this corner a little lower, but some slop/wear in this hing noted. I'mm calling it good and closing the task"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "eb4ada697c145109999dab40213272bf357f2310a0032c33591e761a37b27ab6"
+              "content_hash": "1ea422e0bc66164dbe32d06fc85657b99192c5b2d60f5fdc0d4ff5c710e12944"
             },
             {
               "id": "868kqm4ew",
@@ -2565,20 +2537,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kqm4ew",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-12 19:47",
-                  "text": "Rackd vehicle and ensured all undercar components are secure. Performed initial shakedown run & noted rear seat noises (rattle & creak) also stop lamp failure. (ordered stop lamp)"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:43",
-                  "text": "Performed additional road testing to get some additional miles on this car & to listen for NVH"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9f82b3ae7335f7663074bc8e26aadf3b3e8387803297c1f7ab7333def2dd0b0d"
+              "content_hash": "776444cd8609f5d469d019a33ea9b0551fe4d87c271be731bac3d13d844f9cc3"
             },
             {
               "id": "868kt2ttw",
@@ -2596,25 +2557,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868j84xbd",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-04 15:29",
-                  "text": "Task on hold. Must recondition brakes first & then bleed before getting vehicle back on its wheels. At that point I'll determine what will be required for ride height adjustments. I suspect the front may sit a little high and so we may lower the front or raise the rear."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:01",
-                  "text": "Car is back on the ground and sitting at or close to a proper ride height. If anything, the front of the car may be just slightly high. Spacing the spring pan down with spacers or washers should correct this.\n\nThe factory-specified overall height for a 1962 Jaguar Mark 2 (MK2) is\u00a057.5 inches\u00a0(146.1 cm) at kerb weight. The standard ground clearance is exactly 7 inches (17.8 cm).\u00a0[1,\u00a02,\u00a03]\nBecause the vehicle uses coil springs in the front and semi-elliptical leaf springs in the back, checking the physical ride height is often done using specific points:\u00a0[1,\u00a02,\u00a03,\u00a04]\nFront:\u00a0The correct front suspension height is achieved when the lower wishbone arms are perfectly parallel/level with the front subframe. Enthusiast consensus suggests that you should be able to fit about \"three fingers\" vertically between the front tire and the top of the wheel arch.\nRear:\u00a0The general enthusiast consensus suggests a measurement of 18.5 to 19 inches from the ground up to the center of the boot lock.\u00a0[1,\u00a02,\u00a03]\nHow to Adjust the Ride Height\nFront:\u00a0Front ride height is set by coil springs. If it is too high (common after installing new, modern replacement springs), owners typically use shims or washers placed between the lower control arm and the spring pan to achieve the desired drop.\u00a0[1,\u00a02,\u00a03]\nRear:\u00a0The rear height is dictated by leaf springs. Adjustments to the rear require adding or removing spacers/shims between the rear axle and the leaf springs.\u00a0[1,\u00a02,\u00a03]\n\nI will re-evaluate this once car has been driven"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-10 17:25",
-                  "text": "Doing additional research about what it will take to alter the ride height of this car if needed."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f405347efe77d13c9e655d24df437ca8d8d200735c4bd5ce781442c08ecb7956"
+              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
             },
             {
               "id": "868krdet4",
@@ -2622,15 +2567,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868krdet4",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:44",
-                  "text": "Researched & selected replacement tire options for Ryan to share with the client."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7c3be9eddba9100bdb7cd58029cbb1c598882e10f998eef33578211ac4e55890"
+              "content_hash": "70e8f1caef41645cc12446c38d9496ee2e36353205a54849fa59e244b9d88223"
             },
             {
               "id": "868kqjp0r",
@@ -2638,20 +2577,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kqjp0r",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-12 19:28",
-                  "text": "UPDATE: Car stuck in PARK.\nJust put about 5 miles on this car. Pulled up to the shop. Put car in park to get out & open bay door & now I'm unable to select R,N or D. Also no stop lights now. Jumper bypass of hydraulic stop lamp switch & still no gear selection or stop lamps. No DTCS present & key cycle didn't restore functionality. Used parking brake bypass button\u00a0 so I could push car into the shop\n\n\nAaand..... my jumper wires shit the bed open circuit. New jumper wire proves stop lamp switch problem\n\nBrakes feel good. Did some aggressive stopping to burnish the new brakes and this is likely why stop lamp switch failed.\nNo fluid leakage, pedal feels great and returns, vacuum booster working great, brakes are not locked up. Just a dead switch\n\n\nOrdered replacement stop lamp switch"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 10:52",
-                  "text": "Installed replacement stop lamp switch"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ae37d2b8e4b450159e9170ab2ad7dc1e6d4d7cd277cd1fc60f3dca92b4ea85d"
+              "content_hash": "5e27b5338f754d5a9a01f4db28e74d4262d820a34dfe6f5ab771ae8ebd64bf0a"
             },
             {
               "id": "868kt2t1w",
@@ -2684,106 +2612,14 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 02:34",
-                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 21:43",
-                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-31 21:33",
-                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-03 23:47",
-                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-11 22:31",
-                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-13 22:16",
-                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:08",
-                  "text": "image.png\nsettings found in raptor when checking initially"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:13",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:34",
-                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:36",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:44",
-                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:10",
-                  "text": "image.png\nHad to update the vehicle weight to kg."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:25",
-                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform full overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "1456e6345716ec1bea3165588b03b9608508920726c912d611d0fdab568be850"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-08-18T11:25:10Z"
+  "generated_at": "2026-08-18T11:51:21Z"
 }
