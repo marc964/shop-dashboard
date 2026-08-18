@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T17:44:30.372278Z",
+  "updated_at": "2026-08-18T18:05:32.998558Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -240,7 +240,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -434,37 +434,6 @@
                 }
               ],
               "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
-            }
-          ]
-        },
-        {
-          "name": "Billy Arrasmith",
-          "tasks": [
-            {
-              "id": "868k0jcn7",
-              "name": "Re-balance DS",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868k0jcn7",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-06-12 16:23",
-                  "text": "Colvin likely unbolted DS from diff during rear end repair work and it seems we need to rebalance DS as a result."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-06 19:55",
-                  "text": "test drove the car\nfelt the vibration\njacked the car up\nremoved the wheels and brake drums\nspun the car up\nchecked for the vibration\nDS looked out\nmeasured the run out\nfound it to be 22 tho\nchecked runout at the CV\nit was 22 tho also\nfound that the Pinion adapter was not clocked the same\nremoved the bolts and re clocked it\nrunout is at 4 tho now\nstarted spinning it up again\nvibration was less than before\nstarted adding weight\nany weight added made vibrations worse\nchecked several places on the DS but no avail\nMarc suggested driving it while adjusting the weight rings\nmade several laps any weight made the vibrations more apparent\nremoved the weight and it feels better\nMarc drove and likes it\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/55b7a6d3-8d5d-4745-8bbb-294dd0e23296/IMG_1832.mov?view=open\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/4f9a175b-8341-4e77-9c86-6a85eb469d44/IMG_1831.mov?view=open"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-18 01:13",
-                  "text": "rebalanced the DS clocked the pinion adapter several times removed the pinion and clocked it also\nIMG_1900.jpeg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ec811d1b812066b2c63af1cd6184afbd236a6c30df42710fe38021071103000c"
             }
           ]
         },
@@ -1981,7 +1950,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 42
+        "open_tasks": 40
       },
       "assignees": [
         {
@@ -2016,16 +1985,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
-            },
-            {
-              "id": "868jwk5y6",
-              "name": "Bleed and test system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868jwk5y6",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "31c7d78f6cfa3315721633219b60957c61cf809e8fe256aa5ed1c1975c3f736c"
             },
             {
               "id": "868hbmvcq",
@@ -2068,6 +2027,16 @@
               "content_hash": "d727bca8f854ed2a7c735aac75c9fd86eaba4873688a3ea6a6acd65cb53bdfbf"
             },
             {
+              "id": "868ktqdv5",
+              "name": "Install audio system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqdv5",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+            },
+            {
               "id": "868hbnmkf",
               "name": "Install driveshafts",
               "status": "Open",
@@ -2092,26 +2061,6 @@
               ],
               "checklist_items": [],
               "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
-            },
-            {
-              "id": "868jwk2kc",
-              "name": "Install new door latches",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868jwk2kc",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "a83acec425f20763b4853455e13071b85500391a10f265597c7543b6f7a15f5e"
-            },
-            {
-              "id": "868gwbtjv",
-              "name": "Install rear box",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gwbtjv",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "b4b4be5eec4f5f1467bb59cda68172e2271c9d89836bb351492c930883e5908e"
             },
             {
               "id": "868gaza16",
@@ -2565,5 +2514,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T17:42:47Z"
+  "generated_at": "2026-08-18T18:03:40Z"
 }
