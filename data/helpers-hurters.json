@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 76.2,
-      "pct_of_total": 10.5,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Charging",
@@ -69,8 +69,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 66.5,
-      "pct_of_total": 9.1,
+      "total_hours": 71.5,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -89,6 +89,10 @@
           "hours": 7.0
         },
         {
+          "task": "Battery Pack",
+          "hours": 5.0
+        },
+        {
           "task": "Engineering - Core",
           "hours": 3.0
         },
@@ -105,7 +109,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 61.8,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -195,7 +199,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 40.5,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -285,7 +289,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -365,8 +369,8 @@
     },
     {
       "project": "Kohler E24",
-      "total_hours": 16.0,
-      "pct_of_total": 2.2,
+      "total_hours": 17.0,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -377,6 +381,10 @@
           "hours": 2.2
         },
         {
+          "task": "HVAC",
+          "hours": 1.0
+        },
+        {
           "task": "Cooling",
           "hours": 0.8
         }
@@ -384,16 +392,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 113.8,
+    "total_hours": 114.5,
     "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.18,
+    "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 45.8
+        "hours": 46.2
       },
       {
         "label": "Shop Meetings",
@@ -409,7 +417,7 @@
       },
       {
         "label": "Organization",
-        "hours": 3.8
+        "hours": 4.0
       },
       {
         "label": "Errands",
@@ -421,7 +429,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 39.8,
-      "pct_of_total": 5.5,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -443,7 +451,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 16.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -527,10 +535,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 468.2,
-    "non_billable_hours": 259.5,
+    "billable_hours": 474.2,
+    "non_billable_hours": 260.2,
     "pto_hours": 12.0,
-    "total_hours": 727.8
+    "total_hours": 734.5
   },
-  "generated_at": "2026-08-18T18:56:15Z"
+  "generated_at": "2026-08-18T19:29:22Z"
 }
