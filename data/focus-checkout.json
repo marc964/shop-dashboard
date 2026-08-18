@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T22:52:33.142595Z",
+  "updated_at": "2026-08-18T23:23:26.396750Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -845,10 +845,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-04 23:31",
                   "text": "Claude:\n\"Fix cooling. Stop chasing signals.\nThree reasons, and the third decides the order.\n1. The bus has given up what it has. We now know the derate driver (motor temp), the inverter's limit and which sensor it uses (module, 80 \u00b0C), and the coolant temperature (RTD1). The remaining signal mysteries \u2014 hot-spot reading zero, the duplicated coolant field, AEM's channel labels \u2014 wouldn't change a single action. Chasing them further is bookkeeping.\n\n2. The cooling system is already flat out and losing. Pump at 100 % duty and ~6,500 rpm for the entire evening \u2014 never modulated, no reserve. Module-to-coolant delta normal at 3.2 \u00b0C median. So heat transfer out of the modules is fine and the pump is maxed; the constraint is heat-rejection capacity, not control and not the interface.\n\n3. Order matters \u2014 settings first would make it worse. Raising the derate thresholds hands torque back, which puts more heat into a loop that's already out of margin, while the inverter sits at its 80 \u00b0C limit. Cooling first isn't just safer, it's the only sequence that isn't self-defeating. And it pays twice: cooler coolant means a cooler motor, which backs the derate off on its own and gives you some torque back without touching a single parameter.\n\nStart here \u2014 Fan1 is never commanded\nNot once, at any coolant temperature, all the way to 65 \u00b0C with 40 \u00b0C ambient. Fan2 runs continuously. Either this car only has one fan wired to the Fan2 output, or there's a second fan that isn't being asked to run \u2014 which would be free capacity sitting idle. That's a five-minute check and it's the cheapest possible outcome.\n\nAfter that, in cost order:\nAirflow at the radiator\u2014 blockage, missing shroud, or hot air recirculating. At 40 \u00b0C ambient every degree of approach matters.\nLoop topology\u2014 is the inverter fed before or after the motor? RTD1 is coolantbefore the inverterand it's already 62 \u00b0C. If a 129 \u00b0C motor sits upstream, the inverter is being handed pre-heated coolant and can never win. Worth confirming the plumbing order; if it is motor-then-inverter, re-routing or splitting the loop is likely the single biggest lever.\nRadiator capacity\u2014 to hold modules under 70 \u00b0C you need coolant near 50 \u00b0C, which is only 10 \u00b0C above that day's ambient. That may simply be more than this radiator can do, in which case it's a sizing decision.\nActual flow\u2014 the pump is commanded 100 %, but air lock or a restriction would still starve it.\"\nMe:\nI'm not sure what is meant by 'modules'. Is claude confusing the motor circuit and the battery circuit? Claude is only looking at the motor circuit, correct?\n\nNot sure what is referred to as 'fan 1' and 'fan 2', but I can confirm that all 3 fans come on as expected. There are currently two motor radiators, the original and the temporary secondary, both come on at the same time.\nAirflow at both radiators is questionable. We have one small radiator horizontally under the car, and one in the cubby on the rear driver's side.\nInverter is fed before the motor. Circuit currently:\nPump > inverter > motor > secondary rad > ovar > primary rad > reservoir\nRadiator capacity... I don't believe this is significantly different than any of our other cars.\nAir lock or starvation. I see no evidence of flow restriction. In the reservoir there are no bubbles, flow looks good, level stays steady.\n\n\n\n\nMy thoughts...\nAirflow on the primary radiator does appear to have an effect. Removing the skidplate increased the time-to-overheat by 25%.\nAdding a secondary radiator did make a significant improvement in the symptoms with no other changes Prior to that change coolant temps were over 160F and the symptom was inverter overtemp errors and the vehicle shutting off. Adding a second radiator in a spot with minimal airflow temps dropped by 20F. Not enough to prevent derating, but better than before.\nThe differences between this car and our other cars:\nSDU\nRadiator placement\n\n\nThings to test:\nI can swap the inverter inlets and see if that helps. As I mentioned before, I plumbed it backwards to how Tesla runs it. Could have an effect.\n\nToday:\nSwapped the inlet on the inverter.\nRemoved the cover on the LH fenderwell to increase airflow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 23:14",
+                  "text": "I did my overheating loop with heavy throttle application. No overheating, but no game-changing improvement on cooling. GUI temps are still roughly where they were prior to the last round of tunes. I did not observe any de-rating, but acceleration is still abnormal so I can't say for sure.\n\nMaximum inverter temp on GUI was 135 (typically hovers around 129F) and maximum motor temp on GUI was 200F in a 15 minute test drive. Ambient temp 98F.\n\nThat said, we're really down to the wire for an early September soft delivery. We need the radiator brackets designed immediately so they can be ordered and installed next week.\n\nThere is the possibility that the two derales are insufficient even once we get the tuning ironed out, but if we wait for that definitive data we will not be able to meet our soft-delivery deadline.\n\nWhatever we're going to do we need to decide today. I'm of the opinion that we should pull the trigger and have @geoff raynak or @Marshall Carter design the wheel-well radiator mount brackets and get them rush-shipped here so I can take care of it next week. Worst case scenario, we have to figure out a solution for the de-rating down the line, but Ferdman can drive it in the meantime. The inverter-overheat-shutdown has been resolved at least.\u00a0(edited)\n\nOnly visible to you"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "7c3e0588e1c8bd7817f7aa2f3d83836b5b02a93ad25f609921ea2b109d08e7f2"
+              "content_hash": "b81eb99b33b776d931be8cb4b4caf30b924d08bc51b5fc5add554f33ef4a0b8b"
             }
           ]
         },
@@ -1740,10 +1745,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-17 18:03",
                   "text": "Vehicle shuffle to get Preheim back into position.\nDrained motor circuit coolant.\nDisconnected battery box connections.\nRemoved vertical mounting hardware - two broken/crossthreaded bolts. Will need repair before reinstall.\nRemoved coolant hoses from hardlines.\nRemoved charge controller connections\nDropped motor 6\", then disconnected all charger connections.\nDropped assembly\nDisassembled assembly. Separated battery box from mounts. Ready for disassembly.\nNote:\nCross threaded bolts x2 (see above)\nAppears to be a leak from battery box coolant quick connect / barb.\nBrake line extremely close to battery box assembly."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 23:19",
+                  "text": "Flipped battery box and mounted into cradle.\nPerformed the following additional rework:\nBroken bolt in LH carrier - drilled out and re-tapped\nStripped thread in RH carrier - re-tapped\nAdded ground from chassis to charger.\nEnlarged holes in bracket/chassis to prevent further stripping from mis-alignment.\nPainted exposed steel, including where brackets were cut off.\nReplaced hardware with shofter hardware so as not to dig into battery box\nReinstalled box.\nInstalled the following connections:\nBattery coolant hoses - NOTE: Leak present at jiffytite. May need replacement. Will monitor tonight.\nHV battery leads.\nMSD\nHV LV\nMotor coolant hose.\nCharger connections (x4 grounds, LV, DCDC, AC, 12V out)\nCharge controller.\nCCS junction box.\nTorqued everything to spec.\n\nTomorrow AM:\nVacuum fill motor circuit\nReconnect 12V and test drive."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "73423a2d5abe7cf847d0df30412bed35fa58344402f5096d8b463437c84ae8dc"
+              "content_hash": "8b856284ca5d9f71f2c6fb7f2186295844711a203854151da1b888571aaa4855"
             },
             {
               "id": "868knpamj",
@@ -2512,5 +2522,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T22:50:58Z"
+  "generated_at": "2026-08-18T23:21:46Z"
 }

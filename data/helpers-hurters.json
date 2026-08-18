@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 77.2,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Charging",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 71.5,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -109,7 +109,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 61.8,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -151,12 +151,12 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 53.2,
-      "pct_of_total": 7.1,
+      "total_hours": 58.8,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Exterior",
-          "hours": 17.8
+          "hours": 23.2
         },
         {
           "task": "Battery Pack",
@@ -199,7 +199,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 46.8,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -289,7 +289,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 28.2,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -308,7 +308,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.8,
       "tasks": [
         {
           "task": "Inspection",
@@ -370,7 +370,7 @@
     {
       "project": "Kohler E24",
       "total_hours": 17.0,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -392,20 +392,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 116.0,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.21,
+    "total_hours": 117.0,
+    "pct_of_total": 15.5,
+    "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
     "working_days": 12,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 46.8
+        "hours": 47.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 41.8
+        "hours": 42.2
       },
       {
         "label": "Personal Meetings",
@@ -428,19 +428,19 @@
   "project_hurters": [
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 39.8,
-      "pct_of_total": 5.3,
+      "total_hours": 43.8,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 39.8
+          "hours": 43.8
         }
       ]
     },
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 5.3,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -450,12 +450,12 @@
     },
     {
       "project": "Ferdman 66 Bus",
-      "total_hours": 16.5,
+      "total_hours": 17.0,
       "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 11.0
+          "hours": 11.5
         },
         {
           "task": "Installation - Extra",
@@ -535,10 +535,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 483.8,
-    "non_billable_hours": 261.8,
+    "billable_hours": 489.2,
+    "non_billable_hours": 267.2,
     "pto_hours": 12.0,
-    "total_hours": 745.5
+    "total_hours": 756.5
   },
-  "generated_at": "2026-08-18T22:50:58Z"
+  "generated_at": "2026-08-18T23:21:46Z"
 }
