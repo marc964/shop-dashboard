@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T17:06:48.099133Z",
+  "updated_at": "2026-08-18T17:44:30.372278Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1513,12 +1513,103 @@
     },
     {
       "owner": "Miner",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
+      },
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:37",
+                  "text": "Coordinating with TPWS on motor pick up. Spoke to Frannie week of 8/3."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "02a901f76b0a6294c5f8636659dcf9f7e4c3cc2efe4de867ef4d587fa1683c37"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf9gv",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868krf9gv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
@@ -1781,10 +1872,25 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-17 22:43",
                   "text": "Disassembled S4.\nInvestigated:\nTerminal resistance dropped by 50% after retorquing.\nAfter rework (flipping, new NOOXID, M6x20mm screws w/ blue loctite and larger washer), 90% reduction.\nS4 \u2014 all readings, terminal-zeroed:\n\nundefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:22",
+                  "text": "undefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:23",
+                  "text": "Completed rework (see above).\nScreenshot 2026-08-18 112645.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:24",
+                  "text": "Reinstalled 2-3 busbar.\nReattached all loose connectors. Marked each one.\nRe-tightened BMS stack hardware\nReinstalled A-plate.\nReinstalled distribution block.\nCleaned mating surfaces.\nRe-sealed box.\nReady for reinstallation."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b576973cd830ba3ba6e9636f326315376fcddfa65a2515f85bdfd7930e62df15"
+              "content_hash": "a7e17bc7c3760dbbb1430941807a079c7614a3dd01ca85eb93c1df66906fd822"
             }
           ]
         },
@@ -2079,95 +2185,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-08 16:36",
-                  "text": "ordering interior kit"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:57",
-                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "In communication with customer on this."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:25",
-                  "text": "Dash upper pad replaced"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:26",
-                  "text": "Door panels unboxed and test fit"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:30",
-                  "text": "1000014098.jpg1000014099.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:12",
-                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:14",
-                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:06",
-                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:07",
-                  "text": "Dave is picking up front and rear bench seat tonight"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "1000014208.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "Rubber seam installed in door panel\nDoor panel installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:56",
-                  "text": "Door panel arm rests ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:45",
-                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:53",
-                  "text": "1000014562.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:55",
-                  "text": "Door panel armrests installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:13",
-                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
             },
             {
               "id": "868gaza9t",
@@ -2247,106 +2267,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "1.) PMU1 PMU2 - Communication Check",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "4.) PMU1 004-P13 Reverse Lights",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "5.) PMU1 002-P39 Digital GUI",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "6.) PMU1 012-P02 Brake Lights",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "7.) PMU1 011-P03 BMS Wake",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "8.) PMU1 006-P10 CCS Contactors",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "10.) PMU1 008 -P09 Negative Contactor",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "11.) PMU1 013-P01 Battery Heater",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "13.) PMU1 005-P12 Vacuum Pump",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 1.) Accelerator Pedal",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 2.) Brake Switch",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 3.) Ambient Air Temp Sensor",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 4.) HVIL",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 5.) PRND",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "684d11aa9614a9f92360fb955827797ad62b46c487784b6e7babddb0f4eaea0a"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             },
             {
               "id": "868ka1nuh",
@@ -2354,15 +2277,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ece03fbb24e07021674e38faa1795ff81f276b6af346c2a1d2b313e45fc0e306"
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             }
           ]
         },
@@ -2648,5 +2565,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-18T17:04:10Z"
+  "generated_at": "2026-08-18T17:42:47Z"
 }
