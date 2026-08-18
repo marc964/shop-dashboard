@@ -69,8 +69,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 63.5,
-      "pct_of_total": 8.9,
+      "total_hours": 64.0,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -78,7 +78,7 @@
         },
         {
           "task": "Manufacturing - Core",
-          "hours": 11.0
+          "hours": 11.5
         },
         {
           "task": "Charging",
@@ -105,7 +105,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 60.8,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -527,10 +527,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 460.8,
+    "billable_hours": 461.2,
     "non_billable_hours": 249.5,
     "pto_hours": 12.0,
-    "total_hours": 710.2
+    "total_hours": 710.8
   },
-  "generated_at": "2026-08-18T15:45:57Z"
+  "generated_at": "2026-08-18T16:31:14Z"
 }
