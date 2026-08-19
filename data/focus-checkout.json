@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T14:19:36.490560Z",
+  "updated_at": "2026-08-19T15:03:54.202762Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -88,9 +88,20 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868kqgqv9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 14:50",
+                  "text": "moved battery terminal over to one side of battery, and reinstalled everything. This task is done"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 14:53",
+                  "text": "1000027667.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8cc8cffed334389518ac9662a33d0d50801476ce341977aaa9f2af9bd14b7ad7"
+              "content_hash": "6d122e76753260ad4a66fef9f029101aead5e1a107528715fc39d6ac0db69134"
             },
             {
               "id": "868kqgqam",
@@ -98,9 +109,20 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868kqgqam",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 14:54",
+                  "text": "secured license plate via tape as we don't have a proper mounting solution without a bumper, also secured the Clients insurance, and also installed the registration sticker."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 14:58",
+                  "text": "1000027672.jpg1000027671.jpg1000027670.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6f1f9b138f73512b994364b5ea8eadfc85e3ab95521ca46ead958a97e4e545bf"
+              "content_hash": "677c31d12b19eba373e11971395d0f1faa6ec923c855fe030e4aa79f35338b5d"
             }
           ]
         },
@@ -2557,5 +2579,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T14:17:50Z"
+  "generated_at": "2026-08-19T15:01:44Z"
 }
