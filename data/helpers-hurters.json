@@ -69,7 +69,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 73.5,
+      "total_hours": 73.8,
       "pct_of_total": 8.8,
       "tasks": [
         {
@@ -107,6 +107,10 @@
         {
           "task": "Wiring - OEM",
           "hours": 1.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 0.2
         }
       ]
     },
@@ -257,8 +261,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 44.0,
-      "pct_of_total": 5.3,
+      "total_hours": 45.0,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -290,7 +294,7 @@
         },
         {
           "task": "Brakes",
-          "hours": 0.8
+          "hours": 1.8
         },
         {
           "task": "Motor & Transmission",
@@ -555,10 +559,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 547.5,
+    "billable_hours": 548.8,
     "non_billable_hours": 286.0,
     "pto_hours": 12.0,
-    "total_hours": 833.5
+    "total_hours": 834.8
   },
-  "generated_at": "2026-08-19T22:51:06Z"
+  "generated_at": "2026-08-19T23:22:15Z"
 }
