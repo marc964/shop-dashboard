@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T15:48:03.617915Z",
+  "updated_at": "2026-08-19T16:32:53.907468Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -76,56 +76,9 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 4
+        "open_tasks": 2
       },
       "assignees": [
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868kqgqv9",
-              "name": "Consolidate battery terminals",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868kqgqv9",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 14:50",
-                  "text": "moved battery terminal over to one side of battery, and reinstalled everything. This task is done"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 14:53",
-                  "text": "1000027667.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6d122e76753260ad4a66fef9f029101aead5e1a107528715fc39d6ac0db69134"
-            },
-            {
-              "id": "868kqgqam",
-              "name": "Install license plate",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868kqgqam",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 14:54",
-                  "text": "secured license plate via tape as we don't have a proper mounting solution without a bumper, also secured the Clients insurance, and also installed the registration sticker."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 14:58",
-                  "text": "1000027672.jpg1000027671.jpg1000027670.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "677c31d12b19eba373e11971395d0f1faa6ec923c855fe030e4aa79f35338b5d"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1006,7 +959,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 6
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -1048,6 +1001,31 @@
               ],
               "checklist_items": [],
               "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "f03cc36ea2161313bd4435bb91334292d56909c182d8e4a76335ecdd1877cc1a"
             }
           ]
         },
@@ -1111,21 +1089,6 @@
               ],
               "checklist_items": [],
               "content_hash": "90f4d73edab243aab6858e2aa45e727a3ba6b394fb3c8e9248978ecec64295c4"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868k2w2gy",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868k2w2gy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             }
           ]
         }
@@ -1242,7 +1205,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 6
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -1349,6 +1312,22 @@
               ],
               "checklist_items": [],
               "content_hash": "6ddc329fd860470c44af5a2be690528f58ee24dd38cf3244d16d91cbd1c7e8d4"
+            },
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             },
             {
               "id": "868knqdmw",
@@ -2443,7 +2422,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 24
+        "open_tasks": 26
       },
       "assignees": [
         {
@@ -2530,6 +2509,16 @@
               "content_hash": "70e8f1caef41645cc12446c38d9496ee2e36353205a54849fa59e244b9d88223"
             },
             {
+              "id": "868ku2rcq",
+              "name": "Troubleshoot GUI issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868ku2rcq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
+            },
+            {
               "id": "868kqjp0r",
               "name": "Troubleshoot brake switch issue",
               "status": "Open",
@@ -2573,11 +2562,21 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            },
+            {
+              "id": "868ku2tnf",
+              "name": "Troubleshoot GUI issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868ku2tnf",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-08-19T15:46:17Z"
+  "generated_at": "2026-08-19T16:31:02Z"
 }
