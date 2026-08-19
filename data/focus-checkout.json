@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T01:16:40.556873Z",
+  "updated_at": "2026-08-19T02:34:02.509284Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2012,9 +2012,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:08",
+                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "916ddfb05df9c91ca1e31966e95cba3bc0eb7a210fc5c92cac5c69e1815a16f9"
             },
             {
               "id": "868hbnmkf",
@@ -2078,9 +2084,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:02",
+                  "text": "removed rear seat mount brackets\nready for PC"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
+              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
             },
             {
               "id": "868hbmtxh",
@@ -2108,9 +2120,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqm7v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:07",
+                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "44428effbbac51861d82c768f8aa9a4466cf20df664b3f1da3721bb9aa7ce82c"
+              "content_hash": "a1dcb00ec9a78b6c862d9337fd95db4c21331cd0e1023847d1da7dbe28f8fdbd"
             }
           ]
         },
@@ -2527,5 +2545,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T01:14:38Z"
+  "generated_at": "2026-08-19T02:32:22Z"
 }
