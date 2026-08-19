@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 77.8,
-      "pct_of_total": 9.9,
+      "pct_of_total": 9.7,
       "tasks": [
         {
           "task": "Charging",
@@ -69,7 +69,7 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 72.2,
+      "total_hours": 73.5,
       "pct_of_total": 9.2,
       "tasks": [
         {
@@ -103,13 +103,17 @@
         {
           "task": "Vehicle Control",
           "hours": 2.8
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.2
         }
       ]
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 64.2,
-      "pct_of_total": 8.1,
+      "total_hours": 71.2,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -124,6 +128,10 @@
           "hours": 12.5
         },
         {
+          "task": "Steering",
+          "hours": 8.5
+        },
+        {
           "task": "Exterior",
           "hours": 7.5
         },
@@ -132,8 +140,8 @@
           "hours": 6.0
         },
         {
-          "task": "Steering",
-          "hours": 5.5
+          "task": "Instrumentation",
+          "hours": 4.0
         },
         {
           "task": "HVAC",
@@ -152,7 +160,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 63.8,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Exterior",
@@ -246,7 +254,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 44.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -351,7 +359,7 @@
     {
       "project": "Kohler E24",
       "total_hours": 19.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -374,7 +382,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 19.5,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -396,20 +404,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 123.5,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 124.5,
+    "pct_of_total": 15.6,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 50.2
+        "hours": 50.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 44.0
+        "hours": 44.5
       },
       {
         "label": "Personal Meetings",
@@ -444,7 +452,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -455,7 +463,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.0,
-      "pct_of_total": 2.2,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -539,10 +547,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 513.0,
-    "non_billable_hours": 276.0,
+    "billable_hours": 521.5,
+    "non_billable_hours": 277.0,
     "pto_hours": 12.0,
-    "total_hours": 789.0
+    "total_hours": 798.5
   },
-  "generated_at": "2026-08-19T18:46:21Z"
+  "generated_at": "2026-08-19T19:25:04Z"
 }

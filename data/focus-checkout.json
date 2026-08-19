@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T18:48:23.620309Z",
+  "updated_at": "2026-08-19T19:26:58.062987Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1023,9 +1023,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868ku38p2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "f03cc36ea2161313bd4435bb91334292d56909c182d8e4a76335ecdd1877cc1a"
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
             }
           ]
         },
@@ -2594,5 +2605,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T18:46:21Z"
+  "generated_at": "2026-08-19T19:25:04Z"
 }
