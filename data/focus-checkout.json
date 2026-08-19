@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T04:12:27.408172Z",
+  "updated_at": "2026-08-19T04:53:49.640398Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2038,15 +2038,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -2557,5 +2551,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T04:10:56Z"
+  "generated_at": "2026-08-19T04:52:14Z"
 }
