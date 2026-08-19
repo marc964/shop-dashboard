@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T16:32:53.907468Z",
+  "updated_at": "2026-08-19T17:05:03.824491Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1756,10 +1756,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-18 23:19",
                   "text": "Flipped battery box and mounted into cradle.\nPerformed the following additional rework:\nBroken bolt in LH carrier - drilled out and re-tapped\nStripped thread in RH carrier - re-tapped\nAdded ground from chassis to charger.\nEnlarged holes in bracket/chassis to prevent further stripping from mis-alignment.\nPainted exposed steel, including where brackets were cut off.\nReplaced hardware with shofter hardware so as not to dig into battery box\nReinstalled box.\nInstalled the following connections:\nBattery coolant hoses - NOTE: Leak present at jiffytite. May need replacement. Will monitor tonight.\nHV battery leads.\nMSD\nHV LV\nMotor coolant hose.\nCharger connections (x4 grounds, LV, DCDC, AC, 12V out)\nCharge controller.\nCCS junction box.\nTorqued everything to spec.\n\nTomorrow AM:\nVacuum fill motor circuit\nReconnect 12V and test drive."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-19 16:33",
+                  "text": "Vacuum filled motor circuit.\nReconnected 12V\nBlazer is reassembled. Did a 5-minute test drive with some 2-3 second full-throttle pulls, it's on outside, keyed-on for logs @Marc Davis.\nDuring reinstall I did the following:\nAdded a ground strap from chassis to charger per @Billy Arrasmith\nRepaired a coolant leak on battery circuit (was at the hardline to softline transition in the back).\nHad to drill and tap some broken M10s on the motor mount plates which stripped/broke during removal. The sandwich didn't 100% line up during initial install and that stainless hardware failed. I hogged out the chassis and upper mount to give it more play.\nTouch-up paint on the steel to prevent rust.\nAll boxes were sealed with silicone (not o-ring), so I cleaned and reassembled in that fashion... too time consuming to clear the groove."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "8b856284ca5d9f71f2c6fb7f2186295844711a203854151da1b888571aaa4855"
+              "content_hash": "68baf71034868ad1f5ecc7793bf2fb28e6b4df239752421a50450b592938a32c"
             },
             {
               "id": "868knpamj",
@@ -1837,10 +1842,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-18 17:24",
                   "text": "Reinstalled 2-3 busbar.\nReattached all loose connectors. Marked each one.\nRe-tightened BMS stack hardware\nReinstalled A-plate.\nReinstalled distribution block.\nCleaned mating surfaces.\nRe-sealed box.\nReady for reinstallation."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-19 16:34",
+                  "text": "undefinedS4 results."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a7e17bc7c3760dbbb1430941807a079c7614a3dd01ca85eb93c1df66906fd822"
+              "content_hash": "925dc79299b8697b0a81de8061192c253f809a43f54dc597354e7f510cbb728e"
             }
           ]
         },
@@ -2301,9 +2311,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kt2w9z",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-19 16:59",
+                  "text": "-Scanned OEM and aftermarket center console\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a0fef33f9dbd1ec84f0df30697db003b07b8e3399d362b584cd7763a80715883"
+              "content_hash": "b3ba3b93ae0c43f4351b19deb90ff3aae39606e36db32d0eca3d1fe454fc5c1a"
             }
           ]
         },
@@ -2578,5 +2594,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T16:31:02Z"
+  "generated_at": "2026-08-19T17:02:54Z"
 }
