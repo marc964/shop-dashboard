@@ -109,7 +109,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 64.2,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -349,6 +349,29 @@
       ]
     },
     {
+      "project": "Kohler E24",
+      "total_hours": 19.5,
+      "pct_of_total": 2.5,
+      "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 13.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.5
+        },
+        {
+          "task": "Inspection",
+          "hours": 2.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 0.8
+        }
+      ]
+    },
+    {
       "project": "McDonough 77 Esprit",
       "total_hours": 19.5,
       "pct_of_total": 2.5,
@@ -370,42 +393,19 @@
           "hours": 0.5
         }
       ]
-    },
-    {
-      "project": "Kohler E24",
-      "total_hours": 19.0,
-      "pct_of_total": 2.4,
-      "tasks": [
-        {
-          "task": "Vehicle Control",
-          "hours": 13.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 3.0
-        },
-        {
-          "task": "Inspection",
-          "hours": 2.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 0.8
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 123.0,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 123.5,
+    "pct_of_total": 15.7,
+    "avg_per_person_per_day": 1.19,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 49.8
+        "hours": 50.2
       },
       {
         "label": "Shop Meetings",
@@ -432,12 +432,12 @@
   "project_hurters": [
     {
       "project": "Preheim 72 Blazer",
-      "total_hours": 45.8,
+      "total_hours": 46.0,
       "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Troubleshooting",
-          "hours": 45.8
+          "hours": 46.0
         }
       ]
     },
@@ -539,10 +539,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 512.5,
-    "non_billable_hours": 275.2,
+    "billable_hours": 513.0,
+    "non_billable_hours": 276.0,
     "pto_hours": 12.0,
-    "total_hours": 787.8
+    "total_hours": 789.0
   },
-  "generated_at": "2026-08-19T17:58:52Z"
+  "generated_at": "2026-08-19T18:46:21Z"
 }
