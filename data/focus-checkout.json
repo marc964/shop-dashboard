@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T19:52:12.040451Z",
+  "updated_at": "2026-08-19T20:29:23.347675Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1952,7 +1952,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 44
+        "open_tasks": 43
       },
       "assignees": [
         {
@@ -2315,22 +2315,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
-            },
-            {
-              "id": "868kt2w9z",
-              "name": "Scan center console",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kt2w9z",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-19 16:59",
-                  "text": "-Scanned OEM and aftermarket center console\nimage.png"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b3ba3b93ae0c43f4351b19deb90ff3aae39606e36db32d0eca3d1fe454fc5c1a"
             }
           ]
         },
@@ -2476,6 +2460,16 @@
               "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
             },
             {
+              "id": "868krdet4",
+              "name": "Facilitate tire replacement",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868krdet4",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4beb74a82d262a6680b4963539cbfe5ad9dfc1b547eca03f9348b83dd3fbfa2e"
+            },
+            {
               "id": "868jj1ac8",
               "name": "Install font battery lid",
               "status": "Open",
@@ -2524,16 +2518,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
-            },
-            {
-              "id": "868krdet4",
-              "name": "Spec and order tires",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868krdet4",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "70e8f1caef41645cc12446c38d9496ee2e36353205a54849fa59e244b9d88223"
             },
             {
               "id": "868ku2rcq",
@@ -2605,5 +2589,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T19:49:55Z"
+  "generated_at": "2026-08-19T20:27:33Z"
 }

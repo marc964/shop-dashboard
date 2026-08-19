@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 77.8,
-      "pct_of_total": 9.7,
+      "total_hours": 84.5,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Charging",
-          "hours": 15.0
+          "hours": 17.0
         },
         {
           "task": "Vehicle Control",
@@ -18,16 +18,16 @@
           "hours": 10.0
         },
         {
-          "task": "Cooling",
-          "hours": 6.5
-        },
-        {
           "task": "HVAC",
-          "hours": 6.5
+          "hours": 9.5
         },
         {
           "task": "Wiring - OEM",
-          "hours": 6.0
+          "hours": 7.8
+        },
+        {
+          "task": "Cooling",
+          "hours": 6.5
         },
         {
           "task": "Steering",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 73.5,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -113,7 +113,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 71.2,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -160,7 +160,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 63.8,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -211,7 +211,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 46.8,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -301,7 +301,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 34.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -320,7 +320,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Inspection",
@@ -404,20 +404,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 124.5,
+    "total_hours": 125.5,
     "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.2,
+    "avg_per_person_per_day": 1.21,
     "flagged": true,
     "tech_count": 8,
     "working_days": 13,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 50.8
+        "hours": 51.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 44.5
+        "hours": 45.0
       },
       {
         "label": "Personal Meetings",
@@ -441,7 +441,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 5.8,
+      "pct_of_total": 5.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -478,7 +478,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 14.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -515,7 +515,7 @@
     {
       "project": "Product Development",
       "total_hours": 6.0,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -547,10 +547,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 521.5,
-    "non_billable_hours": 277.0,
+    "billable_hours": 528.2,
+    "non_billable_hours": 278.0,
     "pto_hours": 12.0,
-    "total_hours": 798.5
+    "total_hours": 806.2
   },
-  "generated_at": "2026-08-19T19:49:55Z"
+  "generated_at": "2026-08-19T20:27:33Z"
 }
