@@ -22,14 +22,14 @@
         {
           "date": "2026-08-19",
           "day_name": "Wednesday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": []
         },
         {
           "date": "2026-08-20",
           "day_name": "Thursday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": []
         },
@@ -308,5 +308,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-19T23:47:07Z"
+  "generated_at": "2026-08-20T01:14:08Z"
 }
