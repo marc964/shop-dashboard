@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T06:01:09.808786Z",
+  "updated_at": "2026-08-20T07:00:20.608755Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1228,9 +1228,40 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868kfqd5y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-24 18:20",
+                  "text": "Assisted Devin pulling fault info from cluster as requested by Peterson. Removed cluster assembly. Documented mounting, wiring & condition to share with Peterson."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-27 11:07",
+                  "text": "Instrument cluster ready for return to Peterson. Task on hold until it it returned to us."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-29 15:22",
+                  "text": "Plywood structure inside gauge pod is dry & brittle. Repairing damage with epoxy."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-30 10:56",
+                  "text": "Gauges picked up by DHS for shipment 7/28"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 10:39",
+                  "text": "Estimated return shipping date is 8/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 14:01",
+                  "text": "Performed additional paint correction to cluster pod"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "016cc97960d8447a32f9465e38e2109de00c1ef097d2abad507df7eae4734a31"
+              "content_hash": "db07d3da6a012caf48fdd9aa5139d912144a47ed9dc36f8a38688a43f5a22e1c"
             },
             {
               "id": "868jqh5g9",
@@ -1238,9 +1269,60 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jqh5g9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-05-21 18:52",
+                  "text": "Diagnose rear suspension noise & ordered parts. Left rear lower control arm is spitting out a bushing AFTER initial post conversion road test"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-05-26 18:23",
+                  "text": "Initial estimate was for replacing bushing(s) with arm still on vehicle using universal bushing install/removal tool. This has proven to be the wrong approach as old bushings are old/seized, requiring press for removal. Also noted replacement bushings are slightly oversized requiring dressing and a press for installation."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-05-27 16:38",
+                  "text": "Completed replacement of bushing"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-01 18:28",
+                  "text": "Delrin washers ordered. ETA 6/2"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-01 18:28",
+                  "text": "Bushings have failed again. Attempted to muscle these lower links back into place without success.  Doing online research to help determine the cause & find a solution. I believe we are overpowering these stock bushings with our conversion. I don't believe split poly bushings are the answer here. My plan is to install Delrin washer spacers to better locate the lower link assembly and prevent metal to metal contact."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-02 19:14",
+                  "text": "Performed partial removal of both rear lower suspension links. Installed Delrin washers at the inboard mounting points. Creaking noise here is at the moment eliminated. Some additional creaking noise now noted at the left rear mounting point of this lower suspension link, where it meets the bearing upright assembly. I made an adjustment here. Currently unable to road test vehicle as it is blocked in it's stall. I will road test vehicle tomorrow."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-04 15:07",
+                  "text": "Diagnosing new creaks as they appear. After the last repair, vehicle suspension was quiet for a few miles. Now both rear lower suspension links have developed creaking where they attach to the rear bearing uprights. I have eliminated these noises using silicone paste. I've reviewed all of this information with Marc & Alex. Our plan moving forward is to put more miles on the car and monitor this condition. If the concern persists, I'll need to place Delrin washers in strategic locations as I did at the inboard mounts. This will require pressing the upright bearing assemblies apart."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-04 15:08",
+                  "text": "Task on hold. We will put additional miles on the car and monitor to learn if the concern persists before deciding on our next action."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-10 15:31",
+                  "text": "Update: I've done more road testing & the rear suspension is still quiet so far."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-23 10:57",
+                  "text": "Update: Rear suspension still quiet. Continuing to monitor."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8362112628205882b799712b82f253c119129dcd69b14557158917e6acc19b78"
+              "content_hash": "6ddc329fd860470c44af5a2be690528f58ee24dd38cf3244d16d91cbd1c7e8d4"
             },
             {
               "id": "868km7t9d",
@@ -1305,9 +1387,81 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "e81ded7997bd1af22314cb723bd5d05aaff696e4baf0b9d76da25a4ce76ad22d"
             }
           ]
         }
@@ -1343,9 +1497,40 @@
               "status": "Open",
               "list": "Miner 95 911",
               "url": "https://app.clickup.com/t/868jy3yw8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-12 13:18",
+                  "text": "Left message with TPWS. Will follow up again today."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-17 15:32",
+                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-06-24 17:26",
+                  "text": "Followed up with TPWS on 6/24, waiting on reply."
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-01 17:06",
+                  "text": "Do we pay them $2400 for the motor back?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Thoughts on paying for that motor?"
+                },
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-14 16:37",
+                  "text": "Coordinating with TPWS on motor pick up. Spoke to Frannie week of 8/3."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "6dde146d2b6ad4f8818c059468c6adee493042dc4411cce77e35c4201c2ba9c9"
+              "content_hash": "02a901f76b0a6294c5f8636659dcf9f7e4c3cc2efe4de867ef4d587fa1683c37"
             },
             {
               "id": "868jy3ykv",
@@ -1353,9 +1538,15 @@
               "status": "Open",
               "list": "Miner 95 911",
               "url": "https://app.clickup.com/t/868jy3ykv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-07-09 20:29",
+                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "7e77149c11b59fb805f291356f8d6430bce389c65531399889727ac798c86add"
+              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
             }
           ]
         },
@@ -1551,9 +1742,40 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kpyf6y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:29",
+                  "text": "Removed hood.\nRemoved front battery box for rework."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:13",
+                  "text": "Flipped, lifted and dropped front battery box into position for install."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:53",
+                  "text": "Installed box 2\nDifficulty lining up M8s - eventually got them all.\nInstalled VCU stack.\nReinstalled MSDs and HV , cooling\nReinstalled 12V.\nReinstalled hood.\nTest-drove, briefly. No issues.\n@Marc Davis to test drive and we will pull logs, see voltage drop across busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 18:03",
+                  "text": "Vehicle shuffle to get Preheim back into position.\nDrained motor circuit coolant.\nDisconnected battery box connections.\nRemoved vertical mounting hardware - two broken/crossthreaded bolts. Will need repair before reinstall.\nRemoved coolant hoses from hardlines.\nRemoved charge controller connections\nDropped motor 6\", then disconnected all charger connections.\nDropped assembly\nDisassembled assembly. Separated battery box from mounts. Ready for disassembly.\nNote:\nCross threaded bolts x2 (see above)\nAppears to be a leak from battery box coolant quick connect / barb.\nBrake line extremely close to battery box assembly."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 23:19",
+                  "text": "Flipped battery box and mounted into cradle.\nPerformed the following additional rework:\nBroken bolt in LH carrier - drilled out and re-tapped\nStripped thread in RH carrier - re-tapped\nAdded ground from chassis to charger.\nEnlarged holes in bracket/chassis to prevent further stripping from mis-alignment.\nPainted exposed steel, including where brackets were cut off.\nReplaced hardware with shofter hardware so as not to dig into battery box\nReinstalled box.\nInstalled the following connections:\nBattery coolant hoses - NOTE: Leak present at jiffytite. May need replacement. Will monitor tonight.\nHV battery leads.\nMSD\nHV LV\nMotor coolant hose.\nCharger connections (x4 grounds, LV, DCDC, AC, 12V out)\nCharge controller.\nCCS junction box.\nTorqued everything to spec.\n\nTomorrow AM:\nVacuum fill motor circuit\nReconnect 12V and test drive."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-19 16:33",
+                  "text": "Vacuum filled motor circuit.\nReconnected 12V\nBlazer is reassembled. Did a 5-minute test drive with some 2-3 second full-throttle pulls, it's on outside, keyed-on for logs @Marc Davis.\nDuring reinstall I did the following:\nAdded a ground strap from chassis to charger per @Billy Arrasmith\nRepaired a coolant leak on battery circuit (was at the hardline to softline transition in the back).\nHad to drill and tap some broken M10s on the motor mount plates which stripped/broke during removal. The sandwich didn't 100% line up during initial install and that stainless hardware failed. I hogged out the chassis and upper mount to give it more play.\nTouch-up paint on the steel to prevent rust.\nAll boxes were sealed with silicone (not o-ring), so I cleaned and reassembled in that fashion... too time consuming to clear the groove."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "83ee4832e7032148212b866b55febb2d66bef71fe765b4faa8332bb8ee21a32c"
+              "content_hash": "68baf71034868ad1f5ecc7793bf2fb28e6b4df239752421a50450b592938a32c"
             },
             {
               "id": "868knpamj",
@@ -1561,9 +1783,85 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868knpamj",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "This is also certainly a contributing factor to the anomalous temperature readings we were getting on these boxes. (We took this box apart a few weeks ago to investigate the thermistors)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Diagnosis on Preheim voltage drop issue:\n\nBox 2 (590 D4) pulled.\nTested our cheap miliohmeter on the MEB_S3 and misc. busbars.\nThe tool: I'm not 100% convinced on the absolute values, which seem higher than should be expected even in a 'perfect' scenario... I think we can chalk that up to the quality of the leads. This Amazon special is like $130 total... Hioki leads by themselves are $250-$750.The tool itself is solid. Consistent, reliable readings, maintains it's 'zero' point, you can re-test the same connection after testing a few others and the value is accurate to the uOhm. So these values are useful compared to themselves, not to what we actually expect if we were measuring with a $2000 meter.\n\nWhat I found is that there was a lack of contact at all three of the 'lateral' busbars (going from side-to-side on a module).\n\nYou can see this in the NOOXID pattern on the busbars. The module connections which had the worst values had the smallest area of NOOXID compression.\n\nThis is primarily due to insufficient material cut out of the protective housing on the 590s.\u00a0 This caused the plastic to be .5mm-1.5mm proud of the terminal, causing the busbar to not make full contact. You could also see a small amount of plastic being smashed between the busbar and the terminal.\n\nA secondary cause was excessive insulation on the busbars, which interfered with the plastic housing.\n\nIt wasn't pretty, but I was able to trim down the excess plastic using fine snips to where no further material was proud. I also trimmed back the insulation where necessary. This would be much more easily accomplished prior to installation.\n\nMeasurements were taken from internal-module-busbar directly adjacent to the desired joint to be measured. Meter was zerod to this value to reduce discrepancies relating to mating surface."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:26",
+                  "text": "Troubleshoot voltage issue \u2014 work performed August 10, 2026\nI set up the Vici VC480C+ micro-ohmmeter on the 20 m\u03a9 range and verified its zero behavior by re-zeroing on a terminal-to-terminal placement and re-measuring each joint. Implied offset was 0.69 / 0.73 / 0.68 m\u03a9 across spans of 1.19\u20131.92 m\u03a9, with no relationship to reading magnitude. Repeatability is \u00b10.025 m\u03a9. All readings below are terminal-zeroed.\nI measured all three module-to-module busbar joints in Box 2 over two passes. As found: 1-to-2 at 1.23 m\u03a9, 2-to-3 at 0.46 m\u03a9, 3-to-4 at 0.72 m\u03a9. Ranking held across both passes.\nI pulled the 1-to-2 and 3-to-4 busbars. The NO-OX-ID witness pattern showed partial compression on both. The orange terminal housing on the LYTH VDA590 sits up to 1.7 mm proud of the terminal face and was visibly crushed between busbar and terminal.\nI trimmed the housing, applied NO-OX-ID and reinstalled each joint. On 3-to-4 I also found HV insulation fouling the joint face and removed it. 2-to-3 needed the housing cut down but no insulation trim.\nResults\n\nundefined\n3-to-4 read 0.56 m\u03a9 reinstalled dry, before insulation removal and NO-OX-ID.\nDocumented with 72 photos."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-10 22:27",
+                  "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:31",
+                  "text": "Removed shell from front box.\nNote: Shell is glued on, not o-ring. Difficult to remove shells, needed to be worked off with plastic chisel without damaging powdercoat.\nRemoved A-plate\nInspected joints. Issue present.\nCrushed wire on MSD amphenol needs replacement."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-12 23:38",
+                  "text": "undefinedD8 results"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-12 23:40",
+                  "text": "Disassembled module havlves and busbar assemblies. Measured each busbar span before removal. Measured after rework. Experimented. Resistance values significantly dropped after flipping busbar / block assemblies, due to some 'bowing' present after torquing. High torque also very useful for getting lowest resistance value."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-13 23:12",
+                  "text": "Finalized and sealed battery box.\nRepaired damaged wiring.\nNote: Excessive time due to box being sealed with silicone, not rubber o-ring. Had to clean before reinstall."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-14 22:50",
+                  "text": "Compared IRL readings to CANbus readings.\nMagnitudes don't correlate exactly miliohmeter to CANbus measurement (I assume that as the metal heats up and expands the measured resistance values will change.) but otherwise pretty darn close. No surprises. I think we should see a marked decrease with the rework.\nScreenshot 2026-08-14 174007.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 22:43",
+                  "text": "Partial reassembly. Will complete tomorrow AM.\nimage.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-17 22:43",
+                  "text": "Disassembled S4.\nInvestigated:\nTerminal resistance dropped by 50% after retorquing.\nAfter rework (flipping, new NOOXID, M6x20mm screws w/ blue loctite and larger washer), 90% reduction.\nS4 \u2014 all readings, terminal-zeroed:\n\nundefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:22",
+                  "text": "undefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:23",
+                  "text": "Completed rework (see above).\nScreenshot 2026-08-18 112645.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 17:24",
+                  "text": "Reinstalled 2-3 busbar.\nReattached all loose connectors. Marked each one.\nRe-tightened BMS stack hardware\nReinstalled A-plate.\nReinstalled distribution block.\nCleaned mating surfaces.\nRe-sealed box.\nReady for reinstallation."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-19 16:34",
+                  "text": "undefinedS4 results."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "40ad0bf03bff84ecd3cac0ad1418be6fe502b61bf7d75225c7ef1ab522d55e21"
+              "content_hash": "925dc79299b8697b0a81de8061192c253f809a43f54dc597354e7f510cbb728e"
             }
           ]
         },
@@ -1591,9 +1889,25 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
+              "content_hash": "a3d94edfbd5dccbdce89684c59d3e32fce491bea9d70a7dcfe6b40947da1df8b"
             }
           ]
         }
@@ -1660,15 +1974,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Need to start up vehicle first"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "0d97bba56867c59c573f2f9d2c5b7df75317410ba9a64117e7a2af5afdc062e7"
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
             },
             {
               "id": "868jwk0hy",
@@ -1686,20 +1994,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmvcq",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-08 12:38",
-                  "text": "IMG_1601.jpeg\nIMG_1600.jpeg\nIMG_1599.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-08 12:38",
-                  "text": "performed leak test\npulled a vacuum\nheld for 2 hrs\ncharged the system up\nchecked for leaks under pressure\nfound no leaks at this time"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "e2c505868556ae9be1ef261f864f5067ae3e0e2ba8d375d9c50f4fb68054229d"
+              "content_hash": "d8504cc26b8c6ec48b7f4d2a0520d5ef9d1643254e33d39575314931e283cec3"
             },
             {
               "id": "868hbnfk6",
@@ -1707,20 +2004,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:07",
-                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-11 02:07",
-                  "text": "talkIng with Alex and Marshal"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9fa05385583c1ad91ae0539f09b79bab244c4bfe7862accd9096a3fd074a8ccd"
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
             },
             {
               "id": "868gaza0d",
@@ -1728,50 +2014,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza0d",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-29 22:28",
-                  "text": "machining a new encoder to put detents in it\nordered some aluminum\nstarted marking the parts\nI need the detents to align with the  sensors"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-06-11 03:29",
-                  "text": "measuring for the detents in the encoder\nmarking the for the magnet\ngetting my system ready to machine"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-06-11 03:30",
-                  "text": "IMG_1259.jpeg\nIMG_1258.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-07 03:28",
-                  "text": "Machining the PRND setting the detents on it"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:53",
-                  "text": "IMG_1708.jpeg\nIMG_1709.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:53",
-                  "text": "worked on the detents\nmachined the detents with the sensor locations"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 19:51",
-                  "text": "setting the detent to lights"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-20 02:22",
-                  "text": "put the prnd on and synced it\nready for testing"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c1be805953878abac43c541f2accb98dab1ccaa362a2366a3fcfb2b3e0587e24"
+              "content_hash": "8025930b956be8b38cd95c2c15a8a9407628d13462197e2809d45f97afc620e2"
             },
             {
               "id": "868gazad9",
@@ -1779,40 +2024,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gazad9",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-22 03:41",
-                  "text": "unpacked he vintage air unit\nwent over instructions\ninstalled he braces\nmocked unit in truck\nmarked the holes\ndrilled new holes\nmounted he unit\nchecked for clearance\ni will have plenty of room to run AC lines"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-22 03:43",
-                  "text": "IMG_0848.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-25 01:40",
-                  "text": "IMG_1059.jpeg\nIMG_1058.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-05-25 01:40",
-                  "text": "installed the unit for the final time\nhooking up hoses"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 02:29",
-                  "text": "installed the AC switch\nstraitened the box\nreinstalled the AC hoses\nrecharged the AC system"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 02:30",
-                  "text": "IMG_1867.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "981f347bc07b4808091c8650e4efe84f2732bbccf64b6cf2ab8ca034123dd4f0"
+              "content_hash": "d727bca8f854ed2a7c735aac75c9fd86eaba4873688a3ea6a6acd65cb53bdfbf"
             },
             {
               "id": "868ktqdv5",
@@ -1820,9 +2034,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:08",
+                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "916ddfb05df9c91ca1e31966e95cba3bc0eb7a210fc5c92cac5c69e1815a16f9"
             },
             {
               "id": "868hbnmkf",
@@ -1830,15 +2050,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnmkf",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-07 03:04",
-                  "text": "measured for the DS\nwill get Inland to order"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "1f333f9661c2712eb0d339e209addb7c78f85a5db992712bfd258810c5660dda"
+              "content_hash": "493813f891250abbcfa8e1c6d1ab8fcf90d97324b55fc27ee0c48c712db168dc"
             },
             {
               "id": "868kmp9tm",
@@ -1846,9 +2060,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -1856,9 +2076,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
             },
             {
               "id": "868ktqj7a",
@@ -1866,9 +2092,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqj7a",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:35",
+                  "text": "steering wheel ordered"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4eefcecc12042d45511a40e69baf8e36f7e966048db1eeb9896e80a02f248372"
+              "content_hash": "ef9b288bcfca9810cdd84893cb342175271f1cbad95e16355c3fa3766da3e61b"
             },
             {
               "id": "868gaza16",
@@ -1876,20 +2108,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza16",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 02:45",
-                  "text": "checked tracking on console\ngot with marshal"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b3731e461d83d2977142509020cbbe84178710fdcc1ded68605b1875d4b6b242"
+              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
             },
             {
               "id": "868ktqjqy",
@@ -1897,9 +2118,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:02",
+                  "text": "removed rear seat mount brackets\nready for PC"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
+              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
             },
             {
               "id": "868hbmtxh",
@@ -1907,35 +2134,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmtxh",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-03-31 03:02",
-                  "text": "set the toe\ntightened the jam nuts"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-03-31 16:45",
-                  "text": "IMG_0669.jpeg\nIMG_0667.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-14 02:42",
-                  "text": "checking the suspension bolts\ntorquing the leaf spring bolts with weight on them and\nIMG_1865.jpeg\nIMG_1866.jpeg\n marking them"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-20 02:23",
-                  "text": "IMG_1907.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-20 02:23",
-                  "text": "marked all suspension bolts"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "79f59c710bb69bf9b5579acd797b4d46aa3fec19298743873a5aae5f372d24c5"
+              "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
             },
             {
               "id": "868ka1nuh",
@@ -1953,9 +2154,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqm7v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:07",
+                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:25",
+                  "text": "finished testing. the wiring\nhad to fix firewall connector\nready to startup\nIMG_1913.jpeg\nIMG_1912.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "44428effbbac51861d82c768f8aa9a4466cf20df664b3f1da3721bb9aa7ce82c"
+              "content_hash": "6f52828a468e71b8c5fcd3ce978cd2b773d3065cb6218bf39dc490f305dd72e1"
             }
           ]
         },
@@ -1978,9 +2190,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -2008,9 +2251,55 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpyh0j",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:51",
+                  "text": "Fuel filler mocked up\nCut marks made\nFiller neck cut down and planed smooth\nFlange deburred\nFiller neck sanded and prepped for paint\nNeck cleaned and primed\nNeck painted and left to cure over night\nBody to neck gasket sourced and ordered\nBed side to flange gasket sourced and ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:56",
+                  "text": "1000014575.jpg1000014606.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:36",
+                  "text": "Fuel filler received once more coat of paint to remove light spots"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:24",
+                  "text": "Fuel filler pass through in body floor traced\nTemplate used to cut steel plate\nPlate shaped to fit floor contour\nPlate cleaned, prepped and painted\nPlate was sealed w/ RTV and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:28",
+                  "text": "1000014624.jpg1000014620.jpg1000014625.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:32",
+                  "text": "Fuel filler modified and 12V quick disconnect installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:33",
+                  "text": "1000014749.jpg1000014750.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "Fuel filler installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "1000014751.jpg1000014752.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "c1f99d329743e991831fcf033174356957eda38028b485d81bc3e506568dea81"
+              "content_hash": "37740c6f14a668843a9bf59040b3501f67a8d3ade201935edc886eb7b0bd792b"
             }
           ]
         },
@@ -2048,40 +2337,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza10",
-              "comments": [
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-11 02:11",
-                  "text": "-Met with Billy to go over what was needed for the GUI screen mount and the single DIN. Everything will be housed in the center console.\n-Waiting until new center console arrives in case dims are different than the one that is getting replaced to start design."
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-18 02:35",
-                  "text": "-Aligned scan\n-Fit test a jig to make sure I had the correct profile for the lip of the center console that the gui mount needs to sit flush against\n-Started design of the mount for the gui screen\n-Still need to design the sheet metal pieces that will support the screen holder inside the center console."
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-18 02:41",
-                  "text": "image.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-19 04:34",
-                  "text": "-Completed design for printed part that holds gui screen\n-Designed left and right mounting brackets to hold the whole assembly\n-Designed cover for the assembly\n-Will fit test in the morning\nimage.png\nimage.png\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-20 01:58",
-                  "text": "-Met with Alex and Billy to review\n-Feedback was to change the way the holder for the screen grabbed the clips and how the edges met up to the surfaces of the center console\n-Made all the changes and did a final review with Alex\n-Put parts in osh cart and just waiting for a few printed parts to fit test tomorrow before ordering"
-                },
-                {
-                  "author": "Marshall Carter",
-                  "date": "2026-08-20 02:02",
-                  "text": "image.png\nimage.png"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "15fdc62f093c56bf65c2bd237f08b615f3aab3f56a1cff020a0fd566311d0454"
+              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
             }
           ]
         },
@@ -2212,15 +2470,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt2rtu",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-18 13:44",
-                  "text": "Vehicle arrived with a loose front bumper. Bent brackets & missing hardware. I've removed bent brackets and reshaped them to fit. Sourced replacement hardware as needed. Reinstalled components and adjusted to fit vehicle."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "12ca56a08ff4fc918979d6179890c1fe0ca21929dfb4f89f7ad6dd268e9a035c"
+              "content_hash": "663fdff639882a7ffd5585ad4d53caee30a3aa2551489dbd8c03ee4899bace86"
             },
             {
               "id": "868kr28at",
@@ -2228,20 +2480,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kr28at",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:49",
-                  "text": "Multiple noises in the rear of this car. Removed rear licence plate bracket, re-tightened rear shock absorbers, R/R rear seat and installed insulation & lubrication at contact points. Also removed spare tire and tire well cover too help eliminate noises noted in the boot. This allowed me to note a knocking noise coming from charger ground cable contacting inner rear bulkhead. Re-routed & secured this cable. Also removed & reinstalled fender skirts as part of the diagnosis process."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-18 17:35",
-                  "text": "Leaving this task open but on hold to address interior noises as and if they are noted."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ba23756f7b64127b54089ae1fc366cd46e71d2a79477bb694352f6a07755b326"
+              "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
             },
             {
               "id": "868krdet4",
@@ -2249,20 +2490,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868krdet4",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:44",
-                  "text": "Researched & selected replacement tire options for Ryan to share with the client."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-18 13:42",
-                  "text": "Tires ordered from Coker. ETA unknown"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "1b20dc5f05b37944ef2691497c89527616a9e9c106620c1613b3d151ed38a353"
+              "content_hash": "4beb74a82d262a6680b4963539cbfe5ad9dfc1b547eca03f9348b83dd3fbfa2e"
             },
             {
               "id": "868jj1ac8",
@@ -2270,15 +2500,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:10",
-                  "text": "I don't believe we have a design for this yet"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "28600f08ef84fb5d1748ae12c51501068b170d98d2dc0bc8d566eaf9addc3c7a"
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
               "id": "868jj17xm",
@@ -2286,25 +2510,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj17xm",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-09 12:53",
-                  "text": "Waiting to install hood until after initial startup. This will make for easier access to things that may come up & need addressing during startup."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-13 18:16",
-                  "text": "Installed bonnet and performed adjustments to hinges, latch & striker to try and achieve a good fit. I'm concerned that the drivers side rear corner sits a little high. Also installed grille and side view mirrors"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 11:57",
-                  "text": "Performed additional adjustments to hood at drivers side rear. Got this corner a little lower, but some slop/wear in this hing noted. I'mm calling it good and closing the task"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "eb4ada697c145109999dab40213272bf357f2310a0032c33591e761a37b27ab6"
+              "content_hash": "1ea422e0bc66164dbe32d06fc85657b99192c5b2d60f5fdc0d4ff5c710e12944"
             },
             {
               "id": "868kqm4ew",
@@ -2312,20 +2520,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kqm4ew",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-12 19:47",
-                  "text": "Rackd vehicle and ensured all undercar components are secure. Performed initial shakedown run & noted rear seat noises (rattle & creak) also stop lamp failure. (ordered stop lamp)"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 17:43",
-                  "text": "Performed additional road testing to get some additional miles on this car & to listen for NVH"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9f82b3ae7335f7663074bc8e26aadf3b3e8387803297c1f7ab7333def2dd0b0d"
+              "content_hash": "776444cd8609f5d469d019a33ea9b0551fe4d87c271be731bac3d13d844f9cc3"
             },
             {
               "id": "868kt2ttw",
@@ -2333,15 +2530,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt2ttw",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-17 18:12",
-                  "text": "Spec and order column bushings"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ef5c6722e8bd5c0a83b3fd954986b692d519cb20de9ae90e3fa906aeeb8a266"
+              "content_hash": "ac4f83735ee563350f2a01a30cc84a9f317927364f36fc76f09c1c7b91ed08f0"
             },
             {
               "id": "868j84xbd",
@@ -2349,25 +2540,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868j84xbd",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-04 15:29",
-                  "text": "Task on hold. Must recondition brakes first & then bleed before getting vehicle back on its wheels. At that point I'll determine what will be required for ride height adjustments. I suspect the front may sit a little high and so we may lower the front or raise the rear."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:01",
-                  "text": "Car is back on the ground and sitting at or close to a proper ride height. If anything, the front of the car may be just slightly high. Spacing the spring pan down with spacers or washers should correct this.\n\nThe factory-specified overall height for a 1962 Jaguar Mark 2 (MK2) is\u00a057.5 inches\u00a0(146.1 cm) at kerb weight. The standard ground clearance is exactly 7 inches (17.8 cm).\u00a0[1,\u00a02,\u00a03]\nBecause the vehicle uses coil springs in the front and semi-elliptical leaf springs in the back, checking the physical ride height is often done using specific points:\u00a0[1,\u00a02,\u00a03,\u00a04]\nFront:\u00a0The correct front suspension height is achieved when the lower wishbone arms are perfectly parallel/level with the front subframe. Enthusiast consensus suggests that you should be able to fit about \"three fingers\" vertically between the front tire and the top of the wheel arch.\nRear:\u00a0The general enthusiast consensus suggests a measurement of 18.5 to 19 inches from the ground up to the center of the boot lock.\u00a0[1,\u00a02,\u00a03]\nHow to Adjust the Ride Height\nFront:\u00a0Front ride height is set by coil springs. If it is too high (common after installing new, modern replacement springs), owners typically use shims or washers placed between the lower control arm and the spring pan to achieve the desired drop.\u00a0[1,\u00a02,\u00a03]\nRear:\u00a0The rear height is dictated by leaf springs. Adjustments to the rear require adding or removing spacers/shims between the rear axle and the leaf springs.\u00a0[1,\u00a02,\u00a03]\n\nI will re-evaluate this once car has been driven"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-10 17:25",
-                  "text": "Doing additional research about what it will take to alter the ride height of this car if needed."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f405347efe77d13c9e655d24df437ca8d8d200735c4bd5ce781442c08ecb7956"
+              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
             },
             {
               "id": "868ku2rcq",
@@ -2375,15 +2550,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868ku2rcq",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-19 19:03",
-                  "text": "GUI information delayed on startup. Also noted \"ghost\" inputs. Documented this & reviewed settings with Brandon. Double checked pinout at vc connector and ensured circuits 15 & 30 correctly pinned & behaving correctly. Swapped display screens & the concerns remain. Sourced a replacement from Bronco #4 and swapped this into the car including wiring modifications & the addition of the external term resistor"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a9b67ea7e0476d393ba5d19a576d006c477eee1cf4068d2907624a1a90441647"
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
             },
             {
               "id": "868kqjp0r",
@@ -2391,20 +2560,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kqjp0r",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-12 19:28",
-                  "text": "UPDATE: Car stuck in PARK.\nJust put about 5 miles on this car. Pulled up to the shop. Put car in park to get out & open bay door & now I'm unable to select R,N or D. Also no stop lights now. Jumper bypass of hydraulic stop lamp switch & still no gear selection or stop lamps. No DTCS present & key cycle didn't restore functionality. Used parking brake bypass button\u00a0 so I could push car into the shop\n\n\nAaand..... my jumper wires shit the bed open circuit. New jumper wire proves stop lamp switch problem\n\nBrakes feel good. Did some aggressive stopping to burnish the new brakes and this is likely why stop lamp switch failed.\nNo fluid leakage, pedal feels great and returns, vacuum booster working great, brakes are not locked up. Just a dead switch\n\n\nOrdered replacement stop lamp switch"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 10:52",
-                  "text": "Installed replacement stop lamp switch"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7ae37d2b8e4b450159e9170ab2ad7dc1e6d4d7cd277cd1fc60f3dca92b4ea85d"
+              "content_hash": "5e27b5338f754d5a9a01f4db28e74d4262d820a34dfe6f5ab771ae8ebd64bf0a"
             },
             {
               "id": "868kt2t1w",
@@ -2412,15 +2570,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt2t1w",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-17 18:04",
-                  "text": "Front shock absorbers noisy. Internal piston clearance knocking noises present. Shocks ordered."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "8e364d59c832d25e6bf05e8ad24d95c5da11dd239a05cc65b5114132276db6fb"
+              "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
             },
             {
               "id": "868kt5w1j",
@@ -2428,25 +2580,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt5w1j",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-17 18:52",
-                  "text": "MR2 power steering pump can be heard to run but it doesn't feel as if it provides any assist. Installed a pressure gauge inline with the pressure leg, down stream of the pressure regulator. This gauge reads zero pressure regardless of steering input or regulator adjustment. Installed replacement pump & the pressure gauge now displays a max of 300psi with steering input & regulator adjustment doesn't seem to have an effect of pressure. Steering feels a little heavy but doesn't feel unassisted. Moved the pressure gauge to take a reading of the pump before the regulator and the gauge still displays a maximum pressure of 300psi. The next step will be to remove the regulator altogether to see how the system behaves, and decide on how to proceed based on this information."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-17 18:58",
-                  "text": "Also confirmed that our sub-harness is wired per our pinout"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-19 19:06",
-                  "text": "Removed regulator assembly and installed unions to join the hoses together. Performed bleed system. Pressure now read 600-800psi with steering input. Road tested & car feels good. Clamped hoses in place where regulator used to be."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "4da7a9c933f227acd7965b188022a889a8ff032a31c22cde84ad1155a29142e9"
+              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
             }
           ]
         },
@@ -2459,106 +2595,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 02:34",
-                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-30 21:43",
-                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-07-31 21:33",
-                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-03 23:47",
-                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-06 21:15",
-                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-11 22:31",
-                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-13 22:16",
-                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:08",
-                  "text": "image.png\nsettings found in raptor when checking initially"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:13",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:34",
-                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:36",
-                  "text": "image.png\nadjusted settings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 17:44",
-                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:10",
-                  "text": "image.png\nHad to update the vehicle weight to kg."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:25",
-                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-18 19:54",
-                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Add wifi credentials",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Test fast charging",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Perform full overnight charge",
-                  "resolved": false
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
-                  "resolved": false
-                }
-              ],
-              "content_hash": "a8505f1f03c573de7cdf3292de7888c10a785afbe9c4f0ccc5afaeaf114081e8"
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
             },
             {
               "id": "868ku2tnf",
@@ -2566,20 +2605,14 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868ku2tnf",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-19 22:00",
-                  "text": "# EOD Report \u2014 CAN3 GUI Startup Delay Investigation\n\n**Date:** August 19, 2026\n**Vehicle/System:** Ampere EV VCU (New Eagle Raptor VCM_515) \u2014 CAN3\n**Symptom:** GUI/display powers on but takes several seconds before vehicle data appears.\n\n## Objective\nDetermine why the RealDash GUI is slow to display CAN3 data on startup, using a PCAN trace and the vehicle's DBC set.\n\n## What we did\nAnalyzed a ~119-second PCAN-View trace of CAN3 that captured one full key cycle. Mapped every message ID in the capture against the project DBCs, decoded the vehicle data to confirm validity, measured per-module startup timing, and identified the source of the unknown 0x420\u20130x425 message block. Searched the shop DBC library and RealDash configuration on the local machine to pin the root cause.\n\n## Key findings\n\n**Vehicle data is not the bottleneck.** All VCU-transmitted data (speed, battery, motor, temps, etc.) is live and valid on CAN3 within ~0.5 seconds of key-on. Cross-checked two parallel gauge protocols (Ampere_GUI set on 0x300\u20130x334 and the custom set on 0x126/0x210/0x257/0x355/0x356) \u2014 they agree (e.g. 49% SOC, 397 V, Park).\n\n**The VCU is well-behaved.** The New Eagle VCM sleeps cleanly and immediately at key-off. It was initially a suspect (off the encrypted .rpg firmware package) but the trace cleared it.\n\n**The delay is on the display/serial-bridge side.** Messages 0x420\u20130x425 \u2014 which no vehicle DBC defined \u2014 were traced to the **S2C (Serial-to-CAN) bridge board** via `S2C.dbc` in the shop library. These are the bridge's own diagnostic frames. The bridge does not put its first frame on the bus until **+5.8 seconds** after key-on, and its serial link to the GUI takes additional seconds to start flowing.\n\n**Root cause identified.** The GUI is a **RealDash** app connected through the S2C bridge, and the bridge is an **Arduino Leonardo** (ATmega32u4). Two stacked causes:\n- The Arduino Leonardo bootloader imposes a multi-second startup window before its sketch runs (~5.8 s observed on the bus).\n- RealDash's connection config contains an explicit **`connDelay=\"6200\"`** (6.2-second delay) \u2014 deliberately set to wait out that bootloader.\n\nThis directly matches the ~6-second delay perceived in person, and explains why **swapping the RealDash unit to a new one did not help** \u2014 the delay lives in the Arduino bridge boot time and the RealDash connection setting, both downstream of the display hardware.\n\n## Data flow (as-built)\nVCU \u2192 CAN3 \u2192 S2C bridge (Arduino Leonardo) \u2192 serial @115200 \u2192 RealDash GUI\n\n## Next steps (for tomorrow)\n1. Address the real floor \u2014 the S2C Arduino Leonardo boot time (~5.8 s): reflash a shorter/no-delay bootloader, or move the S2C function to a microcontroller that boots instantly (no USB-CDC bootloader wait).\n2. Once the board boots faster, lower RealDash `connDelay` to match \u2014 but not below the board's actual ready time, or RealDash will connect too early and stall/error.\n3. Investigate whether the Arduino is cold-booting every key cycle vs. able to stay in fast-resume standby (the bridge already stays powered ~60 s after key-off).\n4. Side item: RealDash connection references `ampere_ev_can_v13.xml`, but the config files on the shop machine are `V36` \u2014 verify RealDash is parsing the intended frame map.\n\n## Artifacts produced\n- Full decoded CAN3 capture (CSV) \u2014 every frame \u2192 named engineering values.\n- Complete ID map of the bus, including identification of the 0x420\u20130x425 S2C block.\n- Startup timeline: VCU data @0.5 s vs. S2C bridge @5.8 s vs. GUI settings @8.5 s.\n\n## Status\nRoot cause identified (Arduino Leonardo bridge boot + RealDash connDelay). No unsafe key-cycling performed. Ready to move to remediation."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7c299029331756725cb4b216ccb8a3a0e56551106cc96e1439f565c16a99eb10"
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-08-20T05:58:59Z"
+  "generated_at": "2026-08-20T06:58:51Z"
 }
