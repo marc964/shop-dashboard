@@ -412,9 +412,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 131.5,
+    "total_hours": 132.0,
     "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.17,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -433,7 +433,7 @@
       },
       {
         "label": "Other",
-        "hours": 7.0
+        "hours": 7.5
       },
       {
         "label": "Organization",
@@ -560,9 +560,9 @@
   ],
   "totals": {
     "billable_hours": 553.8,
-    "non_billable_hours": 289.5,
+    "non_billable_hours": 290.0,
     "pto_hours": 15.0,
-    "total_hours": 843.2
+    "total_hours": 843.8
   },
-  "generated_at": "2026-08-20T13:10:47Z"
+  "generated_at": "2026-08-20T13:59:53Z"
 }
