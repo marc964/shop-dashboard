@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 10.2,
+      "pct_of_total": 10.1,
       "tasks": [
         {
           "task": "Charging",
@@ -70,7 +70,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 80.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -121,7 +121,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 79.2,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -167,12 +167,16 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 74.2,
-      "pct_of_total": 8.3,
+      "total_hours": 78.8,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Exterior",
           "hours": 26.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 14.5
         },
         {
           "task": "Audio",
@@ -181,10 +185,6 @@
         {
           "task": "Battery Pack",
           "hours": 10.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 10.0
         },
         {
           "task": "Suspension",
@@ -270,7 +270,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 48.0,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -316,8 +316,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 34.8,
-      "pct_of_total": 3.9,
+      "total_hours": 35.5,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -325,7 +325,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 11.5
+          "hours": 12.2
         },
         {
           "task": "Vehicle Control",
@@ -374,8 +374,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 20.0,
-      "pct_of_total": 2.2,
+      "total_hours": 21.0,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -400,6 +400,10 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 1.2
+        },
+        {
+          "task": "Steering",
+          "hours": 1.0
         },
         {
           "task": "Battery Pack",
@@ -440,16 +444,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 137.0,
+    "total_hours": 138.0,
     "pct_of_total": 15.4,
-    "avg_per_person_per_day": 1.22,
+    "avg_per_person_per_day": 1.23,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 55.8
+        "hours": 56.8
       },
       {
         "label": "Shop Meetings",
@@ -477,7 +481,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -551,7 +555,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 8.5,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -587,10 +591,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 594.5,
-    "non_billable_hours": 295.0,
+    "billable_hours": 601.5,
+    "non_billable_hours": 296.0,
     "pto_hours": 15.0,
-    "total_hours": 889.5
+    "total_hours": 897.5
   },
-  "generated_at": "2026-08-20T22:56:40Z"
+  "generated_at": "2026-08-20T23:29:04Z"
 }
