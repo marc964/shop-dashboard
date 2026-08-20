@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T21:29:02.715713Z",
+  "updated_at": "2026-08-20T21:56:37.123434Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1855,7 +1855,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 43
+        "open_tasks": 44
       },
       "assignees": [
         {
@@ -2071,6 +2071,16 @@
               ],
               "checklist_items": [],
               "content_hash": "6f52828a468e71b8c5fcd3ce978cd2b773d3065cb6218bf39dc490f305dd72e1"
+            },
+            {
+              "id": "868kunztt",
+              "name": "Troubleshoot isolation fault",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kunztt",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
             }
           ]
         },
@@ -2255,15 +2265,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-05 21:03",
-                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
+              "content_hash": "54c97fee58c94e39c2ae390157e58282d52742d45f9544ebdcbbbb136088511f"
             }
           ]
         }
@@ -2483,5 +2487,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-20T21:27:16Z"
+  "generated_at": "2026-08-20T21:54:46Z"
 }
