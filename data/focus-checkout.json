@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T22:29:10.236961Z",
+  "updated_at": "2026-08-20T22:58:25.476498Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -235,11 +235,6 @@
                 },
                 {
                   "author": "Jordan Jones",
-                  "date": "2025-09-11 23:17",
-                  "text": "Re-installed interior, with 'external' PRD buttons so we can troubleshoot the PRD dimming issue.\nPut vehicle back on ground.\nInstalled a port for vacuum-testing the brake booster system.\n23 in/hg achieved. When vacuum drops to 18in/hg the pump kicks back on.\nCycling every 15 seconds.\nWith the booster removed from the system, and the line going to the booster plugged, no leakage was detected. 23in/hg steady.\nWith the booster installed, leakage continues.\nTightened all external hardware. Leakage reduced. Cycling every 40 seconds now.\nTest-drove for the first time. Noticed scraping from rear of vehicle.\nAfter diagnosis, discovered the new pins that came with the brake kit had holes that were 3mm too long, allowing the shoe  to contact the drum. Found the original pins and reinstalled. Issue resolved.\nE-stop was disabled by @Devin DuMont during the brake diagnosis, however during that process it appears the e-stop was toasted, possibly by receiving a constant run signal. E-stop no longer functional. Checked vehicle-side, voltages as expected. Attempted to apply voltage to e-stop side: no movement. New e-stop required.\nTest-drove some more. Notes below:"
-                },
-                {
-                  "author": "Jordan Jones",
                   "date": "2025-09-11 23:27",
                   "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
                 },
@@ -352,6 +347,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-07 22:31",
                   "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:38",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
                 }
               ],
               "checklist_items": [
@@ -376,7 +376,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "6042480760f12e33cffd779e8517f12cb159b60ed1906d9e623c15cc2505bd73"
+              "content_hash": "058597141b2d3f52f01c5b80bfa3b74ae4945529713c43f323ba809b8a7e0e84"
             },
             {
               "id": "868k0je6t",
@@ -892,10 +892,20 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-18 23:37",
                   "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Reviewed new Claude posts since yesterday. Reviewed trial notes. Repeated baseline current derate test and then tried a medium and max derate tune. In eco mode things are feeling way better but for some reason that changes switching back over to sport. Log analysis backs that up with current figures, derate sounding like more of a band aid solution now. Browsed all the various inverter feedback signals for any that seem to get rough at the same time. Noticed phase B current is always 0, turned out to be the DBC or something not important."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4c8fbc12eb10144ef711ffda34a95e9be6428ff28d7d63e794e67f82202a1f59"
+              "content_hash": "c379a6c484eef866989200e781ec0d0d4e02fbe134b7ae125b9fa6eb9def9442"
             }
           ]
         }
@@ -1320,6 +1330,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-07 22:31",
                   "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
                 }
               ],
               "checklist_items": [
@@ -1364,7 +1379,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "e81ded7997bd1af22314cb723bd5d05aaff696e4baf0b9d76da25a4ce76ad22d"
+              "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
             }
           ]
         }
@@ -2487,5 +2502,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-20T22:27:28Z"
+  "generated_at": "2026-08-20T22:56:40Z"
 }
