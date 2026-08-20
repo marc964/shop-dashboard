@@ -115,9 +115,56 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 73.2,
+      "pct_of_total": 8.6,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 15.0
+        },
+        {
+          "task": "Interior",
+          "hours": 13.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 12.5
+        },
+        {
+          "task": "Steering",
+          "hours": 10.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 7.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 6.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 4.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 1.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 73.2,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -162,53 +209,6 @@
         {
           "task": "Instrumentation",
           "hours": 0.5
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 71.2,
-      "pct_of_total": 8.4,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 15.0
-        },
-        {
-          "task": "Interior",
-          "hours": 13.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 12.5
-        },
-        {
-          "task": "Steering",
-          "hours": 8.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 7.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 4.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
         }
       ]
     },
@@ -261,8 +261,8 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 45.0,
-      "pct_of_total": 5.3,
+      "total_hours": 46.5,
+      "pct_of_total": 5.5,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -286,7 +286,7 @@
         },
         {
           "task": "Vehicle Control",
-          "hours": 2.2
+          "hours": 3.8
         },
         {
           "task": "Audio",
@@ -412,9 +412,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 132.8,
-    "pct_of_total": 15.7,
-    "avg_per_person_per_day": 1.19,
+    "total_hours": 132.2,
+    "pct_of_total": 15.6,
+    "avg_per_person_per_day": 1.18,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
@@ -433,7 +433,7 @@
       },
       {
         "label": "Other",
-        "hours": 7.5
+        "hours": 7.0
       },
       {
         "label": "Organization",
@@ -559,10 +559,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 553.8,
-    "non_billable_hours": 290.8,
+    "billable_hours": 557.2,
+    "non_billable_hours": 290.2,
     "pto_hours": 15.0,
-    "total_hours": 844.5
+    "total_hours": 847.5
   },
-  "generated_at": "2026-08-20T17:58:12Z"
+  "generated_at": "2026-08-20T18:51:10Z"
 }
