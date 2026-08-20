@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T05:31:39.404892Z",
+  "updated_at": "2026-08-20T06:01:09.808786Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -971,9 +971,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w1bc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
             },
             {
               "id": "868krf65c",
@@ -1043,9 +1049,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             }
           ]
         },
@@ -1058,9 +1070,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
             }
           ]
         },
@@ -1230,9 +1248,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             },
             {
               "id": "868knqdmw",
@@ -1240,9 +1264,35 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868knqdmw",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-07 18:14",
+                  "text": "High/low beams dimming with steering input seems to be a grounding issue (I know\u2026so weird on a glass car) but it IS SPOOKY because there is NO electrical path for anything through any component in this steering system. I tried grounding the column at multiple locations anyway with no change in the condition.\nMy next step is to redo all of the grounds for the front lamps, removing the OG \u201cbombtail\u201d splices and going from there.\nIn the meantime, the pack is charging and @Devin DuMont has been notified that the vehicle is ready for updates.\n\nAlso noted an intermittent power window issue that may/may not be related..."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-10 19:24",
+                  "text": "Removed \"bombtail\" splices from all grounds for all 10 front lamps. Low beam x2, High beam x2, side marker x2, running lamp x2 & turn signal x2. Lengthened these ground leads & spliced them together using permanent butt splices. Also added an additional ground cable from grounding post to the vehicle frame. Headlamp dimming concern corrected. Window concern NOT corrected. During ground circuit replacement, multiple front lamp power connections came loose. These were just bare wires hand twisted together and covered in electrical tape &. then stuffed up out of site. Corrected these connections as well."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-11 14:24",
+                  "text": "Intermittently, power windows reverse direction when operating. I believe the window motors are failing. Will confer with Devin before biting off on new motors."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-12 19:30",
+                  "text": "Sent Ryan info about window motor issue so that he can inform the client >\n\nThe power windows on the Lotus work, but intermittently, about 1/2 the time, they reverse direction when operating them. The problem seems to be the internal switching mechanism inside the motors. They are just old and worn.\nUnfortunately I can't find these available anywhere. SJ sports cars doesn't even offer them. The internet says the trick is to find a similar Delco motor (early Corvette?) that has as close of a mounting provision as possible. Then adapt the drive gear of the old motor to the new one which will probably involve grinding the gears off of the shaft and welding the old gear to the new shaft. (This may require dissecting the NEW motor to keep from damaging it during welding) then possibly adapting the mounting solution to make everything line up to the car.\nIt's doable but it's a lot of work and hard to put a time estimate on. Marc says we should ask him if he wants to pursue this or just live with it. Again, it's an intermittent issue\u2026 sometimes it work fine, other times you have to hit the window switch a few times till it settles down.\nPlease let me know how he would like to proceed.\n\nReassembled vehicle and awaiting client response."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-14 10:50",
+                  "text": "Client has elected to leave windows as they are"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "9adf024f7ba783bac426bfa4fb0f087d7c0f4611ea580805ff650c83766e5562"
+              "content_hash": "511c849839d10b75baebe3d1cb890e2f22650152b5b9082d19b643ea785ffc21"
             }
           ]
         },
@@ -1265,12 +1315,66 @@
     },
     {
       "owner": "Miner",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 3
+      },
+      "assignees": [
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868jy3yw8",
+              "name": "Ask TPWS about old motor",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3yw8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "6dde146d2b6ad4f8818c059468c6adee493042dc4411cce77e35c4201c2ba9c9"
+            },
+            {
+              "id": "868jy3ykv",
+              "name": "Organize transport home",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868jy3ykv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7e77149c11b59fb805f291356f8d6430bce389c65531399889727ac798c86add"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf9gv",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868krf9gv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
@@ -1556,9 +1660,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+              "content_hash": "0d97bba56867c59c573f2f9d2c5b7df75317410ba9a64117e7a2af5afdc062e7"
             },
             {
               "id": "868jwk0hy",
@@ -1576,9 +1686,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmvcq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 12:38",
+                  "text": "IMG_1601.jpeg\nIMG_1600.jpeg\nIMG_1599.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 12:38",
+                  "text": "performed leak test\npulled a vacuum\nheld for 2 hrs\ncharged the system up\nchecked for leaks under pressure\nfound no leaks at this time"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d8504cc26b8c6ec48b7f4d2a0520d5ef9d1643254e33d39575314931e283cec3"
+              "content_hash": "e2c505868556ae9be1ef261f864f5067ae3e0e2ba8d375d9c50f4fb68054229d"
             },
             {
               "id": "868hbnfk6",
@@ -1586,9 +1707,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:07",
+                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-11 02:07",
+                  "text": "talkIng with Alex and Marshal"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
+              "content_hash": "9fa05385583c1ad91ae0539f09b79bab244c4bfe7862accd9096a3fd074a8ccd"
             },
             {
               "id": "868gaza0d",
@@ -1596,9 +1728,50 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza0d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-29 22:28",
+                  "text": "machining a new encoder to put detents in it\nordered some aluminum\nstarted marking the parts\nI need the detents to align with the  sensors"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-11 03:29",
+                  "text": "measuring for the detents in the encoder\nmarking the for the magnet\ngetting my system ready to machine"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-06-11 03:30",
+                  "text": "IMG_1259.jpeg\nIMG_1258.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-07 03:28",
+                  "text": "Machining the PRND setting the detents on it"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:53",
+                  "text": "IMG_1708.jpeg\nIMG_1709.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:53",
+                  "text": "worked on the detents\nmachined the detents with the sensor locations"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-14 19:51",
+                  "text": "setting the detent to lights"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:22",
+                  "text": "put the prnd on and synced it\nready for testing"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8025930b956be8b38cd95c2c15a8a9407628d13462197e2809d45f97afc620e2"
+              "content_hash": "c1be805953878abac43c541f2accb98dab1ccaa362a2366a3fcfb2b3e0587e24"
             },
             {
               "id": "868gazad9",
@@ -1606,9 +1779,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gazad9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-22 03:41",
+                  "text": "unpacked he vintage air unit\nwent over instructions\ninstalled he braces\nmocked unit in truck\nmarked the holes\ndrilled new holes\nmounted he unit\nchecked for clearance\ni will have plenty of room to run AC lines"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-22 03:43",
+                  "text": "IMG_0848.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-25 01:40",
+                  "text": "IMG_1059.jpeg\nIMG_1058.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-05-25 01:40",
+                  "text": "installed the unit for the final time\nhooking up hoses"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-14 02:29",
+                  "text": "installed the AC switch\nstraitened the box\nreinstalled the AC hoses\nrecharged the AC system"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-14 02:30",
+                  "text": "IMG_1867.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d727bca8f854ed2a7c735aac75c9fd86eaba4873688a3ea6a6acd65cb53bdfbf"
+              "content_hash": "981f347bc07b4808091c8650e4efe84f2732bbccf64b6cf2ab8ca034123dd4f0"
             },
             {
               "id": "868ktqdv5",
@@ -1626,9 +1830,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnmkf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-07 03:04",
+                  "text": "measured for the DS\nwill get Inland to order"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "493813f891250abbcfa8e1c6d1ab8fcf90d97324b55fc27ee0c48c712db168dc"
+              "content_hash": "1f333f9661c2712eb0d339e209addb7c78f85a5db992712bfd258810c5660dda"
             },
             {
               "id": "868kmp9tm",
@@ -1666,9 +1876,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza16",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-14 02:45",
+                  "text": "checked tracking on console\ngot with marshal"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
+              "content_hash": "b3731e461d83d2977142509020cbbe84178710fdcc1ded68605b1875d4b6b242"
             },
             {
               "id": "868ktqjqy",
@@ -1686,9 +1907,35 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbmtxh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-03-31 03:02",
+                  "text": "set the toe\ntightened the jam nuts"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-03-31 16:45",
+                  "text": "IMG_0669.jpeg\nIMG_0667.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-14 02:42",
+                  "text": "checking the suspension bolts\ntorquing the leaf spring bolts with weight on them and\nIMG_1865.jpeg\nIMG_1866.jpeg\n marking them"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:23",
+                  "text": "IMG_1907.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:23",
+                  "text": "marked all suspension bolts"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
+              "content_hash": "79f59c710bb69bf9b5579acd797b4d46aa3fec19298743873a5aae5f372d24c5"
             },
             {
               "id": "868ka1nuh",
@@ -1801,9 +2048,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868gaza10",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-11 02:11",
+                  "text": "-Met with Billy to go over what was needed for the GUI screen mount and the single DIN. Everything will be housed in the center console.\n-Waiting until new center console arrives in case dims are different than the one that is getting replaced to start design."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-18 02:35",
+                  "text": "-Aligned scan\n-Fit test a jig to make sure I had the correct profile for the lip of the center console that the gui mount needs to sit flush against\n-Started design of the mount for the gui screen\n-Still need to design the sheet metal pieces that will support the screen holder inside the center console."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-18 02:41",
+                  "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-19 04:34",
+                  "text": "-Completed design for printed part that holds gui screen\n-Designed left and right mounting brackets to hold the whole assembly\n-Designed cover for the assembly\n-Will fit test in the morning\nimage.png\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-20 01:58",
+                  "text": "-Met with Alex and Billy to review\n-Feedback was to change the way the holder for the screen grabbed the clips and how the edges met up to the surfaces of the center console\n-Made all the changes and did a final review with Alex\n-Put parts in osh cart and just waiting for a few printed parts to fit test tomorrow before ordering"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-20 02:02",
+                  "text": "image.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+              "content_hash": "15fdc62f093c56bf65c2bd237f08b615f3aab3f56a1cff020a0fd566311d0454"
             }
           ]
         },
@@ -2097,9 +2375,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868ku2rcq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-19 19:03",
+                  "text": "GUI information delayed on startup. Also noted \"ghost\" inputs. Documented this & reviewed settings with Brandon. Double checked pinout at vc connector and ensured circuits 15 & 30 correctly pinned & behaving correctly. Swapped display screens & the concerns remain. Sourced a replacement from Bronco #4 and swapped this into the car including wiring modifications & the addition of the external term resistor"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
+              "content_hash": "a9b67ea7e0476d393ba5d19a576d006c477eee1cf4068d2907624a1a90441647"
             },
             {
               "id": "868kqjp0r",
@@ -2144,9 +2428,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt5w1j",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:52",
+                  "text": "MR2 power steering pump can be heard to run but it doesn't feel as if it provides any assist. Installed a pressure gauge inline with the pressure leg, down stream of the pressure regulator. This gauge reads zero pressure regardless of steering input or regulator adjustment. Installed replacement pump & the pressure gauge now displays a max of 300psi with steering input & regulator adjustment doesn't seem to have an effect of pressure. Steering feels a little heavy but doesn't feel unassisted. Moved the pressure gauge to take a reading of the pump before the regulator and the gauge still displays a maximum pressure of 300psi. The next step will be to remove the regulator altogether to see how the system behaves, and decide on how to proceed based on this information."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:58",
+                  "text": "Also confirmed that our sub-harness is wired per our pinout"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-19 19:06",
+                  "text": "Removed regulator assembly and installed unions to join the hoses together. Performed bleed system. Pressure now read 600-800psi with steering input. Road tested & car feels good. Clamped hoses in place where regulator used to be."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
+              "content_hash": "4da7a9c933f227acd7965b188022a889a8ff032a31c22cde84ad1155a29142e9"
             }
           ]
         },
@@ -2266,14 +2566,20 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868ku2tnf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-19 22:00",
+                  "text": "# EOD Report \u2014 CAN3 GUI Startup Delay Investigation\n\n**Date:** August 19, 2026\n**Vehicle/System:** Ampere EV VCU (New Eagle Raptor VCM_515) \u2014 CAN3\n**Symptom:** GUI/display powers on but takes several seconds before vehicle data appears.\n\n## Objective\nDetermine why the RealDash GUI is slow to display CAN3 data on startup, using a PCAN trace and the vehicle's DBC set.\n\n## What we did\nAnalyzed a ~119-second PCAN-View trace of CAN3 that captured one full key cycle. Mapped every message ID in the capture against the project DBCs, decoded the vehicle data to confirm validity, measured per-module startup timing, and identified the source of the unknown 0x420\u20130x425 message block. Searched the shop DBC library and RealDash configuration on the local machine to pin the root cause.\n\n## Key findings\n\n**Vehicle data is not the bottleneck.** All VCU-transmitted data (speed, battery, motor, temps, etc.) is live and valid on CAN3 within ~0.5 seconds of key-on. Cross-checked two parallel gauge protocols (Ampere_GUI set on 0x300\u20130x334 and the custom set on 0x126/0x210/0x257/0x355/0x356) \u2014 they agree (e.g. 49% SOC, 397 V, Park).\n\n**The VCU is well-behaved.** The New Eagle VCM sleeps cleanly and immediately at key-off. It was initially a suspect (off the encrypted .rpg firmware package) but the trace cleared it.\n\n**The delay is on the display/serial-bridge side.** Messages 0x420\u20130x425 \u2014 which no vehicle DBC defined \u2014 were traced to the **S2C (Serial-to-CAN) bridge board** via `S2C.dbc` in the shop library. These are the bridge's own diagnostic frames. The bridge does not put its first frame on the bus until **+5.8 seconds** after key-on, and its serial link to the GUI takes additional seconds to start flowing.\n\n**Root cause identified.** The GUI is a **RealDash** app connected through the S2C bridge, and the bridge is an **Arduino Leonardo** (ATmega32u4). Two stacked causes:\n- The Arduino Leonardo bootloader imposes a multi-second startup window before its sketch runs (~5.8 s observed on the bus).\n- RealDash's connection config contains an explicit **`connDelay=\"6200\"`** (6.2-second delay) \u2014 deliberately set to wait out that bootloader.\n\nThis directly matches the ~6-second delay perceived in person, and explains why **swapping the RealDash unit to a new one did not help** \u2014 the delay lives in the Arduino bridge boot time and the RealDash connection setting, both downstream of the display hardware.\n\n## Data flow (as-built)\nVCU \u2192 CAN3 \u2192 S2C bridge (Arduino Leonardo) \u2192 serial @115200 \u2192 RealDash GUI\n\n## Next steps (for tomorrow)\n1. Address the real floor \u2014 the S2C Arduino Leonardo boot time (~5.8 s): reflash a shorter/no-delay bootloader, or move the S2C function to a microcontroller that boots instantly (no USB-CDC bootloader wait).\n2. Once the board boots faster, lower RealDash `connDelay` to match \u2014 but not below the board's actual ready time, or RealDash will connect too early and stall/error.\n3. Investigate whether the Arduino is cold-booting every key cycle vs. able to stay in fast-resume standby (the bridge already stays powered ~60 s after key-off).\n4. Side item: RealDash connection references `ampere_ev_can_v13.xml`, but the config files on the shop machine are `V36` \u2014 verify RealDash is parsing the intended frame map.\n\n## Artifacts produced\n- Full decoded CAN3 capture (CSV) \u2014 every frame \u2192 named engineering values.\n- Complete ID map of the bus, including identification of the 0x420\u20130x425 S2C block.\n- Startup timeline: VCU data @0.5 s vs. S2C bridge @5.8 s vs. GUI settings @8.5 s.\n\n## Status\nRoot cause identified (Arduino Leonardo bridge boot + RealDash connDelay). No unsafe key-cycling performed. Ready to move to remediation."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
+              "content_hash": "7c299029331756725cb4b216ccb8a3a0e56551106cc96e1439f565c16a99eb10"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-08-20T05:30:06Z"
+  "generated_at": "2026-08-20T05:58:59Z"
 }
