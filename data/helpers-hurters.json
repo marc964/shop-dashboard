@@ -2,24 +2,24 @@
   "helpers": [
     {
       "project": "Jaffe 86 190E",
-      "total_hours": 84.5,
-      "pct_of_total": 10.0,
+      "total_hours": 91.0,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Charging",
-          "hours": 17.0
+          "hours": 19.0
         },
         {
           "task": "Vehicle Control",
-          "hours": 11.5
+          "hours": 13.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 12.0
         },
         {
           "task": "Wiring - High Voltage",
           "hours": 10.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 9.5
         },
         {
           "task": "Wiring - OEM",
@@ -68,9 +68,107 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 79.2,
+      "pct_of_total": 9.1,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 15.0
+        },
+        {
+          "task": "Interior",
+          "hours": 13.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 12.5
+        },
+        {
+          "task": "Steering",
+          "hours": 10.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 8.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 6.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 6.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 4.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 74.2,
+      "pct_of_total": 8.5,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 26.0
+        },
+        {
+          "task": "Audio",
+          "hours": 12.8
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 10.5
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 10.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 3.5
+        },
+        {
+          "task": "Interior",
+          "hours": 3.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 3.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 2.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 73.8,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -115,107 +213,9 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 73.2,
-      "pct_of_total": 8.6,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 15.0
-        },
-        {
-          "task": "Interior",
-          "hours": 13.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 12.5
-        },
-        {
-          "task": "Steering",
-          "hours": 10.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 7.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 4.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 1.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 73.2,
-      "pct_of_total": 8.6,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 25.8
-        },
-        {
-          "task": "Audio",
-          "hours": 12.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 10.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 10.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 3.5
-        },
-        {
-          "task": "Interior",
-          "hours": 3.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 3.0
-        },
-        {
-          "task": "Cooling",
-          "hours": 2.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "LB 82 911",
-      "total_hours": 57.0,
-      "pct_of_total": 6.7,
+      "total_hours": 57.5,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -226,12 +226,12 @@
           "hours": 9.8
         },
         {
-          "task": "Instrumentation",
+          "task": "Manufacturing - Product",
           "hours": 7.5
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 7.0
+          "task": "Instrumentation",
+          "hours": 7.5
         },
         {
           "task": "Wiring - OEM",
@@ -261,7 +261,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 46.5,
+      "total_hours": 48.0,
       "pct_of_total": 5.5,
       "tasks": [
         {
@@ -270,11 +270,11 @@
         },
         {
           "task": "Exterior",
-          "hours": 8.2
+          "hours": 8.5
         },
         {
           "task": "HVAC",
-          "hours": 7.5
+          "hours": 8.2
         },
         {
           "task": "Engineering - Core",
@@ -282,7 +282,7 @@
         },
         {
           "task": "Interior",
-          "hours": 5.2
+          "hours": 5.8
         },
         {
           "task": "Vehicle Control",
@@ -309,7 +309,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 34.8,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -328,7 +328,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 2.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Inspection",
@@ -367,7 +367,7 @@
     {
       "project": "Kohler E24",
       "total_hours": 19.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -390,7 +390,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 19.5,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -412,20 +412,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 132.2,
-    "pct_of_total": 15.6,
-    "avg_per_person_per_day": 1.18,
+    "total_hours": 134.0,
+    "pct_of_total": 15.4,
+    "avg_per_person_per_day": 1.2,
     "flagged": true,
     "tech_count": 8,
     "working_days": 14,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 53.8
+        "hours": 54.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 47.8
+        "hours": 48.5
       },
       {
         "label": "Personal Meetings",
@@ -449,7 +449,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 5.4,
+      "pct_of_total": 5.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -460,7 +460,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 4.7,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -486,7 +486,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 16.0,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -512,7 +512,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 9.0,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -559,10 +559,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 557.2,
-    "non_billable_hours": 290.2,
+    "billable_hours": 576.8,
+    "non_billable_hours": 292.0,
     "pto_hours": 15.0,
-    "total_hours": 847.5
+    "total_hours": 868.8
   },
-  "generated_at": "2026-08-20T18:51:10Z"
+  "generated_at": "2026-08-20T19:31:02Z"
 }

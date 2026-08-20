@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T18:53:00.309170Z",
+  "updated_at": "2026-08-20T19:33:12.312031Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1216,7 +1216,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 7
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -1264,67 +1264,6 @@
               "content_hash": "db07d3da6a012caf48fdd9aa5139d912144a47ed9dc36f8a38688a43f5a22e1c"
             },
             {
-              "id": "868jqh5g9",
-              "name": "Replace rear lower control arm bushing",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868jqh5g9",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-05-21 18:52",
-                  "text": "Diagnose rear suspension noise & ordered parts. Left rear lower control arm is spitting out a bushing AFTER initial post conversion road test"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-05-26 18:23",
-                  "text": "Initial estimate was for replacing bushing(s) with arm still on vehicle using universal bushing install/removal tool. This has proven to be the wrong approach as old bushings are old/seized, requiring press for removal. Also noted replacement bushings are slightly oversized requiring dressing and a press for installation."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-05-27 16:38",
-                  "text": "Completed replacement of bushing"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-01 18:28",
-                  "text": "Delrin washers ordered. ETA 6/2"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-01 18:28",
-                  "text": "Bushings have failed again. Attempted to muscle these lower links back into place without success.  Doing online research to help determine the cause & find a solution. I believe we are overpowering these stock bushings with our conversion. I don't believe split poly bushings are the answer here. My plan is to install Delrin washer spacers to better locate the lower link assembly and prevent metal to metal contact."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-02 19:14",
-                  "text": "Performed partial removal of both rear lower suspension links. Installed Delrin washers at the inboard mounting points. Creaking noise here is at the moment eliminated. Some additional creaking noise now noted at the left rear mounting point of this lower suspension link, where it meets the bearing upright assembly. I made an adjustment here. Currently unable to road test vehicle as it is blocked in it's stall. I will road test vehicle tomorrow."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-04 15:07",
-                  "text": "Diagnosing new creaks as they appear. After the last repair, vehicle suspension was quiet for a few miles. Now both rear lower suspension links have developed creaking where they attach to the rear bearing uprights. I have eliminated these noises using silicone paste. I've reviewed all of this information with Marc & Alex. Our plan moving forward is to put more miles on the car and monitor this condition. If the concern persists, I'll need to place Delrin washers in strategic locations as I did at the inboard mounts. This will require pressing the upright bearing assemblies apart."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-04 15:08",
-                  "text": "Task on hold. We will put additional miles on the car and monitor to learn if the concern persists before deciding on our next action."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-10 15:31",
-                  "text": "Update: I've done more road testing & the rear suspension is still quiet so far."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-23 10:57",
-                  "text": "Update: Rear suspension still quiet. Continuing to monitor."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6ddc329fd860470c44af5a2be690528f58ee24dd38cf3244d16d91cbd1c7e8d4"
-            },
-            {
               "id": "868km7t9d",
               "name": "Test drive vehicle",
               "status": "Open",
@@ -1339,42 +1278,6 @@
               ],
               "checklist_items": [],
               "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
-            },
-            {
-              "id": "868knqdmw",
-              "name": "Troubleshoot wiring issue",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868knqdmw",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-07 18:14",
-                  "text": "High/low beams dimming with steering input seems to be a grounding issue (I know\u2026so weird on a glass car) but it IS SPOOKY because there is NO electrical path for anything through any component in this steering system. I tried grounding the column at multiple locations anyway with no change in the condition.\nMy next step is to redo all of the grounds for the front lamps, removing the OG \u201cbombtail\u201d splices and going from there.\nIn the meantime, the pack is charging and @Devin DuMont has been notified that the vehicle is ready for updates.\n\nAlso noted an intermittent power window issue that may/may not be related..."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-10 19:24",
-                  "text": "Removed \"bombtail\" splices from all grounds for all 10 front lamps. Low beam x2, High beam x2, side marker x2, running lamp x2 & turn signal x2. Lengthened these ground leads & spliced them together using permanent butt splices. Also added an additional ground cable from grounding post to the vehicle frame. Headlamp dimming concern corrected. Window concern NOT corrected. During ground circuit replacement, multiple front lamp power connections came loose. These were just bare wires hand twisted together and covered in electrical tape &. then stuffed up out of site. Corrected these connections as well."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-11 14:24",
-                  "text": "Intermittently, power windows reverse direction when operating. I believe the window motors are failing. Will confer with Devin before biting off on new motors."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-12 19:30",
-                  "text": "Sent Ryan info about window motor issue so that he can inform the client >\n\nThe power windows on the Lotus work, but intermittently, about 1/2 the time, they reverse direction when operating them. The problem seems to be the internal switching mechanism inside the motors. They are just old and worn.\nUnfortunately I can't find these available anywhere. SJ sports cars doesn't even offer them. The internet says the trick is to find a similar Delco motor (early Corvette?) that has as close of a mounting provision as possible. Then adapt the drive gear of the old motor to the new one which will probably involve grinding the gears off of the shaft and welding the old gear to the new shaft. (This may require dissecting the NEW motor to keep from damaging it during welding) then possibly adapting the mounting solution to make everything line up to the car.\nIt's doable but it's a lot of work and hard to put a time estimate on. Marc says we should ask him if he wants to pursue this or just live with it. Again, it's an intermittent issue\u2026 sometimes it work fine, other times you have to hit the window switch a few times till it settles down.\nPlease let me know how he would like to proceed.\n\nReassembled vehicle and awaiting client response."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-14 10:50",
-                  "text": "Client has elected to leave windows as they are"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "511c849839d10b75baebe3d1cb890e2f22650152b5b9082d19b643ea785ffc21"
             }
           ]
         },
@@ -2352,9 +2255,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-05 21:03",
+                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "54c97fee58c94e39c2ae390157e58282d52742d45f9544ebdcbbbb136088511f"
+              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
             }
           ]
         }
@@ -2458,22 +2367,12 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 26
+        "open_tasks": 22
       },
       "assignees": [
         {
           "name": "David Webber",
           "tasks": [
-            {
-              "id": "868kt2rtu",
-              "name": "Address front bumper noise",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kt2rtu",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "663fdff639882a7ffd5585ad4d53caee30a3aa2551489dbd8c03ee4899bace86"
-            },
             {
               "id": "868kr28at",
               "name": "Address interior noises",
@@ -2505,26 +2404,6 @@
               "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
-              "id": "868jj17xm",
-              "name": "Install hood",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868jj17xm",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "1ea422e0bc66164dbe32d06fc85657b99192c5b2d60f5fdc0d4ff5c710e12944"
-            },
-            {
-              "id": "868kqm4ew",
-              "name": "Perform initial test drives",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kqm4ew",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "776444cd8609f5d469d019a33ea9b0551fe4d87c271be731bac3d13d844f9cc3"
-            },
-            {
               "id": "868kt2ttw",
               "name": "Repair steering column adjustment",
               "status": "Open",
@@ -2553,16 +2432,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
-            },
-            {
-              "id": "868kqjp0r",
-              "name": "Troubleshoot brake switch issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kqjp0r",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "5e27b5338f754d5a9a01f4db28e74d4262d820a34dfe6f5ab771ae8ebd64bf0a"
             },
             {
               "id": "868kt2t1w",
@@ -2614,5 +2483,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-20T18:51:10Z"
+  "generated_at": "2026-08-20T19:31:02Z"
 }
