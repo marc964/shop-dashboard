@@ -127,6 +127,53 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 82.8,
+      "pct_of_total": 9.1,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 15.0
+        },
+        {
+          "task": "Interior",
+          "hours": 13.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 12.5
+        },
+        {
+          "task": "Steering",
+          "hours": 10.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 8.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 7.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 6.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 6.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
       "total_hours": 80.0,
       "pct_of_total": 8.8,
@@ -174,53 +221,6 @@
         {
           "task": "Brakes",
           "hours": 0.2
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 79.2,
-      "pct_of_total": 8.7,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 15.0
-        },
-        {
-          "task": "Interior",
-          "hours": 13.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 12.5
-        },
-        {
-          "task": "Steering",
-          "hours": 10.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 8.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 6.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 4.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
         }
       ]
     },
@@ -561,21 +561,6 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 8.5,
-      "pct_of_total": 0.9,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 5.0
-        },
-        {
-          "task": "Troubleshooting",
-          "hours": 3.5
-        }
-      ]
-    },
-    {
       "project": "Product Development",
       "total_hours": 6.0,
       "pct_of_total": 0.7,
@@ -583,6 +568,17 @@
         {
           "task": "Manufacturing - Product",
           "hours": 6.0
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 5.0,
+      "pct_of_total": 0.6,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 5.0
         }
       ]
     },
@@ -599,10 +595,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 608.5,
-    "non_billable_hours": 298.0,
+    "billable_hours": 612.0,
+    "non_billable_hours": 294.5,
     "pto_hours": 15.0,
     "total_hours": 906.5
   },
-  "generated_at": "2026-08-21T14:42:44Z"
+  "generated_at": "2026-08-21T15:15:34Z"
 }
