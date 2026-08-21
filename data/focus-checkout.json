@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T19:15:33.836235Z",
+  "updated_at": "2026-08-21T19:41:59.021611Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1539,7 +1539,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 44
+        "open_tasks": 45
       },
       "assignees": [
         {
@@ -1800,50 +1800,35 @@
           "name": "Ben Drinkard",
           "tasks": [
             {
+              "id": "868kv10m3",
+              "name": "(Confirm) Make upper beauty panel on firewall",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kv10m3",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:34",
+                  "text": "Panel cut\nHoles marked\nHoles tapped M6\nPanel painted\nInstalled with black RTV to seal"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:35",
+                  "text": "1000014772.jpg1000014773.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "77207f71bfd6182418073f0f447628a73b1817f3a0379ba6435d6521264f1fa5"
+            },
+            {
               "id": "868k6ttbf",
               "name": "Install audio system",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:11",
-                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:06",
-                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-06 20:19",
-                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "Headunit installed for mockup and wiring"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:19",
-                  "text": "1000014708.jpg1000014709.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-19 21:31",
-                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-20 19:27",
-                  "text": "Picked up RCAs for Ritchie Audio"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "625bd1ab6901e59bd3315c14cc847b761a170e708b69a32a991260f7cf6d76a1"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868kpg6th",
@@ -2439,5 +2424,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T19:13:52Z"
+  "generated_at": "2026-08-21T19:40:15Z"
 }
