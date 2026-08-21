@@ -452,8 +452,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 139.0,
-    "pct_of_total": 15.3,
+    "total_hours": 139.5,
+    "pct_of_total": 15.4,
     "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
@@ -465,7 +465,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 50.0
+        "hours": 50.5
       },
       {
         "label": "Personal Meetings",
@@ -596,9 +596,9 @@
   ],
   "totals": {
     "billable_hours": 612.0,
-    "non_billable_hours": 294.5,
+    "non_billable_hours": 295.0,
     "pto_hours": 15.0,
-    "total_hours": 906.5
+    "total_hours": 907.0
   },
-  "generated_at": "2026-08-21T15:15:34Z"
+  "generated_at": "2026-08-21T15:58:31Z"
 }
