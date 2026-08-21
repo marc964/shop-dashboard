@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T22:35:04.211418Z",
+  "updated_at": "2026-08-21T23:02:21.682117Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -833,9 +833,66 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
+            },
+            {
+              "id": "868expzca",
+              "name": "Troubleshoot AC issues",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868expzca",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-07-25 21:26",
+                  "text": "tested Amperes pressures \ntest drove the car\nAC cut out but took longer \nlooked at several settings\nfound the high side before the condenser was high but Ampere was 115psi lower \nwhile evacuating the system I couldn't pull the high side down unless I opened the valve \nthis was the issue\ntested the Bronco to confirm\nit only has a 2-4 psi drop on the condenser\ntalked with Alex\nNoah will do the work \nI have already ordered parts to be here Monday"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-01 20:04",
+                  "text": "nitrogen testing, at 300 psi for over an hour. then help with filling. exactly 1.8 lb input, system was working great but I believe with the gui operating the system and not the Dakota digital thing, it was letting the evaporator freeze up. upon letting Dakota run it and manage evap (?) temps, it seemed to work well. also worked fine on my short drives but did cut out one time and give a check engine light. may need @Devin DuMont to see what it is and advise. possibly still overcurrent. I think we should not have the compressor running at full chat or nothing. it is either on 100% or off. being able to modulate its rpm based on temps would be preferable."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 11:59",
+                  "text": "tested with Devin\nfound pressures  not right\nswapped out the sensor \nno change \nsensor plugged in with no pressure gave a weird reading\nDevin is sending Ampere the results"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 19:04",
+                  "text": "got some pressures for Devin"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-26 23:22",
+                  "text": "vac down\nnitrogen test\nbegin removing fittings and lines and blowing them out/using nitrogen to check for blockages. it seemed like there may have been a little bit of a bottleneck somewhere between the high side port and the exit of the drier. but I might have blown it out and not realized. \nreplace drier and swap over pressure switch. checking wiring, found the signal and ground wires swapped. \nremedy wiring and replace connector with our newer style\nreassemble and nitrogen test, verifying with Devin the gauge pressures on high and low vs the ampere kpa readout\npull vacuum, fill with 1.75 lb and test. \neverything seems to work well so kept the gauges attached and taped them to the window for a 30 minute test drive using the ac the entire time. zero issues and pressures always looked good. the compressor and fan cycle fairly often but the cabin always stayed cool and I think its just the evap temp switch doing its thing. \nleft it running and in total did 1.5 hrs of running full tilt. no hiccups. \nremove and evacuate gauge lines and reinstall hood."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b029ebc18b69bddb6ee07665790ae0e3ac93ebeee7a810d146f671b787ca5013"
+            }
+          ]
+        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -911,27 +968,6 @@
               ],
               "checklist_items": [],
               "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kqcuv8",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 22:02",
-                  "text": "test driving after new settings"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             }
           ]
         },
@@ -1914,95 +1950,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-08 16:36",
-                  "text": "ordering interior kit"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:57",
-                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "In communication with customer on this."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:25",
-                  "text": "Dash upper pad replaced"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:26",
-                  "text": "Door panels unboxed and test fit"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:30",
-                  "text": "1000014098.jpg1000014099.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:12",
-                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:14",
-                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:06",
-                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:07",
-                  "text": "Dave is picking up front and rear bench seat tonight"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "1000014208.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "Rubber seam installed in door panel\nDoor panel installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:56",
-                  "text": "Door panel arm rests ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:45",
-                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:53",
-                  "text": "1000014562.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:55",
-                  "text": "Door panel armrests installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:13",
-                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
             },
             {
               "id": "868gaza9t",
@@ -2108,99 +2058,8 @@
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
               "comments": [],
-              "checklist_items": [
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "1.) PMU1 PMU2 - Communication Check",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "4.) PMU1 004-P13 Reverse Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "5.) PMU1 002-P39 Digital GUI",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "6.) PMU1 012-P02 Brake Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "7.) PMU1 011-P03 BMS Wake",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "8.) PMU1 006-P10 CCS Contactors",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "10.) PMU1 008 -P09 Negative Contactor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "11.) PMU1 013-P01 Battery Heater",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "13.) PMU1 005-P12 Vacuum Pump",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 1.) Accelerator Pedal",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 2.) Brake Switch",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 3.) Ambient Air Temp Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 4.) HVIL",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 5.) PRND",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             },
             {
               "id": "868kv2ram",
@@ -2362,9 +2221,20 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kr28at",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-14 17:49",
+                  "text": "Multiple noises in the rear of this car. Removed rear licence plate bracket, re-tightened rear shock absorbers, R/R rear seat and installed insulation & lubrication at contact points. Also removed spare tire and tire well cover too help eliminate noises noted in the boot. This allowed me to note a knocking noise coming from charger ground cable contacting inner rear bulkhead. Re-routed & secured this cable. Also removed & reinstalled fender skirts as part of the diagnosis process."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-18 17:35",
+                  "text": "Leaving this task open but on hold to address interior noises as and if they are noted."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
+              "content_hash": "ba23756f7b64127b54089ae1fc366cd46e71d2a79477bb694352f6a07755b326"
             },
             {
               "id": "868krdet4",
@@ -2372,9 +2242,35 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868krdet4",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-14 17:44",
+                  "text": "Researched & selected replacement tire options for Ryan to share with the client."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-18 13:42",
+                  "text": "Tires ordered from Coker. ETA unknown"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-20 13:45",
+                  "text": "Assemblies removed and sent to tire shop"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-20 18:51",
+                  "text": "Tires are back from discount tire but they said \"we can't balance these wheels\" even though they managed to do so on the Austin Healey wire knock offs. We are in the process of finding someone who isn't afraid of old cars to balance these wheels. Perhaps Colvins."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-21 18:50",
+                  "text": "Re-installed wheel/tires assemblies so that vehicle can be moved"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4beb74a82d262a6680b4963539cbfe5ad9dfc1b547eca03f9348b83dd3fbfa2e"
+              "content_hash": "c9010fda5eb1aafbacd0fa9595391a5580747e07f353b038766f335c57418bf6"
             },
             {
               "id": "868jj1ac8",
@@ -2382,9 +2278,15 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868jj1ac8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-02 11:10",
+                  "text": "I don't believe we have a design for this yet"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+              "content_hash": "28600f08ef84fb5d1748ae12c51501068b170d98d2dc0bc8d566eaf9addc3c7a"
             },
             {
               "id": "868kt2ttw",
@@ -2392,9 +2294,30 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt2ttw",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:12",
+                  "text": "Spec and order column bushings"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-20 18:46",
+                  "text": "Removed column for bushing inspection & removal. If replacement bushing don't arrive soon, I'll make my own."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-20 18:47",
+                  "text": "Also, horn button exploded again (previously repaired) I've ordered a replacement"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-21 18:53",
+                  "text": "Still waiting on parts. Re-assemble & re-install column so that vehicle can be moved."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ac4f83735ee563350f2a01a30cc84a9f317927364f36fc76f09c1c7b91ed08f0"
+              "content_hash": "ff7ed5c72b68b02f6ce7983b6c0530526a87df00e11b543a7c4dd7846a96ad71"
             },
             {
               "id": "868j84xbd",
@@ -2402,9 +2325,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868j84xbd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-06-04 15:29",
+                  "text": "Task on hold. Must recondition brakes first & then bleed before getting vehicle back on its wheels. At that point I'll determine what will be required for ride height adjustments. I suspect the front may sit a little high and so we may lower the front or raise the rear."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-02 11:01",
+                  "text": "Car is back on the ground and sitting at or close to a proper ride height. If anything, the front of the car may be just slightly high. Spacing the spring pan down with spacers or washers should correct this.\n\nThe factory-specified overall height for a 1962 Jaguar Mark 2 (MK2) is\u00a057.5 inches\u00a0(146.1 cm) at kerb weight. The standard ground clearance is exactly 7 inches (17.8 cm).\u00a0[1,\u00a02,\u00a03]\nBecause the vehicle uses coil springs in the front and semi-elliptical leaf springs in the back, checking the physical ride height is often done using specific points:\u00a0[1,\u00a02,\u00a03,\u00a04]\nFront:\u00a0The correct front suspension height is achieved when the lower wishbone arms are perfectly parallel/level with the front subframe. Enthusiast consensus suggests that you should be able to fit about \"three fingers\" vertically between the front tire and the top of the wheel arch.\nRear:\u00a0The general enthusiast consensus suggests a measurement of 18.5 to 19 inches from the ground up to the center of the boot lock.\u00a0[1,\u00a02,\u00a03]\nHow to Adjust the Ride Height\nFront:\u00a0Front ride height is set by coil springs. If it is too high (common after installing new, modern replacement springs), owners typically use shims or washers placed between the lower control arm and the spring pan to achieve the desired drop.\u00a0[1,\u00a02,\u00a03]\nRear:\u00a0The rear height is dictated by leaf springs. Adjustments to the rear require adding or removing spacers/shims between the rear axle and the leaf springs.\u00a0[1,\u00a02,\u00a03]\n\nI will re-evaluate this once car has been driven"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-10 17:25",
+                  "text": "Doing additional research about what it will take to alter the ride height of this car if needed."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
+              "content_hash": "f405347efe77d13c9e655d24df437ca8d8d200735c4bd5ce781442c08ecb7956"
             },
             {
               "id": "868ku2rcq",
@@ -2422,9 +2361,20 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt2t1w",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:04",
+                  "text": "Front shock absorbers noisy. Internal piston clearance knocking noises present. Shocks ordered."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-20 19:14",
+                  "text": "Installed replacement front shocks including bracket mod & paint"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
+              "content_hash": "fd78aafe1b58f3ed8c4d48dd8f5a9814266058c49291dc89f98852ba18f68930"
             },
             {
               "id": "868kt5w1j",
@@ -2432,9 +2382,25 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868kt5w1j",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:52",
+                  "text": "MR2 power steering pump can be heard to run but it doesn't feel as if it provides any assist. Installed a pressure gauge inline with the pressure leg, down stream of the pressure regulator. This gauge reads zero pressure regardless of steering input or regulator adjustment. Installed replacement pump & the pressure gauge now displays a max of 300psi with steering input & regulator adjustment doesn't seem to have an effect of pressure. Steering feels a little heavy but doesn't feel unassisted. Moved the pressure gauge to take a reading of the pump before the regulator and the gauge still displays a maximum pressure of 300psi. The next step will be to remove the regulator altogether to see how the system behaves, and decide on how to proceed based on this information."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-17 18:58",
+                  "text": "Also confirmed that our sub-harness is wired per our pinout"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-19 19:06",
+                  "text": "Removed regulator assembly and installed unions to join the hoses together. Performed bleed system. Pressure now read 600-800psi with steering input. Road tested & car feels good. Clamped hoses in place where regulator used to be."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
+              "content_hash": "4da7a9c933f227acd7965b188022a889a8ff032a31c22cde84ad1155a29142e9"
             }
           ]
         },
@@ -2447,9 +2413,111 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868khu6f8",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 02:34",
+                  "text": "Worked with Brandon to develop a better PMU revision system. Cleaned up the master branch and backed up on google drive. Had Brandon pull this down and showed him how to flash to the PMU's along with a number of other vehicle startup details to follow along first. Moved on to the VCU, showed Brandon about the firmware builds and Raptor structures. Converted vehicle requirements into a VCU config. Moved on to the inverter while Brandon loaded that. Upgraded the inverter firmware and flashed EEPROM in line with a W motor while following along in thee sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-30 21:43",
+                  "text": "Continued startup with Brandon and Dave. Hooked up HV and key'd on. Tried charging and got the ChgPortContFlt, verified all the associated wiring that has caused that fault previously, no problems found. Tried charging again and it just worked this time. Verified battery heater. Calibrated the resolver. Troubleshot cabin heater wiring. Searched and searched for documentation but couldn't find complete references. Experementially found the VCU was telling the PMU to tell the VCU to turn on the heat. Took thorough notes on actual wiring."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-31 21:33",
+                  "text": "Verified K33 \"Heat Request\" functionality on Prehiem to make sure I had the correct tags in Raptor-Service. Tried various combinations of PMU outputs and VCU configs to determine if there was a way to get powering up the heater logic unit as the mechanism to enable heat. Ends up with a fault in the VCU which makes adding a relay the easier option. Drew a diagram for and wired up a relay to a spare output on the PMU. Wrote logic to check the temp knob below 15%, the fan knob above 30%, as well as negative contactor and ignition on. Tested all knob positions and GUI inputs while watching in Raptor and the PMU software. The GUI indicates correctly and warm air blows. I never let it heat up enough to judge effectiveness. Only thing left for HVAC now is to charge the AC and tune that in."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-03 23:47",
+                  "text": "Verified heater circuit actually working by monitoring CAN data from the heater itself for output power. Double checked with a second data source Pack_Current from the BMS. Modified the PMU logic to also include fan and temp knobs as a criteria for turning on the cabin heat pump. Tested all scenarious with the user inputs from the GUI and knobs. Noticed the battery pump was running when it usually isn't, started to investigate, met for various discussions with the team before I could finish. Plugged into Preheim to investigate source of the difference in control."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Tuned in the AC compressor with Dave, it's working as expected plus a little 'bonus'. The AC compressor 'hiccups' with HV connected but the logic unit powered off. Powering up the compressor logic controller without Ampere commanding it to actually compress causes a VCU level fault. Shared to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-11 22:31",
+                  "text": "Catching up on Slack before the meeting. Looked into Claudes diagnosis of the AC issue. Looks like the PMU program has never changed for that channel and Claude picked up on the troubleshooting I did as the actual problem, not knowing that at time the system was supposed to be operating different than the rest of the fleet. This was required to verify the 450V compressor functions differently than the 400V one and would work better under a different control sequence. Verified VCU settings for the battery were wrong and corrected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-13 22:16",
+                  "text": "Forced the car to suck out the BMS config again and the fully charged range estimate dropped from 306.04 to 149.58 miles. The new battery health calculations result in 146.4 Ah for the pack, a very reasonable estimate. Also verified Dave's findings on the AC compressor from the computer side. The hiccup issue has been magically fixed."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:08",
+                  "text": "image.png\nsettings found in raptor when checking initially"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:13",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:34",
+                  "text": "test drove vehicle.\nfound that at gui 60 the speedo was off by 2mph.\ngoing to reduce overall tire diameter by a small amount to try and get the delta as low as possible"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:36",
+                  "text": "image.png\nadjusted settings"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 17:44",
+                  "text": "Will need to test drive the vehicle to determine if the speedometer is more accurate."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:10",
+                  "text": "image.png\nHad to update the vehicle weight to kg."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:25",
+                  "text": "Went through the VCU and verified all of the Vehicle Parameters were set into the VCU appropriately.\nThe tire size on this vehicle is 185vR15... there isnt any aspect ratio listed. According to the googles though total diameter is approx 675mm to 677mm.\nAdjusted settings appropriately in the VCU and\u00a0 switched all of the parameters from Display to Calibration.\nTest drove the vehicle with Dave. Found that the GUI displayed the same speed as my Phone did. Speedo gauge was approx 1-2mph high.\nAdjusted tire size down from 0.675 to 0.665.\nVehicle can be test driven again to verify that we are closer to a 0 delta. Not 100% sure if there is a filter that Peterson is adding to the speed or not but that would explain the slight difference. Or the fact that the GUI and My phone were both using GPS data while the speedo gauge was using calculations. Either way we are much much closer than the 20% that was noticed\nFinal vehicle weight wasn't recorded explicitly so the weight that is in there is close but not exact.\nMessaged Ryan to gather the wifi credentials for this car."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-18 19:54",
+                  "text": "Noticed the GUI in this vehicle is operating a tad bit different than other GUIs we have had in the past.\nWent through the Update process for the GUI.\nUpdated and or Installed all necessary .apk files.\nUpdated .xml file and realdash dashboard.\nOperations found to boot at different speeds.\nThe boot time on this GUI is much much faster than all of our other units. Unsure why this is at this time.\nAmpere Software will finish booting before CAN 3 messages are ready.\nSo there is a slight \" loading time \" feel present for this vehicle. This however seems to be normal operation on all our vehicles except boot times are a bit longer so by the time everything loads the Messages are already there and present so there isnt that \"loading\" feeling.\nPossible we take a trace of CAN3 and have claude see if there are any noticeable issues with it."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:51",
+                  "text": "Sat down with Brandon and talked through how the VCU and GUI work together to get gear ratio and vehicle weight input. Fixed the incorrect numbers, correlated startup sheet."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform full overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Determine the correct settings for 450V components (AC comp, OBC, DCDC, precharge resistor, etc)",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "24f390e2933a31b193d0b0c030bc61ae71f46d0f1e83bc53f1dffa8f4ec57831"
             },
             {
               "id": "868ku2tnf",
@@ -2466,5 +2534,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T22:33:17Z"
+  "generated_at": "2026-08-21T23:00:19Z"
 }
