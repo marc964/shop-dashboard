@@ -3,7 +3,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.8,
+      "pct_of_total": 9.6,
       "tasks": [
         {
           "task": "Charging",
@@ -69,8 +69,8 @@
     },
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 85.2,
-      "pct_of_total": 9.1,
+      "total_hours": 89.8,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -87,6 +87,10 @@
         {
           "task": "Battery Pack",
           "hours": 10.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 5.5
         },
         {
           "task": "Wiring - OEM",
@@ -113,10 +117,6 @@
           "hours": 1.0
         },
         {
-          "task": "Wiring - High Voltage",
-          "hours": 1.0
-        },
-        {
           "task": "Engine Bay",
           "hours": 0.5
         },
@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 84.8,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 80.0,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -230,7 +230,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 74.5,
+      "total_hours": 75.5,
       "pct_of_total": 8.0,
       "tasks": [
         {
@@ -239,7 +239,7 @@
         },
         {
           "task": "Instrumentation",
-          "hours": 15.0
+          "hours": 16.0
         },
         {
           "task": "Manufacturing - Product",
@@ -328,7 +328,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 35.5,
+      "total_hours": 36.0,
       "pct_of_total": 3.8,
       "tasks": [
         {
@@ -337,11 +337,58 @@
         },
         {
           "task": "HVAC",
-          "hours": 12.2
+          "hours": 12.8
         },
         {
           "task": "Vehicle Control",
           "hours": 4.8
+        }
+      ]
+    },
+    {
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 22.5,
+      "pct_of_total": 2.4,
+      "tasks": [
+        {
+          "task": "Suspension",
+          "hours": 8.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 2.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 2.5
+        },
+        {
+          "task": "Scanning",
+          "hours": 2.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 2.0
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 1.2
+        },
+        {
+          "task": "Steering",
+          "hours": 1.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 0.5
+        },
+        {
+          "task": "Engineering - Support",
+          "hours": 0.5
         }
       ]
     },
@@ -410,74 +457,27 @@
           "hours": 0.5
         }
       ]
-    },
-    {
-      "project": "Krafcik 02 Caterham",
-      "total_hours": 21.0,
-      "pct_of_total": 2.3,
-      "tasks": [
-        {
-          "task": "Suspension",
-          "hours": 8.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 2.5
-        },
-        {
-          "task": "Scanning",
-          "hours": 2.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 1.2
-        },
-        {
-          "task": "Steering",
-          "hours": 1.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 1.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 0.5
-        },
-        {
-          "task": "Engineering - Support",
-          "hours": 0.5
-        }
-      ]
     }
   ],
   "shop_work": {
-    "total_hours": 151.0,
-    "pct_of_total": 16.2,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 154.0,
+    "pct_of_total": 16.3,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 59.2
+        "hours": 59.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 52.0
+        "hours": 53.0
       },
       {
         "label": "Personal Meetings",
-        "hours": 17.8
+        "hours": 19.2
       },
       {
         "label": "Organization",
@@ -603,10 +603,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 626.5,
-    "non_billable_hours": 306.5,
+    "billable_hours": 634.0,
+    "non_billable_hours": 309.5,
     "pto_hours": 15.0,
-    "total_hours": 933.0
+    "total_hours": 943.5
   },
-  "generated_at": "2026-08-21T21:59:28Z"
+  "generated_at": "2026-08-21T22:33:17Z"
 }
