@@ -453,7 +453,7 @@
   ],
   "shop_work": {
     "total_hours": 139.5,
-    "pct_of_total": 15.4,
+    "pct_of_total": 15.3,
     "avg_per_person_per_day": 1.16,
     "flagged": true,
     "tech_count": 8,
@@ -500,7 +500,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -595,10 +595,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 612.0,
+    "billable_hours": 614.0,
     "non_billable_hours": 295.0,
     "pto_hours": 15.0,
-    "total_hours": 907.0
+    "total_hours": 909.0
   },
-  "generated_at": "2026-08-21T17:47:20Z"
+  "generated_at": "2026-08-21T18:36:02Z"
 }

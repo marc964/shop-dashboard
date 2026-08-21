@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T17:49:16.723025Z",
+  "updated_at": "2026-08-21T18:37:41.791931Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -509,190 +509,12 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 7
       },
       "assignees": [
         {
           "name": "Jordan Jones",
           "tasks": [
-            {
-              "id": "868k33pkg",
-              "name": "Address rear suspension issues",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k33pkg",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:25",
-                  "text": "Comment from yesterday:\n\"Installed rear shocks.\nAttempted to adjust rear ride height.\nIssues with vintage v-dubs IRS kit were discovered when attempting to adjust rear ride height.\nWelds failing on swing plates adjustment blocks.\nTorsion bar side of the adjustable swing plate not properly constrained to the backing plate, causing the plates to walk apart as the suspension moved. When I adjusted the screw this time it actually split the two apart completely. From the marks on the adjuster plate it looks to have been walking for a while.\nThe old shocks showed evidence of contact with the trailing arm.\nDid a bunch of research to determine the best path going forward. As much as I'd just like to buy new spring plates and be done with it, they appear to be custom to this application and though I can find lots of parts that look similar I'm unable to determine compatibility. Every kit maker does this part a little differently. So we're best off fixing what we have.Had @Aharon Adams take a look at everything since he has the most torsion bar experience.\nPlan going forward:\nRemove spring plates. Straighten the plate and re-weld the adjustment blocks.\nAdd constraining hardware to ensure the two-part plate can't pull apart. The slot is there, but no matching stud or thread on the companion plate. Looking around it does appear to be something most high-quality kits do.\nAdd a bushing to the torsion bar cap to press the two plates together. This wasn't included in the kit but Aharon confirmed it's a necessity.\nInstall a longer adjustment screw to give us a little more height.\nRegarding the shock mounting, I believe one of the many parts that were missing from the kit was upper shock mounts which were likely to prevent this contact. Where the shock mounts were intended to go I'm not sure. I moved the spacers around to create maximum clearance, and it appears that currently it will not make contact at full droop. Once we start driving it we can see if we need to address this. On the lift it seems OK.\""
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 20:29",
-                  "text": "Today:\nPulled spring plates left and right.\nBoth backing plate and adjuster plate showed significant bending.\nStraightened all four pieces as much as practical\nCut and cleaned threaded block off both sides.\nDrilled pilot hole for stud."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:57",
-                  "text": "3D printinng TPU bushings temporarily until new ones arrive from Jbugs.\nimage.png\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:57",
-                  "text": "Pressed in studs.\nCleaned from welding.\nPrepped for paint.\nPut 4 coats of hot-rod black.\nTouch-up painted adjustment blocks"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-19 23:58",
-                  "text": "Ordered wide, strong washers for clamp m8 stud"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 00:04",
-                  "text": "Instakked updated springplates\n-Adjusted ride height\nTest drove. No issues from rear of vehicle.\nAwaiting washers from mcmaster and permantent bushings from jbugs for completion."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-23 23:57",
-                  "text": "Installed new bushings and washers."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-27 02:33",
-                  "text": "@Marc Davis @Alex Noonan\n\n@Billy Arrasmith and @Aharon Adams did a ride-along.\n\nThe possible halfshaft noise I was hearing is gone completely. Easy to replicate yesterday, today nothing. The rear suspension has settled about 15mm since yesterday after sitting overnight, sort of points to half-shaft angle as a likely cause.\n\nBilly and Aharon both thought the front end actually feels pretty good on the road, especially with two people up front. Vehicle is ready to drive.\n\nIMO doesn't feel great at highway speeds. Partially alignment, partially the aerodynamics.\n\nSome notes from clickup/this morning.\n\nThere are two suspension components which need to be replaced. They have been reinstalled for now, but the new ones are on the way.\nLower arm - shock mount stud damaged from the extensive removal attempt.\nDrag link - Seized in place, threads damaged during removal - air hammer slipped and hit between the nut and thread, my fault.\nFront camber shim values are out of spec.\nThe lower torsion leaves have a divot which locates the grub screw, which locates the lower links. These were drilled about 4mm too far outboard either side of where they should be, resulting in an 'off the charts' shim arrangement. Maybe a mistake, maybe purposeful to gain more camber? I maxed out the shim adjustment and my quick camber measurement shows reasonable camber while unloaded.\nThere was big 'click' when we first pulled it out, didn't come back. Probably something settling, I'm going to retorque the grub screws and adjusters and test drive again to make sure it doesn't reappear.\nThe driver's side outboard halfshaft needs resealing. Billy knows about it.\nThe audio interference reappeared a little bit after reinstalling the ferrite filters. Not terrible, but not quite as good as it was. The combination is the same, but the locations have slightly shifted. If it's an issue I can dive back in.\nJordan Jones\u00a0\u00a0[1:46 PM]\n@Marc Davis @Alex Noonan\nVehicle is wiped down and ready to drive.\n\nDriving much better than at any point in the past. No clearance issues, even with me and Billy in the front.\n\nThere are still a few creaks/squeaks. Some come from the body (front passenger door and rear doors), I think one is from the newly installed rear seat. There is an occasional creak that sound like it's coming from the rear drivetrain/suspension when accelerating. I'm going to leave these for now.\n\nPossible halfshaft noise: I reported it was gone in the AM. After that, I raised the right rear by 10mm to level out the suspension. Noise returned. Lowered the rear end by 10mm again. Noise gone. Does seem to be halfshafts approaching their angle limit. I'm leaving it exactly where it is right now until Ferdman is gone, but there may be some more ride height tweaking in the future. Let's drive and see where it settles.\u00a0(edited)\n\nJordan Jones\u00a0\u00a0[1:56 PM]\nThings to look for on the test drive:\nMotor cooling. I haven't seen any overheating since I put the skid plates on but let's keep an eye on it.\nBrake feel. @Marc Davis you and Ferdman should take a final gander at that. Probably approaching the limit of what manual brakes can do, but there's always power brakes.\nUnless I'm mistaken, reverse torque is still insufficient. Don't park anywhere you have to back out of a hill."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-06-29 20:53",
-                  "text": "Test drove after work performed. Adjustment working as designed, no halfshaft noise."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-02 01:21",
-                  "text": "Decided to proceed with rear shock mount replacement.\nRemoved snubber mount from passenger side to test fitment of bracket.\nDrilling of spotwelds insufficient, bead on upper edge blocked by body. Had to remove what I could below and chisel / work the rest loose."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:01",
-                  "text": "Updated CAD and placed CAD in purchases.\nContinued removal of damper and old shock mount. Both sides removed with grinding/spot weld drilling/and metal fatiguing.\nNeed to clean and paint."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-14 21:52",
-                  "text": "Received brackets.\nMeasured, drilled and installed brackets.\nInstalled shocks - 1.5 turns CW (middle setting).\nSet ride height to 280mm in the rear."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 01:58",
-                  "text": "Picking this up. Summary of Thurs/Fri: Thu 7/16 \u2014 Aharon flagged adjustment asymmetry (passenger tight turning, driver easy/near end of travel); you attributed it to tolerance stacking, said re-indexing is limited by the wide plate. Driver-side vintageveedubs spring plate started deflecting again. Long deliberation on a permanent fix \u2014 confirmed no better off-the-shelf plate exists (Type E out on summer break), debated m16 studs+tap vs. through-bolt vs. m12. Decision: go m12, set ride height, then weld it solid. Aharon tacked brackets (washers down to m8), installed shocks at lowest setting with slight preload. Final drive: shock no longer contacting; minor noise remains only on hard right-turn-on-throttle. Marc: \"ride height looks great.\"\nTest drove in AM - sounds like halfshafts.\nTest drove with @Billy Arrasmith to hear noise reported by @Aharon Adams. Heard inside the cab, not outside.\nBack inside for chassis ears. Test drive again. Billy reported noise coming from center of motor - indicating inner CVs.\nLooked at various options. @Billy Arrasmith ordered new CVs. Will be here next week."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:02",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-03 23:16",
-                  "text": "Adjusted rear suspension to achieve a ride height of 275mm in the rear.\nRH outer: 3 clicks lower\nRH inner: 3 clicks higher\nLH inner: 3 clicks higher\nLH outer: 4 clicks lower\nTest drove after work performed: CV noise resolved."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "7b8865dd3dc478e06055dd2867a2e2e598575d014d5e87e5ed082ae01ef61a29"
-            },
-            {
-              "id": "868kqcr2w",
-              "name": "Adjust door fitment",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868kqcr2w",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-21 14:41",
-                  "text": "Received shim material and oversized mirror arm assemblies.\nSupported and removed door mirrors.\nUsing reamer, oversized hinge pin hole for new mirrors (both sides).\nInstalled new mirror arms and tested. Improvement in door play, but still not sufficient improvement for the driver's side.\nCreated variety of shims (dims: 50x65mm OD, 46x31mm rectangular hole pattern, 10mm holes).\nTested with different combinations of shims. Ended up with:|\n2.1mm of shims to achieve less door opening/closing force. Acceptable.\nTouch-up paint on bolts/hinge.\nInstalled and adjusted new mirrors."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6fe10e1117d59ac2851ec09092e2609280cdc529cb62e9d03b86df2c563f75ee"
-            },
-            {
-              "id": "868k7faah",
-              "name": "Adjust front ride height",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7faah",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:48",
-                  "text": "Summary from today:\nUnable to adjust ride height, and during arm replacement observed the torsion leaf stack ends no longer square. Attempted removal of torsion leaves for inspection: unable to remove leaves, jammed. Eventually able to hammer torsion leaves out and discovered the central keeper had stretched apart to the point where the torsion leaf stack had rotated and was no longer fully constrained in the center. This likely explains the crappy ride and, only the upper torsion leaf stack was actually supporting the weight, the lower stack was doing almost nothing. The upper torsion bar keeper was still intact, but was also stretching. And one final note, there are actually two leaves missing from each stack. Not sure if vintage v-dubs miscounted, or if they did that to change the spring rate. I'm going to add in the missing leaves when I reinstall.\nI spoke with Nate a Wagenwest. He is rush shipping us a set of new central keepers. He actually said the slit is necessary for the torsion leaves to settle properly, but that the quality of the metal was very important. He asked where I got the beam from, and his response: \"I could have guessed that\"... he described vintage v-dubs as a bad company with \"a long history of disasters\". No surprise there...\nAs soon as the keepers come in I will put the front end back together."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-03 02:49",
-                  "text": "IMG_3983.jpg\nIMG_3984.jpg\nIMG_3985.jpg\nIMG_3986.jpg\nIMG_3987.jpg\nIMG_3988.jpg\nIMG_3989.jpg\nIMG_3990.jpg\nIMG_3991.jpg\nIMG_3992.jpg"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-09 21:57",
-                  "text": "Received parts from WagenWest.\nCalled wagenwest. Provided photos and measurements to determined failure:\nNot due to split - that is required to 'expand' keeper into tube.\nKeeper ID too small - allowing for extreme stretching when bolt torqued, allowing leaves to shift.\nAlso incorrect number of leaves.\nCut keepers at 90, per wagenwest.\nCleaned internal weld at keeper landing point of beam. Had to clean out all grease before attempting.\nOordered heavier duty keeper hardware, per wagenwest."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:43",
-                  "text": "Cut and installed missing leaves.\nRemoved zerks on beam for install.\nInstalled leaves and keepers. Centered and torqued grub screws.\nInstalled arms with new hardware.\nMultiple ride height adjustments. Findings:\nRear suspension at maximum height to avoid halfshaft noise - 275mm.\nPlacing front suspension at 275mm results in a very stiff front end, as arms are at a severe angle.\nJacking the suspension up to 300mm (1 inch reverse rake) allows for much better suspension feel."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-10 23:44",
-                  "text": "Currently has 1\" reverse rake."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-13 16:24",
-                  "text": "Per @Aharon Adams suggestion, attempted to go beyond the halfshaft noise. No luck.\n275mm (rear ride height) - no halfshaft noise\n285mm - halfshaft noise emerges\n295mm - halfshaft noise persists, and appears more during cornering (left or right)\n315,mm - halfshaft noisei increases, especially during cornering"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:00",
-                  "text": "Front wheel spacers have been removed. With the new set of front suspension components we had a new situation where with Billy and I in the front while turning right hard we could get the front of the left tire to rub the fender. Removing the spacers greatly reduced that except at the most extreme angle (me+Billy+full lock + torque on the wheel). Spacers were added long ago to prevent rear left tire-to-rear body contact. That no longer appears to be an issue with the new suspension height/spindles.\n\nWe will need to switch back to shorter wheel studs to fit the hubcaps. But I'll wait till we get an alignment done to make sure there isn't anything else that crops up when everything gets straightened out. It's also possible the minor rubbing that still exists will no longer be an issue."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-18 02:03",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-07-21 18:52",
-                  "text": "7/20 - Bus went to Soulspeed"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-01 00:15",
-                  "text": "OK.\n\nGood news.\nAfter much experimentation, I am now at the following:\nWith the drop spindles back in, adjusters cranked to max height and 3/8\" wheel spacers added back in, we now have minimal rubbing. This shows the old VVDub internal torsion leaf keepers were likely failing when we were doing our adjustment before, able to get much higher ride height with the new keepers. Doing aggressive donuts in a nearby parking-lot I can't hear anything, but the masking tape I have in the wheelwells shows a slight rub either side at full lock. Not enough to burn through the tape, but some minor scrub. Given that I'm trying my hardest to replicate this issue, I think we're as close to 'acceptable' as we're going to get. The rub is now at the center of the roof of the wheel-well, not the edges. Nothing can be done except raise the height further, which we can't do.\n\nGoing back-to-back with the stock spindles at full low vs drop spindles at full high, huge difference in front suspension feel. Rides really nicely now in the front.\n\nWe are now at 280mm at the front, 290mm at the rear.\nTarget height from the last time I experimented with CV height to eliminate the noise was 275mm. Pretty close to what we've got in the front.\n\n@Aharon Adams on Monday let's drop the rear height to 275mm and verify that the CV growl is once again eliminated.\n@Billy Arrasmith I want to test drive with the both of us in the front and see how the rub is fully loaded.\nI'll do a proper toe adjustment, I just eyeballed it for this test.\nI may order slightly longer front shocks, the new height is a bit beyond what the shocks can do.\nI'm going to order slightly wider spacers to see if we can't mitigate the slight rub there is, very fast to test.\n(edited)"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-03 23:12",
-                  "text": "Set front toe.\nInstalled front shocks to investigate for rubbing.\nTest drove after shock install - no rubbing present. I can see the rub @Marc Davis is talking about though, suspension settled overnight, worse than on Friday.\nThere is now a return of the rub at full lock to the chassis on the rear of the RH front to body... we had tuned that out with spacers before. Might have to go up a size in spacers or clearance.\u00a0 Will investigate tomorrow."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-06 22:56",
-                  "text": "Ordered new spacers - slight rub on lock.\nOrdered new shocks. Volvo 240 rear shocks should fit. Ordered from Summit racing.\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-13 23:10",
-                  "text": "Installed new shocks and 1/2\" spacers.\nTest drove.\nShocks possibly too stiff\nScraping on full RH lock reduced, not eliminated."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "8270f187b6d7d1fe984cd17c30eab6ec0bdd0e2923e7ba89e6a4f6536ca06ac8"
-            },
             {
               "id": "868kq38dz",
               "name": "Facilitate head liner repair",
@@ -1237,7 +1059,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 5
+        "open_tasks": 6
       },
       "assignees": [
         {
@@ -1299,6 +1121,31 @@
               ],
               "checklist_items": [],
               "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+            },
+            {
+              "id": "868kv013h",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868kv013h",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kv013h",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868kv013h",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
             }
           ]
         },
@@ -1634,7 +1481,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 6
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -1659,138 +1506,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "2651e293912470212312b621bfb5431cea872189e72d0192fadb02d574ed0498"
-            }
-          ]
-        },
-        {
-          "name": "Jordan Jones",
-          "tasks": [
-            {
-              "id": "868kpyf6y",
-              "name": "R&R battery boxes",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kpyf6y",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 23:29",
-                  "text": "Removed hood.\nRemoved front battery box for rework."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-13 23:13",
-                  "text": "Flipped, lifted and dropped front battery box into position for install."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-14 22:53",
-                  "text": "Installed box 2\nDifficulty lining up M8s - eventually got them all.\nInstalled VCU stack.\nReinstalled MSDs and HV , cooling\nReinstalled 12V.\nReinstalled hood.\nTest-drove, briefly. No issues.\n@Marc Davis to test drive and we will pull logs, see voltage drop across busbars."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-17 18:03",
-                  "text": "Vehicle shuffle to get Preheim back into position.\nDrained motor circuit coolant.\nDisconnected battery box connections.\nRemoved vertical mounting hardware - two broken/crossthreaded bolts. Will need repair before reinstall.\nRemoved coolant hoses from hardlines.\nRemoved charge controller connections\nDropped motor 6\", then disconnected all charger connections.\nDropped assembly\nDisassembled assembly. Separated battery box from mounts. Ready for disassembly.\nNote:\nCross threaded bolts x2 (see above)\nAppears to be a leak from battery box coolant quick connect / barb.\nBrake line extremely close to battery box assembly."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-18 23:19",
-                  "text": "Flipped battery box and mounted into cradle.\nPerformed the following additional rework:\nBroken bolt in LH carrier - drilled out and re-tapped\nStripped thread in RH carrier - re-tapped\nAdded ground from chassis to charger.\nEnlarged holes in bracket/chassis to prevent further stripping from mis-alignment.\nPainted exposed steel, including where brackets were cut off.\nReplaced hardware with shofter hardware so as not to dig into battery box\nReinstalled box.\nInstalled the following connections:\nBattery coolant hoses - NOTE: Leak present at jiffytite. May need replacement. Will monitor tonight.\nHV battery leads.\nMSD\nHV LV\nMotor coolant hose.\nCharger connections (x4 grounds, LV, DCDC, AC, 12V out)\nCharge controller.\nCCS junction box.\nTorqued everything to spec.\n\nTomorrow AM:\nVacuum fill motor circuit\nReconnect 12V and test drive."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-19 16:33",
-                  "text": "Vacuum filled motor circuit.\nReconnected 12V\nBlazer is reassembled. Did a 5-minute test drive with some 2-3 second full-throttle pulls, it's on outside, keyed-on for logs @Marc Davis.\nDuring reinstall I did the following:\nAdded a ground strap from chassis to charger per @Billy Arrasmith\nRepaired a coolant leak on battery circuit (was at the hardline to softline transition in the back).\nHad to drill and tap some broken M10s on the motor mount plates which stripped/broke during removal. The sandwich didn't 100% line up during initial install and that stainless hardware failed. I hogged out the chassis and upper mount to give it more play.\nTouch-up paint on the steel to prevent rust.\nAll boxes were sealed with silicone (not o-ring), so I cleaned and reassembled in that fashion... too time consuming to clear the groove."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "68baf71034868ad1f5ecc7793bf2fb28e6b4df239752421a50450b592938a32c"
-            },
-            {
-              "id": "868knpamj",
-              "name": "Troubleshoot voltage issue",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868knpamj",
-              "comments": [
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "This is also certainly a contributing factor to the anomalous temperature readings we were getting on these boxes. (We took this box apart a few weeks ago to investigate the thermistors)."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "Diagnosis on Preheim voltage drop issue:\n\nBox 2 (590 D4) pulled.\nTested our cheap miliohmeter on the MEB_S3 and misc. busbars.\nThe tool: I'm not 100% convinced on the absolute values, which seem higher than should be expected even in a 'perfect' scenario... I think we can chalk that up to the quality of the leads. This Amazon special is like $130 total... Hioki leads by themselves are $250-$750.The tool itself is solid. Consistent, reliable readings, maintains it's 'zero' point, you can re-test the same connection after testing a few others and the value is accurate to the uOhm. So these values are useful compared to themselves, not to what we actually expect if we were measuring with a $2000 meter.\n\nWhat I found is that there was a lack of contact at all three of the 'lateral' busbars (going from side-to-side on a module).\n\nYou can see this in the NOOXID pattern on the busbars. The module connections which had the worst values had the smallest area of NOOXID compression.\n\nThis is primarily due to insufficient material cut out of the protective housing on the 590s.\u00a0 This caused the plastic to be .5mm-1.5mm proud of the terminal, causing the busbar to not make full contact. You could also see a small amount of plastic being smashed between the busbar and the terminal.\n\nA secondary cause was excessive insulation on the busbars, which interfered with the plastic housing.\n\nIt wasn't pretty, but I was able to trim down the excess plastic using fine snips to where no further material was proud. I also trimmed back the insulation where necessary. This would be much more easily accomplished prior to installation.\n\nMeasurements were taken from internal-module-busbar directly adjacent to the desired joint to be measured. Meter was zerod to this value to reduce discrepancies relating to mating surface."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:26",
-                  "text": "Troubleshoot voltage issue \u2014 work performed August 10, 2026\nI set up the Vici VC480C+ micro-ohmmeter on the 20 m\u03a9 range and verified its zero behavior by re-zeroing on a terminal-to-terminal placement and re-measuring each joint. Implied offset was 0.69 / 0.73 / 0.68 m\u03a9 across spans of 1.19\u20131.92 m\u03a9, with no relationship to reading magnitude. Repeatability is \u00b10.025 m\u03a9. All readings below are terminal-zeroed.\nI measured all three module-to-module busbar joints in Box 2 over two passes. As found: 1-to-2 at 1.23 m\u03a9, 2-to-3 at 0.46 m\u03a9, 3-to-4 at 0.72 m\u03a9. Ranking held across both passes.\nI pulled the 1-to-2 and 3-to-4 busbars. The NO-OX-ID witness pattern showed partial compression on both. The orange terminal housing on the LYTH VDA590 sits up to 1.7 mm proud of the terminal face and was visibly crushed between busbar and terminal.\nI trimmed the housing, applied NO-OX-ID and reinstalled each joint. On 3-to-4 I also found HV insulation fouling the joint face and removed it. 2-to-3 needed the housing cut down but no insulation trim.\nResults\n\nundefined\n3-to-4 read 0.56 m\u03a9 reinstalled dry, before insulation removal and NO-OX-ID.\nDocumented with 72 photos."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-10 22:27",
-                  "text": "TLDR: Anyone building 590s be very sure that these plastic housings are cut well below the face of the terminal.\n\nWe will need to pull the other two boxes to rectify. The other D4 will be a similar procedure to this box. The D8 will need to be disassembled to the point we can access the inner busbars."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-11 23:31",
-                  "text": "Removed shell from front box.\nNote: Shell is glued on, not o-ring. Difficult to remove shells, needed to be worked off with plastic chisel without damaging powdercoat.\nRemoved A-plate\nInspected joints. Issue present.\nCrushed wire on MSD amphenol needs replacement."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-12 23:38",
-                  "text": "undefinedD8 results"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-12 23:40",
-                  "text": "Disassembled module havlves and busbar assemblies. Measured each busbar span before removal. Measured after rework. Experimented. Resistance values significantly dropped after flipping busbar / block assemblies, due to some 'bowing' present after torquing. High torque also very useful for getting lowest resistance value."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-13 23:12",
-                  "text": "Finalized and sealed battery box.\nRepaired damaged wiring.\nNote: Excessive time due to box being sealed with silicone, not rubber o-ring. Had to clean before reinstall."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-14 22:50",
-                  "text": "Compared IRL readings to CANbus readings.\nMagnitudes don't correlate exactly miliohmeter to CANbus measurement (I assume that as the metal heats up and expands the measured resistance values will change.) but otherwise pretty darn close. No surprises. I think we should see a marked decrease with the rework.\nScreenshot 2026-08-14 174007.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-17 22:43",
-                  "text": "Partial reassembly. Will complete tomorrow AM.\nimage.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-17 22:43",
-                  "text": "Disassembled S4.\nInvestigated:\nTerminal resistance dropped by 50% after retorquing.\nAfter rework (flipping, new NOOXID, M6x20mm screws w/ blue loctite and larger washer), 90% reduction.\nS4 \u2014 all readings, terminal-zeroed:\n\nundefined"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-18 17:22",
-                  "text": "undefined"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-18 17:23",
-                  "text": "Completed rework (see above).\nScreenshot 2026-08-18 112645.png"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-18 17:24",
-                  "text": "Reinstalled 2-3 busbar.\nReattached all loose connectors. Marked each one.\nRe-tightened BMS stack hardware\nReinstalled A-plate.\nReinstalled distribution block.\nCleaned mating surfaces.\nRe-sealed box.\nReady for reinstallation."
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2026-08-19 16:34",
-                  "text": "undefinedS4 results."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "925dc79299b8697b0a81de8061192c253f809a43f54dc597354e7f510cbb728e"
             }
           ]
         },
@@ -2192,9 +1907,95 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 16:36",
+                  "text": "ordering interior kit"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:57",
+                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "In communication with customer on this."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:25",
+                  "text": "Dash upper pad replaced"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:26",
+                  "text": "Door panels unboxed and test fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:30",
+                  "text": "1000014098.jpg1000014099.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:12",
+                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:14",
+                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:06",
+                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:07",
+                  "text": "Dave is picking up front and rear bench seat tonight"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "1000014208.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "Rubber seam installed in door panel\nDoor panel installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:56",
+                  "text": "Door panel arm rests ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
             },
             {
               "id": "868gaza9t",
@@ -2273,9 +2074,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-15 23:03",
+                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 14:53",
+                  "text": "This was completed by Billy and or Ben as they were building the truck."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
+              "content_hash": "18e1e40fcb9096b45e5ab0b92c37a828d43081ca83be36a4e89db52be0daf2f7"
             },
             {
               "id": "868ka1pgr",
@@ -2283,9 +2100,111 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:02",
+                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "1.) PMU1 PMU2 - Communication Check",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "4.) PMU1 004-P13 Reverse Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "5.) PMU1 002-P39 Digital GUI",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "6.) PMU1 012-P02 Brake Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "7.) PMU1 011-P03 BMS Wake",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "8.) PMU1 006-P10 CCS Contactors",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "10.) PMU1 008 -P09 Negative Contactor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "11.) PMU1 013-P01 Battery Heater",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "13.) PMU1 005-P12 Vacuum Pump",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 1.) Accelerator Pedal",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 2.) Brake Switch",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 3.) Ambient Air Temp Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 4.) HVIL",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 5.) PRND",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "7b26c7858d995388fba871b14d2be525888e084050656e64cc3c43f7a273ce58"
             }
           ]
         },
@@ -2313,9 +2232,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-05 21:03",
+                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "54c97fee58c94e39c2ae390157e58282d52742d45f9544ebdcbbbb136088511f"
+              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
             }
           ]
         }
@@ -2535,5 +2460,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T17:47:20Z"
+  "generated_at": "2026-08-21T18:36:02Z"
 }
