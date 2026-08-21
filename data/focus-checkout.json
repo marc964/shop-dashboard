@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T14:00:04.465058Z",
+  "updated_at": "2026-08-21T14:44:48.837370Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -607,9 +607,15 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kqcr2w",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-21 14:41",
+                  "text": "Received shim material and oversized mirror arm assemblies.\nSupported and removed door mirrors.\nUsing reamer, oversized hinge pin hole for new mirrors (both sides).\nInstalled new mirror arms and tested. Improvement in door play, but still not sufficient improvement for the driver's side.\nCreated variety of shims (dims: 50x65mm OD, 46x31mm rectangular hole pattern, 10mm holes).\nTested with different combinations of shims. Ended up with:|\n2.1mm of shims to achieve less door opening/closing force. Acceptable.\nTouch-up paint on bolts/hinge.\nInstalled and adjusted new mirrors."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "a1b1521e08a0c069e43034de60a7ffe8c62bec11cbcdbeb17f367af89fb46272"
+              "content_hash": "6fe10e1117d59ac2851ec09092e2609280cdc529cb62e9d03b86df2c563f75ee"
             },
             {
               "id": "868k7faah",
@@ -2529,5 +2535,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T13:58:06Z"
+  "generated_at": "2026-08-21T14:42:44Z"
 }
