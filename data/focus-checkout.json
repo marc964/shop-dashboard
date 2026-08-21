@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T21:34:40.244026Z",
+  "updated_at": "2026-08-21T22:01:18.552342Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -730,10 +730,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-20 22:49",
                   "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:53",
+                  "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c379a6c484eef866989200e781ec0d0d4e02fbe134b7ae125b9fa6eb9def9442"
+              "content_hash": "cc4cdfc9f11f451cda261bb73c75707e2562b23989fc48af1b35f06e9b4e9c10"
             }
           ]
         },
@@ -746,9 +751,25 @@
               "status": "Open",
               "list": "Ferdman 66 Bus",
               "url": "https://app.clickup.com/t/868kv2u3g",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:50",
+                  "text": "image.png\nimage.png\nimage.png\nimage.png\nimage.png\n\n\nimage.png\n\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:54",
+                  "text": "-Did a preliminary design\n-Met with Jordan and Alex 8/20 and as a team decided to try to make a design for the radiator mount that contoured to the wheel well. Screen shots are of the final design that got ordered from OSH.\nSheet metal will come too long, extruded through the wheel well. After Jordan makes a rectangular cut and installs the sheetmetal assembly, he will mark the radius he needs to cut.\n-It was acknowledged that the contoured design would be more complicated to fit test/install, but it was agreed as a team that this was the right direction to go."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:58",
+                  "text": "As a backup, I designed upper and lower \"U\" mount brackets that would allow us to mount the existing shroud. I also designed a thin piece of aluminum to mount the mesh screen that we could bend along the contour of the wheel well as a backup.\nimage.png\nimage.png"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "ff3ffba31f5496f0ab2753927800f90477ae0c1c05546867686b810f3e660c66"
+              "content_hash": "5b03cfa33a0a08ff8bf41dd6ff2935f07fa1768adaeed9d2300d8edc37fe9fc2"
             }
           ]
         }
@@ -2439,5 +2460,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T21:32:49Z"
+  "generated_at": "2026-08-21T21:59:28Z"
 }
