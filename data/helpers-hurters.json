@@ -68,6 +68,53 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 84.8,
+      "pct_of_total": 9.3,
+      "tasks": [
+        {
+          "task": "Motor & Transmission",
+          "hours": 15.0
+        },
+        {
+          "task": "Interior",
+          "hours": 13.2
+        },
+        {
+          "task": "Brakes",
+          "hours": 12.5
+        },
+        {
+          "task": "Steering",
+          "hours": 12.0
+        },
+        {
+          "task": "Exterior",
+          "hours": 9.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 7.5
+        },
+        {
+          "task": "Suspension",
+          "hours": 6.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 6.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Ritchie 71 Blazer",
       "total_hours": 84.8,
       "pct_of_total": 9.3,
@@ -127,53 +174,6 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 82.8,
-      "pct_of_total": 9.1,
-      "tasks": [
-        {
-          "task": "Motor & Transmission",
-          "hours": 15.0
-        },
-        {
-          "task": "Interior",
-          "hours": 13.2
-        },
-        {
-          "task": "Brakes",
-          "hours": 12.5
-        },
-        {
-          "task": "Steering",
-          "hours": 10.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 8.5
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 7.5
-        },
-        {
-          "task": "Suspension",
-          "hours": 6.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 6.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 80.0,
       "pct_of_total": 8.8,
@@ -227,7 +227,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 66.0,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -489,7 +489,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -574,7 +574,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.0,
-      "pct_of_total": 0.6,
+      "pct_of_total": 0.5,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -595,10 +595,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 614.0,
+    "billable_hours": 616.0,
     "non_billable_hours": 295.0,
     "pto_hours": 15.0,
-    "total_hours": 909.0
+    "total_hours": 911.0
   },
-  "generated_at": "2026-08-21T18:36:02Z"
+  "generated_at": "2026-08-21T19:13:52Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T18:37:41.791931Z",
+  "updated_at": "2026-08-21T19:15:33.836235Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1261,71 +1261,9 @@
         "matched_lists": [
           "Miner 95 911"
         ],
-        "open_tasks": 3
+        "open_tasks": 1
       },
       "assignees": [
-        {
-          "name": "Ryan Laurel",
-          "tasks": [
-            {
-              "id": "868jy3yw8",
-              "name": "Ask TPWS about old motor",
-              "status": "Open",
-              "list": "Miner 95 911",
-              "url": "https://app.clickup.com/t/868jy3yw8",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-12 13:18",
-                  "text": "Left message with TPWS. Will follow up again today."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-17 15:32",
-                  "text": "Spoke to Matt at TPWS about the old motor. Sounds like he's wanting some sort of storage charge. Will follow up with him in the next day or so."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-06-24 17:26",
-                  "text": "Followed up with TPWS on 6/24, waiting on reply."
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-07-01 17:06",
-                  "text": "Do we pay them $2400 for the motor back?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-07-09 20:29",
-                  "text": "Thoughts on paying for that motor?"
-                },
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-14 16:37",
-                  "text": "Coordinating with TPWS on motor pick up. Spoke to Frannie week of 8/3."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "02a901f76b0a6294c5f8636659dcf9f7e4c3cc2efe4de867ef4d587fa1683c37"
-            },
-            {
-              "id": "868jy3ykv",
-              "name": "Organize transport home",
-              "status": "Open",
-              "list": "Miner 95 911",
-              "url": "https://app.clickup.com/t/868jy3ykv",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-07-09 20:29",
-                  "text": "Signal has all the transport details, just waiting on thumbs up from us."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "6da27640d655c128bd956f4d18af8b75dda2ba70e36f8ad863eb406d8ade3a8b"
-            }
-          ]
-        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -1799,9 +1737,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:48",
+                  "text": "start up\nhelped with 12 volt\nfound tail light was out\nbrake pedal spring needs to be installed( used on Preheim)\nfound isolation fault"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "4128c3c927b57a4d882faba90584e872ef61d7fc4a8c78e07958ce2cba1e10e0"
             },
             {
               "id": "868ktqm7v",
@@ -1856,9 +1805,45 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "625bd1ab6901e59bd3315c14cc847b761a170e708b69a32a991260f7cf6d76a1"
             },
             {
               "id": "868kpg6th",
@@ -2227,20 +2212,14 @@
           "name": "Ryan Laurel",
           "tasks": [
             {
-              "id": "868km0hx2",
-              "name": "Coordinate seat recovering with DG",
+              "id": "868kv07mr",
+              "name": "Coordinate center console paint",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868km0hx2",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-05 21:03",
-                  "text": "DG has seats and materials. Front seat foams are beyond saving so ordered new ones from LMC, ETA around 7/10."
-                }
-              ],
+              "url": "https://app.clickup.com/t/868kv07mr",
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "6c42d819f5182db876bd1b3bc522c08f3b8a7c7736d4cc223fc03ab575afa684"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             }
           ]
         }
@@ -2460,5 +2439,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-21T18:36:02Z"
+  "generated_at": "2026-08-21T19:13:52Z"
 }
