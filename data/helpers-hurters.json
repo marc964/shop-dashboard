@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 84.8,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 80.0,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -395,7 +395,7 @@
     {
       "project": "McDonough 77 Esprit",
       "total_hours": 21.2,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -422,7 +422,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.2,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Inspection",
@@ -460,16 +460,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 154.0,
-    "pct_of_total": 16.3,
-    "avg_per_person_per_day": 1.28,
+    "total_hours": 158.5,
+    "pct_of_total": 16.7,
+    "avg_per_person_per_day": 1.32,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 59.8
+        "hours": 61.2
       },
       {
         "label": "Shop Meetings",
@@ -481,7 +481,7 @@
       },
       {
         "label": "Organization",
-        "hours": 14.0
+        "hours": 17.0
       },
       {
         "label": "Other",
@@ -560,7 +560,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 9.0,
-      "pct_of_total": 1.0,
+      "pct_of_total": 0.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -604,9 +604,9 @@
   ],
   "totals": {
     "billable_hours": 634.0,
-    "non_billable_hours": 309.5,
+    "non_billable_hours": 314.0,
     "pto_hours": 15.0,
-    "total_hours": 943.5
+    "total_hours": 948.0
   },
-  "generated_at": "2026-08-21T23:00:19Z"
+  "generated_at": "2026-08-21T23:38:13Z"
 }
