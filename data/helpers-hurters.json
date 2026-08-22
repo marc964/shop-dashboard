@@ -70,7 +70,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 89.8,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -179,8 +179,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 80.0,
-      "pct_of_total": 8.4,
+      "total_hours": 83.5,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -211,6 +211,10 @@
           "hours": 3.8
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 3.5
+        },
+        {
           "task": "Motor & Transmission",
           "hours": 2.8
         },
@@ -231,7 +235,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 75.5,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -282,7 +286,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 48.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -497,7 +501,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -603,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 634.0,
+    "billable_hours": 637.5,
     "non_billable_hours": 314.0,
     "pto_hours": 15.0,
-    "total_hours": 948.0
+    "total_hours": 951.5
   },
-  "generated_at": "2026-08-21T23:59:16Z"
+  "generated_at": "2026-08-22T01:43:20Z"
 }
