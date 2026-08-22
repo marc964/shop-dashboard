@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T04:07:56.911672Z",
+  "updated_at": "2026-08-22T04:50:57.065675Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1635,15 +1635,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -1737,15 +1731,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -1909,40 +1897,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2031,25 +1988,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-15 23:03",
-                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 14:53",
-                  "text": "This was completed by Billy and or Ben as they were building the truck."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "18e1e40fcb9096b45e5ab0b92c37a828d43081ca83be36a4e89db52be0daf2f7"
+              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
             },
             {
               "id": "868ka1pgr",
@@ -2325,5 +2266,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-22T04:06:06Z"
+  "generated_at": "2026-08-22T04:49:28Z"
 }
