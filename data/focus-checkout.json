@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T09:01:43.565910Z",
+  "updated_at": "2026-08-22T09:36:42.137712Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1329,41 +1329,12 @@
     },
     {
       "owner": "Miner",
-      "vehicle": {
-        "owner": "Miner",
-        "year": 1995,
-        "color": "Green",
-        "make": "Porsche",
-        "model": "993",
-        "status": "Testing",
-        "checkout": 90.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Miner 95 911"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_vehicle"
       },
-      "assignees": [
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868krf9gv",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Miner 95 911",
-              "url": "https://app.clickup.com/t/868krf9gv",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Preheim",
@@ -1950,9 +1921,95 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 16:36",
+                  "text": "ordering interior kit"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:57",
+                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "In communication with customer on this."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:25",
+                  "text": "Dash upper pad replaced"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:26",
+                  "text": "Door panels unboxed and test fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:30",
+                  "text": "1000014098.jpg1000014099.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:12",
+                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:14",
+                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:06",
+                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:07",
+                  "text": "Dave is picking up front and rear bench seat tonight"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "1000014208.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "Rubber seam installed in door panel\nDoor panel installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:56",
+                  "text": "Door panel arm rests ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "64247be4ecc5bc153ec6b1ff377bc0a0f4ae9fa600fd285cfeb1c6b548a0f84f"
             },
             {
               "id": "868gaza9t",
@@ -2058,8 +2115,99 @@
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
               "comments": [],
-              "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "checklist_items": [
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "1.) PMU1 PMU2 - Communication Check",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "4.) PMU1 004-P13 Reverse Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "5.) PMU1 002-P39 Digital GUI",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "6.) PMU1 012-P02 Brake Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "7.) PMU1 011-P03 BMS Wake",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "8.) PMU1 006-P10 CCS Contactors",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "10.) PMU1 008 -P09 Negative Contactor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "11.) PMU1 013-P01 Battery Heater",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "13.) PMU1 005-P12 Vacuum Pump",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 1.) Accelerator Pedal",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 2.) Brake Switch",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 3.) Ambient Air Temp Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 4.) HVIL",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 5.) PRND",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
             },
             {
               "id": "868kv2ram",
@@ -2325,5 +2473,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-22T08:59:40Z"
+  "generated_at": "2026-08-22T09:35:11Z"
 }
