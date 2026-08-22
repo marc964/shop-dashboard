@@ -1,9 +1,72 @@
 {
   "helpers": [
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 98.8,
+      "pct_of_total": 10.3,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 26.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 17.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 14.5
+        },
+        {
+          "task": "Audio",
+          "hours": 12.8
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 10.5
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 4.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 3.5
+        },
+        {
+          "task": "Interior",
+          "hours": 3.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 2.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 1.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 0.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.5
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Charging",
@@ -68,72 +131,9 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 89.8,
-      "pct_of_total": 9.4,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 26.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 17.5
-        },
-        {
-          "task": "Audio",
-          "hours": 12.8
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 10.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 5.5
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 4.0
-        },
-        {
-          "task": "Suspension",
-          "hours": 3.5
-        },
-        {
-          "task": "Interior",
-          "hours": 3.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 2.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 1.0
-        },
-        {
-          "task": "Engine Bay",
-          "hours": 0.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 0.5
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 84.8,
-      "pct_of_total": 8.9,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 83.5,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -333,7 +333,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 36.0,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -352,7 +352,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 22.5,
-      "pct_of_total": 2.4,
+      "pct_of_total": 2.3,
       "tasks": [
         {
           "task": "Suspension",
@@ -464,20 +464,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 158.5,
-    "pct_of_total": 16.7,
-    "avg_per_person_per_day": 1.32,
+    "total_hours": 159.5,
+    "pct_of_total": 16.6,
+    "avg_per_person_per_day": 1.33,
     "flagged": true,
     "tech_count": 8,
     "working_days": 15,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 61.2
+        "hours": 61.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 53.0
+        "hours": 53.5
       },
       {
         "label": "Personal Meetings",
@@ -512,7 +512,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 4.2,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -553,7 +553,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 12.0,
-      "pct_of_total": 1.3,
+      "pct_of_total": 1.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 637.5,
-    "non_billable_hours": 314.0,
+    "billable_hours": 646.5,
+    "non_billable_hours": 315.0,
     "pto_hours": 15.0,
-    "total_hours": 951.5
+    "total_hours": 961.5
   },
-  "generated_at": "2026-08-22T22:48:10Z"
+  "generated_at": "2026-08-22T23:20:25Z"
 }
