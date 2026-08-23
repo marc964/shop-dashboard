@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:47:12.875050Z",
+  "updated_at": "2026-08-23T18:30:47.489634Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -833,7 +833,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -890,6 +890,42 @@
               ],
               "checklist_items": [],
               "content_hash": "b029ebc18b69bddb6ee07665790ae0e3ac93ebeee7a810d146f671b787ca5013"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:31",
+                  "text": "Gathering AC compressor logs from Raptor."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:00",
+                  "text": "HVAC testing and Logging."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
+            },
+            {
+              "id": "868kvg1qd",
+              "name": "Troubleshoot AC compressor issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kvg1qd",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
             }
           ]
         },
@@ -989,32 +1025,6 @@
               ],
               "checklist_items": [],
               "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868krf6f9",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf6f9",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:31",
-                  "text": "Gathering AC compressor logs from Raptor."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:00",
-                  "text": "HVAC testing and Logging."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
             }
           ]
         }
@@ -1623,7 +1633,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 46
+        "open_tasks": 45
       },
       "assignees": [
         {
@@ -2036,32 +2046,6 @@
           "name": "Brandon Beaman",
           "tasks": [
             {
-              "id": "868kcb3ew",
-              "name": "Install VC harness",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-07-15 23:03",
-                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 14:53",
-                  "text": "This was completed by Billy and or Ben as they were building the truck."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "18e1e40fcb9096b45e5ab0b92c37a828d43081ca83be36a4e89db52be0daf2f7"
-            },
-            {
               "id": "868ka1pgr",
               "name": "Start up vehicle",
               "status": "Open",
@@ -2335,5 +2319,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-23T17:45:45Z"
+  "generated_at": "2026-08-23T18:29:16Z"
 }
