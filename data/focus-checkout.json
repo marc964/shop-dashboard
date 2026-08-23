@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T05:46:39.669049Z",
+  "updated_at": "2026-08-23T06:16:42.451370Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1795,9 +1795,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqm7v",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:07",
+                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:25",
+                  "text": "finished testing. the wiring\nhad to fix firewall connector\nready to startup\nIMG_1913.jpeg\nIMG_1912.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:53",
+                  "text": "revers light not functioning looking into it\nright brake light not working but the turn signal works"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "44428effbbac51861d82c768f8aa9a4466cf20df664b3f1da3721bb9aa7ce82c"
+              "content_hash": "b8e62a699ac139543f20aaf08b1491a5a30458137b5478e164f61ac70c652664"
             },
             {
               "id": "868kunztt",
@@ -1805,9 +1821,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kunztt",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:46",
+                  "text": "found faulty cable due to brake fluid\nneeds to be replaced"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "IMG_1914.jpeg\nIMG_1915.jpeg\nIMG_1916.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "going over budget\nfixed the HV cable\nchecked the res\nall is good on HV Cable\nplugged everything back in\nstill had fault\nremoved the HVJB\ntook the cover off\nno ingress\nstarted checking other places\ngot Jordan to help\nfound no issues with JV cables\nBrandon and Devin checked boxes found an anomaly in the D*\nverified Prehiem was good with the same test\nran more test\nwaiting on confirmation to pull a battery"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
+              "content_hash": "74f087ff77e8fc8903b7a4b31dc822b456c731176b1bc457b5d3d2c85111de83"
             }
           ]
         },
@@ -1820,9 +1852,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv10m3",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:34",
+                  "text": "Panel cut\nHoles marked\nHoles tapped M6\nPanel painted\nInstalled with black RTV to seal"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:35",
+                  "text": "1000014772.jpg1000014773.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bbffa3e4c34abfc4af0626214a8d49bb6735b98c206c06e12d4df7bf8ffb84d6"
+              "content_hash": "77207f71bfd6182418073f0f447628a73b1817f3a0379ba6435d6521264f1fa5"
             },
             {
               "id": "868k6ttbf",
@@ -1905,9 +1948,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv2ram",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 22:12",
+                  "text": "Dive into ISO fault on this vehicle.\nUsed preheim to verify findings.\n2 tests show the front D4 to be good and the Front D8 to have a major iso issue.\nComparing to preheim with the same test sshows that this vehicle does have an issue with the front D8 box.\nLikely front box will need to be removed for further inspection.\nStart up paused until this is fixed.\nCheck start task for picture details and what vehicle they came from."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
+              "content_hash": "a73abb15dd34a206dd720d466b29cea34c0d7df65e620923a284a72cecacd8c1"
             }
           ]
         },
@@ -2157,5 +2206,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-23T05:45:06Z"
+  "generated_at": "2026-08-23T06:15:12Z"
 }
