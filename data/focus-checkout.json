@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:16:42.451370Z",
+  "updated_at": "2026-08-23T07:07:14.515219Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1635,9 +1635,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:58",
+                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
+              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
             },
             {
               "id": "868hbnnhz",
@@ -1705,9 +1711,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:08",
+                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "916ddfb05df9c91ca1e31966e95cba3bc0eb7a210fc5c92cac5c69e1815a16f9"
             },
             {
               "id": "868hbnmkf",
@@ -1725,9 +1737,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -1735,9 +1753,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
             },
             {
               "id": "868ktqj7a",
@@ -1745,9 +1769,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqj7a",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:35",
+                  "text": "steering wheel ordered"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4eefcecc12042d45511a40e69baf8e36f7e966048db1eeb9896e80a02f248372"
+              "content_hash": "ef9b288bcfca9810cdd84893cb342175271f1cbad95e16355c3fa3766da3e61b"
             },
             {
               "id": "868gaza16",
@@ -1765,9 +1795,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:02",
+                  "text": "removed rear seat mount brackets\nready for PC"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
+              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
             },
             {
               "id": "868hbmtxh",
@@ -1883,9 +1919,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -1913,9 +1980,55 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpyh0j",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:51",
+                  "text": "Fuel filler mocked up\nCut marks made\nFiller neck cut down and planed smooth\nFlange deburred\nFiller neck sanded and prepped for paint\nNeck cleaned and primed\nNeck painted and left to cure over night\nBody to neck gasket sourced and ordered\nBed side to flange gasket sourced and ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:56",
+                  "text": "1000014575.jpg1000014606.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:36",
+                  "text": "Fuel filler received once more coat of paint to remove light spots"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:24",
+                  "text": "Fuel filler pass through in body floor traced\nTemplate used to cut steel plate\nPlate shaped to fit floor contour\nPlate cleaned, prepped and painted\nPlate was sealed w/ RTV and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:28",
+                  "text": "1000014624.jpg1000014620.jpg1000014625.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:32",
+                  "text": "Fuel filler modified and 12V quick disconnect installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:33",
+                  "text": "1000014749.jpg1000014750.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "Fuel filler installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "1000014751.jpg1000014752.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "c1f99d329743e991831fcf033174356957eda38028b485d81bc3e506568dea81"
+              "content_hash": "37740c6f14a668843a9bf59040b3501f67a8d3ade201935edc886eb7b0bd792b"
             }
           ]
         },
@@ -1928,9 +2041,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kcb3ew",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-07-15 23:03",
+                  "text": "Installed most of the VC harness into this vehicle. Currently the vehicle is not complete enough to finish installation.\nWill get with the main tech on the vehicle to explain the missing items found and or get a schedule to finish this installation."
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "Waiting for battery boxes to be installed (waiting on boxes to be tested before installing)"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 14:53",
+                  "text": "This was completed by Billy and or Ben as they were building the truck."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3f631a5f0c7a1160fb0099c3f4154688c6adfd700c8c4d805384ef0e871bec7a"
+              "content_hash": "18e1e40fcb9096b45e5ab0b92c37a828d43081ca83be36a4e89db52be0daf2f7"
             },
             {
               "id": "868ka1pgr",
@@ -2206,5 +2335,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-23T06:15:12Z"
+  "generated_at": "2026-08-23T07:05:38Z"
 }
