@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T22:56:20.056967Z",
+  "updated_at": "2026-08-24T23:09:08.856258Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -952,9 +952,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kvg1qd",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 22:59",
+                  "text": "Aharon took care of the evac and charge on the AC system.\nSystem recharged at 24oz.\nRe tested the system and pulled the logs from the Raptor page.\nFound that the AC system is operating much better than it did prior.\nNo hard shutoffs or over current faults present at this time.\nNo need to adjust any settings on the VCU at this time.\nThe only time the AC compressor has shut off is when the Vintage air system commands it to shut off.\nUploaded the Logs to slack and can upload them here as well.\nVent temps roughly 40\u00b0F Inside and outside so the HVAC system is working great at this time."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
+              "content_hash": "44c99d3b74a1844b4151c9d92eab1d6359e9624cf8f6c09539b4c563921819e2"
             }
           ]
         },
@@ -2195,10 +2201,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-21 22:12",
                   "text": "Dive into ISO fault on this vehicle.\nUsed preheim to verify findings.\n2 tests show the front D4 to be good and the Front D8 to have a major iso issue.\nComparing to preheim with the same test sshows that this vehicle does have an issue with the front D8 box.\nLikely front box will need to be removed for further inspection.\nStart up paused until this is fixed.\nCheck start task for picture details and what vehicle they came from."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 23:08",
+                  "text": "Can confirm Isolation fault at D8... Box #1 for Ritchie.\nMeasured up to 158v at the casing of the box with out the contactor pulled in.\nDue to the voltage measurements of 158 from negative to case and 18 from positive to case this leads us to believe that its in the middle of the box on the last module. Module number 8.\nLikely inside the module its self due to positioning since 18v is less than a modules total voltage.\nHaving Justin tear the box apart and verify at this time what the cause was.\n\nThis is From Devin in Slack.\nWith the MSD connected and the contactor pulled in the box measures voltage from HV positive to Case and from HV negative to case. Pulling the MSD only HP negative to case reads voltage. The aluminum plates are clear anodized so you have some insulation there. As long as you're not touching the ethanol output HP plus or minus touching the box is only touching one terminal of a battery.\nRitchie Box #2 and Box #3 both measure 50,000 kOhms with both the MSD plugged in and the contactor pulled in. They also both pass the Ampere BMS test."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a73abb15dd34a206dd720d466b29cea34c0d7df65e620923a284a72cecacd8c1"
+              "content_hash": "c64f060cec62b024323416739d0c9f65fb714710d1b348ad1abf5f8cc5b7ee23"
             }
           ]
         },
@@ -2475,5 +2486,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T22:54:50Z"
+  "generated_at": "2026-08-24T23:07:20Z"
 }
