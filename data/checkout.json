@@ -295,7 +295,7 @@
             "done": false
           },
           {
-            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.",
+            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.\n2026-08-24: Entered into the CANCloud, just waiitng for the config to sync.",
             "done": false
           },
           {
@@ -1735,7 +1735,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-24T20:44:30.492224+00:00",
+  "updated": "2026-08-24T20:59:43.201801+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-24T20:43:18Z"
+  "generated_at": "2026-08-24T20:58:46Z"
 }
