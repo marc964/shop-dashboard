@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T22:43:09.719543Z",
+  "updated_at": "2026-08-24T22:56:20.056967Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -137,6 +137,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-24 16:16",
                   "text": "Updated these settings in the GUI as well.\nVerified settings stayed persistent through a key cycle."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 22:45",
+                  "text": "Corrected Gear ratio. Mistakenly input Dans Healey ratio versus this vehicle.\nThis vehicle has a 4.3 ratio rear end and a direct drive setup so the Final Drive ratio should be 4.3 unless incorrect information has been relayed to me.\nAsked Ryan to gather Wifi credentials for this client.\nClient stopped by today to drop off License plates. And provided the details at that time.\nID: ATT8072B\npw: h1aj2u123K\nDevin uploaded this data to the vehicle.\nWent through and verified heater operations.\nFound that this vehicle has the heater circuit wired differently than our new standards.\nBlower motor and heater contactor are trigged by the same switch using the same output from the PDU.\nAt this point in time upper management says that this should be fine since our older cars have been wired this way without any major issues.\nThe proper fix to this would be to move the contactor positive lead over to the \"AC Blower\" positive in the HVAC sub and have it commanded on based on the current level of the Heat Blower output from the pmu. This prevents the heater from turning on unless there is a load present on the heater blower motor.\nHowever as the vehicle sits the heater is enabled and works as built.\nAlso Uploaded the current PMU Project files to the drive under the vehicle folder. That way this can be referenced in the future if necessary.If any PMU changes are made we will need to reupload or replace what was there."
                 }
               ],
               "checklist_items": [
@@ -153,7 +158,7 @@
                 {
                   "checklist": "Checklist",
                   "name": "Add wifi credentials",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
@@ -163,10 +168,10 @@
                 {
                   "checklist": "Checklist",
                   "name": "Test heater",
-                  "resolved": false
+                  "resolved": true
                 }
               ],
-              "content_hash": "14459d1f288d704d4f561777caec454d4efc358a8e279eed95dfe3a812a60a00"
+              "content_hash": "d117d77f7da070d5519c6b1209d2f0d3ec208876be8ce98fa77e728f764e9c8e"
             }
           ]
         }
@@ -2470,5 +2475,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T22:41:27Z"
+  "generated_at": "2026-08-24T22:54:50Z"
 }

@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 102.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 10.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -66,7 +66,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.2,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Charging",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.5,
-      "pct_of_total": 8.6,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -235,7 +235,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 81.0,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -351,7 +351,7 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 23.5,
+      "total_hours": 24.0,
       "pct_of_total": 2.4,
       "tasks": [
         {
@@ -360,7 +360,7 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 3.5
+          "hours": 4.0
         },
         {
           "task": "Wiring - OEM",
@@ -464,20 +464,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 163.5,
+    "total_hours": 164.8,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.28,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.8
+        "hours": 64.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 55.5
+        "hours": 56.0
       },
       {
         "label": "Personal Meetings",
@@ -512,7 +512,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 674.5,
-    "non_billable_hours": 319.0,
+    "billable_hours": 680.8,
+    "non_billable_hours": 320.2,
     "pto_hours": 15.0,
-    "total_hours": 993.5
+    "total_hours": 1001.0
   },
-  "generated_at": "2026-08-24T22:41:27Z"
+  "generated_at": "2026-08-24T22:54:50Z"
 }
