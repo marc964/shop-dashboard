@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T16:51:07.359745Z",
+  "updated_at": "2026-08-24T17:14:07.024347Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -64,11 +64,15 @@
             {
               "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
               "done": false
+            },
+            {
+              "text": "no heater hv lockout on blower speed",
+              "done": false
             }
           ],
-          "total": 7,
+          "total": 8,
           "done": 3,
-          "open": 4
+          "open": 5
         }
       },
       "clickup_match": {
@@ -2349,5 +2353,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T16:49:20Z"
+  "generated_at": "2026-08-24T17:12:10Z"
 }

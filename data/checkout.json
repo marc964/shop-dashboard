@@ -301,11 +301,15 @@
           {
             "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
             "done": false
+          },
+          {
+            "text": "no heater hv lockout on blower speed",
+            "done": false
           }
         ],
-        "total": 7,
+        "total": 8,
         "done": 3,
-        "open": 4
+        "open": 5
       }
     },
     {
@@ -1731,7 +1735,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-24T16:50:25.280174+00:00",
+  "updated": "2026-08-24T17:13:18.497984+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-08-24T16:49:20Z"
+  "generated_at": "2026-08-24T17:12:10Z"
 }

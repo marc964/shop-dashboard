@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 83.5,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -464,7 +464,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 159.5,
+    "total_hours": 160.0,
     "pct_of_total": 16.5,
     "avg_per_person_per_day": 1.25,
     "flagged": true,
@@ -477,7 +477,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 53.5
+        "hours": 54.0
       },
       {
         "label": "Personal Meetings",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 649.5,
-    "non_billable_hours": 315.0,
+    "billable_hours": 652.0,
+    "non_billable_hours": 315.5,
     "pto_hours": 15.0,
-    "total_hours": 964.5
+    "total_hours": 967.5
   },
-  "generated_at": "2026-08-24T16:49:20Z"
+  "generated_at": "2026-08-24T17:12:10Z"
 }
