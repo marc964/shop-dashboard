@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T19:27:20.968198Z",
+  "updated_at": "2026-08-24T19:43:18.545454Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2095,9 +2095,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kw2fz4",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-24 19:34",
+                  "text": "Helped diagnose battery box 1 590 D8 box from ritchie blazer.  we determined that due to the voltages we were seeing that an isolation fault was occurring in the 8th module of the box between cells 5 and 6. disassembled the box and removed bus bars from module 8 and confirmed the readings had stayed the same. the issue i have now is that the modules are glued to the chill plates and so far the module doesn't want to release.  will return in the morning for another attempt and if it gives too much trouble we are going to make another chill plate and move on."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e471f3259d5eb6ea6f4ffddffb1f866f0b92569d17c23d43521f900c199961c0"
+              "content_hash": "c771d1e4e7195bbd8a7368186f6ed265d659a938f19bd0b2c2133e4bc98102f8"
             }
           ]
         },
@@ -2353,5 +2359,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T19:25:24Z"
+  "generated_at": "2026-08-24T19:41:41Z"
 }

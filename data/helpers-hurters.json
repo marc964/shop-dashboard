@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 98.8,
-      "pct_of_total": 10.2,
+      "total_hours": 102.2,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -18,12 +18,12 @@
           "hours": 14.5
         },
         {
-          "task": "Audio",
-          "hours": 12.8
+          "task": "Battery Pack",
+          "hours": 14.0
         },
         {
-          "task": "Battery Pack",
-          "hours": 10.5
+          "task": "Audio",
+          "hours": 12.8
         },
         {
           "task": "Wiring - OEM",
@@ -66,7 +66,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.2,
       "tasks": [
         {
           "task": "Charging",
@@ -132,9 +132,13 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 84.8,
-      "pct_of_total": 8.8,
+      "total_hours": 88.8,
+      "pct_of_total": 9.0,
       "tasks": [
+        {
+          "task": "Steering",
+          "hours": 16.0
+        },
         {
           "task": "Motor & Transmission",
           "hours": 15.0
@@ -146,10 +150,6 @@
         {
           "task": "Brakes",
           "hours": 12.5
-        },
-        {
-          "task": "Steering",
-          "hours": 12.0
         },
         {
           "task": "Exterior",
@@ -179,8 +179,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 83.5,
-      "pct_of_total": 8.6,
+      "total_hours": 85.5,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -199,6 +199,10 @@
           "hours": 7.0
         },
         {
+          "task": "Manufacturing - Product",
+          "hours": 5.5
+        },
+        {
           "task": "Wiring - OEM",
           "hours": 5.2
         },
@@ -209,10 +213,6 @@
         {
           "task": "Engineering - Core",
           "hours": 3.8
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 3.5
         },
         {
           "task": "Motor & Transmission",
@@ -234,7 +234,7 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 78.5,
+      "total_hours": 80.0,
       "pct_of_total": 8.1,
       "tasks": [
         {
@@ -247,7 +247,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 14.0
+          "hours": 15.5
         },
         {
           "task": "Vehicle Control",
@@ -286,7 +286,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 48.0,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.9,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -464,20 +464,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 160.0,
+    "total_hours": 162.0,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.25,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 61.8
+        "hours": 62.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 54.0
+        "hours": 55.0
       },
       {
         "label": "Personal Meetings",
@@ -501,7 +501,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -512,7 +512,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -523,7 +523,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -538,7 +538,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.0,
-      "pct_of_total": 1.8,
+      "pct_of_total": 1.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 652.0,
-    "non_billable_hours": 315.5,
+    "billable_hours": 667.0,
+    "non_billable_hours": 317.5,
     "pto_hours": 15.0,
-    "total_hours": 967.5
+    "total_hours": 984.5
   },
-  "generated_at": "2026-08-24T19:25:24Z"
+  "generated_at": "2026-08-24T19:41:41Z"
 }
