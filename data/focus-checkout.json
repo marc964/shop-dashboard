@@ -1,42 +1,1034 @@
 {
-  "updated_at": "2026-08-24T06:49:18.106860Z",
+  "updated_at": "2026-08-24T07:27:46.376466Z",
   "team_id": "9011243300",
   "projects": [
     {
       "owner": "Chuter",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Chuter",
+        "year": 1962,
+        "color": "Red + White",
+        "make": "Austin",
+        "model": "Healey",
+        "status": "Testing",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 97.2
+          },
+          {
+            "label": "Inverter",
+            "value": 99.1
+          },
+          {
+            "label": "PMU",
+            "value": 100
+          },
+          {
+            "label": "Raptor",
+            "value": 100
+          },
+          {
+            "label": "Functional",
+            "value": 41.7
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-05-14: CAN3 termination is incorrect.\n2026-08-10: Resolved. Measured 60.8 Ohms today.",
+              "done": true
+            },
+            {
+              "text": "2026-08-xx: The GUI is commanded on and drawing 30mA but the screen is still dark. Check wiring at the GUI connector and ribbon cable.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "done": true
+            },
+            {
+              "text": "2026-07-xx: Need to charge pack up to 390 volts with a charge lasting 6-7 hours to test if the DCDC fails.",
+              "done": false
+            },
+            {
+              "text": "2026-07-xx: Vehicle has charge errors.\n2026-08-10: Resolved. Noah found and fixed the issue.",
+              "done": true
+            },
+            {
+              "text": "2026-08-10: Vehicle weight may be incorrect in the GUI. Gear ratio is incorrect.",
+              "done": false
+            },
+            {
+              "text": "2026-08-10: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+              "done": false
+            }
+          ],
+          "total": 7,
+          "done": 3,
+          "open": 4
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Chuter 62 Healey"
+        ],
+        "open_tasks": 2
+      },
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868g9vwju",
+              "name": "Checkout Vehicle",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868g9vwju",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:41",
+                  "text": "Re-checked all three battery boxes with both serial interface and BMS text box. Filled out sheet alongside. Everything passed 100% on test box firmware build 62."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 03:09",
+                  "text": "Guided Andrew through VCU options based off the Vehicle Requirements Doc. Setup to flash PMU programs but needed the Lotus backups since they were most recent. Looked for key, couldn't find. Disconnected the Lotus PMU's from the main harness to pull them with the bench harness. Moved back over to the Healey and uploaded the PMU programs but ran out of time to go any further. Vehicle not yet key'd on with those loaded."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 22:21",
+                  "text": "Continued startup. Verified some VCU options and the PMU program was loaded correctly yesterday. Flashed firmware to the inverter and configured EEPROM. Checked several PMU channels. Worked with Andrew & Brandon to pass along possible parts of the PMU checkout process. Marked items off in sheet as Brandon was learning."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-15 21:03",
+                  "text": "Worked with Brandon to run through the LV startup, now called Ampere I/O. Built a ClickUp card to compliment."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-22 03:51",
+                  "text": "Verified completion of Ampere IO checkout. Continued HV startup. Fully reviewed VCU configuration, changed CAN3 passive timeout to 10s to supress passive faults. Calibrated the resolver. Test drove. Weighed vehicle. Tested L2 charging and verified DCDC outputting. Charging threw a fault for AC thermistors. Checked that the DC thermistor board was added & verified AC thermistor reading correctly on the right chargebyte pins. Everything looked correct, opened a ticket with Ampere about this."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-12 18:45",
+                  "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Charge pack to 390V for at least 6-7 hours",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Confirm vehicle weight and gearing is correct",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test heater",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "0120b583ac4671092342ab58acc6e3654e8b5db14f3b03ed094e1daba2808af8"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Connolly",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Connolly",
+        "year": 1958,
+        "color": "Black",
+        "make": "Mercedes",
+        "model": "220S",
+        "status": "Testing",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 95.4
+          },
+          {
+            "label": "Inverter",
+            "value": 98.1
+          },
+          {
+            "label": "PMU",
+            "value": 40.6
+          },
+          {
+            "label": "Raptor",
+            "value": 92.7
+          },
+          {
+            "label": "Functional",
+            "value": 33.3
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
+              "done": true
+            },
+            {
+              "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
+              "done": true
+            },
+            {
+              "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
+              "done": false
+            }
+          ],
+          "total": 4,
+          "done": 2,
+          "open": 2
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Connolly 58 220S"
+        ],
+        "open_tasks": 3
+      },
+      "assignees": [
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868exjqjc",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868exjqjc",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:17",
+                  "text": "Issues:\nVery small brake fluid leak from the brake switch sensor. Brake sensor is functional but you have to get very deep into the pedal for it to engage. Might warrant replacement (did not come with new booster). There was no seal on the original I took off, but perhaps there should be one. Will get one.\nVacuum is bleeding out of the booster, causing the pump to cycle on approximately every 45 seconds.\u00a0 If the vacuum line is plugged before the booster it holds vacuum perfectly. With the booster installed there is a slow leak. I tightened all the hardware and the leak decreased significantly but is still present. Reaching out to the rebuilder for his advice.\nGUI speedo is about 50% slow.\nPeterson instrumentation not showing any values.\nSpeaker interference noise, both from power steering input and throttle application.\nSteering wheel is not centered.\nFront left drum seems like it may be sticking.\nEstop non-functional (see above)\nHeater not functional (will come online with PMUs)\nPRD dimming/lighting non-functional.\nPowertrain coolant loop is cavitating. I think it needs another vacuum bleed after the coolant leak."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-11 23:27",
+                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-09-12 21:51",
+                  "text": "Finished EEPROM Compare and reviewed with Marc. Verified settings correct in Connolly. Plugged in ChargeByte controller and tested charging. Looked around for logger. Started consolidating logger information. Tested PRND LED's on bench."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2025-09-12 23:30",
+                  "text": "Tested different resistances on PRD buttons. Currently 2K installed.\nWith 2K - LEDs completely off\nWith 0K (disconnected) - All LEDs completely on\n5K - dim, very slight difference between 'selected' and non-selected.\n10K - mostly bright, slight difference between selected and non-selected."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-13 22:27",
+                  "text": "Fully ran through the new PDM checkout process as best possible, will need to rework. Diag for the speedo and CAN1 errors. Will need to investigate further."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-15 21:35",
+                  "text": "Followed along with new checkout system for various PMU channels. Also reviewed inverter EEPROM and corrected where necessary. Still need to calibrate the resolver. Troubleshot major CAN1 error and opened up a ticket with Ampere. Tuned parking brakes down to shorter times. Continued improving Raptor-Service tabs. Moved checkout status from 22% to 66%"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-16 22:45",
+                  "text": "Attempted to calibrate resolver but the inverter kept dropping the RS-232 connection when going into PWM mode. Had a spare inverter installed and flashed to the latest firmware. Combed over all EEPROM settings and now getting a CAN command message timeout error. Error message can be disabled in the inverter but the inverter is still not sending messages back out or they are getting lost before making it to the VCU and Kvaser. Started troubleshooting CAN basics again."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-18 02:33",
+                  "text": "Continued diag on inverter related issue. Used bench test harness with adaptor to narrow the issue down to the inverter sub harness. Broken wires found on removal."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-20 21:28",
+                  "text": "Re-tested for the inverter CAN issue. All fixed. Calibrated resolver and updated sheet."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-21 23:23",
+                  "text": "Verified old inverter serial no. 59 had all the correct EEPROM setting and that the noise problem still exists. It does, that inverter needs to be returned."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-22 22:38",
+                  "text": "Checked all EEPROM settings of the new inverter to verify correct. Didn't initially have the CAN1 errors but started getting them again later in the day. Had Ampere turn on error frame logging to get more information on the issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-23 22:07",
+                  "text": "Test drove with laptop looking for CAN1 errors. Catching about 870 per second all in one large group. Turned off OBDII from the inverter which didn't help. Also tried turning off diag data. Turned them back on and unplugged the logger which is set to auto-baud. Still no change. Used Kvaser set at 1000mbps and I get a message to decode with data 2044, 2046, and 2048. Test driving is getting difficult since CAN errors occasionally cause the VCU to drop PreCharge."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-25 00:21",
+                  "text": "Removed all CAN messages from both PMU's re-tested for CAN errors, still there. Removed CAN1 wiring to PMU's and re-tested. No luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-28 22:16",
+                  "text": "Tested out external CAN connection to the inverter. Problem went away momentarily. Tested alternate VCU. Problem still exists. Decided to buy PicoScope to help analyze."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-10-31 16:27",
+                  "text": "Reviewed PEAK codebase for good starting point. Setup project for basic router. Modified, commented, & compiled."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-06 01:06",
+                  "text": "Worked with Jordan and Dusty to use the PicoScope on CAN1 crashing issue. Hooked up to CAN1 at various spots. Tried grounding shields. Verified waveforms against Buck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 00:48",
+                  "text": "Re-checked vehicle faults after Jordan replaced the ground to the inverter. Noise problem stopped with a larger ground but also didn't come back with the old #22 wire back installed. Was able to drive the vehicle shortly till the problem resurfaced causing the positive contactor to weld. Verified this with Ampere and used the BMS test box to break the weld since the vehicle logic does not allow. Checked the whole vehicle again and the noise problem still exists. Tried unplugging all HV accessories, no luck. Installed a minimal external CAN1 network with all new wiring and found the CAN1L wire pulled out of the terminal at the inverter while removing that wire. Tested with new CAN network and PicoScope looks noisy like before. Tried grounding shield, still no luck."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-07 23:43",
+                  "text": "Re-verified noise exists on external CAN harness. Setup provisions to pull in the positive contactor with the BMS disconnected. Had a remote session with Andrew to force the VCU into enabling the inverter with the BMS missing. Noise still present on external CAN1 network. Repeated various trials. Discovered HVIL in the JB wasn't working correctly, replaced. Noise still present. Decided to isolate inverter as much as possible from vehicle. Modified Python gauges test script to enable inverter for 500ms. Setup completely isolated inverter harness & provisions to pre-charge. Tested both VCU CAN and INV CAN but both still had noise. Added motor case and inverter case into the PicoScope, and re-tested. Found ~10V between chassis ground and motor case. Installed #4 AWG wire between motor case, inverter case and battery negative stud. Re-tested and still found noise. Moved #4 AWG to ground distribution blocks, re-tested, and still have noise."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-11 14:08",
+                  "text": "Met with team over strategy. Followed along with diag over the day."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Verified major errors gone away. Did notice some inverter errors but they may just be old. Cleared diagnostic buffer. Verified all VCU settings. Weighed vehicle. Input correct weight, tire size, gear ratio, etc. Checked PRND, needed adjustment to wiring. Verified DCDC output and charging rate. Checked off last BMS checklist items. Test drove for completeness. Troubleshot gauges with Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-11-13 23:59",
+                  "text": "Tested new motor and phase leads under various configurations with Jordan. Captured documentation to send to Cascadia. Set gamma adjust in new motor."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2025-12-05 21:30",
+                  "text": "Replaced fuse, located & improved associated documentation. Gave repaired box to Jordan."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:38",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test temp gauge functionality",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Troubleshoot \"DisplayDashGUI_SettingsMsgTimeout\" message",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Tune throttle",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "058597141b2d3f52f01c5b80bfa3b74ae4945529713c43f323ba809b8a7e0e84"
+            },
+            {
+              "id": "868k0je6t",
+              "name": "Update EEPROM",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868k0je6t",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-22 23:08",
+                  "text": "test drive"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-06-26 02:39",
+                  "text": "long test drive, notes, and updates"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on shutter comp",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Turn on self sense assist",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868ktkqf3",
+              "name": "Perform PDI",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868ktkqf3",
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-18 18:35",
+                  "text": "Test drove, tested functions, lifted car and inspected underneath. cleaned driveshaft from previous marks and added one blue one through the cv, adapter and yoke. inspected under hood, interior and trunk. took photos for marc to use for the client doc and filled out PDI sheet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "4c3122ec5825ec407fe3d8c50929dfaf8620123fd7fb42bfd63de5a4895ea334"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ferdman",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Ferdman",
+        "year": 1966,
+        "color": "White",
+        "make": "Volkswagen",
+        "model": "Micro Bus",
+        "status": "Testing",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 88.9
+          },
+          {
+            "label": "Inverter",
+            "value": 73.1
+          },
+          {
+            "label": "PMU",
+            "value": 90.6
+          },
+          {
+            "label": "Raptor",
+            "value": 98.2
+          },
+          {
+            "label": "Functional",
+            "value": 33.3
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-03-xx: Motor cable hangs close to axle.",
+              "done": false
+            },
+            {
+              "text": "2026-05-11: Fan 2 - Motor not working - May be a ECU Master firmware issue.\n2026-05-11: Resolved, flashed latest PMU version.",
+              "done": true
+            },
+            {
+              "text": "2026-xx-xx: Need to find correct firmware for the SDU.\n2026-xx-xx: Resolved.",
+              "done": true
+            },
+            {
+              "text": "2026-05-11: Find proper plugs for Tesla SDU LV connector and plug unused pins.",
+              "done": false
+            },
+            {
+              "text": "2026-05-12: Motor seems to clack the gears back and forth at 0 Nm request.\n2025-05-13: Lowered shudder Kp from 20 to 10 which significantly helped but did not eliminate the issue.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+              "done": false
+            }
+          ],
+          "total": 7,
+          "done": 2,
+          "open": 5
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Ferdman 66 Bus"
+        ],
+        "open_tasks": 8
+      },
+      "assignees": [
+        {
+          "name": "Jordan Jones",
+          "tasks": [
+            {
+              "id": "868kq38dz",
+              "name": "Facilitate head liner repair",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kq38dz",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:34",
+                  "text": "IMG_5314.jpg\nIMG_5316.jpg\nIMG_5317.jpg\nIMG_5318.jpg\nIMG_5319.jpg\nIMG_5320.jpg\nIMG_5321.jpg\nIMG_5322.jpg\nIMG_5323.jpg\nIMG_5324.jpg\nIMG_5325.jpg\nIMG_8469-scaled-14355.webp\nIMG_5315.jpg"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 23:34",
+                  "text": "Austin vee dub - No answer\nMotormania - They don't know who could do that sort of work, but recommended calling a Jim's Top Shop\nJim's top shop - Recommended possibly Texas Auto Tops\nTexas Auto Tops - They asked for some photos. Emailed for quote.\nEmailed Austin vee dub\nSent information to Ryan to ask Colvin's\nGot information for David G - he sent photos of other 'bow' headliners he's done.\nGot parts list for David G."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
+            },
+            {
+              "id": "868k7em0v",
+              "name": "Install roof rack",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7em0v",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-06 22:59",
+                  "text": "Some exterior pieces need replacing. Will do when doing roof rack.\nAs we've been driving it more I've noticed two things:\nExterior mirrors are floppy, vibey. The rubber mount is perished. New mirrors are cheap.\nRH blinker lens cracked.\nParts are less than $100, less than .5 hours to replace these parts. I'll put the time under the 'install roof rack' task."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-11 19:11",
+                  "text": "Installed new front marker light trim/lenses.\nObserved LH rear tailight bulb out. Diagnosed sticky bulb socket. Repaired."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ab553c81f432672373f25355215392a7017ae7fc250a6a779b3e8e3c04c40301"
+            },
+            {
+              "id": "868jqn2ge",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868jqn2ge",
+              "comments": [
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-05-27 21:42",
+                  "text": "Removed coolant cover plate and inspected levels. (levels haven't been inspected since vehicle got on the road).\nBattery level: 120mm from top\nMotor level: 70mm from top\nTopped off both reservoirs.\nAttached charger to turn on motor circuit. Jacked up that corner to bring air bubbles to top.\nNo air bubbles observed.\nReinstalled cover. Will test drive tomorrow to attempt to replicate.\nHighest temp reached today while testing throttle: 190F (slightly over middle of gauge)."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:16",
+                  "text": "image.png\nMade new coolant clamps to redo motor circuit return line."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:16",
+                  "text": "At one point at the end of our testing it did feel like the motor was pulling power... Motor temp and inverter temp did get pretty high, but still in the blue on gauge, and no alerts were present. I saw 250F on the motor and 136F on the inverter.\nimage (8).png\nimage (7).png\nFerdman-CoolantDiagram-1.5.drawio.pdf"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-02 16:17",
+                  "text": "Ordered new parts for motor circuit return line.\nhttps://www.summitracing.com/parts/rdm-14-0193 x1\nhttps://www.summitracing.com/parts/bpu-3254000160 x1\nhttps://www.amazon.com/EVIL-ENERGY-Straight-Fitting-Black/dp/B08NYLZC66/ x1 (pack of 2)\nProject: Ferdman Bus\nSubsystem: Cooling\n\nUpdated coolant return line information on coolant diagram. (see pdf above)"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-06 01:39",
+                  "text": "Removed -6an reservoir and lines.\nRemoved motor to pump line for access.\nInstalled new reservoir with -10AN fitting.\nFabricated and installed new -10AN line from radiator to reservoir\nInstalled new lineclamps for new hose ses.\nVacuum filled cooling reservoir.\nOne leak found - at motor. Repaired.\n-25in/hg holding steady.\nRan pump on motor circuit for and hour. Inspected for leaks: none found.\n\nReady for testing on Monday."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-08 19:32",
+                  "text": "After sat over the weekend: leaks or drips.\nReinstalled cover and tail-light.\nZip-tied wiring harness back in place."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-10 20:48",
+                  "text": "service.tesla.com/docs/ModelX/ServiceManual/en-us/GUID-C66F47F5-FD82-4FA5-B530-48F20DAAE254.html \n Correction codes:\n18301722\n18302522\n\nTesla runs motor and inverter in parallel."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-10 21:07",
+                  "text": "image.png\nIncorrect coolant routing (inline, not parallel).\nTest drove up the hill a bunch of times. Maximum temperatures reached:\nInverter: 170F. (77C)Temp very responsive to throttle position. Get hot quick and cools down quick.\nMotor: 217F (102C). Slower to respond to temperature differences."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-12 23:05",
+                  "text": "Test drove 24 minutes, with logger installed. Able to get severe temp spike with a full-throttle run up Foremost hill (80C) with temp going from 35C to 80C by the top of the hill, and back to 35C at the bottom of the hill. No alerts or thermal derating present.\nTest drove with logger in Chuter healy.\nCompared logs on AEM dash. Discovered dash was reporting \"inverter module\" - aka IGBT temp. Inverter temp on GUI and speedhut temp gauge match. With @Devin DuMont, changed channel to proper channel for inverter temp measurement. After changing signals, dash now responding 'rationally', IE temp climbs and falls slowly over time as the vehilce is driven harder."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-06-29 20:52",
+                  "text": "@Marc Davis took vehicle home, and drove on the highway. No overheating observed, even with the skidplate. We can consider this one done."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-22 22:52",
+                  "text": "Ryan brought the bus back from Soulspeed today reporting another inverter overtemp \"limp mode\" \u2014 an issue we hadn't seen in weeks since switching the reservoir return line from 3/8\" to 5/8\". I verified the basics first: coolant reservoir full and flowing well, no bubbles, and the coolant fan operating.\nA few observations from digging in: the inlet and outlet are swapped on the inverter (probably doesn't matter, but we could set it to Tesla spec), and we run the inverter and motor in series while Tesla actually plumbs them in parallel. Neither seems likely to fix the inverter temp, but both are options to test.\nI ran two controlled test drives at 100\u00b0F ambient to isolate whether airflow (the skidplate) is the culprit.\nRun 1 (skidplate on): inverter started at 109\u00b0F and hit the 160\u00b0F overtemp limp mode after 13 minutes of hard-ish driving. Motor climbed from 163\u00b0F to 232\u00b0F \u2014 still mid-gauge in the Ampere GUI. Notably, the temperature creep is slow and steady, not \"peaky\" like Connolly was with its restrictive return line (30\u00b0F swings with throttle); Ferdman barely reacts to power input or off-throttle periods.\nRun 2 (skidplate removed): inverter started at 104\u00b0F, motor at 165\u00b0F. Took 17 minutes / 2.5 laps of the same loop to hit limp mode at 160\u00b0F inverter, 241\u00b0F motor.\nConclusion: removing the skidplate bought roughly 25% more time/distance before limp mode, but didn't prevent it. Airflow is a contributing factor, not the root cause. Next candidates to test: correcting the inverter inlet/outlet to Tesla spec and re-plumbing the motor/inverter from series to parallel.\n\nInvestigated a variety of small options for additional cooler.\nInvestigated possible locations.\n\nMade a mockup of the Derale 15865 unit - appears it will fit. Handed off the Geoff to verify.\n\nCurrent thought:\nLH rear corner."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-24 23:49",
+                  "text": "Investigated derale fitting. DIscussed with @Geoff Raynak and @Alex Noonan\nOrdered derale cooler. Rough plan made."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-24 23:50",
+                  "text": "Screenshot 2026-07-24 102005.png\nScreenshot 2026-07-24 102054.png\nScreenshot 2026-07-24 102313.png\nScreenshot 2026-07-24 102402.png\nScreenshot 2026-07-24 102407.png\nScreenshot 2026-07-24 122916.png\nScreenshot 2026-07-24 123516.png\nScreenshot 2026-07-24 123606.png\nScreenshot 2026-07-24 123610.png\nScreenshot 2026-07-24 124434.png"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-28 23:52",
+                  "text": "Received Derale cooler\nRough-installed for testing:\nSoft lines plumbed in series between motor outlet and charger.\nRelay added:\n12V+ comes from PDM stud\nground from tailight ground\nRelay mounted in driver's side cubby\nRelay signal spliced into motor fan with pigtail. Twisted pair runs to relay.\nTest drove:\nUnable to reach temps above 117F. Confirmed both fans come on at the same time.\nWill re-test tomororw PM when heat is up."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-29 23:59",
+                  "text": "I test drove the bus for 45 minutes as hard as I could given traffic. Derale plumbed in, hanging in space in the cubby. Some stop-and-go, aggressive acceleration where possible. Mostly around 50mph.\nAmbient temp: 95F\nSat outside all day.\n\nStarting temp:\nInverter: 104F\nMotor: 99F\n\nEnding temp: 145F\nMotor: 232F\n\nUnable to get it into a fault state.\n\nTemp edged up over time, settling right around 140F. If I had a long stretch where I could floor it, it would climb 145F. Maximum I saw was 149F.\n\nMotor temp noticeably lower than last test, indicating the additional cooling is having an effect, at least on the motor.\n\nTwo things prevent this from being a conclusive test:\nAmbient temperature not high enough. The day where I could consistently fault the vehicle it was 100F+. Earlier drives had not caused the fault when temps were lower.\nUnable to do an extended highway run. Increased airflow will be a benefit, but higher draw may cause more heat.\n\n\nTomorrow I will attempt a highway run after the CVs are in. Unfortunately there are no super-hot days on the forecast this week."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-07-30 22:43",
+                  "text": "Good news:\nHighway driving isn't an issue for the cooling. Current draw is significantly higher, but airflow over even our oddly placed radiators more than makes up for it. Once you get off the highway, speeds are lower, and you're trying to beat on it, that's when we start to have inverter temp creep up. But again, still unable to get it to overheat with the second cooler even though the temps do get higher.\nAmbient temp: 95F\nRun length: 30 minutes\n\nStarting temps:\nInverter: 104F\nMotor: 129F\n\nHighway cruising (65-70mph indicated), temps very steady, no creep.\nInverter: 129F\nMotor: 181F\n\nEnding temps (lower speeds to get back to the shop):\nInverter: 131\nMotor: 196F\n\nAs I mentioned before, ideally I would like to test at 100F+, but the weather forecast is not forthcoming. Next Monday may be close...\nBut in any case, I think we're good to proceed with designing/ordering a simple mount for the Derale cooler in the vertical orientation. Simple top-mounted bracket with press-in nuts so that it can be installed from the floor of the cargo area, similar to the other side."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-04 23:31",
+                  "text": "Claude:\n\"Fix cooling. Stop chasing signals.\nThree reasons, and the third decides the order.\n1. The bus has given up what it has. We now know the derate driver (motor temp), the inverter's limit and which sensor it uses (module, 80 \u00b0C), and the coolant temperature (RTD1). The remaining signal mysteries \u2014 hot-spot reading zero, the duplicated coolant field, AEM's channel labels \u2014 wouldn't change a single action. Chasing them further is bookkeeping.\n\n2. The cooling system is already flat out and losing. Pump at 100 % duty and ~6,500 rpm for the entire evening \u2014 never modulated, no reserve. Module-to-coolant delta normal at 3.2 \u00b0C median. So heat transfer out of the modules is fine and the pump is maxed; the constraint is heat-rejection capacity, not control and not the interface.\n\n3. Order matters \u2014 settings first would make it worse. Raising the derate thresholds hands torque back, which puts more heat into a loop that's already out of margin, while the inverter sits at its 80 \u00b0C limit. Cooling first isn't just safer, it's the only sequence that isn't self-defeating. And it pays twice: cooler coolant means a cooler motor, which backs the derate off on its own and gives you some torque back without touching a single parameter.\n\nStart here \u2014 Fan1 is never commanded\nNot once, at any coolant temperature, all the way to 65 \u00b0C with 40 \u00b0C ambient. Fan2 runs continuously. Either this car only has one fan wired to the Fan2 output, or there's a second fan that isn't being asked to run \u2014 which would be free capacity sitting idle. That's a five-minute check and it's the cheapest possible outcome.\n\nAfter that, in cost order:\nAirflow at the radiator\u2014 blockage, missing shroud, or hot air recirculating. At 40 \u00b0C ambient every degree of approach matters.\nLoop topology\u2014 is the inverter fed before or after the motor? RTD1 is coolantbefore the inverterand it's already 62 \u00b0C. If a 129 \u00b0C motor sits upstream, the inverter is being handed pre-heated coolant and can never win. Worth confirming the plumbing order; if it is motor-then-inverter, re-routing or splitting the loop is likely the single biggest lever.\nRadiator capacity\u2014 to hold modules under 70 \u00b0C you need coolant near 50 \u00b0C, which is only 10 \u00b0C above that day's ambient. That may simply be more than this radiator can do, in which case it's a sizing decision.\nActual flow\u2014 the pump is commanded 100 %, but air lock or a restriction would still starve it.\"\nMe:\nI'm not sure what is meant by 'modules'. Is claude confusing the motor circuit and the battery circuit? Claude is only looking at the motor circuit, correct?\n\nNot sure what is referred to as 'fan 1' and 'fan 2', but I can confirm that all 3 fans come on as expected. There are currently two motor radiators, the original and the temporary secondary, both come on at the same time.\nAirflow at both radiators is questionable. We have one small radiator horizontally under the car, and one in the cubby on the rear driver's side.\nInverter is fed before the motor. Circuit currently:\nPump > inverter > motor > secondary rad > ovar > primary rad > reservoir\nRadiator capacity... I don't believe this is significantly different than any of our other cars.\nAir lock or starvation. I see no evidence of flow restriction. In the reservoir there are no bubbles, flow looks good, level stays steady.\n\n\n\n\nMy thoughts...\nAirflow on the primary radiator does appear to have an effect. Removing the skidplate increased the time-to-overheat by 25%.\nAdding a secondary radiator did make a significant improvement in the symptoms with no other changes Prior to that change coolant temps were over 160F and the symptom was inverter overtemp errors and the vehicle shutting off. Adding a second radiator in a spot with minimal airflow temps dropped by 20F. Not enough to prevent derating, but better than before.\nThe differences between this car and our other cars:\nSDU\nRadiator placement\n\n\nThings to test:\nI can swap the inverter inlets and see if that helps. As I mentioned before, I plumbed it backwards to how Tesla runs it. Could have an effect.\n\nToday:\nSwapped the inlet on the inverter.\nRemoved the cover on the LH fenderwell to increase airflow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-18 23:14",
+                  "text": "I did my overheating loop with heavy throttle application. No overheating, but no game-changing improvement on cooling. GUI temps are still roughly where they were prior to the last round of tunes. I did not observe any de-rating, but acceleration is still abnormal so I can't say for sure.\n\nMaximum inverter temp on GUI was 135 (typically hovers around 129F) and maximum motor temp on GUI was 200F in a 15 minute test drive. Ambient temp 98F.\n\nThat said, we're really down to the wire for an early September soft delivery. We need the radiator brackets designed immediately so they can be ordered and installed next week.\n\nThere is the possibility that the two derales are insufficient even once we get the tuning ironed out, but if we wait for that definitive data we will not be able to meet our soft-delivery deadline.\n\nWhatever we're going to do we need to decide today. I'm of the opinion that we should pull the trigger and have @geoff raynak or @Marshall Carter design the wheel-well radiator mount brackets and get them rush-shipped here so I can take care of it next week. Worst case scenario, we have to figure out a solution for the de-rating down the line, but Ferdman can drive it in the meantime. The inverter-overheat-shutdown has been resolved at least.\u00a0(edited)\n\nOnly visible to you"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b81eb99b33b776d931be8cb4b4caf30b924d08bc51b5fc5add554f33ef4a0b8b"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf5mg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5mg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868k7fdjp",
+              "name": "Assess noise",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868k7fdjp",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-09 13:22",
+                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf5h0",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868krf5h0",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed torque doc and amps doc. Ran trials requested by Andrew. Developed tune and re-tested. Wrote up time and observations and posted to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:55",
+                  "text": "Used Claude to plot the trials from Friday. Determined peak amps wise my tune looks good, just needs to have a better \"feel\" in one area. Developed a plan for a new torque limit tune based from amperage feedback instead of torque. Still need to generate number to input to Raptor-Service and actually test."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-18 23:37",
+                  "text": "Reviewed my new torque based tune and tested in the vehicle. The boost is still quite noticeable even with a perfectly flat torque feedback. Will need to switch to heavy current limiting, if that doesn't solve it the SDU is operating outside of it's reported feedback and needs to be reviewed by AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Reviewed new Claude posts since yesterday. Reviewed trial notes. Repeated baseline current derate test and then tried a medium and max derate tune. In eco mode things are feeling way better but for some reason that changes switching back over to sport. Log analysis backs that up with current figures, derate sounding like more of a band aid solution now. Browsed all the various inverter feedback signals for any that seem to get rough at the same time. Noticed phase B current is always 0, turned out to be the DBC or something not important."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-20 22:49",
+                  "text": "Ran the several trials Claude requested and organized notes about what was changed and how the vehicle felt in response."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:53",
+                  "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "cc4cdfc9f11f451cda261bb73c75707e2562b23989fc48af1b35f06e9b4e9c10"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868kv2u3g",
+              "name": "Engineer Core - Radiator Mount",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kv2u3g",
+              "comments": [
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:50",
+                  "text": "image.png\nimage.png\nimage.png\nimage.png\nimage.png\n\n\nimage.png\n\nimage.png"
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:54",
+                  "text": "-Did a preliminary design\n-Met with Jordan and Alex 8/20 and as a team decided to try to make a design for the radiator mount that contoured to the wheel well. Screen shots are of the final design that got ordered from OSH.\nSheet metal will come too long, extruded through the wheel well. After Jordan makes a rectangular cut and installs the sheetmetal assembly, he will mark the radius he needs to cut.\n-It was acknowledged that the contoured design would be more complicated to fit test/install, but it was agreed as a team that this was the right direction to go."
+                },
+                {
+                  "author": "Marshall Carter",
+                  "date": "2026-08-21 21:58",
+                  "text": "As a backup, I designed upper and lower \"U\" mount brackets that would allow us to mount the existing shroud. I also designed a thin piece of aluminum to mount the mesh screen that we could bend along the contour of the wheel well as a backup.\nimage.png\nimage.png"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "5b03cfa33a0a08ff8bf41dd6ff2935f07fa1768adaeed9d2300d8edc37fe9fc2"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Kelly",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Kelly",
+        "year": 1963,
+        "color": "Blue",
+        "make": "Chevrolet",
+        "model": "Corvette",
+        "status": "Startup",
+        "checkout": 100.0,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 66.7
+          },
+          {
+            "label": "Inverter",
+            "value": 97.2
+          },
+          {
+            "label": "PMU",
+            "value": 0
+          },
+          {
+            "label": "Raptor",
+            "value": 7.3
+          },
+          {
+            "label": "Functional",
+            "value": 0
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "cutback under high acceleration, probably in inverter, review settings.",
+              "done": false
+            },
+            {
+              "text": "look at torque request vs feedback in CM350. send to cascadia a log to show it's nots following right.",
+              "done": false
+            },
+            {
+              "text": "590 12s PCB+ivt",
+              "done": false
+            }
+          ],
+          "total": 3,
+          "done": 0,
+          "open": 3
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Kelly 63 Corvette"
+        ],
+        "open_tasks": 9
+      },
+      "assignees": [
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
+            },
+            {
+              "id": "868expzca",
+              "name": "Troubleshoot AC issues",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868expzca",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-07-25 21:26",
+                  "text": "tested Amperes pressures \ntest drove the car\nAC cut out but took longer \nlooked at several settings\nfound the high side before the condenser was high but Ampere was 115psi lower \nwhile evacuating the system I couldn't pull the high side down unless I opened the valve \nthis was the issue\ntested the Bronco to confirm\nit only has a 2-4 psi drop on the condenser\ntalked with Alex\nNoah will do the work \nI have already ordered parts to be here Monday"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-01 20:04",
+                  "text": "nitrogen testing, at 300 psi for over an hour. then help with filling. exactly 1.8 lb input, system was working great but I believe with the gui operating the system and not the Dakota digital thing, it was letting the evaporator freeze up. upon letting Dakota run it and manage evap (?) temps, it seemed to work well. also worked fine on my short drives but did cut out one time and give a check engine light. may need @Devin DuMont to see what it is and advise. possibly still overcurrent. I think we should not have the compressor running at full chat or nothing. it is either on 100% or off. being able to modulate its rpm based on temps would be preferable."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 11:59",
+                  "text": "tested with Devin\nfound pressures  not right\nswapped out the sensor \nno change \nsensor plugged in with no pressure gave a weird reading\nDevin is sending Ampere the results"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 19:04",
+                  "text": "got some pressures for Devin"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-26 23:22",
+                  "text": "vac down\nnitrogen test\nbegin removing fittings and lines and blowing them out/using nitrogen to check for blockages. it seemed like there may have been a little bit of a bottleneck somewhere between the high side port and the exit of the drier. but I might have blown it out and not realized. \nreplace drier and swap over pressure switch. checking wiring, found the signal and ground wires swapped. \nremedy wiring and replace connector with our newer style\nreassemble and nitrogen test, verifying with Devin the gauge pressures on high and low vs the ampere kpa readout\npull vacuum, fill with 1.75 lb and test. \neverything seems to work well so kept the gauges attached and taped them to the window for a 30 minute test drive using the ac the entire time. zero issues and pressures always looked good. the compressor and fan cycle fairly often but the cabin always stayed cool and I think its just the evap temp switch doing its thing. \nleft it running and in total did 1.5 hrs of running full tilt. no hiccups. \nremove and evacuate gauge lines and reinstall hood."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b029ebc18b69bddb6ee07665790ae0e3ac93ebeee7a810d146f671b787ca5013"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:31",
+                  "text": "Gathering AC compressor logs from Raptor."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:00",
+                  "text": "HVAC testing and Logging."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
+            },
+            {
+              "id": "868kvg1qd",
+              "name": "Troubleshoot AC compressor issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kvg1qd",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868k2w1bc",
+              "name": "Troubleshoot AC compressor issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w1bc",
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
+            },
+            {
+              "id": "868krf65c",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf65c",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:54",
+                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868k2w2xp",
+              "name": "Manufacture Core - Battery Pack Lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2xp",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Lee",
@@ -49,12 +1041,301 @@
     },
     {
       "owner": "McDonough",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "McDonough",
+        "year": 1977,
+        "color": "Red",
+        "make": "Lotus",
+        "model": "Esprit",
+        "status": "Testing",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 97.2
+          },
+          {
+            "label": "Inverter",
+            "value": 99.1
+          },
+          {
+            "label": "PMU",
+            "value": 50.0
+          },
+          {
+            "label": "Raptor",
+            "value": 89.1
+          },
+          {
+            "label": "Functional",
+            "value": 25.0
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-05-13: Trying 3380 for the BMS beta thermistor calibration, need to further review the data collected during freezer testing.",
+              "done": true
+            },
+            {
+              "text": "2026-05-13: Brake switch wiring / physical switch adjustment is off. Dave to look at in the morning.\n2026-08-07: This seems to be fixed.",
+              "done": true
+            },
+            {
+              "text": "2026-05-13: HVIL missing from IMD box. Measured from BMS Host 2 CAN - HVIL2\nResolved: HVIL wire backed out of HV connector on IMD Box",
+              "done": true
+            },
+            {
+              "text": "2026-05-13: CAN3 Termination is 110 and missing a termination resistor, temporary one added when OBD cord is plugged in.",
+              "done": false
+            },
+            {
+              "text": "2026-05-12: PMU CAN1 high and low suspeccted swapped at both PMU's.\n2026-05-13: Brandon swapped them again and now the programming laptop can connect to the PMU's.",
+              "done": true
+            },
+            {
+              "text": "2026-06-xx: DCDC seems to be dead.\n2026-08-xx: The was resolved by replacing the unit.",
+              "done": true
+            },
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The vehicle needs to be weighed and then entered into the GUI.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The GUI needs to be updated to the latest.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The gauges need to return from Peterson, get installed, and verified.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: Fast charging needs to be tested.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: The passenger window was going up automatically when it shouldn't. Opened the concern that the motor is constantly stalled when on. This turned into some OEM wiring diag which then turned into headlights dimming. I believe it still needs work.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: Need to verify break speed in the inverter.",
+              "done": false
+            }
+          ],
+          "total": 14,
+          "done": 5,
+          "open": 9
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "McDonough 77 Esprit"
+        ],
+        "open_tasks": 6
+      },
+      "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868kfqd5y",
+              "name": "Repair gauges cluster",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868kfqd5y",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-24 18:20",
+                  "text": "Assisted Devin pulling fault info from cluster as requested by Peterson. Removed cluster assembly. Documented mounting, wiring & condition to share with Peterson."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-27 11:07",
+                  "text": "Instrument cluster ready for return to Peterson. Task on hold until it it returned to us."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-29 15:22",
+                  "text": "Plywood structure inside gauge pod is dry & brittle. Repairing damage with epoxy."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-30 10:56",
+                  "text": "Gauges picked up by DHS for shipment 7/28"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 10:39",
+                  "text": "Estimated return shipping date is 8/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 14:01",
+                  "text": "Performed additional paint correction to cluster pod"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "db07d3da6a012caf48fdd9aa5139d912144a47ed9dc36f8a38688a43f5a22e1c"
+            },
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+            },
+            {
+              "id": "868kv013h",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868kv013h",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:17",
+                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kv013h",
+              "name": "Troubleshoot cooling issue",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868kv013h",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:17",
+                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868jkmucy",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868jkmucy",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Miner",
@@ -96,31 +1377,947 @@
     },
     {
       "owner": "Preheim",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Preheim",
+        "year": 1972,
+        "color": "Blue",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "status": "Checkout",
+        "checkout": 75.9,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 97.2
+          },
+          {
+            "label": "Inverter",
+            "value": 77.8
+          },
+          {
+            "label": "PMU",
+            "value": 87.5
+          },
+          {
+            "label": "Raptor",
+            "value": 96.4
+          },
+          {
+            "label": "Functional",
+            "value": 8.3
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "2026-02-xx: Need to check ampacity of PMU feed wire, it looks undersized.\n2026-02-12: Resolved, The main feed cable to the PMU was missing. The small wire I was looking at is a feed from the PMU to the whole harness.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: Brakes don't fully return to off position.\n2026-04-01: Resolved after much work from Billy.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: The GUI doesn't fully boot, the screen flickers on and off continuously.\n2026-02-20: Resolved, the ribbon cable to the screen wasn't fully seated.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: HVIL is missing on the IMD box HV input / output.\n2026-02-20: Resolved, Billy added in the right jumper.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: The power steering is very noisy and doesn't idle when not in use.\n2026-03-23: Update, The power from the PMU to the steering sensor is wired wrong.\n2026-03-23: The steering angle sensor is not wired to PMU2 Output 11. Both \"ON\" and \"OFF\" have no effect on the pump noise.\n2026-04-02: Resolved, Billy fixed wiring.",
+              "done": true
+            },
+            {
+              "text": "The APP only reaches 30%. Check wiring.\n2026-03-xx: Resolved, Channel A and Channel B were swapped.",
+              "done": true
+            },
+            {
+              "text": "Almost none of the outputs seem to turn on. Pumps not running.\n2026-02-17: Resolved, PMU1 and PMU2 calibrations were switched.",
+              "done": true
+            },
+            {
+              "text": "Vehicle gets CAN errors and the battery system doesn't wake.\n2026-02-16: Resolved, The rear harness extension was pinned with the wrong gender connector but still plugged in. Brandon re-pinned one side to the correct connector.",
+              "done": true
+            },
+            {
+              "text": "Vehicle doesn't PreCharge and get's negative contactor cross-check faults.\n2026-02-17: Resolved, The HVJB and CCS LV Connectors were swapped.",
+              "done": true
+            },
+            {
+              "text": "12V was browing out. May have just been a super low 12V battery.\n2026-03-23: Resolved, Verified DCDC and hasn't happened since.",
+              "done": true
+            },
+            {
+              "text": "At normal ignition standby you get a DCDCVoltXChk fault.\n2026-03-23: Resolved, Fault no longer showing up.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: When trying to charge you get a ChgPortContFlt.\n2026-04-15: Possibly fixed in new frimware expected by tomorrow.\n2026-04-17: Upgraded ChargeByte firmware and re-tested. Problem persists. The OBC isn't detecting pack voltage, need to check wiring and fuses to the OBC.\n2026-04-20: Resolved, Billy replaced the OBC fuse and charging now works as expected.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: Gear changes take pretty long.",
+              "done": false
+            },
+            {
+              "text": "Ambient air temp sensor not reading correctly.\n2026-02-25: Resolved, Brandon found a pin with a bad crimp at the temp sensor.",
+              "done": true
+            },
+            {
+              "text": "2026-03-xx: Vehicle makes a shooshooshoo sound while driving. Doesn't seem to be related to brakes.\n2026-04-15: Might need a parking brake tune again, waiting on answer from Ampere about settings not allowed by VCU.",
+              "done": false
+            },
+            {
+              "text": "2026-03-23: Cabin heat system needs commissioning.\n2026-04-01: Need to commission the heat system and remove the temp PMU logic.\n2026-04-15: Have new PMU program with logic ready, will need a few hours to install then verify.\n2026-04-20: The CAN based heater need's to be enabled in the VCU. Need to schedule a meeting to unlock this option which is currently behind a paywall structure.\n2026-04-21: Corrected VCU option to enable the heater. Need to make full climate controls schematic to answer questions needed to move on.",
+              "done": false
+            },
+            {
+              "text": "2026-03-23: AC system needs commissioning.\n2026-03-31: AC works but condensate leaks onto the passenger's feet.\n2026-04-15: Resolved, Billy fixed the hose which had fallen off.",
+              "done": true
+            },
+            {
+              "text": "2026-04-01: Reverse lights don't seem to be working, it's likely wiring.\n2026-04-02: Resolved, Billy fixed wiring.\n2026-04-15: Driver side light burned out.",
+              "done": false
+            },
+            {
+              "text": "2026-04-01: Getting a negative contactor welded fault in the VCU.\n2026-04-02: Resolved, negative contactor was welded and Billy replaced it.",
+              "done": true
+            },
+            {
+              "text": "Fix the gear ratio",
+              "done": false
+            },
+            {
+              "text": "Battery type in preheim",
+              "done": false
+            },
+            {
+              "text": "2026-07-28: Dakota Digital gauges need the limits modified / disabled to hide some nuisance alarms.",
+              "done": false
+            },
+            {
+              "text": "2026-07-28: The LDU has a cap on regen that needs to be removed.",
+              "done": false
+            }
+          ],
+          "total": 23,
+          "done": 15,
+          "open": 8
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Preheim 72 Blazer"
+        ],
+        "open_tasks": 4
+      },
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krfacg",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868krfacg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            },
+            {
+              "id": "868krfa25",
+              "name": "Troubleshoot cell temp/voltage issue",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868krfa25",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2651e293912470212312b621bfb5431cea872189e72d0192fadb02d574ed0498"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868gjgucg",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868gjgucg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            }
+          ]
+        },
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:54",
+                  "text": "cut the brackets for the truck\nmarked all the holes"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "08f71f419e8d8f08c0d6a7b263c43dedd96449c7222063e1bbe5c86535402b64"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Ritchie",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Ritchie",
+        "year": 1972,
+        "color": "",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "status": "Fabrication",
+        "checkout": 17.6,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 100
+          },
+          {
+            "label": "Inverter",
+            "value": 0
+          },
+          {
+            "label": "PMU",
+            "value": 0
+          },
+          {
+            "label": "Raptor",
+            "value": 0
+          },
+          {
+            "label": "Functional",
+            "value": 0
+          }
+        ],
+        "system": "Ampere"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Ritchie 71 Blazer"
+        ],
+        "open_tasks": 45
+      },
+      "assignees": [
+        {
+          "name": "Billy Arrasmith",
+          "tasks": [
+            {
+              "id": "868kmp7ud",
+              "name": "Address stub shaft fitment",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kmp7ud",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:58",
+                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+            },
+            {
+              "id": "868hbnnhz",
+              "name": "Balance driveshafts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnnhz",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+            },
+            {
+              "id": "868jwk0hy",
+              "name": "Bleed and test heater",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868jwk0hy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
+            },
+            {
+              "id": "868hbmvcq",
+              "name": "Charge test AC system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbmvcq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d8504cc26b8c6ec48b7f4d2a0520d5ef9d1643254e33d39575314931e283cec3"
+            },
+            {
+              "id": "868hbnfk6",
+              "name": "Install GUI assembly",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnfk6",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
+            },
+            {
+              "id": "868gaza0d",
+              "name": "Install PRND assembly",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza0d",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8025930b956be8b38cd95c2c15a8a9407628d13462197e2809d45f97afc620e2"
+            },
+            {
+              "id": "868gazad9",
+              "name": "Install Vintage Air Magnum unit",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gazad9",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d727bca8f854ed2a7c735aac75c9fd86eaba4873688a3ea6a6acd65cb53bdfbf"
+            },
+            {
+              "id": "868ktqdv5",
+              "name": "Install audio system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqdv5",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:08",
+                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "916ddfb05df9c91ca1e31966e95cba3bc0eb7a210fc5c92cac5c69e1815a16f9"
+            },
+            {
+              "id": "868hbnmkf",
+              "name": "Install driveshafts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbnmkf",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "493813f891250abbcfa8e1c6d1ab8fcf90d97324b55fc27ee0c48c712db168dc"
+            },
+            {
+              "id": "868kmp9tm",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kmp9tm",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+            },
+            {
+              "id": "868ktqjxq",
+              "name": "Install seat belts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqjxq",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
+            },
+            {
+              "id": "868ktqj7a",
+              "name": "Install steering wheel",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqj7a",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:35",
+                  "text": "steering wheel ordered"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ef9b288bcfca9810cdd84893cb342175271f1cbad95e16355c3fa3766da3e61b"
+            },
+            {
+              "id": "868gaza16",
+              "name": "Manufacture Core - GUI Mount",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza16",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
+            },
+            {
+              "id": "868ktqjqy",
+              "name": "Refinish rear seat mounts",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqjqy",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:02",
+                  "text": "removed rear seat mount brackets\nready for PC"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
+            },
+            {
+              "id": "868hbmtxh",
+              "name": "Set preliminary alignment",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868hbmtxh",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
+            },
+            {
+              "id": "868ka1nuh",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ka1nuh",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+            },
+            {
+              "id": "868ktqm7v",
+              "name": "Test OEM wiring",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ktqm7v",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:07",
+                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-20 02:25",
+                  "text": "finished testing. the wiring\nhad to fix firewall connector\nready to startup\nIMG_1913.jpeg\nIMG_1912.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:53",
+                  "text": "revers light not functioning looking into it\nright brake light not working but the turn signal works"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b8e62a699ac139543f20aaf08b1491a5a30458137b5478e164f61ac70c652664"
+            },
+            {
+              "id": "868kunztt",
+              "name": "Troubleshoot isolation fault",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kunztt",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:46",
+                  "text": "found faulty cable due to brake fluid\nneeds to be replaced"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "IMG_1914.jpeg\nIMG_1915.jpeg\nIMG_1916.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "going over budget\nfixed the HV cable\nchecked the res\nall is good on HV Cable\nplugged everything back in\nstill had fault\nremoved the HVJB\ntook the cover off\nno ingress\nstarted checking other places\ngot Jordan to help\nfound no issues with JV cables\nBrandon and Devin checked boxes found an anomaly in the D*\nverified Prehiem was good with the same test\nran more test\nwaiting on confirmation to pull a battery"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "74f087ff77e8fc8903b7a4b31dc822b456c731176b1bc457b5d3d2c85111de83"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868kv10m3",
+              "name": "(Confirm) Make upper beauty panel on firewall",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kv10m3",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:34",
+                  "text": "Panel cut\nHoles marked\nHoles tapped M6\nPanel painted\nInstalled with black RTV to seal"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-21 19:35",
+                  "text": "1000014772.jpg1000014773.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "77207f71bfd6182418073f0f447628a73b1817f3a0379ba6435d6521264f1fa5"
+            },
+            {
+              "id": "868k6ttbf",
+              "name": "Install audio system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868k6ttbf",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+            },
+            {
+              "id": "868kpg6th",
+              "name": "Install bed rail caps",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kpg6th",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+            },
+            {
+              "id": "868ka4d5e",
+              "name": "Install interior",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ka4d5e",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+            },
+            {
+              "id": "868gaza9t",
+              "name": "Manufacture Core - Battery Pack Lids",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza9t",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d9f9273bd20a0261c1da8aa58792fabb09ecbcfe7ed7ff121281c714d5fa985e"
+            },
+            {
+              "id": "868kpyh0j",
+              "name": "Modify fuel filler",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kpyh0j",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:51",
+                  "text": "Fuel filler mocked up\nCut marks made\nFiller neck cut down and planed smooth\nFlange deburred\nFiller neck sanded and prepped for paint\nNeck cleaned and primed\nNeck painted and left to cure over night\nBody to neck gasket sourced and ordered\nBed side to flange gasket sourced and ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 15:56",
+                  "text": "1000014575.jpg1000014606.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:36",
+                  "text": "Fuel filler received once more coat of paint to remove light spots"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:24",
+                  "text": "Fuel filler pass through in body floor traced\nTemplate used to cut steel plate\nPlate shaped to fit floor contour\nPlate cleaned, prepped and painted\nPlate was sealed w/ RTV and installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-12 16:28",
+                  "text": "1000014624.jpg1000014620.jpg1000014625.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:32",
+                  "text": "Fuel filler modified and 12V quick disconnect installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:33",
+                  "text": "1000014749.jpg1000014750.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "Fuel filler installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 22:43",
+                  "text": "1000014751.jpg1000014752.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "37740c6f14a668843a9bf59040b3501f67a8d3ade201935edc886eb7b0bd792b"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868ka1pgr",
+              "name": "Start up vehicle",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868ka1pgr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+            },
+            {
+              "id": "868kv2ram",
+              "name": "Troubleshoot isolation fault",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kv2ram",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 22:12",
+                  "text": "Dive into ISO fault on this vehicle.\nUsed preheim to verify findings.\n2 tests show the front D4 to be good and the Front D8 to have a major iso issue.\nComparing to preheim with the same test sshows that this vehicle does have an issue with the front D8 box.\nLikely front box will need to be removed for further inspection.\nStart up paused until this is fixed.\nCheck start task for picture details and what vehicle they came from."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "a73abb15dd34a206dd720d466b29cea34c0d7df65e620923a284a72cecacd8c1"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Carter",
+          "tasks": [
+            {
+              "id": "868gaza10",
+              "name": "Engineer Core - GUI Mount",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gaza10",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
+            }
+          ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868kv07mr",
+              "name": "Coordinate center console paint",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kv07mr",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Teague",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Teague",
+        "year": 1962,
+        "color": "Black",
+        "make": "Jaguar",
+        "model": "",
+        "status": "Testing",
+        "checkout": 100,
+        "sub_metrics": [
+          {
+            "label": "BMS",
+            "value": 97.2
+          },
+          {
+            "label": "Inverter",
+            "value": 93.5
+          },
+          {
+            "label": "PMU",
+            "value": 0
+          },
+          {
+            "label": "Raptor",
+            "value": 83.6
+          },
+          {
+            "label": "Functional",
+            "value": 25.0
+          }
+        ],
+        "system": "Ampere",
+        "punchlist": {
+          "items": [
+            {
+              "text": "Missing Build Photos",
+              "done": false
+            },
+            {
+              "text": "Missing Polarity Label",
+              "done": true
+            },
+            {
+              "text": "Test Box Fail - There's something making the test box \"PWR/CAN\" fail, moved on but will circle back to troubleshoot.",
+              "done": true
+            },
+            {
+              "text": "Missing Build Photos",
+              "done": false
+            },
+            {
+              "text": "Missing Polarity Label",
+              "done": true
+            },
+            {
+              "text": "Incorrect Contactor Orientation",
+              "done": true
+            },
+            {
+              "text": "2026-08-07: The customer credentials need to be put into the wifi logger.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: Fast charging needs to be tested.",
+              "done": false
+            },
+            {
+              "text": "2026-08-07: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.\n2026-08-13: There was a long charge earlier today, should be safe to pull the logs.",
+              "done": false
+            },
+            {
+              "text": "2026-07-29: Figure out the correct VCU settings for a 450V vehicle. OBC, DCDC, precharge resistor, etc.",
+              "done": false
+            },
+            {
+              "text": "2026-08-11: There's a flashing \"CHARGE\" light on the analog gauges wihile nothing shows on the digital dash.\n2026-08-13: Dave says SOC was ~9% so the pack was low. Indication between Ampere and Peterson simply do not match. This is resolved.",
+              "done": true
+            },
+            {
+              "text": "2026-08-xx: The compressor makes a clicking sound every ~30 seconds when HV is powered up but the LV is turnes off.\n2026-08-13: Resolved. The problem just went away. Probably something about a refrigerant bubble.",
+              "done": true
+            },
+            {
+              "text": "2026-08-10: The battery type is set incorrectly in the vehicle.\n2026-08-11: Resolved. Corrected to ID4 to match the vehicle.",
+              "done": true
+            }
+          ],
+          "total": 13,
+          "done": 7,
+          "open": 6
+        }
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Teague 62 Jaguar"
+        ],
+        "open_tasks": 22
+      },
+      "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868kr28at",
+              "name": "Address interior noises",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kr28at",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
+            },
+            {
+              "id": "868krdet4",
+              "name": "Facilitate tire replacement",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868krdet4",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4beb74a82d262a6680b4963539cbfe5ad9dfc1b547eca03f9348b83dd3fbfa2e"
+            },
+            {
+              "id": "868jj1ac8",
+              "name": "Install font battery lid",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868jj1ac8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+            },
+            {
+              "id": "868kt2ttw",
+              "name": "Repair steering column adjustment",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt2ttw",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "ac4f83735ee563350f2a01a30cc84a9f317927364f36fc76f09c1c7b91ed08f0"
+            },
+            {
+              "id": "868j84xbd",
+              "name": "Set ride height",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868j84xbd",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
+            },
+            {
+              "id": "868ku2rcq",
+              "name": "Troubleshoot GUI issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868ku2rcq",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
+            },
+            {
+              "id": "868kt2t1w",
+              "name": "Troubleshoot front suspension noise",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt2t1w",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
+            },
+            {
+              "id": "868kt5w1j",
+              "name": "Troubleshoot power steering issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kt5w1j",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868khu6f8",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868khu6f8",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            },
+            {
+              "id": "868ku2tnf",
+              "name": "Troubleshoot GUI issue",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868ku2tnf",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "generated_at": "2026-08-24T06:47:59Z"
+  "generated_at": "2026-08-24T07:26:13Z"
 }
