@@ -351,8 +351,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 22.5,
-      "pct_of_total": 2.3,
+      "total_hours": 23.5,
+      "pct_of_total": 2.4,
       "tasks": [
         {
           "task": "Suspension",
@@ -360,7 +360,7 @@
         },
         {
           "task": "Battery Pack",
-          "hours": 2.5
+          "hours": 3.5
         },
         {
           "task": "Wiring - OEM",
@@ -465,7 +465,7 @@
   ],
   "shop_work": {
     "total_hours": 162.0,
-    "pct_of_total": 16.5,
+    "pct_of_total": 16.4,
     "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 667.0,
+    "billable_hours": 668.0,
     "non_billable_hours": 317.5,
     "pto_hours": 15.0,
-    "total_hours": 984.5
+    "total_hours": 985.5
   },
-  "generated_at": "2026-08-24T21:28:27Z"
+  "generated_at": "2026-08-24T21:43:58Z"
 }
