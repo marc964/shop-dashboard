@@ -295,17 +295,21 @@
             "done": false
           },
           {
-            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.",
+            "text": "2026-08-10: The customer credentials need to be put into the wifi logger.\n2026-08-24: Entered into the CANCloud, just waiitng for the config to sync.",
             "done": false
           },
           {
             "text": "2026-08-10: A full 'overnight' charge needs to be completed and then the Ampere BMS diagnostic report ran + analyzed.",
             "done": false
+          },
+          {
+            "text": "no heater hv lockout on blower speed",
+            "done": false
           }
         ],
-        "total": 7,
+        "total": 8,
         "done": 3,
-        "open": 4
+        "open": 5
       }
     },
     {
@@ -1731,6 +1735,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-08-21T23:24:44.434944+00:00",
+  "updated": "2026-08-24T23:22:46.389898+00:00",
   "source": "Google Sheets API"
 }
