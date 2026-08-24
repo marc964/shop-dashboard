@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T21:58:28.197430Z",
+  "updated_at": "2026-08-24T22:10:43.956030Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -905,10 +905,15 @@
                   "author": "Aharon Adams",
                   "date": "2025-08-26 23:22",
                   "text": "vac down\nnitrogen test\nbegin removing fittings and lines and blowing them out/using nitrogen to check for blockages. it seemed like there may have been a little bit of a bottleneck somewhere between the high side port and the exit of the drier. but I might have blown it out and not realized. \nreplace drier and swap over pressure switch. checking wiring, found the signal and ground wires swapped. \nremedy wiring and replace connector with our newer style\nreassemble and nitrogen test, verifying with Devin the gauge pressures on high and low vs the ampere kpa readout\npull vacuum, fill with 1.75 lb and test. \neverything seems to work well so kept the gauges attached and taped them to the window for a 30 minute test drive using the ac the entire time. zero issues and pressures always looked good. the compressor and fan cycle fairly often but the cabin always stayed cool and I think its just the evap temp switch doing its thing. \nleft it running and in total did 1.5 hrs of running full tilt. no hiccups. \nremove and evacuate gauge lines and reinstall hood."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-24 22:09",
+                  "text": "full pull down to vaccum, pulled 29.4oz out. after purging the a/c recycling unit, ended up with about 33oz in the system. that could have been stored in the unit, if someone hadnt purged it last time it was used.\ni filled the system under vacuum and it struggled to pull in more than 20oz when filling liquid. fired the system up and filled gas on the low side. ended up getting 24ozz in the system and it seems to run very well like that. pressures were great inside and out, very hot today 102* and the high side stuck around 280-300 when sitting in the sun. low side around 25-40 depending on compressor rpm.\ntemps at the vents were right around 40*\nthe evaporator temp setting might be a little high but we can not control that. it seems to cycle the compressor and fan often. but its very smooth and consistent. using raptorcal we could see that the vcu was seeing the on off request cycled. which comes from the vintage air controller thingy.\nlet the vehicle upload a log. i believe we are good to go for now.\nvery long test drive and driving situations."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b029ebc18b69bddb6ee07665790ae0e3ac93ebeee7a810d146f671b787ca5013"
+              "content_hash": "08a43c39b49124ca3442aaa0bde9e15b81f399678bb3c813848293f27908e8cf"
             }
           ]
         },
@@ -2465,5 +2470,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T21:56:42Z"
+  "generated_at": "2026-08-24T22:09:02Z"
 }
