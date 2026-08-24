@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T16:13:54.075809Z",
+  "updated_at": "2026-08-24T16:30:01.005236Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -123,6 +123,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-24 16:09",
                   "text": "FDR - 1.9*3.54 = 6.726\nWeight plus Driver - 2785lbs"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:13",
+                  "text": "image.png\nUpdated vehicle FDR. Weight and Wheel Diameter. Set vehicle parameters to calibration.\n\nWheel diameter 0.660 \u2192 0.649\nGear Ratio 4.300 \u2192 6.726\nWeight 1500kg \u2192 1263kg"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:16",
+                  "text": "Updated these settings in the GUI as well.\nVerified settings stayed persistent through a key cycle."
                 }
               ],
               "checklist_items": [
@@ -134,7 +144,7 @@
                 {
                   "checklist": "Checklist",
                   "name": "Confirm vehicle weight and gearing is correct",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
@@ -152,7 +162,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "75f56568af6f14432842e9e5ea094508f52275f1261326c4484e0e022da866e7"
+              "content_hash": "65513db9de592b7d13e72b082d82ae91b9c735c9a95ef429b77090e263af3b56"
             }
           ]
         }
@@ -2339,5 +2349,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T16:12:03Z"
+  "generated_at": "2026-08-24T16:28:21Z"
 }
