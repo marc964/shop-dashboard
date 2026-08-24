@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 88.8,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Steering",
@@ -234,12 +234,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 80.0,
-      "pct_of_total": 8.1,
+      "total_hours": 81.0,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 18.2
+          "hours": 18.8
         },
         {
           "task": "Instrumentation",
@@ -262,12 +262,12 @@
           "hours": 4.0
         },
         {
-          "task": "Cooling",
+          "task": "Interior",
           "hours": 3.8
         },
         {
-          "task": "Interior",
-          "hours": 3.2
+          "task": "Cooling",
+          "hours": 3.8
         },
         {
           "task": "Wiring - High Voltage",
@@ -464,16 +464,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 163.0,
-    "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.27,
+    "total_hours": 163.5,
+    "pct_of_total": 16.5,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 16,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 63.2
+        "hours": 63.8
       },
       {
         "label": "Shop Meetings",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 672.5,
-    "non_billable_hours": 318.5,
+    "billable_hours": 674.5,
+    "non_billable_hours": 319.0,
     "pto_hours": 15.0,
-    "total_hours": 991.0
+    "total_hours": 993.5
   },
-  "generated_at": "2026-08-24T22:09:02Z"
+  "generated_at": "2026-08-24T22:24:43Z"
 }
