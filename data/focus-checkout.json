@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T15:47:39.418565Z",
+  "updated_at": "2026-08-24T16:13:54.075809Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -118,6 +118,11 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-12 18:45",
                   "text": "Restored inverter firmware and settings. Tested vehicle going into gear and rolling forward. Verified gamma adjust. Reviewed checkout sheet for completeness. Filled in sections for inverter EEPROM and marked PMU checkout N/A. Verified VCU config, updated firmware to 1.8.14 to include torque tuning mods, verified the config and fixed the incorrect options. Added details about the vehicle to the sheet and corrected some typos. Uploaded all backups to the drive. Posted remaining items to Slack."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-24 16:09",
+                  "text": "FDR - 1.9*3.54 = 6.726\nWeight plus Driver - 2785lbs"
                 }
               ],
               "checklist_items": [
@@ -147,7 +152,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "0120b583ac4671092342ab58acc6e3654e8b5db14f3b03ed094e1daba2808af8"
+              "content_hash": "75f56568af6f14432842e9e5ea094508f52275f1261326c4484e0e022da866e7"
             }
           ]
         }
@@ -1633,7 +1638,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 45
+        "open_tasks": 46
       },
       "assignees": [
         {
@@ -1645,15 +1650,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -2074,6 +2073,21 @@
           ]
         },
         {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868kw2fz4",
+              "name": "Troubleshoot Product - Battery Box",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kw2fz4",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e471f3259d5eb6ea6f4ffddffb1f866f0b92569d17c23d43521f900c199961c0"
+            }
+          ]
+        },
+        {
           "name": "Marshall Carter",
           "tasks": [
             {
@@ -2325,5 +2339,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T15:45:55Z"
+  "generated_at": "2026-08-24T16:12:03Z"
 }
