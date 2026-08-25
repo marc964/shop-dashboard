@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T17:17:41.847482Z",
+  "updated_at": "2026-08-25T17:44:11.783546Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -259,11 +259,6 @@
               "comments": [
                 {
                   "author": "Jordan Jones",
-                  "date": "2025-09-11 23:17",
-                  "text": "Issues:\nVery small brake fluid leak from the brake switch sensor. Brake sensor is functional but you have to get very deep into the pedal for it to engage. Might warrant replacement (did not come with new booster). There was no seal on the original I took off, but perhaps there should be one. Will get one.\nVacuum is bleeding out of the booster, causing the pump to cycle on approximately every 45 seconds.\u00a0 If the vacuum line is plugged before the booster it holds vacuum perfectly. With the booster installed there is a slow leak. I tightened all the hardware and the leak decreased significantly but is still present. Reaching out to the rebuilder for his advice.\nGUI speedo is about 50% slow.\nPeterson instrumentation not showing any values.\nSpeaker interference noise, both from power steering input and throttle application.\nSteering wheel is not centered.\nFront left drum seems like it may be sticking.\nEstop non-functional (see above)\nHeater not functional (will come online with PMUs)\nPRD dimming/lighting non-functional.\nPowertrain coolant loop is cavitating. I think it needs another vacuum bleed after the coolant leak."
-                },
-                {
-                  "author": "Jordan Jones",
                   "date": "2025-09-11 23:27",
                   "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
                 },
@@ -381,6 +376,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-20 22:38",
                   "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 17:17",
+                  "text": "image.png\nimage.png\nUploaded PMU and EEPROM files to the Vehicle folder in google drive for future reference."
                 }
               ],
               "checklist_items": [
@@ -405,7 +405,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "47ab98eae7ac7147e4c774d42abaab96748155c26ffc7630a83ebb5ddcb48ff2"
+              "content_hash": "d2949e9dbcc48579513f55ff2a564e22cd3c150e69545a82fbcefcb9537fe3b3"
             },
             {
               "id": "868k0je6t",
@@ -423,21 +423,26 @@
                   "author": "Aharon Adams",
                   "date": "2026-06-26 02:39",
                   "text": "long test drive, notes, and updates"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 17:20",
+                  "text": "image.png\nimage.png\n\nSpoke to Marc and Verified settings in this vehicle for Shudder and Self Sense.\nMy instruction was to leave the vehicle as is.\nEvery Vehicle should have shudder comp enabled.\nNot every vehicle should have self sense."
                 }
               ],
               "checklist_items": [
                 {
                   "checklist": "Checklist",
                   "name": "Turn on shutter comp",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Turn on self sense assist",
-                  "resolved": false
+                  "resolved": true
                 }
               ],
-              "content_hash": "f8c5ab3cca68f07f54ef6f9cd2283fdecb6f009edeb640e4c9f3596f8def3434"
+              "content_hash": "f65d6f03959f0f91f6de53d2aa12d20531599ea2c612e6eeb03ed6e60d740478"
             }
           ]
         },
@@ -862,71 +867,9 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kqcuv8",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-14 22:02",
-                  "text": "test driving after new settings"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
-            },
-            {
-              "id": "868expzca",
-              "name": "Troubleshoot AC issues",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868expzca",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2025-07-25 21:26",
-                  "text": "tested Amperes pressures \ntest drove the car\nAC cut out but took longer \nlooked at several settings\nfound the high side before the condenser was high but Ampere was 115psi lower \nwhile evacuating the system I couldn't pull the high side down unless I opened the valve \nthis was the issue\ntested the Bronco to confirm\nit only has a 2-4 psi drop on the condenser\ntalked with Alex\nNoah will do the work \nI have already ordered parts to be here Monday"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2025-08-01 20:04",
-                  "text": "nitrogen testing, at 300 psi for over an hour. then help with filling. exactly 1.8 lb input, system was working great but I believe with the gui operating the system and not the Dakota digital thing, it was letting the evaporator freeze up. upon letting Dakota run it and manage evap (?) temps, it seemed to work well. also worked fine on my short drives but did cut out one time and give a check engine light. may need @Devin DuMont to see what it is and advise. possibly still overcurrent. I think we should not have the compressor running at full chat or nothing. it is either on 100% or off. being able to modulate its rpm based on temps would be preferable."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2025-08-25 11:59",
-                  "text": "tested with Devin\nfound pressures  not right\nswapped out the sensor \nno change \nsensor plugged in with no pressure gave a weird reading\nDevin is sending Ampere the results"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2025-08-25 19:04",
-                  "text": "got some pressures for Devin"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2025-08-26 23:22",
-                  "text": "vac down\nnitrogen test\nbegin removing fittings and lines and blowing them out/using nitrogen to check for blockages. it seemed like there may have been a little bit of a bottleneck somewhere between the high side port and the exit of the drier. but I might have blown it out and not realized. \nreplace drier and swap over pressure switch. checking wiring, found the signal and ground wires swapped. \nremedy wiring and replace connector with our newer style\nreassemble and nitrogen test, verifying with Devin the gauge pressures on high and low vs the ampere kpa readout\npull vacuum, fill with 1.75 lb and test. \neverything seems to work well so kept the gauges attached and taped them to the window for a 30 minute test drive using the ac the entire time. zero issues and pressures always looked good. the compressor and fan cycle fairly often but the cabin always stayed cool and I think its just the evap temp switch doing its thing. \nleft it running and in total did 1.5 hrs of running full tilt. no hiccups. \nremove and evacuate gauge lines and reinstall hood."
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-24 22:09",
-                  "text": "full pull down to vaccum, pulled 29.4oz out. after purging the a/c recycling unit, ended up with about 33oz in the system. that could have been stored in the unit, if someone hadnt purged it last time it was used.\ni filled the system under vacuum and it struggled to pull in more than 20oz when filling liquid. fired the system up and filled gas on the low side. ended up getting 24ozz in the system and it seems to run very well like that. pressures were great inside and out, very hot today 102* and the high side stuck around 280-300 when sitting in the sun. low side around 25-40 depending on compressor rpm.\ntemps at the vents were right around 40*\nthe evaporator temp setting might be a little high but we can not control that. it seems to cycle the compressor and fan often. but its very smooth and consistent. using raptorcal we could see that the vcu was seeing the on off request cycled. which comes from the vintage air controller thingy.\nlet the vehicle upload a log. i believe we are good to go for now.\nvery long test drive and driving situations."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "08a43c39b49124ca3442aaa0bde9e15b81f399678bb3c813848293f27908e8cf"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1044,6 +987,27 @@
               ],
               "checklist_items": [],
               "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
+            }
+          ]
+        },
+        {
+          "name": "Aharon Adams",
+          "tasks": [
+            {
+              "id": "868kqcuv8",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kqcuv8",
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             }
           ]
         },
@@ -1181,7 +1145,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 6
+        "open_tasks": 5
       },
       "assignees": [
         {
@@ -1243,43 +1207,6 @@
               ],
               "checklist_items": [],
               "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
-            },
-            {
-              "id": "868kv013h",
-              "name": "Troubleshoot cooling issue",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868kv013h",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:17",
-                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
-            }
-          ]
-        },
-        {
-          "name": "Aharon Adams",
-          "tasks": [
-            {
-              "id": "868kv013h",
-              "name": "Troubleshoot cooling issue",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868kv013h",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-08-21 21:17",
-                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
             }
           ]
         },
@@ -1994,9 +1921,110 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-08 16:36",
+                  "text": "ordering interior kit"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-22 22:57",
+                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
+                },
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:08",
+                  "text": "In communication with customer on this."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:25",
+                  "text": "Dash upper pad replaced"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:26",
+                  "text": "Door panels unboxed and test fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-01 16:30",
+                  "text": "1000014098.jpg1000014099.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:12",
+                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:14",
+                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:06",
+                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 23:07",
+                  "text": "Dave is picking up front and rear bench seat tonight"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "1000014208.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:55",
+                  "text": "Rubber seam installed in door panel\nDoor panel installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-04 18:56",
+                  "text": "Door panel arm rests ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:45",
+                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:53",
+                  "text": "1000014562.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-10 20:55",
+                  "text": "Door panel armrests installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 19:13",
+                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:54",
+                  "text": "Driver side visor install in progress and fwd carpet installed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:55",
+                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:57",
+                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
+              "content_hash": "77843c5c40a3730a5d72f5d482b6de94e6778e240dbc92f982f09397afd9a7ca"
             },
             {
               "id": "868gaza9t",
@@ -2019,9 +2047,136 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:02",
+                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:48",
+                  "text": "Preheim Front D4\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:48",
+                  "text": "Preheim Front D8\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:51",
+                  "text": "Ritchie Front D8\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:52",
+                  "text": "Ritchie Front D4\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:55",
+                  "text": "All tests were done with the HV cables disconnected from the battery box and MSD removed from the battery box.\n\nwe did test the rear box on Ritchie with and or without the MSD to see if there was a difference with the MSD connected. No change was found.\n\nTested in comparison to Preheim and found that Ritchie was definitely showing issues relatively."
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "1.) PMU1 PMU2 - Communication Check",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "4.) PMU1 004-P13 Reverse Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "5.) PMU1 002-P39 Digital GUI",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "6.) PMU1 012-P02 Brake Lights",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "7.) PMU1 011-P03 BMS Wake",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "8.) PMU1 006-P10 CCS Contactors",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "10.) PMU1 008 -P09 Negative Contactor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "11.) PMU1 013-P01 Battery Heater",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "13.) PMU1 005-P12 Vacuum Pump",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 1.) Accelerator Pedal",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 2.) Brake Switch",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 3.) Ambient Air Temp Sensor",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 4.) HVIL",
+                  "resolved": true
+                },
+                {
+                  "checklist": "Ampere IO Checkout Checklist",
+                  "name": "VCU 5.) PRND",
+                  "resolved": true
+                }
+              ],
+              "content_hash": "0e720f071767f9c90b458ec8f779081a3af1d7ac43e9402d36cee1eb9c32a355"
             },
             {
               "id": "868kv2ram",
@@ -2334,5 +2489,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T17:15:32Z"
+  "generated_at": "2026-08-25T17:41:59Z"
 }
