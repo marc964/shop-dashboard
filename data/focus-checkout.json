@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T19:32:32.778509Z",
+  "updated_at": "2026-08-25T19:48:27.445983Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -889,9 +889,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kwnwyc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-25 19:33",
+                  "text": "3.5 hours testing to find the issue, removal of the steering column, then separating them and checking, I've ordered m8 set screws to install in the motor to ididit part. Waiting until parts arrive to continue."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4b836ebe3cb3600f42a61d26ec9db978fcb12c7b386f1f0de48ced5843596261"
+              "content_hash": "67acfed67a39b76a3a883790e4790b215ad5f4d697a29bb50b4654c6d89a7f85"
             }
           ]
         },
@@ -2230,10 +2236,15 @@
                   "author": "Justin Landry",
                   "date": "2026-08-24 19:34",
                   "text": "Helped diagnose battery box 1 590 D8 box from ritchie blazer.  we determined that due to the voltages we were seeing that an isolation fault was occurring in the 8th module of the box between cells 5 and 6. disassembled the box and removed bus bars from module 8 and confirmed the readings had stayed the same. the issue i have now is that the modules are glued to the chill plates and so far the module doesn't want to release.  will return in the morning for another attempt and if it gives too much trouble we are going to make another chill plate and move on."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-25 19:45",
+                  "text": "was able to separate the bad module from the chill plate with some crafty prying and shims. assessed the module and found the voltage leak has disappeared since the module was off the chill plate. assembled the 4 stack with a new matching voltage module and rebuilt the box for brandon to test. test complete i re bled the coolant to check for leaks then sealed boxes with the shells. back to billy for install."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c771d1e4e7195bbd8a7368186f6ed265d659a938f19bd0b2c2133e4bc98102f8"
+              "content_hash": "511c51ce99bf9a803ce47f51c9b82c12263aef70f4a7fdf9049c78f5471c5cc7"
             }
           ]
         },
@@ -2474,5 +2485,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T19:30:16Z"
+  "generated_at": "2026-08-25T19:46:22Z"
 }
