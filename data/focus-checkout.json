@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T18:52:46.723535Z",
+  "updated_at": "2026-08-25T19:15:36.993995Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1610,7 +1610,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 45
+        "open_tasks": 40
       },
       "assignees": [
         {
@@ -1671,26 +1671,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
-            },
-            {
-              "id": "868gaza0d",
-              "name": "Install PRND assembly",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gaza0d",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8025930b956be8b38cd95c2c15a8a9407628d13462197e2809d45f97afc620e2"
-            },
-            {
-              "id": "868gazad9",
-              "name": "Install Vintage Air Magnum unit",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gazad9",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d727bca8f854ed2a7c735aac75c9fd86eaba4873688a3ea6a6acd65cb53bdfbf"
             },
             {
               "id": "868ktqdv5",
@@ -1793,16 +1773,6 @@
               "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
             },
             {
-              "id": "868hbmtxh",
-              "name": "Set preliminary alignment",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbmtxh",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "21d62b7281a5b2e253c5b56555627aea2662826b00f02f0945b1a0154cfec0a6"
-            },
-            {
               "id": "868ka1nuh",
               "name": "Start up vehicle",
               "status": "Open",
@@ -1811,37 +1781,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
-            },
-            {
-              "id": "868ktqm7v",
-              "name": "Test OEM wiring",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ktqm7v",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:07",
-                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-20 02:25",
-                  "text": "finished testing. the wiring\nhad to fix firewall connector\nready to startup\nIMG_1913.jpeg\nIMG_1912.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:53",
-                  "text": "revers light not functioning looking into it\nright brake light not working but the turn signal works"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-25 18:48",
-                  "text": "fixed the brake light and reverse lights\nrevers was a bad socket connection\nthe brake was a blown light bulb\nall is fixed and working now"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "e282908b7f1c731c409e99a5937c7ffec263087140ec1e8cf6dc0280050f967e"
             },
             {
               "id": "868kunztt",
@@ -2062,7 +2001,43 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:02",
+                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:48",
+                  "text": "Preheim Front D4\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:48",
+                  "text": "Preheim Front D8\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:51",
+                  "text": "Ritchie Front D8\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:52",
+                  "text": "Ritchie Front D4\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-21 19:55",
+                  "text": "All tests were done with the HV cables disconnected from the battery box and MSD removed from the battery box.\n\nwe did test the rear box on Ritchie with and or without the MSD to see if there was a difference with the MSD connected. No change was found.\n\nTested in comparison to Preheim and found that Ritchie was definitely showing issues relatively."
+                }
+              ],
               "checklist_items": [
                 {
                   "checklist": "Ampere IO Checkout Checklist",
@@ -2155,7 +2130,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
+              "content_hash": "0e720f071767f9c90b458ec8f779081a3af1d7ac43e9402d36cee1eb9c32a355"
             },
             {
               "id": "868kv2ram",
@@ -2177,11 +2152,11 @@
                 {
                   "author": "Brandon Beaman",
                   "date": "2026-08-25 18:20",
-                  "text": "image.png\nD8 Box\nMSD Disconnected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Closed"
+                  "text": "image.png\nD8 Box\nMSD Disconnected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Closed\n\nimage.png\nVoltage Readings\nimage.png\nCell Readings"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "4c805b1005ba90dc0edf361022cb840d988e357470c715817f717efb4d2fc0ce"
+              "content_hash": "01fd36e8c44dd8b970775dbf0353dc5eaeef88ad86bcc88c141bf052b3db4cf6"
             }
           ]
         },
@@ -2218,21 +2193,6 @@
               ],
               "checklist_items": [],
               "content_hash": "c771d1e4e7195bbd8a7368186f6ed265d659a938f19bd0b2c2133e4bc98102f8"
-            }
-          ]
-        },
-        {
-          "name": "Marshall Carter",
-          "tasks": [
-            {
-              "id": "868gaza10",
-              "name": "Engineer Core - GUI Mount",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gaza10",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "df7c11733df84fd67801142bd3aa45a78a05c5a8888d5a0f06b179cafeb5b586"
             }
           ]
         },
@@ -2473,5 +2433,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T18:51:07Z"
+  "generated_at": "2026-08-25T19:13:44Z"
 }
