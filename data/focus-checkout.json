@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T19:15:36.993995Z",
+  "updated_at": "2026-08-25T19:32:32.778509Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -244,7 +244,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 3
+        "open_tasks": 2
       },
       "assignees": [
         {
@@ -443,27 +443,6 @@
                 }
               ],
               "content_hash": "f65d6f03959f0f91f6de53d2aa12d20531599ea2c612e6eeb03ed6e60d740478"
-            }
-          ]
-        },
-        {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868ktkqf3",
-              "name": "Perform PDI",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868ktkqf3",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-18 18:35",
-                  "text": "Test drove, tested functions, lifted car and inspected underneath. cleaned driveshaft from previous marks and added one blue one through the cv, adapter and yoke. inspected under hood, interior and trunk. took photos for marc to use for the client doc and filled out PDI sheet."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4c3122ec5825ec407fe3d8c50929dfaf8620123fd7fb42bfd63de5a4895ea334"
             }
           ]
         }
@@ -1778,9 +1757,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:48",
+                  "text": "start up\nhelped with 12 volt\nfound tail light was out\nbrake pedal spring needs to be installed( used on Preheim)\nfound isolation fault"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:54",
+                  "text": "Setup the Bender IMD unit and helped Brandon and Billy narrow down the isolation problem to a single box. Cross checked the setup on Preheim and with the BMS tester. Isolation fault tests to only be in the big front box."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "a4cb96e10ff195f80ac8ba56a98818b9652617cf81066111d90aa91fa7c3f4c1"
             },
             {
               "id": "868kunztt",
@@ -1824,9 +1819,55 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "f2f658b6d8773ae0265d848d11ead009548a5950c4b783803dc470b405fd8c6e"
             },
             {
               "id": "868kpg6th",
@@ -2433,5 +2474,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T19:13:44Z"
+  "generated_at": "2026-08-25T19:30:16Z"
 }
