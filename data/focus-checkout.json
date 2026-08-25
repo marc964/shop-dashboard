@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T17:44:11.783546Z",
+  "updated_at": "2026-08-25T17:58:52.740016Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -867,9 +867,55 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 8
+        "open_tasks": 9
       },
       "assignees": [
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
+            },
+            {
+              "id": "868kwnwyc",
+              "name": "Troubleshoot steering column issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kwnwyc",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "4b836ebe3cb3600f42a61d26ec9db978fcb12c7b386f1f0de48ced5843596261"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -951,42 +997,6 @@
               ],
               "checklist_items": [],
               "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868k2w2gy",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868k2w2gy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
-            },
-            {
-              "id": "868ku38p2",
-              "name": "Troubleshoot parking brake issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868ku38p2",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:51",
-                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:52",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
             }
           ]
         },
@@ -2047,43 +2057,7 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:02",
-                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:51",
-                  "text": "Ritchie Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:52",
-                  "text": "Ritchie Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:55",
-                  "text": "All tests were done with the HV cables disconnected from the battery box and MSD removed from the battery box.\n\nwe did test the rear box on Ritchie with and or without the MSD to see if there was a difference with the MSD connected. No change was found.\n\nTested in comparison to Preheim and found that Ritchie was definitely showing issues relatively."
-                }
-              ],
+              "comments": [],
               "checklist_items": [
                 {
                   "checklist": "Ampere IO Checkout Checklist",
@@ -2176,7 +2150,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "0e720f071767f9c90b458ec8f779081a3af1d7ac43e9402d36cee1eb9c32a355"
+              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
             },
             {
               "id": "868kv2ram",
@@ -2489,5 +2463,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T17:41:59Z"
+  "generated_at": "2026-08-25T17:56:49Z"
 }
