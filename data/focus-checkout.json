@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T04:28:12.750086Z",
+  "updated_at": "2026-08-25T04:49:01.430615Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1600,30 +1600,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-09 02:03",
-                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-20 19:41",
-                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-29 19:51",
-                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:54",
-                  "text": "cut the brackets for the truck\nmarked all the holes"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "08f71f419e8d8f08c0d6a7b263c43dedd96449c7222063e1bbe5c86535402b64"
+              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
             }
           ]
         }
@@ -1680,15 +1659,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -1756,15 +1729,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:08",
-                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "916ddfb05df9c91ca1e31966e95cba3bc0eb7a210fc5c92cac5c69e1815a16f9"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868hbnmkf",
@@ -1782,15 +1749,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -1798,15 +1759,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:34",
-                  "text": "seat belts ordered"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
+              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
             },
             {
               "id": "868ktqj7a",
@@ -1814,15 +1769,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqj7a",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:35",
-                  "text": "steering wheel ordered"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ef9b288bcfca9810cdd84893cb342175271f1cbad95e16355c3fa3766da3e61b"
+              "content_hash": "4eefcecc12042d45511a40e69baf8e36f7e966048db1eeb9896e80a02f248372"
             },
             {
               "id": "868gaza16",
@@ -1840,15 +1789,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:02",
-                  "text": "removed rear seat mount brackets\nready for PC"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
+              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
             },
             {
               "id": "868hbmtxh",
@@ -1876,25 +1819,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqm7v",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:07",
-                  "text": "testing lights and accessories\nput fuses in the block\ngoing over lights\nIMG_1903.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-20 02:25",
-                  "text": "finished testing. the wiring\nhad to fix firewall connector\nready to startup\nIMG_1913.jpeg\nIMG_1912.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:53",
-                  "text": "revers light not functioning looking into it\nright brake light not working but the turn signal works"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b8e62a699ac139543f20aaf08b1491a5a30458137b5478e164f61ac70c652664"
+              "content_hash": "44428effbbac51861d82c768f8aa9a4466cf20df664b3f1da3721bb9aa7ce82c"
             },
             {
               "id": "868kunztt",
@@ -1902,30 +1829,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kunztt",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:46",
-                  "text": "found faulty cable due to brake fluid\nneeds to be replaced"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-22 22:55",
-                  "text": "IMG_1914.jpeg\nIMG_1915.jpeg\nIMG_1916.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-22 22:55",
-                  "text": "going over budget\nfixed the HV cable\nchecked the res\nall is good on HV Cable\nplugged everything back in\nstill had fault\nremoved the HVJB\ntook the cover off\nno ingress\nstarted checking other places\ngot Jordan to help\nfound no issues with JV cables\nBrandon and Devin checked boxes found an anomaly in the D*\nverified Prehiem was good with the same test\nran more test\nwaiting on confirmation to pull a battery"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-25 02:25",
-                  "text": "removed the battery boxes"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "508bed17b7f2795e6d73afa516222334c6b87ddf591735e9b14489f9645abe9c"
+              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
             }
           ]
         },
@@ -1948,40 +1854,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -1989,110 +1864,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka4d5e",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-08 16:36",
-                  "text": "ordering interior kit"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:57",
-                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "In communication with customer on this."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:25",
-                  "text": "Dash upper pad replaced"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:26",
-                  "text": "Door panels unboxed and test fit"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:30",
-                  "text": "1000014098.jpg1000014099.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:12",
-                  "text": "Passenger side visor installed\nPassenger side door panel installed with adhesive cushion to prevent squeaks and NVH\nDash center vent reinstalled after dash cushion installation\nSupplier mistakenly sent 2 RH visor mounts so an exchange will be necessary\nSeat backs removed and with Ryan for paint\nDave has been contacted to do front and rear houndstooth seat upholstery\nDriver side door has been drilled with 1/4\" bit for new push clips in new door panels. Waiting for more adhesive cushion from Mcmaster arriving tomorrow\nArm rest for new door panels were ordered for 71 not for the 72 door panels. Exchange will be necessary."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:14",
-                  "text": "1000014164.jpg1000014165.jpg1000014166.jpg1000014177.jpg1000014178.jpg1000014179.jpg1000014188.jpg1000014189.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:06",
-                  "text": "Old speakers removed from fwd kick panels and are with Ryan for paint"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 23:07",
-                  "text": "Dave is picking up front and rear bench seat tonight"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "1000014208.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:55",
-                  "text": "Rubber seam installed in door panel\nDoor panel installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-04 18:56",
-                  "text": "Door panel arm rests ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:45",
-                  "text": "Kick panels sanded, cleaned, sprayed with adhesion promoter and painted"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:53",
-                  "text": "1000014562.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-10 20:55",
-                  "text": "Door panel armrests installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 19:13",
-                  "text": "Remove passenger door panel to send with Ryan so Colvins can match the seat backs"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:54",
-                  "text": "Driver side visor install in progress and fwd carpet installed"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:55",
-                  "text": "paste_50cd478d-4416-4387-9ad4-ebe505f53939.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:57",
-                  "text": "paste_c724e9ae-7641-4d6e-838e-d055eb383c7f.jpgpaste_cbb6cdb0-741c-4585-8e83-b27f129a4873.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "77843c5c40a3730a5d72f5d482b6de94e6778e240dbc92f982f09397afd9a7ca"
+              "content_hash": "8fd66da719ff705d1cfee40e5a59ea597a5a80d93c1c6678c2c1fb1afd503ed5"
             },
             {
               "id": "868gaza9t",
@@ -2116,99 +1890,8 @@
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
               "comments": [],
-              "checklist_items": [
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "1.) PMU1 PMU2 - Communication Check",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "4.) PMU1 004-P13 Reverse Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "5.) PMU1 002-P39 Digital GUI",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "6.) PMU1 012-P02 Brake Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "7.) PMU1 011-P03 BMS Wake",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "8.) PMU1 006-P10 CCS Contactors",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "10.) PMU1 008 -P09 Negative Contactor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "11.) PMU1 013-P01 Battery Heater",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "13.) PMU1 005-P12 Vacuum Pump",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 1.) Accelerator Pedal",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 2.) Brake Switch",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 3.) Ambient Air Temp Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 4.) HVIL",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 5.) PRND",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
+              "checklist_items": [],
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             },
             {
               "id": "868kv2ram",
@@ -2216,20 +1899,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv2ram",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 22:12",
-                  "text": "Dive into ISO fault on this vehicle.\nUsed preheim to verify findings.\n2 tests show the front D4 to be good and the Front D8 to have a major iso issue.\nComparing to preheim with the same test sshows that this vehicle does have an issue with the front D8 box.\nLikely front box will need to be removed for further inspection.\nStart up paused until this is fixed.\nCheck start task for picture details and what vehicle they came from."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 23:08",
-                  "text": "Can confirm Isolation fault at D8... Box #1 for Ritchie.\nMeasured up to 158v at the casing of the box with out the contactor pulled in.\nDue to the voltage measurements of 158 from negative to case and 18 from positive to case this leads us to believe that its in the middle of the box on the last module. Module number 8.\nLikely inside the module its self due to positioning since 18v is less than a modules total voltage.\nHaving Justin tear the box apart and verify at this time what the cause was.\n\nThis is From Devin in Slack.\nWith the MSD connected and the contactor pulled in the box measures voltage from HV positive to Case and from HV negative to case. Pulling the MSD only HP negative to case reads voltage. The aluminum plates are clear anodized so you have some insulation there. As long as you're not touching the ethanol output HP plus or minus touching the box is only touching one terminal of a battery.\nRitchie Box #2 and Box #3 both measure 50,000 kOhms with both the MSD plugged in and the contactor pulled in. They also both pass the Ampere BMS test."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c64f060cec62b024323416739d0c9f65fb714710d1b348ad1abf5f8cc5b7ee23"
+              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
             }
           ]
         },
@@ -2242,15 +1914,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kw2fz4",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-24 19:34",
-                  "text": "Helped diagnose battery box 1 590 D8 box from ritchie blazer.  we determined that due to the voltages we were seeing that an isolation fault was occurring in the 8th module of the box between cells 5 and 6. disassembled the box and removed bus bars from module 8 and confirmed the readings had stayed the same. the issue i have now is that the modules are glued to the chill plates and so far the module doesn't want to release.  will return in the morning for another attempt and if it gives too much trouble we are going to make another chill plate and move on."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "c771d1e4e7195bbd8a7368186f6ed265d659a938f19bd0b2c2133e4bc98102f8"
+              "content_hash": "e471f3259d5eb6ea6f4ffddffb1f866f0b92569d17c23d43521f900c199961c0"
             }
           ]
         },
@@ -2278,15 +1944,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [
-                {
-                  "author": "Ryan Laurel",
-                  "date": "2026-08-24 13:15",
-                  "text": "Colvin's picked up the center console Friday, 8/21"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
+              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
             }
           ]
         }
@@ -2506,5 +2166,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T04:26:42Z"
+  "generated_at": "2026-08-25T04:47:29Z"
 }
