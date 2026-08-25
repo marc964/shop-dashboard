@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 103.8,
-      "pct_of_total": 10.3,
+      "total_hours": 105.8,
+      "pct_of_total": 10.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -14,12 +14,12 @@
           "hours": 17.5
         },
         {
-          "task": "Wiring - High Voltage",
+          "task": "Battery Pack",
           "hours": 16.0
         },
         {
-          "task": "Battery Pack",
-          "hours": 14.0
+          "task": "Wiring - High Voltage",
+          "hours": 16.0
         },
         {
           "task": "Audio",
@@ -66,7 +66,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.1,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Charging",
@@ -235,7 +235,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 81.0,
-      "pct_of_total": 8.1,
+      "pct_of_total": 8.0,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -465,7 +465,7 @@
   ],
   "shop_work": {
     "total_hours": 165.2,
-    "pct_of_total": 16.5,
+    "pct_of_total": 16.4,
     "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 683.8,
+    "billable_hours": 685.8,
     "non_billable_hours": 320.8,
     "pto_hours": 15.0,
-    "total_hours": 1004.5
+    "total_hours": 1006.5
   },
-  "generated_at": "2026-08-25T00:15:30Z"
+  "generated_at": "2026-08-25T00:48:51Z"
 }
