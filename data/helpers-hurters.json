@@ -132,8 +132,8 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 89.0,
-      "pct_of_total": 8.5,
+      "total_hours": 90.0,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Steering",
@@ -157,7 +157,7 @@
         },
         {
           "task": "Instrumentation",
-          "hours": 7.5
+          "hours": 8.5
         },
         {
           "task": "Vehicle Control",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 714.0,
+    "billable_hours": 715.0,
     "non_billable_hours": 332.0,
     "pto_hours": 15.0,
-    "total_hours": 1046.0
+    "total_hours": 1047.0
   },
-  "generated_at": "2026-08-25T20:25:13Z"
+  "generated_at": "2026-08-25T20:42:07Z"
 }
