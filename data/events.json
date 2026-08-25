@@ -8,7 +8,7 @@
         {
           "date": "2026-08-24",
           "day_name": "Monday",
-          "is_today": true,
+          "is_today": false,
           "is_weekend": false,
           "events": [
             {
@@ -26,7 +26,7 @@
         {
           "date": "2026-08-25",
           "day_name": "Tuesday",
-          "is_today": false,
+          "is_today": true,
           "is_weekend": false,
           "events": [
             {
@@ -290,5 +290,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-24T23:51:44Z"
+  "generated_at": "2026-08-25T00:15:30Z"
 }
