@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 128.5,
-      "pct_of_total": 12.2,
+      "pct_of_total": 12.1,
       "tasks": [
         {
           "task": "Exterior",
@@ -179,8 +179,8 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 88.0,
-      "pct_of_total": 8.3,
+      "total_hours": 89.2,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -200,7 +200,7 @@
         },
         {
           "task": "Interior",
-          "hours": 7.8
+          "hours": 9.0
         },
         {
           "task": "Wiring - OEM",
@@ -401,36 +401,9 @@
       ]
     },
     {
-      "project": "McDonough 77 Esprit",
-      "total_hours": 21.2,
-      "pct_of_total": 2.0,
-      "tasks": [
-        {
-          "task": "Wiring - OEM",
-          "hours": 16.0
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.2
-        },
-        {
-          "task": "Cooling",
-          "hours": 1.5
-        },
-        {
-          "task": "Exterior",
-          "hours": 1.0
-        },
-        {
-          "task": "Instrumentation",
-          "hours": 0.5
-        }
-      ]
-    },
-    {
       "project": "Richardson 72 240Z",
-      "total_hours": 21.2,
-      "pct_of_total": 2.0,
+      "total_hours": 21.8,
+      "pct_of_total": 2.1,
       "tasks": [
         {
           "task": "Inspection",
@@ -438,7 +411,7 @@
         },
         {
           "task": "Motor & Transmission",
-          "hours": 4.0
+          "hours": 4.5
         },
         {
           "task": "Audio",
@@ -465,27 +438,54 @@
           "hours": 0.5
         }
       ]
+    },
+    {
+      "project": "McDonough 77 Esprit",
+      "total_hours": 21.2,
+      "pct_of_total": 2.0,
+      "tasks": [
+        {
+          "task": "Wiring - OEM",
+          "hours": 16.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.2
+        },
+        {
+          "task": "Cooling",
+          "hours": 1.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 1.0
+        },
+        {
+          "task": "Instrumentation",
+          "hours": 0.5
+        }
+      ]
     }
   ],
   "shop_work": {
-    "total_hours": 174.8,
+    "total_hours": 175.2,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.28,
+    "avg_per_person_per_day": 1.29,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 67.5
+        "hours": 68.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 60.5
+        "hours": 59.8
       },
       {
         "label": "Personal Meetings",
-        "hours": 19.8
+        "hours": 20.5
       },
       {
         "label": "Organization",
@@ -505,7 +505,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -568,7 +568,7 @@
     {
       "project": "Connolly 58 220S",
       "total_hours": 9.0,
-      "pct_of_total": 0.9,
+      "pct_of_total": 0.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 723.2,
-    "non_billable_hours": 333.8,
+    "billable_hours": 725.0,
+    "non_billable_hours": 334.2,
     "pto_hours": 15.0,
-    "total_hours": 1057.0
+    "total_hours": 1059.2
   },
-  "generated_at": "2026-08-25T22:24:45Z"
+  "generated_at": "2026-08-25T22:41:49Z"
 }
