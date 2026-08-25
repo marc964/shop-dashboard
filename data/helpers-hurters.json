@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 114.8,
+      "total_hours": 115.0,
       "pct_of_total": 11.3,
       "tasks": [
         {
@@ -51,7 +51,7 @@
         },
         {
           "task": "Engine Bay",
-          "hours": 0.5
+          "hours": 0.8
         },
         {
           "task": "Manufacturing - Core",
@@ -285,20 +285,20 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 48.0,
-      "pct_of_total": 4.7,
+      "total_hours": 48.5,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Wiring - OEM",
           "hours": 10.0
         },
         {
-          "task": "Exterior",
-          "hours": 8.5
+          "task": "HVAC",
+          "hours": 8.8
         },
         {
-          "task": "HVAC",
-          "hours": 8.2
+          "task": "Exterior",
+          "hours": 8.5
         },
         {
           "task": "Engineering - Core",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 695.8,
+    "billable_hours": 696.5,
     "non_billable_hours": 321.8,
     "pto_hours": 15.0,
-    "total_hours": 1017.5
+    "total_hours": 1018.2
   },
-  "generated_at": "2026-08-25T01:31:33Z"
+  "generated_at": "2026-08-25T02:11:21Z"
 }
