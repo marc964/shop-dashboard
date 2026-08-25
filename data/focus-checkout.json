@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T05:30:19.152911Z",
+  "updated_at": "2026-08-25T05:47:11.826552Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -869,9 +869,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             },
             {
               "id": "868expzca",
@@ -879,9 +885,40 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868expzca",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-07-25 21:26",
+                  "text": "tested Amperes pressures \ntest drove the car\nAC cut out but took longer \nlooked at several settings\nfound the high side before the condenser was high but Ampere was 115psi lower \nwhile evacuating the system I couldn't pull the high side down unless I opened the valve \nthis was the issue\ntested the Bronco to confirm\nit only has a 2-4 psi drop on the condenser\ntalked with Alex\nNoah will do the work \nI have already ordered parts to be here Monday"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-01 20:04",
+                  "text": "nitrogen testing, at 300 psi for over an hour. then help with filling. exactly 1.8 lb input, system was working great but I believe with the gui operating the system and not the Dakota digital thing, it was letting the evaporator freeze up. upon letting Dakota run it and manage evap (?) temps, it seemed to work well. also worked fine on my short drives but did cut out one time and give a check engine light. may need @Devin DuMont to see what it is and advise. possibly still overcurrent. I think we should not have the compressor running at full chat or nothing. it is either on 100% or off. being able to modulate its rpm based on temps would be preferable."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 11:59",
+                  "text": "tested with Devin\nfound pressures  not right\nswapped out the sensor \nno change \nsensor plugged in with no pressure gave a weird reading\nDevin is sending Ampere the results"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2025-08-25 19:04",
+                  "text": "got some pressures for Devin"
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2025-08-26 23:22",
+                  "text": "vac down\nnitrogen test\nbegin removing fittings and lines and blowing them out/using nitrogen to check for blockages. it seemed like there may have been a little bit of a bottleneck somewhere between the high side port and the exit of the drier. but I might have blown it out and not realized. \nreplace drier and swap over pressure switch. checking wiring, found the signal and ground wires swapped. \nremedy wiring and replace connector with our newer style\nreassemble and nitrogen test, verifying with Devin the gauge pressures on high and low vs the ampere kpa readout\npull vacuum, fill with 1.75 lb and test. \neverything seems to work well so kept the gauges attached and taped them to the window for a 30 minute test drive using the ac the entire time. zero issues and pressures always looked good. the compressor and fan cycle fairly often but the cabin always stayed cool and I think its just the evap temp switch doing its thing. \nleft it running and in total did 1.5 hrs of running full tilt. no hiccups. \nremove and evacuate gauge lines and reinstall hood."
+                },
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-24 22:09",
+                  "text": "full pull down to vaccum, pulled 29.4oz out. after purging the a/c recycling unit, ended up with about 33oz in the system. that could have been stored in the unit, if someone hadnt purged it last time it was used.\ni filled the system under vacuum and it struggled to pull in more than 20oz when filling liquid. fired the system up and filled gas on the low side. ended up getting 24ozz in the system and it seems to run very well like that. pressures were great inside and out, very hot today 102* and the high side stuck around 280-300 when sitting in the sun. low side around 25-40 depending on compressor rpm.\ntemps at the vents were right around 40*\nthe evaporator temp setting might be a little high but we can not control that. it seems to cycle the compressor and fan often. but its very smooth and consistent. using raptorcal we could see that the vcu was seeing the on off request cycled. which comes from the vintage air controller thingy.\nlet the vehicle upload a log. i believe we are good to go for now.\nvery long test drive and driving situations."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bc1033c584a0dc0721e35702336dc335f0be3f191e24034feaf871d84376cd39"
+              "content_hash": "08a43c39b49124ca3442aaa0bde9e15b81f399678bb3c813848293f27908e8cf"
             }
           ]
         },
@@ -894,9 +931,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf6f9",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:31",
+                  "text": "Gathering AC compressor logs from Raptor."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:00",
+                  "text": "HVAC testing and Logging."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
             },
             {
               "id": "868kvg1qd",
@@ -925,9 +973,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w1bc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
             },
             {
               "id": "868krf65c",
@@ -935,9 +989,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:54",
+                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
             }
           ]
         },
@@ -986,9 +1051,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
             }
           ]
         }
@@ -1117,9 +1188,40 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868kfqd5y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-24 18:20",
+                  "text": "Assisted Devin pulling fault info from cluster as requested by Peterson. Removed cluster assembly. Documented mounting, wiring & condition to share with Peterson."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-27 11:07",
+                  "text": "Instrument cluster ready for return to Peterson. Task on hold until it it returned to us."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-29 15:22",
+                  "text": "Plywood structure inside gauge pod is dry & brittle. Repairing damage with epoxy."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-30 10:56",
+                  "text": "Gauges picked up by DHS for shipment 7/28"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 10:39",
+                  "text": "Estimated return shipping date is 8/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 14:01",
+                  "text": "Performed additional paint correction to cluster pod"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "016cc97960d8447a32f9465e38e2109de00c1ef097d2abad507df7eae4734a31"
+              "content_hash": "db07d3da6a012caf48fdd9aa5139d912144a47ed9dc36f8a38688a43f5a22e1c"
             },
             {
               "id": "868km7t9d",
@@ -1127,9 +1229,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             },
             {
               "id": "868kv013h",
@@ -1137,9 +1245,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868kv013h",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:17",
+                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
+              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
             }
           ]
         },
@@ -1152,9 +1266,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868kv013h",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-21 21:17",
+                  "text": "learning about problem and what needs to come from this test drive. test drove for an hour, in traffic from the shop to the capital, over to lamar and back. A/c on the whole time and driving as I normally would with some small bursts of acceleration here and there."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "c2edc0486b34eb2f2a7b13c7b40b6eda82403f04c7a95849ff217e2a1c4e3b42"
+              "content_hash": "b172604984ac757f98049552a0971cabcb15cdd846e9b138da7f3bf287767eb0"
             }
           ]
         },
@@ -1167,9 +1287,86 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
             }
           ]
         }
@@ -1905,25 +2102,9 @@
               "status": "Open",
               "list": "Teague 62 Jaguar",
               "url": "https://app.clickup.com/t/868j84xbd",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-06-04 15:29",
-                  "text": "Task on hold. Must recondition brakes first & then bleed before getting vehicle back on its wheels. At that point I'll determine what will be required for ride height adjustments. I suspect the front may sit a little high and so we may lower the front or raise the rear."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-02 11:01",
-                  "text": "Car is back on the ground and sitting at or close to a proper ride height. If anything, the front of the car may be just slightly high. Spacing the spring pan down with spacers or washers should correct this.\n\nThe factory-specified overall height for a 1962 Jaguar Mark 2 (MK2) is\u00a057.5 inches\u00a0(146.1 cm) at kerb weight. The standard ground clearance is exactly 7 inches (17.8 cm).\u00a0[1,\u00a02,\u00a03]\nBecause the vehicle uses coil springs in the front and semi-elliptical leaf springs in the back, checking the physical ride height is often done using specific points:\u00a0[1,\u00a02,\u00a03,\u00a04]\nFront:\u00a0The correct front suspension height is achieved when the lower wishbone arms are perfectly parallel/level with the front subframe. Enthusiast consensus suggests that you should be able to fit about \"three fingers\" vertically between the front tire and the top of the wheel arch.\nRear:\u00a0The general enthusiast consensus suggests a measurement of 18.5 to 19 inches from the ground up to the center of the boot lock.\u00a0[1,\u00a02,\u00a03]\nHow to Adjust the Ride Height\nFront:\u00a0Front ride height is set by coil springs. If it is too high (common after installing new, modern replacement springs), owners typically use shims or washers placed between the lower control arm and the spring pan to achieve the desired drop.\u00a0[1,\u00a02,\u00a03]\nRear:\u00a0The rear height is dictated by leaf springs. Adjustments to the rear require adding or removing spacers/shims between the rear axle and the leaf springs.\u00a0[1,\u00a02,\u00a03]\n\nI will re-evaluate this once car has been driven"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-10 17:25",
-                  "text": "Doing additional research about what it will take to alter the ride height of this car if needed."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f405347efe77d13c9e655d24df437ca8d8d200735c4bd5ce781442c08ecb7956"
+              "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
             },
             {
               "id": "868ku2rcq",
@@ -1985,5 +2166,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T05:28:41Z"
+  "generated_at": "2026-08-25T05:45:43Z"
 }
