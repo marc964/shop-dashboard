@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 120.0,
-      "pct_of_total": 11.7,
+      "total_hours": 122.0,
+      "pct_of_total": 11.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -27,7 +27,7 @@
         },
         {
           "task": "Wiring - OEM",
-          "hours": 4.0
+          "hours": 6.0
         },
         {
           "task": "Suspension",
@@ -468,7 +468,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 170.0,
+    "total_hours": 170.5,
     "pct_of_total": 16.5,
     "avg_per_person_per_day": 1.25,
     "flagged": true,
@@ -481,7 +481,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.8
+        "hours": 58.2
       },
       {
         "label": "Personal Meetings",
@@ -527,7 +527,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -542,7 +542,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 17.0,
-      "pct_of_total": 1.7,
+      "pct_of_total": 1.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -611,10 +611,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 703.2,
-    "non_billable_hours": 325.5,
+    "billable_hours": 705.2,
+    "non_billable_hours": 326.0,
     "pto_hours": 15.0,
-    "total_hours": 1028.8
+    "total_hours": 1031.2
   },
-  "generated_at": "2026-08-25T18:29:48Z"
+  "generated_at": "2026-08-25T18:51:07Z"
 }
