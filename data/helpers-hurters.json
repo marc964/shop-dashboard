@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 127.5,
-      "pct_of_total": 12.2,
+      "total_hours": 128.5,
+      "pct_of_total": 12.3,
       "tasks": [
         {
           "task": "Exterior",
@@ -19,7 +19,7 @@
         },
         {
           "task": "Wiring - High Voltage",
-          "hours": 20.0
+          "hours": 21.0
         },
         {
           "task": "Vehicle Control",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 87.5,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 715.0,
+    "billable_hours": 716.8,
     "non_billable_hours": 332.0,
     "pto_hours": 15.0,
-    "total_hours": 1047.0
+    "total_hours": 1048.8
   },
-  "generated_at": "2026-08-25T20:42:07Z"
+  "generated_at": "2026-08-25T20:56:26Z"
 }
