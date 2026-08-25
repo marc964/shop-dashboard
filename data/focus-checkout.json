@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T14:48:53.339148Z",
+  "updated_at": "2026-08-25T15:19:56.279621Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -142,6 +142,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-24 22:45",
                   "text": "Corrected Gear ratio. Mistakenly input Dans Healey ratio versus this vehicle.\nThis vehicle has a 4.3 ratio rear end and a direct drive setup so the Final Drive ratio should be 4.3 unless incorrect information has been relayed to me.\nAsked Ryan to gather Wifi credentials for this client.\nClient stopped by today to drop off License plates. And provided the details at that time.\nID: ATT8072B\npw: h1aj2u123K\nDevin uploaded this data to the vehicle.\nWent through and verified heater operations.\nFound that this vehicle has the heater circuit wired differently than our new standards.\nBlower motor and heater contactor are trigged by the same switch using the same output from the PDU.\nAt this point in time upper management says that this should be fine since our older cars have been wired this way without any major issues.\nThe proper fix to this would be to move the contactor positive lead over to the \"AC Blower\" positive in the HVAC sub and have it commanded on based on the current level of the Heat Blower output from the pmu. This prevents the heater from turning on unless there is a load present on the heater blower motor.\nHowever as the vehicle sits the heater is enabled and works as built.\nAlso Uploaded the current PMU Project files to the drive under the vehicle folder. That way this can be referenced in the future if necessary.If any PMU changes are made we will need to reupload or replace what was there."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-25 15:07",
+                  "text": "Waiting for vehicle to be driven down to less than or equal to 10%."
                 }
               ],
               "checklist_items": [
@@ -171,7 +176,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "d117d77f7da070d5519c6b1209d2f0d3ec208876be8ce98fa77e728f764e9c8e"
+              "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
             }
           ]
         }
@@ -1374,12 +1379,41 @@
     },
     {
       "owner": "Miner",
-      "vehicle": null,
-      "clickup_match": {
-        "found": false,
-        "error": "no_vehicle"
+      "vehicle": {
+        "owner": "Miner",
+        "year": 1995,
+        "color": "Green",
+        "make": "Porsche",
+        "model": "993",
+        "status": "Testing",
+        "checkout": 90.1,
+        "sub_metrics": [],
+        "system": "AEM"
       },
-      "assignees": []
+      "clickup_match": {
+        "found": true,
+        "matched_lists": [
+          "Miner 95 911"
+        ],
+        "open_tasks": 1
+      },
+      "assignees": [
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868krf9gv",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Miner 95 911",
+              "url": "https://app.clickup.com/t/868krf9gv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+            }
+          ]
+        }
+      ]
     },
     {
       "owner": "Preheim",
@@ -2086,43 +2120,7 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:02",
-                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:51",
-                  "text": "Ritchie Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:52",
-                  "text": "Ritchie Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:55",
-                  "text": "All tests were done with the HV cables disconnected from the battery box and MSD removed from the battery box.\n\nwe did test the rear box on Ritchie with and or without the MSD to see if there was a difference with the MSD connected. No change was found.\n\nTested in comparison to Preheim and found that Ritchie was definitely showing issues relatively."
-                }
-              ],
+              "comments": [],
               "checklist_items": [
                 {
                   "checklist": "Ampere IO Checkout Checklist",
@@ -2215,7 +2213,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "0e720f071767f9c90b458ec8f779081a3af1d7ac43e9402d36cee1eb9c32a355"
+              "content_hash": "747262164f749a0e8b90e34f93795ba1fdcf39b6d574a75d180409b47a084675"
             },
             {
               "id": "868kv2ram",
@@ -2513,5 +2511,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-25T14:47:01Z"
+  "generated_at": "2026-08-25T15:18:13Z"
 }

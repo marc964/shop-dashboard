@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 88.8,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.6,
       "tasks": [
         {
           "task": "Steering",
@@ -468,9 +468,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 167.2,
-    "pct_of_total": 16.3,
-    "avg_per_person_per_day": 1.23,
+    "total_hours": 170.0,
+    "pct_of_total": 16.5,
+    "avg_per_person_per_day": 1.25,
     "flagged": true,
     "tech_count": 8,
     "working_days": 17,
@@ -481,7 +481,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 57.0
+        "hours": 57.8
       },
       {
         "label": "Personal Meetings",
@@ -489,7 +489,7 @@
       },
       {
         "label": "Organization",
-        "hours": 17.0
+        "hours": 19.0
       },
       {
         "label": "Other",
@@ -516,7 +516,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -612,9 +612,9 @@
   ],
   "totals": {
     "billable_hours": 702.5,
-    "non_billable_hours": 322.8,
+    "non_billable_hours": 325.5,
     "pto_hours": 15.0,
-    "total_hours": 1025.2
+    "total_hours": 1028.0
   },
-  "generated_at": "2026-08-25T14:47:01Z"
+  "generated_at": "2026-08-25T15:18:13Z"
 }
