@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 105.8,
-      "pct_of_total": 10.5,
+      "total_hours": 114.8,
+      "pct_of_total": 11.3,
       "tasks": [
         {
           "task": "Exterior",
           "hours": 26.0
+        },
+        {
+          "task": "Audio",
+          "hours": 21.8
         },
         {
           "task": "Vehicle Control",
@@ -20,10 +24,6 @@
         {
           "task": "Wiring - High Voltage",
           "hours": 16.0
-        },
-        {
-          "task": "Audio",
-          "hours": 12.8
         },
         {
           "task": "Wiring - OEM",
@@ -66,7 +66,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 91.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.9,
       "tasks": [
         {
           "task": "Charging",
@@ -133,7 +133,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 88.8,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Steering",
@@ -180,7 +180,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 85.5,
-      "pct_of_total": 8.5,
+      "pct_of_total": 8.4,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -286,7 +286,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 48.0,
-      "pct_of_total": 4.8,
+      "pct_of_total": 4.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -333,7 +333,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 36.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -464,8 +464,8 @@
     }
   ],
   "shop_work": {
-    "total_hours": 165.2,
-    "pct_of_total": 16.4,
+    "total_hours": 166.2,
+    "pct_of_total": 16.3,
     "avg_per_person_per_day": 1.22,
     "flagged": true,
     "tech_count": 8,
@@ -473,11 +473,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 65.0
+        "hours": 65.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 56.0
+        "hours": 56.5
       },
       {
         "label": "Personal Meetings",
@@ -501,7 +501,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.6,
+      "pct_of_total": 4.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -607,10 +607,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 685.8,
-    "non_billable_hours": 320.8,
+    "billable_hours": 695.8,
+    "non_billable_hours": 321.8,
     "pto_hours": 15.0,
-    "total_hours": 1006.5
+    "total_hours": 1017.5
   },
-  "generated_at": "2026-08-25T00:48:51Z"
+  "generated_at": "2026-08-25T01:31:33Z"
 }
