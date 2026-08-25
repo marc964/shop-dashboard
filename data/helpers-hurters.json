@@ -132,7 +132,7 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 88.8,
+      "total_hours": 89.0,
       "pct_of_total": 8.5,
       "tasks": [
         {
@@ -160,11 +160,11 @@
           "hours": 7.5
         },
         {
-          "task": "Suspension",
-          "hours": 6.0
+          "task": "Vehicle Control",
+          "hours": 6.2
         },
         {
-          "task": "Vehicle Control",
+          "task": "Suspension",
           "hours": 6.0
         },
         {
@@ -468,7 +468,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 172.5,
+    "total_hours": 173.0,
     "pct_of_total": 16.5,
     "avg_per_person_per_day": 1.27,
     "flagged": true,
@@ -481,7 +481,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 58.8
+        "hours": 59.2
       },
       {
         "label": "Personal Meetings",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 712.2,
-    "non_billable_hours": 331.5,
+    "billable_hours": 714.0,
+    "non_billable_hours": 332.0,
     "pto_hours": 15.0,
-    "total_hours": 1043.8
+    "total_hours": 1046.0
   },
-  "generated_at": "2026-08-25T20:07:39Z"
+  "generated_at": "2026-08-25T20:25:13Z"
 }
