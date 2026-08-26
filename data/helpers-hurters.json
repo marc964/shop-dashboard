@@ -2,20 +2,12 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 141.2,
-      "pct_of_total": 13.0,
+      "total_hours": 124.2,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Exterior",
           "hours": 34.5
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 25.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 21.8
         },
         {
           "task": "Audio",
@@ -24,6 +16,14 @@
         {
           "task": "Vehicle Control",
           "hours": 17.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 17.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 12.8
         },
         {
           "task": "Wiring - OEM",
@@ -525,6 +525,17 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 17.0,
+      "pct_of_total": 1.6,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 17.0
+        }
+      ]
+    },
+    {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.0,
       "pct_of_total": 1.6,
@@ -608,24 +619,13 @@
           "hours": 4.0
         }
       ]
-    },
-    {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 3.5,
-      "pct_of_total": 0.3,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 3.5
-        }
-      ]
     }
   ],
   "totals": {
-    "billable_hours": 747.0,
-    "non_billable_hours": 338.0,
+    "billable_hours": 730.0,
+    "non_billable_hours": 355.0,
     "pto_hours": 15.0,
     "total_hours": 1085.0
   },
-  "generated_at": "2026-08-26T10:49:20Z"
+  "generated_at": "2026-08-26T11:10:13Z"
 }
