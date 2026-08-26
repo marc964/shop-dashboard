@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T19:25:59.374969Z",
+  "updated_at": "2026-08-26T20:09:37.310648Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -666,10 +666,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-18 23:14",
                   "text": "I did my overheating loop with heavy throttle application. No overheating, but no game-changing improvement on cooling. GUI temps are still roughly where they were prior to the last round of tunes. I did not observe any de-rating, but acceleration is still abnormal so I can't say for sure.\n\nMaximum inverter temp on GUI was 135 (typically hovers around 129F) and maximum motor temp on GUI was 200F in a 15 minute test drive. Ambient temp 98F.\n\nThat said, we're really down to the wire for an early September soft delivery. We need the radiator brackets designed immediately so they can be ordered and installed next week.\n\nThere is the possibility that the two derales are insufficient even once we get the tuning ironed out, but if we wait for that definitive data we will not be able to meet our soft-delivery deadline.\n\nWhatever we're going to do we need to decide today. I'm of the opinion that we should pull the trigger and have @geoff raynak or @Marshall Carter design the wheel-well radiator mount brackets and get them rush-shipped here so I can take care of it next week. Worst case scenario, we have to figure out a solution for the de-rating down the line, but Ferdman can drive it in the meantime. The inverter-overheat-shutdown has been resolved at least.\u00a0(edited)\n\nOnly visible to you"
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-26 19:50",
+                  "text": "Removed temporary wiring.\nBuilt motor-fan-2 subharness:\nPigtail splices into motor fan 1.\nPer @Brandon Beaman, two fans can run on one circuit. Circuit is rated at 4.8amps. Output is up to 25 amps. Even with inrush current it's fine.\nSubharness runs along VC harness route to RH wheel well.\nInstalled subharness.\nFlipped skidplate louvres to get 'ram air' effect.\nAdded mesh backing above, to prevent debris ingress."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b81eb99b33b776d931be8cb4b4caf30b924d08bc51b5fc5add554f33ef4a0b8b"
+              "content_hash": "11cf3549e37d4fccbcbd663f7b0596a94e2b988ae80172198edfec637dc13c02"
             }
           ]
         },
@@ -748,10 +753,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-21 21:53",
                   "text": "Worked with Claude to review EEPROM settings for the SDU. Determined several to investigate testing with. Also figured actual base torque from logs to that my conservative tune can be relaxed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-26 19:50",
+                  "text": "Researched Kp and Wp via Claude for typical values and expected changes. Couldn't really get a dependable answer, relied on my tuning experience of never more than double or half. Set the VCU back toa default tune and drove for a baseline. Changed the inverter settings Kp from 5 to 10 and W1 from 3600 to 1800 in live memory. Re-tested and pulled the logs for Claude. Couldn't really see any effect from my plot."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "cc4cdfc9f11f451cda261bb73c75707e2562b23989fc48af1b35f06e9b4e9c10"
+              "content_hash": "e2a45d867b2d3077efd56a250b1235a7aacbeb7331d5a685f49fa061fef9c172"
             }
           ]
         },
@@ -2526,5 +2536,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-26T19:24:10Z"
+  "generated_at": "2026-08-26T20:07:46Z"
 }
