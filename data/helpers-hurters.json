@@ -336,12 +336,12 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 36.0,
-      "pct_of_total": 3.3,
+      "total_hours": 48.0,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Motor & Transmission",
-          "hours": 18.5
+          "hours": 30.5
         },
         {
           "task": "HVAC",
@@ -566,17 +566,6 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 12.0,
-      "pct_of_total": 1.1,
-      "tasks": [
-        {
-          "task": "Troubleshooting",
-          "hours": 12.0
-        }
-      ]
-    },
-    {
       "project": "Connolly 58 220S",
       "total_hours": 9.0,
       "pct_of_total": 0.8,
@@ -619,13 +608,24 @@
           "hours": 4.0
         }
       ]
+    },
+    {
+      "project": "Chuter 62 Healey",
+      "total_hours": 3.0,
+      "pct_of_total": 0.3,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 3.0
+        }
+      ]
     }
   ],
   "totals": {
-    "billable_hours": 730.5,
-    "non_billable_hours": 354.5,
+    "billable_hours": 742.5,
+    "non_billable_hours": 342.5,
     "pto_hours": 15.0,
     "total_hours": 1085.0
   },
-  "generated_at": "2026-08-26T11:56:12Z"
+  "generated_at": "2026-08-26T12:13:28Z"
 }
