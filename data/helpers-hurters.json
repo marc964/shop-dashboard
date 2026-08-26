@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 124.2,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -289,7 +289,7 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 48.5,
+      "total_hours": 49.2,
       "pct_of_total": 4.5,
       "tasks": [
         {
@@ -298,7 +298,7 @@
         },
         {
           "task": "HVAC",
-          "hours": 8.8
+          "hours": 9.5
         },
         {
           "task": "Exterior",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 742.5,
+    "billable_hours": 743.2,
     "non_billable_hours": 342.5,
     "pto_hours": 15.0,
-    "total_hours": 1085.0
+    "total_hours": 1085.8
   },
-  "generated_at": "2026-08-26T16:29:27Z"
+  "generated_at": "2026-08-26T16:52:03Z"
 }
