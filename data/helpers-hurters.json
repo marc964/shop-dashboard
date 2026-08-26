@@ -2,12 +2,16 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 137.2,
-      "pct_of_total": 12.7,
+      "total_hours": 141.2,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Exterior",
           "hours": 34.5
+        },
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 25.0
         },
         {
           "task": "Battery Pack",
@@ -16,10 +20,6 @@
         {
           "task": "Audio",
           "hours": 21.8
-        },
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 21.0
         },
         {
           "task": "Vehicle Control",
@@ -131,9 +131,68 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 90.0,
+      "pct_of_total": 8.3,
+      "tasks": [
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 26.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 14.5
+        },
+        {
+          "task": "Charging",
+          "hours": 10.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 7.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 6.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 5.2
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 5.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 3.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.2
+        },
+        {
+          "task": "Manufacturing - Support",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.0,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Steering",
@@ -180,7 +239,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 89.2,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Motor & Transmission",
@@ -225,65 +284,6 @@
         {
           "task": "Audio",
           "hours": 1.0
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 87.5,
-      "pct_of_total": 8.1,
-      "tasks": [
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 26.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 14.5
-        },
-        {
-          "task": "Charging",
-          "hours": 10.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 7.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 5.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 5.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 3.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.2
-        },
-        {
-          "task": "Manufacturing - Support",
-          "hours": 1.0
-        },
-        {
-          "task": "Brakes",
-          "hours": 0.2
         }
       ]
     },
@@ -356,7 +356,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 24.2,
-      "pct_of_total": 2.3,
+      "pct_of_total": 2.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -468,16 +468,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 177.5,
+    "total_hours": 179.0,
     "pct_of_total": 16.5,
-    "avg_per_person_per_day": 1.23,
+    "avg_per_person_per_day": 1.24,
     "flagged": true,
     "tech_count": 8,
     "working_days": 18,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 69.0
+        "hours": 69.5
       },
       {
         "label": "Shop Meetings",
@@ -485,7 +485,7 @@
       },
       {
         "label": "Personal Meetings",
-        "hours": 20.5
+        "hours": 21.5
       },
       {
         "label": "Organization",
@@ -505,7 +505,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -516,7 +516,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 3.7,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 741.0,
-    "non_billable_hours": 336.5,
+    "billable_hours": 747.5,
+    "non_billable_hours": 338.0,
     "pto_hours": 15.0,
-    "total_hours": 1077.5
+    "total_hours": 1085.5
   },
-  "generated_at": "2026-08-26T01:31:58Z"
+  "generated_at": "2026-08-26T02:14:34Z"
 }
