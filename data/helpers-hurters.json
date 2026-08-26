@@ -131,65 +131,6 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 90.0,
-      "pct_of_total": 8.3,
-      "tasks": [
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 26.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 14.5
-        },
-        {
-          "task": "Charging",
-          "hours": 10.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 7.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 5.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 5.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 3.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.8
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.8
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.2
-        },
-        {
-          "task": "Manufacturing - Support",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 90.0,
       "pct_of_total": 8.3,
@@ -232,6 +173,65 @@
         },
         {
           "task": "Wiring - OEM",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 89.5,
+      "pct_of_total": 8.2,
+      "tasks": [
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 26.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 14.5
+        },
+        {
+          "task": "Charging",
+          "hours": 10.5
+        },
+        {
+          "task": "Cooling",
+          "hours": 7.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 6.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 5.2
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 5.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 3.8
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.2
+        },
+        {
+          "task": "Manufacturing - Support",
           "hours": 1.0
         }
       ]
@@ -622,10 +622,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 747.5,
+    "billable_hours": 747.0,
     "non_billable_hours": 338.0,
     "pto_hours": 15.0,
-    "total_hours": 1085.5
+    "total_hours": 1085.0
   },
-  "generated_at": "2026-08-26T02:14:34Z"
+  "generated_at": "2026-08-26T02:46:17Z"
 }
