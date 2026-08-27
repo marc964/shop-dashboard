@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T14:27:05.792595Z",
+  "updated_at": "2026-08-27T18:16:20.494807Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1626,7 +1626,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 41
+        "open_tasks": 42
       },
       "assignees": [
         {
@@ -1804,30 +1804,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:48",
-                  "text": "start up\nhelped with 12 volt\nfound tail light was out\nbrake pedal spring needs to be installed( used on Preheim)\nfound isolation fault"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-21 21:54",
-                  "text": "Setup the Bender IMD unit and helped Brandon and Billy narrow down the isolation problem to a single box. Cross checked the setup on Preheim and with the BMS tester. Isolation fault tests to only be in the big front box."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 02:53",
-                  "text": "start up\nHVAC controls set\nheater limits set\nheater now working properly setting code\nneed to charge system started with 1.8\n190B62CB-FF0A-4688-B478-B068543EAD99_1_105_c.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "82ff829e769a3fb30c6d5ec6b709e74d9230fdeb8383c4d932a2e29f8a8d39a3"
+              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             },
             {
               "id": "868kunztt",
@@ -2271,6 +2250,16 @@
               "content_hash": "688a6a60412b8d5debd12e91f02a15c855ebf6eb34ab106bfb34ebf839ae3ec7"
             },
             {
+              "id": "868kxkdgh",
+              "name": "Troubleshoot heater issue",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kxkdgh",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "814eb89dd0858c898f455f37bd1e486c43726e9c43b6e1c67017deb429c5b51d"
+            },
+            {
               "id": "868kv2ram",
               "name": "Troubleshoot isolation fault",
               "status": "Open",
@@ -2471,7 +2460,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 22
+        "open_tasks": 17
       },
       "assignees": [
         {
@@ -2488,16 +2477,6 @@
               "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
             },
             {
-              "id": "868krdet4",
-              "name": "Facilitate tire replacement",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868krdet4",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "4beb74a82d262a6680b4963539cbfe5ad9dfc1b547eca03f9348b83dd3fbfa2e"
-            },
-            {
               "id": "868jj1ac8",
               "name": "Install font battery lid",
               "status": "Open",
@@ -2508,16 +2487,6 @@
               "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
             },
             {
-              "id": "868kt2ttw",
-              "name": "Repair steering column adjustment",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kt2ttw",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "ac4f83735ee563350f2a01a30cc84a9f317927364f36fc76f09c1c7b91ed08f0"
-            },
-            {
               "id": "868j84xbd",
               "name": "Set ride height",
               "status": "Open",
@@ -2526,36 +2495,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "52018ac0e4350260697ca8ed567e3d70c9b7dd1e88230f23859a1cee328cf4da"
-            },
-            {
-              "id": "868ku2rcq",
-              "name": "Troubleshoot GUI issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868ku2rcq",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
-            },
-            {
-              "id": "868kt2t1w",
-              "name": "Troubleshoot front suspension noise",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kt2t1w",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d0a5f4a0e9b4fab270e664ad7fe6aef86e7aed90bb113dac844dc7828e594bb6"
-            },
-            {
-              "id": "868kt5w1j",
-              "name": "Troubleshoot power steering issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kt5w1j",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "1a39447e9cf9fd87af72bd494ef3a45bc56987f1bedb2646a5e64e72d7643a4f"
             }
           ]
         },
@@ -2587,5 +2526,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-27T14:25:10Z"
+  "generated_at": "2026-08-27T18:14:03Z"
 }
