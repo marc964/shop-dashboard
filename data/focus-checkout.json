@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T18:16:20.494807Z",
+  "updated_at": "2026-08-27T21:32:59.826219Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -914,10 +914,15 @@
                   "author": "Noah Sharif",
                   "date": "2026-08-27 12:26",
                   "text": "Drilled the IDIDIT housing to allow set screw install. Reassembled the powered steering column, and tested it, the wobble that could be felt is gone, but the whole assembly wiggles on the outside, I'm going to show Alex before proceeding."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-27 19:30",
+                  "text": "paste_6227316a-2918-455f-a657-79b182023360.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "408f53a51de5a1975fc0422998e27e83858459979c94e176384032c195dde870"
+              "content_hash": "c07f468e9cacb3a7985bcbd3fa33c6e390f1812ae35e1dddb39dd85a4df13b79"
             }
           ]
         },
@@ -2153,6 +2158,11 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-26 22:30",
                   "text": "Update I put into slack\nIso Faults no longer occur.\n\nWe still need to update the LDU firmware to the latest and during this I would like\nsomeone to walk me through the Inverter Programming for the Tesla LDU and or our inverters in general.\n\nAC works.\u00a0 Pressures are low though. Will need to hook up gauges to vehicle and check that there. Billy reported that there was 28oz in the system so we may have to go up a little bit due to the size of the system.\n\nHeater controls work however we are getting a TransmitMsgTimeout fault. See Picture attached. @Devin DuMont not sure if you have seen this one or not. If so please advise. Controls all function properly. 12v present at the WPTC as well as CAN. I feel like this is possible a raptor setting that needs to be enabled. I know back in the day this was a paywall feature.\n\nCharging tested good on Lvl 1 and Lvl 2\nMotor Spins.\nSet preliminary Dakota Digital Gauge settings.\n\nAt this point start up is almost complete just a couple small things to get finished up and or to split parts out if necessary."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 20:06",
+                  "text": "image.png"
                 }
               ],
               "checklist_items": [
@@ -2247,7 +2257,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "688a6a60412b8d5debd12e91f02a15c855ebf6eb34ab106bfb34ebf839ae3ec7"
+              "content_hash": "70057305a3a524356b56d2dec191b76b368fc6b15ef6ee6d4422a64a0b0f3961"
             },
             {
               "id": "868kxkdgh",
@@ -2467,14 +2477,14 @@
           "name": "David Webber",
           "tasks": [
             {
-              "id": "868kr28at",
-              "name": "Address interior noises",
+              "id": "868kxn5te",
+              "name": "Address airflow issue",
               "status": "Open",
               "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868kr28at",
+              "url": "https://app.clickup.com/t/868kxn5te",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "eae3efc845f9951cc51ec8fe2b9ee5990e056e29011e8c4ea1cf6cf41e74cffc"
+              "content_hash": "bd306a2dad7a88fd296502e1c8d89c2f1da3faacdad3b20ee4cc242b8ba92877"
             },
             {
               "id": "868jj1ac8",
@@ -2526,5 +2536,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-27T18:14:03Z"
+  "generated_at": "2026-08-27T21:31:14Z"
 }

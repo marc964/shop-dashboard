@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 140.0,
-      "pct_of_total": 12.1,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -65,12 +65,12 @@
     },
     {
       "project": "LB 82 911",
-      "total_hours": 100.2,
+      "total_hours": 102.8,
       "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 21.2
+          "hours": 23.8
         },
         {
           "task": "Motor & Transmission",
@@ -115,9 +115,68 @@
       ]
     },
     {
+      "project": "Warke 61 Eldorado",
+      "total_hours": 94.2,
+      "pct_of_total": 8.0,
+      "tasks": [
+        {
+          "task": "Wiring - High Voltage",
+          "hours": 26.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 16.0
+        },
+        {
+          "task": "Charging",
+          "hours": 10.5
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 9.0
+        },
+        {
+          "task": "Cooling",
+          "hours": 7.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 5.2
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 5.0
+        },
+        {
+          "task": "Engineering - Core",
+          "hours": 4.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 2.8
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 2.8
+        },
+        {
+          "task": "Brakes",
+          "hours": 2.2
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.2
+        },
+        {
+          "task": "Manufacturing - Support",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
       "project": "Teague 62 Jaguar",
       "total_hours": 93.0,
-      "pct_of_total": 8.0,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Steering",
@@ -164,7 +223,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 92.0,
-      "pct_of_total": 7.9,
+      "pct_of_total": 7.8,
       "tasks": [
         {
           "task": "Charging",
@@ -229,68 +288,9 @@
       ]
     },
     {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 92.0,
-      "pct_of_total": 7.9,
-      "tasks": [
-        {
-          "task": "Wiring - High Voltage",
-          "hours": 26.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 16.0
-        },
-        {
-          "task": "Charging",
-          "hours": 10.5
-        },
-        {
-          "task": "Cooling",
-          "hours": 7.0
-        },
-        {
-          "task": "Manufacturing - Product",
-          "hours": 6.8
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 5.2
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 5.0
-        },
-        {
-          "task": "Engineering - Core",
-          "hours": 4.0
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 2.8
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 2.8
-        },
-        {
-          "task": "Brakes",
-          "hours": 2.2
-        },
-        {
-          "task": "HVAC",
-          "hours": 2.2
-        },
-        {
-          "task": "Manufacturing - Support",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Nolan 70 Challenger",
       "total_hours": 49.2,
-      "pct_of_total": 4.3,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -355,8 +355,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 29.2,
-      "pct_of_total": 2.5,
+      "total_hours": 31.2,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Suspension",
@@ -364,7 +364,7 @@
         },
         {
           "task": "Manufacturing - Product",
-          "hours": 5.2
+          "hours": 7.2
         },
         {
           "task": "Battery Pack",
@@ -434,7 +434,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 21.8,
-      "pct_of_total": 1.9,
+      "pct_of_total": 1.8,
       "tasks": [
         {
           "task": "Inspection",
@@ -472,24 +472,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 189.8,
+    "total_hours": 193.0,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.25,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 19,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 73.2
+        "hours": 74.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 66.2
+        "hours": 67.5
       },
       {
         "label": "Personal Meetings",
-        "hours": 22.8
+        "hours": 23.2
       },
       {
         "label": "Organization",
@@ -509,7 +509,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 4.0,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -520,7 +520,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -546,7 +546,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 17.0,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -557,7 +557,7 @@
     {
       "project": "ICON Bronco Prototype",
       "total_hours": 17.0,
-      "pct_of_total": 1.5,
+      "pct_of_total": 1.4,
       "tasks": [
         {
           "task": "Installation - Extra",
@@ -626,10 +626,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 801.8,
-    "non_billable_hours": 357.0,
+    "billable_hours": 819.0,
+    "non_billable_hours": 360.2,
     "pto_hours": 15.0,
-    "total_hours": 1158.8
+    "total_hours": 1179.2
   },
-  "generated_at": "2026-08-27T18:14:03Z"
+  "generated_at": "2026-08-27T21:31:14Z"
 }
