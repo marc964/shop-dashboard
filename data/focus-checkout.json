@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T10:33:47.324373Z",
+  "updated_at": "2026-08-27T14:27:05.792595Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -909,10 +909,15 @@
                   "author": "Noah Sharif",
                   "date": "2026-08-26 11:31",
                   "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/677ea097-d7a5-4cf0-9f25-a0160f4162ad/paste_58310b22-00ef-49ae-8e0f-8d40ec44c88f.mp4?view=openpaste_69faf861-5dfd-48dd-8f68-cbe6a67db40b.jpg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-27 12:26",
+                  "text": "Drilled the IDIDIT housing to allow set screw install. Reassembled the powered steering column, and tested it, the wobble that could be felt is gone, but the whole assembly wiggles on the outside, I'm going to show Alex before proceeding."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9ad5a68832f5f48c19adc35c43e6c18ced3e08a6f2d88379eeb1f8821c7706e3"
+              "content_hash": "408f53a51de5a1975fc0422998e27e83858459979c94e176384032c195dde870"
             }
           ]
         },
@@ -1197,10 +1202,15 @@
                   "author": "David Webber",
                   "date": "2026-08-06 14:01",
                   "text": "Performed additional paint correction to cluster pod"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-27 10:35",
+                  "text": "Peterson says gauge has shipped. No tracking available yet ETA TBD"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "db07d3da6a012caf48fdd9aa5139d912144a47ed9dc36f8a38688a43f5a22e1c"
+              "content_hash": "c0af57e2dda17b1a38e023cd9076412ef63054e9960113dfdb40a0dd78f39ccf"
             },
             {
               "id": "868km7t9d",
@@ -1538,10 +1548,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-27 02:47",
                   "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:53",
+                  "text": "IMG_1977.jpeg\nIMG_1976.jpeg\nIMG_1975.jpeg\nIMG_1974.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "9d326c8a5f99c06daa070fced38bb0c15441093466419e848f538a3c3cbdd3e2"
+              "content_hash": "3fea4b22306c5163892b4a9fcf27abd5924045b2cf1aeb2bc794f86dc5ff1d7e"
             },
             {
               "id": "868kx4f7u",
@@ -1742,10 +1757,20 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-19 02:35",
                   "text": "steering wheel ordered"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:55",
+                  "text": "steering wheel installed"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:56",
+                  "text": "IMG_1968.jpeg\nIMG_1967.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "ef9b288bcfca9810cdd84893cb342175271f1cbad95e16355c3fa3766da3e61b"
+              "content_hash": "bfea0b4fb7ec87d1d9d05f74a8933767f0e5a586e62111f328b48962ac89ddb8"
             },
             {
               "id": "868gaza16",
@@ -2562,5 +2587,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-27T10:32:14Z"
+  "generated_at": "2026-08-27T14:25:10Z"
 }
