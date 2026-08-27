@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T02:41:19.884062Z",
+  "updated_at": "2026-08-27T04:33:03.550134Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1533,9 +1533,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4870",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:47",
+                  "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2eb7d82d478185319af5bcef8a69c100305bc9c1968c83184286a5bd69c4847a"
+              "content_hash": "9d326c8a5f99c06daa070fced38bb0c15441093466419e848f538a3c3cbdd3e2"
             },
             {
               "id": "868kx4f7u",
@@ -1788,10 +1794,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-21 21:54",
                   "text": "Setup the Bender IMD unit and helped Brandon and Billy narrow down the isolation problem to a single box. Cross checked the setup on Preheim and with the BMS tester. Isolation fault tests to only be in the big front box."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:53",
+                  "text": "start up\nHVAC controls set\nheater limits set\nheater now working properly setting code\nneed to charge system started with 1.8\n190B62CB-FF0A-4688-B478-B068543EAD99_1_105_c.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a4cb96e10ff195f80ac8ba56a98818b9652617cf81066111d90aa91fa7c3f4c1"
+              "content_hash": "82ff829e769a3fb30c6d5ec6b709e74d9230fdeb8383c4d932a2e29f8a8d39a3"
             },
             {
               "id": "868kunztt",
@@ -2551,5 +2562,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-27T02:39:41Z"
+  "generated_at": "2026-08-27T04:31:29Z"
 }
