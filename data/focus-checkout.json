@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T21:48:28.383969Z",
+  "updated_at": "2026-08-28T22:22:08.942099Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2035,16 +2035,6 @@
               "url": "https://app.clickup.com/t/868ka4d5e",
               "comments": [
                 {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-07-22 22:57",
-                  "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
-                },
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:08",
-                  "text": "In communication with customer on this."
-                },
-                {
                   "author": "Ben Drinkard",
                   "date": "2026-08-01 16:25",
                   "text": "Dash upper pad replaced"
@@ -2158,10 +2148,20 @@
                   "author": "Ben Drinkard",
                   "date": "2026-08-28 19:35",
                   "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:08",
+                  "text": "paste_0b4588db-48ed-456d-9d00-c8d717369c3e.jpgpaste_c7304e87-6000-4cc8-aaf8-acf1ad2417fe.jpgpaste_23877a8a-e2db-4b5e-8772-3c1307fc32c1.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 22:09",
+                  "text": "Seat back covers installed minus 2 screws"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c868e7bbc64bad63a12c71852aed95550932fa19ea345c376d3dbbb008075c51"
+              "content_hash": "82161dd15959e2a405d0672e731a48c5eeebad174fe5d3ad46d25ff18c7b4850"
             },
             {
               "id": "868gaza9t",
@@ -2435,5 +2435,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-28T21:46:55Z"
+  "generated_at": "2026-08-28T22:20:35Z"
 }
