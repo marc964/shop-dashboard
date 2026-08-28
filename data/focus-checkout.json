@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T21:32:59.826219Z",
+  "updated_at": "2026-08-28T00:42:31.969028Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -671,10 +671,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-26 19:50",
                   "text": "Removed temporary wiring.\nBuilt motor-fan-2 subharness:\nPigtail splices into motor fan 1.\nPer @Brandon Beaman, two fans can run on one circuit. Circuit is rated at 4.8amps. Output is up to 25 amps. Even with inrush current it's fine.\nSubharness runs along VC harness route to RH wheel well.\nInstalled subharness.\nFlipped skidplate louvres to get 'ram air' effect.\nAdded mesh backing above, to prevent debris ingress."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-08-27 22:35",
+                  "text": "Continued with finalizing old test-electrical equipment removal.\nAlso tidied up a few electrical bits (engine-bay ground, amp ground).\nReinstalled engine bay cover in preparation for soft delivery tomorrow."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "11cf3549e37d4fccbcbd663f7b0596a94e2b988ae80172198edfec637dc13c02"
+              "content_hash": "15b37a94d903e91fdf63c056b43412e5369237fc618a92cd78f4c33124ead2da"
             }
           ]
         },
@@ -758,10 +763,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-26 19:50",
                   "text": "Researched Kp and Wp via Claude for typical values and expected changes. Couldn't really get a dependable answer, relied on my tuning experience of never more than double or half. Set the VCU back toa default tune and drove for a baseline. Changed the inverter settings Kp from 5 to 10 and W1 from 3600 to 1800 in live memory. Re-tested and pulled the logs for Claude. Couldn't really see any effect from my plot."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-27 23:33",
+                  "text": "Repeated Claudes temperature consistant trial, posted for analysis. Reviewed logs in the AEM format and trimmed down two that best highlighted the issue, took screen shots and drafted a analysis request email to AEM. Included vehicle specs and attached the current EEPROM settings for the motor. Sent email off to AEM."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "e2a45d867b2d3077efd56a250b1235a7aacbeb7331d5a685f49fa061fef9c172"
+              "content_hash": "a979194162439cf711f2ca97ca7b926dc3279dc2b9811ce985ad70e1b5080bd9"
             }
           ]
         },
@@ -1045,10 +1055,20 @@
                   "author": "Ben Drinkard",
                   "date": "2026-07-27 21:26",
                   "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:01",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:05",
+                  "text": "paste_4286cd45-0f3c-4e20-b9e2-82b2adeb5098.jpgpaste_2f609b28-1691-4d46-92d0-b7988be1d7fa.jpgpaste_de3cda5c-6236-430e-be19-f353fd999b97.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "d59c7d02080027ea1123623b1d3c698c716e8a518506b28b79f6a2d2e9982115"
+              "content_hash": "ad413435c189e3067c06a237f34af7890c595f27b9bc353fd5445c63d0764f87"
             }
           ]
         }
@@ -1584,9 +1604,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868krfacg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:42",
+                  "text": "Had to gather LDU EEPROM settings to move to Ritchie.\nEnabled AC Condensor Fan in vcu.\nVerified operations with billy.\nCondenser fan and motor currently set to always stay on when AC is enabled."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "content_hash": "4b0d80fa5d03076b3595d1cd2f3419b23e9b6d424fa13c0d3619117b04229497"
             }
           ]
         }
@@ -2046,16 +2072,26 @@
                 {
                   "author": "Ben Drinkard",
                   "date": "2026-08-26 19:19",
-                  "text": "Carpet was punctured for seat bolts"
+                  "text": "Driver side carpet punctured for seat bolts"
                 },
                 {
                   "author": "Ben Drinkard",
                   "date": "2026-08-26 19:20",
                   "text": "paste_34ee242e-ccfa-42ed-b5d0-559a8bf2b4e0.jpgpaste_33285637-22dc-4310-a785-2ab3bd7fa3a4.jpgpaste_c7dde881-95ce-41b1-88e9-fb9f31ae8fed.jpgpaste_76dc5ec5-0c49-41ba-aab3-f2cad6540d22.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:11",
+                  "text": "Passenger side carpet punctured\nPassenger seat installed\nSeat pivots cleaned and greased\nPassenger side seat rear cap installed\nDriver side seat cap requires additional mounting work"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:14",
+                  "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0f7b61775bbc2ae45681cd0db707d29afc13e74e6e4c3cb334752669117143d5"
+              "content_hash": "c91e72cb8734db360e03c75dd869bb8c8064ab5e665b732820236bff27c1e40b"
             },
             {
               "id": "868gaza9t",
@@ -2163,6 +2199,16 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-27 20:06",
                   "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 21:56",
+                  "text": "image.png\nimage.png\nimage.png\nUpdated LDU Firmware\nGathered EEPROM settings from Preheim\nCompared EEPROM settings from Ritchie and Preheim\nMade adjustments to Ritchie that way it matches Preheim\nKey Cycle Refreshed vehicle and verified all lines appropriately saved.\nVerified no other lines necessary to change.\nUploaded Files to Vehicle Folder"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:39",
+                  "text": "Finished first rev of start up documentation.\nFinished start up of vehicle.\nSee notes and pictures above for more details."
                 }
               ],
               "checklist_items": [
@@ -2257,7 +2303,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "70057305a3a524356b56d2dec191b76b368fc6b15ef6ee6d4422a64a0b0f3961"
+              "content_hash": "19b26bcf889a53e1ac63803ba4aa28bda15e3fb75c8953eee42a39831e87309b"
             },
             {
               "id": "868kxkdgh",
@@ -2265,9 +2311,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kxkdgh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:36",
+                  "text": "Started diag procedure.\nChecked 12v at the heater connector. Test shows good.\nChecked 12v switch functionality. Test shows goo d\nChecked gnd to chassis. Test show good.\nTest end to end CAN 3 Hi to OBD. Test shows good\nTest end to end CAN 3 Lo to OBD. Test shows good\nTest CAN to GND. Test shows good.\nUnless its terminal tension on the terminals themselves there doesnt seem to be any wiring problems.\nWas going to move to getting a CAN3 trace to check and see what messages were being sent and or received.\nAll the Diag cables were being used and this hasnt been the first time we ran into this.\nBuilt Ampere Diag cable for use.\nGot pulled off onto another task.\nWill need to continue this tomorrow."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-27 22:38",
+                  "text": "Tested a second battery heater and the same codes are present. Did not hook second heater up to HV this may have cause a false negative will re check tomorrow."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "814eb89dd0858c898f455f37bd1e486c43726e9c43b6e1c67017deb429c5b51d"
+              "content_hash": "369babe3a31fe90a416ba48627ae3fc8eb4ed54102b3db4c8ab04fa29c252676"
             },
             {
               "id": "868kv2ram",
@@ -2536,5 +2593,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-27T21:31:14Z"
+  "generated_at": "2026-08-28T00:40:55Z"
 }
