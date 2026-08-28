@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:04:18.818184Z",
+  "updated_at": "2026-08-28T18:25:39.756257Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,7 +80,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 2
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -179,6 +179,21 @@
               "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
             }
           ]
+        },
+        {
+          "name": "Ryan Laurel",
+          "tasks": [
+            {
+              "id": "868ky3waj",
+              "name": "Get rear bumper from Colvin's",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868ky3waj",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "c976ff3ccad42e4812bbe0b575e6631efd9d64bcb2afef89f57e177b5470ec93"
+            }
+          ]
         }
       ]
     },
@@ -244,7 +259,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 2
+        "open_tasks": 1
       },
       "assignees": [
         {
@@ -406,43 +421,6 @@
                 }
               ],
               "content_hash": "d2949e9dbcc48579513f55ff2a564e22cd3c150e69545a82fbcefcb9537fe3b3"
-            },
-            {
-              "id": "868k0je6t",
-              "name": "Update EEPROM",
-              "status": "Open",
-              "list": "Connolly 58 220S",
-              "url": "https://app.clickup.com/t/868k0je6t",
-              "comments": [
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-22 23:08",
-                  "text": "test drive"
-                },
-                {
-                  "author": "Aharon Adams",
-                  "date": "2026-06-26 02:39",
-                  "text": "long test drive, notes, and updates"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 17:20",
-                  "text": "image.png\nimage.png\n\nSpoke to Marc and Verified settings in this vehicle for Shudder and Self Sense.\nMy instruction was to leave the vehicle as is.\nEvery Vehicle should have shudder comp enabled.\nNot every vehicle should have self sense."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Checklist",
-                  "name": "Turn on shutter comp",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Checklist",
-                  "name": "Turn on self sense assist",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "f65d6f03959f0f91f6de53d2aa12d20531599ea2c612e6eeb03ed6e60d740478"
             }
           ]
         }
@@ -866,7 +844,7 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 9
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -938,48 +916,6 @@
               ],
               "checklist_items": [],
               "content_hash": "3fff9a01e82127347017df279f1b5ebb5b4073321dfe4486374d65cdf9b2b6fc"
-            }
-          ]
-        },
-        {
-          "name": "Brandon Beaman",
-          "tasks": [
-            {
-              "id": "868krf6f9",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf6f9",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-17 23:31",
-                  "text": "Gathering AC compressor logs from Raptor."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:00",
-                  "text": "HVAC testing and Logging."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
-            },
-            {
-              "id": "868kvg1qd",
-              "name": "Troubleshoot AC compressor issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kvg1qd",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 22:59",
-                  "text": "Aharon took care of the evac and charge on the AC system.\nSystem recharged at 24oz.\nRe tested the system and pulled the logs from the Raptor page.\nFound that the AC system is operating much better than it did prior.\nNo hard shutoffs or over current faults present at this time.\nNo need to adjust any settings on the VCU at this time.\nThe only time the AC compressor has shut off is when the Vintage air system commands it to shut off.\nUploaded the Logs to slack and can upload them here as well.\nVent temps roughly 40\u00b0F Inside and outside so the HVAC system is working great at this time."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "44c99d3b74a1844b4151c9d92eab1d6359e9624cf8f6c09539b4c563921819e2"
             }
           ]
         },
@@ -1074,6 +1010,32 @@
               ],
               "checklist_items": [],
               "content_hash": "ad413435c189e3067c06a237f34af7890c595f27b9bc353fd5445c63d0764f87"
+            }
+          ]
+        },
+        {
+          "name": "Brandon Beaman",
+          "tasks": [
+            {
+              "id": "868krf6f9",
+              "name": "Checkout vehicle",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf6f9",
+              "comments": [
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-17 23:31",
+                  "text": "Gathering AC compressor logs from Raptor."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 23:00",
+                  "text": "HVAC testing and Logging."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
             }
           ]
         }
@@ -1237,10 +1199,15 @@
                   "author": "David Webber",
                   "date": "2026-08-27 10:35",
                   "text": "Peterson says gauge has shipped. No tracking available yet ETA TBD"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-28 15:59",
+                  "text": "Receive, unpack & document gauge cluster condition. Noted KW gauge glass scratched, all other glass filthy & some sort of residue on faceplate. Cleaned glass & faceplate. Installed cluster. Drilled new mounting holes for switch plates where I repaired the wood and fit these on the bench. Installed surround pod, vents & switch groups"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c0af57e2dda17b1a38e023cd9076412ef63054e9960113dfdb40a0dd78f39ccf"
+              "content_hash": "87f501de35d5676f6a4ce4c489250af0831635415ce199b27fad3b12fc26bb2e"
             },
             {
               "id": "868km7t9d",
@@ -1662,7 +1629,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 42
+        "open_tasks": 40
       },
       "assignees": [
         {
@@ -1700,9 +1667,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868jwk0hy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:56",
+                  "text": "tested heater\nfilled after startup\nno leaks\nneed some programming"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:55",
+                  "text": "IMG_1980.jpeg\nIMG_1979.jpeg\nIMG_1978.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
+              "content_hash": "b095ac9d459d574e94c25ee0714bb0f649ba2f8f2f61ecf3a9dfdab177e04f44"
             },
             {
               "id": "868hbmvcq",
@@ -1840,9 +1818,30 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:12",
+                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:48",
+                  "text": "start up\nhelped with 12 volt\nfound tail light was out\nbrake pedal spring needs to be installed( used on Preheim)\nfound isolation fault"
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-21 21:54",
+                  "text": "Setup the Bender IMD unit and helped Brandon and Billy narrow down the isolation problem to a single box. Cross checked the setup on Preheim and with the BMS tester. Isolation fault tests to only be in the big front box."
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:53",
+                  "text": "start up\nHVAC controls set\nheater limits set\nheater now working properly setting code\nneed to charge system started with 1.8\n190B62CB-FF0A-4688-B478-B068543EAD99_1_105_c.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
+              "content_hash": "82ff829e769a3fb30c6d5ec6b709e74d9230fdeb8383c4d932a2e29f8a8d39a3"
             },
             {
               "id": "868kunztt",
@@ -1922,9 +1921,55 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:11",
+                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-03 22:06",
+                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-06 20:19",
+                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "Headunit installed for mockup and wiring"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:19",
+                  "text": "1000014708.jpg1000014709.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-19 21:31",
+                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-20 19:27",
+                  "text": "Picked up RCAs for Ritchie Audio"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-25 00:53",
+                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "f2f658b6d8773ae0265d848d11ead009548a5950c4b783803dc470b405fd8c6e"
             },
             {
               "id": "868kpg6th",
@@ -2114,203 +2159,6 @@
           "name": "Brandon Beaman",
           "tasks": [
             {
-              "id": "868ka1pgr",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ka1pgr",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:12",
-                  "text": "Waiting on battery box install, harness install, and cooling system finalization to proceed on this."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-20 23:02",
-                  "text": "End of Day Report \u2014 Vehicle Start-Up Procedure\nProgress: Start-up procedure completed through PMU flashing, VCU flashing, Config setup, and LV Checkout. Paused mid-way through Step 5 of Enable HV (verifying HvSysDsbl) after HV was energized and initial faults were observed.\nIssues Found:\nBrake pedal \u2014 missing return spring. Pedal sticks in whatever position it's moved to. Must be resolved before the vehicle can be driven.\nLeft reverse light non-operational. Right side works as intended.\nRight brake lamp non-operational. Left side works as intended.\nReverse light signal needs to be de-pinned from the GUI, since this vehicle isn't getting a backup camera.\nHV wiring concern: Possible shielding issue on the Motor HV cables, and possible assembly issue on one of the HV connectors jumpering the HVJB and CCS JB.\nBrake fluid found inside an HV connector \u2014 HVJB Battery Pack connector, Terminal B.\nContinuity found between conductor and shielding on the Motor HV connector \u2014 may be inherent to the motor design, but flagged as secondary priority behind the HVJB connector issue.\nActions Taken:\nPaused start-up to avoid adding unnecessary time while wiring is investigated.\nBilly removed MSDs and is double-checking HV cables to chassis and continuity to shielding.\nDevin DuMont flagged for assistance.\nAlex Noonan flagged to create a task for Billy to resolve the HVJB connector and brake fluid contamination issue, and the Motor HV connector shielding continuity issue.\nBlocking Items (must resolve before continuing):\nHVJB Battery Pack connector \u2014 brake fluid contamination (priority)\nMotor HV connector \u2014 shielding continuity (secondary)\nBrake pedal return spring (before vehicle can be driven)\nReverse/brake lamp issues\nNext Steps: Resume start-up procedure (Enable HV, Step 5) once HV wiring issues are resolved and cleared by Billy/Devin/Alex."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:48",
-                  "text": "Preheim Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:51",
-                  "text": "Ritchie Front D8\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:52",
-                  "text": "Ritchie Front D4\nimage.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 19:55",
-                  "text": "All tests were done with the HV cables disconnected from the battery box and MSD removed from the battery box.\n\nwe did test the rear box on Ritchie with and or without the MSD to see if there was a difference with the MSD connected. No change was found.\n\nTested in comparison to Preheim and found that Ritchie was definitely showing issues relatively."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 18:55",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 18:55",
-                  "text": "PMU1 SN# : 201-2602-00220\nPMU2 SN#: 201-2602-00121\n\nVCU Starting Firmware: VCM_499\nVCU Current Firmware: VCM_516\n\nimage.png\n\nVCU SN#: 3300107805"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 18:59",
-                  "text": "image.png\nLvl 2 Charging Good"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 19:03",
-                  "text": "image.png\nLvl 1 Charging Good"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 19:05",
-                  "text": "image.png\nInverter Type was set incorrect on this vehicle. Switched to AEM LDU Sport."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 19:08",
-                  "text": "Cleared codes and re checked. Inverter type codes no longer populate.\nRe tested Drive and Reverse to make sure motor still spins.\nMotor still functions as intended."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 21:54",
-                  "text": "AC enables and works as intended.\nPressures look to be quite low will need to confirm with Billy on this."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 21:54",
-                  "text": "image.png\nimage.png\nCabin Heater Message time out fault."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-26 22:30",
-                  "text": "Update I put into slack\nIso Faults no longer occur.\n\nWe still need to update the LDU firmware to the latest and during this I would like\nsomeone to walk me through the Inverter Programming for the Tesla LDU and or our inverters in general.\n\nAC works.\u00a0 Pressures are low though. Will need to hook up gauges to vehicle and check that there. Billy reported that there was 28oz in the system so we may have to go up a little bit due to the size of the system.\n\nHeater controls work however we are getting a TransmitMsgTimeout fault. See Picture attached. @Devin DuMont not sure if you have seen this one or not. If so please advise. Controls all function properly. 12v present at the WPTC as well as CAN. I feel like this is possible a raptor setting that needs to be enabled. I know back in the day this was a paywall feature.\n\nCharging tested good on Lvl 1 and Lvl 2\nMotor Spins.\nSet preliminary Dakota Digital Gauge settings.\n\nAt this point start up is almost complete just a couple small things to get finished up and or to split parts out if necessary."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 20:06",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 21:56",
-                  "text": "image.png\nimage.png\nimage.png\nUpdated LDU Firmware\nGathered EEPROM settings from Preheim\nCompared EEPROM settings from Ritchie and Preheim\nMade adjustments to Ritchie that way it matches Preheim\nKey Cycle Refreshed vehicle and verified all lines appropriately saved.\nVerified no other lines necessary to change.\nUploaded Files to Vehicle Folder"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:39",
-                  "text": "Finished first rev of start up documentation.\nFinished start up of vehicle.\nSee notes and pictures above for more details."
-                }
-              ],
-              "checklist_items": [
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "1.) PMU1 PMU2 - Communication Check",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "2.) PMU1 016-P28 Cooling Fan 1 (Batt)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "3.) PMU1 001-P38 Cooling Fan 2 (Motor)",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "4.) PMU1 004-P13 Reverse Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "5.) PMU1 002-P39 Digital GUI",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "6.) PMU1 012-P02 Brake Lights",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "7.) PMU1 011-P03 BMS Wake",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "8.) PMU1 006-P10 CCS Contactors",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "9.) PMU1 007-P10 CCS Voltage Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "10.) PMU1 008 -P09 Negative Contactor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "11.) PMU1 013-P01 Battery Heater",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "12.) PMU2 004-P13 Condenser Fan 1",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "13.) PMU1 005-P12 Vacuum Pump",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 1.) Accelerator Pedal",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 2.) Brake Switch",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 3.) Ambient Air Temp Sensor",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 4.) HVIL",
-                  "resolved": true
-                },
-                {
-                  "checklist": "Ampere IO Checkout Checklist",
-                  "name": "VCU 5.) PRND",
-                  "resolved": true
-                }
-              ],
-              "content_hash": "19b26bcf889a53e1ac63803ba4aa28bda15e3fb75c8953eee42a39831e87309b"
-            },
-            {
               "id": "868kxkdgh",
               "name": "Troubleshoot heater issue",
               "status": "Open",
@@ -2330,37 +2178,6 @@
               ],
               "checklist_items": [],
               "content_hash": "369babe3a31fe90a416ba48627ae3fc8eb4ed54102b3db4c8ab04fa29c252676"
-            },
-            {
-              "id": "868kv2ram",
-              "name": "Troubleshoot isolation fault",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kv2ram",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-21 22:12",
-                  "text": "Dive into ISO fault on this vehicle.\nUsed preheim to verify findings.\n2 tests show the front D4 to be good and the Front D8 to have a major iso issue.\nComparing to preheim with the same test sshows that this vehicle does have an issue with the front D8 box.\nLikely front box will need to be removed for further inspection.\nStart up paused until this is fixed.\nCheck start task for picture details and what vehicle they came from."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-24 23:08",
-                  "text": "Can confirm Isolation fault at D8... Box #1 for Ritchie.\nMeasured up to 158v at the casing of the box with out the contactor pulled in.\nDue to the voltage measurements of 158 from negative to case and 18 from positive to case this leads us to believe that its in the middle of the box on the last module. Module number 8.\nLikely inside the module its self due to positioning since 18v is less than a modules total voltage.\nHaving Justin tear the box apart and verify at this time what the cause was.\n\nThis is From Devin in Slack.\nWith the MSD connected and the contactor pulled in the box measures voltage from HV positive to Case and from HV negative to case. Pulling the MSD only HP negative to case reads voltage. The aluminum plates are clear anodized so you have some insulation there. As long as you're not touching the ethanol output HP plus or minus touching the box is only touching one terminal of a battery.\nRitchie Box #2 and Box #3 both measure 50,000 kOhms with both the MSD plugged in and the contactor pulled in. They also both pass the Ampere BMS test."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 18:20",
-                  "text": "image.png\nD8 Box\nMSD Disconnected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Open\nimage.png\nD8 Box\nMSD Connected\nContactor Closed\n\nimage.png\nVoltage Readings\nimage.png\nCell Readings"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-25 20:47",
-                  "text": "Went through all of the tests once the box was repaired.\nAll tests passed.\nSee notes above for more details.\nHanded back off to Justin.\nDMM Voltage readings were good and steadily dropping this is typical. This is was also tested with the contactor closed and MSD installed."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "df7583172c0028d70f4b203ba9e65f39b446ee33fbc3620c1005f88e088a5720"
             }
           ]
         },
@@ -2532,7 +2349,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 17
+        "open_tasks": 16
       },
       "assignees": [
         {
@@ -2582,21 +2399,11 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            },
-            {
-              "id": "868ku2tnf",
-              "name": "Troubleshoot GUI issue",
-              "status": "Open",
-              "list": "Teague 62 Jaguar",
-              "url": "https://app.clickup.com/t/868ku2tnf",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "8a069d7fbc83713fdd9fb55ad3563661acf0a8750b11c9ecad367d89018707ee"
             }
           ]
         }
       ]
     }
   ],
-  "generated_at": "2026-08-28T14:02:34Z"
+  "generated_at": "2026-08-28T18:23:31Z"
 }
