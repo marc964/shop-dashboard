@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T18:25:39.756257Z",
+  "updated_at": "2026-08-28T21:48:28.383969Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -912,10 +912,25 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-28 04:35",
                   "text": "made a bushing for the column\npressed it into place\nclearance the adapter and pressed it on\nready for assembly\ni will hand off tomorrow to Noah\nit should make a big difference on the column retention\nIMG_1988.jpeg\nIMG_1987.jpeg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 18:36",
+                  "text": "Assembled the steering column back together, i had to turn down the 6mm m8 set screws to about 3mm long. Got everything assembled and we are set for reinstall. I had both Billy and Alex check the operation by hand on the bench, and all 3 of us are happy with the improvement. So on Monday I will Install the part and see what it feels like in the car!."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 18:37",
+                  "text": "It should be about 2-3 hours on Monday to get the car reassembled. So keep that in mind, But we should be done once those hours are added to what i have in today, and the past."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-28 20:33",
+                  "text": "paste_4545af43-412d-48ef-98e8-711128eca13d.jpgpaste_e4915fb6-68ba-451f-85b1-d7602bb53f52.jpgpaste_6a94db28-b295-4d4f-a0e7-a70c1e26cedc.jpgpaste_55e4bdbf-304a-4c44-a338-221292cf4f23.jpgpaste_e878ac98-1b7c-4875-a3cc-67f41b0a490d.jpgpaste_37cb4507-e89e-4d08-988d-2d1cba8b8139.jpgpaste_389d0a1b-18a2-4dde-8189-33e1b8a760b5.jpgpaste_51997b53-d9c6-4b41-aa8a-012d789579b3.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3fff9a01e82127347017df279f1b5ebb5b4073321dfe4486374d65cdf9b2b6fc"
+              "content_hash": "199df02e27c5bd6811c385dd6610f8472a08e00b0c141d468067c99a765b789a"
             }
           ]
         },
@@ -2021,11 +2036,6 @@
               "comments": [
                 {
                   "author": "Billy Arrasmith",
-                  "date": "2026-07-08 16:36",
-                  "text": "ordering interior kit"
-                },
-                {
-                  "author": "Billy Arrasmith",
                   "date": "2026-07-22 22:57",
                   "text": "ordered all the interior parts needed\ngave Ryan a list so when it comes in he can verify all the parts\nRitchie Interior.pdfScreenshot 2026-07-22 at 5.57.26\u202fPM.png"
                 },
@@ -2138,10 +2148,20 @@
                   "author": "Ben Drinkard",
                   "date": "2026-08-27 23:14",
                   "text": "paste_4373b090-edc8-40ca-a6bf-0e934225c3a4.jpgpaste_b6d5a38c-7847-4470-a792-0d007fc0dc76.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:34",
+                  "text": "paste_7324b092-cbd3-45c7-a8b8-1944e491372f.jpgpaste_61533955-1463-4db8-b2f5-7202c022b3a1.jpgpaste_a4f0733e-6279-485f-ba05-b872a304cce2.jpgpaste_ba92f3c5-2407-4e72-8b3a-ced8b928d3b6.jpgpaste_1812a0bb-87c7-4392-8c22-2b0ffa515a7c.jpgpaste_8179339e-b53b-4d91-a60a-56be2ce91efa.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-28 19:35",
+                  "text": "Visor mount remedied and bracket installed\nRear carpet installed\nCarpet formed to wheel tubs\nHeat applied and reliefs made to allow wheel cover carpet to contour correctly"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "c91e72cb8734db360e03c75dd869bb8c8064ab5e665b732820236bff27c1e40b"
+              "content_hash": "c868e7bbc64bad63a12c71852aed95550932fa19ea345c376d3dbbb008075c51"
             },
             {
               "id": "868gaza9t",
@@ -2174,10 +2194,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-27 22:38",
                   "text": "Tested a second battery heater and the same codes are present. Did not hook second heater up to HV this may have cause a false negative will re check tomorrow."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:11",
+                  "text": "image.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-28 20:49",
+                  "text": "Checked CAN King for message from the heater. Uploaded the Newsong DBC that we have available.\n\nConfirmed no CAN messages at this time.\n\nConfirmed 12v and CAN still present at the Connector. Test show good.\n\nConnected second water heater as a test. Error still persists.\n\nUsing Raptor ECUMaster PMU 2 tab, enabled cabin heater output which is wired and programmed to enable both the cabin heater pump and cabin heater WPTC\n\nCommand on shows to work as intended CAbin pump turns on however CAN message age does not move from the 65335 number. Indicating that we are not receiving any CAN messages.\n\nRe terminated the connector to verify good terminals and connections inside the connector.\n\nAll errors persist.\n\nAll known settings in the VCU set correctly for cabin heater to be enabled.\n\nNext concern might be that the CAN messages the Heater is outputting are different than the messages we are expecting which is why it has a CAN message error.\n\nUnsure what the best method to test this would be. I did notice in CAN King. that it seemed like an extra message line pops up when the heater is enabled for the first time but that might be a red herring.\n\nAt this point I think I have reached my level of expertise in diag. Please advise. I can gather whatever material needed."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "369babe3a31fe90a416ba48627ae3fc8eb4ed54102b3db4c8ab04fa29c252676"
+              "content_hash": "f13960c8d80d8bc19d9f43d5081baf52ec7df9e5a5f5374f917bd0eba8dca121"
             }
           ]
         },
@@ -2405,5 +2435,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-28T18:23:31Z"
+  "generated_at": "2026-08-28T21:46:55Z"
 }
