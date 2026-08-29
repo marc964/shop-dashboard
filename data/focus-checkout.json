@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T05:12:45.535645Z",
+  "updated_at": "2026-08-29T05:25:13.129009Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1706,9 +1706,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:08",
+                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-29 04:23",
+                  "text": "grounding the sub harness"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
+              "content_hash": "0972f6f04f1d8fb58f6c52e1c150c02a4b1eef9b0459c0b62dd243a1df34c24b"
             },
             {
               "id": "868hbnmkf",
@@ -1736,9 +1747,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjxq",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:34",
+                  "text": "seat belts ordered"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "371237ba86e4892bc87fcc0dd72a17784c4ecac889b399914e56e0f1cafd7fb9"
+              "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
             },
             {
               "id": "868ktqj7a",
@@ -1746,9 +1763,25 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqj7a",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:35",
+                  "text": "steering wheel ordered"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:55",
+                  "text": "steering wheel installed"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:56",
+                  "text": "IMG_1968.jpeg\nIMG_1967.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4eefcecc12042d45511a40e69baf8e36f7e966048db1eeb9896e80a02f248372"
+              "content_hash": "bfea0b4fb7ec87d1d9d05f74a8933767f0e5a586e62111f328b48962ac89ddb8"
             },
             {
               "id": "868gaza16",
@@ -1766,9 +1799,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-19 02:02",
+                  "text": "removed rear seat mount brackets\nready for PC"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "4bb9ced1f8309067dbded5b7f38978d768c5180e22f33d9a0a98d1932d9ae5e1"
+              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
             },
             {
               "id": "868ka1nuh",
@@ -1786,9 +1825,35 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kunztt",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:46",
+                  "text": "found faulty cable due to brake fluid\nneeds to be replaced"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "IMG_1914.jpeg\nIMG_1915.jpeg\nIMG_1916.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-22 22:55",
+                  "text": "going over budget\nfixed the HV cable\nchecked the res\nall is good on HV Cable\nplugged everything back in\nstill had fault\nremoved the HVJB\ntook the cover off\nno ingress\nstarted checking other places\ngot Jordan to help\nfound no issues with JV cables\nBrandon and Devin checked boxes found an anomaly in the D*\nverified Prehiem was good with the same test\nran more test\nwaiting on confirmation to pull a battery"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-25 02:25",
+                  "text": "removed the battery boxes"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-26 02:06",
+                  "text": "installed the boxes\nhooked up HV\ninstalled the HVJB\nplugged in all HV and LV connectors\nturned truck on\ncleared all codes\nonly code present was motor can cmunication\nmotor was able to spin up\nIMG_1962.jpeg\nIMG_1963.jpeg\nIMG_1965.jpeg\n\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/f9c46996-719c-4d54-b917-71056981a0bf/IMG_6126.mov?view=open"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
+              "content_hash": "f66bb4aa6d3e8e7da9351d05420f521154b8cea62241f49f8443d74d41ac8a14"
             }
           ]
         },
@@ -1842,9 +1907,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -2128,5 +2224,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-29T05:11:06Z"
+  "generated_at": "2026-08-29T05:23:40Z"
 }
