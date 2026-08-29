@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 161.8,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -626,10 +626,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 902.5,
+    "billable_hours": 902.0,
     "non_billable_hours": 376.5,
     "pto_hours": 15.0,
-    "total_hours": 1279.0
+    "total_hours": 1278.5
   },
-  "generated_at": "2026-08-29T01:38:24Z"
+  "generated_at": "2026-08-29T01:48:00Z"
 }
