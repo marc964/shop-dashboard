@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T04:49:53.050714Z",
+  "updated_at": "2026-08-29T05:12:45.535645Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1913,9 +1913,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kwm6px",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-26 19:17",
+                  "text": "Re-tested Box #1 outside of the vehicle. Full pass from the Ampere test box, reading 50,000 kOhms from their IMD under all testing scenarios. Hooked up the Bender IMD and tried various contactor states, MSD or no, and probe locations. Determined with the box in full run configuration there is 18V from HV+ to case and 186V from HV- to case. Met with the team and discussed next steps. Re-flashed Host #2 to make it think it's a host #1 to gain contactor control. Verified checkout and IMD reading, nothing found from the Ampere auto test or various manual tests, reverted to correct configuration. Repeated again for box #3."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
+              "content_hash": "2af5047224d413eec9baef150326b7b565bd025f431163ad634a7b2718338095"
             }
           ]
         },
@@ -1928,9 +1934,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kw2fz4",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-24 19:34",
+                  "text": "Helped diagnose battery box 1 590 D8 box from ritchie blazer.  we determined that due to the voltages we were seeing that an isolation fault was occurring in the 8th module of the box between cells 5 and 6. disassembled the box and removed bus bars from module 8 and confirmed the readings had stayed the same. the issue i have now is that the modules are glued to the chill plates and so far the module doesn't want to release.  will return in the morning for another attempt and if it gives too much trouble we are going to make another chill plate and move on."
+                },
+                {
+                  "author": "Justin Landry",
+                  "date": "2026-08-25 19:45",
+                  "text": "was able to separate the bad module from the chill plate with some crafty prying and shims. assessed the module and found the voltage leak has disappeared since the module was off the chill plate. assembled the 4 stack with a new matching voltage module and rebuilt the box for brandon to test. test complete i re bled the coolant to check for leaks then sealed boxes with the shells. back to billy for install."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e471f3259d5eb6ea6f4ffddffb1f866f0b92569d17c23d43521f900c199961c0"
+              "content_hash": "511c51ce99bf9a803ce47f51c9b82c12263aef70f4a7fdf9049c78f5471c5cc7"
             }
           ]
         },
@@ -1943,9 +1960,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kv07mr",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ryan Laurel",
+                  "date": "2026-08-24 13:15",
+                  "text": "Colvin's picked up the center console Friday, 8/21"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "37096c993a29d491a8c621440518a2b31e58cef53e742fd27b64634297be8390"
+              "content_hash": "ea55d8dc41e520a032549b095ae1d521530f36e7313df2e087e349bcd8fe2461"
             }
           ]
         }
@@ -2105,5 +2128,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-29T04:48:20Z"
+  "generated_at": "2026-08-29T05:11:06Z"
 }
