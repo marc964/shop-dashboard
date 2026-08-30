@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T10:36:04.871381Z",
+  "updated_at": "2026-08-30T10:50:27.435610Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1656,15 +1656,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -2440,5 +2434,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-30T10:34:45Z"
+  "generated_at": "2026-08-30T10:48:49Z"
 }
