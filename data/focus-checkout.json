@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T20:36:07.002436Z",
+  "updated_at": "2026-08-30T20:50:07.140672Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -746,10 +746,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-27 23:33",
                   "text": "Repeated Claudes temperature consistant trial, posted for analysis. Reviewed logs in the AEM format and trimmed down two that best highlighted the issue, took screen shots and drafted a analysis request email to AEM. Included vehicle specs and attached the current EEPROM settings for the motor. Sent email off to AEM."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-30 20:38",
+                  "text": "Reviewed Slack and Claude's recommendation. Tested the \"Aggressive\" tune in sport mode first. It's some what flat in the highway entering speed but completely eliminates the surprising boost. Posted to Slack, left tune in. Went for a final test drive with Jordan in eco mode to verify the bus wasn't too slow now. Organized all my trial notes more clearly for future pickup."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "a979194162439cf711f2ca97ca7b926dc3279dc2b9811ce985ad70e1b5080bd9"
+              "content_hash": "4bab38a06d8fe57dd8a672367bc41ba75206157b79a685c8b3113ab5c8bcf25c"
             }
           ]
         },
@@ -2209,10 +2214,20 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-28 20:49",
                   "text": "Checked CAN King for message from the heater. Uploaded the Newsong DBC that we have available.\n\nConfirmed no CAN messages at this time.\n\nConfirmed 12v and CAN still present at the Connector. Test show good.\n\nConnected second water heater as a test. Error still persists.\n\nUsing Raptor ECUMaster PMU 2 tab, enabled cabin heater output which is wired and programmed to enable both the cabin heater pump and cabin heater WPTC\n\nCommand on shows to work as intended CAbin pump turns on however CAN message age does not move from the 65335 number. Indicating that we are not receiving any CAN messages.\n\nRe terminated the connector to verify good terminals and connections inside the connector.\n\nAll errors persist.\n\nAll known settings in the VCU set correctly for cabin heater to be enabled.\n\nNext concern might be that the CAN messages the Heater is outputting are different than the messages we are expecting which is why it has a CAN message error.\n\nUnsure what the best method to test this would be. I did notice in CAN King. that it seemed like an extra message line pops up when the heater is enabled for the first time but that might be a red herring.\n\nAt this point I think I have reached my level of expertise in diag. Please advise. I can gather whatever material needed."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-30 20:42",
+                  "text": "Continued diag on the cabin heater. Figured out correct pinout & tested working."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-30 20:42",
+                  "text": "Reviewed all of Brandon's troubleshooting steps. No mistakes found."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f13960c8d80d8bc19d9f43d5081baf52ec7df9e5a5f5374f917bd0eba8dca121"
+              "content_hash": "3502443b2f16c1c581f1c06dad8e467c47e36a6aa1bac428f93eb4954019421f"
             }
           ]
         },
@@ -2440,5 +2455,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-30T20:34:35Z"
+  "generated_at": "2026-08-30T20:48:19Z"
 }
