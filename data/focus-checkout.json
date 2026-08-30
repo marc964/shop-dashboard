@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T09:36:21.376563Z",
+  "updated_at": "2026-08-30T09:50:19.621931Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1555,9 +1555,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4870",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:47",
+                  "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:53",
+                  "text": "IMG_1977.jpeg\nIMG_1976.jpeg\nIMG_1975.jpeg\nIMG_1974.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "2eb7d82d478185319af5bcef8a69c100305bc9c1968c83184286a5bd69c4847a"
+              "content_hash": "3fea4b22306c5163892b4a9fcf27abd5924045b2cf1aeb2bc794f86dc5ff1d7e"
             },
             {
               "id": "868kx4f7u",
@@ -1645,9 +1656,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:58",
+                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
+              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
             },
             {
               "id": "868hbnnhz",
@@ -1655,15 +1672,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:10",
-                  "text": "Need to start up vehicle first"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "0d97bba56867c59c573f2f9d2c5b7df75317410ba9a64117e7a2af5afdc062e7"
+              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
             },
             {
               "id": "868jwk0hy",
@@ -1702,20 +1713,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnfk6",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:07",
-                  "text": "Waiting on Marshall to design GUI mount. He is currently address more pressing matters to prevent stalled progress on other projects. This part is not needed to get vehicle driving."
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-11 02:07",
-                  "text": "talkIng with Alex and Marshal"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "9fa05385583c1ad91ae0539f09b79bab244c4bfe7862accd9096a3fd074a8ccd"
+              "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
             },
             {
               "id": "868ktqdv5",
@@ -2440,5 +2440,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-30T09:34:42Z"
+  "generated_at": "2026-08-30T09:48:41Z"
 }
