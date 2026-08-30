@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T04:43:07.550596Z",
+  "updated_at": "2026-08-30T04:51:15.670919Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -943,9 +943,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w1bc",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-06-18 21:33",
+                  "text": "Quote from Slack:\n\n\"ac is still super weird, turning on and ramping all the way up then cutting off. I know we've learned a lot about this since it was built. probably just tuning needed\""
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "bf14433c2abbed9f0e76c9e57522c1e44a1a12b5eacef017f9965e2d246d8e7a"
+              "content_hash": "be9918de2aed2d275d99a592d5842c09b674e7a4c30358236261c582c9bb8726"
             },
             {
               "id": "868krf65c",
@@ -953,9 +959,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:54",
+                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3ef609addaf0057936618acba3af357d19280540b63ae1e7d0f068966b6b0807"
+              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
             }
           ]
         },
@@ -968,9 +985,15 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kqcuv8",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Aharon Adams",
+                  "date": "2026-08-14 22:02",
+                  "text": "test driving after new settings"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "bd5103ecfa70e764a325a349c5617f7206e1966d2271b57d42ce93f29a00f865"
             }
           ]
         },
@@ -983,9 +1006,25 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868k2w2xp",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-07-27 21:26",
+                  "text": "Inspect and trial fit battery box lid.\nLid doesnt fit"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:01",
+                  "text": "Lid trial fit successfully\nCover inspected for damage\nLogo location measure for\nBorder taped out\nCenterline and height measured and marked\nSurface cleaned\nLetters planed, cut out and deburred\nLetters cleaned\nLord applied to letters and set in jig\nLetters tacked up, tape removed and jig removed"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-27 23:05",
+                  "text": "paste_4286cd45-0f3c-4e20-b9e2-82b2adeb5098.jpgpaste_2f609b28-1691-4d46-92d0-b7988be1d7fa.jpgpaste_de3cda5c-6236-430e-be19-f353fd999b97.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e1e5ac5ec632777ea9a6cf8c2b8764643a0e413d9159a9ddfcea829e46cf4ffc"
+              "content_hash": "ad413435c189e3067c06a237f34af7890c595f27b9bc353fd5445c63d0764f87"
             }
           ]
         },
@@ -1140,9 +1179,50 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868kfqd5y",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-24 18:20",
+                  "text": "Assisted Devin pulling fault info from cluster as requested by Peterson. Removed cluster assembly. Documented mounting, wiring & condition to share with Peterson."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-27 11:07",
+                  "text": "Instrument cluster ready for return to Peterson. Task on hold until it it returned to us."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-29 15:22",
+                  "text": "Plywood structure inside gauge pod is dry & brittle. Repairing damage with epoxy."
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-07-30 10:56",
+                  "text": "Gauges picked up by DHS for shipment 7/28"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 10:39",
+                  "text": "Estimated return shipping date is 8/11"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 14:01",
+                  "text": "Performed additional paint correction to cluster pod"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-27 10:35",
+                  "text": "Peterson says gauge has shipped. No tracking available yet ETA TBD"
+                },
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-28 15:59",
+                  "text": "Receive, unpack & document gauge cluster condition. Noted KW gauge glass scratched, all other glass filthy & some sort of residue on faceplate. Cleaned glass & faceplate. Installed cluster. Drilled new mounting holes for switch plates where I repaired the wood and fit these on the bench. Installed surround pod, vents & switch groups"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "016cc97960d8447a32f9465e38e2109de00c1ef097d2abad507df7eae4734a31"
+              "content_hash": "87f501de35d5676f6a4ce4c489250af0831635415ce199b27fad3b12fc26bb2e"
             },
             {
               "id": "868km7t9d",
@@ -1150,9 +1230,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             }
           ]
         },
@@ -1165,9 +1251,86 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
             }
           ]
         }
@@ -1862,5 +2025,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-30T04:41:37Z"
+  "generated_at": "2026-08-30T04:49:40Z"
 }
