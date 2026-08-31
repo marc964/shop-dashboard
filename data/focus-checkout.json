@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T14:17:13.630522Z",
+  "updated_at": "2026-08-31T14:32:51.218041Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,7 +80,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 3
+        "open_tasks": 4
       },
       "assignees": [
         {
@@ -177,6 +177,21 @@
                 }
               ],
               "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868kyr7ha",
+              "name": "Install rear bumper",
+              "status": "Open",
+              "list": "Chuter 62 Healey",
+              "url": "https://app.clickup.com/t/868kyr7ha",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "03fcd17a6446c0bfe06dc801a10216b4d255dad94e5d1ef92234d49834c76129"
             }
           ]
         },
@@ -1697,20 +1712,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868jwk0hy",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 02:56",
-                  "text": "tested heater\nfilled after startup\nno leaks\nneed some programming"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:55",
-                  "text": "IMG_1980.jpeg\nIMG_1979.jpeg\nIMG_1978.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "b095ac9d459d574e94c25ee0714bb0f649ba2f8f2f61ecf3a9dfdab177e04f44"
+              "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
             },
             {
               "id": "868hbmvcq",
@@ -2439,5 +2443,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T14:15:02Z"
+  "generated_at": "2026-08-31T14:30:48Z"
 }
