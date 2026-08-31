@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 162.8,
-      "pct_of_total": 12.5,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -66,7 +66,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 107.8,
-      "pct_of_total": 8.3,
+      "pct_of_total": 8.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -117,7 +117,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 98.2,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -176,7 +176,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 93.0,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Steering",
@@ -223,7 +223,7 @@
     {
       "project": "Jaffe 86 190E",
       "total_hours": 92.0,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Charging",
@@ -423,7 +423,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 33.2,
-      "pct_of_total": 2.6,
+      "pct_of_total": 2.5,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -448,48 +448,44 @@
       ]
     },
     {
-      "project": "Kelly 63 Corvette",
+      "project": "Hopkins 64 Silver Cloud",
       "total_hours": 29.0,
       "pct_of_total": 2.2,
       "tasks": [
         {
-          "task": "Steering",
-          "hours": 8.5
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 8.0
-        },
-        {
-          "task": "HVAC",
-          "hours": 7.0
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 5.2
+          "task": "Combustion Drivetrain",
+          "hours": 23.5
         },
         {
           "task": "Brakes",
-          "hours": 0.2
+          "hours": 3.0
+        },
+        {
+          "task": "Inspection",
+          "hours": 2.0
+        },
+        {
+          "task": "Scanning",
+          "hours": 0.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 213.2,
+    "total_hours": 214.2,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.27,
+    "avg_per_person_per_day": 1.28,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 83.0
+        "hours": 83.5
       },
       {
         "label": "Shop Meetings",
-        "hours": 75.2
+        "hours": 75.8
       },
       {
         "label": "Personal Meetings",
@@ -585,6 +581,21 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 7.0,
+      "pct_of_total": 0.5,
+      "tasks": [
+        {
+          "task": "Installation - Extra",
+          "hours": 5.0
+        },
+        {
+          "task": "General",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Product Development",
       "total_hours": 6.0,
       "pct_of_total": 0.5,
@@ -592,17 +603,6 @@
         {
           "task": "Manufacturing - Product",
           "hours": 6.0
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 5.0,
-      "pct_of_total": 0.4,
-      "tasks": [
-        {
-          "task": "Installation - Extra",
-          "hours": 5.0
         }
       ]
     },
@@ -630,10 +630,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 917.8,
-    "non_billable_hours": 381.0,
+    "billable_hours": 924.8,
+    "non_billable_hours": 384.0,
     "pto_hours": 15.0,
-    "total_hours": 1298.8
+    "total_hours": 1308.8
   },
-  "generated_at": "2026-08-31T19:19:55Z"
+  "generated_at": "2026-08-31T19:35:25Z"
 }
