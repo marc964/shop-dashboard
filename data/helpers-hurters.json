@@ -116,8 +116,8 @@
     },
     {
       "project": "Warke 61 Eldorado",
-      "total_hours": 96.2,
-      "pct_of_total": 7.5,
+      "total_hours": 98.2,
+      "pct_of_total": 7.7,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -148,6 +148,10 @@
           "hours": 5.0
         },
         {
+          "task": "HVAC",
+          "hours": 4.2
+        },
+        {
           "task": "Engineering - Core",
           "hours": 4.0
         },
@@ -164,10 +168,6 @@
           "hours": 2.2
         },
         {
-          "task": "HVAC",
-          "hours": 2.2
-        },
-        {
           "task": "Manufacturing - Support",
           "hours": 1.0
         }
@@ -176,7 +176,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 93.0,
-      "pct_of_total": 7.3,
+      "pct_of_total": 7.2,
       "tasks": [
         {
           "task": "Steering",
@@ -626,10 +626,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 903.0,
+    "billable_hours": 905.0,
     "non_billable_hours": 378.0,
     "pto_hours": 15.0,
-    "total_hours": 1281.0
+    "total_hours": 1283.0
   },
-  "generated_at": "2026-08-31T11:48:34Z"
+  "generated_at": "2026-08-31T12:20:26Z"
 }
