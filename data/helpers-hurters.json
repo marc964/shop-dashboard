@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 162.8,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -289,7 +289,7 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 49.2,
+      "total_hours": 50.0,
       "pct_of_total": 3.8,
       "tasks": [
         {
@@ -303,6 +303,10 @@
         {
           "task": "Vehicle Control",
           "hours": 6.0
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 0.8
         }
       ]
     },
@@ -355,8 +359,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 44.5,
-      "pct_of_total": 3.4,
+      "total_hours": 46.5,
+      "pct_of_total": 3.6,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -371,12 +375,12 @@
           "hours": 8.0
         },
         {
-          "task": "Wiring - OEM",
-          "hours": 2.5
+          "task": "Manufacturing - Core",
+          "hours": 4.2
         },
         {
-          "task": "Manufacturing - Core",
-          "hours": 2.2
+          "task": "Wiring - OEM",
+          "hours": 2.5
         },
         {
           "task": "Scanning",
@@ -472,24 +476,24 @@
     }
   ],
   "shop_work": {
-    "total_hours": 212.0,
+    "total_hours": 213.2,
     "pct_of_total": 16.4,
-    "avg_per_person_per_day": 1.26,
+    "avg_per_person_per_day": 1.27,
     "flagged": true,
     "tech_count": 8,
     "working_days": 21,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 82.5
+        "hours": 83.0
       },
       {
         "label": "Shop Meetings",
-        "hours": 74.8
+        "hours": 75.2
       },
       {
         "label": "Personal Meetings",
-        "hours": 24.2
+        "hours": 24.5
       },
       {
         "label": "Organization",
@@ -509,7 +513,7 @@
     {
       "project": "Preheim 72 Blazer",
       "total_hours": 46.0,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.5,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -520,7 +524,7 @@
     {
       "project": "Ivanhoe 65 Alfa",
       "total_hours": 39.5,
-      "pct_of_total": 3.1,
+      "pct_of_total": 3.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -626,10 +630,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 915.0,
-    "non_billable_hours": 379.8,
+    "billable_hours": 917.8,
+    "non_billable_hours": 381.0,
     "pto_hours": 15.0,
-    "total_hours": 1294.8
+    "total_hours": 1298.8
   },
-  "generated_at": "2026-08-31T19:09:27Z"
+  "generated_at": "2026-08-31T19:19:55Z"
 }
