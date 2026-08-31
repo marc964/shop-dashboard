@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T20:29:04.595143Z",
+  "updated_at": "2026-08-31T20:39:49.721398Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1606,9 +1606,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4f7u",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-31 20:37",
+                  "text": "test drove truck\nmade my list and sent to Alex\nfound several issues we need to take care of"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
+              "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
             }
           ]
         },
@@ -2458,5 +2464,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T20:26:51Z"
+  "generated_at": "2026-08-31T20:37:45Z"
 }
