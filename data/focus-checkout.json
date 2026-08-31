@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T04:52:21.928817Z",
+  "updated_at": "2026-08-31T05:15:17.746211Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1256,9 +1256,86 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868jkmucy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-13 04:47",
+                  "text": "Walked Andrew through the vehicle requirements sheet and filled in all the information possible. Went to flash inverter firmware, cable wouldn't connect physically, looks like the wrong gender. Made quick cable changer. Connected to inverter, pulled EEPROM backups for the main settings, RTD calibrations, and control loop settings. Flashed firmware 6533 and started on the EEPROM combing. Had Claude look at the EEPROM compare tool since it wasn't working for some reason. Compared the Ampere, Moment, and Stock W EEPROM files and decided on an updated blend with weight towards the Ampere settings, made a Master EEPROM column in the startup sheet to permanently capture these. Flashed and backed up everything. Moved on to the VCU, flashed the latest firmware, transfered settinngs from the vehicle requirements sheet and noted with comments where it was lackinng / not super clear. Transfered clear settings to the VCU and marked ones that needed to be reviewed at a later date. Upgraded the PMU's to the latest firmware and flashed the Preheim calibration, which matches closest. Later this week when Preheim HVAC is finished it should be considered to re-flash that program over to here if zero changes have been made to McDonough. Moved over to OBD port which is not reading the PMU CAN but was able to use the PMU checkout box to monitor current while Andrew forced on all channels controlled by the VCU. Started to hookup HV and ran into an HVIL issue, narrowed it down to an IMD box which checked good earlier. Either it's a different IMD box that was actually installed in the vehicle or the vehicle harness has an issue."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-14 02:57",
+                  "text": "Measured CAN network resistances and found CAN3 at 105 Ohms. Temporarily added a resistor to CAN3 to correct the termination. Found PMU CAN1 was flipped high and low causing the laptop to not connect, had brandon fix that. Verified HVIL now satisfied with Daves fix, plugged in the rest of the HV acessories. Enabled HV from the VCU and watched precharge. Verified L2 charging and DCDC output and marked off in the sheet. Discovered bug where PMU was sending output status 1 for all channels, corrected. Will need to fix on three other vehicles. Monitored VCU while testing brake switch. Ended up overriding from the VCU to move on. Calibrated the resolver and continued testing brakes with Dave. Took the vehicle for a test drive and updated the punch card."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-05-19 23:27",
+                  "text": "Drew up HVAC summary diagram for understanding of which control needs to be configured where. Corrected incorrect VCU options marked off as done during rush last week. Verified all input switches making it to the right controller and all outputs switching on the correct device. Watched AC cycles with Dave & adjusted setpoints per his suggestion. Tested cabin heat, drawing 2kW and internally shutting off at 70C, might be a blend door problem that is not removing the heat from the heater core."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-07-24 22:19",
+                  "text": "Removed the temp temperature logger from Preheim and wired up some thermistors to take the place of the permanent ones in the battery box. Adjusted the logger setup slightly and setup to log temps on Hastert out in the sun. Temperature results at 5pm:\n\nTop of Dash: 32.9 C\nTop of Battery Box: 36.9 C\nSide of Battery Box: 34.6 C\nSide of Battery Box (In the air): 41.8 C\n\nLooks like the air around the box is significantly hotter, test might not have ran long enough. Should re-try on the Lotus."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-06 21:15",
+                  "text": "Picked up on startup. Scanned the sheet to get an overview of what's left. Changed the inverter setting for breakspeed to match the W type motor. Setup second GitHub account with the email Andrew used. Pulled the latest VCU firmware and release notes. Hooked up to vehicle to flash and the passenger window seemed to be stalling. Shut off vehicle and discussed with Dave."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-07 22:31",
+                  "text": "Ran through the checkout sheet filling in the items remaining section. Flashed the latest AWD firmware and verified options. Left on charge the rest of the day and monitored."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-08-20 22:41",
+                  "text": "Pedal Launch Gain adjusted from 70 -> 50"
+                }
+              ],
+              "checklist_items": [
+                {
+                  "checklist": "Checklist",
+                  "name": "Address CAN3 Termination issue (currently 110 ohms)",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Add wifi credentials",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Enter vehicle weight",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Update GUI to lastest version",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify gauges after reinstallation",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Test fast charging",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Perform overnight charge",
+                  "resolved": false
+                },
+                {
+                  "checklist": "Checklist",
+                  "name": "Verify inverter break speed",
+                  "resolved": false
+                }
+              ],
+              "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
             }
           ]
         }
@@ -1266,41 +1343,12 @@
     },
     {
       "owner": "Miner",
-      "vehicle": {
-        "owner": "Miner",
-        "year": 1995,
-        "color": "Green",
-        "make": "Porsche",
-        "model": "993",
-        "status": "Testing",
-        "checkout": 90.1,
-        "sub_metrics": [],
-        "system": "AEM"
-      },
+      "vehicle": null,
       "clickup_match": {
-        "found": true,
-        "matched_lists": [
-          "Miner 95 911"
-        ],
-        "open_tasks": 1
+        "found": false,
+        "error": "no_vehicle"
       },
-      "assignees": [
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868krf9gv",
-              "name": "Checkout vehicle",
-              "status": "Open",
-              "list": "Miner 95 911",
-              "url": "https://app.clickup.com/t/868krf9gv",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            }
-          ]
-        }
-      ]
+      "assignees": []
     },
     {
       "owner": "Preheim",
@@ -1953,5 +2001,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T04:50:43Z"
+  "generated_at": "2026-08-31T05:13:39Z"
 }
