@@ -66,7 +66,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 107.8,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -355,9 +355,13 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 40.5,
-      "pct_of_total": 3.1,
+      "total_hours": 44.5,
+      "pct_of_total": 3.4,
       "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 10.5
+        },
         {
           "task": "Manufacturing - Product",
           "hours": 10.2
@@ -365,10 +369,6 @@
         {
           "task": "Suspension",
           "hours": 8.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 6.5
         },
         {
           "task": "Wiring - OEM",
@@ -626,10 +626,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 910.0,
+    "billable_hours": 915.0,
     "non_billable_hours": 379.8,
     "pto_hours": 15.0,
-    "total_hours": 1289.8
+    "total_hours": 1294.8
   },
-  "generated_at": "2026-08-31T18:48:12Z"
+  "generated_at": "2026-08-31T19:09:27Z"
 }
