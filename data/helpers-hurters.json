@@ -2,7 +2,7 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 162.8,
+      "total_hours": 164.2,
       "pct_of_total": 12.4,
       "tasks": [
         {
@@ -23,7 +23,7 @@
         },
         {
           "task": "Interior",
-          "hours": 14.8
+          "hours": 16.2
         },
         {
           "task": "HVAC",
@@ -117,7 +117,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 98.2,
-      "pct_of_total": 7.5,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Wiring - High Voltage",
@@ -176,7 +176,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 93.0,
-      "pct_of_total": 7.1,
+      "pct_of_total": 7.0,
       "tasks": [
         {
           "task": "Steering",
@@ -313,7 +313,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 49.2,
-      "pct_of_total": 3.8,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -472,7 +472,7 @@
     }
   ],
   "shop_work": {
-    "total_hours": 216.2,
+    "total_hours": 217.5,
     "pct_of_total": 16.5,
     "avg_per_person_per_day": 1.29,
     "flagged": true,
@@ -481,11 +481,11 @@
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 84.5
+        "hours": 85.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 75.8
+        "hours": 76.2
       },
       {
         "label": "Personal Meetings",
@@ -630,10 +630,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 926.2,
-    "non_billable_hours": 386.0,
+    "billable_hours": 934.5,
+    "non_billable_hours": 387.2,
     "pto_hours": 15.0,
-    "total_hours": 1312.2
+    "total_hours": 1321.8
   },
-  "generated_at": "2026-08-31T21:11:11Z"
+  "generated_at": "2026-08-31T21:23:27Z"
 }
