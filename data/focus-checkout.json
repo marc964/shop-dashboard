@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T21:50:28.980398Z",
+  "updated_at": "2026-08-31T22:13:22.451474Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1680,7 +1680,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 39
+        "open_tasks": 38
       },
       "assignees": [
         {
@@ -1718,9 +1718,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868jwk0hy",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 02:56",
+                  "text": "tested heater\nfilled after startup\nno leaks\nneed some programming"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-27 12:55",
+                  "text": "IMG_1980.jpeg\nIMG_1979.jpeg\nIMG_1978.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
+              "content_hash": "b095ac9d459d574e94c25ee0714bb0f649ba2f8f2f61ecf3a9dfdab177e04f44"
             },
             {
               "id": "868hbmvcq",
@@ -1804,32 +1815,6 @@
               ],
               "checklist_items": [],
               "content_hash": "7aed0b0a90ab005c3b545e413e983f7b65e9fa957144cf8e360e612e407caf0f"
-            },
-            {
-              "id": "868ktqj7a",
-              "name": "Install steering wheel",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ktqj7a",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:35",
-                  "text": "steering wheel ordered"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:55",
-                  "text": "steering wheel installed"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:56",
-                  "text": "IMG_1968.jpeg\nIMG_1967.jpeg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "bfea0b4fb7ec87d1d9d05f74a8933767f0e5a586e62111f328b48962ac89ddb8"
             },
             {
               "id": "868gaza16",
@@ -2464,5 +2449,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T21:48:36Z"
+  "generated_at": "2026-08-31T22:11:28Z"
 }
