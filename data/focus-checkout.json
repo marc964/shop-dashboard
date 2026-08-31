@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T13:32:10.687693Z",
+  "updated_at": "2026-08-31T13:42:35.607351Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1649,7 +1649,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 40
+        "open_tasks": 39
       },
       "assignees": [
         {
@@ -1677,9 +1677,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+              "content_hash": "0d97bba56867c59c573f2f9d2c5b7df75317410ba9a64117e7a2af5afdc062e7"
             },
             {
               "id": "868jwk0hy",
@@ -2253,32 +2259,6 @@
           ]
         },
         {
-          "name": "Justin Landry",
-          "tasks": [
-            {
-              "id": "868kw2fz4",
-              "name": "Troubleshoot Product - Battery Box",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kw2fz4",
-              "comments": [
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-24 19:34",
-                  "text": "Helped diagnose battery box 1 590 D8 box from ritchie blazer.  we determined that due to the voltages we were seeing that an isolation fault was occurring in the 8th module of the box between cells 5 and 6. disassembled the box and removed bus bars from module 8 and confirmed the readings had stayed the same. the issue i have now is that the modules are glued to the chill plates and so far the module doesn't want to release.  will return in the morning for another attempt and if it gives too much trouble we are going to make another chill plate and move on."
-                },
-                {
-                  "author": "Justin Landry",
-                  "date": "2026-08-25 19:45",
-                  "text": "was able to separate the bad module from the chill plate with some crafty prying and shims. assessed the module and found the voltage leak has disappeared since the module was off the chill plate. assembled the 4 stack with a new matching voltage module and rebuilt the box for brandon to test. test complete i re bled the coolant to check for leaks then sealed boxes with the shells. back to billy for install."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "511c51ce99bf9a803ce47f51c9b82c12263aef70f4a7fdf9049c78f5471c5cc7"
-            }
-          ]
-        },
-        {
           "name": "Ryan Laurel",
           "tasks": [
             {
@@ -2455,5 +2435,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T13:30:09Z"
+  "generated_at": "2026-08-31T13:41:04Z"
 }
