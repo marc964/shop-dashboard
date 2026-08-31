@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T20:50:08.588785Z",
+  "updated_at": "2026-08-31T21:13:16.925085Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2066,16 +2066,6 @@
               "comments": [
                 {
                   "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:25",
-                  "text": "Dash upper pad replaced"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-01 16:26",
-                  "text": "Door panels unboxed and test fit"
-                },
-                {
-                  "author": "Ben Drinkard",
                   "date": "2026-08-01 16:30",
                   "text": "1000014098.jpg1000014099.jpg"
                 },
@@ -2188,10 +2178,20 @@
                   "author": "Ben Drinkard",
                   "date": "2026-08-28 22:09",
                   "text": "Seat back covers installed minus 2 screws"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "paste_08f12c38-c910-492b-8ef2-3f8d8cea693a.jpgpaste_fcb5eb37-1c4e-4e5b-8a1b-1e210c83bde3.jpgpaste_6c127a07-1df7-4ba8-867a-a5db75e2d26f.jpgpaste_494323a3-d630-47c2-964d-5d61254ba5ef.jpgpaste_50273c51-8aa8-4383-bea0-5858745d44f4.jpgpaste_3436e4c7-b846-4da8-b10e-85391b8afbb7.jpgpaste_d52a80df-80c0-4901-b369-907a71481184.jpgpaste_cffdc6c3-1246-4bc1-8943-0f9f40dc6a25.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-31 21:06",
+                  "text": "Rear bench seat armrest fab work finished\nArm bars mocked up\nLocation marked\nBrackets and arm bar prepped & welded out\nBrackets w/ Billy for PC run"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "82161dd15959e2a405d0672e731a48c5eeebad174fe5d3ad46d25ff18c7b4850"
+              "content_hash": "3fcfb7ba2fed962022aa88e46b46e3e906e00258eaaa0a806ad8901c206e7aa6"
             },
             {
               "id": "868gaza9t",
@@ -2464,5 +2464,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T20:48:10Z"
+  "generated_at": "2026-08-31T21:11:11Z"
 }
