@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T16:14:49.095762Z",
+  "updated_at": "2026-09-01T16:48:33.804255Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -274,7 +274,7 @@
         "matched_lists": [
           "Connolly 58 220S"
         ],
-        "open_tasks": 1
+        "open_tasks": 2
       },
       "assignees": [
         {
@@ -436,6 +436,21 @@
                 }
               ],
               "content_hash": "d2949e9dbcc48579513f55ff2a564e22cd3c150e69545a82fbcefcb9537fe3b3"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kzdxnk",
+              "name": "Enable PMU CAN status messages",
+              "status": "Open",
+              "list": "Connolly 58 220S",
+              "url": "https://app.clickup.com/t/868kzdxnk",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3b9a3a8ec6175ea649fba96181ff3fb5f0a7d1579e6fab69ce6e3991a0f8251f"
             }
           ]
         }
@@ -885,12 +900,22 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 7
+        "open_tasks": 9
       },
       "assignees": [
         {
           "name": "Noah Sharif",
           "tasks": [
+            {
+              "id": "868kzdznk",
+              "name": "Add CAN 1 to PMU's",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kzdznk",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "e3663be344bee05480cef5926a8e3e59c76b5895346a73e4e0e3aa1684b56e95"
+            },
             {
               "id": "868k2w2gy",
               "name": "Install front battery lid",
@@ -968,10 +993,56 @@
                   "author": "Noah Sharif",
                   "date": "2026-08-28 20:33",
                   "text": "paste_4545af43-412d-48ef-98e8-711128eca13d.jpgpaste_e4915fb6-68ba-451f-85b1-d7602bb53f52.jpgpaste_6a94db28-b295-4d4f-a0e7-a70c1e26cedc.jpgpaste_55e4bdbf-304a-4c44-a338-221292cf4f23.jpgpaste_e878ac98-1b7c-4875-a3cc-67f41b0a490d.jpgpaste_37cb4507-e89e-4d08-988d-2d1cba8b8139.jpgpaste_389d0a1b-18a2-4dde-8189-33e1b8a760b5.jpgpaste_51997b53-d9c6-4b41-aa8a-012d789579b3.jpg"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 16:25",
+                  "text": "Reinstalled the steering column, Tighten all hardware on the shaft itself. It feels better then before, but still clicks a little from telescoping D-shafts. I have gotten this et of hardware the best i can, if we want it feeling better, then we will need to replace basically the enter system to a power rack from flaming river, and then give it an epas power steering pump."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 16:28",
+                  "text": "paste_a7166cd7-5ac8-404c-b241-697c1dec45e4.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "199df02e27c5bd6811c385dd6610f8472a08e00b0c141d468067c99a765b789a"
+              "content_hash": "25bbbf7c1a92bd65c47d6faf2cae88952288fc456f33995c210216049a2a4630"
+            }
+          ]
+        },
+        {
+          "name": "Devin DuMont",
+          "tasks": [
+            {
+              "id": "868kzdyam",
+              "name": "Enable PMU CAN status messages",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868kzdyam",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "3b9a3a8ec6175ea649fba96181ff3fb5f0a7d1579e6fab69ce6e3991a0f8251f"
+            },
+            {
+              "id": "868krf65c",
+              "name": "Troubleshoot inverter issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868krf65c",
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-14 21:44",
+                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-08-17 22:54",
+                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
             }
           ]
         },
@@ -1050,32 +1121,6 @@
               ],
               "checklist_items": [],
               "content_hash": "c6d3c6c27111bdb45beb1db9a9da9e5ed1e618af55e246b25b2a515d581840c4"
-            }
-          ]
-        },
-        {
-          "name": "Devin DuMont",
-          "tasks": [
-            {
-              "id": "868krf65c",
-              "name": "Troubleshoot inverter issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868krf65c",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-14 21:44",
-                  "text": "Reviewed EEPROM settings, turned off self sense, made backups. Went for a test drive with Aharon and took logs for analysis."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-17 22:54",
-                  "text": "Re-verified inverter EEPROM from backups. Tested Lee for the high RPM misfire issue, didn't notice it but did observe a much slower pulsing. Re-tested Kelly for the high RPM misfire and verified consistency. Took backups again of EEPROM for both vehicles and re-verified self sense was off in both vehicles."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
             }
           ]
         }
@@ -1889,55 +1934,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868k6ttbf",
-              "comments": [
-                {
-                  "author": "Alex Noonan",
-                  "date": "2026-07-27 21:11",
-                  "text": "In conversations with customer on this topic. Setup needs to be confirmed before we are able to proceed."
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-03 22:06",
-                  "text": "Audio system has been spec'd and ordered.\nJL C2 components for front and rear 6\" & 6.5\"\nJL W3 slim for lows\nJL RD900-5 as amplifier"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-06 20:19",
-                  "text": "Audio arrived minus fwd speaker spacers\nTook measurements and sketched box layout for subwoofer mounting under rear bench seat\nMocked up front speakers\nMeasured for amplifier mount location"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "Headunit installed for mockup and wiring"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:19",
-                  "text": "1000014708.jpg1000014709.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-19 21:31",
-                  "text": "Ordered RCAs for Ritchie\nBuilt audio subharness\nChose amplifier position"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-20 19:27",
-                  "text": "Picked up RCAs for Ritchie Audio"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "paste_04dbeca5-398e-4049-aa83-1a092e02b518.jpgpaste_362d3eb0-7a0c-4c7e-ab58-032a685ebabf.jpgpaste_632576d7-0d34-46a1-8038-c5e8451d3f68.jpgpaste_6dbf9016-5284-452c-aad0-21bbe5c2bb39.jpgpaste_5b91a4b5-f1f6-4d25-9ce2-61b71425cb93.jpgpaste_956fe9de-345a-4a94-9d44-e604e46cbf5a.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-25 00:53",
-                  "text": "FWD speaker spacers received\nSpeakers and spacers installed in kick panels\nAmp mounting hardware position marked and nutserts installed\nAmp mocked up\nSpeaker wiring ran and secured\nRCAs ran and secured\nRemote wire ran and secured\nWiring to amplifier cut to length\nCarpet reinstalled\nHoles and slots in carpet made for wiring and bolt pass throughs\nAmplifier installed\nAmplifier wiring installed minus power and ground\nKick panels installed and wiring to fwd speakers finished\nKick panels tapped for retainment hardware and installed"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f2f658b6d8773ae0265d848d11ead009548a5950c4b783803dc470b405fd8c6e"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868kpg6th",
@@ -2167,10 +2166,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-08-30 20:42",
                   "text": "Reviewed all of Brandon's troubleshooting steps. No mistakes found."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-01 16:40",
+                  "text": "image.png\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "3502443b2f16c1c581f1c06dad8e467c47e36a6aa1bac428f93eb4954019421f"
+              "content_hash": "1bbeea46f4134714c2cca11471fad003e4bb66806448a1f6163dedabc43629ea"
             }
           ]
         },
@@ -2391,5 +2395,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T16:13:11Z"
+  "generated_at": "2026-09-01T16:46:31Z"
 }
