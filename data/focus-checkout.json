@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T13:41:15.157759Z",
+  "updated_at": "2026-09-01T13:50:39.731349Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2314,7 +2314,7 @@
         "matched_lists": [
           "Teague 62 Jaguar"
         ],
-        "open_tasks": 17
+        "open_tasks": 18
       },
       "assignees": [
         {
@@ -2339,6 +2339,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "660d5d6ca681f665bcf4d9c15314bf8bfa08105e09f99c9809d6d4ba2fad2219"
+            },
+            {
+              "id": "868kzaa33",
+              "name": "Install seat bealts",
+              "status": "Open",
+              "list": "Teague 62 Jaguar",
+              "url": "https://app.clickup.com/t/868kzaa33",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "0a5118c30cdc8addbdc5fd31becaac885d66fcff8d3f565955746e0c38095252"
             },
             {
               "id": "868j84xbd",
@@ -2385,5 +2395,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T13:39:32Z"
+  "generated_at": "2026-09-01T13:48:47Z"
 }
