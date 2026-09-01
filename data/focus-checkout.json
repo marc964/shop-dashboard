@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T05:14:49.286001Z",
+  "updated_at": "2026-09-01T05:29:46.703364Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1565,30 +1565,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-09 02:03",
-                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-20 19:41",
-                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-29 19:51",
-                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:54",
-                  "text": "cut the brackets for the truck\nmarked all the holes"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "08f71f419e8d8f08c0d6a7b263c43dedd96449c7222063e1bbe5c86535402b64"
+              "content_hash": "b531ef74fed559b9574c50066a678e58e6517dca10bf0cc03581c891c9218ea4"
             },
             {
               "id": "868kx4870",
@@ -1838,30 +1817,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kwwrc8",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:23",
-                  "text": "Driver door was removed from the truck and I started the dive into how deep the issue went.\nPrevious owner/builder ignored serious metal fatigue/cracking around the upper drivers door\nDoor mounting pad had bondo covering serious external and structural metal fatigue and failure. Multiple layers of metal cracking and seperation.\nDoor was removed\nBondo/filler removed\nDamage assessed on outer metal layer\nExternal layer cut away in areas where metal had failed\nFound considerable structural metal failure in inner door frame pads and supports\nMetal cut out and prepped for temporary tack up\nBrace made to bring the door pad back to proper location\nCracked seams tack welded to hold position\nRemoved metal pad was templated and cut\nReplacement metal was mocked up and trimmed to proper size then formed to factory contour\nAll structural cracks were ground out and tig welded back\nAll fractures were drilled out to prevent continued separation\nAll welds that were going to external layers on top ground smooth\nBare metal coated in weld-thru primer\nReplacement pad set in place and tacked up\nSeams were closed up and weldout is in progress (50% finished)\nDoor skin was covered with a wet towel to prevent paint damage and warpage during repair"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:27",
-                  "text": "paste_f5535d0b-dc8b-4e99-b917-6ab9849841ff.jpgpaste_f61f6b70-8c65-470d-8d09-5a1672e68840.jpgpaste_96d7e44c-7d10-4264-b289-8faa0200d487.jpgpaste_1b8567e3-a0a7-4e0a-81ff-6bf75bbb0982.jpgpaste_c582bdb2-7d51-4169-b6b4-88d4f5d840dc.jpgpaste_0518f8a7-cc14-4316-b539-082e3d66d627.jpgpaste_8beb1365-2c25-454c-882c-58e0fe1292a5.jpgpaste_4ccdc607-5e68-450c-884b-d0ccf1214fd5.jpgpaste_db623e2d-02bb-464d-b72b-50a662d1d61a.jpgpaste_ebee225d-f984-4345-87ae-349ce8d9ab6f.jpgpaste_4b2113bc-e854-4f70-818b-c85e3ff71f9d.jpgpaste_c030f83d-f9fc-453e-8430-546930cdb38c.jpgpaste_ecf39b4b-10bc-404a-817b-f8fa930f841f.jpgpaste_6b6999ab-0816-4cbb-bc01-b373ec2e4381.jpgpaste_bbe7b521-d340-4c2f-a486-ab8156236883.jpgpaste_10daef40-9d28-4bb7-ad01-713f6393ed83.jpgpaste_b05537b6-9f85-486d-b9dd-7445ebb8629a.jpgpaste_d58b6cb6-cc85-45fd-ae95-a8c586966bef.jpgpaste_95f6cd81-965e-4d65-aa7b-a493949d7a22.jpgpaste_b77a5839-fc89-4df2-83d4-8e502efb938e.jpgpaste_e2a02a17-41c7-4534-bf0a-4bf858828f02.jpgpaste_a28234d4-7858-4fda-9ee8-1a977e947ebb.jpgpaste_00aa2e10-1a9f-4b4b-9aba-21361882c960.jpgpaste_475aad33-f43c-4575-8b9b-80e03c92deec.jpgpaste_30cad4ed-bc0b-47b4-a28b-907c176d41e2.jpgpaste_2b1557ce-8e83-4b12-a0f4-365f94e4d3ac.jpgpaste_9642fc3c-5a6c-40ec-80d0-bb7c0be24b64.jpgpaste_d9202845-8a84-4859-b879-ee97d140f7fa.jpgpaste_fcd7a09a-a991-4191-8548-a53042d3ac02.jpgpaste_ad13dc17-8dac-4419-a628-fdcd1e2d46c7.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "paste_d9b63fb7-ae28-4c09-b4c0-deb9c5c27bf3.jpgpaste_40a69255-8304-4f27-9c60-71d037102d49.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "Welding complete\nMetal finishing complete"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "f2034a7dd6a5268a62f4dcbd4d9d05e22f5a53d8310c3e9512dfe883d670fa44"
+              "content_hash": "e6eb1500f3b49c4e9302ab71be4b84429b78deb2349cbc1783dca60a35dd87a2"
             },
             {
               "id": "868k6ttbf",
@@ -1914,40 +1872,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kxkdgh",
-              "comments": [
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:36",
-                  "text": "Started diag procedure.\nChecked 12v at the heater connector. Test shows good.\nChecked 12v switch functionality. Test shows goo d\nChecked gnd to chassis. Test show good.\nTest end to end CAN 3 Hi to OBD. Test shows good\nTest end to end CAN 3 Lo to OBD. Test shows good\nTest CAN to GND. Test shows good.\nUnless its terminal tension on the terminals themselves there doesnt seem to be any wiring problems.\nWas going to move to getting a CAN3 trace to check and see what messages were being sent and or received.\nAll the Diag cables were being used and this hasnt been the first time we ran into this.\nBuilt Ampere Diag cable for use.\nGot pulled off onto another task.\nWill need to continue this tomorrow."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-27 22:38",
-                  "text": "Tested a second battery heater and the same codes are present. Did not hook second heater up to HV this may have cause a false negative will re check tomorrow."
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-28 20:11",
-                  "text": "image.png"
-                },
-                {
-                  "author": "Brandon Beaman",
-                  "date": "2026-08-28 20:49",
-                  "text": "Checked CAN King for message from the heater. Uploaded the Newsong DBC that we have available.\n\nConfirmed no CAN messages at this time.\n\nConfirmed 12v and CAN still present at the Connector. Test show good.\n\nConnected second water heater as a test. Error still persists.\n\nUsing Raptor ECUMaster PMU 2 tab, enabled cabin heater output which is wired and programmed to enable both the cabin heater pump and cabin heater WPTC\n\nCommand on shows to work as intended CAbin pump turns on however CAN message age does not move from the 65335 number. Indicating that we are not receiving any CAN messages.\n\nRe terminated the connector to verify good terminals and connections inside the connector.\n\nAll errors persist.\n\nAll known settings in the VCU set correctly for cabin heater to be enabled.\n\nNext concern might be that the CAN messages the Heater is outputting are different than the messages we are expecting which is why it has a CAN message error.\n\nUnsure what the best method to test this would be. I did notice in CAN King. that it seemed like an extra message line pops up when the heater is enabled for the first time but that might be a red herring.\n\nAt this point I think I have reached my level of expertise in diag. Please advise. I can gather whatever material needed."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-30 20:42",
-                  "text": "Continued diag on the cabin heater. Figured out correct pinout & tested working."
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-30 20:42",
-                  "text": "Reviewed all of Brandon's troubleshooting steps. No mistakes found."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3502443b2f16c1c581f1c06dad8e467c47e36a6aa1bac428f93eb4954019421f"
+              "content_hash": "814eb89dd0858c898f455f37bd1e486c43726e9c43b6e1c67017deb429c5b51d"
             }
           ]
         },
@@ -1960,15 +1887,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kwm6px",
-              "comments": [
-                {
-                  "author": "Devin DuMont",
-                  "date": "2026-08-26 19:17",
-                  "text": "Re-tested Box #1 outside of the vehicle. Full pass from the Ampere test box, reading 50,000 kOhms from their IMD under all testing scenarios. Hooked up the Bender IMD and tried various contactor states, MSD or no, and probe locations. Determined with the box in full run configuration there is 18V from HV+ to case and 186V from HV- to case. Met with the team and discussed next steps. Re-flashed Host #2 to make it think it's a host #1 to gain contactor control. Verified checkout and IMD reading, nothing found from the Ampere auto test or various manual tests, reverted to correct configuration. Repeated again for box #3."
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2af5047224d413eec9baef150326b7b565bd025f431163ad634a7b2718338095"
+              "content_hash": "07e2def0d51027d9d5f38e228dec278ce06ed2d4a6f2dc3daa81aefd038320b9"
             }
           ]
         },
@@ -2158,5 +2079,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T05:13:12Z"
+  "generated_at": "2026-09-01T05:28:18Z"
 }
