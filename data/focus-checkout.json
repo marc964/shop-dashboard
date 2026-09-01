@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T18:17:56.741075Z",
+  "updated_at": "2026-09-01T18:40:55.969373Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -2035,10 +2035,15 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-01 16:40",
                   "text": "image.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-01 18:31",
+                  "text": "Meeting with Marc, Alex and Devin\nConducted a couple more tests this morning after the meeting.\nComparing serial numbers we found that vehicles with working cabin heaters show a \"date\" of older than 2026.\nThe impala has one from 2023 and the Battery heater on Ritchie is from 2024. The third test unit we know of is Richardsons heater which is also labeled 2024.\nAll 3 units prior to 2026 work as intended.\nAll 3 units labeled 2026 show no response when it comes to CAN messages and act as if they are non operational.\n\n---\n\nThis Message is from Devin in Slack\n\nSuccess with the cabin heater! I re-verified what Brandon tested, perhaps a little more in some spots and a little less in other spots. I didn't use the VCU at all to eliminate variables. I built a small bench harness with an isolated CAN network to send and receive messages from my laptop. Here's some notes from the process. @channel\n\nMake: Webasto? (Not printed on unit)\nSerial: L580620260318005\nSerial: L580620260318010\nSerial: L580620260318002\nPinout:\n\u00a0\u00a0\u00a0\u00a01 - Not Connected\n\u00a0\u00a0\u00a0\u00a02 - CAN High\n\u00a0\u00a0\u00a0\u00a03 - CAN Low\n\u00a0\u00a0\u00a0\u00a04 - 12V_Ground\n\u00a0\u00a0\u00a0\u00a05 - 12V_Power\n\u00a0\u00a0\u00a0\u00a06 - Not Connected\nWhen powered the unit draws ~30mA for a moment then drops to 0mA.\nDoes the unit transmit a CAN message after boot?\n\u00a0\u00a0\u00a0\u00a0Seems like it should, the DBC outlines 2 status and 1 command message.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0BO_ 1360 Transmit: 8 PTC\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0BO_ 1362 PTC_Hardware_Version: 8 PTC\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0BO_ 1361 Command: 8 VCU\nDoes the unit require CAN messages before LV power?\n\u00a0\u00a0\u00a0\u00a0Tested, still no response\nDoes the unit require LV power before HV power?\n\u00a0\u00a0\u00a0\u00a0Tested, still no response\nDoes the unit require HV power before LV power?\n\u00a0\u00a0\u00a0\u00a0Tested, still no response\nDoes the unit require coolant present to boot or enable?\n\u00a0\u00a0\u00a0\u00a0Has 75% coolant fill, still no boot.\nDoes the unit require coolant flow to boot or enable?\n\u00a0\u00a0\u00a0\u00a0Didn't test on bench\nDoes the unit require HVIL connected to boot?\n\u00a0\u00a0\u00a0\u00a0Tested, still no response\nIs there continuity from the ground lug to 12V_Ground (Pin 4)?\n\u00a0\u00a0\u00a0\u00a0No\n\nThe additional CAN message Brandon saw is likely 0x551 which is the heater command message. This means the VCU is configured correctly, at least enough to send a message. There could still be other fine adjustments that need to be made for process controls.\n\nIs the wiring for the 600V unit the same?\n\u00a0\u00a0\u00a0\u00a0No\nDoes the unit require a hardware enable?\n\u00a0\u00a0\u00a0\u00a0Not sure\nIs HV the correct voltage and polarity at the unit?\n\u00a0\u00a0\u00a0\u00a0Yes\nDoes 12V_GND (Pin 4) connect to the case of the unit?\n\u00a0\u00a0\u00a0\u00a0No\nAre the LV terminals wallered out and not connecting?\n\u00a0\u00a0\u00a0\u00a0Not likely\nAre the LV terminals not fully seated in the housing?\n\u00a0\u00a0\u00a0\u00a0No, tested full pinout without a LV connector housing.\nDo all the units behave the same?\n\u00a0\u00a0\u00a0\u00a0Yes, very unlikely that three are bad.\n\nAt this point there's a batch of defective units or we have the wiring wrong.\nCan you measure TVS diodes across CAN_High and CAN_Low?\n\u00a0\u00a0\u00a0\u00a0No, but there is a set of diodes across Pin_1 and Pin_2\nIs there a power supply electrolytic capacitor across any pins?\n\u00a0\u00a0\u00a0\u00a0Yes, Pin_5 and Pin_6 have 1.2 \u00b5F\n\nThis is enough to figure a new pinout.\nCorrected Pinout:\n\u00a0\u00a0\u00a0\u00a01 - CAN High\n\u00a0\u00a0\u00a0\u00a02 - CAN Low\n\u00a0\u00a0\u00a0\u00a03 - Not Connected\n\u00a0\u00a0\u00a0\u00a04 - Not Connected\n\u00a0\u00a0\u00a0\u00a05 - 12V_Ground\n\u00a0\u00a0\u00a0\u00a06 - 12V_Power\n\nPowering up now draws 36mA and 12V_Ground to CAN_High measures 3.80V to ground, CAN_Low 1.15V. Looks like there's a healthy CAN network, no acknowledge bit needed. Trying CANKing and both the Newsong_WPTC_L2806.dbc and WPTC_L2806.dbc decode properly. Here's a screen shot of the unit booted. Now we jsut have to update the wiring doc's and re-pin the LV connector.\n\n---\nFrom here knowing that we know something for certain has changed between the 2024 models and the 2026 models I got with Ryan and had him reach out to the manufacturer.\nEmail sent to the manufacturer. Will report back with findings if anything changes and or needs to be documented for this to be completed.\nAt this time due to the knowledge we have found this will likely be paused."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "1bbeea46f4134714c2cca11471fad003e4bb66806448a1f6163dedabc43629ea"
+              "content_hash": "621ee65615ce8027fa3715bb09c9928bb8631bd29ab48fb010537bbf3fb30a9d"
             }
           ]
         },
@@ -2259,5 +2264,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T18:15:58Z"
+  "generated_at": "2026-09-01T18:39:11Z"
 }
