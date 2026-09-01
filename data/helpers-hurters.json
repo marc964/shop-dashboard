@@ -3,7 +3,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 11.5,
-      "pct_of_total": 32.4,
+      "pct_of_total": 31.1,
       "tasks": [
         {
           "task": "Scanning",
@@ -22,7 +22,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 7.0,
-      "pct_of_total": 19.7,
+      "pct_of_total": 18.9,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -31,9 +31,24 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 5.0,
+      "pct_of_total": 13.5,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 3.5
+        },
+        {
+          "task": "Audio",
+          "hours": 1.5
+        }
+      ]
+    },
+    {
       "project": "Kelly 63 Corvette",
       "total_hours": 4.2,
-      "pct_of_total": 12.0,
+      "pct_of_total": 11.5,
       "tasks": [
         {
           "task": "Steering",
@@ -42,20 +57,9 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
-      "total_hours": 3.5,
-      "pct_of_total": 9.9,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 3.5
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.5,
-      "pct_of_total": 7.0,
+      "pct_of_total": 6.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -66,7 +70,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 2.2,
-      "pct_of_total": 6.3,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Exterior",
@@ -77,7 +81,7 @@
   ],
   "shop_work": {
     "total_hours": 4.5,
-    "pct_of_total": 12.7,
+    "pct_of_total": 12.2,
     "avg_per_person_per_day": 0.56,
     "flagged": false,
     "tech_count": 8,
@@ -99,10 +103,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 31.0,
+    "billable_hours": 32.5,
     "non_billable_hours": 4.5,
     "pto_hours": 0.0,
-    "total_hours": 35.5
+    "total_hours": 37.0
   },
-  "generated_at": "2026-09-01T21:11:12Z"
+  "generated_at": "2026-09-01T21:23:41Z"
 }
