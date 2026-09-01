@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T13:29:51.377544Z",
+  "updated_at": "2026-09-01T13:41:15.157759Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1208,81 +1208,9 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 5
+        "open_tasks": 4
       },
       "assignees": [
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868kfqd5y",
-              "name": "Repair gauges cluster",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868kfqd5y",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-24 18:20",
-                  "text": "Assisted Devin pulling fault info from cluster as requested by Peterson. Removed cluster assembly. Documented mounting, wiring & condition to share with Peterson."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-27 11:07",
-                  "text": "Instrument cluster ready for return to Peterson. Task on hold until it it returned to us."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-29 15:22",
-                  "text": "Plywood structure inside gauge pod is dry & brittle. Repairing damage with epoxy."
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-30 10:56",
-                  "text": "Gauges picked up by DHS for shipment 7/28"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 10:39",
-                  "text": "Estimated return shipping date is 8/11"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 14:01",
-                  "text": "Performed additional paint correction to cluster pod"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-27 10:35",
-                  "text": "Peterson says gauge has shipped. No tracking available yet ETA TBD"
-                },
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-28 15:59",
-                  "text": "Receive, unpack & document gauge cluster condition. Noted KW gauge glass scratched, all other glass filthy & some sort of residue on faceplate. Cleaned glass & faceplate. Installed cluster. Drilled new mounting holes for switch plates where I repaired the wood and fit these on the bench. Installed surround pod, vents & switch groups"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "87f501de35d5676f6a4ce4c489250af0831635415ce199b27fad3b12fc26bb2e"
-            },
-            {
-              "id": "868km7t9d",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
-            }
-          ]
-        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1372,6 +1300,27 @@
                 }
               ],
               "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
+            }
+          ]
+        },
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             }
           ]
         }
@@ -1691,7 +1640,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 38
+        "open_tasks": 37
       },
       "assignees": [
         {
@@ -1719,9 +1668,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnnhz",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Alex Noonan",
+                  "date": "2026-07-27 21:10",
+                  "text": "Need to start up vehicle first"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
+              "content_hash": "0d97bba56867c59c573f2f9d2c5b7df75317410ba9a64117e7a2af5afdc062e7"
             },
             {
               "id": "868jwk0hy",
@@ -1791,9 +1746,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868hbnmkf",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-07-07 03:04",
+                  "text": "measured for the DS\nwill get Inland to order"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "493813f891250abbcfa8e1c6d1ab8fcf90d97324b55fc27ee0c48c712db168dc"
+              "content_hash": "1f333f9661c2712eb0d339e209addb7c78f85a5db992712bfd258810c5660dda"
             },
             {
               "id": "868kmp9tm",
@@ -1883,42 +1844,6 @@
               ],
               "checklist_items": [],
               "content_hash": "82ff829e769a3fb30c6d5ec6b709e74d9230fdeb8383c4d932a2e29f8a8d39a3"
-            },
-            {
-              "id": "868kunztt",
-              "name": "Troubleshoot isolation fault",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kunztt",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:46",
-                  "text": "found faulty cable due to brake fluid\nneeds to be replaced"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-22 22:55",
-                  "text": "IMG_1914.jpeg\nIMG_1915.jpeg\nIMG_1916.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-22 22:55",
-                  "text": "going over budget\nfixed the HV cable\nchecked the res\nall is good on HV Cable\nplugged everything back in\nstill had fault\nremoved the HVJB\ntook the cover off\nno ingress\nstarted checking other places\ngot Jordan to help\nfound no issues with JV cables\nBrandon and Devin checked boxes found an anomaly in the D*\nverified Prehiem was good with the same test\nran more test\nwaiting on confirmation to pull a battery"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-25 02:25",
-                  "text": "removed the battery boxes"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-26 02:06",
-                  "text": "installed the boxes\nhooked up HV\ninstalled the HVJB\nplugged in all HV and LV connectors\nturned truck on\ncleared all codes\nonly code present was motor can cmunication\nmotor was able to spin up\nIMG_1962.jpeg\nIMG_1963.jpeg\nIMG_1965.jpeg\n\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/f9c46996-719c-4d54-b917-71056981a0bf/IMG_6126.mov?view=open"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "f66bb4aa6d3e8e7da9351d05420f521154b8cea62241f49f8443d74d41ac8a14"
             }
           ]
         },
@@ -2460,5 +2385,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T13:27:53Z"
+  "generated_at": "2026-09-01T13:39:32Z"
 }
