@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T19:37:13.358861Z",
+  "updated_at": "2026-09-01T19:50:52.698915Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -189,9 +189,20 @@
               "status": "Open",
               "list": "Chuter 62 Healey",
               "url": "https://app.clickup.com/t/868kyr7ha",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 19:47",
+                  "text": "Installed Rear Bumper, and made license plate brackets. WE are waiting for a reply from the Body shop on if they have the hardware to fully do the bumper install, or if we need to order them. But for now, bumper is installed, and license plate is also installed in a temporary way."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-01 19:49",
+                  "text": "paste_5268b30b-2cee-49f1-9095-774822ff122c.jpgpaste_d606af11-26d5-43d7-a85f-ede81f5d83a6.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "03fcd17a6446c0bfe06dc801a10216b4d255dad94e5d1ef92234d49834c76129"
+              "content_hash": "848fd28527936bddfe40a5c7287e34dca2e9420b0e1353301bf50c4057d2f1a5"
             }
           ]
         },
@@ -1512,7 +1523,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 10
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -1587,13 +1598,23 @@
             },
             {
               "id": "868kzaq6r",
-              "name": "Address squeaks",
+              "name": "Address squeaks/noises",
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
               "comments": [],
               "checklist_items": [],
-              "content_hash": "7b792c45ffdff79cd012efb13b457e88badb941153587baa0d8a5ab859d2c11a"
+              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+            },
+            {
+              "id": "868kzhwzn",
+              "name": "Install power window assmebly",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzhwzn",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "d8f3f1e1ac991812aac5b970555ceb2a379ecbc4d424c96505d165c3ac4b4a9d"
             },
             {
               "id": "868kzahbv",
@@ -1716,7 +1737,7 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 36
+        "open_tasks": 33
       },
       "assignees": [
         {
@@ -1757,16 +1778,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
-            },
-            {
-              "id": "868hbmvcq",
-              "name": "Charge test AC system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbmvcq",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d8504cc26b8c6ec48b7f4d2a0520d5ef9d1643254e33d39575314931e283cec3"
             },
             {
               "id": "868hbnfk6",
@@ -1850,32 +1861,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
-            },
-            {
-              "id": "868ktqjqy",
-              "name": "Refinish rear seat mounts",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ktqjqy",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:02",
-                  "text": "removed rear seat mount brackets\nready for PC"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "09086ed483618c082f20726ee3553c0f3efc54553283945a54539cea5125b032"
-            },
-            {
-              "id": "868ka1nuh",
-              "name": "Start up vehicle",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ka1nuh",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d78440966f91a7753aee616d683570b500075d7cad9fdedb5aa9cde2367c2fb5"
             }
           ]
         },
@@ -2264,5 +2249,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T19:35:04Z"
+  "generated_at": "2026-09-01T19:48:48Z"
 }
