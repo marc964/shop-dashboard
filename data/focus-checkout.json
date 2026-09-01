@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T22:50:14.052665Z",
+  "updated_at": "2026-09-01T23:12:22.747836Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -541,7 +541,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -567,6 +567,16 @@
               ],
               "checklist_items": [],
               "content_hash": "945e93e959088c21cb4e691a5a09541c2764c1bf16baab962a769d483263db58"
+            },
+            {
+              "id": "868kzmqbg",
+              "name": "Fix all door issues",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868kzmqbg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b5b28a427020bf29e722fa3d73c91b738a463a6a0c3a4d9de35bfe3038206331"
             },
             {
               "id": "868k7em0v",
@@ -1871,15 +1881,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -2304,5 +2308,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T22:48:26Z"
+  "generated_at": "2026-09-01T23:10:36Z"
 }

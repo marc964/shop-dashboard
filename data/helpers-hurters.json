@@ -3,7 +3,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 11.5,
-      "pct_of_total": 30.7,
+      "pct_of_total": 21.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -20,9 +20,32 @@
       ]
     },
     {
+      "project": "Ritchie 71 Blazer",
+      "total_hours": 7.5,
+      "pct_of_total": 13.9,
+      "tasks": [
+        {
+          "task": "Exterior",
+          "hours": 3.5
+        },
+        {
+          "task": "HVAC",
+          "hours": 2.0
+        },
+        {
+          "task": "Audio",
+          "hours": 1.5
+        },
+        {
+          "task": "Interior",
+          "hours": 0.5
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 7.0,
-      "pct_of_total": 18.7,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -31,24 +54,39 @@
       ]
     },
     {
-      "project": "Ritchie 71 Blazer",
+      "project": "LB 82 911",
       "total_hours": 5.0,
-      "pct_of_total": 13.3,
+      "pct_of_total": 9.3,
       "tasks": [
         {
-          "task": "Exterior",
-          "hours": 3.5
+          "task": "Manufacturing - Product",
+          "hours": 5.0
+        }
+      ]
+    },
+    {
+      "project": "Richardson 72 240Z",
+      "total_hours": 4.2,
+      "pct_of_total": 7.9,
+      "tasks": [
+        {
+          "task": "Interior",
+          "hours": 2.2
         },
         {
-          "task": "Audio",
-          "hours": 1.5
+          "task": "Exterior",
+          "hours": 1.8
+        },
+        {
+          "task": "HVAC",
+          "hours": 0.2
         }
       ]
     },
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 4.2,
-      "pct_of_total": 11.3,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Steering",
@@ -59,7 +97,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.5,
-      "pct_of_total": 6.7,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "HVAC",
@@ -68,9 +106,20 @@
       ]
     },
     {
+      "project": "ICON Philbrick 41838",
+      "total_hours": 2.2,
+      "pct_of_total": 4.2,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 2.2
+        }
+      ]
+    },
+    {
       "project": "Chuter 62 Healey",
       "total_hours": 2.2,
-      "pct_of_total": 6.0,
+      "pct_of_total": 4.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -80,9 +129,13 @@
     },
     {
       "project": "Nolan 70 Challenger",
-      "total_hours": 0.5,
-      "pct_of_total": 1.3,
+      "total_hours": 1.5,
+      "pct_of_total": 2.8,
       "tasks": [
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        },
         {
           "task": "Brakes",
           "hours": 0.5
@@ -91,33 +144,33 @@
     }
   ],
   "shop_work": {
-    "total_hours": 4.5,
-    "pct_of_total": 12.0,
-    "avg_per_person_per_day": 0.56,
+    "total_hours": 6.0,
+    "pct_of_total": 11.1,
+    "avg_per_person_per_day": 0.75,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 2.8
+        "hours": 3.2
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 1.0
+        "hours": 1.5
       },
       {
         "label": "Personal Meetings",
-        "hours": 0.8
+        "hours": 1.2
       }
     ]
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 33.0,
-    "non_billable_hours": 4.5,
+    "billable_hours": 48.0,
+    "non_billable_hours": 6.0,
     "pto_hours": 0.0,
-    "total_hours": 37.5
+    "total_hours": 54.0
   },
-  "generated_at": "2026-09-01T22:48:26Z"
+  "generated_at": "2026-09-01T23:10:36Z"
 }
