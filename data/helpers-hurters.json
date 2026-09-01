@@ -1,8 +1,20 @@
 {
-  "helpers": [],
+  "helpers": [
+    {
+      "project": "Hopkins 64 Silver Cloud",
+      "total_hours": 2.0,
+      "pct_of_total": 100.0,
+      "tasks": [
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 2.0
+        }
+      ]
+    }
+  ],
   "shop_work": {
     "total_hours": 0.0,
-    "pct_of_total": 0,
+    "pct_of_total": 0.0,
     "avg_per_person_per_day": 0.0,
     "flagged": false,
     "tech_count": 8,
@@ -11,10 +23,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 0.0,
+    "billable_hours": 2.0,
     "non_billable_hours": 0.0,
     "pto_hours": 0.0,
-    "total_hours": 0.0
+    "total_hours": 2.0
   },
-  "generated_at": "2026-09-01T14:29:24Z"
+  "generated_at": "2026-09-01T14:41:14Z"
 }
