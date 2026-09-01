@@ -1,9 +1,24 @@
 {
   "helpers": [
     {
+      "project": "Hopkins 64 Silver Cloud",
+      "total_hours": 5.0,
+      "pct_of_total": 40.0,
+      "tasks": [
+        {
+          "task": "Inspection",
+          "hours": 3.0
+        },
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Kelly 63 Corvette",
       "total_hours": 4.2,
-      "pct_of_total": 44.7,
+      "pct_of_total": 34.0,
       "tasks": [
         {
           "task": "Steering",
@@ -14,29 +29,18 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.5,
-      "pct_of_total": 26.3,
+      "pct_of_total": 20.0,
       "tasks": [
         {
           "task": "HVAC",
           "hours": 2.5
         }
       ]
-    },
-    {
-      "project": "Hopkins 64 Silver Cloud",
-      "total_hours": 2.0,
-      "pct_of_total": 21.1,
-      "tasks": [
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 2.0
-        }
-      ]
     }
   ],
   "shop_work": {
     "total_hours": 0.8,
-    "pct_of_total": 7.9,
+    "pct_of_total": 6.0,
     "avg_per_person_per_day": 0.09,
     "flagged": false,
     "tech_count": 8,
@@ -50,10 +54,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 8.8,
+    "billable_hours": 11.8,
     "non_billable_hours": 0.8,
     "pto_hours": 0.0,
-    "total_hours": 9.5
+    "total_hours": 12.5
   },
-  "generated_at": "2026-09-01T17:10:44Z"
+  "generated_at": "2026-09-01T17:22:57Z"
 }
