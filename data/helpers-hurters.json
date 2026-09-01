@@ -2,12 +2,12 @@
   "helpers": [
     {
       "project": "Hopkins 64 Silver Cloud",
-      "total_hours": 11.5,
-      "pct_of_total": 20.7,
+      "total_hours": 12.5,
+      "pct_of_total": 21.9,
       "tasks": [
         {
           "task": "Scanning",
-          "hours": 5.5
+          "hours": 6.5
         },
         {
           "task": "Inspection",
@@ -22,7 +22,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 7.8,
-      "pct_of_total": 14.0,
+      "pct_of_total": 13.6,
       "tasks": [
         {
           "task": "Exterior",
@@ -45,7 +45,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 7.0,
-      "pct_of_total": 12.6,
+      "pct_of_total": 12.3,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -56,7 +56,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 5.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Interior",
@@ -79,7 +79,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 5.0,
-      "pct_of_total": 9.0,
+      "pct_of_total": 8.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -90,7 +90,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 4.2,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.5,
       "tasks": [
         {
           "task": "Steering",
@@ -101,7 +101,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.5,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -112,7 +112,7 @@
     {
       "project": "ICON Philbrick 41838",
       "total_hours": 2.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -123,7 +123,7 @@
     {
       "project": "Chuter 62 Healey",
       "total_hours": 2.2,
-      "pct_of_total": 4.1,
+      "pct_of_total": 3.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -134,7 +134,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 1.5,
-      "pct_of_total": 2.7,
+      "pct_of_total": 2.6,
       "tasks": [
         {
           "task": "Vehicle Control",
@@ -148,9 +148,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 6.5,
-    "pct_of_total": 11.7,
-    "avg_per_person_per_day": 0.81,
+    "total_hours": 7.0,
+    "pct_of_total": 12.3,
+    "avg_per_person_per_day": 0.88,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
@@ -161,7 +161,7 @@
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 2.0
+        "hours": 2.5
       },
       {
         "label": "Personal Meetings",
@@ -171,10 +171,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 49.0,
-    "non_billable_hours": 6.5,
+    "billable_hours": 50.0,
+    "non_billable_hours": 7.0,
     "pto_hours": 0.0,
-    "total_hours": 55.5
+    "total_hours": 57.0
   },
-  "generated_at": "2026-09-01T23:21:02Z"
+  "generated_at": "2026-09-01T23:34:49Z"
 }
