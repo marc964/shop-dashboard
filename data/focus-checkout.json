@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T19:50:52.698915Z",
+  "updated_at": "2026-09-01T20:14:46.395190Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1737,27 +1737,57 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 33
+        "open_tasks": 35
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
             {
+              "id": "868kwwrc8",
+              "name": "Address driver door issue",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kwwrc8",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 00:23",
+                  "text": "Driver door was removed from the truck and I started the dive into how deep the issue went.\nPrevious owner/builder ignored serious metal fatigue/cracking around the upper drivers door\nDoor mounting pad had bondo covering serious external and structural metal fatigue and failure. Multiple layers of metal cracking and seperation.\nDoor was removed\nBondo/filler removed\nDamage assessed on outer metal layer\nExternal layer cut away in areas where metal had failed\nFound considerable structural metal failure in inner door frame pads and supports\nMetal cut out and prepped for temporary tack up\nBrace made to bring the door pad back to proper location\nCracked seams tack welded to hold position\nRemoved metal pad was templated and cut\nReplacement metal was mocked up and trimmed to proper size then formed to factory contour\nAll structural cracks were ground out and tig welded back\nAll fractures were drilled out to prevent continued separation\nAll welds that were going to external layers on top ground smooth\nBare metal coated in weld-thru primer\nReplacement pad set in place and tacked up\nSeams were closed up and weldout is in progress (50% finished)\nDoor skin was covered with a wet towel to prevent paint damage and warpage during repair"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 00:27",
+                  "text": "paste_f5535d0b-dc8b-4e99-b917-6ab9849841ff.jpgpaste_f61f6b70-8c65-470d-8d09-5a1672e68840.jpgpaste_96d7e44c-7d10-4264-b289-8faa0200d487.jpgpaste_1b8567e3-a0a7-4e0a-81ff-6bf75bbb0982.jpgpaste_c582bdb2-7d51-4169-b6b4-88d4f5d840dc.jpgpaste_0518f8a7-cc14-4316-b539-082e3d66d627.jpgpaste_8beb1365-2c25-454c-882c-58e0fe1292a5.jpgpaste_4ccdc607-5e68-450c-884b-d0ccf1214fd5.jpgpaste_db623e2d-02bb-464d-b72b-50a662d1d61a.jpgpaste_ebee225d-f984-4345-87ae-349ce8d9ab6f.jpgpaste_4b2113bc-e854-4f70-818b-c85e3ff71f9d.jpgpaste_c030f83d-f9fc-453e-8430-546930cdb38c.jpgpaste_ecf39b4b-10bc-404a-817b-f8fa930f841f.jpgpaste_6b6999ab-0816-4cbb-bc01-b373ec2e4381.jpgpaste_bbe7b521-d340-4c2f-a486-ab8156236883.jpgpaste_10daef40-9d28-4bb7-ad01-713f6393ed83.jpgpaste_b05537b6-9f85-486d-b9dd-7445ebb8629a.jpgpaste_d58b6cb6-cc85-45fd-ae95-a8c586966bef.jpgpaste_95f6cd81-965e-4d65-aa7b-a493949d7a22.jpgpaste_b77a5839-fc89-4df2-83d4-8e502efb938e.jpgpaste_e2a02a17-41c7-4534-bf0a-4bf858828f02.jpgpaste_a28234d4-7858-4fda-9ee8-1a977e947ebb.jpgpaste_00aa2e10-1a9f-4b4b-9aba-21361882c960.jpgpaste_475aad33-f43c-4575-8b9b-80e03c92deec.jpgpaste_30cad4ed-bc0b-47b4-a28b-907c176d41e2.jpgpaste_2b1557ce-8e83-4b12-a0f4-365f94e4d3ac.jpgpaste_9642fc3c-5a6c-40ec-80d0-bb7c0be24b64.jpgpaste_d9202845-8a84-4859-b879-ee97d140f7fa.jpgpaste_fcd7a09a-a991-4191-8548-a53042d3ac02.jpgpaste_ad13dc17-8dac-4419-a628-fdcd1e2d46c7.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:22",
+                  "text": "paste_d9b63fb7-ae28-4c09-b4c0-deb9c5c27bf3.jpgpaste_40a69255-8304-4f27-9c60-71d037102d49.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-26 19:22",
+                  "text": "Welding complete\nMetal finishing complete"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 18:03",
+                  "text": "Pick up door from Colvins\nPrep for install\nDoor placed and adjustments made"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "e010f6b8f2562d944b6e52e9eefea5e4d41f32a7cf65665c2fc2017d6e7807c3"
+            },
+            {
               "id": "868kmp7ud",
               "name": "Address stub shaft fitment",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -1778,6 +1808,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
+            },
+            {
+              "id": "868gwbrmx",
+              "name": "Bleed and test system",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868gwbrmx",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "31c7d78f6cfa3315721633219b60957c61cf809e8fe256aa5ed1c1975c3f736c"
             },
             {
               "id": "868hbnfk6",
@@ -1861,6 +1901,16 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
+            },
+            {
+              "id": "868kzj6cg",
+              "name": "Troubleshoot heater issue",
+              "status": "Open",
+              "list": "Ritchie 71 Blazer",
+              "url": "https://app.clickup.com/t/868kzj6cg",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "814eb89dd0858c898f455f37bd1e486c43726e9c43b6e1c67017deb429c5b51d"
             }
           ]
         },
@@ -2249,5 +2299,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T19:48:48Z"
+  "generated_at": "2026-09-01T20:12:35Z"
 }
