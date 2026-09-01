@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-09",
-    "productivity_pct": 88.7,
-    "billable_hours": 11.8,
-    "total_hours": 13.2,
+    "productivity_pct": 91.0,
+    "billable_hours": 15.2,
+    "total_hours": 16.8,
     "pto_hours": 0.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 70.6,
-      "delta": 18.1
+      "value": 70.7,
+      "delta": 20.3
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
-      "value": 69.8,
-      "delta": 18.9
+      "value": 69.9,
+      "delta": 21.1
     },
     "vs_last_week": {
       "label": "vs Last Week",
-      "value": 76.2,
-      "delta": 12.5
+      "value": 76.6,
+      "delta": 14.4
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 13.7
+      "delta": 16.0
     }
   },
   "monthly": [
@@ -102,34 +102,34 @@
     },
     {
       "month": "2026-08",
-      "productivity_pct": 70.6,
-      "billable_hours": 941.2,
-      "total_hours": 1348.8,
+      "productivity_pct": 70.7,
+      "billable_hours": 946.2,
+      "total_hours": 1353.8,
       "pto_hours": 15.0
     },
     {
       "month": "2026-09",
-      "productivity_pct": 88.7,
-      "billable_hours": 11.8,
-      "total_hours": 13.2,
+      "productivity_pct": 91.0,
+      "billable_hours": 15.2,
+      "total_hours": 16.8,
       "pto_hours": 0.0
     }
   ],
   "current_month_weeks": [
     {
       "week": "2026-W36",
-      "productivity_pct": 88.7,
-      "billable_hours": 11.8,
-      "total_hours": 13.2
+      "productivity_pct": 91.0,
+      "billable_hours": 15.2,
+      "total_hours": 16.8
     }
   ],
   "current_month_days": [
     {
       "date": "2026-09-01",
-      "productivity_pct": 88.7,
-      "billable_hours": 11.8,
-      "total_hours": 13.2
+      "productivity_pct": 91.0,
+      "billable_hours": 15.2,
+      "total_hours": 16.8
     }
   ],
-  "generated_at": "2026-09-01T17:48:56Z"
+  "generated_at": "2026-09-01T18:15:58Z"
 }

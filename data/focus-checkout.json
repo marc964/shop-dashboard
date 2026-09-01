@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T17:51:15.732158Z",
+  "updated_at": "2026-09-01T18:17:56.741075Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1555,9 +1555,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-01 18:01",
+                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
+              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
             },
             {
               "id": "868kzam8k",
@@ -1902,10 +1908,15 @@
                   "author": "Ben Drinkard",
                   "date": "2026-08-26 19:22",
                   "text": "Welding complete\nMetal finishing complete"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-01 18:03",
+                  "text": "Pick up door from Colvins\nPrep for install\nDoor placed and adjustments made"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "f2034a7dd6a5268a62f4dcbd4d9d05e22f5a53d8310c3e9512dfe883d670fa44"
+              "content_hash": "e010f6b8f2562d944b6e52e9eefea5e4d41f32a7cf65665c2fc2017d6e7807c3"
             },
             {
               "id": "868k6ttbf",
@@ -2248,5 +2259,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-01T17:48:56Z"
+  "generated_at": "2026-09-01T18:15:58Z"
 }
