@@ -1,9 +1,20 @@
 {
   "helpers": [
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 7.0,
+      "pct_of_total": 27.7,
+      "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 7.0
+        }
+      ]
+    },
+    {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 5.0,
-      "pct_of_total": 29.0,
+      "pct_of_total": 19.8,
       "tasks": [
         {
           "task": "Inspection",
@@ -18,7 +29,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 4.2,
-      "pct_of_total": 24.6,
+      "pct_of_total": 16.8,
       "tasks": [
         {
           "task": "Steering",
@@ -29,7 +40,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 3.5,
-      "pct_of_total": 20.3,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -40,7 +51,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 2.5,
-      "pct_of_total": 14.5,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "HVAC",
@@ -50,29 +61,33 @@
     }
   ],
   "shop_work": {
-    "total_hours": 2.0,
-    "pct_of_total": 11.6,
-    "avg_per_person_per_day": 0.25,
+    "total_hours": 3.0,
+    "pct_of_total": 11.9,
+    "avg_per_person_per_day": 0.38,
     "flagged": false,
     "tech_count": 8,
     "working_days": 1,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 1.2
+        "hours": 1.8
       },
       {
         "label": "Personal Meetings",
         "hours": 0.8
+      },
+      {
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 0.5
       }
     ]
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 15.2,
-    "non_billable_hours": 2.0,
+    "billable_hours": 22.2,
+    "non_billable_hours": 3.0,
     "pto_hours": 0.0,
-    "total_hours": 17.2
+    "total_hours": 25.2
   },
-  "generated_at": "2026-09-01T18:49:14Z"
+  "generated_at": "2026-09-01T19:10:44Z"
 }
