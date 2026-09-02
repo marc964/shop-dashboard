@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T15:51:11.692834Z",
+  "updated_at": "2026-09-02T16:16:45.337037Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -938,9 +938,20 @@
               "status": "Open",
               "list": "Kelly 63 Corvette",
               "url": "https://app.clickup.com/t/868kzdznk",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-02 16:01",
+                  "text": "Added DTM resistors, to can 2 and can 3 and took can 1 DB9 and made it into pdm 1 AND pdm 2 FOR CAN 1 ADDON. This task is done, and PDMs are now reporting on CAN 1"
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-09-02 16:08",
+                  "text": "paste_c824a8a5-528a-4015-bb61-df2f62c01deb.jpgpaste_8b4a4190-eb98-4704-ab25-d60b698a1385.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "e3663be344bee05480cef5926a8e3e59c76b5895346a73e4e0e3aa1684b56e95"
+              "content_hash": "fd55adfe98d863a541d957371170bfbfa39ada6a39c778d1b5c7b68a1718a0e1"
             },
             {
               "id": "868k2w2gy",
@@ -2339,5 +2350,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T15:49:23Z"
+  "generated_at": "2026-09-02T16:14:49Z"
 }
