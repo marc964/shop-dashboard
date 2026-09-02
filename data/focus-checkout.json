@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T04:51:35.173246Z",
+  "updated_at": "2026-09-02T05:14:27.057897Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1560,15 +1560,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzamnu",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-01 18:01",
-                  "text": "removed the bolts in the top front\nremoved visors\nlifted the top up\ninserted sealant\nlet it set up\nreinstalled the top bolts\nsealed it back up\ntested in the rain leak is much better\nwindows need to be adjusted"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
+              "content_hash": "e3b9720501fed8b59c1666984eb5cf4999b31bf2bfc0e6fb23d2cf837b73817a"
             },
             {
               "id": "868kzam8k",
@@ -1637,20 +1631,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4870",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 02:47",
-                  "text": "checked out the leaf springs\nloosed up the bolts\njacked up the frame\ntightened up the bolts again\nleveled off within 1/2 inch now will see how it goes\nall looks good"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-27 12:53",
-                  "text": "IMG_1977.jpeg\nIMG_1976.jpeg\nIMG_1975.jpeg\nIMG_1974.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3fea4b22306c5163892b4a9fcf27abd5924045b2cf1aeb2bc794f86dc5ff1d7e"
+              "content_hash": "2eb7d82d478185319af5bcef8a69c100305bc9c1968c83184286a5bd69c4847a"
             },
             {
               "id": "868kx4f7u",
@@ -1658,15 +1641,9 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kx4f7u",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-31 20:37",
-                  "text": "test drove truck\nmade my list and sent to Alex\nfound several issues we need to take care of"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
+              "content_hash": "16b663d18fbf511d04fc5891bd8783a045dcf757ee0ccc8a4b8950f005f0e1b3"
             },
             {
               "id": "868kzanv2",
@@ -2145,5 +2122,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T04:49:58Z"
+  "generated_at": "2026-09-02T05:12:48Z"
 }
