@@ -49,7 +49,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 7.2,
+      "pct_of_total": 7.1,
       "tasks": [
         {
           "task": "Steering",
@@ -134,12 +134,16 @@
     },
     {
       "project": "Thacker 46 Woody",
-      "total_hours": 4.0,
-      "pct_of_total": 3.5,
+      "total_hours": 4.2,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
           "hours": 4.0
+        },
+        {
+          "task": "Manufacturing - Product",
+          "hours": 0.2
         }
       ]
     },
@@ -191,10 +195,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 95.8,
+    "billable_hours": 96.0,
     "non_billable_hours": 19.5,
     "pto_hours": 0.0,
-    "total_hours": 115.2
+    "total_hours": 115.5
   },
-  "generated_at": "2026-09-02T21:22:42Z"
+  "generated_at": "2026-09-02T21:35:49Z"
 }
