@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:49:57.605420Z",
+  "updated_at": "2026-09-02T17:12:59.793562Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -541,7 +541,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 10
+        "open_tasks": 9
       },
       "assignees": [
         {
@@ -745,27 +745,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "e657a888489ee97460165cb07c714745a02042eb12dcfe94731a66594022e7bd"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868k7fdjp",
-              "name": "Assess noise",
-              "status": "Open",
-              "list": "Ferdman 66 Bus",
-              "url": "https://app.clickup.com/t/868k7fdjp",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-07-09 13:22",
-                  "text": "Front axle is in the process of being rebuilt. This task is on hold until vehicle is operational."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "3171ad749f1cc68e04bc8be1d0f3bb29f1e8693ac63b432462ea27a36a120500"
             }
           ]
         },
@@ -1274,9 +1253,50 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 4
+        "open_tasks": 6
       },
       "assignees": [
+        {
+          "name": "David Webber",
+          "tasks": [
+            {
+              "id": "868m08dah",
+              "name": "Facilitate wheel balancing",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m08dah",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7b76087f6762da31cb93b02a7728d67e4092010f75634423c0fa8231adb3d99e"
+            },
+            {
+              "id": "868m08btv",
+              "name": "Secure rear panels",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m08btv",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "b65c9d0c6a0f57943894a561627a24647964a0d50c99789bf7d0c583b772b898"
+            },
+            {
+              "id": "868km7t9d",
+              "name": "Test drive vehicle",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868km7t9d",
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-08-06 13:12",
+                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
+            }
+          ]
+        },
         {
           "name": "Brandon Beaman",
           "tasks": [
@@ -1366,27 +1386,6 @@
                 }
               ],
               "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
-            }
-          ]
-        },
-        {
-          "name": "David Webber",
-          "tasks": [
-            {
-              "id": "868km7t9d",
-              "name": "Test drive vehicle",
-              "status": "Open",
-              "list": "McDonough 77 Esprit",
-              "url": "https://app.clickup.com/t/868km7t9d",
-              "comments": [
-                {
-                  "author": "David Webber",
-                  "date": "2026-08-06 13:12",
-                  "text": "31 mile road test. Motor & Battery circuits running cool. No DTCs. GUI ok... not dropping out as previously noted. Rear suspension is still quiet."
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "ce28c1c89c82278d2e0c2f6e5373fc224928fb0295bf6f4bb40b99828181ecde"
             }
           ]
         }
@@ -2020,40 +2019,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2350,5 +2318,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T16:48:25Z"
+  "generated_at": "2026-09-02T17:11:16Z"
 }
