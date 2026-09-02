@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 12.8,
-      "pct_of_total": 16.2,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -26,7 +26,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 12.5,
-      "pct_of_total": 15.9,
+      "pct_of_total": 13.6,
       "tasks": [
         {
           "task": "Scanning",
@@ -45,7 +45,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 10.5,
+      "pct_of_total": 9.0,
       "tasks": [
         {
           "task": "Steering",
@@ -58,9 +58,20 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 7.0,
+      "pct_of_total": 7.6,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 7.0
+        }
+      ]
+    },
+    {
       "project": "Lee 68 Mustang",
       "total_hours": 7.0,
-      "pct_of_total": 8.9,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -69,9 +80,20 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 5.5,
+      "pct_of_total": 6.0,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 5.5
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 5.0,
-      "pct_of_total": 6.4,
+      "pct_of_total": 5.4,
       "tasks": [
         {
           "task": "Interior",
@@ -92,20 +114,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 5.0,
-      "pct_of_total": 6.4,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 5.0
-        }
-      ]
-    },
-    {
       "project": "Thacker 46 Woody",
       "total_hours": 4.0,
-      "pct_of_total": 5.1,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -114,62 +125,51 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
+      "project": "Warke 61 Eldorado",
       "total_hours": 2.5,
-      "pct_of_total": 3.2,
+      "pct_of_total": 2.7,
       "tasks": [
         {
-          "task": "HVAC",
+          "task": "Manufacturing - Product",
           "hours": 2.5
         }
       ]
     },
     {
-      "project": "ICON Philbrick 41838",
-      "total_hours": 2.2,
-      "pct_of_total": 2.9,
+      "project": "Krafcik 02 Caterham",
+      "total_hours": 2.5,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
-          "hours": 2.2
-        }
-      ]
-    },
-    {
-      "project": "Chuter 62 Healey",
-      "total_hours": 2.2,
-      "pct_of_total": 2.9,
-      "tasks": [
-        {
-          "task": "Exterior",
-          "hours": 2.2
+          "hours": 2.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 14.0,
-    "pct_of_total": 17.8,
-    "avg_per_person_per_day": 0.88,
-    "flagged": false,
+    "total_hours": 17.5,
+    "pct_of_total": 19.0,
+    "avg_per_person_per_day": 1.09,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 2,
     "breakdown": [
       {
         "label": "Shop Meetings",
-        "hours": 4.8
+        "hours": 5.8
       },
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 4.0
+        "hours": 5.5
+      },
+      {
+        "label": "Personal Meetings",
+        "hours": 3.2
       },
       {
         "label": "Other",
         "hours": 2.5
-      },
-      {
-        "label": "Personal Meetings",
-        "hours": 2.2
       },
       {
         "label": "Organization",
@@ -179,10 +179,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 64.5,
-    "non_billable_hours": 14.0,
+    "billable_hours": 74.5,
+    "non_billable_hours": 17.5,
     "pto_hours": 0.0,
-    "total_hours": 78.5
+    "total_hours": 92.0
   },
-  "generated_at": "2026-09-02T18:48:40Z"
+  "generated_at": "2026-09-02T19:10:37Z"
 }

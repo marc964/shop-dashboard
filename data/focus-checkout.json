@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T18:50:33.599481Z",
+  "updated_at": "2026-09-02T19:12:46.390114Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -781,10 +781,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-01 21:36",
                   "text": "Grabbed the EEPROM backups just to be sure my offline copies matched, they do. Compared to the new files provided by AEM, a very close match except for motor type seems wrong in one AEM file. Posted compare report and results to Slack."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-02 18:51",
+                  "text": "Reviewed all the manuals and change logs I could find for which firmware I should flash into the SDU to test the rollback theory. Flashed that firmware. Can't test since the bus has no door latch."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "b8cbd86ecd1d3446715eaa35905bfbb5a9d03c53ba0a9aeb0f200842bce6a064"
+              "content_hash": "5c17e4dbd1c4c664cd5bcfa5eb138da4538d3818d6ba0c2a18bff7ef95e353ca"
             }
           ]
         },
@@ -2270,5 +2275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T18:48:40Z"
+  "generated_at": "2026-09-02T19:10:37Z"
 }
