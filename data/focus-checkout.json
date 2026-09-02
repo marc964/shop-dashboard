@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T17:25:27.442353Z",
+  "updated_at": "2026-09-02T17:37:26.706151Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,7 +80,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 4
+        "open_tasks": 3
       },
       "assignees": [
         {
@@ -177,32 +177,6 @@
                 }
               ],
               "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
-            }
-          ]
-        },
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868kyr7ha",
-              "name": "Install rear bumper",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868kyr7ha",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 19:47",
-                  "text": "Installed Rear Bumper, and made license plate brackets. WE are waiting for a reply from the Body shop on if they have the hardware to fully do the bumper install, or if we need to order them. But for now, bumper is installed, and license plate is also installed in a temporary way."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 19:49",
-                  "text": "paste_5268b30b-2cee-49f1-9095-774822ff122c.jpgpaste_d606af11-26d5-43d7-a85f-ede81f5d83a6.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "848fd28527936bddfe40a5c7287e34dca2e9420b0e1353301bf50c4057d2f1a5"
             }
           ]
         },
@@ -905,127 +879,9 @@
         "matched_lists": [
           "Kelly 63 Corvette"
         ],
-        "open_tasks": 9
+        "open_tasks": 7
       },
       "assignees": [
-        {
-          "name": "Noah Sharif",
-          "tasks": [
-            {
-              "id": "868kzdznk",
-              "name": "Add CAN 1 to PMU's",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kzdznk",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-02 16:01",
-                  "text": "Added DTM resistors, to can 2 and can 3 and took can 1 DB9 and made it into pdm 1 AND pdm 2 FOR CAN 1 ADDON. This task is done, and PDMs are now reporting on CAN 1"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-02 16:08",
-                  "text": "paste_c824a8a5-528a-4015-bb61-df2f62c01deb.jpgpaste_8b4a4190-eb98-4704-ab25-d60b698a1385.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "fd55adfe98d863a541d957371170bfbfa39ada6a39c778d1b5c7b68a1718a0e1"
-            },
-            {
-              "id": "868k2w2gy",
-              "name": "Install front battery lid",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868k2w2gy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
-            },
-            {
-              "id": "868ku38p2",
-              "name": "Troubleshoot parking brake issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868ku38p2",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:51",
-                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-19 18:52",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
-            },
-            {
-              "id": "868kwnwyc",
-              "name": "Troubleshoot steering column issue",
-              "status": "Open",
-              "list": "Kelly 63 Corvette",
-              "url": "https://app.clickup.com/t/868kwnwyc",
-              "comments": [
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-25 19:33",
-                  "text": "3.5 hours testing to find the issue, removal of the steering column, then separating them and checking, I've ordered m8 set screws to install in the motor to ididit part. Waiting until parts arrive to continue."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-26 11:31",
-                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/677ea097-d7a5-4cf0-9f25-a0160f4162ad/paste_58310b22-00ef-49ae-8e0f-8d40ec44c88f.mp4?view=openpaste_69faf861-5dfd-48dd-8f68-cbe6a67db40b.jpg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-27 12:26",
-                  "text": "Drilled the IDIDIT housing to allow set screw install. Reassembled the powered steering column, and tested it, the wobble that could be felt is gone, but the whole assembly wiggles on the outside, I'm going to show Alex before proceeding."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-27 19:30",
-                  "text": "paste_6227316a-2918-455f-a657-79b182023360.jpg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-28 04:35",
-                  "text": "made a bushing for the column\npressed it into place\nclearance the adapter and pressed it on\nready for assembly\ni will hand off tomorrow to Noah\nit should make a big difference on the column retention\nIMG_1988.jpeg\nIMG_1987.jpeg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 18:36",
-                  "text": "Assembled the steering column back together, i had to turn down the 6mm m8 set screws to about 3mm long. Got everything assembled and we are set for reinstall. I had both Billy and Alex check the operation by hand on the bench, and all 3 of us are happy with the improvement. So on Monday I will Install the part and see what it feels like in the car!."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 18:37",
-                  "text": "It should be about 2-3 hours on Monday to get the car reassembled. So keep that in mind, But we should be done once those hours are added to what i have in today, and the past."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-08-28 20:33",
-                  "text": "paste_4545af43-412d-48ef-98e8-711128eca13d.jpgpaste_e4915fb6-68ba-451f-85b1-d7602bb53f52.jpgpaste_6a94db28-b295-4d4f-a0e7-a70c1e26cedc.jpgpaste_55e4bdbf-304a-4c44-a338-221292cf4f23.jpgpaste_e878ac98-1b7c-4875-a3cc-67f41b0a490d.jpgpaste_37cb4507-e89e-4d08-988d-2d1cba8b8139.jpgpaste_389d0a1b-18a2-4dde-8189-33e1b8a760b5.jpgpaste_51997b53-d9c6-4b41-aa8a-012d789579b3.jpg"
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 16:25",
-                  "text": "Reinstalled the steering column, Tighten all hardware on the shaft itself. It feels better then before, but still clicks a little from telescoping D-shafts. I have gotten this et of hardware the best i can, if we want it feeling better, then we will need to replace basically the enter system to a power rack from flaming river, and then give it an epas power steering pump."
-                },
-                {
-                  "author": "Noah Sharif",
-                  "date": "2026-09-01 16:28",
-                  "text": "paste_a7166cd7-5ac8-404c-b241-697c1dec45e4.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "25bbbf7c1a92bd65c47d6faf2cae88952288fc456f33995c210216049a2a4630"
-            }
-          ]
-        },
         {
           "name": "Devin DuMont",
           "tasks": [
@@ -1059,6 +915,42 @@
               ],
               "checklist_items": [],
               "content_hash": "fb74196e160f40fe24914798e18bf8833684528582cce3cb1827fb5bdd8ab7e9"
+            }
+          ]
+        },
+        {
+          "name": "Noah Sharif",
+          "tasks": [
+            {
+              "id": "868k2w2gy",
+              "name": "Install front battery lid",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868k2w2gy",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+            },
+            {
+              "id": "868ku38p2",
+              "name": "Troubleshoot parking brake issue",
+              "status": "Open",
+              "list": "Kelly 63 Corvette",
+              "url": "https://app.clickup.com/t/868ku38p2",
+              "comments": [
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:51",
+                  "text": "I checked the issue, and could only get the parking brake to not engage, when turning the car off when in neutral, which is not what was described in slack. We are now waiting for a can logger upload to get Claude on it."
+                },
+                {
+                  "author": "Noah Sharif",
+                  "date": "2026-08-19 18:52",
+                  "text": "https://t9011243300.p.clickup-attachments.com/t9011243300/f5109632-86cd-4272-be54-2165e6045e64/1000027692.mp4?view=open"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "21712878cf48fa925b4e96bb0c05494b43314d03f01be7b4f9d79f1525a7e72e"
             }
           ]
         },
@@ -1658,9 +1550,20 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:34",
+                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:36",
+                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "75d544ac467d0fabdd6cb8d7350351be4980d135c383c9391def44d832521bc2"
+              "content_hash": "e64fceeabd9e258259c1efe31a1f00c6309b81418fbb605bd2183e8eb4503d19"
             },
             {
               "id": "868kx4870",
@@ -1831,9 +1734,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:58",
+                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
+              "content_hash": "a6b6bbc29d095422049c826773c133a94578e9a86a72842eacb99c1e3669da78"
             },
             {
               "id": "868hbnnhz",
@@ -1912,9 +1821,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -2019,9 +1934,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -2318,5 +2264,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T17:23:42Z"
+  "generated_at": "2026-09-02T17:35:31Z"
 }
