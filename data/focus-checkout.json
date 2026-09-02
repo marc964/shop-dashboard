@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T20:50:06.141564Z",
+  "updated_at": "2026-09-02T21:12:41.790194Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1619,9 +1619,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzanv2",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-02 20:56",
+                  "text": "audio is set up and working good\nmade adjustments to the EQ and positioned the tweeters to the driver"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3fb951ccd57349ed8347b1fd8f27c796ce291edd790a4f44468feb41bad5088b"
+              "content_hash": "cb9fbb43857c955db093142be6af588980ab6c740a5f8fc317f8082f53805a90"
             }
           ]
         },
@@ -2280,5 +2286,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T20:48:21Z"
+  "generated_at": "2026-09-02T21:10:49Z"
 }
