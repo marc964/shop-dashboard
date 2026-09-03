@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:50:11.933026Z",
+  "updated_at": "2026-09-03T22:13:36.286245Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -433,9 +433,15 @@
               "status": "Open",
               "list": "Connolly 58 220S",
               "url": "https://app.clickup.com/t/868kzdxnk",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:05",
+                  "text": "Organized every vehicle specific PMU backup into their respective vehicles folder. Exported and imported several messages into a sample program to give Claude to find the import pattern and produce a script to repeat. Tested the script on several programs re-iterating on small gotchas like a name changed variable or something out of order. The PMU program and script seems solid but I'm waiting till tomorrow to mull over the possible problems of using Claude generated PMU programs. Verified customer wifi credentials have been uploaded and sync'd."
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "3b9a3a8ec6175ea649fba96181ff3fb5f0a7d1579e6fab69ce6e3991a0f8251f"
+              "content_hash": "e267908588271b093fec341c488af3fca6bbb241656b6935eb3d17c6a958a776"
             }
           ]
         }
@@ -797,10 +803,15 @@
                   "author": "Devin DuMont",
                   "date": "2026-09-02 18:51",
                   "text": "Reviewed all the manuals and change logs I could find for which firmware I should flash into the SDU to test the rollback theory. Flashed that firmware. Can't test since the bus has no door latch."
+                },
+                {
+                  "author": "Devin DuMont",
+                  "date": "2026-09-03 22:04",
+                  "text": "Reviewed Scott's email and converted the AEM data logs to CSV for Claude. Posted all to Slack. Re-flashed the inverter with 6B33 and verified EEPROM settings. Flashed VCU firmware VCM_517_R010902_Persist.rpg and reviewed all the calibration settings. Set the gear ratio and tire size to calibration to be consistent with our new way. Re-correlated the checkout sheet. Went to enable torque tables but it's locked out in the new firmware."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "5c17e4dbd1c4c664cd5bcfa5eb138da4538d3818d6ba0c2a18bff7ef95e353ca"
+              "content_hash": "75d8e0a4c0aca135f3ac0934d29dd5fe55dad869de1b37bba694b16d094121f6"
             }
           ]
         },
@@ -1542,16 +1553,6 @@
               "content_hash": "192445e261c9057599e975c37fa8b797c4c9d65666df973166836ebc8989febc"
             },
             {
-              "id": "868kzam8k",
-              "name": "Address rear hatch issues",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzam8k",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "b755cfe02acc08a4ecfb7fc3579fcb021855eb7a01e782ba5bacd09779b8e5ca"
-            },
-            {
               "id": "868kzapnn",
               "name": "Address rear tire wobble",
               "status": "Open",
@@ -1656,6 +1657,27 @@
         {
           "name": "Ben Drinkard",
           "tasks": [
+            {
+              "id": "868kzam8k",
+              "name": "Address rear hatch issues",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzam8k",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "paste_974c81e0-ff91-4758-bb8e-10d253ac00a5.jpgpaste_bbdfce5e-2ccf-4dc2-a04b-d839e8802a80.jpgpaste_763da3d3-9291-47d1-9507-d3fa43d489d5.jpgpaste_25dfa998-b3c5-496f-8b9e-3c81d51a63c6.jpgpaste_8a672560-9e37-4845-ac86-98dd9c971c3e.jpgpaste_96272a5b-7f32-4449-95c4-9504b6e3eb05.jpgpaste_c56484bf-9b6b-4453-b01b-1b8a49f2b253.jpgpaste_7f80c285-4055-4017-a9cc-64883c96f4c4.jpgpaste_2220e04f-e616-48bb-a34f-45477992f161.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 21:58",
+                  "text": "Rear hatch hinges arrived\nHinges inpected\nHatch struts removed\nRear hatch removed (1 bolt seized)\nOld hinges removed from hatch\nRemoved broken hardware from inside hatch frame\nDocument cracking and damage to rear hatch structure\nInstall hinges in frame\nMockup hatch back on truck\nMake adjustments to fitment and torque hardware\nReinstall hatch struts\nCheck fitment and func check"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "b1a11a37dd71d60065d68979645aca95c1b1743159bece9bb70d08ab98dc3c38"
+            },
             {
               "id": "868kzahbv",
               "name": "Install sway bars",
@@ -2333,5 +2355,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T21:48:35Z"
+  "generated_at": "2026-09-03T22:11:49Z"
 }

@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 13.7,
+      "pct_of_total": 12.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 19.5,
-      "pct_of_total": 11.7,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -47,9 +47,9 @@
       ]
     },
     {
-      "project": "Hopkins 64 Silver Cloud",
+      "project": "Hopkins 65 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 11.4,
+      "pct_of_total": 10.7,
       "tasks": [
         {
           "task": "Scanning",
@@ -66,9 +66,28 @@
       ]
     },
     {
+      "project": "LB 82 911",
+      "total_hours": 14.5,
+      "pct_of_total": 8.2,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 8.5
+        },
+        {
+          "task": "Exterior",
+          "hours": 3.0
+        },
+        {
+          "task": "HVAC",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 7.1,
+      "pct_of_total": 6.6,
       "tasks": [
         {
           "task": "Interior",
@@ -91,7 +110,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 11.5,
-      "pct_of_total": 6.9,
+      "pct_of_total": 6.5,
       "tasks": [
         {
           "task": "HVAC",
@@ -102,7 +121,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 11.0,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.2,
       "tasks": [
         {
           "task": "Charging",
@@ -119,20 +138,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 8.5,
-      "pct_of_total": 5.1,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 8.5
-        }
-      ]
-    },
-    {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.6,
       "tasks": [
         {
           "task": "Steering",
@@ -146,8 +154,8 @@
     },
     {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 4.8,
-      "pct_of_total": 2.9,
+      "total_hours": 6.8,
+      "pct_of_total": 3.8,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -158,38 +166,54 @@
           "hours": 1.8
         },
         {
+          "task": "Engineering - Core",
+          "hours": 1.0
+        },
+        {
+          "task": "Engine Bay",
+          "hours": 1.0
+        },
+        {
           "task": "Cooling",
           "hours": 0.5
         }
       ]
     },
     {
-      "project": "Thacker 46 Woody",
-      "total_hours": 4.2,
-      "pct_of_total": 2.6,
+      "project": "Preheim 72 Blazer",
+      "total_hours": 5.0,
+      "pct_of_total": 2.8,
       "tasks": [
         {
-          "task": "Wiring - OEM",
-          "hours": 4.0
+          "task": "Exterior",
+          "hours": 2.0
         },
         {
-          "task": "Manufacturing - Product",
-          "hours": 0.2
+          "task": "Audio",
+          "hours": 2.0
+        },
+        {
+          "task": "Suspension",
+          "hours": 0.5
+        },
+        {
+          "task": "Interior",
+          "hours": 0.5
         }
       ]
     }
   ],
   "shop_work": {
-    "total_hours": 30.2,
-    "pct_of_total": 18.2,
-    "avg_per_person_per_day": 1.26,
+    "total_hours": 31.5,
+    "pct_of_total": 17.7,
+    "avg_per_person_per_day": 1.31,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 10.0
+        "hours": 11.2
       },
       {
         "label": "Shop Meetings",
@@ -211,10 +235,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 136.0,
-    "non_billable_hours": 30.2,
+    "billable_hours": 146.0,
+    "non_billable_hours": 31.5,
     "pto_hours": 0.0,
-    "total_hours": 166.2
+    "total_hours": 177.5
   },
-  "generated_at": "2026-09-03T21:48:35Z"
+  "generated_at": "2026-09-03T22:11:49Z"
 }
