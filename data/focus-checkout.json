@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T19:22:22.547741Z",
+  "updated_at": "2026-09-03T19:36:26.627313Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -205,7 +205,7 @@
         "color": "Black",
         "make": "Mercedes",
         "model": "220S",
-        "status": "Testing",
+        "status": "Acceptance",
         "checkout": 100,
         "sub_metrics": [
           {
@@ -1593,27 +1593,6 @@
               "content_hash": "12cc9a1a3335ffc7382c73652c0c6344702e019cfd36f65d7617615fcf0a745a"
             },
             {
-              "id": "868kzahbv",
-              "name": "Install sway bars",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzahbv",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:34",
-                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-02 17:36",
-                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "e64fceeabd9e258259c1efe31a1f00c6309b81418fbb605bd2183e8eb4503d19"
-            },
-            {
               "id": "868kx4870",
               "name": "Level ride height",
               "status": "Open",
@@ -1665,6 +1644,37 @@
               ],
               "checklist_items": [],
               "content_hash": "cb9fbb43857c955db093142be6af588980ab6c740a5f8fc317f8082f53805a90"
+            }
+          ]
+        },
+        {
+          "name": "Ben Drinkard",
+          "tasks": [
+            {
+              "id": "868kzahbv",
+              "name": "Install sway bars",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868kzahbv",
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:34",
+                  "text": "Rear sway bar install details:\nKit verified to fit with additional work on brake mounts and replacing hardware and bushing risers\nRear brake bracket had to be removed and the welded bracket cut out and raw steel was painted\nBrackets installed and centered\nI ordered appropriate hardware and bushing riser material because the hardware is spec'd for stock height\nCrescent mounts for rear brake line mounts need to be welded to the rear end"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-02 17:36",
+                  "text": "paste_b3f4d546-77bf-4339-99ef-c97611aea723.jpgpaste_1c656eed-a6ef-4758-baf2-f53182e04961.jpgpaste_6d5de5f3-405c-4881-ab3e-e4510b42c21c.jpgpaste_99a03231-6ac6-48bc-b625-3faa1a964421.jpgpaste_2dcb7a9e-f9e1-40ba-8c33-cbed9f98943f.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 19:30",
+                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "19b43ffcb956f8f8ae09a5a306a8a8b1e2e4387442b23643b25ca9c13492d02e"
             }
           ]
         },
@@ -2312,5 +2322,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T19:20:25Z"
+  "generated_at": "2026-09-03T19:34:57Z"
 }
