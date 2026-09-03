@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T22:36:42.766684Z",
+  "updated_at": "2026-09-03T22:50:44.198997Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -696,10 +696,15 @@
                   "author": "Jordan Jones",
                   "date": "2026-08-27 22:35",
                   "text": "Continued with finalizing old test-electrical equipment removal.\nAlso tidied up a few electrical bits (engine-bay ground, amp ground).\nReinstalled engine bay cover in preparation for soft delivery tomorrow."
+                },
+                {
+                  "author": "Jordan Jones",
+                  "date": "2026-09-03 22:44",
+                  "text": "Received secondary cooler mounting parts.\nInvestigated/clarified hardware insertion. Found incorrect HW x4, missing HW x2.\nPressed out incorrect hardware and installed correct HW\nVerified assembly with engineering."
                 }
               ],
               "checklist_items": [],
-              "content_hash": "15b37a94d903e91fdf63c056b43412e5369237fc618a92cd78f4c33124ead2da"
+              "content_hash": "ceb7a5a184a2f19828dafb6d36a71d9319f3c902a08e73b37a9b8d797d5eecee"
             },
             {
               "id": "868kyqvgr",
@@ -2355,5 +2360,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T22:34:52Z"
+  "generated_at": "2026-09-03T22:49:02Z"
 }

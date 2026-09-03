@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 12.7,
+      "pct_of_total": 12.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 20.0,
-      "pct_of_total": 11.2,
+      "pct_of_total": 10.9,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -53,7 +53,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 10.6,
+      "pct_of_total": 10.4,
       "tasks": [
         {
           "task": "Scanning",
@@ -72,7 +72,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 14.5,
-      "pct_of_total": 8.1,
+      "pct_of_total": 7.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -91,7 +91,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Interior",
@@ -114,7 +114,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 11.5,
-      "pct_of_total": 6.4,
+      "pct_of_total": 6.3,
       "tasks": [
         {
           "task": "HVAC",
@@ -125,7 +125,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 11.0,
-      "pct_of_total": 6.1,
+      "pct_of_total": 6.0,
       "tasks": [
         {
           "task": "Charging",
@@ -142,32 +142,17 @@
       ]
     },
     {
-      "project": "Kelly 63 Corvette",
-      "total_hours": 8.2,
-      "pct_of_total": 4.6,
-      "tasks": [
-        {
-          "task": "Steering",
-          "hours": 4.2
-        },
-        {
-          "task": "Vehicle Control",
-          "hours": 4.0
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
-      "total_hours": 6.8,
-      "pct_of_total": 3.8,
+      "total_hours": 8.2,
+      "pct_of_total": 4.5,
       "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 3.2
+        },
         {
           "task": "Manufacturing - Product",
           "hours": 2.5
-        },
-        {
-          "task": "Manufacturing - Core",
-          "hours": 1.8
         },
         {
           "task": "Engineering - Core",
@@ -184,9 +169,24 @@
       ]
     },
     {
+      "project": "Kelly 63 Corvette",
+      "total_hours": 8.2,
+      "pct_of_total": 4.5,
+      "tasks": [
+        {
+          "task": "Steering",
+          "hours": 4.2
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 4.0
+        }
+      ]
+    },
+    {
       "project": "Preheim 72 Blazer",
       "total_hours": 5.0,
-      "pct_of_total": 2.8,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -208,16 +208,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 32.0,
-    "pct_of_total": 17.9,
-    "avg_per_person_per_day": 1.33,
+    "total_hours": 32.2,
+    "pct_of_total": 17.6,
+    "avg_per_person_per_day": 1.34,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 11.2
+        "hours": 11.5
       },
       {
         "label": "Shop Meetings",
@@ -239,6 +239,17 @@
   },
   "project_hurters": [
     {
+      "project": "Ferdman 66 Bus",
+      "total_hours": 2.0,
+      "pct_of_total": 1.1,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "Buck 70 280SL",
       "total_hours": 0.5,
       "pct_of_total": 0.3,
@@ -251,10 +262,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 146.5,
-    "non_billable_hours": 32.5,
+    "billable_hours": 148.0,
+    "non_billable_hours": 34.8,
     "pto_hours": 0.0,
-    "total_hours": 179.0
+    "total_hours": 182.8
   },
-  "generated_at": "2026-09-03T22:34:52Z"
+  "generated_at": "2026-09-03T22:49:02Z"
 }
