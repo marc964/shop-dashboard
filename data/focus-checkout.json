@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T20:50:36.275058Z",
+  "updated_at": "2026-09-03T21:13:06.053986Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1567,9 +1567,15 @@
               "status": "Open",
               "list": "Preheim 72 Blazer",
               "url": "https://app.clickup.com/t/868kzaq6r",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 20:58",
+                  "text": "Greased front and rear leaf spring pivot points"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "dfcfa914428437333c0ae6fcb4dab8f221c044a55e935e2319ae1c20a72046fb"
+              "content_hash": "99f8eeeaf4739735b3db8035734bd1c654ad4e0034f2d6a4ef70d831b32fe6df"
             },
             {
               "id": "868kzhwzn",
@@ -2327,5 +2333,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T20:48:59Z"
+  "generated_at": "2026-09-03T21:11:18Z"
 }
