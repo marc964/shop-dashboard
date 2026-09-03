@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T16:51:42.620932Z",
+  "updated_at": "2026-09-03T17:13:24.438044Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1788,20 +1788,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 20:43",
-                  "text": "checked the fit of the stub shafts\nmeasured the shafts\nthe fit is good\nready to install in the truck\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/0ccd884c-7e3c-4569-b346-9f8596ca6bc8/IMG_2028.mov?view=open"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "d2727e711576028a3db9d73ca6e266a403a4def98e9e151a1f7c05197f982359"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -2323,5 +2312,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T16:49:46Z"
+  "generated_at": "2026-09-03T17:11:21Z"
 }
