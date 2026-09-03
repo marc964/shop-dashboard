@@ -386,7 +386,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.2
+          "value": 1.1
         },
         {
           "label": "Functional",
@@ -1735,7 +1735,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-03T21:12:29.411736+00:00",
+  "updated": "2026-09-03T21:24:47.162716+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-03T21:11:18Z"
+  "generated_at": "2026-09-03T21:23:37Z"
 }
