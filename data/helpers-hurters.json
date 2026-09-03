@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 16.3,
+      "pct_of_total": 16.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 13.6,
+      "pct_of_total": 13.5,
       "tasks": [
         {
           "task": "Scanning",
@@ -49,7 +49,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 15.5,
-      "pct_of_total": 11.1,
+      "pct_of_total": 11.0,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -68,7 +68,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 8.4,
+      "pct_of_total": 8.3,
       "tasks": [
         {
           "task": "Interior",
@@ -115,20 +115,9 @@
       ]
     },
     {
-      "project": "Teague 62 Jaguar",
+      "project": "Warke 61 Eldorado",
       "total_hours": 5.5,
       "pct_of_total": 3.9,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 5.5
-        }
-      ]
-    },
-    {
-      "project": "Warke 61 Eldorado",
-      "total_hours": 4.5,
-      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -137,6 +126,21 @@
         {
           "task": "Charging",
           "hours": 2.0
+        },
+        {
+          "task": "Vehicle Control",
+          "hours": 1.0
+        }
+      ]
+    },
+    {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 5.5,
+      "pct_of_total": 3.9,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 5.5
         }
       ]
     },
@@ -173,7 +177,7 @@
   ],
   "shop_work": {
     "total_hours": 22.8,
-    "pct_of_total": 16.3,
+    "pct_of_total": 16.2,
     "avg_per_person_per_day": 0.95,
     "flagged": false,
     "tech_count": 8,
@@ -203,10 +207,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 117.0,
+    "billable_hours": 118.0,
     "non_billable_hours": 22.8,
     "pto_hours": 0.0,
-    "total_hours": 139.8
+    "total_hours": 140.8
   },
-  "generated_at": "2026-09-03T17:48:54Z"
+  "generated_at": "2026-09-03T18:16:12Z"
 }
