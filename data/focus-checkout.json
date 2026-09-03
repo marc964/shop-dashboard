@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T22:50:44.198997Z",
+  "updated_at": "2026-09-03T23:11:44.033758Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1282,28 +1282,33 @@
                   "author": "Brandon Beaman",
                   "date": "2026-09-03 15:37",
                   "text": "image.png\nEntered Vehicle weight and Gear Ratio into the VCU"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-03 23:08",
+                  "text": "Messaged Ryan to acquire the Wifi Credentials.\nWifi creds gathered. Notified Devin to upload creds to the logger.\nUploaded the vehicle weight and gear ratio into the VCU. Left the parameters on Display since the vehicle has been working well and as intended at this time.\nAddressed CAN 3 termination issue. Missing term resistor. Added a removable term resistor at the OBD port.\nSpoke to Marc about updating the GUI. We decided that we should leave it as is to prevent any possible failures on a complete car."
                 }
               ],
               "checklist_items": [
                 {
                   "checklist": "Checklist",
                   "name": "Address CAN3 Termination issue (currently 110 ohms)",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Add wifi credentials",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Enter vehicle weight",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
                   "name": "Update GUI to lastest version",
-                  "resolved": false
+                  "resolved": true
                 },
                 {
                   "checklist": "Checklist",
@@ -1326,7 +1331,7 @@
                   "resolved": false
                 }
               ],
-              "content_hash": "1711ab8f0da6943b00518e58329fcfe7246a31dabcb5e8a630562b3fa1241ba1"
+              "content_hash": "cc4be81c95eaf1a58e4d25f567bb40abb78da5e62f6b69d3c1005d9a49765e33"
             }
           ]
         },
@@ -2360,5 +2365,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T22:49:02Z"
+  "generated_at": "2026-09-03T23:10:11Z"
 }
