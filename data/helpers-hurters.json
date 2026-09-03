@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 16.8,
+      "pct_of_total": 16.4,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 18.0,
-      "pct_of_total": 13.3,
+      "pct_of_total": 13.0,
       "tasks": [
         {
           "task": "Scanning",
@@ -49,7 +49,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 15.5,
-      "pct_of_total": 11.5,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -68,7 +68,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 8.7,
+      "pct_of_total": 8.5,
       "tasks": [
         {
           "task": "Interior",
@@ -91,7 +91,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 6.1,
+      "pct_of_total": 5.9,
       "tasks": [
         {
           "task": "Steering",
@@ -106,7 +106,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 7.0,
-      "pct_of_total": 5.2,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -117,7 +117,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.5,
-      "pct_of_total": 4.1,
+      "pct_of_total": 4.0,
       "tasks": [
         {
           "task": "HVAC",
@@ -128,7 +128,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 4.5,
-      "pct_of_total": 3.3,
+      "pct_of_total": 3.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -172,20 +172,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 22.2,
-    "pct_of_total": 16.5,
-    "avg_per_person_per_day": 0.93,
+    "total_hours": 22.8,
+    "pct_of_total": 16.4,
+    "avg_per_person_per_day": 0.95,
     "flagged": false,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
-        "label": "EOD Time Entry/Cleanup",
+        "label": "Shop Meetings",
         "hours": 8.2
       },
       {
-        "label": "Shop Meetings",
-        "hours": 7.8
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 8.2
       },
       {
         "label": "Personal Meetings",
@@ -203,10 +203,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 113.0,
-    "non_billable_hours": 22.2,
+    "billable_hours": 116.0,
+    "non_billable_hours": 22.8,
     "pto_hours": 0.0,
-    "total_hours": 135.2
+    "total_hours": 138.8
   },
-  "generated_at": "2026-09-03T15:12:28Z"
+  "generated_at": "2026-09-03T15:29:33Z"
 }

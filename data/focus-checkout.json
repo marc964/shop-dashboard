@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T15:14:08.432322Z",
+  "updated_at": "2026-09-03T15:31:43.626278Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1189,9 +1189,15 @@
               "status": "Open",
               "list": "McDonough 77 Esprit",
               "url": "https://app.clickup.com/t/868m08btv",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "David Webber",
+                  "date": "2026-09-03 15:28",
+                  "text": "Secured rear 1/4 window trim panels"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "b65c9d0c6a0f57943894a561627a24647964a0d50c99789bf7d0c583b772b898"
+              "content_hash": "caf34d9e61e7dd56e7200ce9707477bce4358174d0692d51a0fa356720d792da"
             },
             {
               "id": "868km7t9d",
@@ -2301,5 +2307,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T15:12:28Z"
+  "generated_at": "2026-09-03T15:29:33Z"
 }
