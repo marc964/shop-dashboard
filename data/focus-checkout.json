@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:37:36.681387Z",
+  "updated_at": "2026-09-03T01:14:14.366840Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1161,7 +1161,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 6
+        "open_tasks": 7
       },
       "assignees": [
         {
@@ -1300,6 +1300,21 @@
                 }
               ],
               "content_hash": "f820a681bd3baff96b4600b4029a489889d2314a08a6607a6071026ad568695a"
+            }
+          ]
+        },
+        {
+          "name": "Justin Landry",
+          "tasks": [
+            {
+              "id": "868m0fbgp",
+              "name": "Perform PDI",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m0fbgp",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "2e00c870193a7e5cad46da2e37f7540e5a97acbc53ed4fdfd1933ebe5d4e7b9e"
             }
           ]
         }
@@ -1762,20 +1777,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:58",
-                  "text": "got Geoff info\nwaiting on a dim to see if i need to machine the ones we have"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 20:43",
-                  "text": "checked the fit of the stub shafts\nmeasured the shafts\nthe fit is good\nready to install in the truck\nhttps://t9011243300.p.clickup-attachments.com/t9011243300/0ccd884c-7e3c-4569-b346-9f8596ca6bc8/IMG_2028.mov?view=open"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "d2727e711576028a3db9d73ca6e266a403a4def98e9e151a1f7c05197f982359"
+              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
             },
             {
               "id": "868hbnnhz",
@@ -2297,5 +2301,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T00:35:55Z"
+  "generated_at": "2026-09-03T01:12:25Z"
 }
