@@ -30,7 +30,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 12.0,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -57,7 +57,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 10.0,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Scanning",
@@ -94,8 +94,8 @@
     },
     {
       "project": "Richardson 72 240Z",
-      "total_hours": 11.8,
-      "pct_of_total": 6.2,
+      "total_hours": 12.2,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "Interior",
@@ -112,6 +112,10 @@
         {
           "task": "Motor & Transmission",
           "hours": 0.8
+        },
+        {
+          "task": "Audio",
+          "hours": 0.5
         }
       ]
     },
@@ -148,7 +152,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 9.2,
-      "pct_of_total": 4.9,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Manufacturing - Core",
@@ -212,16 +216,16 @@
     }
   ],
   "shop_work": {
-    "total_hours": 32.2,
-    "pct_of_total": 17.0,
-    "avg_per_person_per_day": 1.34,
+    "total_hours": 32.8,
+    "pct_of_total": 17.1,
+    "avg_per_person_per_day": 1.36,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 11.5
+        "hours": 12.0
       },
       {
         "label": "Shop Meetings",
@@ -245,7 +249,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 2.0,
-      "pct_of_total": 1.1,
+      "pct_of_total": 1.0,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -266,10 +270,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 155.5,
-    "non_billable_hours": 34.8,
+    "billable_hours": 156.0,
+    "non_billable_hours": 35.2,
     "pto_hours": 0.0,
-    "total_hours": 190.2
+    "total_hours": 191.2
   },
-  "generated_at": "2026-09-03T23:10:11Z"
+  "generated_at": "2026-09-03T23:21:20Z"
 }
