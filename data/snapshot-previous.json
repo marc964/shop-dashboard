@@ -6,7 +6,7 @@
       "color": "Black",
       "make": "Mercedes",
       "model": "220S",
-      "status": "Testing",
+      "status": "Acceptance",
       "checkout": 100,
       "sub_metrics": [
         {
@@ -386,7 +386,7 @@
         },
         {
           "label": "Raptor",
-          "value": 98.2
+          "value": 1.1
         },
         {
           "label": "Functional",
@@ -1735,6 +1735,6 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-02T23:13:29.639930+00:00",
+  "updated": "2026-09-03T23:12:15.240896+00:00",
   "source": "Google Sheets API"
 }
