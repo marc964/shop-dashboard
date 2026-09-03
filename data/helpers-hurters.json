@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 15.7,
+      "pct_of_total": 14.2,
       "tasks": [
         {
           "task": "Exterior",
@@ -28,9 +28,28 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 19.5,
+      "pct_of_total": 12.2,
+      "tasks": [
+        {
+          "task": "Battery Pack",
+          "hours": 9.5
+        },
+        {
+          "task": "Manufacturing - Core",
+          "hours": 7.0
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 13.1,
+      "pct_of_total": 11.9,
       "tasks": [
         {
           "task": "Scanning",
@@ -47,28 +66,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 15.5,
-      "pct_of_total": 10.7,
-      "tasks": [
-        {
-          "task": "Manufacturing - Core",
-          "hours": 7.0
-        },
-        {
-          "task": "Battery Pack",
-          "hours": 5.5
-        },
-        {
-          "task": "Motor & Transmission",
-          "hours": 3.0
-        }
-      ]
-    },
-    {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 8.1,
+      "pct_of_total": 7.3,
       "tasks": [
         {
           "task": "Interior",
@@ -89,28 +89,50 @@
       ]
     },
     {
+      "project": "Teague 62 Jaguar",
+      "total_hours": 11.5,
+      "pct_of_total": 7.2,
+      "tasks": [
+        {
+          "task": "HVAC",
+          "hours": 11.5
+        }
+      ]
+    },
+    {
       "project": "Warke 61 Eldorado",
-      "total_hours": 9.5,
-      "pct_of_total": 6.5,
+      "total_hours": 11.0,
+      "pct_of_total": 6.9,
       "tasks": [
         {
           "task": "Charging",
           "hours": 4.5
         },
         {
-          "task": "Vehicle Control",
-          "hours": 2.5
+          "task": "Manufacturing - Product",
+          "hours": 4.0
         },
         {
-          "task": "Manufacturing - Product",
+          "task": "Vehicle Control",
           "hours": 2.5
+        }
+      ]
+    },
+    {
+      "project": "LB 82 911",
+      "total_hours": 8.5,
+      "pct_of_total": 5.3,
+      "tasks": [
+        {
+          "task": "Manufacturing - Product",
+          "hours": 8.5
         }
       ]
     },
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 5.7,
+      "pct_of_total": 5.1,
       "tasks": [
         {
           "task": "Steering",
@@ -123,31 +145,9 @@
       ]
     },
     {
-      "project": "LB 82 911",
-      "total_hours": 7.0,
-      "pct_of_total": 4.8,
-      "tasks": [
-        {
-          "task": "Manufacturing - Product",
-          "hours": 7.0
-        }
-      ]
-    },
-    {
-      "project": "Teague 62 Jaguar",
-      "total_hours": 5.5,
-      "pct_of_total": 3.8,
-      "tasks": [
-        {
-          "task": "HVAC",
-          "hours": 5.5
-        }
-      ]
-    },
-    {
       "project": "Krafcik 02 Caterham",
       "total_hours": 4.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -162,7 +162,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 4.2,
-      "pct_of_total": 2.9,
+      "pct_of_total": 2.7,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -176,20 +176,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 23.2,
-    "pct_of_total": 16.0,
-    "avg_per_person_per_day": 0.97,
-    "flagged": false,
+    "total_hours": 25.2,
+    "pct_of_total": 15.8,
+    "avg_per_person_per_day": 1.05,
+    "flagged": true,
     "tech_count": 8,
     "working_days": 3,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 8.8
+        "hours": 9.8
       },
       {
         "label": "Shop Meetings",
-        "hours": 8.2
+        "hours": 9.2
       },
       {
         "label": "Personal Meetings",
@@ -207,10 +207,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 122.0,
-    "non_billable_hours": 23.2,
+    "billable_hours": 135.0,
+    "non_billable_hours": 25.2,
     "pto_hours": 0.0,
-    "total_hours": 145.2
+    "total_hours": 160.2
   },
-  "generated_at": "2026-09-03T19:09:34Z"
+  "generated_at": "2026-09-03T19:20:25Z"
 }
