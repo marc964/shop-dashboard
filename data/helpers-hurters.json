@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 18.2,
+      "pct_of_total": 16.8,
       "tasks": [
         {
           "task": "Exterior",
@@ -30,7 +30,7 @@
     {
       "project": "Hopkins 64 Silver Cloud",
       "total_hours": 18.0,
-      "pct_of_total": 14.4,
+      "pct_of_total": 13.3,
       "tasks": [
         {
           "task": "Scanning",
@@ -47,9 +47,28 @@
       ]
     },
     {
+      "project": "Lee 68 Mustang",
+      "total_hours": 15.5,
+      "pct_of_total": 11.5,
+      "tasks": [
+        {
+          "task": "Manufacturing - Core",
+          "hours": 7.0
+        },
+        {
+          "task": "Battery Pack",
+          "hours": 5.5
+        },
+        {
+          "task": "Motor & Transmission",
+          "hours": 3.0
+        }
+      ]
+    },
+    {
       "project": "Richardson 72 240Z",
       "total_hours": 11.8,
-      "pct_of_total": 9.4,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Interior",
@@ -72,7 +91,7 @@
     {
       "project": "Kelly 63 Corvette",
       "total_hours": 8.2,
-      "pct_of_total": 6.6,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Steering",
@@ -87,7 +106,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 7.0,
-      "pct_of_total": 5.6,
+      "pct_of_total": 5.2,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -96,20 +115,9 @@
       ]
     },
     {
-      "project": "Lee 68 Mustang",
-      "total_hours": 7.0,
-      "pct_of_total": 5.6,
-      "tasks": [
-        {
-          "task": "Manufacturing - Core",
-          "hours": 7.0
-        }
-      ]
-    },
-    {
       "project": "Teague 62 Jaguar",
       "total_hours": 5.5,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.1,
       "tasks": [
         {
           "task": "HVAC",
@@ -120,7 +128,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 4.5,
-      "pct_of_total": 3.6,
+      "pct_of_total": 3.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -135,7 +143,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 4.2,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -150,7 +158,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 4.2,
-      "pct_of_total": 3.4,
+      "pct_of_total": 3.1,
       "tasks": [
         {
           "task": "Wiring - OEM",
@@ -164,20 +172,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 20.8,
-    "pct_of_total": 16.6,
-    "avg_per_person_per_day": 1.3,
-    "flagged": true,
+    "total_hours": 22.2,
+    "pct_of_total": 16.5,
+    "avg_per_person_per_day": 0.93,
+    "flagged": false,
     "tech_count": 8,
-    "working_days": 2,
+    "working_days": 3,
     "breakdown": [
       {
-        "label": "Shop Meetings",
-        "hours": 7.2
+        "label": "EOD Time Entry/Cleanup",
+        "hours": 8.2
       },
       {
-        "label": "EOD Time Entry/Cleanup",
-        "hours": 7.2
+        "label": "Shop Meetings",
+        "hours": 7.8
       },
       {
         "label": "Personal Meetings",
@@ -195,10 +203,10 @@
   },
   "project_hurters": [],
   "totals": {
-    "billable_hours": 104.5,
-    "non_billable_hours": 20.8,
+    "billable_hours": 113.0,
+    "non_billable_hours": 22.2,
     "pto_hours": 0.0,
-    "total_hours": 125.2
+    "total_hours": 135.2
   },
-  "generated_at": "2026-09-02T23:48:42Z"
+  "generated_at": "2026-09-03T00:35:55Z"
 }
