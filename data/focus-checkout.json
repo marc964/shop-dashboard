@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T19:36:26.627313Z",
+  "updated_at": "2026-09-03T19:50:23.717469Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1670,11 +1670,16 @@
                 {
                   "author": "Ben Drinkard",
                   "date": "2026-09-03 19:30",
-                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
+                  "text": "Install Process:\nVerify kit will clear components\nMockup sway bar and mounting brackets\nPass. bracket fouls on brake fork mount\nCut brake mount off rear end and paint raw metal\nMove brake lines\nSetup welder to weld in new brake mounts\nBevel welds  and paint raw metal\nRemount sway bar after greasing bushings\nMeasure height at sway bar parallel to ground\nSupplied hardware is 3 inches short\nOrder new hardware and thick wall tubing for bushing spacers\nHardware and tubing arrived\nCut tubing to spec, clean and bevel\nPaint bushing spacers\nMark lower frame rail for upper sway bar end link mount\nDrill 4 holes for mounts avoiding HV and brake lines\nDeburr holes and paint raw metal\nInstall u-bolt in chassis and mount upper sway bar mount\nGrease all end link bushings\nInstall end links into new sway bar\nTighten all hardware\nVerify install"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-03 19:39",
+                  "text": "paste_b532cb55-b2ad-4676-ad4d-b3aaff165db6.jpgpaste_04c378bd-903b-4897-8eb5-70ab5616ea88.jpgpaste_b92a5bb9-fd81-488b-81cc-6e6d1ed42a72.jpgpaste_5ba0d857-10fa-4596-b7fd-41050252a894.jpgpaste_f9d4f1e8-3f5f-4aa8-9fbd-76d001c8a300.jpgpaste_3f548953-32e2-4c31-968c-4e9629ac735a.jpg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "19b43ffcb956f8f8ae09a5a306a8a8b1e2e4387442b23643b25ca9c13492d02e"
+              "content_hash": "f6b1f9955249bfac2f8dd8272de5e84a45e10bb42a8237dd035331635738d954"
             }
           ]
         },
@@ -2322,5 +2327,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-03T19:34:57Z"
+  "generated_at": "2026-09-03T19:48:25Z"
 }
