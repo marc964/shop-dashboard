@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 22.8,
-      "pct_of_total": 12.8,
+      "pct_of_total": 12.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -29,8 +29,8 @@
     },
     {
       "project": "Lee 68 Mustang",
-      "total_hours": 19.5,
-      "pct_of_total": 11.0,
+      "total_hours": 20.0,
+      "pct_of_total": 11.2,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -43,13 +43,17 @@
         {
           "task": "Motor & Transmission",
           "hours": 3.0
+        },
+        {
+          "task": "Charging",
+          "hours": 0.5
         }
       ]
     },
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 19.0,
-      "pct_of_total": 10.7,
+      "pct_of_total": 10.6,
       "tasks": [
         {
           "task": "Scanning",
@@ -68,7 +72,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 14.5,
-      "pct_of_total": 8.2,
+      "pct_of_total": 8.1,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -110,7 +114,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 11.5,
-      "pct_of_total": 6.5,
+      "pct_of_total": 6.4,
       "tasks": [
         {
           "task": "HVAC",
@@ -121,7 +125,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 11.0,
-      "pct_of_total": 6.2,
+      "pct_of_total": 6.1,
       "tasks": [
         {
           "task": "Charging",
@@ -204,9 +208,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 31.5,
-    "pct_of_total": 17.7,
-    "avg_per_person_per_day": 1.31,
+    "total_hours": 32.0,
+    "pct_of_total": 17.9,
+    "avg_per_person_per_day": 1.33,
     "flagged": true,
     "tech_count": 8,
     "working_days": 3,
@@ -217,7 +221,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 10.0
+        "hours": 10.5
       },
       {
         "label": "Other",
@@ -233,12 +237,24 @@
       }
     ]
   },
-  "project_hurters": [],
+  "project_hurters": [
+    {
+      "project": "Buck 70 280SL",
+      "total_hours": 0.5,
+      "pct_of_total": 0.3,
+      "tasks": [
+        {
+          "task": "Troubleshooting",
+          "hours": 0.5
+        }
+      ]
+    }
+  ],
   "totals": {
-    "billable_hours": 146.0,
-    "non_billable_hours": 31.5,
+    "billable_hours": 146.5,
+    "non_billable_hours": 32.5,
     "pto_hours": 0.0,
-    "total_hours": 177.5
+    "total_hours": 179.0
   },
-  "generated_at": "2026-09-03T22:11:49Z"
+  "generated_at": "2026-09-03T22:24:47Z"
 }
