@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T03:17:01.470685Z",
+  "updated_at": "2026-09-04T03:34:26.732284Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1901,10 +1901,15 @@
                   "author": "Billy Arrasmith",
                   "date": "2026-08-29 04:23",
                   "text": "grounding the sub harness"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:18",
+                  "text": "finished the audio install\nwired up the fuse and last connection\ntested the audio\nworks as intended  IMG_1965.jpeg"
                 }
               ],
               "checklist_items": [],
-              "content_hash": "0972f6f04f1d8fb58f6c52e1c150c02a4b1eef9b0459c0b62dd243a1df34c24b"
+              "content_hash": "3851f1750882ebd0347685234e10011c5aaad3ea81bd6689d23d5111d891fda1"
             },
             {
               "id": "868hbnmkf",
@@ -1964,9 +1969,20 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kzj6cg",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:20",
+                  "text": "IMG_2048.jpeg\nIMG_2047.jpeg\nIMG_2046.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-09-04 03:20",
+                  "text": "installed the new (old ) heater\ncrimped the hoses back on\nfilled the system\nturned the heater on and bled the system\nheater is working as intended"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "814eb89dd0858c898f455f37bd1e486c43726e9c43b6e1c67017deb429c5b51d"
+              "content_hash": "626aeab32aa84670df5642b879a7e61c315b869f2e5fba1b13c28c63615ccb5e"
             }
           ]
         },
@@ -2365,5 +2381,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-04T03:15:17Z"
+  "generated_at": "2026-09-04T03:33:00Z"
 }
