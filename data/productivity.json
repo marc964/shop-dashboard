@@ -2,31 +2,31 @@
   "target_pct": 75,
   "current_month": {
     "month": "2026-09",
-    "productivity_pct": 82.9,
-    "billable_hours": 198.0,
-    "total_hours": 238.8,
+    "productivity_pct": 82.8,
+    "billable_hours": 200.5,
+    "total_hours": 242.2,
     "pto_hours": 0.0
   },
   "comparisons": {
     "vs_last_month": {
       "label": "vs Last Month",
-      "value": 70.3,
-      "delta": 12.6
+      "value": 70.4,
+      "delta": 12.4
     },
     "vs_last_quarter": {
       "label": "vs Last Quarter Avg",
-      "value": 69.7,
-      "delta": 13.2
+      "value": 69.8,
+      "delta": 13.0
     },
     "vs_last_week": {
       "label": "vs Last Week",
       "value": 76.6,
-      "delta": 6.3
+      "delta": 6.2
     },
     "vs_target": {
       "label": "vs Target",
       "value": 75,
-      "delta": 7.9
+      "delta": 7.8
     }
   },
   "monthly": [
@@ -96,31 +96,31 @@
     {
       "month": "2026-07",
       "productivity_pct": 69.5,
-      "billable_hours": 948.8,
-      "total_hours": 1425.5,
+      "billable_hours": 945.8,
+      "total_hours": 1422.5,
       "pto_hours": 60.8
     },
     {
       "month": "2026-08",
-      "productivity_pct": 70.3,
-      "billable_hours": 941.8,
-      "total_hours": 1361.8,
+      "productivity_pct": 70.4,
+      "billable_hours": 944.2,
+      "total_hours": 1364.2,
       "pto_hours": 23.0
     },
     {
       "month": "2026-09",
-      "productivity_pct": 82.9,
-      "billable_hours": 198.0,
-      "total_hours": 238.8,
+      "productivity_pct": 82.8,
+      "billable_hours": 200.5,
+      "total_hours": 242.2,
       "pto_hours": 0.0
     }
   ],
   "current_month_weeks": [
     {
       "week": "2026-W36",
-      "productivity_pct": 82.9,
-      "billable_hours": 198.0,
-      "total_hours": 238.8
+      "productivity_pct": 82.8,
+      "billable_hours": 200.5,
+      "total_hours": 242.2
     }
   ],
   "current_month_days": [
@@ -144,10 +144,10 @@
     },
     {
       "date": "2026-09-04",
-      "productivity_pct": 78.6,
-      "billable_hours": 27.5,
-      "total_hours": 35.0
+      "productivity_pct": 77.9,
+      "billable_hours": 30.0,
+      "total_hours": 38.5
     }
   ],
-  "generated_at": "2026-09-04T20:11:50Z"
+  "generated_at": "2026-09-04T20:25:44Z"
 }
