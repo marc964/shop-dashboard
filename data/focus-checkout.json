@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T01:32:01.823926Z",
+  "updated_at": "2026-09-05T01:53:16.544434Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1516,47 +1516,6 @@
           "name": "Billy Arrasmith",
           "tasks": [
             {
-              "id": "868j626qw",
-              "name": "Add step sides",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868j626qw",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-09 02:03",
-                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-20 19:41",
-                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-04-29 19:51",
-                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-21 03:54",
-                  "text": "cut the brackets for the truck\nmarked all the holes"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:29",
-                  "text": "paste_455f8b99-f3f7-4b05-b70d-62adc12a8baa.jpgpaste_ca699617-f93f-4794-b03f-ce394f88557a.jpgpaste_aa30a583-7eaa-4430-b1bb-ca864f2a91e7.jpgpaste_e56dcf0e-2237-4b36-8661-e7734e107e71.jpgpaste_0025905c-b6c5-4728-be6e-c33772237e28.jpgpaste_2bd31d2d-fa08-4d44-9f5c-30e5efeea548.jpgpaste_51400c30-94b4-4a74-ad8b-47d4743ac36f.jpgpaste_71092da0-7d1e-49a3-821d-daf0caa02ce1.jpgpaste_95efa529-c844-434c-b55a-eb04c0ac8515.jpgpaste_ee923142-8683-4d8b-a701-608e084647e2.jpgpaste_552e42a9-c9ae-44d6-b445-8667db417a19.jpgpaste_9d9449ab-c6a2-41fa-ba08-af83313f53cb.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-05 01:29",
-                  "text": "Step install has been very tedious\nNo mounts provided with nerf bars\nAll mounts, braces, reinforcements, and supports measured and cut\nSupport bars drilled and tapped M10"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "0e3651bb3ad70481a2e1316eb0f603045bc2b319ddfff8512e3bf42dd0384039"
-            },
-            {
               "id": "868kzamnu",
               "name": "Address issues with top",
               "status": "Open",
@@ -1677,6 +1636,52 @@
         {
           "name": "Ben Drinkard",
           "tasks": [
+            {
+              "id": "868j626qw",
+              "name": "Add step sides",
+              "status": "Open",
+              "list": "Preheim 72 Blazer",
+              "url": "https://app.clickup.com/t/868j626qw",
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-09 02:03",
+                  "text": "put a list of parts together for options\nthis was from Avalos to Hogan hide away steps\nthey range from $200- $4500\nwe will get her to make a decision"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-20 19:41",
+                  "text": "step sides ordered\nI have 2 sets coming\nwill test fit both to see which one s look better"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-04-29 19:51",
+                  "text": "unboxed boxed sets\nfit both to truck\nthe Westin won\npurchased tubing for the mounts\nIMG_0912.jpeg\nIMG_0911.jpeg"
+                },
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-21 03:54",
+                  "text": "cut the brackets for the truck\nmarked all the holes"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:29",
+                  "text": "paste_455f8b99-f3f7-4b05-b70d-62adc12a8baa.jpgpaste_ca699617-f93f-4794-b03f-ce394f88557a.jpgpaste_aa30a583-7eaa-4430-b1bb-ca864f2a91e7.jpgpaste_e56dcf0e-2237-4b36-8661-e7734e107e71.jpgpaste_0025905c-b6c5-4728-be6e-c33772237e28.jpgpaste_2bd31d2d-fa08-4d44-9f5c-30e5efeea548.jpgpaste_51400c30-94b4-4a74-ad8b-47d4743ac36f.jpgpaste_71092da0-7d1e-49a3-821d-daf0caa02ce1.jpgpaste_95efa529-c844-434c-b55a-eb04c0ac8515.jpgpaste_ee923142-8683-4d8b-a701-608e084647e2.jpgpaste_552e42a9-c9ae-44d6-b445-8667db417a19.jpgpaste_9d9449ab-c6a2-41fa-ba08-af83313f53cb.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:29",
+                  "text": "Step install has been very tedious\nNo mounts provided with nerf bars\nAll mounts, braces, reinforcements, and supports measured and cut\nSupport bars drilled and tapped M10"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-09-05 01:32",
+                  "text": "paste_0c0304a5-79b7-4d51-ba2d-47f69c96f912.jpgpaste_a1b83ec4-b309-4807-9cde-77b5745604fa.jpgpaste_9348733f-e2a4-4d20-afec-4e9e216a14d4.jpgpaste_93e3821d-1568-4bee-a312-486e51dd3614.jpg"
+                }
+              ],
+              "checklist_items": [],
+              "content_hash": "1b60fa277ed74bf7dcd0e940769cc7dfc80cbf62eff3d6d6dd0b87741f254339"
+            },
             {
               "id": "868kzam8k",
               "name": "Address rear hatch issues",
@@ -2396,5 +2401,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-05T01:30:34Z"
+  "generated_at": "2026-09-05T01:51:44Z"
 }
