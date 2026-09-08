@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T15:51:02.937033Z",
+  "updated_at": "2026-09-08T16:16:22.116677Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -520,7 +520,7 @@
         "matched_lists": [
           "Ferdman 66 Bus"
         ],
-        "open_tasks": 9
+        "open_tasks": 11
       },
       "assignees": [
         {
@@ -588,6 +588,26 @@
               ],
               "checklist_items": [],
               "content_hash": "ab553c81f432672373f25355215392a7017ae7fc250a6a779b3e8e3c04c40301"
+            },
+            {
+              "id": "868m2xz08",
+              "name": "Re-secure turn signal stalk",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m2xz08",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "63b5acd29954f18e71976c2bf2591fd6171d3a2634ea4dcd8b47a03969af35ca"
+            },
+            {
+              "id": "868m2y1ap",
+              "name": "Replace damaged motor cradle",
+              "status": "Open",
+              "list": "Ferdman 66 Bus",
+              "url": "https://app.clickup.com/t/868m2y1ap",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "7f891d6c42432c8f41025fd35019a46319bc4fb2a5c2bfc023e742a0d9d82010"
             },
             {
               "id": "868jqn2ge",
@@ -1950,25 +1970,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-19 02:08",
-                  "text": "made a sub harness for the radio\nneeded one due to change on the GUI mounting"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-29 04:23",
-                  "text": "grounding the sub harness"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 03:18",
-                  "text": "finished the audio install\nwired up the fuse and last connection\ntested the audio\nworks as intended  IMG_1965.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "3851f1750882ebd0347685234e10011c5aaad3ea81bd6689d23d5111d891fda1"
+              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
             },
             {
               "id": "868hbnmkf",
@@ -2104,40 +2108,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 00:43",
-                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-11 16:29",
-                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:13",
-                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 00:18",
-                  "text": "1000014711.jpg1000014710.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:24",
-                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-18 22:26",
-                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
+              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
             },
             {
               "id": "868ka4d5e",
@@ -2434,5 +2407,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T15:49:21Z"
+  "generated_at": "2026-09-08T16:14:36Z"
 }
