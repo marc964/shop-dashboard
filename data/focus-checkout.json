@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T17:36:42.636196Z",
+  "updated_at": "2026-09-08T17:50:12.231428Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -80,7 +80,7 @@
         "matched_lists": [
           "Chuter 62 Healey"
         ],
-        "open_tasks": 3
+        "open_tasks": 2
       },
       "assignees": [
         {
@@ -177,16 +177,6 @@
                 }
               ],
               "content_hash": "8d1b2524bc9e5b7844caea91b0b6561d65a56dbec7e3af01223646049b3e98a5"
-            },
-            {
-              "id": "868m2zekw",
-              "name": "Update VCU firmware",
-              "status": "Open",
-              "list": "Chuter 62 Healey",
-              "url": "https://app.clickup.com/t/868m2zekw",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e15fc4c19f0ac7dbae6508bb5898a4124631a05ad39814cd070d567b08711f5d"
             }
           ]
         }
@@ -1888,9 +1878,15 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -2279,5 +2275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T17:35:02Z"
+  "generated_at": "2026-09-08T17:48:40Z"
 }
