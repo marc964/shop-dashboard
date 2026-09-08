@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T16:16:22.116677Z",
+  "updated_at": "2026-09-08T16:33:59.461396Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1568,7 +1568,7 @@
         "matched_lists": [
           "Preheim 72 Blazer"
         ],
-        "open_tasks": 11
+        "open_tasks": 10
       },
       "assignees": [
         {
@@ -1673,22 +1673,6 @@
               ],
               "checklist_items": [],
               "content_hash": "8e9970e45befd77f7e4452bc9ec7de43adca84059bb82f6740b695415662d058"
-            },
-            {
-              "id": "868kzanv2",
-              "name": "Troubleshoot audio issue",
-              "status": "Open",
-              "list": "Preheim 72 Blazer",
-              "url": "https://app.clickup.com/t/868kzanv2",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 20:56",
-                  "text": "audio is set up and working good\nmade adjustments to the EQ and positioned the tweeters to the driver"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "cb9fbb43857c955db093142be6af588980ab6c740a5f8fc317f8082f53805a90"
             }
           ]
         },
@@ -1862,68 +1846,12 @@
         "matched_lists": [
           "Ritchie 71 Blazer"
         ],
-        "open_tasks": 35
+        "open_tasks": 29
       },
       "assignees": [
         {
           "name": "Billy Arrasmith",
           "tasks": [
-            {
-              "id": "868kwwrc8",
-              "name": "Address driver door issue",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kwwrc8",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:23",
-                  "text": "Driver door was removed from the truck and I started the dive into how deep the issue went.\nPrevious owner/builder ignored serious metal fatigue/cracking around the upper drivers door\nDoor mounting pad had bondo covering serious external and structural metal fatigue and failure. Multiple layers of metal cracking and seperation.\nDoor was removed\nBondo/filler removed\nDamage assessed on outer metal layer\nExternal layer cut away in areas where metal had failed\nFound considerable structural metal failure in inner door frame pads and supports\nMetal cut out and prepped for temporary tack up\nBrace made to bring the door pad back to proper location\nCracked seams tack welded to hold position\nRemoved metal pad was templated and cut\nReplacement metal was mocked up and trimmed to proper size then formed to factory contour\nAll structural cracks were ground out and tig welded back\nAll fractures were drilled out to prevent continued separation\nAll welds that were going to external layers on top ground smooth\nBare metal coated in weld-thru primer\nReplacement pad set in place and tacked up\nSeams were closed up and weldout is in progress (50% finished)\nDoor skin was covered with a wet towel to prevent paint damage and warpage during repair"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:27",
-                  "text": "paste_f5535d0b-dc8b-4e99-b917-6ab9849841ff.jpgpaste_f61f6b70-8c65-470d-8d09-5a1672e68840.jpgpaste_96d7e44c-7d10-4264-b289-8faa0200d487.jpgpaste_1b8567e3-a0a7-4e0a-81ff-6bf75bbb0982.jpgpaste_c582bdb2-7d51-4169-b6b4-88d4f5d840dc.jpgpaste_0518f8a7-cc14-4316-b539-082e3d66d627.jpgpaste_8beb1365-2c25-454c-882c-58e0fe1292a5.jpgpaste_4ccdc607-5e68-450c-884b-d0ccf1214fd5.jpgpaste_db623e2d-02bb-464d-b72b-50a662d1d61a.jpgpaste_ebee225d-f984-4345-87ae-349ce8d9ab6f.jpgpaste_4b2113bc-e854-4f70-818b-c85e3ff71f9d.jpgpaste_c030f83d-f9fc-453e-8430-546930cdb38c.jpgpaste_ecf39b4b-10bc-404a-817b-f8fa930f841f.jpgpaste_6b6999ab-0816-4cbb-bc01-b373ec2e4381.jpgpaste_bbe7b521-d340-4c2f-a486-ab8156236883.jpgpaste_10daef40-9d28-4bb7-ad01-713f6393ed83.jpgpaste_b05537b6-9f85-486d-b9dd-7445ebb8629a.jpgpaste_d58b6cb6-cc85-45fd-ae95-a8c586966bef.jpgpaste_95f6cd81-965e-4d65-aa7b-a493949d7a22.jpgpaste_b77a5839-fc89-4df2-83d4-8e502efb938e.jpgpaste_e2a02a17-41c7-4534-bf0a-4bf858828f02.jpgpaste_a28234d4-7858-4fda-9ee8-1a977e947ebb.jpgpaste_00aa2e10-1a9f-4b4b-9aba-21361882c960.jpgpaste_475aad33-f43c-4575-8b9b-80e03c92deec.jpgpaste_30cad4ed-bc0b-47b4-a28b-907c176d41e2.jpgpaste_2b1557ce-8e83-4b12-a0f4-365f94e4d3ac.jpgpaste_9642fc3c-5a6c-40ec-80d0-bb7c0be24b64.jpgpaste_d9202845-8a84-4859-b879-ee97d140f7fa.jpgpaste_fcd7a09a-a991-4191-8548-a53042d3ac02.jpgpaste_ad13dc17-8dac-4419-a628-fdcd1e2d46c7.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "paste_d9b63fb7-ae28-4c09-b4c0-deb9c5c27bf3.jpgpaste_40a69255-8304-4f27-9c60-71d037102d49.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "Welding complete\nMetal finishing complete"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-01 18:03",
-                  "text": "Pick up door from Colvins\nPrep for install\nDoor placed and adjustments made"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:27",
-                  "text": "IMG_2008.jpeg\nIMG_2007.jpeg\nIMG_2006.jpeg\nIMG_2005.jpeg\nIMG_2004.jpeg\nIMG_2003.jpeg\nIMG_2002.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:27",
-                  "text": "installed driver door\ninstalled new hinges\nadjusted the door\ninstalled the weather seals\ninstalled the door sill plates\ninstalled the hood and adjusted the gaps (put it back where they were)"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4934a8fda90de6b05592c5108da08058baebc498539bbb630c18dd5e011e0092"
-            },
-            {
-              "id": "868kmp7ud",
-              "name": "Address stub shaft fitment",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kmp7ud",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "0518015665d475e2d33d29863113ebfcb3d6c0e414d565e1a4ead051cee33a7b"
-            },
             {
               "id": "868hbnnhz",
               "name": "Balance driveshafts",
@@ -1933,26 +1861,6 @@
               "comments": [],
               "checklist_items": [],
               "content_hash": "3171a318632a0fe1c991f4e58f9902e494db2e3c43a879ff3508158c6dc77e07"
-            },
-            {
-              "id": "868jwk0hy",
-              "name": "Bleed and test heater",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868jwk0hy",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "e0b51cc9df2ea2df76c63bb529273d4a8fe80664503b15715acafecf817b0df3"
-            },
-            {
-              "id": "868gwbrmx",
-              "name": "Bleed and test system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868gwbrmx",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "31c7d78f6cfa3315721633219b60957c61cf809e8fe256aa5ed1c1975c3f736c"
             },
             {
               "id": "868hbnfk6",
@@ -1965,34 +1873,20 @@
               "content_hash": "cd0bc0ea600491b4fbceb878cf61aef187e2e4fddcd0748dca6bd53811d1287d"
             },
             {
-              "id": "868ktqdv5",
-              "name": "Install audio system",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868ktqdv5",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "d7872d4902746774cea8e7a57c66ebc49fcc4ad91f595624ef93e2354cd44fdc"
-            },
-            {
-              "id": "868hbnmkf",
-              "name": "Install driveshafts",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868hbnmkf",
-              "comments": [],
-              "checklist_items": [],
-              "content_hash": "493813f891250abbcfa8e1c6d1ab8fcf90d97324b55fc27ee0c48c712db168dc"
-            },
-            {
               "id": "868kmp9tm",
               "name": "Install front battery lid",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Billy Arrasmith",
+                  "date": "2026-08-07 13:24",
+                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
+              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
             },
             {
               "id": "868ktqjxq",
@@ -2021,77 +1915,20 @@
               "content_hash": "343e363118156f75652f0a31310daa43313af26b3097b7471d0d9cd78416f3b3"
             },
             {
-              "id": "868kzj6cg",
-              "name": "Troubleshoot heater issue",
+              "id": "868m2ye0h",
+              "name": "Shorten iBooster plunger",
               "status": "Open",
               "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kzj6cg",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 03:20",
-                  "text": "IMG_2048.jpeg\nIMG_2047.jpeg\nIMG_2046.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-04 03:20",
-                  "text": "installed the new (old ) heater\ncrimped the hoses back on\nfilled the system\nturned the heater on and bled the system\nheater is working as intended"
-                }
-              ],
+              "url": "https://app.clickup.com/t/868m2ye0h",
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "626aeab32aa84670df5642b879a7e61c315b869f2e5fba1b13c28c63615ccb5e"
+              "content_hash": "b11b069e1e4390eb9f9c6bbf1f319f698539627e8e4c2e975c8c84eaf3256e62"
             }
           ]
         },
         {
           "name": "Ben Drinkard",
           "tasks": [
-            {
-              "id": "868kwwrc8",
-              "name": "Address driver door issue",
-              "status": "Open",
-              "list": "Ritchie 71 Blazer",
-              "url": "https://app.clickup.com/t/868kwwrc8",
-              "comments": [
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:23",
-                  "text": "Driver door was removed from the truck and I started the dive into how deep the issue went.\nPrevious owner/builder ignored serious metal fatigue/cracking around the upper drivers door\nDoor mounting pad had bondo covering serious external and structural metal fatigue and failure. Multiple layers of metal cracking and seperation.\nDoor was removed\nBondo/filler removed\nDamage assessed on outer metal layer\nExternal layer cut away in areas where metal had failed\nFound considerable structural metal failure in inner door frame pads and supports\nMetal cut out and prepped for temporary tack up\nBrace made to bring the door pad back to proper location\nCracked seams tack welded to hold position\nRemoved metal pad was templated and cut\nReplacement metal was mocked up and trimmed to proper size then formed to factory contour\nAll structural cracks were ground out and tig welded back\nAll fractures were drilled out to prevent continued separation\nAll welds that were going to external layers on top ground smooth\nBare metal coated in weld-thru primer\nReplacement pad set in place and tacked up\nSeams were closed up and weldout is in progress (50% finished)\nDoor skin was covered with a wet towel to prevent paint damage and warpage during repair"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 00:27",
-                  "text": "paste_f5535d0b-dc8b-4e99-b917-6ab9849841ff.jpgpaste_f61f6b70-8c65-470d-8d09-5a1672e68840.jpgpaste_96d7e44c-7d10-4264-b289-8faa0200d487.jpgpaste_1b8567e3-a0a7-4e0a-81ff-6bf75bbb0982.jpgpaste_c582bdb2-7d51-4169-b6b4-88d4f5d840dc.jpgpaste_0518f8a7-cc14-4316-b539-082e3d66d627.jpgpaste_8beb1365-2c25-454c-882c-58e0fe1292a5.jpgpaste_4ccdc607-5e68-450c-884b-d0ccf1214fd5.jpgpaste_db623e2d-02bb-464d-b72b-50a662d1d61a.jpgpaste_ebee225d-f984-4345-87ae-349ce8d9ab6f.jpgpaste_4b2113bc-e854-4f70-818b-c85e3ff71f9d.jpgpaste_c030f83d-f9fc-453e-8430-546930cdb38c.jpgpaste_ecf39b4b-10bc-404a-817b-f8fa930f841f.jpgpaste_6b6999ab-0816-4cbb-bc01-b373ec2e4381.jpgpaste_bbe7b521-d340-4c2f-a486-ab8156236883.jpgpaste_10daef40-9d28-4bb7-ad01-713f6393ed83.jpgpaste_b05537b6-9f85-486d-b9dd-7445ebb8629a.jpgpaste_d58b6cb6-cc85-45fd-ae95-a8c586966bef.jpgpaste_95f6cd81-965e-4d65-aa7b-a493949d7a22.jpgpaste_b77a5839-fc89-4df2-83d4-8e502efb938e.jpgpaste_e2a02a17-41c7-4534-bf0a-4bf858828f02.jpgpaste_a28234d4-7858-4fda-9ee8-1a977e947ebb.jpgpaste_00aa2e10-1a9f-4b4b-9aba-21361882c960.jpgpaste_475aad33-f43c-4575-8b9b-80e03c92deec.jpgpaste_30cad4ed-bc0b-47b4-a28b-907c176d41e2.jpgpaste_2b1557ce-8e83-4b12-a0f4-365f94e4d3ac.jpgpaste_9642fc3c-5a6c-40ec-80d0-bb7c0be24b64.jpgpaste_d9202845-8a84-4859-b879-ee97d140f7fa.jpgpaste_fcd7a09a-a991-4191-8548-a53042d3ac02.jpgpaste_ad13dc17-8dac-4419-a628-fdcd1e2d46c7.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "paste_d9b63fb7-ae28-4c09-b4c0-deb9c5c27bf3.jpgpaste_40a69255-8304-4f27-9c60-71d037102d49.jpg"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-08-26 19:22",
-                  "text": "Welding complete\nMetal finishing complete"
-                },
-                {
-                  "author": "Ben Drinkard",
-                  "date": "2026-09-01 18:03",
-                  "text": "Pick up door from Colvins\nPrep for install\nDoor placed and adjustments made"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:27",
-                  "text": "IMG_2008.jpeg\nIMG_2007.jpeg\nIMG_2006.jpeg\nIMG_2005.jpeg\nIMG_2004.jpeg\nIMG_2003.jpeg\nIMG_2002.jpeg"
-                },
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-09-02 03:27",
-                  "text": "installed driver door\ninstalled new hinges\nadjusted the door\ninstalled the weather seals\ninstalled the door sill plates\ninstalled the hood and adjusted the gaps (put it back where they were)"
-                }
-              ],
-              "checklist_items": [],
-              "content_hash": "4934a8fda90de6b05592c5108da08058baebc498539bbb630c18dd5e011e0092"
-            },
             {
               "id": "868k6ttbf",
               "name": "Install audio system",
@@ -2108,9 +1945,40 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kpg6th",
-              "comments": [],
+              "comments": [
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 00:43",
+                  "text": "Bed cap cover options sourced and relayed to Blazer group. Decision to be made"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-11 16:29",
+                  "text": "Game plan made for Blazer bed caps.\nCovers ordered"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:13",
+                  "text": "Blazer caps arrived\nCaps mocked up\nTrimming in process\nPassenger side trimming roughed in"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 00:18",
+                  "text": "1000014711.jpg1000014710.jpg"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:24",
+                  "text": "Driver and Passenger side caps have been trimmed and modifications have been finalized.\nCovers will be attached after interior side panels have been installed as the caps overlap the interior panels"
+                },
+                {
+                  "author": "Ben Drinkard",
+                  "date": "2026-08-18 22:26",
+                  "text": "1000014734.jpg1000014735.jpg1000014736.jpg1000014737.jpg"
+                }
+              ],
               "checklist_items": [],
-              "content_hash": "5f784fc4355ea24b3d7ab5fac0fd2f9fdb3c6da70b26b29130030605b994b98a"
+              "content_hash": "458375deb00d16a348b5c32e215bb16c62c24944619474990fed27dc8e45c604"
             },
             {
               "id": "868ka4d5e",
@@ -2407,5 +2275,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T16:14:36Z"
+  "generated_at": "2026-09-08T16:32:11Z"
 }
