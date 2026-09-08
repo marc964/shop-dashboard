@@ -38,21 +38,25 @@
             "done": false
           },
           {
+            "text": "2026-09-07: Parking brake current feedback should be enabled and tuned.",
+            "done": false
+          },
+          {
             "text": "2026-08-07: Temperature Gauge Might Not Be Working.\n2026-08-10: Resolved. Noah fixed the temperature gauge back in January.",
             "done": true
           },
           {
-            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed 1.8.14 with AWD mods.",
-            "done": true
+            "text": "2026-07-xx: Flash Connolly with 1.7.9\n2026-08-07: Flashed VCU firmware version 1.8.14.\n2026-09-07: The VCU should be brought up to the latest firmware version.",
+            "done": false
           },
           {
             "text": "2026-07-xx: DisplayDashGUI_SettingsMsgTimeout seems to appear often.",
             "done": false
           }
         ],
-        "total": 4,
-        "done": 2,
-        "open": 2
+        "total": 5,
+        "done": 1,
+        "open": 4
       }
     },
     {
@@ -1735,7 +1739,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-08T01:12:24.939812+00:00",
+  "updated": "2026-09-08T01:36:40.138145+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-08T01:11:30Z"
+  "generated_at": "2026-09-08T01:35:32Z"
 }
