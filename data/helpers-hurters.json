@@ -192,7 +192,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 11.8,
-      "pct_of_total": 4.5,
+      "pct_of_total": 4.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -256,9 +256,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 42.0,
-    "pct_of_total": 15.9,
-    "avg_per_person_per_day": 0.88,
+    "total_hours": 42.5,
+    "pct_of_total": 16.1,
+    "avg_per_person_per_day": 0.89,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
@@ -269,7 +269,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 14.5
+        "hours": 15.0
       },
       {
         "label": "Personal Meetings",
@@ -326,9 +326,9 @@
   ],
   "totals": {
     "billable_hours": 216.2,
-    "non_billable_hours": 47.5,
+    "non_billable_hours": 48.0,
     "pto_hours": 0.0,
-    "total_hours": 263.8
+    "total_hours": 264.2
   },
-  "generated_at": "2026-09-08T14:30:40Z"
+  "generated_at": "2026-09-08T14:48:30Z"
 }
