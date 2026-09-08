@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:12:34.048235Z",
+  "updated_at": "2026-09-08T19:23:37.200464Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -263,21 +263,6 @@
               "comments": [
                 {
                   "author": "Jordan Jones",
-                  "date": "2025-09-11 23:27",
-                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm \n\nundefined"
-                },
-                {
-                  "author": "Jordan Jones",
-                  "date": "2025-09-11 23:27",
-                  "text": "http://www.mbzponton.org/valueadded/maintenance/brakes.htm"
-                },
-                {
-                  "author": "Devin DuMont",
-                  "date": "2025-09-12 21:51",
-                  "text": "Finished EEPROM Compare and reviewed with Marc. Verified settings correct in Connolly. Plugged in ChargeByte controller and tested charging. Looked around for logger. Started consolidating logger information. Tested PRND LED's on bench."
-                },
-                {
-                  "author": "Jordan Jones",
                   "date": "2025-09-12 23:30",
                   "text": "Tested different resistances on PRD buttons. Currently 2K installed.\nWith 2K - LEDs completely off\nWith 0K (disconnected) - All LEDs completely on\n5K - dim, very slight difference between 'selected' and non-selected.\n10K - mostly bright, slight difference between selected and non-selected."
                 },
@@ -385,6 +370,21 @@
                   "author": "Brandon Beaman",
                   "date": "2026-08-25 17:17",
                   "text": "image.png\nimage.png\nUploaded PMU and EEPROM files to the Vehicle folder in google drive for future reference."
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "flash successful\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:20",
+                  "text": "Before VCU Update\nimage.png\nimage.png\nimage.png"
+                },
+                {
+                  "author": "Brandon Beaman",
+                  "date": "2026-09-08 19:22",
+                  "text": "Post Flash\nimage.png\nimage.png\nimage.png"
                 }
               ],
               "checklist_items": [
@@ -409,7 +409,7 @@
                   "resolved": true
                 }
               ],
-              "content_hash": "d2949e9dbcc48579513f55ff2a564e22cd3c150e69545a82fbcefcb9537fe3b3"
+              "content_hash": "f6442526ee64501990513011464c3a1751a153409de6916f664d66b0978305da"
             }
           ]
         },
@@ -2345,5 +2345,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T19:10:33Z"
+  "generated_at": "2026-09-08T19:22:00Z"
 }
