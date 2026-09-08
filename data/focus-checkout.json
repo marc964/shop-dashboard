@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T14:50:24.162240Z",
+  "updated_at": "2026-09-08T15:15:15.612945Z",
   "team_id": "9011243300",
   "projects": [
     {
@@ -1206,7 +1206,7 @@
         "matched_lists": [
           "McDonough 77 Esprit"
         ],
-        "open_tasks": 7
+        "open_tasks": 8
       },
       "assignees": [
         {
@@ -1227,6 +1227,16 @@
               ],
               "checklist_items": [],
               "content_hash": "b64d8ee078ada36ade69604c45b9dd6da1f2cd8567ded73f66ec081ddbc54111"
+            },
+            {
+              "id": "868m2ww4n",
+              "name": "Replace headlight switch",
+              "status": "Open",
+              "list": "McDonough 77 Esprit",
+              "url": "https://app.clickup.com/t/868m2ww4n",
+              "comments": [],
+              "checklist_items": [],
+              "content_hash": "ea84c49ccd3b3360d6899e32fb75aeff13ce679073d58134105a709e40b40cda"
             },
             {
               "id": "868m08btv",
@@ -1976,15 +1986,9 @@
               "status": "Open",
               "list": "Ritchie 71 Blazer",
               "url": "https://app.clickup.com/t/868kmp9tm",
-              "comments": [
-                {
-                  "author": "Billy Arrasmith",
-                  "date": "2026-08-07 13:24",
-                  "text": "test fit the battery lid\nit is ready for LOGO and PC\nIMG_1830.jpeg\nIMG_1829.jpeg\nIMG_1827.jpeg\nIMG_1826.jpeg\nIMG_1828.jpeg"
-                }
-              ],
+              "comments": [],
               "checklist_items": [],
-              "content_hash": "2aa8a1589ae675ef2968cbacc6f98d00daf87b8afd119e17e8350d38e262df2c"
+              "content_hash": "25977cfdfe0fd6dc5303338eb465f4ded373d84fa04ebe79c10f1e716c4899e4"
             },
             {
               "id": "868ktqjxq",
@@ -2430,5 +2434,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-08T14:48:30Z"
+  "generated_at": "2026-09-08T15:13:30Z"
 }
