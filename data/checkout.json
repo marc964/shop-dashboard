@@ -358,13 +358,17 @@
             "done": false
           },
           {
+            "text": "The parking brake settings can reset under certain firmware flash settings, this one may have changed and needs the tune reviewed.\r\nFrom the PMU software I saw PMU CAN2 (VCU CAN1) flash red, this means there are error frames while simply sitting at idle.\r\nNot on the latest VCU firmware, did notice some options wrong. (cooling plate, not sure what that actually changes. Perhaps others are wrong though)",
+            "done": false
+          },
+          {
             "text": "590 12s PCB+ivt",
             "done": false
           }
         ],
-        "total": 3,
+        "total": 4,
         "done": 0,
-        "open": 3
+        "open": 4
       }
     },
     {
@@ -1739,7 +1743,7 @@
       "system": "Ampere"
     }
   ],
-  "updated": "2026-09-08T02:27:28.900385+00:00",
+  "updated": "2026-09-08T02:44:44.194073+00:00",
   "source": "Google Sheets API",
-  "generated_at": "2026-09-08T02:26:39Z"
+  "generated_at": "2026-09-08T02:43:39Z"
 }
