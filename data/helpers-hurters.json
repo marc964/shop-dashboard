@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 37.0,
-      "pct_of_total": 13.9,
+      "pct_of_total": 13.5,
       "tasks": [
         {
           "task": "Exterior",
@@ -40,9 +40,40 @@
       ]
     },
     {
+      "project": "Hopkins 65 Silver Cloud",
+      "total_hours": 28.0,
+      "pct_of_total": 10.2,
+      "tasks": [
+        {
+          "task": "Scanning",
+          "hours": 12.0
+        },
+        {
+          "task": "Inspection",
+          "hours": 5.0
+        },
+        {
+          "task": "Steering",
+          "hours": 4.0
+        },
+        {
+          "task": "Wiring - OEM",
+          "hours": 3.0
+        },
+        {
+          "task": "Interior",
+          "hours": 2.0
+        },
+        {
+          "task": "Combustion Drivetrain",
+          "hours": 2.0
+        }
+      ]
+    },
+    {
       "project": "LB 82 911",
       "total_hours": 27.2,
-      "pct_of_total": 10.3,
+      "pct_of_total": 9.9,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -65,7 +96,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.0,
-      "pct_of_total": 9.4,
+      "pct_of_total": 9.1,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -90,40 +121,9 @@
       ]
     },
     {
-      "project": "Hopkins 65 Silver Cloud",
-      "total_hours": 23.0,
-      "pct_of_total": 8.7,
-      "tasks": [
-        {
-          "task": "Scanning",
-          "hours": 12.0
-        },
-        {
-          "task": "Inspection",
-          "hours": 5.0
-        },
-        {
-          "task": "Interior",
-          "hours": 2.0
-        },
-        {
-          "task": "Combustion Drivetrain",
-          "hours": 2.0
-        },
-        {
-          "task": "Wiring - OEM",
-          "hours": 1.0
-        },
-        {
-          "task": "Steering",
-          "hours": 1.0
-        }
-      ]
-    },
-    {
       "project": "Warke 61 Eldorado",
       "total_hours": 20.2,
-      "pct_of_total": 7.6,
+      "pct_of_total": 7.4,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -153,19 +153,23 @@
     },
     {
       "project": "Teague 62 Jaguar",
-      "total_hours": 15.5,
-      "pct_of_total": 5.8,
+      "total_hours": 18.5,
+      "pct_of_total": 6.7,
       "tasks": [
         {
           "task": "HVAC",
           "hours": 15.5
+        },
+        {
+          "task": "Steering",
+          "hours": 3.0
         }
       ]
     },
     {
       "project": "Richardson 72 240Z",
       "total_hours": 13.2,
-      "pct_of_total": 5.0,
+      "pct_of_total": 4.8,
       "tasks": [
         {
           "task": "Interior",
@@ -192,7 +196,7 @@
     {
       "project": "Krafcik 02 Caterham",
       "total_hours": 11.8,
-      "pct_of_total": 4.4,
+      "pct_of_total": 4.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -219,7 +223,7 @@
     {
       "project": "Nolan 70 Challenger",
       "total_hours": 10.2,
-      "pct_of_total": 3.9,
+      "pct_of_total": 3.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -238,7 +242,7 @@
     {
       "project": "Thacker 46 Woody",
       "total_hours": 9.2,
-      "pct_of_total": 3.5,
+      "pct_of_total": 3.4,
       "tasks": [
         {
           "task": "Audio",
@@ -256,20 +260,20 @@
     }
   ],
   "shop_work": {
-    "total_hours": 43.0,
-    "pct_of_total": 16.2,
-    "avg_per_person_per_day": 0.9,
+    "total_hours": 44.0,
+    "pct_of_total": 16.0,
+    "avg_per_person_per_day": 0.92,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
     "breakdown": [
       {
         "label": "EOD Time Entry/Cleanup",
-        "hours": 18.8
+        "hours": 19.2
       },
       {
         "label": "Shop Meetings",
-        "hours": 15.5
+        "hours": 16.0
       },
       {
         "label": "Personal Meetings",
@@ -304,7 +308,7 @@
     {
       "project": "Ferdman 66 Bus",
       "total_hours": 2.0,
-      "pct_of_total": 0.8,
+      "pct_of_total": 0.7,
       "tasks": [
         {
           "task": "Troubleshooting",
@@ -325,10 +329,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 217.0,
-    "non_billable_hours": 48.5,
+    "billable_hours": 225.0,
+    "non_billable_hours": 49.5,
     "pto_hours": 0.0,
-    "total_hours": 265.5
+    "total_hours": 274.5
   },
-  "generated_at": "2026-09-08T17:48:40Z"
+  "generated_at": "2026-09-08T18:15:56Z"
 }
