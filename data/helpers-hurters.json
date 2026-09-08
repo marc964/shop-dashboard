@@ -3,7 +3,7 @@
     {
       "project": "Ritchie 71 Blazer",
       "total_hours": 36.2,
-      "pct_of_total": 13.8,
+      "pct_of_total": 13.7,
       "tasks": [
         {
           "task": "Exterior",
@@ -42,7 +42,7 @@
     {
       "project": "LB 82 911",
       "total_hours": 27.2,
-      "pct_of_total": 10.4,
+      "pct_of_total": 10.3,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -65,7 +65,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.0,
-      "pct_of_total": 9.6,
+      "pct_of_total": 9.5,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -92,7 +92,7 @@
     {
       "project": "Hopkins 65 Silver Cloud",
       "total_hours": 23.0,
-      "pct_of_total": 8.8,
+      "pct_of_total": 8.7,
       "tasks": [
         {
           "task": "Scanning",
@@ -165,7 +165,7 @@
     {
       "project": "Richardson 72 240Z",
       "total_hours": 13.2,
-      "pct_of_total": 5.1,
+      "pct_of_total": 5.0,
       "tasks": [
         {
           "task": "Interior",
@@ -256,9 +256,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 40.0,
-    "pct_of_total": 15.3,
-    "avg_per_person_per_day": 0.83,
+    "total_hours": 42.0,
+    "pct_of_total": 15.9,
+    "avg_per_person_per_day": 0.88,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
@@ -276,15 +276,15 @@
         "hours": 3.2
       },
       {
+        "label": "Organization",
+        "hours": 2.5
+      },
+      {
         "label": "Other",
         "hours": 2.5
       },
       {
         "label": "Errands",
-        "hours": 0.5
-      },
-      {
-        "label": "Organization",
         "hours": 0.5
       }
     ]
@@ -326,9 +326,9 @@
   ],
   "totals": {
     "billable_hours": 216.2,
-    "non_billable_hours": 45.5,
+    "non_billable_hours": 47.5,
     "pto_hours": 0.0,
-    "total_hours": 261.8
+    "total_hours": 263.8
   },
-  "generated_at": "2026-09-08T13:28:25Z"
+  "generated_at": "2026-09-08T13:40:10Z"
 }
