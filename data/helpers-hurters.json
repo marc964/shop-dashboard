@@ -2,8 +2,8 @@
   "helpers": [
     {
       "project": "Ritchie 71 Blazer",
-      "total_hours": 36.2,
-      "pct_of_total": 13.7,
+      "total_hours": 37.0,
+      "pct_of_total": 13.9,
       "tasks": [
         {
           "task": "Exterior",
@@ -27,7 +27,7 @@
         },
         {
           "task": "Interior",
-          "hours": 2.5
+          "hours": 3.2
         },
         {
           "task": "Brakes",
@@ -65,7 +65,7 @@
     {
       "project": "Lee 68 Mustang",
       "total_hours": 25.0,
-      "pct_of_total": 9.5,
+      "pct_of_total": 9.4,
       "tasks": [
         {
           "task": "Battery Pack",
@@ -123,7 +123,7 @@
     {
       "project": "Warke 61 Eldorado",
       "total_hours": 20.2,
-      "pct_of_total": 7.7,
+      "pct_of_total": 7.6,
       "tasks": [
         {
           "task": "Manufacturing - Product",
@@ -154,7 +154,7 @@
     {
       "project": "Teague 62 Jaguar",
       "total_hours": 15.5,
-      "pct_of_total": 5.9,
+      "pct_of_total": 5.8,
       "tasks": [
         {
           "task": "HVAC",
@@ -256,9 +256,9 @@
     }
   ],
   "shop_work": {
-    "total_hours": 42.5,
-    "pct_of_total": 16.1,
-    "avg_per_person_per_day": 0.89,
+    "total_hours": 43.0,
+    "pct_of_total": 16.2,
+    "avg_per_person_per_day": 0.9,
     "flagged": false,
     "tech_count": 8,
     "working_days": 6,
@@ -269,7 +269,7 @@
       },
       {
         "label": "Shop Meetings",
-        "hours": 15.0
+        "hours": 15.5
       },
       {
         "label": "Personal Meetings",
@@ -325,10 +325,10 @@
     }
   ],
   "totals": {
-    "billable_hours": 216.2,
-    "non_billable_hours": 48.0,
+    "billable_hours": 217.0,
+    "non_billable_hours": 48.5,
     "pto_hours": 0.0,
-    "total_hours": 264.2
+    "total_hours": 265.5
   },
-  "generated_at": "2026-09-08T15:41:03Z"
+  "generated_at": "2026-09-08T15:49:21Z"
 }
